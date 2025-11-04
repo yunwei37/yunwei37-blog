@@ -95,6 +95,17 @@ module.exports = () => {
         use: ['@svgr/webpack'],
       })
 
+      // Exclude presentation directory from webpack processing
+      config.module.rules.forEach((rule) => {
+        if (rule.exclude) {
+          if (Array.isArray(rule.exclude)) {
+            rule.exclude.push(/presentation/)
+          } else {
+            rule.exclude = [rule.exclude, /presentation/]
+          }
+        }
+      })
+
       return config
     },
   })
