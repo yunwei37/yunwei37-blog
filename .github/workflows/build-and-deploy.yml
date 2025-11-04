@@ -29,6 +29,11 @@ jobs:
           node-version: '20'
           cache: yarn
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
       - name: Restore cache
         uses: actions/cache@v4
         with:
@@ -45,6 +50,32 @@ jobs:
         env:
           EXPORT: 1
           UNOPTIMIZED: 1
+
+      - name: Build presentations
+        run: |
+          echo "Building presentations..."
+          for dir in presentation/*/; do
+            if [ -f "${dir}package.json" ]; then
+              echo "Building presentation in ${dir}"
+              cd "${dir}"
+              pnpm install
+              pnpm run build
+
+              # Move built files to main out directory
+              presentation_name=$(basename "${dir}")
+              mkdir -p "../../out/presentation/${presentation_name}"
+
+              # Slidev builds to 'dist' directory by default
+              if [ -d "dist" ]; then
+                cp -r dist/* "../../out/presentation/${presentation_name}/"
+                echo "Copied ${presentation_name} to out/presentation/${presentation_name}"
+              else
+                echo "Warning: No dist directory found for ${presentation_name}"
+              fi
+
+              cd ../..
+            fi
+          done
 
       - name: Deploy to gh-pages branch
         if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
