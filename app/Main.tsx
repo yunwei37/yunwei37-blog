@@ -4,10 +4,12 @@ import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
 import Hero from '@/components/Hero'
 import { Presentation } from './presentations'
+import { CoreContent } from 'pliny/utils/contentlayer'
+import { Blog } from 'contentlayer/generated'
 
 const MAX_DISPLAY = 5
 
-export default function Home({ posts, presentations }: { posts: any[], presentations?: Presentation[] }) {
+export default function Home({ posts, presentations }: { posts: CoreContent<Blog>[], presentations?: Presentation[] }) {
   return (
     <>
       {/* Hero / Landing Section */}
