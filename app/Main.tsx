@@ -3,14 +3,57 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
 import Hero from '@/components/Hero'
+import { Presentation } from './presentations'
 
 const MAX_DISPLAY = 5
 
-export default function Home({ posts }) {
+export default function Home({ posts, presentations }: { posts: any[], presentations?: Presentation[] }) {
   return (
     <>
       {/* Hero / Landing Section */}
       <Hero />
+
+      {/* Presentations Section */}
+      {presentations && presentations.length > 0 && (
+        <div className="space-y-6 mb-12">
+          <div className="text-center space-y-4 py-8">
+            <h2 className="text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10">
+              Presentations
+            </h2>
+            <p className="text-lg leading-7 opacity-80">
+              Slides from talks and presentations
+            </p>
+          </div>
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {presentations.map((presentation) => (
+              <Link
+                key={presentation.name}
+                href={presentation.path}
+                className="group block p-6 border border-gray-200/20 dark:border-gray-700/20 rounded-xl transition-all duration-300 hover:border-primary-500/50 hover:shadow-lg"
+              >
+                <div className="space-y-3">
+                  <h3 className="text-xl font-bold group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+                    {presentation.title}
+                  </h3>
+                  {presentation.duration && (
+                    <p className="text-sm opacity-60">
+                      Duration: {presentation.duration}
+                    </p>
+                  )}
+                  {presentation.info && (
+                    <p className="text-sm opacity-70 line-clamp-3">
+                      {presentation.info.replace(/##/g, '').trim()}
+                    </p>
+                  )}
+                  <div className="text-sm text-primary-500 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+                    View slides →
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
 
       <div className="space-y-8">
         <div className="text-center space-y-4 py-8">

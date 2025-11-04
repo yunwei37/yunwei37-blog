@@ -56,19 +56,32 @@ jobs:
           echo "Building presentations..."
           for dir in presentation/*/; do
             if [ -f "${dir}package.json" ]; then
-              echo "Building presentation in ${dir}"
+              presentation_name=$(basename "${dir}")
+              echo "Building presentation: ${presentation_name}"
               cd "${dir}"
+
+              # Ensure vite.config.ts exists with correct base path
+              if [ ! -f "vite.config.ts" ]; then
+                echo "Creating vite.config.ts with base path for ${presentation_name}"
+                cat > vite.config.ts << EOF
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  base: '/presentation/${presentation_name}/',
+})
+EOF
+              fi
+
               pnpm install
               pnpm run build
 
               # Move built files to main out directory
-              presentation_name=$(basename "${dir}")
               mkdir -p "../../out/presentation/${presentation_name}"
 
               # Slidev builds to 'dist' directory by default
               if [ -d "dist" ]; then
                 cp -r dist/* "../../out/presentation/${presentation_name}/"
-                echo "Copied ${presentation_name} to out/presentation/${presentation_name}"
+                echo "✓ Copied ${presentation_name} to out/presentation/${presentation_name}"
               else
                 echo "Warning: No dist directory found for ${presentation_name}"
               fi

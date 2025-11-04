@@ -8,7 +8,7 @@ const siteMetadata = {
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.yunwei37.com',
-  siteRepo: 'https://github.com/yunwei37/my-new-blog',
+  siteRepo: 'https://github.com/yunwei37/yunwei37-blog',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
   locale: 'en-US',
