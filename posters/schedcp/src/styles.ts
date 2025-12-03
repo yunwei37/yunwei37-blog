@@ -30,8 +30,8 @@ export const styles = StyleSheet.create({
   // Header
   header: {
     backgroundColor: colors.headerBg,
-    padding: 30,
-    marginBottom: 30,
+    padding: 25,
+    marginBottom: 20,
     borderRadius: 8,
   },
   title: {
@@ -62,28 +62,28 @@ export const styles = StyleSheet.create({
   // Main content layout
   content: {
     flexDirection: 'row',
-    gap: 30,
+    gap: 25,
     flex: 1,
   },
   column: {
     flex: 1,
-    gap: 25,
+    gap: 18,
   },
 
   // Section boxes
   section: {
     backgroundColor: colors.sectionBg,
-    padding: 25,
+    padding: 20,
     borderRadius: 8,
     borderLeft: `6px solid ${colors.secondary}`,
   },
   sectionTitle: {
-    fontSize: 32,
+    fontSize: 28,
     fontWeight: 'bold',
     color: colors.primary,
-    marginBottom: 15,
+    marginBottom: 10,
     borderBottom: `2px solid ${colors.secondary}`,
-    paddingBottom: 8,
+    paddingBottom: 6,
   },
   sectionContent: {
     fontSize: 20,
@@ -114,9 +114,9 @@ export const styles = StyleSheet.create({
   // Highlight box
   highlightBox: {
     backgroundColor: colors.highlight,
-    padding: 20,
+    padding: 15,
     borderRadius: 6,
-    marginVertical: 15,
+    marginVertical: 10,
     borderLeft: `4px solid ${colors.accent}`,
   },
   highlightText: {
@@ -128,14 +128,14 @@ export const styles = StyleSheet.create({
   // Results box
   resultsBox: {
     backgroundColor: '#ecfdf5',
-    padding: 20,
+    padding: 15,
     borderRadius: 6,
-    marginVertical: 10,
+    marginVertical: 8,
   },
   resultItem: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginBottom: 10,
+    marginBottom: 6,
   },
   resultLabel: {
     fontSize: 22,
@@ -175,8 +175,8 @@ export const styles = StyleSheet.create({
   // Footer
   footer: {
     backgroundColor: colors.headerBg,
-    padding: 20,
-    marginTop: 30,
+    padding: 15,
+    marginTop: 15,
     borderRadius: 8,
     flexDirection: 'row',
     justifyContent: 'space-between',
