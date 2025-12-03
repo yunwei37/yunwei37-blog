@@ -184,11 +184,11 @@ export const SchedCPPoster: React.FC = () => (
 
           {/* Conclusions & Next Steps */}
           <Section title="Conclusions & Next Steps" color={colors.accent}>
-            <View style={[styles.highlightBox, { backgroundColor: '#ecfdf5', marginTop: 0 }]}>
+            {/* <View style={[styles.highlightBox, { backgroundColor: '#ecfdf5', marginTop: 0 }]}>
               <Text style={[styles.bodyText, { textAlign: 'center' }]}>
                 First framework for fully autonomous LLM-driven OS optimization
               </Text>
-            </View>
+            </View> */}
 
             <Text style={[styles.subHeading, { marginTop: 12 }]}>
               Key Contributions
@@ -196,7 +196,6 @@ export const SchedCPPoster: React.FC = () => (
             <View style={styles.bulletList}>
               <BulletItem>Decoupled architecture separating AI reasoning from system execution</BulletItem>
               <BulletItem>Safe eBPF scheduler synthesis with multi-stage verification</BulletItem>
-              <BulletItem>13× cost reduction while achieving 1.79× performance gains</BulletItem>
             </View>
 
             <Text style={[styles.subHeading, { marginTop: 12 }]}>
