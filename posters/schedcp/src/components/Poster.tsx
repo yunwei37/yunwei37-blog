@@ -15,10 +15,10 @@ const schbenchImage = path.join(ASSETS_DIR, 'schbench-results.png');
 const schedulerCompImage = path.join(ASSETS_DIR, 'scheduler-comparison.png');
 
 // Bullet item component
-const BulletItem: React.FC<{ children: React.ReactNode; fontSize?: number }> = ({ children, fontSize = 18 }) => (
+const BulletItem: React.FC<{ children: React.ReactNode; small?: boolean }> = ({ children, small = false }) => (
   <View style={styles.bulletItem}>
-    <Text style={[styles.bullet, { fontSize }]}>•</Text>
-    <Text style={[styles.bulletText, { fontSize }]}>{children}</Text>
+    <Text style={[styles.bullet, small && { fontSize: 20 }]}>•</Text>
+    <Text style={[styles.bulletText, small && { fontSize: 20 }]}>{children}</Text>
   </View>
 );
 
@@ -95,24 +95,24 @@ export const SchedCPPoster: React.FC = () => (
 
           {/* Key Insight */}
           <Section title="Our Insight: Decouple Reasoning from Execution" color={colors.accent}>
-            <Text style={{ fontSize: 18, marginBottom: 10, color: colors.text, lineHeight: 1.4 }}>
+            <Text style={styles.bodyText}>
               Separate the AI's role of reasoning ("what and how to optimize") from the system's role of execution ("how to observe and act"). The system remains safe and useful when AI Agent gets better.
             </Text>
 
             <View style={styles.twoColumn}>
               <View style={styles.halfColumn}>
-                <Text style={{ fontSize: 18, fontWeight: 'bold', color: colors.secondary, marginBottom: 5 }}>
+                <Text style={[styles.subHeading, { color: colors.secondary }]}>
                   1. Goal-Inference
                 </Text>
-                <Text style={{ fontSize: 16, color: colors.text }}>
+                <Text style={styles.bodyTextSmall}>
                   Uses tools to analyze workload intent and structure, and system environments
                 </Text>
               </View>
               <View style={styles.halfColumn}>
-                <Text style={{ fontSize: 18, fontWeight: 'bold', color: colors.secondary, marginBottom: 5 }}>
+                <Text style={[styles.subHeading, { color: colors.secondary }]}>
                   2. Policy-Synthesis
                 </Text>
-                <Text style={{ fontSize: 16, color: colors.text }}>
+                <Text style={styles.bodyTextSmall}>
                   LLM config or generate safe, efficient eBPF schedulers from its analysis
                 </Text>
               </View>
@@ -125,30 +125,30 @@ export const SchedCPPoster: React.FC = () => (
 
             <View style={styles.twoColumn}>
               <View style={styles.halfColumn}>
-                <Text style={{ fontSize: 18, fontWeight: 'bold', color: colors.primary, marginBottom: 6 }}>
+                <Text style={styles.subHeading}>
                   Control Plane: a MCP server
                 </Text>
                 <View style={styles.bulletList}>
-                  <BulletItem fontSize={16}>Workload Analysis Engine</BulletItem>
-                  <BulletItem fontSize={16}>Policy Repository (eBPF templates for code generation)</BulletItem>
-                  <BulletItem fontSize={16}>Execution Verifier (safety checks)</BulletItem>
+                  <BulletItem small>Workload Analysis Engine</BulletItem>
+                  <BulletItem small>Policy Repository (eBPF templates for code generation)</BulletItem>
+                  <BulletItem small>Execution Verifier (safety checks)</BulletItem>
                 </View>
               </View>
               <View style={styles.halfColumn}>
-                <Text style={{ fontSize: 18, fontWeight: 'bold', color: colors.primary, marginBottom: 6 }}>
+                <Text style={styles.subHeading}>
                   sched-agent
                 </Text>
                 <View style={styles.bulletList}>
-                  <BulletItem fontSize={16}>Observation → Monitoring</BulletItem>
-                  <BulletItem fontSize={16}>Planning → Goal inference with Reasoning</BulletItem>
-                  <BulletItem fontSize={16}>Execution → Policy deployment</BulletItem>
-                  <BulletItem fontSize={16}>Learning → Refinement</BulletItem>
+                  <BulletItem small>Observation → Monitoring</BulletItem>
+                  <BulletItem small>Planning → Goal inference with Reasoning</BulletItem>
+                  <BulletItem small>Execution → Policy deployment</BulletItem>
+                  <BulletItem small>Learning → Refinement</BulletItem>
                 </View>
               </View>
             </View>
 
             <View style={[styles.highlightBox, { marginTop: 10 }]}>
-              <Text style={{ fontSize: 16, color: colors.text, textAlign: 'center' }}>
+              <Text style={styles.bodyTextSmall}>
                 Key idea: LLM Agent in control plane, not the data plane, manage OS like a human SRE without overhead
               </Text>
             </View>
@@ -167,17 +167,17 @@ export const SchedCPPoster: React.FC = () => (
             </View>
 
             <Image src={linuxBuildImage} style={{ width: 700, objectFit: 'contain', marginTop: 10 }} />
-            <Text style={{ fontSize: 14, textAlign: 'center', color: colors.textLight, marginTop: 5 }}>
+            <Text style={styles.caption}>
               Linux Kernel Build: 1.79× faster
             </Text>
 
             <Image src={schbenchImage} style={{ width: 700, objectFit: 'contain', marginTop: 10 }} />
-            <Text style={{ fontSize: 14, textAlign: 'center', color: colors.textLight, marginTop: 5 }}>
+            <Text style={styles.caption}>
               Schbench: 2.11× lower P99
             </Text>
 
             <Image src={schedulerCompImage} style={{ width: 600, objectFit: 'contain', marginTop: 10 }} />
-            <Text style={{ fontSize: 14, textAlign: 'center', color: colors.textLight, marginTop: 5 }}>
+            <Text style={styles.caption}>
               Overall Scheduler Comparison
             </Text>
           </Section>
@@ -185,12 +185,12 @@ export const SchedCPPoster: React.FC = () => (
           {/* Conclusions & Next Steps */}
           <Section title="Conclusions & Next Steps" color={colors.accent}>
             <View style={[styles.highlightBox, { backgroundColor: '#ecfdf5', marginTop: 0 }]}>
-              <Text style={{ fontSize: 18, color: colors.text, textAlign: 'center' }}>
+              <Text style={[styles.bodyText, { textAlign: 'center' }]}>
                 First framework for fully autonomous LLM-driven OS optimization
               </Text>
             </View>
 
-            <Text style={{ fontSize: 18, fontWeight: 'bold', color: colors.primary, marginTop: 12, marginBottom: 8 }}>
+            <Text style={[styles.subHeading, { marginTop: 12 }]}>
               Key Contributions
             </Text>
             <View style={styles.bulletList}>
@@ -199,7 +199,7 @@ export const SchedCPPoster: React.FC = () => (
               <BulletItem>13× cost reduction while achieving 1.79× performance gains</BulletItem>
             </View>
 
-            <Text style={{ fontSize: 18, fontWeight: 'bold', color: colors.primary, marginTop: 12, marginBottom: 8 }}>
+            <Text style={[styles.subHeading, { marginTop: 12 }]}>
               Future Work
             </Text>
             <View style={styles.bulletList}>
@@ -214,7 +214,7 @@ export const SchedCPPoster: React.FC = () => (
       <View style={styles.footer}>
         <View>
           <Text style={styles.footerText}>MLforSystems @ NeurIPS 2025</Text>
-          <Text style={[styles.footerText, { fontSize: 16, marginTop: 3 }]}>
+          <Text style={[styles.footerText, { fontSize: 20, marginTop: 3 }]}>
             arxiv.org/abs/2509.01245
           </Text>
         </View>

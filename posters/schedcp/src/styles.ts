@@ -35,26 +35,26 @@ export const styles = StyleSheet.create({
     borderRadius: 8,
   },
   title: {
-    fontSize: 72,
+    fontSize: 68,
     fontWeight: 'bold',
     color: colors.white,
     textAlign: 'center',
     marginBottom: 15,
   },
   subtitle: {
-    fontSize: 36,
+    fontSize: 40,
     color: '#93c5fd',
     textAlign: 'center',
     marginBottom: 20,
   },
   authors: {
-    fontSize: 28,
+    fontSize: 32,
     color: colors.white,
     textAlign: 'center',
     marginBottom: 10,
   },
   affiliation: {
-    fontSize: 22,
+    fontSize: 26,
     color: '#d1d5db',
     textAlign: 'center',
   },
@@ -78,7 +78,7 @@ export const styles = StyleSheet.create({
     borderLeft: `6px solid ${colors.secondary}`,
   },
   sectionTitle: {
-    fontSize: 28,
+    fontSize: 30,
     fontWeight: 'bold',
     color: colors.primary,
     marginBottom: 10,
@@ -86,27 +86,27 @@ export const styles = StyleSheet.create({
     paddingBottom: 6,
   },
   sectionContent: {
-    fontSize: 20,
+    fontSize: 24,
     color: colors.text,
     lineHeight: 1.5,
   },
 
   // Bullet points
   bulletList: {
-    marginLeft: 15,
+    marginLeft: 10,
   },
   bulletItem: {
     flexDirection: 'row',
-    marginBottom: 8,
+    marginBottom: 4,
   },
   bullet: {
-    width: 20,
-    fontSize: 20,
+    width: 24,
+    fontSize: 24,
     color: colors.secondary,
   },
   bulletText: {
     flex: 1,
-    fontSize: 20,
+    fontSize: 24,
     color: colors.text,
     lineHeight: 1.4,
   },
@@ -120,7 +120,7 @@ export const styles = StyleSheet.create({
     borderLeft: `4px solid ${colors.accent}`,
   },
   highlightText: {
-    fontSize: 22,
+    fontSize: 26,
     color: colors.text,
     fontWeight: 'bold',
   },
@@ -138,11 +138,11 @@ export const styles = StyleSheet.create({
     marginBottom: 6,
   },
   resultLabel: {
-    fontSize: 22,
+    fontSize: 26,
     color: colors.text,
   },
   resultValue: {
-    fontSize: 24,
+    fontSize: 28,
     fontWeight: 'bold',
     color: colors.accent,
   },
@@ -158,7 +158,7 @@ export const styles = StyleSheet.create({
     marginVertical: 15,
   },
   diagramText: {
-    fontSize: 18,
+    fontSize: 22,
     color: colors.textLight,
     textAlign: 'center',
   },
@@ -167,9 +167,14 @@ export const styles = StyleSheet.create({
   twoColumn: {
     flexDirection: 'row',
     gap: 20,
+    marginTop: 12,
   },
   halfColumn: {
     flex: 1,
+    backgroundColor: '#f8fafc',
+    padding: 12,
+    borderRadius: 6,
+    borderLeft: `4px solid ${colors.secondary}`,
   },
 
   // Footer
@@ -183,11 +188,11 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
   },
   footerText: {
-    fontSize: 20,
+    fontSize: 24,
     color: colors.white,
   },
   footerLink: {
-    fontSize: 22,
+    fontSize: 26,
     color: '#93c5fd',
     fontWeight: 'bold',
   },
@@ -199,7 +204,36 @@ export const styles = StyleSheet.create({
 
   // Small text
   small: {
-    fontSize: 16,
+    fontSize: 18,
     color: colors.textLight,
+  },
+
+  // Body text styles
+  bodyText: {
+    fontSize: 22,
+    color: colors.text,
+    lineHeight: 1.4,
+  },
+  bodyTextLarge: {
+    fontSize: 24,
+    color: colors.text,
+    lineHeight: 1.4,
+  },
+  bodyTextSmall: {
+    fontSize: 20,
+    color: colors.text,
+    lineHeight: 1.5,
+  },
+  subHeading: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    color: colors.primary,
+    marginBottom: 5,
+  },
+  caption: {
+    fontSize: 18,
+    textAlign: 'center',
+    color: colors.textLight,
+    marginTop: 5,
   },
 });
