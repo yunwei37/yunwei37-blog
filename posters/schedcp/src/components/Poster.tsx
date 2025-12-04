@@ -158,7 +158,7 @@ export const SchedCPPoster: React.FC = () => (
         {/* Right Column */}
         <View style={styles.column}>
           {/* Results */}
-          <Section title="Experimental Results" color={colors.accent}>
+          <Section title="Preliminary (POC) Results" color={colors.accent}>
             <View style={styles.resultsBox}>
               <ResultItem label="Kernel Build Speedup" value="1.79×" />
               <ResultItem label="P99 Latency Reduction" value="2.11×" />
@@ -182,28 +182,33 @@ export const SchedCPPoster: React.FC = () => (
             </Text>
           </Section>
 
-          {/* Conclusions & Next Steps */}
-          <Section title="Conclusions & Next Steps" color={colors.accent}>
-            {/* <View style={[styles.highlightBox, { backgroundColor: '#ecfdf5', marginTop: 0 }]}>
-              <Text style={[styles.bodyText, { textAlign: 'center' }]}>
-                First framework for fully autonomous LLM-driven OS optimization
-              </Text>
-            </View> */}
-
-            <Text style={[styles.subHeading, { marginTop: 12 }]}>
+          {/* Conclusions */}
+          <Section title="Conclusions" color={colors.accent}>
+            <Text style={styles.subHeading}>
               Key Contributions
             </Text>
             <View style={styles.bulletList}>
               <BulletItem>Decoupled architecture separating AI reasoning from system execution</BulletItem>
               <BulletItem>Safe eBPF scheduler synthesis with multi-stage verification</BulletItem>
             </View>
+          </Section>
 
-            <Text style={[styles.subHeading, { marginTop: 12 }]}>
-              Future Work
+          {/* Next Steps */}
+          <Section title="Next Steps" color={colors.primary}>
+            <Text style={styles.subHeading}>
+              Beyond Scheduling
             </Text>
             <View style={styles.bulletList}>
-              <BulletItem>Extend to I/O, memory, and power subsystems</BulletItem>
-              <BulletItem>Standardized benchmark for agentic OS tasks (20-30 workloads)</BulletItem>
+              <BulletItem>Extend to I/O, memory, and power subsystems with eBPF hooks</BulletItem>
+              <BulletItem>Our another work: extend eBPF to GPU driver for programmable GPU scheduling and memory management, improve llama.cpp up to 5x, vllm up to 2x (lpc.events/event/19/contributions/2168)</BulletItem>
+            </View>
+
+            <Text style={[styles.subHeading, { marginTop: 10 }]}>
+              Standardized Benchmark
+            </Text>
+            <View style={styles.bulletList}>
+              <BulletItem>Agentic OS benchmark with 20-30 diverse workloads</BulletItem>
+              <BulletItem>RL-like environment with explicit SLOs and budgets (time, tokens, energy)</BulletItem>
             </View>
           </Section>
         </View>
@@ -218,7 +223,7 @@ export const SchedCPPoster: React.FC = () => (
           </Text>
         </View>
         <View>
-          <Text style={styles.footerLink}>github.com/eunomia-bpf/schedcp</Text>
+          <Text style={styles.footerLink}>Open sourced by eunomia-bpf org: github.com/eunomia-bpf/schedcp</Text>
         </View>
       </View>
     </Page>
