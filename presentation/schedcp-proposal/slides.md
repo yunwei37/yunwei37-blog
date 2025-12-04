@@ -14,7 +14,7 @@ mdc: true
 
 # SchedCP: Autonomous OS Optimization
 
-**A Framework for LLM Agents to Safely Tune the Linux Scheduler**
+**A Framework for LLM Agents to Safely Tune the Linux**
 
 Based on "Towards Agentic OS: An LLM Agent Framework for Linux Schedulers" to appear in MLforSystem 2025 workshop. https://arxiv.org/html/2509.01245v4
 
@@ -44,15 +44,15 @@ Based on "Towards Agentic OS: An LLM Agent Framework for Linux Schedulers" to ap
 
 ### Our Goal: A Standardized Benchmark
 
-We propose the first benchmark to systematically evaluate **Agentic OS Optimization**.
+We propose the benchmark to systematically evaluate **Agentic OS Optimization**.
 
 **Problem Definition**:
 
-Treat OS optimization as a **Goal-Oriented Agentic Task**:
+Treat OS optimization as a 2 step **Goal-Oriented Agentic Task**:
 1. **Goal Inference**: Infer optimization targets from system signals (logs, metrics) without explicit hints.
 2. **Policy Synthesis**: Use diverse tools (eBPF, configs) to meet SLOs under constraints.
 
- Enable reproducible research and fair comparison of models/frameworks.
+Enable reproducible research and fair comparison of models/frameworks.
 
 </div>
 </div>
@@ -67,11 +67,11 @@ Build a RL-like environment for the agents, and allow agents to tune the OS conf
 
 ## RQs
 
-- Can LLM agents infer optimization goals from telemetry, without being told the SLO?
-<!-- - Can they hold SLOs under drift with controller‑grade stability (no thrash)? -->
 - What SLO improvement do we buy given the agents?
+- Can LLM agents infer optimization goals from telemetry, without being told the SLO?
 - How do LLM agents achieve optimizations? Do we need to design better system interfaces?
 <!-- - How does different interface (MCP vs direct code gen and bash) affect performance? -->
+<!-- - Can they hold SLOs under drift with controller‑grade stability (no thrash)? -->
 
 ---
 
@@ -83,14 +83,13 @@ Build a RL-like environment for the agents, and allow agents to tune the OS conf
 
 <div>
 
-### Workload Suite (20-30)
+### Workload Suite
 
 - **CPU-bound**: kernel build, LLVM, xz/gzip, ffmpeg
 - **Latency-critical**: schbench, hackbench, context-switch
 - **Server**: nginx+wrk, Redis+memtier
-- **Data processing**: sort/join, SQLite queries
-- **Stress**: memory/CPU test suit
-- **GPU**: vllm, llama.cpp, pytorch
+- **Data processing**: rocksdb, SQLite queries, clickhouse
+- **GPU**: vllm, llama.cpp, pytorch, faiss
 
 Each: **clear SLOs + repeatable harness**
 
@@ -125,6 +124,86 @@ https://github.com/eunomia-bpf/schedcp -->
 *SLO = Service Level Objective: measurable targets (e.g., P99 latency < 10ms, throughput > 1000 req/s) you set to ensure the services you deliver meet customers' expectations, and define what metrics are better.
 </div>
 
+
+---
+
+# Benchmark Setup
+
+<div class="grid grid-cols-2 gap-8">
+<div>
+
+### Testbed Specifications
+
+- **OS**: Ubuntu 24.04.3 LTS
+- **Kernel**: 6.15.11-061511-generic
+- **CPU**: Intel Core Ultra 9 285K
+- **Cores**: 24 cores (1 thread/core)
+- **Memory**: 128 GB DDR5
+- **GPU**: NVIDIA GeForce RTX 5090 (32 GB)
+- **Storage**: NVMe SSD
+
+</div>
+<div>
+
+### Setup
+
+- **Model**: Claude Sonnet 4.5, Haiku 4.5
+- **Config**: MCP interface and direct code/bash access
+
+### Tunable Parameters
+
+- sysctl configs
+- eBPF for CPU thread scheduling
+- eBPF for GPU memory management and GPU kernel scheduling
+
+</div>
+</div>
+
+---
+
+# Benchmark Results (1/2)
+
+### RQ1: What SLO improvement do we buy given the agents?
+
+<img src="/table.png" class="h-80 mx-auto" />
+
+*results with claude code and Claude Sonnet 4.5, 3 times and pick the best.  Average: 2.02x (Without outliers, 1.45x)*
+
+---
+
+# Benchmark Results (2/2)
+
+<div class="grid grid-cols-2 gap-8">
+<div>
+
+### RQ2: Goal Inference
+
+**Can agents infer goals without explicit SLOs?**
+
+- **Sonnet 4.5**: 88.2% success (15/17 workloads)
+- **Haiku 4.5**: 70.6% success (12/17 workloads)
+
+Bad on some benchmarks (e.g. hackbench, context-switch) due to non-widely known goals.
+Compare optimization goal with ground truth by human.
+
+**Avg steps(LLM calls):**
+
+- **Sonnet 4.5**: 23.2 steps
+- **Haiku 4.5**: 35.8 steps
+
+</div>
+<div>
+
+### RQ3: Optimization Strategies
+
+**How do agents optimize? Better interfaces needed?**
+
+- MCP (test with sonnet) increases steps by 13% vs direct Bash, and reduces improvement.
+- Direct code/bash access more flexible
+- MCP favors safety, auditability, and cross-model compatibility
+
+</div>
+</div>
 
 ---
 layout: center
