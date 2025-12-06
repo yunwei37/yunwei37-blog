@@ -101,9 +101,9 @@ We have knobs and extensible interface, but:
 <span class="font-semibold text-orange-600">Naïve LLM or Agents</span>
 </div>
 
-- **Fixed pipeline** that need human guide
+- **Fixed pipeline** that need human guide: e.g. Goal -> Config
 - **Unsafe**: may crash system, needs root
-- May **degrade performance**
+- May **degrade performance**, not improve it
 
 <div class="mt-3 p-2 rounded border-2 border-dashed border-orange-300 text-base">
 📊 Claude Code + "write a FIFO scheduler for sched_ext": <strong>33 min</strong>, <strong>$6</strong>, <strong>221 calls</strong>, <strong>1/3 success</strong>
@@ -117,16 +117,39 @@ We have knobs and extensible interface, but:
 
 # Our Insight: Goal-Inference vs Policy-Synthesis
 
+<div class="text-lg mb-4">
+
 Separate the AI's role of reasoning ("what and how to optimize") from the system's role of execution ("how to observe and act"). The system remains safe and useful when AI Agent gets better.
 
-Model the process as 2 stages:
+</div>
 
-- **Goal-Inference**: uses tools to analyze workload intent and structure, and system environments.
-- **Policy-Synthesis**: LLM config or generate safe, efficient eBPF schedulers from its analysis.
+<div class="text-lg mb-4">
 
 LLM Agent should manage OS like a human SRE: work in userspace control plane, not the kernel data plane.
 
-**Design Principles**: Decoupling & role separation, Safety-first interface, Adaptive context provisioning, Composable tool architecture
+</div>
+
+<div class="flex items-center justify-center gap-4 mt-6">
+
+<div class="border-2 border-blue-400 rounded-lg p-4 w-56 text-center">
+<div class="font-semibold text-blue-600 mb-2">Goal-Inference</div>
+<div class="text-base">uses tools to analyze workload intent and structure, and system environments.</div>
+</div>
+
+<div class="text-3xl">→</div>
+
+<div class="bg-gray-200 rounded px-3 py-2 text-sm italic">
+Workload Profile
+</div>
+
+<div class="text-3xl">→</div>
+
+<div class="border-2 border-green-500 rounded-lg p-4 w-56 text-center">
+<div class="font-semibold text-green-600 mb-2">Policy-Synthesis</div>
+<div class="text-base">LLM config or generate safe, efficient eBPF schedulers from its analysis.</div>
+</div>
+
+</div>
 
 
 ---
