@@ -277,7 +277,7 @@ We are also working on:
 
 <div class="text-xl leading-relaxed">
 
-- We propose SchedCP, a **control-plane** framework and OS level service enabling LLM agents to autonomously and safely optimize Linux schedulers.
+- We propose SchedCP, a **control-plane** framework and **OS level service** enabling LLM agents to autonomously optimize Linux schedulers.
 - Separating **goal inference** (what to optimize) from **policy synthesis** (how to optimize) 
 - Achieves up to **1.79× performance** and **13× lower cost** in our sched_ext-based proof-of-concept.
 
