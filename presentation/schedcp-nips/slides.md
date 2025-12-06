@@ -104,45 +104,34 @@ Key idea: LLM Agent in control plane, not the data plane, manage OS like a human
 
 # Preliminary Evaluations
 
-### On Claude code + Claude opus 4
+### On Claude code + Claude opus 4: 1.79× faster, 2.11× lower P99 latency, 1.60× higher throughput, 13× cost reduction
 
-- 1.79× faster,  2.11× lower P99 latency, 1.60× higher throughput, 13× cost reduction vs. naïve agents
+<div class="grid grid-cols-2 gap-6 mt-4">
 
-<div class="grid grid-cols-2 gap-8 mt-4">
-
-<div>
-<img src="/linux-build-results.png" class="rounded shadow-lg" alt="Linux Build Benchmark Results" />
-<div class="text-xs mt-1 opacity-70 text-center">Config: Kernel Build: <strong>1.79× faster</strong></div>
+<div class="flex flex-col gap-4">
+  <div>
+    <img src="/linux-build-results.png" class="rounded shadow-lg" alt="Linux Build Benchmark Results" />
+    <div class="text-xs mt-1 opacity-70 text-center">Kernel Build: <strong>1.79× faster</strong></div>
+  </div>
+  <div>
+    <img src="/schbench-results.png" class="rounded shadow-lg" alt="Schbench Performance Comparison" />
+    <div class="text-xs mt-1 opacity-70 text-center">Schbench: <strong>2.11× lower P99</strong></div>
+  </div>
 </div>
 
 <div>
-<img src="/schbench-results.png" class="rounded shadow-lg" alt="Schbench Performance Comparison" />
-<div class="text-xs mt-1 opacity-70 text-center">Config: Schbench: <strong>2.11× lower P99</strong>, <strong>1.60× throughput</strong></div>
+  <img src="/scheduler-comparison.png" class="rounded shadow-lg h-full object-contain" alt="Scheduler Performance Comparison" />
+  <div class="text-xs mt-1 opacity-70 text-center">Scheduler Comparison</div>
 </div>
 
 </div>
 
 ---
 
-# Preliminary Evaluations (cont.)
-
-<div class="grid grid-cols-2 gap-8 mt-4">
-
-<div>
-<img src="/scheduler-comparison.png" class="rounded shadow-lg" alt="Scheduler Performance Comparison" />
-<div class="text-xs mt-1 opacity-70 text-center">Overall Scheduler Comparison</div>
-</div>
-
-<div>
-
-### Limitations & Next Steps
+# Limitations & Future Work
 
 - Develop standardized benchmark framework for Agentic tasks
 - Extend to I/O, memory, power subsystems
-
-</div>
-
-</div>
 
 ---
 layout: center
