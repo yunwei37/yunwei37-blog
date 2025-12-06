@@ -45,7 +45,7 @@ Yusheng Zheng¹, Yanpeng Hu², Wei Zhang³, Andi Quinn¹
 
 ---
 
-# Can LLM Agent auto optimize OS schedulers?
+# Can LLM agents autonomously optimize OS schedulers?
 
 ## Motivation & Problem
 
@@ -68,7 +68,7 @@ OS Schedulers (Default EEVDF) fail to understand application needs:
 
 ### Human Knowledge Gap
 
-We have knobs and extensible interface(sched_ext), but:
+We have knobs and extensible interfaces (sched_ext), but:
 - Workload developer does not understand kernel internals;
 - Sysadmins lack workload insight;
 - End users lack both kernel and workload expertise;
@@ -114,7 +114,7 @@ Claude Code + "write a FIFO scheduler for sched_ext": <strong>33 min</strong>, <
 
 # Our Insight: Goal-Inference vs Policy-Synthesis
 
-LLM Agent should be deployed as **part of OS** to bridge the semantic gap and knowledge gap
+LLM Agent should be deployed as **OS level component** to bridge the semantic gap and knowledge gap
 
 <div class="flex flex-col gap-4">
 
@@ -124,7 +124,7 @@ LLM Agent should be deployed as **part of OS** to bridge the semantic gap and kn
 <div class="flex flex-col items-center flex-1">
 <div class="border-2 border-blue-400 rounded-lg p-2 text-center">
 <div class="font-semibold text-blue-600 mb-1">Goal-Inference</div>
-<div class="text-base">uses tools to analyze workload intent and structure, and system environments.</div>
+<div class="text-base">uses tools to analyze workload intent and structure, and the system environment.</div>
 </div>
 <div class="text-base text-gray-500 mt-1">Stage 1</div>
 </div>
@@ -134,7 +134,7 @@ LLM Agent should be deployed as **part of OS** to bridge the semantic gap and kn
 <div class="flex flex-col items-center flex-1">
 <div class="border-2 border-green-500 rounded-lg p-2 text-center">
 <div class="font-semibold text-green-600 mb-1">Policy-Synthesis</div>
-<div class="text-base">LLM config or generate safe, efficient eBPF schedulers from its analysis.</div>
+<div class="text-base">LLM configures or generates safe, efficient eBPF schedulers from its analysis.</div>
 </div>
 <div class="text-base text-gray-500 mt-1">Stage 2</div>
 </div>
@@ -157,7 +157,7 @@ LLM Agent should be deployed as **part of OS** to bridge the semantic gap and kn
 
 **Goal**: Manage OS like a **human SRE** to deploy app and reduce overhead 
 
--> Agent Work in **user control plane**, Code optimize kernel data plane
+-> Agent works in **user control plane**, code optimizes kernel data plane
 
 </div>
 </div>
@@ -179,7 +179,7 @@ LLM Agent should be deployed as **part of OS** to bridge the semantic gap and kn
 
 <div class="text-lg">
 
-### SchedCP: a Control Plane MCP server 
+### SchedCP: an MCP-based Control Plane 
 
 - Workload Analysis Engine
 - Policy Repository (eBPF templates for code generation and reference)
@@ -214,7 +214,7 @@ Setup: Claude Code + Opus 4 · Baseline: EEVDF · Repository: <a href="https://g
   </figure>
   <figure class="flex-1 min-h-0">
     <img src="/schbench-results.png" class="rounded shadow-lg max-w-full max-h-full object-contain" />
-    <figcaption class="text-lg text-center">Schbench: <strong>2.11× lower P99</strong>, <strong>1.60× throughput</strong></figcaption>
+    <figcaption class="text-lg text-center">Schbench: <strong>2.11× lower P99</strong>, <strong>1.60× higher throughput</strong></figcaption>
   </figure>
 </div>
 
@@ -240,7 +240,7 @@ Setup: Claude Code + Opus 4 · Baseline: EEVDF · Repository: <a href="https://g
 
 **Limitations**
 
-Current evaluation is narrow as POCs:
+Current evaluation is narrow as a POC:
 
 - Need standardized agentic OS benchmarks: clearly defined tasks (goal inference for SLOs, adaptation), multi-tenant environments
 
@@ -266,7 +266,7 @@ Community solution:
 
 We are also working on:
 
-- gpu_ext ([LPC'25](https://lpc.events/event/19/contributions/2168/)): GPU memory management and schedule in Linux driver
+- gpu_ext ([LPC'25](https://lpc.events/event/19/contributions/2168/)): GPU memory management and scheduling in the Linux driver
 
 </div>
 
