@@ -44,7 +44,7 @@ Yusheng Zheng¹, Yanpeng Hu², Wei Zhang³, Andi Quinn¹
 
 ---
 
-# Can LLM Agents fully automatically optimize OS schedulers?
+# Can LLM Agent auto optimize OS schedulers?
 
 <div class="text-lg opacity-70 mb-4">(Starting from sched_ext, the BPF-based extensible scheduler class in mainline Linux.)</div>
 
@@ -78,15 +78,35 @@ We have knobs and extensible interface, but:
 
 # Current Solutions & Their Limitations
 
-### Traditional RL-based
+<div class="grid grid-cols-2 gap-8 text-lg mt-8">
+
+<div class="bg-gray-100 rounded-lg p-4">
+
+<div class="flex items-center gap-2 mb-2">
+<span class="text-2xl">🎯</span>
+<span class="font-semibold">Traditional RL-based</span>
+</div>
 
 - Operate in humans define hand-designed state/action/reward spaces
 - May need per-workload retraining to transfer
 - Typically tune parameters, cannot synthesize new schedulers/algorithms
+- May include inference overhead in data plane
 
-### Naïve LLM or Agents
-- Fix pipeline that need human guide
+</div>
+
+<div class="bg-gray-100 rounded-lg p-4">
+
+<div class="flex items-center gap-2 mb-2">
+<span class="text-2xl">🤖</span>
+<span class="font-semibold">Naïve LLM or Agents</span>
+</div>
+
+- Fix pipeline that need human guide: e.g. goal -> config
 - Experiment with Claude Code "write a FIFO scheduler in eBPF for `sched_ext`": 33 min, $6, 221 API calls, 1/3 success rate, may degrade performance, needs root
+
+</div>
+
+</div>
 
 ---
 
