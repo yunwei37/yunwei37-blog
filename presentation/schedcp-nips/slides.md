@@ -117,40 +117,57 @@ We have knobs and extensible interface, but:
 
 # Our Insight: Goal-Inference vs Policy-Synthesis
 
-<div class="text-lg mb-4">
+<div class="text-base font-semibold text-blue-600 mb-2">Algorithm</div>
 
-Separate the AI's role of reasoning ("what and how to optimize") from the system's role of execution ("how to observe and act"). The system remains safe and useful when AI Agent gets better.
+<div class="flex items-center justify-center gap-4">
 
-</div>
-
-<div class="text-lg mb-4">
-
-LLM Agent should manage OS like a human SRE: work in userspace control plane, not the kernel data plane.
-
-</div>
-
-<div class="flex items-center justify-center gap-4 mt-6">
-
-<div class="border-2 border-blue-400 rounded-lg p-4 w-56 text-center">
-<div class="font-semibold text-blue-600 mb-2">Goal-Inference</div>
+<div class="flex flex-col items-center">
+<div class="border-2 border-blue-400 rounded-lg p-3 w-52 text-center">
+<div class="font-semibold text-blue-600 text-lg mb-1">Goal-Inference</div>
 <div class="text-base">uses tools to analyze workload intent and structure, and system environments.</div>
+</div>
+<div class="text-sm text-gray-500 mt-1">Stage 1</div>
 </div>
 
 <div class="text-3xl">→</div>
 
-<div class="bg-gray-200 rounded px-3 py-2 text-sm italic">
+<div class="bg-gray-200 rounded px-3 py-1 text-sm italic">
 Workload Profile
 </div>
 
 <div class="text-3xl">→</div>
 
-<div class="border-2 border-green-500 rounded-lg p-4 w-56 text-center">
-<div class="font-semibold text-green-600 mb-2">Policy-Synthesis</div>
+<div class="flex flex-col items-center">
+<div class="border-2 border-green-500 rounded-lg p-3 w-52 text-center">
+<div class="font-semibold text-green-600 text-lg mb-1">Policy-Synthesis</div>
 <div class="text-base">LLM config or generate safe, efficient eBPF schedulers from its analysis.</div>
 </div>
+<div class="text-sm text-gray-500 mt-1">Stage 2</div>
+</div>
 
 </div>
 
+<div class="text-base font-semibold text-green-600 mt-4 mb-2">System</div>
+
+<div class="grid grid-cols-2 gap-6 text-base">
+
+<div class="border-l-4 border-purple-400 pl-3">
+
+**Goal**: The system remains safe and useful when AI Agent gets better.
+
+**Approach**: Separate the AI's role of reasoning ("what and how to optimize") from the system's role of execution ("how to observe and act").
+
+</div>
+
+<div class="border-l-4 border-teal-400 pl-3">
+
+**Goal**: LLM Agent should manage OS like a human SRE.
+
+**Approach**: Work in userspace control plane, not the kernel data plane.
+
+</div>
+
+</div>
 
 ---
 
