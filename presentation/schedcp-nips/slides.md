@@ -82,10 +82,7 @@ We have knobs and extensible interface, but:
 
 <div class="border-2 border-blue-400 rounded-lg p-4">
 
-<div class="flex items-center gap-2 mb-2">
-<span class="text-2xl">🎯</span>
-<span class="font-semibold text-blue-600">Traditional RL-based</span>
-</div>
+<div class="font-semibold text-blue-600 mb-2 flex items-center gap-2"><mdi-chart-line class="text-xl" /> Traditional RL-based</div>
 
 - Operate in **human-designed** state/action/reward spaces
 - May need **per-workload retraining** to transfer
@@ -96,17 +93,14 @@ We have knobs and extensible interface, but:
 
 <div class="border-2 border-orange-400 rounded-lg p-4">
 
-<div class="flex items-center gap-2 mb-2">
-<span class="text-2xl">🤖</span>
-<span class="font-semibold text-orange-600">Naïve LLM or Agents</span>
-</div>
+<div class="font-semibold text-orange-600 mb-2 flex items-center gap-2"><mdi-robot class="text-xl" /> Naïve LLM or Agents</div>
 
 - **Fixed pipeline** that need human guide: e.g. Goal -> Config
 - **Unsafe**: may crash system, needs root
 - May **degrade performance**, not improve it
 
 <div class="mt-3 p-2 rounded border-2 border-dashed border-orange-300 text-base">
-📊 Claude Code + "write a FIFO scheduler for sched_ext": <strong>33 min</strong>, <strong>$6</strong>, <strong>221 calls</strong>, <strong>1/3 success</strong>
+Claude Code + "write a FIFO scheduler for sched_ext": <strong>33 min</strong>, <strong>$6</strong>, <strong>221 calls</strong>, <strong>1/3 success</strong>
 </div>
 
 </div>
@@ -117,54 +111,51 @@ We have knobs and extensible interface, but:
 
 # Our Insight: Goal-Inference vs Policy-Synthesis
 
-<div class="text-base font-semibold text-blue-600 mb-2">Algorithm</div>
+<div class="flex flex-col gap-4">
 
-<div class="flex items-center justify-center gap-4">
-
-<div class="flex flex-col items-center">
-<div class="border-2 border-blue-400 rounded-lg p-3 w-52 text-center">
-<div class="font-semibold text-blue-600 text-lg mb-1">Goal-Inference</div>
+<div class="flex gap-4 items-center">
+<span class="text-sm font-semibold text-blue-600 bg-blue-100 px-2 py-1 rounded w-20 text-center shrink-0">AI Agent</span>
+<div class="flex items-center justify-center gap-4 flex-1">
+<div class="flex flex-col items-center flex-1">
+<div class="border-2 border-blue-400 rounded-lg p-2 text-center">
+<div class="font-semibold text-blue-600 mb-1">Goal-Inference</div>
 <div class="text-base">uses tools to analyze workload intent and structure, and system environments.</div>
 </div>
-<div class="text-sm text-gray-500 mt-1">Stage 1</div>
+<div class="text-base text-gray-500 mt-1">Stage 1</div>
 </div>
-
-<div class="text-3xl">→</div>
-
-<div class="bg-gray-200 rounded px-3 py-1 text-sm italic">
-Workload Profile
-</div>
-
-<div class="text-3xl">→</div>
-
-<div class="flex flex-col items-center">
-<div class="border-2 border-green-500 rounded-lg p-3 w-52 text-center">
-<div class="font-semibold text-green-600 text-lg mb-1">Policy-Synthesis</div>
+<div class="text-2xl">→</div>
+<div class="border border-gray-400 rounded px-3 py-1 text-base italic shrink-0">Workload Profile</div>
+<div class="text-2xl">→</div>
+<div class="flex flex-col items-center flex-1">
+<div class="border-2 border-green-500 rounded-lg p-2 text-center">
+<div class="font-semibold text-green-600 mb-1">Policy-Synthesis</div>
 <div class="text-base">LLM config or generate safe, efficient eBPF schedulers from its analysis.</div>
 </div>
-<div class="text-sm text-gray-500 mt-1">Stage 2</div>
+<div class="text-base text-gray-500 mt-1">Stage 2</div>
+</div>
+</div>
 </div>
 
+<div class="border-t border-gray-300"></div>
+
+<div class="flex gap-4 items-start">
+<span class="text-sm font-semibold text-green-600 bg-green-100 px-2 py-1 rounded w-20 text-center shrink-0 mt-2">System</span>
+<div class="grid grid-cols-2 gap-4 flex-1">
+<div class="border-2 border-purple-400 rounded-lg p-3">
+
+**Goal**: System remains **safe and useful** as AI gets better
+
+**Approach**: Separate AI **reasoning** from system **execution**
+
 </div>
+<div class="border-2 border-teal-400 rounded-lg p-3">
 
-<div class="text-base font-semibold text-green-600 mt-4 mb-2">System</div>
+**Goal**: Manage OS like a **human SRE**
 
-<div class="grid grid-cols-2 gap-6 text-base">
-
-<div class="border-l-4 border-purple-400 pl-3">
-
-**Goal**: The system remains safe and useful when AI Agent gets better.
-
-**Approach**: Separate the AI's role of reasoning ("what and how to optimize") from the system's role of execution ("how to observe and act").
+**Approach**: Work in **userspace control plane**, not kernel data plane
 
 </div>
-
-<div class="border-l-4 border-teal-400 pl-3">
-
-**Goal**: LLM Agent should manage OS like a human SRE.
-
-**Approach**: Work in userspace control plane, not the kernel data plane.
-
+</div>
 </div>
 
 </div>
@@ -173,15 +164,15 @@ Workload Profile
 
 # System Architecture: SchedCP & Multi-Agent
 
-<div class="grid grid-cols-2 gap-8 mt-6">
+<div class="grid grid-cols-2 gap-8">
 
 <div>
 
-<img src="/arch-schedcp.png" class="rounded shadow-lg" style="max-height: 500px;" alt="SchedCP Architecture Diagram" />
+<img src="/arch-schedcp.png" class="rounded shadow-lg" style="max-height: 400px;" alt="SchedCP Architecture Diagram" />
 
 </div>
 
-<div>
+<div class="text-lg">
 
 ### Control Plane: a MCP server
 
