@@ -195,28 +195,32 @@ Claude Code + "write a FIFO scheduler for sched_ext": <strong>33 min</strong>, <
 
 # Preliminary Evaluations (POC)
 
-- Agent: Claude code + Claude opus 4
-- Baseline: default EEVDF
-- Policy Repository: https://github.com/sched-ext/scx (~20 different algorithms, each has many configs)
-- Scheduler algorithm select and config: 1.79× faster, 2.11× lower P99 latency, 1.60× higher throughput, 13× cost reduction ($6 → $0.45)
-- New scheduler synthesis: LJF for batch workloads achieves 20% latency reduction
-
-<div class="grid grid-cols-2 gap-6 mt-4">
-
-<div class="flex flex-col gap-4">
-  <div>
-    <img src="/linux-build-results.png" class="rounded shadow-lg" alt="Linux Build Benchmark Results" />
-    <div class="text-xs mt-1 opacity-70 text-center">Select and config scheduler for Kernel Build: <strong>1.79× faster</strong></div>
-  </div>
-  <div>
-    <img src="/schbench-results.png" class="rounded shadow-lg" alt="Schbench Performance Comparison" />
-    <div class="text-xs mt-1 opacity-70 text-center">Schbench: <strong>2.11× lower P99</strong></div>
-  </div>
+<div class="text-lg mb-2">
+Setup: Claude Code + Opus 4 · Baseline: EEVDF · Repository: <a href="https://github.com/sched-ext/scx">sched-ext/scx</a> (~20 algorithms, each has many configs)
 </div>
 
-<div>
-  <img src="/scheduler-comparison.png" class="rounded shadow-lg h-full object-contain" alt="Scheduler Performance Comparison" />
-  <div class="text-xs mt-1 opacity-70 text-center">Scheduler Comparison</div>
+<div class="flex gap-6">
+
+<div class="flex flex-col flex-1">
+  <div class="text-lg font-semibold text-blue-600 mb-2">Scheduler Select & Config</div>
+  <figure class="flex-1 min-h-0">
+    <img src="/linux-build-results.png" class="rounded shadow-lg max-w-full max-h-full object-contain" />
+    <figcaption class="text-lg text-center">Kernel Build: <strong>1.79× faster</strong></figcaption>
+  </figure>
+  <figure class="flex-1 min-h-0">
+    <img src="/schbench-results.png" class="rounded shadow-lg max-w-full max-h-full object-contain" />
+    <figcaption class="text-lg text-center">Schbench: <strong>2.11× lower P99</strong>, <strong>1.60× throughput</strong></figcaption>
+  </figure>
+</div>
+
+<div class="border-l border-gray-300"></div>
+
+<div class="flex flex-col flex-1">
+  <div class="text-lg font-semibold text-green-600 mb-2">New Scheduler Synthesis</div>
+  <figure class="min-h-0">
+    <img src="/scheduler-comparison.png" class="rounded shadow-lg object-contain" style="max-width: 80%;" />
+    <figcaption class="text-lg text-center">LJF for batch workloads: <strong>20% latency reduction</strong>, <strong>13× cost reduction ($6→$0.5)</strong></figcaption>
+  </figure>
 </div>
 
 </div>
