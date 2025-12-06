@@ -47,7 +47,9 @@ Yusheng Zheng¹, Yanpeng Hu², Wei Zhang³, Andi Quinn¹
 
 # Can LLM Agent auto optimize OS schedulers?
 
-<div class="text-lg opacity-70 mb-4">(Starting from sched_ext, the BPF-based extensible scheduler class in mainline Linux.)</div>
+## Motivation
+
+<div class="text-lg opacity-70 mb-4">(Default EEVDF, extensible with sched_ext)</div>
 
 <div class="grid grid-cols-2 gap-8 text-lg">
 
@@ -96,7 +98,7 @@ We have knobs and extensible interface, but:
 
 <div class="font-semibold text-orange-600 mb-2 flex items-center gap-2"><mdi-robot class="text-xl" /> Naïve LLM or Agents</div>
 
-- **Fixed pipeline** that need human guide: e.g. Goal -> Config
+- **Fixed pipeline**: e.g. Goal in English -> Config, need human define High-Level Goal Specific Context
 - **Unsafe**: may crash system, needs root
 - May **degrade performance**, not improve it
 
@@ -146,14 +148,14 @@ Claude Code + "write a FIFO scheduler for sched_ext": <strong>33 min</strong>, <
 
 **Goal**: System remains **safe and useful** as AI gets better
 
-**Approach**: Separate AI **reasoning** from system **execution**
+-> Separate AI **reasoning** from system **execution**
 
 </div>
 <div class="border-2 border-teal-400 rounded-lg p-3">
 
-**Goal**: Manage OS like a **human SRE**
+**Goal**: Manage OS like a **human SRE** to deploy and reduce overhead 
 
-**Approach**: Work in **userspace control plane**, not kernel data plane
+-> Agent Work in **user control plane**, Code optimize kernel data plane
 
 </div>
 </div>
@@ -238,12 +240,11 @@ Setup: Claude Code + Opus 4 · Baseline: EEVDF · Repository: <a href="https://g
 
 Current evaluation is narrow as POCs:
 
-- Need standardized agentic OS benchmarks: clearly defined tasks (goal inference, safety, adaptation), long-running, multi-service workloads
+- Need standardized agentic OS benchmarks: clearly defined tasks (goal inference for SLOs, adaptation), multi-tenant environments
 
 **Open Questions**
 
-Is MCP the best interface for OS optimization? Or bash?
-
+Is MCP the best interface for OS optimization? Or direct bash access?
 
 </div>
 
@@ -255,19 +256,28 @@ Is MCP the best interface for OS optimization? Or bash?
 
 Linux Mainline:
 
-- sched_ext
-- Network (e.g. XDP...)
+- sched_ext, Network (e.g. XDP...)
 
 Community solution:
 
-- cache_ext (SOSP'25)
-- cpufreq_ext (mailing list, Huawei)
+- cache_ext (SOSP'25), cpufreq_ext (mailing list, Huawei)
 
 We are also working on:
 
 - gpu_ext ([LPC'25](https://lpc.events/event/19/contributions/2168/)): GPU memory management and schedule in Linux driver
 
 </div>
+
+</div>
+---
+
+# Summary
+
+<div class="text-xl leading-relaxed">
+
+- We propose SchedCP, a **control-plane** framework enabling LLM agents to autonomously and safely optimize Linux schedulers.  
+- Separating **goal inference** (what to optimize) from **policy synthesis** (how to optimize) 
+- Achieves up to **1.79× performance** and **13× lower cost** in our sched_ext-based proof-of-concept.
 
 </div>
 
