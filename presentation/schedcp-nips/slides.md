@@ -91,7 +91,7 @@ We have knobs and extensible interfaces (sched_ext), but:
 - May need **per-workload retraining** to transfer
 - Typically **tune parameters**, cannot synthesize new algorithms
 - May include **inference overhead** in hot path
-
+- Lack **Semantic Understanding**
 </div>
 
 <div class="border-2 border-orange-400 rounded-lg p-4">
@@ -114,7 +114,7 @@ Claude Code + "write a FIFO scheduler for sched_ext": <strong>33 min</strong>, <
 
 # Our Insight: Goal-Inference vs Policy-Synthesis
 
-LLM Agent should be deployed as **OS level component** to bridge the semantic gap and knowledge gap
+LLM Agent as **OS level component** to bridge the semantic gap and knowledge gap
 
 <div class="flex flex-col gap-4">
 
@@ -242,7 +242,7 @@ Setup: Claude Code + Opus 4 · Baseline: EEVDF · Repository: <a href="https://g
 
 Current evaluation is narrow as a POC:
 
-- Need standardized agentic OS benchmarks: clearly defined tasks (goal inference for SLOs, adaptation), multi-tenant environments
+- Need standardized agentic OS benchmarks: clearly defined tasks (goal inference for complex SLOs, adaptation), multi-tenant environments
 
 **Open Questions**
 
@@ -277,7 +277,7 @@ We are also working on:
 
 <div class="text-xl leading-relaxed">
 
-- We propose SchedCP, a **control-plane** framework enabling LLM agents to autonomously and safely optimize Linux schedulers, as part of the OS.
+- We propose SchedCP, a **control-plane** framework and OS level service enabling LLM agents to autonomously and safely optimize Linux schedulers.
 - Separating **goal inference** (what to optimize) from **policy synthesis** (how to optimize) 
 - Achieves up to **1.79× performance** and **13× lower cost** in our sched_ext-based proof-of-concept.
 
