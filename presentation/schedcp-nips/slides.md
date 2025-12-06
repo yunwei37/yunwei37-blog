@@ -44,17 +44,17 @@ Yusheng Zheng¹, Yanpeng Hu², Wei Zhang³, Andi Quinn¹
 
 ---
 
-# Can LLM Agents fully automatically optimize OS?
+# Can LLM Agents fully automatically optimize OS schedulers?
 
-(Start from schedulers in mainline Linux kernel, thanks sched_ext)
+(Starting from sched_ext, the BPF-based extensible scheduler class in mainline Linux.)
 
 ### Problem
 
-- **Semantic Gap**: Schedulers fail to understand application needs (latency vs throughputs, different SLOs)
-- **Knowledge Gap**: 
-  - Developers lack workload insight; 
-  - users lack kernel expertise;
-  - Kernel programming is hard, limiting innovation;
+- **Semantic Gap**: OS Schedulers fail to understand application needs (latency vs throughputs, batch vs interactive, different SLOs)
+- **Human Knowledge Gap**: We have knobs and extensible interface, but:
+  - Workload developer does not understand kernel internals;
+  - Sysadmins lack workload insight;
+  - End users lack both kernel and workload expertise;
 
 ---
 
@@ -62,16 +62,17 @@ Yusheng Zheng¹, Yanpeng Hu², Wei Zhang³, Andi Quinn¹
 
 ### Traditional RL-based
 
-- Lack semantic understanding, hard to transfer across workloads， may Require additional training
-- Only tweak configs after engineers define the problem space (select features, specify knobs, write objectives)
+- Operate in humans define hand-designed state/action/reward spaces
+- May need per-workload retraining to transfer
+- Typically tune parameters, cannot synthesize new schedulers/algorithms
 
 ### Naïve LLM or Agents
 - Fix pipeline that need human guide
-- Experiment with Claude Code: 33 min, $6, 221 API calls, 1/3 success rate, may crash system or degrade performance
+- Experiment with Claude Code "write a FIFO scheduler in eBPF for `sched_ext`": 33 min, $6, 221 API calls, 1/3 success rate, may degrade performance, needs root
 
 ---
 
-# Our Insight: Decouple Reasoning from Execution in 2 stages
+# Our Insight: Goal-Inference vs Policy-Synthesis
 
 Separate the AI's role of reasoning ("what and how to optimize") from the system's role of execution ("how to observe and act"). The system remains safe and useful when AI Agent gets better.
 
@@ -80,7 +81,7 @@ Model the process as 2 stages:
 - **Goal-Inference**: uses tools to analyze workload intent and structure, and system environments.
 - **Policy-Synthesis**: LLM config or generate safe, efficient eBPF schedulers from its analysis.
 
-LLM Agent should manage OS like a human SRE: work in userspace control plane, not the kernel data plane
+LLM Agent should manage OS like a human SRE: work in userspace control plane, not the kernel data plane.
 
 **Design Principles**: Decoupling & role separation, Safety-first interface, Adaptive context provisioning, Composable tool architecture
 
@@ -121,8 +122,9 @@ LLM Agent should manage OS like a human SRE: work in userspace control plane, no
 # Preliminary Evaluations (POC)
 
 - Agent: Claude code + Claude opus 4
+- Baseline: default EEVDF
 - Policy Repository: https://github.com/sched-ext/scx (~20 different algorithms, each has many configs)
-- Improvement: 1.79× faster, 2.11× lower P99 latency, 1.60× higher throughput, 13× cost reduction ($6 → $0.45)
+- Scheduler algorithm select and config: 1.79× faster, 2.11× lower P99 latency, 1.60× higher throughput, 13× cost reduction ($6 → $0.45)
 - New scheduler synthesis: LJF for batch workloads achieves 20% latency reduction
 
 <div class="grid grid-cols-2 gap-6 mt-4">
@@ -149,11 +151,13 @@ LLM Agent should manage OS like a human SRE: work in userspace control plane, no
 
 # Limitations & Future Work
 
-What we further need to evalution?
+Current evaluation is narrow as POCs:
 
-- Standardized benchmark framework for Agentic tasks
+- Need standardized agentic OS benchmarks:
+  - clearly defined tasks (goal inference, safety, adaptation)
+  - long-running, multi-service workloads
 
-Is MCP the best interface? Sometimes bash is more efficent?
+Is MCP the best interface for OS optimization ? Sometimes bash is more efficent?
 
 How can we tune and extend the algorithms in OS kernel?
 -> need runtimes and more safe ways to allow agents experiments
