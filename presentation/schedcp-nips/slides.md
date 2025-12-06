@@ -55,7 +55,7 @@ Yusheng Zheng¹, Yanpeng Hu², Wei Zhang³, Andi Quinn¹
 ### Semantic Gap
 
 OS Schedulers fail to understand application needs:
-- Latency vs throughputs
+- Latency vs throughput
 - Batch vs interactive
 - Different SLOs
 
@@ -114,7 +114,7 @@ Claude Code + "write a FIFO scheduler for sched_ext": <strong>33 min</strong>, <
 <div class="flex flex-col gap-4">
 
 <div class="flex gap-4 items-center">
-<span class="text-sm font-semibold text-blue-600 bg-blue-100 px-2 py-1 rounded w-20 text-center shrink-0">AI Agent</span>
+<span class="text-base font-semibold text-blue-600 bg-blue-100 px-2 py-1 rounded w-24 text-center shrink-0">AI Agent</span>
 <div class="flex items-center justify-center gap-4 flex-1">
 <div class="flex flex-col items-center flex-1">
 <div class="border-2 border-blue-400 rounded-lg p-2 text-center">
@@ -139,7 +139,7 @@ Claude Code + "write a FIFO scheduler for sched_ext": <strong>33 min</strong>, <
 <div class="border-t border-gray-300"></div>
 
 <div class="flex gap-4 items-start">
-<span class="text-sm font-semibold text-green-600 bg-green-100 px-2 py-1 rounded w-20 text-center shrink-0 mt-2">System</span>
+<span class="text-base font-semibold text-green-600 bg-green-100 px-2 py-1 rounded w-24 text-center shrink-0 mt-2">System</span>
 <div class="grid grid-cols-2 gap-4 flex-1">
 <div class="border-2 border-purple-400 rounded-lg p-3">
 
@@ -229,32 +229,46 @@ Setup: Claude Code + Opus 4 · Baseline: EEVDF · Repository: <a href="https://g
 
 # Limitations & Future Work
 
+<div class="flex gap-6 text-lg">
+
+<div class="flex-1">
+
+**Limitations**
+
 Current evaluation is narrow as POCs:
 
-- Need standardized agentic OS benchmarks:
-  - clearly defined tasks (goal inference, safety, adaptation)
-  - long-running, multi-service workloads
+- Need standardized agentic OS benchmarks: clearly defined tasks (goal inference, safety, adaptation), long-running, multi-service workloads
 
-Is MCP the best interface for OS optimization ? Sometimes bash is more efficent?
+**Open Questions**
 
-How can we tune and extend the algorithms in OS kernel?
--> need runtimes and more safe ways to allow agents experiments
--> What else can people do?
+Is MCP the best interface for OS optimization? Or bash?
 
-Linux Mainline: 
+
+</div>
+
+<div class="border-l border-gray-300"></div>
+
+<div class="flex-1">
+
+**More extensible OS Interfaces?**
+
+Linux Mainline:
 
 - sched_ext
 - Network (e.g. XDP...)
 
-Community solution: 
+Community solution:
 
 - cache_ext (SOSP'25)
 - cpufreq_ext (mailing list, Huawei)
 
 We are also working on:
 
-- gpu_ext: (Linux plumbers 25, https://lpc.events/event/19/contributions/2168/)
-  - GPU memory management and schedule in Linux driver
+- gpu_ext ([LPC'25](https://lpc.events/event/19/contributions/2168/)): GPU memory management and schedule in Linux driver
+
+</div>
+
+</div>
 
 ---
 layout: center
