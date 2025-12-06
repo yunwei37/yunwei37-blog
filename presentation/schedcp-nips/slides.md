@@ -27,7 +27,7 @@ Yusheng Zheng¹, Yanpeng Hu², Wei Zhang³, Andi Quinn¹
 
 </div>
 
-<div class="abs-br m-4 flex flex-col items-end gap-3">
+<div class="abs-br m-4 mb-8 flex flex-col items-end gap-3">
   <div class="flex items-center gap-4">
     <img src="/ucsc-logo.png" class="h-10" alt="UC Santa Cruz" />
     <img src="/shanghaitech-logo.png" class="h-10" alt="ShanghaiTech University" />
@@ -44,17 +44,24 @@ Yusheng Zheng¹, Yanpeng Hu², Wei Zhang³, Andi Quinn¹
 
 ---
 
-# Can LLM Agents fully automatically optimize OS? Start from schedulers
+# Can LLM Agents fully automatically optimize OS?
+
+(Start from schedulers in mainline Linux kernel, thanks sched_ext)
 
 ### Problem
 
-- **Semantic Gap**: Schedulers fail to understand application needs (latency vs throughputs, SLOs)
-- **Knowledge Gap**: Developers lack workload insight; users lack kernel expertise. Kernel programming is hard, limiting innovation.
+- **Semantic Gap**: Schedulers fail to understand application needs (latency vs throughputs, different SLOs)
+- **Knowledge Gap**: 
+  - Developers lack workload insight; 
+  - users lack kernel expertise;
+  - Kernel programming is hard, limiting innovation;
 
 ### Current solutions:
 
 - **Traditional RL-based**: Require per-workload training and human specific SLOs
-- **Naïve LLM or Agents**: Fix pipeline that need human guide, or Unsafe (can crash system), inefficient ($6, 33 min/run for a single generation), may reduce performance.
+- **Naïve LLM or Agents**: 
+  - Fix pipeline that need human guide, 
+  - A small experiment: Unsafe (can crash system), inefficient ($6, 33 min/run for a single generation), may reduce performance.
 
 ---
 
@@ -66,6 +73,11 @@ Model the process as 2 stages:
 
 - **Goal-Inference**: uses tools to analyze workload intent and structure, and system environments.
 - **Policy-Synthesis**: LLM config or generate safe, efficient eBPF schedulers from its analysis.
+
+LLM Agent should manage OS like a human SRE:
+
+- work in in userspace control plane, not the kernel data plane (scheduler hot path)
+
 
 ---
 
@@ -84,7 +96,7 @@ Model the process as 2 stages:
 ### Control Plane: a MCP server
 
 - Workload Analysis Engine
-- Policy Repository (eBPF templates for code generation)
+- Policy Repository (eBPF templates for code generation and reference)
 - Execution Verifier (safety checks)
 
 ### sched-agent
@@ -94,24 +106,24 @@ Model the process as 2 stages:
 - **Execution** → Policy deployment
 - **Learning** → Refinement
 
-Key idea: LLM Agent in control plane, not the data plane, manage OS like a human SRE without overhead.
-
 </div>
 
 </div>
 
 ---
 
-# Preliminary Evaluations
+# Preliminary Evaluations (POC)
 
-### On Claude code + Claude opus 4: 1.79× faster, 2.11× lower P99 latency, 1.60× higher throughput, 13× cost reduction
+- Agent: Claude code + Claude opus 4
+- Policy Repository: https://github.com/sched-ext/scx (~20 different algorithms, each has many configs)
+- Improvement: 1.79× faster, 2.11× lower P99 latency, 1.60× higher throughput, 13× cost reduction
 
 <div class="grid grid-cols-2 gap-6 mt-4">
 
 <div class="flex flex-col gap-4">
   <div>
     <img src="/linux-build-results.png" class="rounded shadow-lg" alt="Linux Build Benchmark Results" />
-    <div class="text-xs mt-1 opacity-70 text-center">Kernel Build: <strong>1.79× faster</strong></div>
+    <div class="text-xs mt-1 opacity-70 text-center">Select and config scheduler for Kernel Build: <strong>1.79× faster</strong></div>
   </div>
   <div>
     <img src="/schbench-results.png" class="rounded shadow-lg" alt="Schbench Performance Comparison" />
@@ -130,8 +142,27 @@ Key idea: LLM Agent in control plane, not the data plane, manage OS like a human
 
 # Limitations & Future Work
 
-- Develop standardized benchmark framework for Agentic tasks
-- Extend to I/O, memory, power subsystems
+What we further need to evalution?
+
+- Standardized benchmark framework for Agentic tasks
+
+How can we tune and extend the algorithms in OS kernel?
+-> need runtimes and more safe ways to allow agents experiments
+
+Linux Mainline: 
+
+- sched_ext
+- Network (e.g. XDP...)
+
+Community solution: 
+
+- cache_ext (SOSP'25)
+- cpufreq_ext (mailing list, Huawei)
+
+We are also working on:
+
+- gpu_ext: (Linux plumbers 25, https://lpc.events/event/19/contributions/2168/)
+  - GPU memory management and schedule in Linux driver
 
 ---
 layout: center
@@ -139,7 +170,5 @@ class: text-center
 ---
 
 # Thank You
-
-**Reference**: Zheng et al., "Towards Agentic OS: An LLM Agent Framework for Linux Schedulers," MLforSystem 2025
 
 Questions?
