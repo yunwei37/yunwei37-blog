@@ -153,8 +153,8 @@ https://github.com/eunomia-bpf/schedcp -->
 ### Tunable Parameters
 
 - sysctl configs
-- eBPF for CPU thread scheduling
-- eBPF for GPU memory management and GPU kernel scheduling
+- Tune and write eBPF policy for CPU thread scheduling
+- Tune and write eBPF policy for GPU memory management and GPU kernel scheduling
 
 </div>
 </div>
