@@ -47,9 +47,9 @@ Yusheng Zheng¹, Yanpeng Hu², Wei Zhang³, Andi Quinn¹
 
 # Can LLM Agent auto optimize OS schedulers?
 
-## Motivation
+## Motivation & Problem
 
-<div class="text-lg opacity-70 mb-4">(Default EEVDF, extensible with sched_ext)</div>
+<div class="text-lg opacity-70 mb-4"></div>
 
 <div class="grid grid-cols-2 gap-8 text-lg">
 
@@ -57,7 +57,7 @@ Yusheng Zheng¹, Yanpeng Hu², Wei Zhang³, Andi Quinn¹
 
 ### Semantic Gap
 
-OS Schedulers fail to understand application needs:
+OS Schedulers (Default EEVDF) fail to understand application needs:
 - Latency vs throughput
 - Batch vs interactive
 - Different SLOs
@@ -68,7 +68,7 @@ OS Schedulers fail to understand application needs:
 
 ### Human Knowledge Gap
 
-We have knobs and extensible interface, but:
+We have knobs and extensible interface(sched_ext), but:
 - Workload developer does not understand kernel internals;
 - Sysadmins lack workload insight;
 - End users lack both kernel and workload expertise;
@@ -98,7 +98,7 @@ We have knobs and extensible interface, but:
 
 <div class="font-semibold text-orange-600 mb-2 flex items-center gap-2"><mdi-robot class="text-xl" /> Naïve LLM or Agents</div>
 
-- **Fixed pipeline**: e.g. Goal in English -> Config, need human define High-Level Goal Specific Context
+- **Fixed pipeline like compiler**: e.g. Goal in English -> Config, need human define High-Level Goal and Specific Context
 - **Unsafe**: may crash system, needs root
 - May **degrade performance**, not improve it
 
@@ -113,6 +113,8 @@ Claude Code + "write a FIFO scheduler for sched_ext": <strong>33 min</strong>, <
 ---
 
 # Our Insight: Goal-Inference vs Policy-Synthesis
+
+LLM Agent should be deployed as **part of OS** to bridge the semantic gap and knowledge gap
 
 <div class="flex flex-col gap-4">
 
@@ -153,7 +155,7 @@ Claude Code + "write a FIFO scheduler for sched_ext": <strong>33 min</strong>, <
 </div>
 <div class="border-2 border-teal-400 rounded-lg p-3">
 
-**Goal**: Manage OS like a **human SRE** to deploy and reduce overhead 
+**Goal**: Manage OS like a **human SRE** to deploy app and reduce overhead 
 
 -> Agent Work in **user control plane**, Code optimize kernel data plane
 
@@ -177,13 +179,13 @@ Claude Code + "write a FIFO scheduler for sched_ext": <strong>33 min</strong>, <
 
 <div class="text-lg">
 
-### Control Plane: a MCP server
+### SchedCP: a Control Plane MCP server 
 
 - Workload Analysis Engine
 - Policy Repository (eBPF templates for code generation and reference)
 - Execution Verifier (safety checks)
 
-### sched-agent
+### Sched-agent: daemon
 
 - **Observation** → Monitoring
 - **Planning** → Goal inference with Reasoning
@@ -275,7 +277,7 @@ We are also working on:
 
 <div class="text-xl leading-relaxed">
 
-- We propose SchedCP, a **control-plane** framework enabling LLM agents to autonomously and safely optimize Linux schedulers.  
+- We propose SchedCP, a **control-plane** framework enabling LLM agents to autonomously and safely optimize Linux schedulers, as part of the OS.
 - Separating **goal inference** (what to optimize) from **policy synthesis** (how to optimize) 
 - Achieves up to **1.79× performance** and **13× lower cost** in our sched_ext-based proof-of-concept.
 
