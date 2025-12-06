@@ -78,31 +78,36 @@ We have knobs and extensible interface, but:
 
 # Current Solutions & Their Limitations
 
-<div class="grid grid-cols-2 gap-8 text-lg mt-8">
+<div class="grid grid-cols-2 gap-6 text-lg">
 
-<div class="bg-gray-100 rounded-lg p-4">
+<div class="border-2 border-blue-400 rounded-lg p-4">
 
 <div class="flex items-center gap-2 mb-2">
 <span class="text-2xl">🎯</span>
-<span class="font-semibold">Traditional RL-based</span>
+<span class="font-semibold text-blue-600">Traditional RL-based</span>
 </div>
 
-- Operate in humans define hand-designed state/action/reward spaces
-- May need per-workload retraining to transfer
-- Typically tune parameters, cannot synthesize new schedulers/algorithms
-- May include inference overhead in data plane
+- Operate in **human-designed** state/action/reward spaces
+- May need **per-workload retraining** to transfer
+- Typically **tune parameters**, cannot synthesize new algorithms
+- May include **inference overhead** in hot path
 
 </div>
 
-<div class="bg-gray-100 rounded-lg p-4">
+<div class="border-2 border-orange-400 rounded-lg p-4">
 
 <div class="flex items-center gap-2 mb-2">
 <span class="text-2xl">🤖</span>
-<span class="font-semibold">Naïve LLM or Agents</span>
+<span class="font-semibold text-orange-600">Naïve LLM or Agents</span>
 </div>
 
-- Fix pipeline that need human guide: e.g. goal -> config
-- Experiment with Claude Code "write a FIFO scheduler in eBPF for `sched_ext`": 33 min, $6, 221 API calls, 1/3 success rate, may degrade performance, needs root
+- **Fixed pipeline** that need human guide
+- **Unsafe**: may crash system, needs root
+- May **degrade performance**
+
+<div class="mt-3 p-2 rounded border-2 border-dashed border-orange-300 text-base">
+📊 Claude Code + "write a FIFO scheduler for sched_ext": <strong>33 min</strong>, <strong>$6</strong>, <strong>221 calls</strong>, <strong>1/3 success</strong>
+</div>
 
 </div>
 
