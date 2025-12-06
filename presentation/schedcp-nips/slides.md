@@ -144,19 +144,17 @@ LLM Agent as **OS level component** to bridge the semantic gap and knowledge gap
 <div class="border-t border-gray-300"></div>
 
 <div class="flex gap-4 items-start">
-<span class="text-base font-semibold text-green-600 bg-green-100 px-2 py-1 rounded w-24 text-center shrink-0 mt-2">System</span>
-<div class="grid grid-cols-2 gap-4 flex-1">
-<div class="border-2 border-purple-400 rounded-lg p-3">
+<span class="text-base font-semibold text-green-600 bg-green-100 px-2 py-1 rounded w-24 text-center shrink-0 mt-1">System</span>
+<div class="grid grid-cols-2 gap-3 flex-1">
+<div class="border-2 border-purple-400 rounded-lg p-2">
 
 **Goal**: System remains **safe and useful** as AI gets better
-
 -> Separate AI **reasoning** from system **execution**
 
 </div>
-<div class="border-2 border-teal-400 rounded-lg p-3">
+<div class="border-2 border-teal-400 rounded-lg p-2">
 
-**Goal**: Manage OS like a **human SRE** to deploy app and reduce overhead 
-
+**Goal**: Manage OS like a **human SRE** to deploy app and reduce overhead
 -> Agent works in **user control plane**, code optimizes kernel data plane
 
 </div>
