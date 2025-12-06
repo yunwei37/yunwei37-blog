@@ -114,7 +114,7 @@ Claude Code + "write a FIFO scheduler for sched_ext": <strong>33 min</strong>, <
 
 # Our Insight: Goal-Inference vs Policy-Synthesis
 
-LLM Agent as **OS level component** to bridge the semantic gap and knowledge gap
+LLM Agent as **OS level component** to 1. bridge the semantic gap and knowledge gap 2. keep the same OS abstractions
 
 <div class="flex flex-col gap-4">
 
@@ -245,6 +245,7 @@ Current evaluation is narrow as a POC:
 **Open Questions**
 
 Is MCP the best interface for OS optimization? Or direct bash access?
+- Better profiling tools and code understanding methods?
 
 </div>
 
