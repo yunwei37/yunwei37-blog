@@ -46,15 +46,33 @@ Yusheng Zheng¹, Yanpeng Hu², Wei Zhang³, Andi Quinn¹
 
 # Can LLM Agents fully automatically optimize OS schedulers?
 
-(Starting from sched_ext, the BPF-based extensible scheduler class in mainline Linux.)
+<div class="text-lg opacity-70 mb-4">(Starting from sched_ext, the BPF-based extensible scheduler class in mainline Linux.)</div>
 
-### Problem
+<div class="grid grid-cols-2 gap-8 text-lg">
 
-- **Semantic Gap**: OS Schedulers fail to understand application needs (latency vs throughputs, batch vs interactive, different SLOs)
-- **Human Knowledge Gap**: We have knobs and extensible interface, but:
-  - Workload developer does not understand kernel internals;
-  - Sysadmins lack workload insight;
-  - End users lack both kernel and workload expertise;
+<div class="border-l-4 border-blue-500 pl-4">
+
+### Semantic Gap
+
+OS Schedulers fail to understand application needs:
+- Latency vs throughputs
+- Batch vs interactive
+- Different SLOs
+
+</div>
+
+<div class="border-l-4 border-orange-500 pl-4">
+
+### Human Knowledge Gap
+
+We have knobs and extensible interface, but:
+- Workload developer does not understand kernel internals;
+- Sysadmins lack workload insight;
+- End users lack both kernel and workload expertise;
+
+</div>
+
+</div>
 
 ---
 
