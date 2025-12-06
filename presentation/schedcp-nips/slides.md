@@ -56,12 +56,18 @@ Yusheng Zheng¹, Yanpeng Hu², Wei Zhang³, Andi Quinn¹
   - users lack kernel expertise;
   - Kernel programming is hard, limiting innovation;
 
-### Current solutions:
+---
 
-- **Traditional RL-based**: Require per-workload training and human specific SLOs
-- **Naïve LLM or Agents**: 
-  - Fix pipeline that need human guide, 
-  - A small experiment: Unsafe (can crash system), inefficient ($6, 33 min/run for a single generation), may reduce performance.
+# Current Solutions & Their Limitations
+
+### Traditional RL-based
+
+- Lack semantic understanding, hard to transfer across workloads， may Require additional training
+- Only tweak configs after engineers define the problem space (select features, specify knobs, write objectives)
+
+### Naïve LLM or Agents
+- Fix pipeline that need human guide
+- Experiment with Claude Code: 33 min, $6, 221 API calls, 1/3 success rate, may crash system or degrade performance
 
 ---
 
@@ -74,9 +80,9 @@ Model the process as 2 stages:
 - **Goal-Inference**: uses tools to analyze workload intent and structure, and system environments.
 - **Policy-Synthesis**: LLM config or generate safe, efficient eBPF schedulers from its analysis.
 
-LLM Agent should manage OS like a human SRE:
+LLM Agent should manage OS like a human SRE: work in userspace control plane, not the kernel data plane
 
-- work in in userspace control plane, not the kernel data plane (scheduler hot path)
+**Design Principles**: Decoupling & role separation, Safety-first interface, Adaptive context provisioning, Composable tool architecture
 
 
 ---
@@ -116,7 +122,8 @@ LLM Agent should manage OS like a human SRE:
 
 - Agent: Claude code + Claude opus 4
 - Policy Repository: https://github.com/sched-ext/scx (~20 different algorithms, each has many configs)
-- Improvement: 1.79× faster, 2.11× lower P99 latency, 1.60× higher throughput, 13× cost reduction
+- Improvement: 1.79× faster, 2.11× lower P99 latency, 1.60× higher throughput, 13× cost reduction ($6 → $0.45)
+- New scheduler synthesis: LJF for batch workloads achieves 20% latency reduction
 
 <div class="grid grid-cols-2 gap-6 mt-4">
 
@@ -146,8 +153,11 @@ What we further need to evalution?
 
 - Standardized benchmark framework for Agentic tasks
 
+Is MCP the best interface? Sometimes bash is more efficent?
+
 How can we tune and extend the algorithms in OS kernel?
 -> need runtimes and more safe ways to allow agents experiments
+-> What else can people do?
 
 Linux Mainline: 
 
