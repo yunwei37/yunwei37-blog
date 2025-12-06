@@ -11,6 +11,7 @@ drawings:
 transition: fade
 mdc: true
 layout: cover
+colorSchema: light
 ---
 
 <div class="text-center">
