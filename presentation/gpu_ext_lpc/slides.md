@@ -402,8 +402,9 @@ Extending Linux GPU Driver with eBPF
 <div class="text-lg mt-4">
 
 - Exposing low-level mechanisms has **stability risks**
-- Need a **narrow, safe, verifiable** interface
-- GPU memory management and scheduling mechanisms are **complex**
+- GPU memory management and scheduling mechanisms are **complex** and require expressiveness
+- Need a **narrow, safe** interface
+
 
 </div>
 
@@ -411,9 +412,8 @@ Extending Linux GPU Driver with eBPF
 
 ### Our Approach
 
-- Treat GPU memory placement as a **programmable cache**
+- Treat GPU memory placement as a **programmable cache** (like cache_ext)
 - Policy can reorder eviction list, kernel retains final authority
-- Same trust model as **sched_ext**
 
 </div>
 
@@ -659,12 +659,12 @@ bool gdrv_sched_preempt(gdrv_preempt_ctx_t *ctx);
 <div class="grid grid-cols-2 gap-4">
 
 <div class="text-center">
-<img src="/scheduler_latency_throughput.pdf" class="mx-auto rounded shadow-lg" style="max-height: 200px;" />
+<img src="/scheduler_latency.png" class="mx-auto rounded shadow-lg" style="max-height: 200px;" />
 <div class="text-sm mt-1">Scheduling: LC P99 reduced **96%**, BE throughput unchanged</div>
 </div>
 
 <div class="text-center">
-<img src="/all_kernels_stacked.pdf" class="mx-auto rounded shadow-lg" style="max-height: 200px;" />
+<img src="/memory_results.png" class="mx-auto rounded shadow-lg" style="max-height: 200px;" />
 <div class="text-sm mt-1">Memory policy: **55-92%** improvement; scheduler <1%</div>
 </div>
 
@@ -1052,7 +1052,7 @@ bpf_map_update_elem(&map, &key, &val, BPF_ANY);
 # Device-side Overhead: gBPF vs eGPU-style
 
 <div class="text-center">
-<img src="/microbench_comparison.pdf" class="mx-auto rounded shadow-lg" style="max-height: 300px;" />
+<img src="/microbench_comparison.png" class="mx-auto rounded shadow-lg" style="max-height: 300px;" />
 </div>
 
 <div class="grid grid-cols-2 gap-6 mt-4 text-base">
