@@ -434,10 +434,13 @@ Extending Linux GPU Driver with eBPF
 ```mermaid
 flowchart TD
     A[cuCtxCreate] -->|task_init| B[Create TSG]
-    B -->|task_bind| C[Bind to Runlist]
-    C --> D[HW Scheduler Runs]
-    D --> E[cuCtxDestroy]
-    E -->|task_destroy| F[Cleanup]
+    B --> C[First Kernel Launch]
+    C -->|task_bind| D[Bind to Runlist]
+    D --> E[HW Scheduler Runs]
+    E --> F[Kernel Launches bypass driver]
+    F --> E
+    E --> G[cuCtxDestroy]
+    G -->|task_destroy| H[Cleanup]
 ```
 
 </div>
@@ -531,7 +534,15 @@ struct gpu_mem_ops {
   // Can: reorder used/unused lists
   int (*gpu_evict_prepare)(pmm,
     block_used_list, block_unused_list);
+  ...
+```
 
+</div>
+
+<div class="text-base">
+
+```c
+  ...
   // Prefetch hooks (page granularity)
   // Called before computing prefetch region
   // Trigger: after page fault handled
@@ -550,22 +561,6 @@ void bpf_gpu_block_move_head(block, list);
 void bpf_gpu_block_move_tail(block, list);
 void bpf_gpu_set_prefetch_region(region, first, outer);
 ```
-
-</div>
-
-<div class="text-base">
-
-### Eviction Hooks
-
-- **gpu_block_activate**: Block becomes device-resident
-- **gpu_block_access**: Track access for LFU
-- **gpu_evict_prepare**: Reorder victim list
-
-### Prefetch Hooks (page granularity)
-
-- **gpu_page_prefetch**: Set prefetch region
-- **gpu_page_prefetch_iter**: Custom tree traversal
-
 ### Implementable Policies
 
 - LFU, workload-aware eviction
@@ -596,10 +591,10 @@ struct gpu_sched_ops {
   // Ctx: tsg_id, engine_type, default_timeslice
   int (*task_init)(struct gpu_task_init_ctx *ctx);
 
-  // Called when task group binds to runlist
-  // Trigger: first kernel launch (one-time)
+  // Called when task group binds to runlist (ONE-TIME)
+  // Trigger: first kernel launch activates the TSG
+  // Note: subsequent kernel launches bypass driver!
   // Can: admission control (reject bind)
-  // Ctx: tsg_id, channel_count, timeslice_us
   int (*task_bind)(struct gpu_task_bind_ctx *ctx);
 
   // Called when task group is destroyed
@@ -607,22 +602,18 @@ struct gpu_sched_ops {
   // Can: cleanup BPF map state
   int (*task_destroy)(struct gpu_task_ctx *ctx);
 };
-
-// kfuncs
-void bpf_gpu_set_timeslice(ctx, u64 us);
-void bpf_gpu_set_interleave(ctx, u32 level);
-void bpf_gpu_reject_bind(ctx);
 ```
 
 </div>
 
 <div class="text-base">
 
-### Control Task Group Lifecycle
-
-- **task_init**: Set scheduling params at creation
-- **task_bind**: Admission control before HW binding
-- **task_destroy**: Cleanup per-task state
+```c
+// kfuncs
+void bpf_gpu_set_timeslice(ctx, u64 us);
+void bpf_gpu_set_interleave(ctx, u32 level);
+void bpf_gpu_reject_bind(ctx);
+```
 
 ### Policy Can Set
 
