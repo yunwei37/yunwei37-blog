@@ -1,0 +1,6 @@
+/* 统一标题区域高度和间距 */
+.slidev-layout h1 {
+  min-height: 2.5rem;
+  margin-bottom: 2rem !important;
+  padding-bottom: 1rem;
+}
