@@ -397,6 +397,96 @@ Extending Linux GPU Driver with eBPF
 
 ---
 
+# Background: GPU Scheduling Concepts
+
+<div class="grid grid-cols-2 gap-6">
+
+<div>
+
+### Task Group & Channel
+- **Channel**: Command submission queue (one per CUDA stream)
+- **Task Group (TSG)**: Scheduling unit, groups multiple channels
+- **Runlist**: Hardware scheduler's queue of task groups
+
+### Why TSG, Not GPU Kernels?
+- **Kernel launch bypasses driver** - userspace writes pushbuffer + doorbell directly via MMIO
+- **Driver only sees TSG lifecycle** - create, bind, destroy
+- **TSG = HW scheduler's unit** - direct control
+- **Works for all processes** - no app modification
+
+### Scheduling Parameters
+- **Timeslice**: How long a task group runs before preemption
+  - Long (1s): Low overhead, good for latency-critical
+  - Short (200μs): Fair sharing, better for throughput
+- **Interleave Level**: Priority in runlist (LOW/MED/HIGH)
+
+### Why eBPF Here?
+- Differentiate LC vs BE workloads at task creation
+- Admission control before binding to hardware
+- No application modification needed
+
+</div>
+
+<div>
+
+### Task Group Lifecycle
+
+```mermaid
+flowchart TD
+    A[cuCtxCreate] -->|task_init| B[Create TSG]
+    B -->|task_bind| C[Bind to Runlist]
+    C --> D[HW Scheduler Runs]
+    D --> E[cuCtxDestroy]
+    E -->|task_destroy| F[Cleanup]
+```
+
+</div>
+
+</div>
+
+---
+
+# Background: GPU Memory Concepts
+
+<div class="grid grid-cols-2 gap-6">
+
+<div>
+
+### Address Spaces
+- **VA Block**: Virtual address range (cudaMallocManaged)
+- **Block**: Physical memory block on GPU (2MB)
+- **Residency**: Where data lives (CPU ↔ GPU)
+
+### Why eBPF Here?
+- Custom eviction policy (LFU, workload-aware)
+- Prefetch based on access patterns
+- Per-process memory QoS
+
+</div>
+
+<div>
+
+### Page Fault & Eviction Lifecycle
+
+```mermaid
+flowchart TD
+    A[GPU Access] -->|unmapped| B[Page Fault]
+    B -->|block_activate| C[Alloc Block]
+    C --> D[Migrate CPU→GPU]
+    D -->|block_access| E[Block Resident]
+    E -->|memory pressure| F[evict_prepare]
+    F --> G[Select Victim]
+    G --> H[Migrate GPU→CPU]
+    H --> I[Free Block]
+    I -.->|reuse| C
+```
+
+</div>
+
+</div>
+
+---
+
 # Challenge: GPU Driver Wasn't Designed for This
 
 <div class="text-lg mt-4">
