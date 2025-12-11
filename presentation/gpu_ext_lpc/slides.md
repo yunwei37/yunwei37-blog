@@ -377,7 +377,7 @@ Need to extend eBPF to GPU device contexts
 
 **Running eBPF on GPU Device (bpftime)**
 
-- SIMT-aware verification
+- SIMT-aware
 - Compile eBPF to PTX/SPIR-V
 - Device-side hooks and helpers
 - Cross-layer eBPF Maps
@@ -413,39 +413,9 @@ Extending Linux GPU Driver with eBPF
 ### Our Approach
 
 - Treat GPU memory placement as a **programmable cache** (like cache_ext)
-- Policy can reorder eviction list, kernel retains final authority
-
-</div>
-
----
-
-# gpu_ext Architecture
-
-<div class="grid grid-cols-2 gap-6">
-
-<div>
-
-<img src="/gpu-ebpf-arch.png" class="rounded shadow-lg" style="max-height: 350px;" alt="gpu_ext Architecture" />
-
-</div>
-
-<div class="text-lg">
-
-### Components
-
-- **User-space Control Plane**: Standard eBPF toolchain (clang/libbpf, bpftool)
-
-- **Kernel Verifier**: Extended with GPU-specific struct_ops
-
-- **Driver Hooks**: Memory and scheduling attach points
-
-### Key Design
-
-- Handlers return decisions, kernel executes
 - Policy can reorder but not remove from eviction list
-- Kernel enforces safety and correctness
-
-</div>
+- Kernel enforces safety and correctness and retains final authority
+- implemented as struct_ops
 
 </div>
 
@@ -458,46 +428,63 @@ Extending Linux GPU Driver with eBPF
 <div>
 
 ```c
-// Host-side policy handlers for GPU memory
-struct gdrv_mem_ops {
-  // Region created or eligible for device placement
-  int (*region_add)(gdrv_mem_add_ctx_t *ctx);
+struct gpu_mem_ops {
+  // Eviction hooks (2MB block granularity)
+  // Called when block added to eviction list
+  // Trigger: first alloc from block, becomes evictable
+  int (*gpu_block_activate)(pmm, block, list);
+  // Called when any page in block is accessed
+  // Trigger: page fault on va_block mapped to this block
+  int (*gpu_block_access)(pmm, block, list);
+  // Called before selecting victim for eviction
+  // Trigger: memory pressure, need to free blocks
+  // Can: reorder used/unused lists
+  int (*gpu_evict_prepare)(pmm,
+    block_used_list, block_unused_list);
 
-  // Memory subsystem observes region use
-  int (*region_access)(gdrv_mem_access_ctx_t *ctx);
-
-  // Region about to leave device-resident set
-  int (*region_remove)(gdrv_mem_remove_ctx_t *ctx);
-
-  // Safe points for prefetch decisions
-  int (*prefetch)(gdrv_mem_prefetch_ctx_t *ctx);
+  // Prefetch hooks (page granularity)
+  // Called before computing prefetch region
+  // Trigger: after page fault handled
+  // Can: set result_region directly (BYPASS)
+  //      or enter tree iteration (ENTER_LOOP)
+  int (*gpu_page_prefetch)(page_index, bitmap_tree,
+    max_prefetch_region, result_region);
+  // Called on each level of bitmap tree traversal
+  // Can: expand/shrink prefetch_region
+  int (*gpu_page_prefetch_iter)(bitmap_tree,
+    max_region, current_region, counter,
+    prefetch_region);
 };
-
-// kfuncs: reorder regions in eviction list
-bool gdrv_mem_list_insert_head(list, region);
-bool gdrv_mem_list_insert_tail(list, region);
+// kfuncs
+void bpf_gpu_block_move_head(block, list);
+void bpf_gpu_block_move_tail(block, list);
+void bpf_gpu_set_prefetch_region(region, first, outer);
 ```
 
 </div>
 
 <div class="text-base">
 
-### Treat GPU Memory as Programmable Cache
+### Eviction Hooks
 
-- **region_add**: Region creation
-- **region_access**: Memory access observed
-- **region_remove**: Region eviction
-- **prefetch**: Prefetch opportunity
+- **gpu_block_activate**: Block becomes device-resident
+- **gpu_block_access**: Track access for LFU
+- **gpu_evict_prepare**: Reorder victim list
+
+### Prefetch Hooks (page granularity)
+
+- **gpu_page_prefetch**: Set prefetch region
+- **gpu_page_prefetch_iter**: Custom tree traversal
 
 ### Implementable Policies
 
-- LRU, LFU, workload-aware eviction
-- Stride prefetch
-- Application-specific hints
+- LFU, workload-aware eviction
+- Stride / sequential prefetch
+- Per-process memory priority
 
 ### Safety
 
-- Kernel retains final authority under memory pressure
+- Policy reorders list, kernel picks final victim
 
 </div>
 
@@ -512,40 +499,52 @@ bool gdrv_mem_list_insert_tail(list, region);
 <div>
 
 ```c
-// Host-side policy handlers for GPU scheduling
-struct gdrv_sched_ops {
-  // Hardware queue creation
-  // Set priority/timeslice, return 0 to accept
-  int (*queue_create)(gsched_queue_ctx_t *ctx);
+struct gpu_sched_ops {
+  // Called when task group is created
+  // Trigger: cuCtxCreate / cudaSetDevice
+  // Can: set timeslice, interleave level
+  // Ctx: tsg_id, engine_type, default_timeslice
+  int (*task_init)(struct gpu_task_init_ctx *ctx);
 
-  // Hardware queue destruction; cleanup policy
-  void (*queue_destroy)(gsched_queue_ctx_t *ctx);
+  // Called when task group binds to runlist
+  // Trigger: first kernel launch (one-time)
+  // Can: admission control (reject bind)
+  // Ctx: tsg_id, channel_count, timeslice_us
+  int (*task_bind)(struct gpu_task_bind_ctx *ctx);
+
+  // Called when task group is destroyed
+  // Trigger: cuCtxDestroy / process exit
+  // Can: cleanup BPF map state
+  int (*task_destroy)(struct gpu_task_ctx *ctx);
 };
 
-// kfunc: trigger cooperative preemption
-bool gdrv_sched_preempt(gdrv_preempt_ctx_t *ctx);
+// kfuncs
+void bpf_gpu_set_timeslice(ctx, u64 us);
+void bpf_gpu_set_interleave(ctx, u32 level);
+void bpf_gpu_reject_bind(ctx);
 ```
 
 </div>
 
 <div class="text-base">
 
-### Control GPU Queue Lifecycle & Priority
+### Control Task Group Lifecycle
 
-- **queue_create**: Set priority/timeslice
-- **queue_destroy**: Cleanup
+- **task_init**: Set scheduling params at creation
+- **task_bind**: Admission control before HW binding
+- **task_destroy**: Cleanup per-task state
 
 ### Policy Can Set
 
-- Queue priority
-- Timeslice duration
-- Runlist interleaving frequency
+- Timeslice (1s for LC, 200μs for BE)
+- Interleave level (LOW/MED/HIGH priority)
+- Accept/reject task binding
 
 ### Use Cases
 
-- LC vs BE differentiation
-- Multi-tenant fairness
-- Real-time preemption
+- LC vs BE differentiation by process name
+- Multi-tenant fairness / isolation
+- Overload protection
 
 </div>
 
@@ -1304,6 +1303,38 @@ Device eBPF observes access patterns → Cross-layer Map → Host eBPF makes evi
 2. **Safety first**: Kernel retains final authority
 3. **Match the model**: Don't fight SIMT, embrace it
 4. **Relaxed consistency is OK**: For policy decisions
+
+</div>
+
+---
+
+# gpu_ext Architecture
+
+<div class="grid grid-cols-2 gap-6">
+
+<div>
+
+<img src="/gpu-ebpf-arch.png" class="rounded shadow-lg" style="max-height: 350px;" alt="gpu_ext Architecture" />
+
+</div>
+
+<div class="text-lg">
+
+### Components
+
+- **User-space Control Plane**: Standard eBPF toolchain (clang/libbpf, bpftool)
+
+- **Kernel Verifier**: Extended with GPU-specific struct_ops
+
+- **Driver Hooks**: Memory and scheduling attach points
+
+### Key Design
+
+- Handlers return decisions, kernel executes
+- Policy can reorder but not remove from eviction list
+- Kernel enforces safety and correctness
+
+</div>
 
 </div>
 
