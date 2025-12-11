@@ -284,17 +284,26 @@
   - GPU JIT基础设施约10 KLOC
   - LLVM PTX后端约1 KLOC
 
-#### 页22：Device eBPF用例
-- **Block调度**：
-  - Setup：GEMM workload，跨thread block负载不均
-  - 三种策略：FixedWork、Greedy、LatencyBudget
-  - 关键发现：没有单一策略占优，可编程性重要
+#### 页22：Device eBPF用例 - 观测工具
+- **kernelretsnoop**：线程完成时间分布
+  - 在kernel退出点挂GPU kretprobe
+  - 每线程记录：thread_idx + globaltimer
+  - 可诊断：warp divergence、边界条件、内存访问模式
 
-- **低开销可观测性**：
-  - kernelretsnoop：per-block时间戳，8% vs NVBit 85%
-  - threadhist：负载不均检测，3% vs NVBit 87%
-  - launchlate：kernel启动延迟，14% vs NVBit 93%
-  - **3-10x更低开销**，因为warp-uniform执行
+- **threadhist**：线程执行次数直方图
+  - per-thread array map计数
+  - 可诊断：grid-stride loop边界、负载不均、launch配置错误
+
+- **launchlate**：Launch延迟分析
+  - CPU侧uprobe记录T1，GPU侧kprobe记录T2
+  - 延迟 = T2 - T1
+  - 可诊断：小kernel启动开销、context switch、PCIe拥塞
+
+- **SM/Warp/Lane映射**：
+  - bpf_get_sm_id() / bpf_get_warp_id() / bpf_get_lane_id()
+  - 可诊断：SM负载不均、Warp占用率
+
+- **开销对比**：3-14% vs NVBit 85%+，因为warp-uniform执行
 
 ---
 
@@ -305,21 +314,45 @@
 - Cross-Layer Coordination
 
 #### 页24：跨层eBPF Map
-- **问题**：
-  - Host和device异步操作
-  - 不同内存层次
-  - 需要共享策略状态
+- **为什么需要设备本地Map**：
+  - 如果每次map访问都跨PCIe访问host内存：
+  - GPU本地访问：~100ns
+  - 跨PCIe访问：~40μs
+  - **相差400倍！** 大量线程并发访问会严重影响性能
 
-- **方案：层次化Map**：
-  - 逻辑：单一key-value存储
-  - 物理：跨host DRAM、GPU全局内存、SM本地存储的分片
+- **GPU Map类型设计**：
+  | Map类型 | 适用场景 | 示例 |
+  |---------|---------|------|
+  | Per-thread Array | 每线程的计数/指标 | threadhist |
+  | GPU Ringbuf | 向host上报事件 | kernelretsnoop |
+  | 共享Map | 低频全局配置 | 策略配置下发 |
+
+- **GPU端Helper**：
+  ```c
+  u32 idx = bpf_get_thread_idx();    // 线程索引
+  u64 ts = bpf_get_globaltimer();    // 纳秒级时间戳
+  u32 sm_id = bpf_get_sm_id();       // SM硬件ID
+  u32 warp_id = bpf_get_warp_id();   // Warp ID
+  bpf_prefetch_l2(addr);             // L2预取
+  bpf_map_update_elem(&map, &key, &val, BPF_ANY);
+  ```
+
+- **Map放置策略**：
+  | 位置 | 优势 | 劣势 |
+  |-----|-----|-----|
+  | CPU DRAM | Host访问方便 | PCIe延迟高 |
+  | GPU HBM | GPU访问快 | 占用显存 |
+  | Shared Memory | 最低延迟 | 容量小、作用域受限 |
+
+- **设计原则**：
+  - **热状态**（更新频繁）：放GPU本地，按epoch向host汇总
+  - **冷数据**（低频配置）：放host DRAM，GPU偶尔读一次
+  - **高频双向**：分层map + 批量同步
 
 - **一致性模型**：
   - 松弛、最终一致性
   - GPU本地分片在同步点合并
-  - 基于快照的聚合
   - 陈旧影响最优性，不影响正确性
-  - 内存完整性由驱动/MMU保证
 
 #### 页25：示例 - 协调内存策略
 - 图示：Device eBPF观察访问模式 → 跨层Map → Host eBPF做淘汰/预取决策
