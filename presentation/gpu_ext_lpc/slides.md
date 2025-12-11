@@ -455,34 +455,42 @@ flowchart TD
 
 <div>
 
-### Address Spaces
-- **VA Block**: Virtual address range (cudaMallocManaged)
-- **Block**: Physical memory block on GPU (2MB)
-- **Residency**: Where data lives (CPU ↔ GPU)
+### Key Concepts
+- **Unified Memory**: CPU & GPU share virtual address space
+- **VA Block**: Virtual address range (cudaMallocManaged unit)
+- **Block**: Physical memory block (2MB), allocation unit
+- **Replayable Fault**: GPU pauses warp, driver migrates data, GPU replays
 
-### Why eBPF Here?
-- Custom eviction policy (LFU, workload-aware)
-- Prefetch based on access patterns
-- Per-process memory QoS
+### Page Fault Handling
+```mermaid
+flowchart TD
+    A[GPU Warp Access] -->|unmapped| B[Warp Paused]
+    B --> C[Fault Buffer]
+    C --> D[Driver: Alloc/Migrate]
+    D -->|gpu_page_prefetch| E[Prefetch Neighbors]
+    E --> F[Replay → Warp Resumes]
+```
 
 </div>
 
 <div>
 
-### Page Fault & Eviction Lifecycle
-
+### Chunk-VABlock Mapping Lifecycle
 ```mermaid
 flowchart TD
-    A[GPU Access] -->|unmapped| B[Page Fault]
-    B -->|block_activate| C[Alloc Block]
-    C --> D[Migrate CPU→GPU]
-    D -->|block_access| E[Block Resident]
-    E -->|memory pressure| F[evict_prepare]
-    F --> G[Select Victim]
-    G --> H[Migrate GPU→CPU]
-    H --> I[Free Block]
-    I -.->|reuse| C
+    A[Alloc Chunk] -->|block_activate| B[In Eviction List]
+    B -->|block_access| C[VA Block References Chunk]
+    C -->|more VA blocks| C
+    C -->|memory pressure| D[evict_prepare]
+    D --> E[Select Victim]
+    E --> F[Evict: Migrate GPU→CPU]
+    F -.->|reuse| A
 ```
+
+### Why eBPF Here?
+- Custom eviction: reorder victim list (LFU, etc.)
+- Prefetch: control prefetch region size
+- Per-process memory QoS
 
 </div>
 
