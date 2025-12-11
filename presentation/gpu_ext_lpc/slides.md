@@ -51,23 +51,24 @@ eunomia-bpf community
 - Existing Solutions & Limitations
 
 ### Insight
-- Why GPU needs an extensible OS policy interface
+- GPU needs an extensible OS policy interface
 
 </div>
 
 <div>
 
 ### Our Exploration
-1. **gpu_ext**: Extending GPU Driver with eBPF
-   - Memory & Scheduling Interfaces
-   - Use Cases
 
-2. **Device eBPF**: Running eBPF on GPU (bpftime)
-   - SIMT-aware Verification
+**gpu_ext**: Extending GPU Driver with eBPF
+   - Memory & Scheduling Interfaces for control
+
+**Device eBPF**: Running eBPF on GPU (bpftime)
+   - SIMT-aware
    - Observability Tools
+   - Prefetch & Schedule (experimental)
 
-3. **Cross-layer Coordination**
-   - eBPF Maps & Helpers
+**Cross-layer Coordination**
+   - Cross Device eBPF Maps
 
 </div>
 
@@ -240,86 +241,63 @@ eunomia-bpf community
 
 ---
 
-# The Problem: Static Policies vs Diverse Workloads
+# The Problem & Existing Solutions
 
 <div class="grid grid-cols-2 gap-6">
 
 <div>
 
-### GPU Driver: One-Size-Fits-All
+### The Problem of Stack
 
-- **Memory**: LRU eviction, tree-based prefetch
-- **Scheduling**: Round-robin, fixed timeslice
-- **No workload awareness**
+**User-space Runtime** (closed-source)
 
-</div>
+**GPU Driver** (partially open-source)
+- One-Size-Fits-All policies
+- Memory: LRU eviction, tree-based prefetch
+- Scheduling: Round-robin, fixed timeslice
 
-<div class="text-sm">
+**Vendor Firmware** (closed-source, black box)
 
-### Why It's Hard
-
-- **User-space**: Application-bound, no cross-tenant visibility, no driver access
-- **Driver mods**: Static, hard to deploy, stability risks
-- **Device profilers**: Read-only, high overhead
-- **Host eBPF**: GPU is black box
-
-<div class="mt-4 p-2 bg-red-50 rounded border-l-4 border-red-500">
-
-**Gap**: No safe, dynamic, cross-layer programmability for GPU resource management
+**Applications & Device Code**
+- Diverse workloads, diverse access patterns
 
 </div>
 
-</div>
+<div>
 
-</div>
+### Existing Solutions Fall Short
 
----
+<div class="border-l-4 border-blue-500 pl-2 mb-2">
 
-# Existing Solutions & Their Tradeoffs
-
-<div class="grid grid-cols-2 gap-6 text-base">
-
-<div class="border-2 border-blue-400 rounded-lg p-4">
-
-<div class="font-semibold text-blue-600 mb-2">User-space Runtimes</div>
-vLLM, Paella, XSched...
-
+**User-space Runtimes** (vLLM, Paella, XSched)
 - Application-bound, requires code changes
-- No cross-tenant visibility
-- Cannot access driver mechanisms (page fault handler)
+- No cross-tenant visibility, cannot access driver
 
 </div>
 
-<div class="border-2 border-green-400 rounded-lg p-4">
+<div class="border-l-4 border-green-500 pl-2 mb-2">
 
-<div class="font-semibold text-green-600 mb-2">Driver Modifications</div>
-TimeGraph, Gdev, GPreempt...
-
-- Has control but policies are static
-- Kernel modifications, hard to deploy
+**Driver Modifications** (TimeGraph, Gdev, GPreempt)
+- Policies are static, hard to deploy
 - Vendor-specific, stability risks
 
 </div>
 
-<div class="border-2 border-orange-400 rounded-lg p-4">
+<div class="border-l-4 border-orange-500 pl-2 mb-2">
 
-<div class="font-semibold text-orange-600 mb-2">Device Profilers</div>
-NVBit, Neutrino, CUPTI...
-
-- Good visibility but **read-only**, cannot execute policies
-- Isolated from driver layer
+**Device Profilers** (NVBit, Neutrino, CUPTI)
+- Read-only, cannot execute policies
 - High overhead (NVBit: 85%+)
 
 </div>
 
-<div class="border-2 border-purple-400 rounded-lg p-4">
+<div class="border-l-4 border-purple-500 pl-2 mb-2">
 
-<div class="font-semibold text-purple-600 mb-2">Host eBPF</div>
-sched_ext, etc...
+**Host eBPF** (sched_ext)
+- GPU remains a black box
+- No programmable hooks in GPU driver
 
-- Effective for CPU scheduling
-- But GPU remains a **black box**: cannot observe device events
-- GPU driver has no programmable hooks
+</div>
 
 </div>
 
