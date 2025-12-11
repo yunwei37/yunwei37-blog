@@ -254,7 +254,7 @@ eunomia-bpf community
 - Memory: LRU eviction, tree-based prefetch
 - Scheduling: Round-robin, fixed timeslice
 
-> Bad policies make people want **kernel bypass** (e.g. UVM offer transparency, but they try to manage memory themselves)
+> Bad and blackbox policies make people want **kernel bypass** (e.g. UVM offer transparency, but they try to manage memory themselves)
 
 **Vendor Firmware** (closed-source, black box)
 
