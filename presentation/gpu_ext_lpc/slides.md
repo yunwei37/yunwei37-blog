@@ -5,7 +5,6 @@ info: |
   ## Extending eBPF to GPU Device and Driver Contexts
   Linux Plumbers Conference 2025 - eBPF Track
 class: text-center
-coverDate: Linux Plumbers Conference 2025 - eBPF Track
 drawings:
   persist: false
 transition: fade
@@ -16,9 +15,9 @@ colorSchema: light
 
 <div class="text-center">
 
-<div class="text-5xl leading-relaxed">Extending eBPF to GPU Device and Driver Contexts</div>
+<div class="text-4xl font-bold leading-relaxed">Extending eBPF to GPU Device and Driver Contexts</div>
 
-<div class="mt-8 text-xl">
+<div class="mt-6 text-lg">
 Yusheng Zheng, Tong Yu
 </div>
 
@@ -28,7 +27,7 @@ eunomia-bpf community
 
 </div>
 
-<div class="abs-br m-4 mb-8 flex flex-col items-end gap-3">
+<div class="abs-tr m-4 flex flex-col items-end gap-3">
   <div class="flex items-center gap-3">
     <img src="/eunomia-logo.png" class="h-8" alt="eunomia-bpf" />
     <a href="https://github.com/eunomia-bpf/bpftime" class="text-sm opacity-70">github.com/eunomia-bpf/bpftime</a>
@@ -37,104 +36,238 @@ eunomia-bpf community
 
 ---
 
-# GPU Software Stack Architecture
+# Agenda
 
-<div class="grid grid-cols-3 gap-4 text-base">
+<div class="grid grid-cols-2 gap-8 mt-4">
 
-<div class="border-2 border-blue-400 rounded-lg p-3">
+<div>
 
-### User Space
-Applications & Runtimes
+### Background
+- GPU Stack Overview
+- Workload Diversity
 
-- PyTorch, vLLM, TensorRT
-- CUDA Runtime, cuDNN
-- Communicates via ioctl/mmap
-- **Rich semantic info** (network structure, latency constraints)
+### The Problem
+- Static Policies vs Diverse Workloads
+- Existing Solutions & Limitations
 
-</div>
-
-<div class="border-2 border-green-500 rounded-lg p-3">
-
-### Kernel Driver
-GPU's "OS Component"
-
-- Manages MMU, interrupts, scheduling
-- Controls privileged hardware mechanisms
-- **One-size-fits-all policies**:
-  - LRU page eviction
-  - Round-robin scheduling
-  - Fixed prefetch strategy
+### Insight
+- Why GPU needs an extensible OS policy interface
 
 </div>
 
-<div class="border-2 border-orange-400 rounded-lg p-3">
+<div>
 
-### Device Execution
-GPU Kernel & Firmware
+### Our Exploration
+1. **gpu_ext**: Extending GPU Driver with eBPF
+   - Memory & Scheduling Interfaces
+   - Use Cases
 
-- User-defined compute code
-- Vendor firmware: proprietary, closed-source
-- Hardware scheduler: warp granularity
-- **Opaque to host**
+2. **Device eBPF**: Running eBPF on GPU (bpftime)
+   - SIMT-aware Verification
+   - Observability Tools
+
+3. **Cross-layer Coordination**
+   - eBPF Maps & Helpers
 
 </div>
-
-</div>
-
-<div class="mt-4 p-3 bg-blue-50 rounded border-l-4 border-blue-500 text-lg">
-
-**Key Observation**: The driver layer is the **only position** that can see all applications and control hardware mechanisms
 
 </div>
 
 ---
 
-# GPU Resource Management Challenges
+# Background: GPU Stack Overview
 
-<div class="grid grid-cols-3 gap-4 text-base">
+<div class="grid grid-cols-2 gap-6">
 
-<div class="border-l-4 border-blue-500 pl-3">
+<div class="flex-1 flex flex-col items-center justify-center">
 
-### C1: Limited GPU Memory
+<!-- GPU Stack Architecture Diagram -->
+<div class="w-full">
 
-- GPU memory expensive & limited (RTX 5090: 32GB)
-- Large models exceed VRAM:
-  - LLM KV-cache: linear with sequence length
-  - MoE Expert: GPT-OSS-120B has 59GiB params
-- UVM allows transparent offload to CPU memory
-- **Problem**: Default LRU doesn't fit all workloads
-  - Prefill: sequential stride → needs prefetch
-  - Decode: sparse random → needs LFU
+<!-- User Space Layer - Multiple Apps with CUDA inside -->
+<div class="text-sm font-bold text-blue-700 mb-1">User Space</div>
+<div class="grid grid-cols-4 gap-1">
+<div class="border-2 border-blue-400 rounded p-1 bg-blue-50 text-center">
+<div class="text-xs font-semibold">vLLM</div>
+<div class="border border-purple-400 rounded px-1 bg-purple-100 text-xs text-purple-600 mt-1">CUDA</div>
+</div>
+<div class="border-2 border-blue-400 rounded p-1 bg-blue-50 text-center">
+<div class="text-xs font-semibold">PyTorch</div>
+<div class="border border-purple-400 rounded px-1 bg-purple-100 text-xs text-purple-600 mt-1">CUDA</div>
+</div>
+<div class="border-2 border-blue-400 rounded p-1 bg-blue-50 text-center">
+<div class="text-xs font-semibold">Faiss</div>
+<div class="border border-purple-400 rounded px-1 bg-purple-100 text-xs text-purple-600 mt-1">CUDA</div>
+</div>
+<div class="border-2 border-blue-400 rounded p-1 bg-blue-50 text-center">
+<div class="text-xs font-semibold">TensorRT</div>
+<div class="border border-purple-400 rounded px-1 bg-purple-100 text-xs text-purple-600 mt-1">CUDA</div>
+</div>
+</div>
+
+<div class="flex justify-center my-2">
+<div class="text-gray-400 text-sm">↓ ioctl / mmap ↓</div>
+</div>
+
+<!-- Kernel Driver Layer -->
+<div class="border-2 border-green-500 rounded-lg p-2 bg-green-50">
+<div class="text-sm font-bold text-green-700 text-center mb-1">Kernel Driver</div>
+<div class="grid grid-cols-3 gap-1">
+<div class="border border-green-400 rounded p-1 bg-white text-center text-xs">UVM</div>
+<div class="border border-green-400 rounded p-1 bg-white text-center text-xs">Channel</div>
+<div class="border border-green-400 rounded p-1 bg-white text-center text-xs">MMU</div>
+</div>
+</div>
+
+<!-- CPU/GPU Boundary -->
+<div class="flex items-center my-2 gap-2">
+<div class="text-xs text-gray-500 font-semibold -mt-4">CPU ↑</div>
+<div class="flex-1 border-t-2 border-dashed border-gray-400"></div>
+<div class="text-gray-500 text-xs px-2 bg-white">PCIe / NVLink</div>
+<div class="flex-1 border-t-2 border-dashed border-gray-400"></div>
+<div class="text-xs text-gray-500 font-semibold -mb-4">↓ GPU</div>
+</div>
+
+<!-- Device Layer -->
+<div class="border-2 border-orange-500 rounded-lg p-2 bg-orange-50">
+<div class="text-sm font-bold text-orange-700 text-center mb-1">GPU Device</div>
+<!-- Firmware + Scheduler -->
+<div class="grid grid-cols-2 gap-1 mb-1">
+<div class="border border-orange-400 rounded p-1 bg-white text-center text-xs">Firmware</div>
+<div class="border border-orange-400 rounded p-1 bg-white text-center text-xs">HW Scheduler</div>
+</div>
+<!-- SMs -->
+<div class="border border-orange-400 rounded p-1 bg-white mb-1">
+<div class="text-xs text-center text-orange-600 mb-1">Streaming Multiprocessors (SMs)</div>
+<div class="grid grid-cols-4 gap-1">
+<div class="border border-orange-300 rounded px-1 bg-orange-50 text-center text-xs">SM0</div>
+<div class="border border-orange-300 rounded px-1 bg-orange-50 text-center text-xs">SM1</div>
+<div class="border border-orange-300 rounded px-1 bg-orange-50 text-center text-xs">...</div>
+<div class="border border-orange-300 rounded px-1 bg-orange-50 text-center text-xs">SMn</div>
+</div>
+</div>
+<!-- Memory -->
+<div class="grid grid-cols-2 gap-1">
+<div class="border border-orange-400 rounded p-1 bg-white text-center text-xs">HBM / VRAM</div>
+<div class="border border-orange-400 rounded p-1 bg-white text-center text-xs">L2 Cache</div>
+</div>
+</div>
 
 </div>
 
-<div class="border-l-4 border-green-500 pl-3">
+</div>
 
-### C2: Multi-tenant Scheduling
+<div>
 
-- Datacenter GPUs shared by multiple tenants
-- Conflicting requirements:
-  - **LC**: LLM inference, low P99 latency
-  - **BE**: Training, high throughput
-- Existing solutions insufficient:
-  - MIG: fixed partitions
-  - Time-slice: no priority
-  - User-space: no cross-process coordination
-- **Problem**: Lack fine-grained preemption
+### User Space
+- Applications: vLLM, PyTorch, Faiss, TensorRT...
+- Runtime: CUDA, cuDNN, cuBLAS
+- Rich semantic info (model structure, SLOs)
+
+### Kernel Driver
+- GPU's "OS component"
+- Memory management (UVM, page tables)
+- Scheduling (channels, TSG)
+
+### GPU Device
+- User-defined GPU kernels
+- Vendor firmware (proprietary)
+- Hardware: SMs, Warps, HBM
 
 </div>
 
-<div class="border-l-4 border-orange-500 pl-3">
+</div>
 
-### C3: Workload Diversity
+---
 
-- Different access patterns:
-  - Faiss Build: sequential scan
-  - Faiss Query: random access
-  - LLM Prefill: periodic sequential
-  - LLM Decode: sparse random
-- SM load imbalance: 127x observed
-- **No one-size-fits-all policy**
+# Background: Workload Diversity
+
+<div class="grid grid-cols-2 gap-4">
+
+<div>
+
+<div class="flex flex-col gap-2">
+<div class="flex items-center gap-2">
+<div class="text-xs font-semibold w-20">Faiss Build</div>
+<img src="/patterns/build-pattern.png" class="rounded shadow" style="height: 70px; flex: 1;" />
+<div class="text-xs text-blue-600 w-16">Sequential</div>
+</div>
+<div class="flex items-center gap-2">
+<div class="text-xs font-semibold w-20">Faiss Query</div>
+<img src="/patterns/query-pattern.png" class="rounded shadow" style="height: 70px; flex: 1;" />
+<div class="text-xs text-orange-600 w-16">Random</div>
+</div>
+<div class="flex items-center gap-2">
+<div class="text-xs font-semibold w-20">LLM Prefill</div>
+<img src="/patterns/prefill-pattern.png" class="rounded shadow" style="height: 70px; flex: 1;" />
+<div class="text-xs text-blue-600 w-16">Stride</div>
+</div>
+<div class="flex items-center gap-2">
+<div class="text-xs font-semibold w-20">LLM Decode</div>
+<img src="/patterns/decode-pattern.png" class="rounded shadow" style="height: 70px; flex: 1;" />
+<div class="text-xs text-orange-600 w-16">Sparse</div>
+</div>
+<div class="flex items-center gap-2">
+<div class="text-xs font-semibold w-20">PyTorch DNN</div>
+<img src="/patterns/dnn.png" class="rounded shadow" style="height: 70px; flex: 1;" />
+<div class="text-xs text-green-600 w-16">Periodic</div>
+</div>
+</div>
+
+</div>
+
+<div>
+
+### Diverse Resource & Behavior
+
+- **Compute-bound** vs **Memory-bound**
+- Different access patterns → different optimal policies
+
+### Memory Placement / Offloading
+
+- HBM expensive & limited (RTX 5090: 32GB)
+- Models/Dataset exceed VRAM: MoE 59GiB, KV-cache grows
+
+### Multi-tenancy Scheduling
+
+- **LC**: LLM inference, needs low P99 latency
+- **BE**: Training, needs high throughput
+- Conflicts: memory competition, compute interference
+
+</div>
+
+</div>
+
+---
+
+# The Problem: Static Policies vs Diverse Workloads
+
+<div class="grid grid-cols-2 gap-6">
+
+<div>
+
+### GPU Driver: One-Size-Fits-All
+
+- **Memory**: LRU eviction, tree-based prefetch
+- **Scheduling**: Round-robin, fixed timeslice
+- **No workload awareness**
+
+</div>
+
+<div class="text-sm">
+
+### Why It's Hard
+
+- **User-space**: Application-bound, no cross-tenant visibility, no driver access
+- **Driver mods**: Static, hard to deploy, stability risks
+- **Device profilers**: Read-only, high overhead
+- **Host eBPF**: GPU is black box
+
+<div class="mt-4 p-2 bg-red-50 rounded border-l-4 border-red-500">
+
+**Gap**: No safe, dynamic, cross-layer programmability for GPU resource management
+
+</div>
 
 </div>
 
@@ -307,7 +440,7 @@ Extending Linux GPU Driver with eBPF
 
 <div>
 
-<img src="/arch-gpu-ext.png" class="rounded shadow-lg" style="max-height: 350px;" alt="gpu_ext Architecture" />
+<img src="/gpu-ebpf-arch.png" class="rounded shadow-lg" style="max-height: 350px;" alt="gpu_ext Architecture" />
 
 </div>
 
@@ -494,7 +627,7 @@ bool gdrv_sched_preempt(gdrv_preempt_ctx_t *ctx);
 
 <div>
 
-<img src="/llama-expert-offload.png" class="rounded shadow-lg" alt="LLM Expert Offloading Results" />
+<img src="/llama_uvm_combined_color.png" class="rounded shadow-lg" alt="LLM Expert Offloading Results" />
 
 </div>
 
@@ -531,6 +664,30 @@ bool gdrv_sched_preempt(gdrv_preempt_ctx_t *ctx);
 **Results**: Total completion time improved **55-92%**
 
 </div>
+
+</div>
+
+---
+
+# Multi-tenant Evaluation Results
+
+<div class="grid grid-cols-2 gap-4">
+
+<div class="text-center">
+<img src="/scheduler_latency_throughput.pdf" class="mx-auto rounded shadow-lg" style="max-height: 200px;" />
+<div class="text-sm mt-1">Scheduling: LC P99 reduced **96%**, BE throughput unchanged</div>
+</div>
+
+<div class="text-center">
+<img src="/all_kernels_stacked.pdf" class="mx-auto rounded shadow-lg" style="max-height: 200px;" />
+<div class="text-sm mt-1">Memory policy: **55-92%** improvement; scheduler <1%</div>
+</div>
+
+</div>
+
+<div class="mt-4 p-3 bg-blue-50 rounded text-base">
+
+**Key Insight**: For memory-bound workloads, scheduling policies are ineffective (<1%). Need **memory policies** to address UVM page faults and PCIe bandwidth bottlenecks.
 
 </div>
 
@@ -586,9 +743,9 @@ Key difference: GPU threads in a warp must follow the same control flow path, or
 
 # What Can Device eBPF Do?
 
-<div class="grid grid-cols-2 gap-6 text-lg">
+<div class="grid grid-cols-2 gap-6">
 
-<div>
+<div class="text-base">
 
 ### Fine-grained Profiling
 
@@ -602,24 +759,26 @@ Key difference: GPU threads in a warp must follow the same control flow path, or
 - Dynamic policy adjustment
 - Real-time decision making
 
-</div>
-
-<div>
-
-### Block Scheduling
-
-- Cross-SM work-stealing
-- Load balancing decisions
-
-### Memory Hints
-
-- Device-side prefetch triggering
-- Access pattern prediction
-
 ### Complement Host-side Policies
 
 - Provide device visibility to host
 - Cross-layer coordination
+
+</div>
+
+<div>
+
+### SM Load Imbalance Problem
+
+<img src="/thread_scheduling_motivation.png" class="rounded shadow-lg" style="max-height: 160px;" />
+
+**127x** difference observed between SMs
+
+### Device eBPF Can Help
+
+- **Block Scheduling**: Cross-SM work-stealing
+- **Memory Hints**: Device-side prefetch triggering
+- **Load Balancing**: Runtime decisions based on SM state
 
 </div>
 
@@ -633,7 +792,7 @@ Key difference: GPU threads in a warp must follow the same control flow path, or
 
 <div>
 
-<img src="/arch-device-ebpf.png" class="rounded shadow-lg" style="max-height: 350px;" alt="Device eBPF Architecture" />
+<img src="/gpu-ebpf-arch.png" class="rounded shadow-lg" style="max-height: 350px;" alt="Device eBPF Architecture" />
 
 </div>
 
@@ -905,6 +1064,30 @@ bpf_map_update_elem(&map, &key, &val, BPF_ANY);
 
 ---
 
+# Device-side Overhead: gBPF vs eGPU-style
+
+<div class="text-center">
+<img src="/microbench_comparison.pdf" class="mx-auto rounded shadow-lg" style="max-height: 300px;" />
+</div>
+
+<div class="grid grid-cols-2 gap-6 mt-4 text-base">
+
+<div class="border-l-4 border-green-500 pl-3">
+
+**(a) GPU-side Operations**: gBPF's SIMT-aware warp-level execution reduces overhead by **60-81%** compared to eGPU-style naive injection
+
+</div>
+
+<div class="border-l-4 border-red-500 pl-3">
+
+**(b) CPU Map via PCIe**: **34ms** latency - 6000x slower than GPU-side operations, motivating hierarchical map design
+
+</div>
+
+</div>
+
+---
+
 # Design Principles for Cross-Layer Maps
 
 <div class="grid grid-cols-2 gap-6 text-lg">
@@ -1001,6 +1184,50 @@ Device eBPF observes access patterns → Cross-layer Map → Host eBPF makes evi
 - AMD ROCm support via HIP runtime
 - Intel GPU support via Level Zero
 - Standardized interfaces where possible
+
+</div>
+
+</div>
+
+---
+
+# Policy Building Blocks & Observability Tools
+
+<div class="grid grid-cols-2 gap-4 text-sm">
+
+<div>
+
+### Policy Building Blocks (LOC)
+
+| Policy | Domain | LOC |
+|--------|--------|-----|
+| Global FIFO Eviction | Host | 145 |
+| Global LFU Eviction | Host | 304 |
+| Multi-tenant Quota LRU | Host | 472 |
+| Adaptive Seq. Prefetch | Host | 375 |
+| Stride Prefetch | Host | 472 |
+| GPU L2 Stride Prefetch | Device | 45 |
+| Dynamic Timeslice | Host | 408 |
+| Preemption Control | Host | 925 |
+| MaxSteals (CLC) | Device | 19 |
+
+</div>
+
+<div>
+
+### Observability Tools Overhead
+
+| Tool | LOC | gBPF | NVBit |
+|------|-----|------|-------|
+| kernelretsnoop | 153 | **8%** | 85% |
+| threadhist | 89 | **3%** | 87% |
+| launchlate | 347 | **14%** | 93% |
+
+<div class="mt-4 p-2 bg-green-50 rounded text-base">
+
+**Key**: gBPF's warp-uniform execution achieves **3-14%** overhead vs NVBit's **85-93%**
+
+</div>
 
 </div>
 
