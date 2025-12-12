@@ -543,7 +543,9 @@ void bpf_gpu_set_prefetch_region(region, first, outer);
 
 ### Implementable Policies
 
-- LFU, workload-aware eviction
+The default policy is LRU + tree-based prefetching
+
+- LFU, MRU, FIFO eviction
 - Stride / sequential prefetch
 - Per-process memory priority
 
@@ -613,7 +615,7 @@ void bpf_gpu_reject_bind(ctx);
 
 ---
 
-# Implementation: Extending NVIDIA Open GPU Modules
+# Implementation: Extending NVIDIA Open GPU Modules (POC)
 
 <div class="grid grid-cols-2 gap-6 text-base">
 
@@ -640,96 +642,51 @@ void bpf_gpu_reject_bind(ctx);
 
 </div>
 
----
+<div class="mt-4 p-3 bg-gray-100 rounded text-sm">
 
-# Use Case: LLM Expert Offloading
-
-<div class="grid grid-cols-2 gap-6">
-
-<div class="text-base">
-
-### Setup
-
-- GPT-OSS-120B MoE (59 GiB)
-- RTX 5090 (32GB) - **1.84x oversubscription**
-
-### eBPF Policy Insight
-
-- **Prefill**: stride pattern → stride prefetch
-- **Decode**: temporal locality → LFU eviction
-- Page-level granularity, not expert-level
-
-### Results
-
-- **4.8x decode speedup** vs framework offload
-- No application modifications needed
-- UVM alone worse than framework offload
-
-</div>
-
-<div>
-
-<img src="/llama_uvm_combined_color.png" class="rounded shadow-lg" alt="LLM Expert Offloading Results" />
-
-</div>
+**POC Code**: [github.com/eunomia-bpf/gpu_ext_policy](https://github.com/eunomia-bpf/gpu_ext_policy) (eBPF policies) | [github.com/eunomia-bpf/gpu_ext-kernel-modules](https://github.com/eunomia-bpf/gpu_ext-kernel-modules) (kernel modules)
 
 </div>
 
 ---
 
-# Use Case: Multi-tenant Scheduling & Memory Priority
+# Use Cases Summary
 
-<div class="grid grid-cols-2 gap-6 text-base">
+<div class="grid grid-cols-2 gap-4 text-sm">
 
-<div class="border-2 border-blue-400 rounded-lg p-4">
+<div class="border-2 border-blue-400 rounded-lg p-3">
 
-### Multi-tenant Scheduling
+### Single Application
 
-**Setup**: 2 LC + 4 BE processes, compute-intensive
+| Workload | Policy | Speedup |
+|----------|--------|---------|
+| LLM Expert (llama.cpp) | Sequential prefetch + LFU eviction | **~4x** decode speedup vs default framework offloading |
+| KV-cache (vLLM) | LFU eviction + stride prefetch | **~1.5x** less TTFT vs default framework offloading, close to LMCache|
 
-**Policy**: LC 1s timeslice, BE 200μs timeslice
-
-**Results**:
-- LC P99 latency reduced **95%**
-- Variance reduced **99%**
-
-</div>
-
-<div class="border-2 border-green-400 rounded-lg p-4">
-
-### Memory Priority Differentiation
-
-**Setup**: Two processes competing for GPU memory, UVM oversubscribed
-
-**Key Insight**: Memory-intensive workloads need memory policy, scheduling policy ineffective (<1%)
-
-**Results**: Total completion time improved **55-92%**
+**Key**: 1) Hardware faster / sofware algorithm old -> Need to do more prefetching 2) Tree-based prefetch not optimal for LLM
 
 </div>
 
-</div>
+<div class="border-2 border-green-400 rounded-lg p-3">
 
----
+### Multi-Process
 
-# Multi-tenant Evaluation Results
+| Scenario | Policy | Improvement |
+|----------|--------|-------------|
+| LC+BE Scheduling | LC 1s / BE 200μs timeslice | **95%** P99 ↓ |
+| Memory Priority | HP more prefetch and eviction protection, LP less | **55-92%** time ↓ |
 
-<div class="grid grid-cols-2 gap-4">
+**Key**: Default policy does not allow different process has different behavior: we can have priority.
+-  Compute-bound → Scheduling; 
+- Memory-bound → Memory policy
 
-<div class="text-center">
-<img src="/scheduler_latency.png" class="mx-auto rounded shadow-lg" style="max-height: 200px;" />
-<div class="text-sm mt-1">Scheduling: LC P99 reduced **96%**, BE throughput unchanged</div>
-</div>
-
-<div class="text-center">
-<img src="/memory_results.png" class="mx-auto rounded shadow-lg" style="max-height: 200px;" />
-<div class="text-sm mt-1">Memory policy: **55-92%** improvement; scheduler <1%</div>
 </div>
 
 </div>
 
 <div class="mt-4 p-3 bg-blue-50 rounded text-base">
 
-**Key Insight**: For memory-bound workloads, scheduling policies are ineffective (<1%). Need **memory policies** to address UVM page faults and PCIe bandwidth bottlenecks.
+**All use cases**: No application modifications needed
 
 </div>
 
