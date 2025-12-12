@@ -377,9 +377,9 @@ Need to extend eBPF to GPU device contexts
 
 **Running eBPF on GPU Device (bpftime)**
 
-- SIMT-aware
 - Compile eBPF to PTX/SPIR-V
 - Device-side hooks and helpers
+- Inject into GPU kernels via dynamic instrumentation
 - Cross-layer eBPF Maps
 
 </div>
@@ -423,7 +423,6 @@ Extending Linux GPU Driver with eBPF
 ### Why eBPF Here?
 - Differentiate LC vs BE workloads at task creation
 - Admission control before binding to hardware
-- No application modification needed
 
 </div>
 
@@ -431,17 +430,7 @@ Extending Linux GPU Driver with eBPF
 
 ### Task Group Lifecycle
 
-```mermaid
-flowchart TD
-    A[cuCtxCreate] -->|task_init| B[Create TSG]
-    B --> C[First Kernel Launch]
-    C -->|task_bind| D[Bind to Runlist]
-    D --> E[HW Scheduler Runs]
-    E --> F[Kernel Launches bypass driver]
-    F --> E
-    E --> G[cuCtxDestroy]
-    G -->|task_destroy| H[Cleanup]
-```
+<img src="/mermaid-sched.png" class="rounded" style="max-height: 280px;" />
 
 </div>
 
@@ -462,30 +451,16 @@ flowchart TD
 - **Replayable Fault**: GPU pauses warp, driver migrates data, GPU replays
 
 ### Page Fault Handling
-```mermaid
-flowchart TD
-    A[GPU Warp Access] -->|unmapped| B[Warp Paused]
-    B --> C[Fault Buffer]
-    C --> D[Driver: Alloc/Migrate]
-    D -->|gpu_page_prefetch| E[Prefetch Neighbors]
-    E --> F[Replay → Warp Resumes]
-```
+
+<img src="/pagefault.png" class="rounded" style="max-height: 200px;" />
 
 </div>
 
 <div>
 
 ### Chunk-VABlock Mapping Lifecycle
-```mermaid
-flowchart TD
-    A[Alloc Chunk] -->|block_activate| B[In Eviction List]
-    B -->|block_access| C[VA Block References Chunk]
-    C -->|more VA blocks| C
-    C -->|memory pressure| D[evict_prepare]
-    D --> E[Select Victim]
-    E --> F[Evict: Migrate GPU→CPU]
-    F -.->|reuse| A
-```
+
+<img src="/chunk.png" class="rounded" style="max-height: 220px;" />
 
 ### Why eBPF Here?
 - Custom eviction: reorder victim list (LFU, etc.)
@@ -526,7 +501,7 @@ flowchart TD
 
 <div class="grid grid-cols-2 gap-4">
 
-<div>
+<div class="text-xs overflow-y-auto" style="max-height: 420px;">
 
 ```c
 struct gpu_mem_ops {
@@ -542,15 +517,6 @@ struct gpu_mem_ops {
   // Can: reorder used/unused lists
   int (*gpu_evict_prepare)(pmm,
     block_used_list, block_unused_list);
-  ...
-```
-
-</div>
-
-<div class="text-base">
-
-```c
-  ...
   // Prefetch hooks (page granularity)
   // Called before computing prefetch region
   // Trigger: after page fault handled
@@ -569,6 +535,11 @@ void bpf_gpu_block_move_head(block, list);
 void bpf_gpu_block_move_tail(block, list);
 void bpf_gpu_set_prefetch_region(region, first, outer);
 ```
+
+</div>
+
+<div class="text-base">
+
 ### Implementable Policies
 
 - LFU, workload-aware eviction
@@ -589,7 +560,7 @@ void bpf_gpu_set_prefetch_region(region, first, outer);
 
 <div class="grid grid-cols-2 gap-4">
 
-<div>
+<div class="text-xs overflow-y-auto" style="max-height: 400px;">
 
 ```c
 struct gpu_sched_ops {
@@ -610,18 +581,15 @@ struct gpu_sched_ops {
   // Can: cleanup BPF map state
   int (*task_destroy)(struct gpu_task_ctx *ctx);
 };
-```
-
-</div>
-
-<div class="text-base">
-
-```c
 // kfuncs
 void bpf_gpu_set_timeslice(ctx, u64 us);
 void bpf_gpu_set_interleave(ctx, u32 level);
 void bpf_gpu_reject_bind(ctx);
 ```
+
+</div>
+
+<div class="text-base">
 
 ### Policy Can Set
 
