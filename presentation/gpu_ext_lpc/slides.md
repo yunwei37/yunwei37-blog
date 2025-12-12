@@ -987,6 +987,8 @@ CUPTI shows kernel "started" quickly, but it's slow. Why?
 
 </div>
 
+Improved 60-80% performance for probes and helpers.
+
 </div>
 
 ---
