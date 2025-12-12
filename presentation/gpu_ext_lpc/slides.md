@@ -812,32 +812,31 @@ Traced by [bpftime/gpu/threadscheduling](https://github.com/eunomia-bpf/bpftime/
 
 ---
 
-# Device eBPF Architecture
+# bpftime Architecture (With GPU)
 
-<div class="grid grid-cols-2 gap-6">
+<div class="flex justify-center">
 
-<div>
-
-<img src="/gpu-ebpf-arch.png" class="rounded shadow-lg" style="max-height: 350px;" alt="Device eBPF Architecture" />
+<img src="/bpftime.png" class="rounded shadow-lg" style="max-height: 420px;" alt="Device eBPF Architecture" />
 
 </div>
 
-<div class="text-lg">
+---
 
-### Pipeline
+# Instrumentation: Fatbin Hook & PTX Injection
 
-1. **eBPF Bytecode**: Standard clang/LLVM toolchain
-2. **LLVM Pass**: eBPF → PTX/SPIR-V conversion
-3. **PTX Injection**: Inject into target kernel
+<div class="flex justify-center">
 
-### Key Techniques
-
-- Intercept CUDA runtime API (Frida)
-- **PTX modification pass**: Inject eBPF into kernel PTX
-- Helper trampolines in GPU memory
-- No recompilation or restart needed
+<img src="/fatbin.jpg" class="rounded shadow-lg" style="max-height: 420px;" alt="Fatbin Hook and PTX Injection" />
 
 </div>
+
+---
+
+# PTX Injection: Patching & Wrapping
+
+<div class="flex justify-center">
+
+<img src="/injection.png" class="rounded shadow-lg" style="max-height: 420px;" alt="PTX Injection Details" />
 
 </div>
 
