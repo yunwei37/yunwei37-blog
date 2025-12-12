@@ -30,7 +30,7 @@ eunomia-bpf community
 <div class="abs-tr m-4 flex flex-col items-end gap-3">
   <div class="flex items-center gap-3">
     <img src="/eunomia-logo.png" class="h-8" alt="eunomia-bpf" />
-    <a href="https://github.com/eunomia-bpf/bpftime" class="text-sm opacity-70">github.com/eunomia-bpf/bpftime</a>
+    <a href="https://github.com/eunomia-bpf" class="text-sm opacity-70">github.com/eunomia-bpf</a>
   </div>
 </div>
 
@@ -772,7 +772,7 @@ Thread → Warp (32) → Block → Grid → SM
 
 ---
 
-# What Can Device eBPF Do?
+# What Can GPU eBPF Do?
 
 <div class="grid grid-cols-2 gap-6">
 
@@ -805,6 +805,55 @@ Thread → Warp (32) → Block → Grid → SM
 **127x** difference observed between SMs
 
 Traced by [bpftime/gpu/threadscheduling](https://github.com/eunomia-bpf/bpftime/tree/master/example/gpu/threadscheduling)
+
+</div>
+
+</div>
+
+---
+
+# bpftime GPU Support: Maps, Helpers, Attach Types
+
+<div class="grid grid-cols-3 gap-3 text-xs">
+
+<div class="border rounded p-2">
+
+### Attach Types (3)
+
+- `CUDA_PROBE` (entry)
+- `CUDA_RETPROBE` (exit)
+- `__memcapture` (ld/st)
+
+</div>
+
+<div class="border rounded p-2">
+
+### GPU Maps (5)
+
+- `PERGPUTD_ARRAY`
+- `GPU_ARRAY`
+- `GPU_HASH`
+- `GPU_RINGBUF`
+- `GPU_KERNEL_SHARED`
+
+</div>
+
+<div class="border rounded p-2">
+
+### GPU Helpers (15+)
+
+- `ebpf_puts` (501)
+- `get_globaltimer` (502)
+- `get_block_idx` (503)
+- `get_block_dim` (504)
+- `get_thread_idx` (505)
+- `membar_sys` (506)
+- `exit` (507)
+- `get_grid_dim` (508)
+- `get_sm_id` (509)
+- `get_warp_id` (510)
+- `get_lane_id` (511)
+- + standard BPF helpers
 
 </div>
 
