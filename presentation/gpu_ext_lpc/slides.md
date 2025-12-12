@@ -521,15 +521,8 @@ struct gpu_mem_ops {
   // Prefetch hooks (page granularity)
   // Called before computing prefetch region
   // Trigger: after page fault handled
-  // Can: set result_region directly (BYPASS)
-  //      or enter tree iteration (ENTER_LOOP)
   int (*gpu_page_prefetch)(page_index, bitmap_tree,
     max_prefetch_region, result_region);
-  // Called on each level of bitmap tree traversal
-  // Can: expand/shrink prefetch_region
-  int (*gpu_page_prefetch_iter)(bitmap_tree,
-    max_region, current_region, counter,
-    prefetch_region);
 };
 // kfuncs
 void bpf_gpu_block_move_head(block, list);
@@ -541,13 +534,13 @@ void bpf_gpu_set_prefetch_region(region, first, outer);
 
 <div class="text-sm">
 
-### Implementable Policies
+### Implemented Policies
 
 The default policy is LRU + tree-based prefetching
 
 - LFU, MRU, FIFO eviction
 - Stride / sequential prefetch
-- Per-process memory priority
+- Per-process memory priority based on PID
 
 ### Safety: Programmable Cache Model
 
@@ -663,7 +656,7 @@ void bpf_gpu_reject_bind(ctx);
 | LLM Expert (llama.cpp) | Sequential prefetch + LFU eviction | **~4x** decode speedup vs default framework offloading |
 | KV-cache (vLLM) | LFU eviction + stride prefetch | **~1.5x** less TTFT vs default framework offloading, close to LMCache|
 
-**Key**: 1) Hardware faster / sofware algorithm old -> Need to do more prefetching 2) Tree-based prefetch not optimal for LLM
+**Key**: 1) Hardware faster / sofware algorithm old -> Need to do more prefetching 2) Tree-based prefetch not optimal for LLM/ML
 
 </div>
 
@@ -791,7 +784,7 @@ Thread → Warp (32) → Block → Grid → SM
 
 ### Complement Host-side Policies
 
-- Provide device visibility to host
+- Provide device visibility/controlility to host
 - Cross-layer coordination
 
 </div>
@@ -820,6 +813,9 @@ Traced by [bpftime/gpu/threadscheduling](https://github.com/eunomia-bpf/bpftime/
 
 ### Attach Types (3)
 
+User can define a compiler pass to define any
+hook points at instruction level, e.g.:
+
 - `CUDA_PROBE` (entry)
 - `CUDA_RETPROBE` (exit)
 - `__memcapture` (ld/st)
@@ -836,24 +832,25 @@ Traced by [bpftime/gpu/threadscheduling](https://github.com/eunomia-bpf/bpftime/
 - `GPU_RINGBUF`
 - `GPU_KERNEL_SHARED`
 
+(Can use all userspace CPU maps with high cost)
+
 </div>
 
 <div class="border rounded p-2">
 
 ### GPU Helpers (15+)
 
-- `ebpf_puts` (501)
-- `get_globaltimer` (502)
-- `get_block_idx` (503)
-- `get_block_dim` (504)
-- `get_thread_idx` (505)
-- `membar_sys` (506)
-- `exit` (507)
-- `get_grid_dim` (508)
-- `get_sm_id` (509)
-- `get_warp_id` (510)
-- `get_lane_id` (511)
-- + standard BPF helpers
+- `ebpf_puts`
+- `get_globaltimer`
+- `get_block_idx`
+- `get_block_dim`
+- `get_thread_idx`
+- `exit`
+- `get_grid_dim`
+- `get_sm_id`
+- `get_warp_id`
+- `get_lane_id`
+- + standard userspace BPF helpers (high cost)
 
 </div>
 
@@ -990,6 +987,8 @@ CUPTI shows kernel "started" quickly, but it's slow. Why?
 
 <div class="flex justify-center">
 
+Tested on a P40 GPU with llama.cpp inference.
+
 <div class="text-base">
 
 | Tool | LOC | bpftime | NVBit |
@@ -1012,6 +1011,19 @@ CUPTI shows kernel "started" quickly, but it's slow. Why?
 layout: center
 class: text-center
 ---
+
+# Problems & Next Steps
+
+Why not extend HMM or DRM?
+
+- Nvidia cuda computing is bypass the DRM.
+- HMM is like a interface, mechaism is still in driver.
+
+The design is portable:
+- POC in SPIR-v
+- ARM also has similar feature set.
+
+More standard API for all GPU drivers?
 
 # Thanks & Questions
 
