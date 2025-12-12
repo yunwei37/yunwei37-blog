@@ -992,15 +992,6 @@ bpf_get_lane_id() // Lane ID
 </div>
 
 ---
-layout: center
-class: text-center
----
-
-# Putting It Together
-
-Cross-Layer Coordination
-
----
 
 # Cross-Layer eBPF Maps
 
