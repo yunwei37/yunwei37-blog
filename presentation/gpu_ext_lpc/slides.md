@@ -404,7 +404,6 @@ Extending Linux GPU Driver with eBPF
 <div>
 
 ### Key Concepts
-
 - **Channel**: Command queue (per CUDA stream)
 - **Task Group (TSG)**: Scheduling unit, groups channels
 - **Runlist**: HW scheduler's queue of TSGs
@@ -417,17 +416,21 @@ Extending Linux GPU Driver with eBPF
 - **Kernel launch bypasses driver** - userspace writes pushbuffer + doorbell via MMIO
 - **Driver only sees TSG lifecycle** - create, bind, destroy
 
-### Scheduling Parameters
-- **Timeslice**: Time before preemption (1s LC / 200μs BE)
-- **Interleave Level**: Priority (LOW/MED/HIGH)
-
 </div>
 
-<div class="flex flex-col items-center">
+<div class="row-span-2 flex flex-col items-center">
 
 ### Task Group Lifecycle
 
-<img src="/mermaid-sched.png" class="rounded" style="max-height: 340px;" />
+<img src="/mermaid-sched.png" class="rounded" style="max-height: 320px;" />
+
+</div>
+
+<div class="col-span-2">
+
+### Scheduling Parameters
+- **Timeslice**: Time before preemption (1s LC / 200μs BE)
+- **Interleave Level**: Priority (LOW/MED/HIGH)
 
 </div>
 
@@ -622,19 +625,16 @@ void bpf_gpu_reject_bind(ctx);
 - Page fault handler hooks
 - Prefetch logic hooks
 - TSG lifecycle event hooks
-- Uses Linux eBPF verifier + GPU-specific struct_ops/kfunc via BTF
 
 </div>
 
 <div class="border-l-4 border-green-500 pl-4">
 
-### Safety Model
+### Driver Independence
 
-- Handlers return decisions, kernel executes
-- Policy can reorder eviction list
-- Kernel retains final authority
-- Cannot corrupt device state
-- **Same trust model as sched_ext**
+- ~1000 lines eBPF framework integration
+- Uses Linux eBPF verifier + GPU-specific struct_ops/kfunc via BTF
+- (May be **extracted** as standalone module)
 
 </div>
 
