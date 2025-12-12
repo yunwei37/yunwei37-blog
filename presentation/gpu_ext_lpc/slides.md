@@ -701,7 +701,7 @@ Running eBPF on GPU Device (bpftime)
 
 ---
 
-# GPU Execution Model Background (for Kernel Developers)
+# GPU Execution Model Background
 
 <div class="grid grid-cols-2 gap-6">
 
@@ -736,6 +736,42 @@ Thread → Warp (32) → Block → Grid → SM
 
 ---
 
+# GPU Memory Hierarchy
+
+<div class="grid grid-cols-2 gap-4">
+
+<div class="flex justify-center">
+
+<img src="/gpu memory.png" class="rounded shadow-lg" style="max-height: 220px;" />
+
+</div>
+
+<div class="text-sm">
+
+### Memory Levels
+
+| Level | Speed | Capacity | Scope |
+|-------|-------|----------|-------|
+| Registers | Fastest | KB | Per-thread |
+| Shared Mem | Fast | 48-164KB | Per-block |
+| L1 Cache | Fast | 128KB | Per-SM |
+| L2 Cache | Medium | MBs | Global |
+| DRAM/HBM | Slow | GBs | Global |
+
+</div>
+
+</div>
+
+<div class="mt-4 p-3 bg-gray-100 rounded text-sm">
+
+- **Coalesced access**: Consecutive accesses merged into single transaction
+- **Bank conflict**: Shared memory contention causes serialization
+- **Cache miss**: Determines actual memory latency (L2 miss → HBM access ~400 cycles)
+
+</div>
+
+---
+
 # What Can Device eBPF Do?
 
 <div class="grid grid-cols-2 gap-6">
@@ -762,7 +798,7 @@ Thread → Warp (32) → Block → Grid → SM
 
 <div>
 
-### SM Load Imbalance Trace
+### e.g. SM Load Imbalance Trace
 
 <img src="/sm thread sched.png" class="rounded shadow-lg" style="max-height: 240px;" />
 
@@ -1088,81 +1124,6 @@ bpf_map_update_elem(&map, &key, &val, BPF_ANY);
 - Relaxed, eventual consistency
 - GPU local shards merge at sync points
 - **Staleness affects optimality, not correctness**
-
-</div>
-
-</div>
-
----
-
-# Example: Coordinated Memory Policy
-
-<div class="grid grid-cols-2 gap-6 text-base">
-
-<div class="border-2 border-blue-400 rounded-lg p-4">
-
-### GPU Device Side
-
-- Detect stride patterns in prefill
-- Track per-region access frequency
-- Call `gdev_mem_prefetch()` to predict regions
-- Update access counts in cross-layer map
-
-</div>
-
-<div class="border-2 border-green-400 rounded-lg p-4">
-
-### GPU Driver Side
-
-- Use device-provided access counts
-- Implement LFU instead of LRU
-- Reorder eviction list via kfunc
-- Make informed prefetch decisions
-
-</div>
-
-</div>
-
-<div class="mt-4 p-3 bg-gray-100 rounded text-center">
-
-Device eBPF observes access patterns → Cross-layer Map → Host eBPF makes eviction/prefetch decisions
-
-</div>
-
----
-
-# Portability Discussion
-
-<div class="grid grid-cols-2 gap-6 text-base">
-
-<div class="border-l-4 border-blue-500 pl-4">
-
-### Current Implementation
-
-- NVIDIA open GPU kernel modules
-- CUDA runtime interception
-- PTX code generation
-
-### Design Aligns with Linux Abstractions
-
-- **Host-side**: HMM / migrate_vma (AMD ROCm uses this), DRM scheduler's drm_sched_entity
-- **Device-side**: SPIR-V as vendor-neutral bytecode
-
-</div>
-
-<div class="border-l-4 border-orange-500 pl-4">
-
-### Portability Requires
-
-- Vendor-specific runtime support
-- Hardware tuning for each GPU architecture
-- Upstream driver modifications (if pursuing)
-
-### Future Directions
-
-- AMD ROCm support via HIP runtime
-- Intel GPU support via Level Zero
-- Standardized interfaces where possible
 
 </div>
 
