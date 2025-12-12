@@ -397,75 +397,37 @@ Extending Linux GPU Driver with eBPF
 
 ---
 
-# Background: GPU Scheduling Concepts
+# GPU Scheduling Concepts
 
-<div class="grid grid-cols-2 gap-6">
-
-<div>
-
-### Task Group & Channel
-- **Channel**: Command submission queue (one per CUDA stream)
-- **Task Group (TSG)**: Scheduling unit, groups multiple channels
-- **Runlist**: Hardware scheduler's queue of task groups
-
-### Why TSG, Not GPU Kernels?
-- **Kernel launch bypasses driver** - userspace writes pushbuffer + doorbell directly via MMIO
-- **Driver only sees TSG lifecycle** - create, bind, destroy
-- **TSG = HW scheduler's unit** - direct control
-- **Works for all processes** - no app modification
-
-### Scheduling Parameters
-- **Timeslice**: How long a task group runs before preemption
-  - Long (1s): Low overhead, good for latency-critical
-  - Short (200μs): Fair sharing, better for throughput
-- **Interleave Level**: Priority in runlist (LOW/MED/HIGH)
-
-### Why eBPF Here?
-- Differentiate LC vs BE workloads at task creation
-- Admission control before binding to hardware
-
-</div>
-
-<div>
-
-### Task Group Lifecycle
-
-<img src="/mermaid-sched.png" class="rounded" style="max-height: 280px;" />
-
-</div>
-
-</div>
-
----
-
-# Background: GPU Memory Concepts
-
-<div class="grid grid-cols-2 gap-6">
+<div class="grid grid-cols-3 gap-4">
 
 <div>
 
 ### Key Concepts
-- **Unified Memory**: CPU & GPU share virtual address space
-- **VA Block**: Virtual address range (cudaMallocManaged unit)
-- **Block**: Physical memory block (2MB), allocation unit
-- **Replayable Fault**: GPU pauses warp, driver migrates data, GPU replays
 
-### Page Fault Handling
-
-<img src="/pagefault.png" class="rounded" style="max-height: 200px;" />
+- **Channel**: Command queue (per CUDA stream)
+- **Task Group (TSG)**: Scheduling unit, groups channels
+- **Runlist**: HW scheduler's queue of TSGs
 
 </div>
 
 <div>
 
-### Chunk-VABlock Mapping Lifecycle
+### Why TSG, Not GPU Kernels?
+- **Kernel launch bypasses driver** - userspace writes pushbuffer + doorbell via MMIO
+- **Driver only sees TSG lifecycle** - create, bind, destroy
 
-<img src="/chunk.png" class="rounded" style="max-height: 220px;" />
+### Scheduling Parameters
+- **Timeslice**: Time before preemption (1s LC / 200μs BE)
+- **Interleave Level**: Priority (LOW/MED/HIGH)
 
-### Why eBPF Here?
-- Custom eviction: reorder victim list (LFU, etc.)
-- Prefetch: control prefetch region size
-- Per-process memory QoS
+</div>
+
+<div class="flex flex-col items-center">
+
+### Task Group Lifecycle
+
+<img src="/mermaid-sched.png" class="rounded" style="max-height: 340px;" />
 
 </div>
 
@@ -473,25 +435,61 @@ Extending Linux GPU Driver with eBPF
 
 ---
 
-# Challenge: GPU Driver Wasn't Designed for This
+# GPU Memory Concepts
+
+<div class="grid grid-cols-3 gap-4">
+
+<div>
+
+### Key Concepts
+- **Unified Memory**: CPU & GPU share VA space
+- **VA Block**: Virtual address range
+- **Chunk**: Physical block (2MB)
+- **Replayable Fault**: Warp paused → driver migrates → replay
+
+</div>
+
+<div class="flex flex-col items-center">
+
+### Page Fault Handling
+
+<img src="/pagefault.png" class="rounded" style="max-height: 320px;" />
+
+</div>
+
+<div class="flex flex-col items-center">
+
+### Chunk-VABlock Lifecycle
+
+<img src="/chunk.png" class="rounded" style="max-height: 320px;" />
+
+</div>
+
+</div>
+
+---
+
+# Challenge: Expressiveness vs Safety
 
 <div class="text-lg mt-4">
 
-- Exposing low-level mechanisms has **stability risks**
-- GPU memory management and scheduling mechanisms are **complex** and require expressiveness
-- Need a **narrow, safe** interface
+GPU drivers were **not designed** to expose a programmable interface
 
+- **More Expressiveness** → Expose low-level mechanisms (page tables, command buffers)
+  - Risk driver safety and isolation
+
+- **More Safety** → Constrain to high-level abstractions
+  - Risk: limits complex memory/scheduling decisions
 
 </div>
 
 <div class="mt-6 p-4 bg-blue-50 rounded-lg">
 
-### Our Approach
+### Our Approach: Narrow, Safe Interface
 
-- Treat GPU memory placement as a **programmable cache** (like cache_ext)
-- Policy can reorder but not remove from eviction list
-- Kernel enforces safety and correctness and retains final authority
-- implemented as struct_ops
+- Policy **advises**, kernel **decides**
+- Expose **structured hooks**, not raw mechanisms; **Bounded operations** via kfuncs
+- Implemented as **struct_ops**
 
 </div>
 
@@ -538,7 +536,7 @@ void bpf_gpu_set_prefetch_region(region, first, outer);
 
 </div>
 
-<div class="text-base">
+<div class="text-sm">
 
 ### Implementable Policies
 
@@ -546,9 +544,12 @@ void bpf_gpu_set_prefetch_region(region, first, outer);
 - Stride / sequential prefetch
 - Per-process memory priority
 
-### Safety
+### Safety: Programmable Cache Model
 
-- Policy reorders list, kernel picks final victim
+- Policy can **reorder** eviction list, but **cannot remove**
+- Kernel picks final victim
+- kfuncs only allow **move_head/move_tail** operations
+- Prefetch policy sets region, kernel validates bounds
 
 </div>
 
@@ -589,7 +590,7 @@ void bpf_gpu_reject_bind(ctx);
 
 </div>
 
-<div class="text-base">
+<div class="text-sm">
 
 ### Policy Can Set
 
