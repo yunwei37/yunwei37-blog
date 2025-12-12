@@ -993,11 +993,7 @@ CUPTI shows kernel "started" quickly, but it's slow. Why?
 
 # Performance: Observability Tools Overhead
 
-<div class="flex justify-center">
-
 Tested on a P40 GPU with llama.cpp 1B inference.
-
-<div class="text-base">
 
 | Tool | LOC | bpftime | NVBit |
 |------|-----|---------|-------|
@@ -1005,15 +1001,7 @@ Tested on a P40 GPU with llama.cpp 1B inference.
 | threadhist | 89 | **3%** | 87% |
 | launchlate | 347 | **14%** | 93% |
 
-</div>
-
-</div>
-
-<div class="mt-6 p-3 bg-green-50 rounded text-center">
-
 **Key**: Warp-uniform execution achieves **3-14%** overhead vs NVBit's **85-93%**
-
-</div>
 
 ---
 
@@ -1032,9 +1020,7 @@ More standard API for all GPU drivers?
 
 Cgroups?
 
----
-layout: center
-class: text-center
+
 ---
 
 # Thanks & Questions
@@ -1048,5 +1034,7 @@ class: text-center
 **GPU eBPF (bpftime)**
 
 [github.com/eunomia-bpf/bpftime](https://github.com/eunomia-bpf/bpftime)
+
+Arxiv will be released soon.
 
 </div>
