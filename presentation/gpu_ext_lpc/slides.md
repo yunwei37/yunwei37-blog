@@ -874,19 +874,20 @@ int kprobe_exec() {
 
 ### Problem
 
-Kernels execute in 100μs each, but users report 50ms latency
+CUPTI shows kernel "started" quickly, but it's slow. Why?
+
+**Hidden issue**: Thread blocks competing for SMs with other kernels (multi-process, multi-stream)
+
+- **CUPTI sees**: Kernel start/end time (looks fine)
+- **Reality**: Many blocks waiting for SM resources
+- **bpftime**: Per-thread/warp scheduling timestamp inside kernel
 
 ### How It Works
 
 1. **CPU uprobe**: Record T1 at `cudaLaunchKernel()`
-2. **GPU kprobe**: Record T2 at kernel entry
-3. **Latency** = T2 - T1 (queue + scheduling delay)
+2. **GPU kprobe**: Record T2 **per-thread** at kernel entry
+3. See **when each thread gets scheduled**
 
-### Insights
-
-- 10-100μs → Normal scheduling overhead
-- 1-10ms spikes → Context switch / PCIe congestion
-- **Solution**: CUDA Graphs / kernel fusion
 
 [bpftime/gpu/launchlate](https://github.com/eunomia-bpf/bpftime/tree/master/example/gpu/launchlate)
 
@@ -920,7 +921,7 @@ Kernels execute in 100μs each, but users report 50ms latency
 
 **Problem**: PCIe latency ~40μs vs GPU local ~100ns (**400-1000x difference**)
 
-**Solution**: Verify once, place at runtime
+**Solution**: Logically Verify once, place at runtime
 
 | Data Type | Placement |
 |-----------|-----------|
