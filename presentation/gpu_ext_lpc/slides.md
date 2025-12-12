@@ -730,10 +730,6 @@ Thread → Warp (32) → Block → Grid → SM
 | Branch handling | Prediction | Serialization |
 | Preemption | Full | Limited |
 
-<div class="mt-4 p-2 bg-orange-50 rounded text-base">
-Key difference: GPU threads in a warp must follow the same control flow path, or performance degrades significantly
-</div>
-
 </div>
 
 </div>
@@ -755,8 +751,7 @@ Key difference: GPU threads in a warp must follow the same control flow path, or
 ### Runtime Adaptation
 
 - Respond to device state
-- Dynamic policy adjustment
-- Real-time decision making
+- Safe and Dynamic policy adjustment in GPU kernel
 
 ### Complement Host-side Policies
 
@@ -767,17 +762,13 @@ Key difference: GPU threads in a warp must follow the same control flow path, or
 
 <div>
 
-### SM Load Imbalance Problem
+### SM Load Imbalance Trace
 
-<img src="/thread_scheduling_motivation.png" class="rounded shadow-lg" style="max-height: 160px;" />
+<img src="/sm thread sched.png" class="rounded shadow-lg" style="max-height: 240px;" />
 
 **127x** difference observed between SMs
 
-### Device eBPF Can Help
-
-- **Block Scheduling**: Cross-SM work-stealing
-- **Memory Hints**: Device-side prefetch triggering
-- **Load Balancing**: Runtime decisions based on SM state
+Traced by [bpftime/gpu/threadscheduling](https://github.com/eunomia-bpf/bpftime/tree/master/example/gpu/threadscheduling)
 
 </div>
 
@@ -800,15 +791,15 @@ Key difference: GPU threads in a warp must follow the same control flow path, or
 ### Pipeline
 
 1. **eBPF Bytecode**: Standard clang/LLVM toolchain
-2. **SIMT-aware Verifier**: Warp uniformity checks
-3. **GPU JIT Backend**: Compile to PTX/SPIR-V
+2. **LLVM Pass**: eBPF → PTX/SPIR-V conversion
+3. **PTX Injection**: Inject into target kernel
 
 ### Key Techniques
 
-- Intercept CUDA runtime API
-- Rewrite kernel PTX with trampolines
-- No recompilation needed
-- No application restart needed
+- Intercept CUDA runtime API (Frida)
+- **PTX modification pass**: Inject eBPF into kernel PTX
+- Helper trampolines in GPU memory
+- No recompilation or restart needed
 
 </div>
 
@@ -925,17 +916,15 @@ Execute eBPF program **once per warp**, not per thread
 ### Pipeline
 
 1. Standard eBPF bytecode (clang)
-2. SIMT-aware verification pass
-3. LLVM backend → PTX/SPIR-V
-4. Dynamic binary instrumentation
-5. Inject trampolines into GPU kernel
+2. **LLVM PTX pass**: eBPF bytecode → PTX instructions
+3. **PTX modification**: Inject into target kernel PTX
+4. Helper trampolines via shared memory
 
 ### Key Techniques
 
-- Intercept CUDA runtime API
-- Rewrite kernel PTX with trampolines
-- No recompilation needed
-- No application restart needed
+- Hook CUDA runtime API (Frida-gum)
+- Rewrite kernel PTX at load time
+- Host-GPU communication via pinned memory + spinlock
 
 </div>
 
@@ -944,8 +933,8 @@ Execute eBPF program **once per warp**, not per thread
 ### Based on bpftime
 
 - Existing user-space eBPF runtime
-- GPU JIT infrastructure: ~10 KLOC
-- LLVM PTX backend: ~1 KLOC
+- GPU attach impl: `attach/nv_attach_impl/`
+- LLVM PTX backend + trampoline generation
 
 ### Overhead
 
