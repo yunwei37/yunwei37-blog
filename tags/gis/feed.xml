@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>云微的胡思乱想</title>
+      <link>https://www.yunwei37.com/blog</link>
+      <description>Personal Website of Yusheng Zheng | yunwei37</description>
+      <language>en-us</language>
+      <managingEditor>yunwei356@gmail.com (Yusheng Zheng)</managingEditor>
+      <webMaster>yunwei356@gmail.com (Yusheng Zheng)</webMaster>
+      <lastBuildDate>Tue, 30 May 2023 16:41:06 GMT</lastBuildDate>
+      <atom:link href="https://www.yunwei37.com/tags/gis/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.yunwei37.com/blog/bise</guid>
+    <title>毕业论文（设计）: 基于 WebAssembly 的云原生时空数据分析技术研究：以 GPlates 为例</title>
+    <link>https://www.yunwei37.com/blog/bise</link>
+    undefined
+    <pubDate>Tue, 30 May 2023 16:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>WebAssembly</category><category>GIS</category>
+  </item>
+
+    </channel>
+  </rss>

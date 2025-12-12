@@ -1,0 +1,44 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>云微的胡思乱想</title>
+      <link>https://www.yunwei37.com/blog</link>
+      <description>Personal Website of Yusheng Zheng | yunwei37</description>
+      <language>en-us</language>
+      <managingEditor>yunwei356@gmail.com (Yusheng Zheng)</managingEditor>
+      <webMaster>yunwei356@gmail.com (Yusheng Zheng)</webMaster>
+      <lastBuildDate>Wed, 27 Sep 2023 16:41:06 GMT</lastBuildDate>
+      <atom:link href="https://www.yunwei37.com/tags/ebpf/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.yunwei37.com/blog/ebpf-papers</guid>
+    <title>The Evolution and Impact of eBPF: A list of Key Research Papers from Recent Years</title>
+    <link>https://www.yunwei37.com/blog/ebpf-papers</link>
+    undefined
+    <pubDate>Wed, 27 Sep 2023 16:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category><category>ebpf</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/ebpf-security</guid>
+    <title>The Secure Path Forward for eBPF runtime: Challenges and Innovations</title>
+    <link>https://www.yunwei37.com/blog/ebpf-security</link>
+    undefined
+    <pubDate>Fri, 27 Oct 2023 16:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category><category>ebpf</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/ssl-uprobe</guid>
+    <title>eBPF Practical Tutorial: Capturing SSL/TLS Plain Text Data Using uprobe</title>
+    <link>https://www.yunwei37.com/blog/ssl-uprobe</link>
+    undefined
+    <pubDate>Wed, 14 Jun 2023 02:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>tutorial</category>
+  </item>
+
+    </channel>
+  </rss>
