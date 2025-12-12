@@ -47,7 +47,9 @@ eunomia-bpf community
 - Workload Diversity
 
 ### The Problem
+
 - Static Policies vs Diverse Workloads
+- Device Black Boxes
 - Existing Solutions & Limitations
 
 ### Insight
@@ -60,12 +62,11 @@ eunomia-bpf community
 ### Our Exploration
 
 **gpu_ext**: Extending GPU Driver with eBPF
-   - Memory & Scheduling Interfaces for control
+   - Memory & Scheduling struct_ops for resource management
 
-**Device eBPF**: Running eBPF on GPU (bpftime)
-   - SIMT-aware
-   - Observability Tools
-   - Prefetch & Schedule (experimental)
+**Device eBPF**: Offloading eBPF to GPU (bpftime)
+   - Observability Tools and probes
+   - Prefetch & Schedule (?)
 
 **Cross-layer Coordination**
    - Cross Device eBPF Maps
@@ -580,8 +581,8 @@ struct gpu_sched_ops {
   // Can: cleanup BPF map state
   int (*task_destroy)(struct gpu_task_ctx *ctx);
 };
-// kfuncs
-void bpf_gpu_set_timeslice(ctx, u64 us);
+// kfuncs to set timeslice, interleave level
+void bpf_gpu_set_attr(ctx, u64 us);
 void bpf_gpu_set_interleave(ctx, u32 level);
 void bpf_gpu_reject_bind(ctx);
 ```
@@ -955,7 +956,7 @@ CUPTI shows kernel "started" quickly, but it's slow. Why?
 
 **Solution**: Execute eBPF **once per warp** (32 threads), not per thread
 
-- Warp leader executes, broadcasts result
+- Warp leader executes, broadcasts result / updates maps
 - Reduces overhead by **60-81%** vs naive injection
 - Avoids divergence and deadlock risks
 
@@ -987,7 +988,7 @@ CUPTI shows kernel "started" quickly, but it's slow. Why?
 
 <div class="flex justify-center">
 
-Tested on a P40 GPU with llama.cpp inference.
+Tested on a P40 GPU with llama.cpp 1B inference.
 
 <div class="text-base">
 
@@ -1036,143 +1037,5 @@ More standard API for all GPU drivers?
 **GPU eBPF (bpftime)**
 
 [github.com/eunomia-bpf/bpftime](https://github.com/eunomia-bpf/bpftime)
-
-</div>
-
----
-
-# Backup: Open Questions & Discussion
-
-<div class="grid grid-cols-2 gap-4 text-base">
-
-<div class="border-2 border-blue-400 rounded-lg p-3">
-
-### Interface Design
-
-- Is struct_ops the right model for GPU?
-- What hooks are missing?
-- How to handle vendor differences?
-
-</div>
-
-<div class="border-2 border-green-400 rounded-lg p-3">
-
-### Integration
-
-- How to integrate with existing eBPF tools?
-- Correlation with CPU-side traces?
-- What user-space tools are needed?
-
-</div>
-
-<div class="border-2 border-orange-400 rounded-lg p-3">
-
-### Community & Upstream
-
-- Interest in upstream support?
-- Which parts are worth upstreaming?
-- How to collaborate with GPU vendors?
-
-</div>
-
-<div class="border-2 border-purple-400 rounded-lg p-3">
-
-### Use Cases
-
-- What workloads benefit most?
-- Multi-tenant GPU clusters?
-- Real-time/latency-sensitive scenarios?
-
-</div>
-
-</div>
-
----
-
-# Challenges & Lessons Learned
-
-<div class="grid grid-cols-2 gap-6 text-base">
-
-<div class="border-l-4 border-green-500 pl-4">
-
-### What Worked
-
-- eBPF's safety model transfers well
-- struct_ops provides clean interface
-- Warp-level execution reduces overhead
-- Cross-layer maps enable coordination
-
-</div>
-
-<div class="border-l-4 border-red-500 pl-4">
-
-### What Was Hard
-
-- GPU drivers are complex beasts
-- SIMT semantics need careful handling
-- Vendor differences are significant
-- Debugging device-side eBPF is painful
-
-</div>
-
-</div>
-
-<div class="mt-4 p-3 bg-blue-50 rounded text-base">
-
-### Lessons
-
-1. **Start narrow**: Minimal interface, extend later
-2. **Safety first**: Kernel retains final authority
-3. **Match the model**: Don't fight SIMT, embrace it
-4. **Relaxed consistency is OK**: For policy decisions
-
-</div>
-
----
-
-# gpu_ext Architecture
-
-<div class="grid grid-cols-2 gap-6">
-
-<div>
-
-<img src="/gpu-ebpf-arch.png" class="rounded shadow-lg" style="max-height: 350px;" alt="gpu_ext Architecture" />
-
-</div>
-
-<div class="text-lg">
-
-### Components
-
-- **User-space Control Plane**: Standard eBPF toolchain (clang/libbpf, bpftool)
-
-- **Kernel Verifier**: Extended with GPU-specific struct_ops
-
-- **Driver Hooks**: Memory and scheduling attach points
-
-### Key Design
-
-- Handlers return decisions, kernel executes
-- Policy can reorder but not remove from eviction list
-- Kernel enforces safety and correctness
-
-</div>
-
-</div>
-
----
-layout: center
-class: text-center
----
-
-# Thank You
-
-Questions & Discussion?
-
-<div class="mt-8 text-lg">
-
-bpftime: [github.com/eunomia-bpf/bpftime](https://github.com/eunomia-bpf/bpftime)
-
-GPU examples: [github.com/eunomia-bpf/bpftime/tree/master/example/gpu](https://github.com/eunomia-bpf/bpftime/tree/master/example/gpu)
 
 </div>
