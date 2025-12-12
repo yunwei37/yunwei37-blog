@@ -842,99 +842,53 @@ Traced by [bpftime/gpu/threadscheduling](https://github.com/eunomia-bpf/bpftime/
 
 ---
 
-# Device-side Attach Points
+# Example: launchlate - Kernel Launch Latency Profiler
 
 <div class="grid grid-cols-2 gap-4">
 
-<div>
+<div class="text-xs">
 
 ```c
-// Device-side memory handler interface
-struct gdev_mem_ops {
-    // Warp observed memory access
-    void (*access)(gdev_mem_access_ctx_t *ctx);
-    // Memory fence point
-    void (*fence)(gdev_mem_fence_ctx_t *ctx);
-};
+BPF_MAP_DEF(BPF_MAP_TYPE_ARRAY, launch_time);
 
-// Device-side helper
-int gdev_mem_prefetch(gmem_region_t* r);
+// CPU-side uprobe captures launch time
+SEC("uprobe/app:cudaLaunchKernel")
+int uprobe_launch(struct pt_regs *ctx) {
+    u64 ts_cpu = bpf_ktime_get_ns();
+    bpf_map_update_elem(&launch_time, &key, &ts_cpu, BPF_ANY);
+}
 
-// Device-side block scheduling handlers
-struct gdev_sched_ops {
-  void (*enter)(gdev_block_ctx_t *ctx);
-  void (*exit)(gdev_block_ctx_t *ctx);
-  void (*probe)(gdev_block_ctx_t *ctx);
-  void (*retprobe)(gdev_block_ctx_t *ctx);
-  bool (*should_try_steal)(gdev_block_ctx_t *ctx);
-};
+// GPU-side kprobe captures execution start
+SEC("kprobe/_Z9vectorAddPKfS0_Pf")
+int kprobe_exec() {
+    u64 ts_gpu = bpf_get_globaltimer();
+    u64 *ts_cpu = bpf_map_lookup_elem(&launch_time, &key);
+    u64 latency = ts_gpu - *ts_cpu;
+    // Update histogram...
+}
 ```
 
 </div>
 
-<div class="text-base">
+<div class="text-sm">
 
-### Memory Hooks
+### Problem
 
-- **access**: Warp observes memory access
-- **fence**: Memory fence point
-- **gdev_mem_prefetch**: Trigger host handler
+Kernels execute in 100μs each, but users report 50ms latency
 
-### Scheduling Hooks
+### How It Works
 
-- **enter/exit**: Worker block start/end
-- **probe/retprobe**: Device function entry/exit
-- **should_try_steal**: Work-stealing decision
+1. **CPU uprobe**: Record T1 at `cudaLaunchKernel()`
+2. **GPU kprobe**: Record T2 at kernel entry
+3. **Latency** = T2 - T1 (queue + scheduling delay)
 
-### Attach Points
+### Insights
 
-- Kernel entry/exit
-- Memory operations
-- Thread start/end
-- Function boundaries
+- 10-100μs → Normal scheduling overhead
+- 1-10ms spikes → Context switch / PCIe congestion
+- **Solution**: CUDA Graphs / kernel fusion
 
-</div>
-
-</div>
-
----
-
-# SIMT Challenge & Solution
-
-<div class="grid grid-cols-2 gap-6 text-base">
-
-<div class="border-l-4 border-red-500 pl-4">
-
-### CPU eBPF Assumes Scalar Execution
-
-- Single-threaded execution model
-- Branches are "free"
-- Memory access is per-thread
-
-### GPU SIMT is Different
-
-- 32 threads lockstep execution (warp)
-- Divergent branches → serialization
-- Non-uniform memory → uncoalesced access
-- **No isolation/recovery on device**
-
-</div>
-
-<div class="border-l-4 border-green-500 pl-4">
-
-### Safety Issues
-
-- **Warp Divergence**: Per-thread eBPF logic causes different paths
-- **Deadlock Risk**: GPU-wide barrier + divergent control flow
-
-### Performance Issues
-
-- **Memory Bandwidth**: Per-thread map access consumes bandwidth
-- GPU memory bandwidth is scarce resource
-
-### Solution: Warp-level Execution
-
-Execute eBPF program **once per warp**, not per thread
+[bpftime/gpu/launchlate](https://github.com/eunomia-bpf/bpftime/tree/master/example/gpu/launchlate)
 
 </div>
 
@@ -942,187 +896,39 @@ Execute eBPF program **once per warp**, not per thread
 
 ---
 
-# Implementation: bpftime GPU Backend
+# Optimizations
 
-<div class="grid grid-cols-2 gap-6 text-base">
-
-<div>
-
-### Pipeline
-
-1. Standard eBPF bytecode (clang)
-2. **LLVM PTX pass**: eBPF bytecode → PTX instructions
-3. **PTX modification**: Inject into target kernel PTX
-4. Helper trampolines via shared memory
-
-### Key Techniques
-
-- Hook CUDA runtime API (Frida-gum)
-- Rewrite kernel PTX at load time
-- Host-GPU communication via pinned memory + spinlock
-
-</div>
-
-<div>
-
-### Based on bpftime
-
-- Existing user-space eBPF runtime
-- GPU attach impl: `attach/nv_attach_impl/`
-- LLVM PTX backend + trampoline generation
-
-### Overhead
-
-- **3-14%** vs NVBit 85%+
-- Thanks to warp-uniform execution
-
-</div>
-
-</div>
-
----
-
-# Use Case: Observability Tools
-
-<div class="grid grid-cols-2 gap-4 text-base">
-
-<div>
-
-### kernelretsnoop
-
-Thread completion time distribution
-- Attach GPU kretprobe at kernel exit
-- Record per-thread: thread_idx + globaltimer
-- Diagnose: warp divergence, boundary conditions
-
-### threadhist
-
-Thread execution count histogram
-- Per-thread array map counting
-- Diagnose: grid-stride loop bounds, load imbalance
-
-</div>
-
-<div>
-
-### launchlate
-
-Launch latency analysis
-- CPU-side uprobe records T1
-- GPU-side kprobe records T2
-- Latency = T2 - T1
-- Diagnose: small kernel overhead, context switch, PCIe congestion
-
-### SM/Warp/Lane Mapping
-
-```c
-bpf_get_sm_id()   // SM hardware ID
-bpf_get_warp_id() // Warp ID
-bpf_get_lane_id() // Lane ID
-```
-- Diagnose: SM load imbalance, Warp occupancy
-
-</div>
-
-</div>
-
----
-
-# Cross-Layer eBPF Maps
-
-<div class="grid grid-cols-2 gap-4 text-base">
-
-<div>
-
-### Why Device-Local Maps?
-
-If every map access crosses PCIe to host memory:
-- GPU local access: **~100ns**
-- Cross-PCIe access: **~40μs**
-- **400x difference!**
-
-### GPU Map Types
-
-| Map Type | Use Case | Example |
-|----------|----------|---------|
-| Per-thread Array | Per-thread counters | threadhist |
-| GPU Ringbuf | Report events to host | kernelretsnoop |
-| Shared Map | Low-freq global config | Policy config |
-
-</div>
-
-<div>
-
-### GPU-side Helpers
-
-```c
-u32 idx = bpf_get_thread_idx();  // Thread index
-u64 ts = bpf_get_globaltimer();  // Nanosecond timestamp
-u32 sm_id = bpf_get_sm_id();     // SM hardware ID
-u32 warp_id = bpf_get_warp_id(); // Warp ID
-bpf_prefetch_l2(addr);           // L2 prefetch
-bpf_map_update_elem(&map, &key, &val, BPF_ANY);
-```
-
-### Map Placement Strategy
-
-| Location | Advantage | Disadvantage |
-|----------|-----------|--------------|
-| CPU DRAM | Host access easy | High PCIe latency |
-| GPU HBM | Fast GPU access | Uses VRAM |
-| Shared Mem | Lowest latency | Small, limited scope |
-
-</div>
-
-</div>
-
----
-
-# Device-side Overhead: gBPF vs eGPU-style
-
-<div class="text-center">
-<img src="/microbench_comparison.png" class="mx-auto rounded shadow-lg" style="max-height: 300px;" />
-</div>
-
-<div class="grid grid-cols-2 gap-6 mt-4 text-base">
-
-<div class="border-l-4 border-green-500 pl-3">
-
-**(a) GPU-side Operations**: gBPF's SIMT-aware warp-level execution reduces overhead by **60-81%** compared to eGPU-style naive injection
-
-</div>
-
-<div class="border-l-4 border-red-500 pl-3">
-
-**(b) CPU Map via PCIe**: **34ms** latency - 6000x slower than GPU-side operations, motivating hierarchical map design
-
-</div>
-
-</div>
-
----
-
-# Design Principles for Cross-Layer Maps
-
-<div class="grid grid-cols-2 gap-6 text-lg">
+<div class="grid grid-cols-2 gap-6 text-sm">
 
 <div class="border-l-4 border-blue-500 pl-4">
 
-### Placement Guidelines
+### Warp-level Execution
 
-- **Hot state** (frequent updates): GPU local, aggregate to host by epoch
-- **Cold data** (low-freq config): Host DRAM, GPU reads occasionally
-- **High-freq bidirectional**: Hierarchical maps + batch sync
+**Problem**: Per-thread eBPF causes warp divergence & bandwidth waste
+
+**Solution**: Execute eBPF **once per warp** (32 threads), not per thread
+
+- Warp leader executes, broadcasts result
+- Reduces overhead by **60-81%** vs naive injection
+- Avoids divergence and deadlock risks
 
 </div>
 
 <div class="border-l-4 border-green-500 pl-4">
 
-### Consistency Model
+### Hierarchical Map Placement
 
-- Relaxed, eventual consistency
-- GPU local shards merge at sync points
-- **Staleness affects optimality, not correctness**
+**Problem**: PCIe latency ~40μs vs GPU local ~100ns (**400-1000x difference**)
+
+**Solution**: Verify once, place at runtime
+
+| Data Type | Placement |
+|-----------|-----------|
+| Hot state (frequent) | GPU local, batch sync |
+| Cold config | Host DRAM |
+| Bidirectional | Hierarchical shards |
+
+- Relaxed consistency: staleness affects optimality, not correctness
 
 </div>
 
@@ -1130,51 +936,50 @@ bpf_map_update_elem(&map, &key, &val, BPF_ANY);
 
 ---
 
-# Policy Building Blocks & Observability Tools
+# Performance: Observability Tools Overhead
 
-<div class="grid grid-cols-2 gap-4 text-sm">
+<div class="flex justify-center">
 
-<div>
+<div class="text-base">
 
-### Policy Building Blocks (LOC)
-
-| Policy | Domain | LOC |
-|--------|--------|-----|
-| Global FIFO Eviction | Host | 145 |
-| Global LFU Eviction | Host | 304 |
-| Multi-tenant Quota LRU | Host | 472 |
-| Adaptive Seq. Prefetch | Host | 375 |
-| Stride Prefetch | Host | 472 |
-| GPU L2 Stride Prefetch | Device | 45 |
-| Dynamic Timeslice | Host | 408 |
-| Preemption Control | Host | 925 |
-| MaxSteals (CLC) | Device | 19 |
-
-</div>
-
-<div>
-
-### Observability Tools Overhead
-
-| Tool | LOC | gBPF | NVBit |
-|------|-----|------|-------|
+| Tool | LOC | bpftime | NVBit |
+|------|-----|---------|-------|
 | kernelretsnoop | 153 | **8%** | 85% |
 | threadhist | 89 | **3%** | 87% |
 | launchlate | 347 | **14%** | 93% |
 
-<div class="mt-4 p-2 bg-green-50 rounded text-base">
-
-**Key**: gBPF's warp-uniform execution achieves **3-14%** overhead vs NVBit's **85-93%**
-
 </div>
 
 </div>
+
+<div class="mt-6 p-3 bg-green-50 rounded text-center">
+
+**Key**: Warp-uniform execution achieves **3-14%** overhead vs NVBit's **85-93%**
+
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+# Thanks & Questions
+
+<div class="mt-8 text-xl">
+
+**POC Code**
+
+[github.com/eunomia-bpf/gpu_ext_policy](https://github.com/eunomia-bpf/gpu_ext_policy) | [github.com/eunomia-bpf/gpu_ext-kernel-modules](https://github.com/eunomia-bpf/gpu_ext-kernel-modules)
+
+**GPU eBPF (bpftime)**
+
+[github.com/eunomia-bpf/bpftime](https://github.com/eunomia-bpf/bpftime)
 
 </div>
 
 ---
 
-# Open Questions & Discussion
+# Backup: Open Questions & Discussion
 
 <div class="grid grid-cols-2 gap-4 text-base">
 
