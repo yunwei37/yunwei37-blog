@@ -228,7 +228,7 @@ eunomia-bpf community
 ### Memory Placement / Offloading
 
 - HBM expensive & limited (RTX 5090: 32GB)
-- Models/Dataset exceed VRAM: MoE 59GiB, KV-cache grows
+- Models exceed VRAM: MoE, KV-cache in inference / Dataset big in traning
 
 ### Multi-tenancy Scheduling
 
@@ -255,7 +255,7 @@ eunomia-bpf community
 - Memory: LRU eviction, tree-based prefetch
 - Scheduling: Round-robin, fixed timeslice
 
-> Bad and blackbox policies make people want **kernel bypass** (e.g. UVM offer transparency, but they try to manage memory themselves)
+> Very slow and blackbox policies make people want **kernel bypass** (e.g. UVM offer transparency, but they try to manage memory themselves) like **DPDK**
 
 **Vendor Firmware** (closed-source, black box)
 
@@ -517,8 +517,7 @@ struct gpu_mem_ops {
   // Called before selecting victim for eviction
   // Trigger: memory pressure, need to free blocks
   // Can: reorder used/unused lists
-  int (*gpu_evict_prepare)(pmm,
-    block_used_list, block_unused_list);
+  int (*gpu_evict_prepare)(pmm, list);
   // Prefetch hooks (page granularity)
   // Called before computing prefetch region
   // Trigger: after page fault handled
@@ -535,13 +534,14 @@ void bpf_gpu_set_prefetch_region(region, first, outer);
 
 <div class="text-sm">
 
-### Implemented Policies
+### Policies
 
-The default policy is LRU + tree-based prefetching
+The default policy is LRU + tree-based prefetching. We impl:
 
 - LFU, MRU, FIFO eviction
 - Stride / sequential prefetch
 - Per-process memory priority based on PID
+- Application-specific...
 
 ### Safety: Programmable Cache Model
 
@@ -569,13 +569,11 @@ struct gpu_sched_ops {
   // Can: set timeslice, interleave level
   // Ctx: tsg_id, engine_type, default_timeslice
   int (*task_init)(struct gpu_task_init_ctx *ctx);
-
   // Called when task group binds to runlist (ONE-TIME)
   // Trigger: first kernel launch activates the TSG
   // Note: subsequent kernel launches bypass driver!
   // Can: admission control (reject bind)
   int (*task_bind)(struct gpu_task_bind_ctx *ctx);
-
   // Called when task group is destroyed
   // Trigger: cuCtxDestroy / process exit
   // Can: cleanup BPF map state
@@ -583,7 +581,6 @@ struct gpu_sched_ops {
 };
 // kfuncs to set timeslice, interleave level
 void bpf_gpu_set_attr(ctx, u64 us);
-void bpf_gpu_set_interleave(ctx, u32 level);
 void bpf_gpu_reject_bind(ctx);
 ```
 
@@ -597,11 +594,12 @@ void bpf_gpu_reject_bind(ctx);
 - Interleave level (LOW/MED/HIGH priority)
 - Accept/reject task binding
 
-### Use Cases
+### Policy
+
+The default is round-robin / FIFO, we can impl:
 
 - LC vs BE differentiation by process name
 - Multi-tenant fairness / isolation
-- Overload protection
 
 </div>
 
@@ -657,7 +655,7 @@ void bpf_gpu_reject_bind(ctx);
 | LLM Expert (llama.cpp) | Sequential prefetch + LFU eviction | **~4x** decode speedup vs default framework offloading |
 | KV-cache (vLLM) | LFU eviction + stride prefetch | **~1.5x** less TTFT vs default framework offloading, close to LMCache|
 
-**Key**: 1) Hardware faster / sofware algorithm old -> Need to do more prefetching 2) Tree-based prefetch not optimal for LLM/ML
+**Key**: 1) Hardware faster / sofware algorithm old -> Need to do more prefetching 2) Tree-based prefetch not optimal for LLM/ML (ALso tested with GNN / Vector DB)
 
 </div>
 
@@ -783,7 +781,7 @@ Thread → Warp (32) → Block → Grid → SM
 - Respond to device state
 - Safe and Dynamic policy adjustment in GPU kernel
 
-### Complement Host-side Policies
+### Help Host-side Policies
 
 - Provide device visibility/controlility to host
 - Cross-layer coordination
@@ -820,6 +818,15 @@ hook points at instruction level, e.g.:
 - `CUDA_PROBE` (entry)
 - `CUDA_RETPROBE` (exit)
 - `__memcapture` (ld/st)
+- `Cluster launch Control Scheduler` {Thread block scheduler POC}
+
+```c
+__device__ static bool 
+should_try_steal(State& s, 
+    int current_block) {
+        return true;  // Always try to steal
+}
+```
 
 </div>
 
@@ -927,13 +934,13 @@ CUPTI shows kernel "started" quickly, but it's slow. Why?
 
 - **CUPTI sees**: Kernel start/end time (looks fine)
 - **Reality**: Many blocks waiting for SM resources
-- **bpftime**: Per-thread/warp scheduling timestamp inside kernel
+- **bpftime**: Per-thread block/warp scheduling timestamp inside kernel
 
 ### How It Works
 
 1. **CPU uprobe**: Record T1 at `cudaLaunchKernel()`
-2. **GPU kprobe**: Record T2 **per-thread** at kernel entry
-3. See **when each thread gets scheduled**
+2. **GPU kprobe**: Record T2 **per-thread block** at kernel entry
+3. See **when each thread block gets scheduled**
 
 
 [bpftime/gpu/launchlate](https://github.com/eunomia-bpf/bpftime/tree/master/example/gpu/launchlate)
@@ -1009,9 +1016,6 @@ Tested on a P40 GPU with llama.cpp 1B inference.
 </div>
 
 ---
-layout: center
-class: text-center
----
 
 # Problems & Next Steps
 
@@ -1025,6 +1029,13 @@ The design is portable:
 - ARM also has similar feature set.
 
 More standard API for all GPU drivers?
+
+Cgroups?
+
+---
+layout: center
+class: text-center
+---
 
 # Thanks & Questions
 
