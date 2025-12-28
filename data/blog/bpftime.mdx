@@ -1,18 +1,20 @@
 ---
 title: 'bpftime: Extending eBPF from Kernel to User Space'
 
-date: 2024-01-27T08:41:06-08:00
-tags: ['notes']
+date: 2023-11-11T08:00:00-08:00
+tags: ['ebpf', 'systems']
 ---
+
+# bpftime: Extending eBPF from Kernel to User Space
 
 > Yu Sheng Zheng, Yu Tong
 
-
 eBPF is a revolutionary technology that originated in the Linux kernel, enabling sandboxed programs to run within the operating system's kernel. It is used to safely and efficiently extend the kernel's capabilities without altering its source code or loading kernel modules.
 
-In this blog, we are excited to introduce a new open-source user-space eBPF runtime: [https://github.com/eunomia-bpf/bpftime](https://github.com/eunomia-bpf/bpftime). bpftime further expands the capabilities of eBPF, allowing existing eBPF tools and applications, such as BCC tools, bpftrace, Deepflow, etc., to run in non-privileged user space without any code modifications, while using the same libraries and toolchains as kernel eBPF.
+In this blog, we are excited to introduce a new open-source user-space eBPF runtime: https://github.com/eunomia-bpf/bpftime. bpftime further expands the capabilities of eBPF, allowing existing eBPF tools and applications, such as BCC tools, bpftrace, Deepflow, etc., to run in non-privileged user space without any code modifications, while using the same libraries and toolchains as kernel eBPF.
 
 bpftime not only provides dynamic tracing or extension mechanisms like Uprobe and system call tracepoints, but also offers an order of magnitude performance improvement over kernel Uprobe. Moreover, like kernel eBPF, it requires no manual code instrumentation or process restarts. bpftime supports inter-process eBPF maps through user-space shared memory, while being compatible with kernel eBPF maps, enabling seamless operations with kernel eBPF infrastructure. Additionally, it includes high-performance LLVM JIT/AOT compilers for various architectures, as well as a lightweight JIT and interpreter for x86. Through performance data and real-world examples, we will demonstrate how bpftime can be effective in the real world and provide insights into its future development. We hope bpftime will bring unprecedented performance and flexibility to system monitoring, analysis, and extension. We also introduced the design and implementation of bpftime at the Linux plumbers 23 conference[2].
+{/* more  */}
 
 ## eBPF: System Extension from Kernel to User Space
 
@@ -20,7 +22,7 @@ eBPF (extended Berkeley Packet Filter) has evolved from a simple network packet 
 
 Although eBPF was initially designed for the kernel, its tremendous potential in user space, coupled with the kernel's GPL LICENSE restrictions, led to the development of early user-space eBPF runtimes like ubpf[3] and rbpf[4]. These runtimes allowed developers to execute eBPF bytecode outside the kernel, breaking free from GPL license restrictions and offering a more intuitive and convenient debugging environment. However, writing programs for ubpf and rbpf might require a specific, not fully kernel-compatible toolchain, and they only had limited single-threaded hash maps implementations, making it difficult to run actual eBPF programs. Additionally, ubpf and rbpf are essentially eBPF bytecode virtual machines that still require glue code to compile and link with other user-space programs for practical use, and they did not offer dynamic tracing functionality.
 
-In practice, user-space eBPF has been explored and applied in fields like network processing, blockchain, and security. For example, Oko and DPDK eBPF support demonstrate the flexibility and performance advantages of eBPF in network data processing. The Solana project utilized eBPF to implement a JIT compiler, supporting the execution of blockchain smart contracts. The eBPF for Windows project extended eBPF functionality beyond Linux, showcasing its potential for cross-platform compatibility. These applications not only demonstrate eBPF's powerful system extension capabilities but also highlight its significance and wide applicability in the modern computing domain. For further discussion, refer to our previous blog: [https://eunomia.dev/blogs/userspace-ebpf/](https://eunomia.dev/blogs/userspace-ebpf/).
+In practice, user-space eBPF has been explored and applied in fields like network processing, blockchain, and security. For example, Oko and DPDK eBPF support demonstrate the flexibility and performance advantages of eBPF in network data processing. The Solana project utilized eBPF to implement a JIT compiler, supporting the execution of blockchain smart contracts. The eBPF for Windows project extended eBPF functionality beyond Linux, showcasing its potential for cross-platform compatibility. These applications not only demonstrate eBPF's powerful system extension capabilities but also highlight its significance and wide applicability in the modern computing domain. For further discussion, refer to our previous blog: https://eunomia.dev/blogs/userspace-ebpf/.
 
 ## Why We Need bpftime
 
@@ -32,7 +34,7 @@ Uprobe is a powerful user-level dynamic tracing mechanism that allows developers
 
 However, since the eBPF virtual machine executes in kernel mode, the current Uprobe implementation introduces two context switches in the kernel, causing significant performance overhead, especially impacting performance in latency-sensitive applications. As shown in the diagram, Uprobe's overhead is nearly ten times that of Kprobe[5]. On the other hand, Uprobe is currently limited to tracing and cannot modify the execution flow or return values of user-space functions, limiting its use cases to code extension, hot patching, defect injection, etc. Despite this, Uprobe is still widely used in production environments for its non-intrusive user-space functionality tracing, such as tracing user-space protocols like SSL/TLS and HTTP2, monitoring memory allocation and leaks, analyzing garbage collection and language runtimes, and tracking the creation and recycling of coroutines, among other scenarios.
 
-![Uprobe vs Kprobe](./imgs/uprobe-kprobe.png)
+![Uprobe vs Kprobe](/static/blog/imgs/uprobe-kprobe.png)
 
 For system call tracepoints, since they are globally visible, additional filtering is required for specific process tracing, such as filtering based on pid, cgroup, etc., in eBPF[6], which also brings some additional overhead to other processes that do not need to be traced.
 
@@ -58,13 +60,13 @@ For existing other user-space eBPF runtimes, as mentioned earlier, they lack dyn
 
 bpftime aims to maintain good compatibility with existing kernel eBPF as a user-space alternative and improvement to kernel eBPF. It also seeks to maximize the use of the rich ecosystem and tools of existing eBPF. For example, bpftime allows the direct use of unmodified bpftrace tools to execute eBPF scripts in user space, tracing system calls or user-space functions:
 
-![bpftrace](./imgs/bpftime-bpftrace.png)
+![bpftrace](/static/blog/imgs/bpftime-bpftrace.png)
 
 At the same time, it can run user-space versions of BCC/libbpf-tools such as bashreadline, funclatency, gethostlatency, mountsnoop, opensnoop, sigsnoop, statsnoop, syscount, etc[7]. bpftime constructs eBPF map data structures in user-space shared memory, enabling the analysis and statistics of multiple processes, and supports reporting data to tracing tools through ring buffer, perf buffer, and other means.
 
 bpftime also provides eBPF infrastructure compatible with the kernel in user-space. It can run without needing kernel eBPF and supports some of the kernel's eBPF maps, helpers, dynamic tracing mechanisms, and almost all eBPF instruction sets:
 
-![bpftime](./imgs/bpftime-features.png)
+![bpftime](/static/blog/imgs/bpftime-features.png)
 
 From a security perspective, bpftime provides an eBPF verifier to ensure the safety of eBPF bytecode, preventing malicious code injection or damaging the traced process. bpftime can use the kernel's eBPF verifier or an independent user-space eBPF verifier as an alternative for environments without access to kernel eBPF.
 
@@ -82,7 +84,7 @@ Using dynamic library injection implemented via ptrace and technologies like LD_
 
 We used the sslsniff tool[8] to trace and analyze SSL encrypted traffic of Nginx in bpftime's user-space Uprobe and compared it with the kernel Uprobe approach, observing a significant performance improvement:
 
-![sslsniff](./imgs/ssl-nginx.png)
+![sslsniff](/static/blog/imgs/ssl-nginx.png)
 
 For modern eBPF observability tools, it may be necessary to collect and analyze the same event in both kernel and user-space functions. For instance, an HTTP request might require analyzing both kernel-level network events and user-space function calls to obtain a complete request chain. bpftime's Uprobe implementation can work in conjunction with kernel eBPF kprobes, enabling this kind of cross-boundary analysis capability. Implementing and improving other dynamic tracing mechanisms are also part of our plan.
 
@@ -90,7 +92,7 @@ For modern eBPF observability tools, it may be necessary to collect and analyze 
 
 bpftime includes a new LLVM-based eBPF JIT compiler that compiles eBPF bytecode into native machine code at runtime, thereby improving the execution efficiency of eBPF programs. Compared to other user-space eBPF runtime JIT compilers like ubpf and rbpf, and Wasm, the LLVM JIT compiler offers better performance, approaching the efficiency of native code execution. It also provides better cross-platform support, for example, supporting architectures like RISC-V. We conducted a simple performance comparison and analysis[9]:
 
-![jit](./imgs/jit_execution_times.png)
+![jit](/static/blog/imgs/jit_execution_times.png)
 
 In addition to JIT, bpftime also includes an AOT compiler, which allows eBPF bytecode to be pre-compiled into machine code files for specific architectures after verification. This can be particularly useful for deployment and use in embedded systems, significantly reducing the time for compilation at startup.
 
@@ -109,23 +111,22 @@ bpftime is currently an early-stage exploratory project. We are actively explori
 
 bpftime opens up new possibilities for eBPF applications in user space and provides new options for extending user-space applications. It allows existing eBPF applications to run in non-privileged user space using the same libraries and toolchains, and offers tracing mechanisms like Uprobe and Syscall for user-space eBPF. Compared to kernel Uprobe, it significantly improves performance and does not require manual code instrumentation or process restarts. The runtime supports inter-process eBPF maps in user-space shared memory, and is also compatible with kernel eBPF maps, allowing seamless operation with the kernel eBPF infrastructure.
 
-bpftime is now open source on GitHub, and everyone is welcome to try it out and provide feedback: [https://github.com/eunomia-bpf/bpftime](https://github.com/eunomia-bpf/bpftime) If you have any suggestions or questions, feel free to raise an issue on GitHub or contact us by email at [yunwei356@gmail.com](mailto:yunwei356@gmail.com).
+bpftime is now open source on GitHub, and everyone is welcome to try it out and provide feedback: https://github.com/eunomia-bpf/bpftime If you have any suggestions or questions, feel free to raise an issue on GitHub or contact us by email at [yunwei356@gmail.com](mailto:yunwei356@gmail.com).
 
-> - Slides: [https://eunomia.dev/bpftime/documents/userspace-ebpf-bpftime-lpc.pdf](https://eunomia.dev/bpftime/documents/userspace-ebpf-bpftime-lpc.pdf)
-> - Hack news: [https://news.ycombinator.com/item?id=38268958](https://news.ycombinator.com/item?id=38268958)
-> - arxiv: [https://arxiv.org/abs/2311.07923](https://arxiv.org/abs/2311.07923)
-
+> - Slides: https://eunomia.dev/bpftime/documents/userspace-ebpf-bpftime-lpc.pdf
+> - Hack news: https://news.ycombinator.com/item?id=38268958
+> - arxiv: https://arxiv.org/abs/2311.07923
 
 ## References
 
-1. bpftime Git repo: [https://github.com/eunomia-bpf/bpftime](https://github.com/eunomia-bpf/bpftime)
-2. bpftime Linux Plumbers talk: [https://lpc.events/event/17/contributions/1639/](https://lpc.events/event/17/contributions/1639/)
-3. ubpf: [https://github.com/iovisor/ubpf](https://github.com/iovisor/ubpf)
-4. rbpf: [https://github.com/qmonnet/rbpf](https://github.com/qmonnet/rbpf)
-5. Performance comparison of uprobe and kprobe: [https://dl.acm.org/doi/10.1145/3603269.3604823](https://dl.acm.org/doi/10.1145/3603269.3604823)
-6. Capturing Opening Files and Filter with Global Variables: [https://eunomia.dev/tutorials/4-opensnoop/](https://eunomia.dev/tutorials/4-opensnoop/)
-7. examples: [https://github.com/eunomia-bpf/bpftime/tree/master/example](https://github.com/eunomia-bpf/bpftime/tree/master/example)
-8. sslsniff, based on the tool of the same name in bcc: [https://github.com/eunomia-bpf/bpftime/tree/master/example/sslsniff](https://github.com/eunomia-bpf/bpftime/tree/master/example/sslsniff)
-9. bpf benchmark: [https://github.com/eunomia-bpf/bpf-benchmark](https://github.com/eunomia-bpf/bpf-benchmark)
-10. BPF-based error injection for the kernel: [https://lwn.net/Articles/740146/](https://lwn.net/Articles/740146/)
-11. FUSE BPF: A Stacked Filesystem Extension for FUSE: [https://lwn.net/Articles/915717/](https://lwn.net/Articles/915717/)
+1. bpftime Git repo: https://github.com/eunomia-bpf/bpftime
+2. bpftime Linux Plumbers talk: https://lpc.events/event/17/contributions/1639/
+3. ubpf: https://github.com/iovisor/ubpf
+4. rbpf: https://github.com/qmonnet/rbpf
+5. Performance comparison of uprobe and kprobe: https://dl.acm.org/doi/10.1145/3603269.3604823
+6. Capturing Opening Files and Filter with Global Variables: https://eunomia.dev/tutorials/4-opensnoop/
+7. examples: https://github.com/eunomia-bpf/bpftime/tree/master/example
+8. sslsniff, based on the tool of the same name in bcc: https://github.com/eunomia-bpf/bpftime/tree/master/example/sslsniff
+9. bpf benchmark: https://github.com/eunomia-bpf/bpf-benchmark
+10. BPF-based error injection for the kernel: https://lwn.net/Articles/740146/
+11. FUSE BPF: A Stacked Filesystem Extension for FUSE: https://lwn.net/Articles/915717/

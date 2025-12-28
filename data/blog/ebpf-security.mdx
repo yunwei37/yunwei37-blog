@@ -1,16 +1,18 @@
 ---
 title: 'The Secure Path Forward for eBPF runtime: Challenges and Innovations'
-date: 2023-10-27T08:41:06-08:00
-tags: ['notes', 'ebpf']
+
+date: 2024-02-11T08:00:00-08:00
+tags: ['ebpf', 'systems']
 ---
 
+# The Secure Path Forward for eBPF runtime: Challenges and Innovations
 
 Yusheng Zheng
 
 Extended Berkeley Packet Filter (eBPF) represents a significant evolution in the way we interact with and extend the capabilities of modern operating systems. As a powerful technology that enables the Linux kernel to run sandboxed programs in response to events, eBPF has become a cornerstone for system observability, networking, and security features.
 
 However, as with any system that interfaces closely with the kernel, the security of eBPF itself is paramount. In this blog, we delve into the often-overlooked aspect of eBPF security, exploring how the mechanisms intended to safeguard eBPF can themselves be fortified. We'll dissect the role of the eBPF verifier, scrutinize the current access control model, and investigate potential improvements from ongoing research. Moreover, we'll navigate through the complexities of securing eBPF, addressing open questions and the challenges they pose to system architects and developers alike.
-
+{/* more */}
 ## Table of Contents
 {/* TOC */}
 
@@ -110,19 +112,19 @@ The eBPF verifier stands as a testament to the ingenuity in modern computing sec
 
 ### Other works to improve verifier
 
-- Specification and verification in the field: Applying formal methods to BPF just-in-time compilers in the Linux kernel: [https://www.usenix.org/conference/osdi20/presentation/nelson](https://www.usenix.org/conference/osdi20/presentation/nelson)
-- "Sound, Precise, and Fast Abstract Interpretation with Tristate Numbers”, Vishwanathan et al. [https://arxiv.org/abs/2105.05398](https://arxiv.org/abs/2105.05398)
-- “Eliminating bugs in BPF JITs using automated formal verification”, Nelson et al. [https://arxiv.org/abs/2105.05398](https://arxiv.org/abs/2105.05398)
-- “A proof-carrying approach to building correct and flexible BPF verifiers”, Nelson et al. [https://linuxplumbersconf.org/event/7/contributions/685/](https://linuxplumbersconf.org/event/7/contributions/685/)
-- “Automatically optimizing BPF programs using program synthesis”, Xu et al. [https://linuxplumbersconf.org/event/11/contributions/944/](https://linuxplumbersconf.org/event/11/contributions/944/)
-- “Simple and Precise Static Analysis of Untrusted Linux Kernel Extensions”, Gershuni et al. [https://linuxplumbersconf.org/event/11/contributions/951/](https://linuxplumbersconf.org/event/11/contributions/951/)
-- “An Analysis of Speculative Type Confusion Vulnerabilities in the Wild”, Kirzner et al. [https://www.usenix.org/conference/usenixsecurity21/presentation/kirzner](https://www.usenix.org/conference/usenixsecurity21/presentation/kirzner)
+- Specification and verification in the field: Applying formal methods to BPF just-in-time compilers in the Linux kernel: https://www.usenix.org/conference/osdi20/presentation/nelson
+- "Sound, Precise, and Fast Abstract Interpretation with Tristate Numbers”, Vishwanathan et al. https://arxiv.org/abs/2105.05398
+- “Eliminating bugs in BPF JITs using automated formal verification”, Nelson et al. https://arxiv.org/abs/2105.05398
+- “A proof-carrying approach to building correct and flexible BPF verifiers”, Nelson et al. https://linuxplumbersconf.org/event/7/contributions/685/
+- “Automatically optimizing BPF programs using program synthesis”, Xu et al. https://linuxplumbersconf.org/event/11/contributions/944/
+- “Simple and Precise Static Analysis of Untrusted Linux Kernel Extensions”, Gershuni et al. https://linuxplumbersconf.org/event/11/contributions/951/
+- “An Analysis of Speculative Type Confusion Vulnerabilities in the Wild”, Kirzner et al. https://www.usenix.org/conference/usenixsecurity21/presentation/kirzner
 
 Together, these works signify a robust and multi-faceted research initiative aimed at bolstering the foundations of eBPF verification, ensuring that it remains a secure and performant tool for extending the capabilities of the Linux kernel.
 
 Other reference for you to learn more about eBPF verifier:
 
-- BPF and Spectre: Mitigating transient execution attacks: [https://popl22.sigplan.org/details/prisc-2022-papers/11/BPF-and-Spectre-Mitigating-transient-execution-attacks](https://popl22.sigplan.org/details/prisc-2022-papers/11/BPF-and-Spectre-Mitigating-transient-execution-attacks)
+- BPF and Spectre: Mitigating transient execution attacks: https://popl22.sigplan.org/details/prisc-2022-papers/11/BPF-and-Spectre-Mitigating-transient-execution-attacks
 
 ## Limitations in eBPF Access Control
 
@@ -154,10 +156,10 @@ The BPF namespace is conceptually similar to the PID namespace and is intended t
 
 reference:
 
-- BPF and security: [https://lwn.net/Articles/946389/](https://lwn.net/Articles/946389/)
-- Cross Container Attacks: The Bewildered eBPF on Clouds [https://www.usenix.org/system/files/usenixsecurity23-he.pdf](https://www.usenix.org/system/files/usenixsecurity23-he.pdf)
-- bpf: Introduce BPF namespace: [https://lwn.net/Articles/927354/](https://lwn.net/Articles/927354/)
-- ebpf-running-in-linux-namespaces: [https://stackoverflow.com/questions/48815633/ebpf-running-in-linux-namespaces](https://stackoverflow.com/questions/48815633/ebpf-running-in-linux-namespaces)
+- BPF and security: https://lwn.net/Articles/946389/
+- Cross Container Attacks: The Bewildered eBPF on Clouds https://www.usenix.org/system/files/usenixsecurity23-he.pdf
+- bpf: Introduce BPF namespace: https://lwn.net/Articles/927354/
+- ebpf-running-in-linux-namespaces: https://stackoverflow.com/questions/48815633/ebpf-running-in-linux-namespaces
 
 ### Unprivileged eBPF
 
@@ -191,11 +193,11 @@ In light of these challenges, a middle ground known as "trusted unprivileged BPF
 
 reference
 
-- Permissive LSM hooks: [https://lore.kernel.org/bpf/20230412043300.360803-1-andrii@kernel.org/](https://lore.kernel.org/bpf/20230412043300.360803-1-andrii@kernel.org/)
-- BPF token concept: [https://lore.kernel.org/bpf/20230629051832.897119-1-andrii@kernel.org/](https://lore.kernel.org/bpf/20230629051832.897119-1-andrii@kernel.org/)
-- BPF signing using fsverity and LSM gatekeeper: [https://www.youtube.com/watch?v=9p4qviq60z8](https://www.youtube.com/watch?v=9p4qviq60z8)
-- Sign the BPF bytecode: [https://lpc.events/event/16/contributions/1357/attachments/1045/1999/BPF%20Signatures.pdf](https://lpc.events/event/16/contributions/1357/attachments/1045/1999/BPF%20Signatures.pdf)
-- bpfd: [https://bpfd.dev/](https://bpfd.dev/)
+- Permissive LSM hooks: https://lore.kernel.org/bpf/20230412043300.360803-1-andrii@kernel.org/
+- BPF token concept: https://lore.kernel.org/bpf/20230629051832.897119-1-andrii@kernel.org/
+- BPF signing using fsverity and LSM gatekeeper: https://www.youtube.com/watch?v=9p4qviq60z8
+- Sign the BPF bytecode: https://lpc.events/event/16/contributions/1357/attachments/1045/1999/BPF%20Signatures.pdf
+- bpfd: https://bpfd.dev/
 
 ## Other possible solutions
 
@@ -222,19 +224,17 @@ usage scenarios, such as the isolation of a packet-forwarding
 BPF program for the memcached database with an average
 throughput loss of 6%.
 
-[https://arxiv.org/abs/2301.13421](https://arxiv.org/abs/2301.13421)
+https://arxiv.org/abs/2301.13421
 
 > If we must resort to hardware protection mechanisms, is language safety or verification still necessary to protect the kernel and extensions from one another?
-
 
 ### Unleashing Unprivileged eBPF Potential with Dynamic Sandboxing
 
 For safety reasons, unprivileged users today have only limited ways to customize the kernel through the extended Berkeley Packet Filter (eBPF). This is unfortunate, especially since the eBPF framework itself has seen an increase in scope over the years. We propose SandBPF, a software-based kernel isolation technique that dynamically sandboxes eBPF programs to allow unprivileged users to safely extend the kernel, unleashing eBPF's full potential. Our early proof-of-concept shows that SandBPF can effectively prevent exploits missed by eBPF's native safety mechanism (i.e., static verification) while incurring 0%-10% overhead on web server benchmarks.
 
-[https://arxiv.org/abs/2308.01983](https://arxiv.org/abs/2308.01983)
+https://arxiv.org/abs/2308.01983
 
 > It may be conflict with the original design of eBPF, since it's not designed to use sandbox to ensure safety. Why not using webassembly in kernel if you want SFI?
-
 
 ### Kernel extension verification is untenable
 
@@ -253,10 +253,9 @@ Rust that will eliminate the need of the in-kernel verifier,
 improve expressiveness, allow for reduced escape hatches,
 and ultimately improve the safety of kernel extensions
 
-[https://sigops.org/s/conferences/hotos/2023/papers/jia.pdf](https://sigops.org/s/conferences/hotos/2023/papers/jia.pdf)
+https://sigops.org/s/conferences/hotos/2023/papers/jia.pdf
 
 > It may limits the kernel to load only eBPF programs that are signed by trusted third parties, as the kernel itself can no longer independently verify them. The rust toolchains also has vulnerabilities.
-
 
 ### Wasm-bpf: WebAssembly eBPF library, toolchain and runtime
 
@@ -264,22 +263,20 @@ Wasm-bpf is a WebAssembly eBPF library, toolchain and runtime allows the constru
 
 It provides a configurable environment with limited eBPF WASI behavior, enhancing security and control. This allows for fine-grained permissions, restricting access to kernel resources and providing a more secure environment. For instance, eBPF programs can be restricted to specific types of useage, such as network monitoring, it can also configure what kind of eBPF programs can be loaded in kernel, what kind of attach event it can access without the need for modify kernel eBPF permission models.
 
-- Kubecon talk: [https://sched.co/1R2uf](https://sched.co/1R2uf)
-- Repo: [https://github.com/eunomia-bpf/wasm-bpf](https://github.com/eunomia-bpf/wasm-bpf)
+- Kubecon talk: https://sched.co/1R2uf
+- Repo: https://github.com/eunomia-bpf/wasm-bpf
 
 > It will require additional effort to port the application to WebAssembly. Additionally, Wasm interface of kernel eBPF also need more effort of maintain, as the BPF daemon does.
-
 
 ### `bpftime`: Userspace eBPF runtime for uprobe & syscall hook & plugin
 
 An userspace eBPF runtime that allows existing eBPF applications to operate in unprivileged userspace using the same libraries and toolchains. It offers Uprobe and Syscall tracepoints for eBPF, with significant performance improvements over kernel uprobe and without requiring manual code instrumentation or process restarts. The runtime facilitates interprocess eBPF maps in userspace shared memory, and is also compatible with kernel eBPF maps, allowing for seamless operation with the kernel's eBPF infrastructure. It includes a high-performance LLVM JIT for various architectures, alongside a lightweight JIT for x86 and an interpreter.
 
-- [https://arxiv.org/abs/2311.07923](https://arxiv.org/abs/2311.07923)
-- Linux Plumbers: [https://lpc.events/event/17/contributions/1639/](https://lpc.events/event/17/contributions/1639/)
-- Repo: [https://github.com/eunomia-bpf/bpftime](https://github.com/eunomia-bpf/bpftime)
+- https://arxiv.org/abs/2311.07923
+- Linux Plumbers: https://lpc.events/event/17/contributions/1639/
+- Repo: https://github.com/eunomia-bpf/bpftime
 
 > It may only limited to centain eBPF program types and usecases, not a general approach for kernel eBPF.
-
 
 ## Conclusion
 
@@ -288,5 +285,4 @@ As we have traversed the multifaceted domain of eBPF security, it's clear that w
 However, as with any complex system, new questions and challenges continue to surface. The gaps identified between the theoretical security models and their practical implementation invite continued research and experimentation. The future of eBPF security is not only promising but also demands a collective effort to ensure the technology can be adopted with confidence in its capacity to safeguard systems.
 
 > We are [github.com/eunomia-bpf](https://github.com/eunomia-bpf), build open source projects to make eBPF easier to use, and exploring new technologies, toolchains and runtimes related to eBPF.
-> For those interested in eBPF technology, check out our tutorial code repository at [https://github.com/eunomia-bpf/bpf-developer-tutorial](https://github.com/eunomia-bpf/bpf-developer-tutorial) and our tutorials at [https://eunomia.dev/tutorials/](https://eunomia.dev/tutorials/) for practical understanding and practice.
-
+> For those interested in eBPF technology, check out our tutorial code repository at https://github.com/eunomia-bpf/bpf-developer-tutorial and our tutorials at https://eunomia.dev/tutorials/ for practical understanding and practice. The original text of this article is from https://eunomia.dev/blogs/ebpf-security, welcome to star and follow us.

@@ -1,12 +1,16 @@
 ---
 title: 'Building High-Performance Userspace eBPF VMs with LLVM'
-date: 2024-08-29T18:41:06-08:00
-tags: ['notes', 'gpt', 'ai']
+
+date: 2024-09-10T08:00:00-08:00
+tags: ['ebpf', 'systems']
 ---
+
+# Building High-Performance Userspace eBPF VMs with LLVM
 
 We are excited to introduce [**llvmbpf**](https://github.com/eunomia-bpf/llvmbpf), a new project aimed at empowering developers with a high-performance, multi-architecture eBPF virtual machine (VM) that leverages the LLVM framework for Just-In-Time (JIT) and Ahead-Of-Time (AOT) compilation.
 
 This component is part of the [bpftime](https://github.com/eunomia-bpf/bpftime) project but focuses solely on the core VM. It operates as a standalone eBPF VM library or a compiler tool. This library is optimized for performance, flexibility, and minimal dependencies, making it easy to integrate into various environments without unnecessary overhead.
+{/* more */}
 
 ## Why llvmbpf?
 
@@ -233,7 +237,7 @@ int bpf_main(void* ctx, int size) {
 }
 ```
 
-eBPF is an instruction set designed for verification, but it may not be the best for performance. llvmbpf also supports using the original LLVM IR from C code. See [example/load-llvm-ir](example/load-llvm-ir) for an example. You can:
+eBPF is an instruction set designed for verification, but it may not be the best for performance. llvmbpf also supports using the original LLVM IR from C code. See [example/load-llvm-ir](https://github.com/eunomia-bpf/llvmbpf/tree/main/example/load-llvm-ir) for an example. You can:
 
 - Compile the C code to eBPF for verification.
 - Compile the C code to LLVM IR and native code for execution in the VM.
