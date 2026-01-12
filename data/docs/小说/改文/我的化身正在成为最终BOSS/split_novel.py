@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
 """
 小说章节拆分脚本
-功能：将小说文件按照每50章拆分成多个文件
+功能：将小说文件按照每10章拆分成多个文件
 """
 
 import re
 import os
 
-def split_novel_by_chapters(input_file, output_dir, chapters_per_file=50):
+def split_novel_by_chapters(input_file, output_dir, chapters_per_file=10):
     """
     按章节数量拆分小说文件
 
@@ -86,4 +86,4 @@ if __name__ == "__main__":
     output_dir = "/home/yunwei37/my-new-blog/data/docs/小说/改文/我的化身正在成为最终BOSS/拆分文件"
 
     # 执行拆分
-    split_novel_by_chapters(input_file, output_dir, chapters_per_file=50)
+    split_novel_by_chapters(input_file, output_dir, chapters_per_file=10)
