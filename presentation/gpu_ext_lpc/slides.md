@@ -652,8 +652,8 @@ The default is round-robin / FIFO, we can impl:
 
 | Workload | Policy | Speedup |
 |----------|--------|---------|
-| LLM Expert (llama.cpp) | Sequential prefetch + LFU eviction | **~4x** decode speedup vs default framework offloading |
-| KV-cache (vLLM) | LFU eviction + stride prefetch | **~1.5x** less TTFT vs default framework offloading, close to LMCache|
+| LLM Expert (llama.cpp) | Stride prefetch + LFU eviction | **~4x** decode speedup vs default framework offloading |
+| KV-cache (vLLM) | LFU eviction + sequential prefetch | **~1.5x** less TTFT vs default framework offloading, close to LMCache|
 
 **Key**: 1) Hardware faster / sofware algorithm old -> Need to do more prefetching 2) Tree-based prefetch not optimal for LLM/ML (ALso tested with GNN / Vector DB)
 
