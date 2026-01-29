@@ -1,0 +1,54 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>云微的胡思乱想</title>
+      <link>https://www.yunwei37.com/blog</link>
+      <description>Personal Website of Yusheng Zheng | yunwei37</description>
+      <language>en-us</language>
+      <managingEditor>yunwei356@gmail.com (Yusheng Zheng)</managingEditor>
+      <webMaster>yunwei356@gmail.com (Yusheng Zheng)</webMaster>
+      <lastBuildDate>Wed, 09 Mar 2022 16:41:06 GMT</lastBuildDate>
+      <atom:link href="https://www.yunwei37.com/tags/others/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.yunwei37.com/blog/2022</guid>
+    <title>2022 一个新的开始</title>
+    <link>https://www.yunwei37.com/blog/2022</link>
+    undefined
+    <pubDate>Wed, 09 Mar 2022 16:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>others</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/ai-os</guid>
+    <title>ai os</title>
+    <link>https://www.yunwei37.com/blog/ai-os</link>
+    undefined
+    <pubDate>Tue, 09 Aug 2022 16:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>others</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/simd</guid>
+    <title>SIMD 加速：AVX2 指令集实现大小端转换</title>
+    <link>https://www.yunwei37.com/blog/simd</link>
+    undefined
+    <pubDate>Thu, 09 Jun 2022 16:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>others</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/symbol</guid>
+    <title>get the function offset and jump to the function at runtime dynamically</title>
+    <link>https://www.yunwei37.com/blog/symbol</link>
+    undefined
+    <pubDate>Fri, 09 Jun 2023 16:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>others</category>
+  </item>
+
+    </channel>
+  </rss>

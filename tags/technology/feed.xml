@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>云微的胡思乱想</title>
+      <link>https://www.yunwei37.com/blog</link>
+      <description>Personal Website of Yusheng Zheng | yunwei37</description>
+      <language>en-us</language>
+      <managingEditor>yunwei356@gmail.com (Yusheng Zheng)</managingEditor>
+      <webMaster>yunwei356@gmail.com (Yusheng Zheng)</webMaster>
+      <lastBuildDate>Thu, 22 Jan 2026 08:00:00 GMT</lastBuildDate>
+      <atom:link href="https://www.yunwei37.com/tags/technology/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.yunwei37.com/blog/scifi</guid>
+    <title>2020年代的科技突破、未来图景演变与科幻文学新母题</title>
+    <link>https://www.yunwei37.com/blog/scifi</link>
+    undefined
+    <pubDate>Thu, 22 Jan 2026 08:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>Science Fiction</category><category>Technology</category><category>Future</category>
+  </item>
+
+    </channel>
+  </rss>
