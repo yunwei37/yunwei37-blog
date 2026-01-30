@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://www.yunwei37.com
+Sitemap: https://www.yunwei37.com/sitemap.xml
