@@ -1,0 +1,435 @@
+1:"$Sreact.fragment"
+2:I[1478,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"ThemeProviders"]
+3:I[4091,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"default"]
+4:I[9243,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],""]
+5:I[7392,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"KBarSearchProvider"]
+6:I[6874,["874","static/chunks/874-8edb22cc7428423c.js","63","static/chunks/63-d245e42a784ca56d.js","974","static/chunks/app/page-55e305169e4b271e.js"],""]
+e:I[8393,[],""]
+:HL["/_next/static/media/36966cca54120369-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/4ac7c0f872b74ee7.css","style"]
+:HL["/_next/static/css/a06d7e24bf9a7d93.css","style"]
+0:{"P":null,"b":"MYXrWUjg0HELsl6zLYF_6","p":"","c":["","docs","%E5%B0%8F%E8%AF%B4","%E6%80%A7%E4%B8%8E%E6%80%A7%E5%88%AB%E6%B5%81%E5%8A%A8","%E6%95%85%E4%BA%8B","%E7%A9%BF%E8%B6%8A%E5%88%B02095%E5%90%8E%E6%88%91%E6%88%90%E4%BA%86%E6%A0%A1%E5%9B%AD%E6%80%A7%E5%88%AB%E6%B5%81%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%9A%84%E4%B8%BB%E8%A7%92","first","%E7%AC%AC%E5%9B%9B%E5%B9%95_%E6%B5%81%E5%BD%B1%E7%9A%84%E8%AE%B0%E5%BF%86%E7%A2%8E%E7%89%87_%E5%A4%A7%E7%BA%B2"],"i":false,"f":[[["",{"children":["docs",{"children":[["slug","%E5%B0%8F%E8%AF%B4/%E6%80%A7%E4%B8%8E%E6%80%A7%E5%88%AB%E6%B5%81%E5%8A%A8/%E6%95%85%E4%BA%8B/%E7%A9%BF%E8%B6%8A%E5%88%B02095%E5%90%8E%E6%88%91%E6%88%90%E4%BA%86%E6%A0%A1%E5%9B%AD%E6%80%A7%E5%88%AB%E6%B5%81%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%9A%84%E4%B8%BB%E8%A7%92/first/%E7%AC%AC%E5%9B%9B%E5%B9%95_%E6%B5%81%E5%BD%B1%E7%9A%84%E8%AE%B0%E5%BF%86%E7%A2%8E%E7%89%87_%E5%A4%A7%E7%BA%B2","c"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4ac7c0f872b74ee7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/a06d7e24bf9a7d93.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en-us","className":"__variable_dd5b2f scroll-smooth","suppressHydrationWarning":true,"children":[["$","link",null,{"rel":"apple-touch-icon","sizes":"76x76","href":"/static/favicons/apple-touch-icon.png"}],["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/static/favicons/favicon.svg"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"32x32","href":"/static/favicons/favicon-32x32.png"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"16x16","href":"/static/favicons/favicon-16x16.png"}],["$","link",null,{"rel":"manifest","href":"/static/favicons/site.webmanifest"}],["$","link",null,{"rel":"mask-icon","href":"/static/favicons/safari-pinned-tab.svg","color":"#5bbad5"}],["$","meta",null,{"name":"msapplication-TileColor","content":"#000000"}],["$","meta",null,{"name":"theme-color","media":"(prefers-color-scheme: light)","content":"#fff"}],["$","meta",null,{"name":"theme-color","media":"(prefers-color-scheme: dark)","content":"#000"}],["$","link",null,{"rel":"alternate","type":"application/rss+xml","href":"/feed.xml"}],["$","body",null,{"className":"pl-[calc(100vw-100%)] text-black antialiased dark:text-white min-h-screen","children":["$","$L2",null,{"children":[["$","$L3",null,{}],["$undefined","$undefined","$undefined",["$","$L4",null,{"async":true,"defer":true,"src":"https://analytics.umami.is/script.js"}],"$undefined","$undefined"],["$","div",null,{"className":"min-h-screen flex flex-col justify-center py-8","children":["$","div",null,{"className":"content-glass mx-auto w-full max-w-5xl px-4 sm:px-6 xl:px-8 py-8","children":["$","$L5",null,{"kbarConfig":{"searchDocumentsPath":"/search.json"},"children":[["$","header",null,{"className":"flex items-center w-full justify-between py-6 border-b border-gray-200/30 dark:border-gray-700/30","children":[["$","$L6",null,{"className":"break-words","href":"/","aria-label":"yunwei37","children":["$","div",null,{"className":"flex items-center","children":[["$","div",null,{"className":"mr-3","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":40,"height":40,"fill":"none","children":[["$","defs",null,{"children":[["$","linearGradient",null,{"id":"logo_svg__a","x1":"0%","x2":"100%","y1":"0%","y2":"100%","children":[["$","stop",null,{"offset":"0%","style":{"stopColor":"#3b82f6","stopOpacity":1}}],["$","stop",null,{"offset":"100%","style":{"stopColor":"#06b6d4","stopOpacity":1}}]]}],["$","linearGradient",null,{"id":"logo_svg__b","x1":"0%","x2":"100%","y1":"0%","y2":"100%","children":[["$","stop",null,{"offset":"0%","style":{"stopColor":"#8b5cf6","stopOpacity":1}}],["$","stop",null,{"offset":"100%","style":{"stopColor":"#3b82f6","stopOpacity":1}}]]}]]}],["$","circle",null,{"cx":20,"cy":20,"r":18,"fill":"url(#logo_svg__a)","opacity":0.1}],["$","path",null,{"fill":"url(#logo_svg__a)","d":"m12 8 6 10v10h4V18l6-10h-4l-4 6-4-6Z"}],["$","path",null,{"fill":"url(#logo_svg__b)","d":"m8 24 4 8 4-8 4 8 4-8h8v4h-6l-4 8-4-8-4 8-4-8H8Z","opacity":0.8}],["$","circle",null,{"cx":32,"cy":12,"r":2,"fill":"url(#logo_svg__b)"}],["$","circle",null,{"cx":8,"cy":12,"r":1.5,"fill":"url(#logo_svg__a)","opacity":0.6}]]}]}],["$","div",null,{"className":"hidden text-2xl font-bold sm:block hover:text-primary-600 dark:hover:text-primary-400 transition-colors","children":"yunwei37"}]]}]}],"$L7"]}],"$L8","$L9"]}]}]}]]}]}]]}]]}],{"children":["docs","$La",{"children":[["slug","%E5%B0%8F%E8%AF%B4/%E6%80%A7%E4%B8%8E%E6%80%A7%E5%88%AB%E6%B5%81%E5%8A%A8/%E6%95%85%E4%BA%8B/%E7%A9%BF%E8%B6%8A%E5%88%B02095%E5%90%8E%E6%88%91%E6%88%90%E4%BA%86%E6%A0%A1%E5%9B%AD%E6%80%A7%E5%88%AB%E6%B5%81%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%9A%84%E4%B8%BB%E8%A7%92/first/%E7%AC%AC%E5%9B%9B%E5%B9%95_%E6%B5%81%E5%BD%B1%E7%9A%84%E8%AE%B0%E5%BF%86%E7%A2%8E%E7%89%87_%E5%A4%A7%E7%BA%B2","c"],"$Lb",{"children":["__PAGE__","$Lc",{},null,false]},null,false]},null,false]},null,false],"$Ld",false]],"m":"$undefined","G":["$e",[]],"s":false,"S":true}
+f:I[4159,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"KBarButton"]
+10:I[1762,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"default"]
+11:I[7298,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"default"]
+12:I[7555,[],""]
+13:I[1295,[],""]
+1e:I[9665,[],"OutletBoundary"]
+20:I[4911,[],"AsyncMetadataOutlet"]
+22:I[9665,[],"ViewportBoundary"]
+24:I[9665,[],"MetadataBoundary"]
+25:"$Sreact.suspense"
+7:["$","div",null,{"className":"flex items-center space-x-4","children":[["$","div",null,{"className":"no-scrollbar hidden items-center space-x-2 sm:flex","children":[["$","$L6","Blog",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/blog","children":"Blog"}],["$","$L6","Docs",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/docs","children":"Docs"}],["$","$L6","Tags",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/tags","children":"Tags"}],["$","$L6","About",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/about","children":"About"}]]}],["$","div",null,{"className":"flex items-center space-x-2","children":[["$","$Lf",null,{"aria-label":"Search","className":"p-2 rounded-lg transition-all duration-200","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","strokeWidth":1.5,"stroke":"currentColor","className":"h-6 w-6 hover:text-primary-600 dark:hover:text-primary-400 transition-colors","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","d":"M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"}]}]}],["$","$L10",null,{}],["$","$L11",null,{}]]}]]}]
+8:["$","main",null,{"className":"py-6","children":["$","$L12",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L13",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"flex flex-col items-start justify-start md:mt-24 md:flex-row md:items-center md:justify-center md:space-x-6","children":[["$","div",null,{"className":"space-x-2 pt-6 pb-8 md:space-y-5","children":["$","h1",null,{"className":"text-6xl leading-9 font-extrabold tracking-tight md:border-r-2 md:px-6 md:text-8xl md:leading-14","children":"404"}]}],["$","div",null,{"className":"max-w-md","children":[["$","p",null,{"className":"mb-4 text-xl leading-normal font-bold md:text-2xl","children":"Sorry we couldn't find this page."}],["$","p",null,{"className":"mb-8","children":"But dont worry, you can find plenty of other things on our homepage."}],["$","$L6",null,{"className":"focus:shadow-outline-blue inline rounded-lg border border-transparent bg-blue-600 px-4 py-2 text-sm leading-5 font-medium text-white shadow-xs transition-colors duration-150 hover:bg-blue-700 focus:outline-hidden dark:hover:bg-blue-500","href":"/","children":"Back to homepage"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]
+9:["$","footer",null,{"className":"border-t border-gray-200/30 dark:border-gray-700/30 pt-8","children":["$","div",null,{"className":"flex flex-col items-center space-y-6","children":[["$","div",null,{"className":"flex flex-wrap justify-center gap-4","children":[["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"mailto:yunwei356@gmail.com","children":[["$","span",null,{"className":"sr-only","children":"mail"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Mail"}],["$","path",null,{"d":"M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"}],["$","path",null,{"d":"M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"}]]}]]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://github.com/yunwei37","children":[["$","span",null,{"className":"sr-only","children":"github"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"GitHub"}],["$","path",null,{"d":"M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"}]]}]]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://facebook.com","children":[["$","span",null,{"className":"sr-only","children":"facebook"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Facebook"}],["$","path",null,{"d":"M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"}]]}]]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://youtube.com","children":[["$","span",null,{"className":"sr-only","children":"youtube"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Youtube"}],["$","path",null,{"d":"M23.499 6.203a3.008 3.008 0 00-2.089-2.089c-1.87-.501-9.4-.501-9.4-.501s-7.509-.01-9.399.501a3.008 3.008 0 00-2.088 2.09A31.258 31.26 0 000 12.01a31.258 31.26 0 00.523 5.785 3.008 3.008 0 002.088 2.089c1.869.502 9.4.502 9.4.502s7.508 0 9.399-.502a3.008 3.008 0 002.089-2.09 31.258 31.26 0 00.5-5.784 31.258 31.26 0 00-.5-5.808zm-13.891 9.4V8.407l6.266 3.604z"}]]}]]}],"$L14","$L15","$L16","$L17","$L18","$L19","$L1a"]}],"$L1b","$L1c"]}]}]
+a:["$","$1","c",{"children":[null,["$","$L12",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L13",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+b:["$","$1","c",{"children":[null,["$","$L12",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L13",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+c:["$","$1","c",{"children":["$L1d",null,["$","$L1e",null,{"children":["$L1f",["$","$L20",null,{"promise":"$@21"}]]}]]}]
+d:["$","$1","h",{"children":[null,[["$","$L22",null,{"children":"$L23"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L24",null,{"children":["$","div",null,{"hidden":true,"children":["$","$25",null,{"fallback":null,"children":"$L26"}]}]}]]}]
+14:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://www.linkedin.com/in/yusheng-zheng-611920280","children":[["$","span",null,{"className":"sr-only","children":"linkedin"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Linkedin"}],["$","path",null,{"d":"M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"}]]}]]}]
+15:null
+16:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://bsky.app/","children":[["$","span",null,{"className":"sr-only","children":"bluesky"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Bluesky"}],["$","path",null,{"d":"M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565C.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479c.815 2.736 3.713 3.66 6.383 3.364q.204-.03.415-.056q-.207.033-.415.056c-3.912.58-7.387 2.005-2.83 7.078c5.013 5.19 6.87-1.113 7.823-4.308c.953 3.195 2.05 9.271 7.733 4.308c4.267-4.308 1.172-6.498-2.74-7.078a9 9 0 0 1-.415-.056q.21.026.415.056c2.67.297 5.568-.628 6.383-3.364c.246-.828.624-5.79.624-6.478c0-.69-.139-1.861-.902-2.206c-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8"}]]}]]}]
+17:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://x.com/yunwei37","children":[["$","span",null,{"className":"sr-only","children":"x"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"X"}],["$","path",null,{"d":"M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"}]]}]]}]
+27:T69f,M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z18:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://www.instagram.com","children":[["$","span",null,{"className":"sr-only","children":"instagram"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Instagram"}],["$","path",null,{"d":"$27"}]]}]]}]
+28:T498,M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.964-.065-1.19.408-2.285 1.33-3.082.88-.76 2.119-1.207 3.583-1.291a13.853 13.853 0 0 1 3.02.142c-.126-.742-.375-1.332-.75-1.757-.513-.586-1.308-.883-2.359-.89h-.029c-.844 0-1.992.232-2.721 1.32L7.734 7.847c.98-1.454 2.568-2.256 4.478-2.256h.044c3.194.02 5.097 1.975 5.287 5.388.108.046.216.094.321.142 1.49.7 2.58 1.761 3.154 3.07.797 1.82.871 4.79-1.548 7.158-1.85 1.81-4.094 2.628-7.277 2.65Zm1.003-11.69c-.242 0-.487.007-.739.021-1.836.103-2.98.946-2.916 2.143.067 1.256 1.452 1.839 2.784 1.767 1.224-.065 2.818-.543 3.086-3.71a10.5 10.5 0 0 0-2.215-.221z19:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://www.threads.net","children":[["$","span",null,{"className":"sr-only","children":"threads"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Threads"}],["$","path",null,{"d":"$28"}]]}]]}]
+1a:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://medium.com","children":[["$","span",null,{"className":"sr-only","children":"medium"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Medium"}],["$","path",null,{"d":"M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"}]]}]]}]
+1b:["$","div",null,{"className":"flex space-x-2 text-sm opacity-80","children":[["$","div",null,{"children":"Yusheng Zheng"}],["$","div",null,{"children":" • "}],["$","div",null,{"children":"© 2026"}],["$","div",null,{"children":" • "}],["$","$L6",null,{"className":"hover:text-primary-500 transition-colors","href":"/","children":"云微的胡思乱想"}]]}]
+1c:["$","div",null,{"className":"text-sm opacity-60","children":["$","a",null,{"className":"hover:text-primary-500 transition-colors","target":"_blank","rel":"noopener noreferrer","href":"https://github.com/timlrx/tailwind-nextjs-starter-blog","children":"Tailwind Nextjs Theme"}]}]
+29:I[3429,["874","static/chunks/874-8edb22cc7428423c.js","582","static/chunks/app/docs/%5B...slug%5D/page-0c54796a1c75eb33.js"],"default"]
+1d:["$","$L29",null,{"content":{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕_流影的记忆碎片_大纲","title":"第四幕_流影的记忆碎片_大纲","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕_流影的记忆碎片_大纲"},"allDocs":[{"slug":"prompt/story","title":"Story","path":"docs/prompt/story"},{"slug":"random/apisix-profile-OSPP-郑昱笙","title":"Apisix Profile OSPP 郑昱笙","path":"docs/random/apisix-profile-OSPP-郑昱笙"},{"slug":"random/intro","title":"Intro","path":"docs/random/intro"},{"slug":"random/introen","title":"Introen","path":"docs/random/introen"},{"slug":"random/network_paper","title":"Network_paper","path":"docs/random/network_paper"},{"slug":"random/talk_docvqa.","title":"Talk_docvqa.","path":"docs/random/talk_docvqa."},{"slug":"代码/AI辅助代码生成是否将成为未来编程的主流","title":"AI辅助代码生成是否将成为未来编程的主流","path":"docs/代码/AI辅助代码生成是否将成为未来编程的主流"},{"slug":"小说/playground/story1","title":"Story1","path":"docs/小说/playground/story1"},{"slug":"小说/性与性别流动/故事/ai_symbiosis_system","title":"Ai_symbiosis_system","path":"docs/小说/性与性别流动/故事/ai_symbiosis_system"},{"slug":"小说/性与性别流动/故事/future","title":"性的未来：数字时代的科技、伦理与人类连接","path":"docs/小说/性与性别流动/故事/future"},{"slug":"小说/性与性别流动/故事/guideline","title":"Guideline","path":"docs/小说/性与性别流动/故事/guideline"},{"slug":"小说/性与性别流动/故事/ideas","title":"Ideas","path":"docs/小说/性与性别流动/故事/ideas"},{"slug":"小说/性与性别流动/故事/master_index","title":"Master_index","path":"docs/小说/性与性别流动/故事/master_index"},{"slug":"小说/性与性别流动/故事/outlines","title":"Outlines","path":"docs/小说/性与性别流动/故事/outlines"},{"slug":"小说/性与性别流动/故事/social_systems_design","title":"Social_systems_design","path":"docs/小说/性与性别流动/故事/social_systems_design"},{"slug":"小说/性与性别流动/故事/specific_technologies","title":"Specific_technologies","path":"docs/小说/性与性别流动/故事/specific_technologies"},{"slug":"小说/性与性别流动/故事/technology_timeline","title":"Technology_timeline","path":"docs/小说/性与性别流动/故事/technology_timeline"},{"slug":"小说/性与性别流动/故事/world_background","title":"World_background","path":"docs/小说/性与性别流动/故事/world_background"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/chapter_titles_candidates","title":"Chapter_titles_candidates","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/chapter_titles_candidates"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/guideline","title":"Guideline","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/guideline"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/more_intro","title":"More_intro","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/more_intro"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/story_outline_summary","title":"Story_outline_summary","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/story_outline_summary"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/主角心态变化分析","title":"主角心态变化分析","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/主角心态变化分析"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕_流影的记忆碎片_大纲","title":"第四幕_流影的记忆碎片_大纲","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕_流影的记忆碎片_大纲"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/1","title":"1","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/1"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/2","title":"2","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/2"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/3","title":"3","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/3"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/4","title":"4","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/4"},{"slug":"小说/性与性别流动/故事/集合/1/characters","title":"Characters","path":"docs/小说/性与性别流动/故事/集合/1/characters"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/8","title":"8","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/8"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/第五幕_再遇许璃与派系暗流","title":"第五幕_再遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/第五幕_再遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/第五幕_再遇许璃与派系暗流 copy","title":"第五幕_再遇许璃与派系暗流 copy","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/第五幕_再遇许璃与派系暗流 copy"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/design","title":"Design","path":"docs/小说/性与性别流动/故事/集合/1/design"},{"slug":"小说/性与性别流动/故事/集合/1/intro","title":"Intro","path":"docs/小说/性与性别流动/故事/集合/1/intro"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第一幕_修改建议","title":"第一幕_修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第一幕_修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第三幕_修改建议","title":"第三幕_修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第三幕_修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第二幕_修改建议","title":"第二幕_修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第二幕_修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第五幕_初遇许璃与派系暗流_扩展与修改建议","title":"第五幕_初遇许璃与派系暗流_扩展与修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第五幕_初遇许璃与派系暗流_扩展与修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第四幕_修改建议","title":"第四幕_修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第四幕_修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/general/1-3","title":"1 3","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/general/1-3"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第五幕_再遇许璃与派系暗流","title":"第五幕_再遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第五幕_再遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/more_intro","title":"More_intro","path":"docs/小说/性与性别流动/故事/集合/1/more_intro"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter1_意外觉醒","title":"Chapter1_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter1_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter2_艰难适应","title":"Chapter2_艰难适应","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter2_艰难适应"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter3_暗流涌动","title":"Chapter3_暗流涌动","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter3_暗流涌动"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter4_假面嘉年华","title":"Chapter4_假面嘉年华","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter4_假面嘉年华"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter5_三方博弈","title":"Chapter5_三方博弈","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter5_三方博弈"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter6_真相与背叛","title":"Chapter6_真相与背叛","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter6_真相与背叛"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter7_意识围猎","title":"Chapter7_意识围猎","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter7_意识围猎"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter8_破局重组","title":"Chapter8_破局重组","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter8_破局重组"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter9_新的开始","title":"Chapter9_新的开始","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter9_新的开始"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/outline/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/outline/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/outline/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/outline/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/outline/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/outline/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/outline/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/outline/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十六幕_开放的未来与永恒的探索","title":"第十六幕_开放的未来与永恒的探索","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十六幕_开放的未来与永恒的探索"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/outline/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第15幕_新秩序的建立与考验","title":"第15幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第15幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十六幕_开放的未来与永恒的探索","title":"第十六幕_开放的未来与永恒的探索","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十六幕_开放的未来与永恒的探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十六幕_开放的未来与永恒的探索","title":"第十六幕_开放的未来与永恒的探索","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十六幕_开放的未来与永恒的探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十六幕_开放的未来与永恒的探索","title":"第十六幕_开放的未来与永恒的探索","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十六幕_开放的未来与永恒的探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第一幕_意外觉醒_正文","title":"第一幕_意外觉醒_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第一幕_意外觉醒_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第七幕_地下黑市初探_正文","title":"第七幕_地下黑市初探_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第七幕_地下黑市初探_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第三幕_镜中新我与身体探索_正文","title":"第三幕_镜中新我与身体探索_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第三幕_镜中新我与身体探索_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第九幕_数字痕迹_正文","title":"第九幕_数字痕迹_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第九幕_数字痕迹_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第二幕_身体重塑的七日历程_正文","title":"第二幕_身体重塑的七日历程_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第二幕_身体重塑的七日历程_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第五幕_初遇许璃与派系暗流_正文","title":"第五幕_初遇许璃与派系暗流_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第五幕_初遇许璃与派系暗流_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第八幕_情感探索与身份认同危机_正文","title":"第八幕_情感探索与身份认同危机_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第八幕_情感探索与身份认同危机_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第六幕_身体流动庆典_正文","title":"第六幕_身体流动庆典_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第六幕_身体流动庆典_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十一幕_压力测试_正文","title":"第十一幕_压力测试_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十一幕_压力测试_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十三幕_无解的道德困境_正文","title":"第十三幕_无解的道德困境_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十三幕_无解的道德困境_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十二幕_意识病毒危机爆发_正文","title":"第十二幕_意识病毒危机爆发_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十二幕_意识病毒危机爆发_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十五幕_新秩序的建立与考验_正文","title":"第十五幕_新秩序的建立与考验_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十五幕_新秩序的建立与考验_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十四幕_意外联盟与妥协方案_正文","title":"第十四幕_意外联盟与妥协方案_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十四幕_意外联盟与妥协方案_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十幕_系统故障_正文","title":"第十幕_系统故障_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十幕_系统故障_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第四幕_流影的记忆碎片_正文","title":"第四幕_流影的记忆碎片_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第四幕_流影的记忆碎片_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_01_awakening","title":"Chapter_01_awakening","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_01_awakening"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_02_adaptation","title":"Chapter_02_adaptation","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_02_adaptation"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_03_body_awakening","title":"Chapter_03_body_awakening","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_03_body_awakening"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_04_undercurrents","title":"Chapter_04_undercurrents","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_04_undercurrents"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_05_carnival","title":"Chapter_05_carnival","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_05_carnival"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_06_three_way_struggle","title":"Chapter_06_three_way_struggle","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_06_three_way_struggle"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_07_emotional_deepening","title":"Chapter_07_emotional_deepening","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_07_emotional_deepening"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_08_truth_and_betrayal","title":"Chapter_08_truth_and_betrayal","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_08_truth_and_betrayal"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_09_consciousness_siege","title":"Chapter_09_consciousness_siege","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_09_consciousness_siege"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_10_breakthrough_and_new_beginning","title":"Chapter_10_breakthrough_and_new_beginning","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_10_breakthrough_and_new_beginning"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/summary","title":"Summary","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/summary"},{"slug":"小说/性与性别流动/故事/集合/1/summary","title":"Summary","path":"docs/小说/性与性别流动/故事/集合/1/summary"},{"slug":"小说/性与性别流动/讨论/01_生物科技与身体改造研究报告","title":"01_生物科技与身体改造研究报告","path":"docs/小说/性与性别流动/讨论/01_生物科技与身体改造研究报告"},{"slug":"小说/性与性别流动/讨论/02_赛博格时代社会影响分析报告","title":"02_赛博格时代社会影响分析报告","path":"docs/小说/性与性别流动/讨论/02_赛博格时代社会影响分析报告"},{"slug":"小说/性与性别流动/讨论/03_性与亲密关系的未来演变研究","title":"03_性与亲密关系的未来演变研究","path":"docs/小说/性与性别流动/讨论/03_性与亲密关系的未来演变研究"},{"slug":"小说/性与性别流动/讨论/05_伦理与哲学思辨专题","title":"05_伦理与哲学思辨专题","path":"docs/小说/性与性别流动/讨论/05_伦理与哲学思辨专题"},{"slug":"小说/性与性别流动/讨论/idea","title":"Idea","path":"docs/小说/性与性别流动/讨论/idea"},{"slug":"小说/性与性别流动/讨论/性与亲密关系研究问题集","title":"性与亲密关系研究问题集","path":"docs/小说/性与性别流动/讨论/性与亲密关系研究问题集"},{"slug":"小说/性与性别流动/讨论/机密档案：情感动力学（合欢宗）技术与哲学纲要","title":"机密档案：情感动力学（合欢宗）技术与哲学纲要","path":"docs/小说/性与性别流动/讨论/机密档案：情感动力学（合欢宗）技术与哲学纲要"},{"slug":"小说/改文/我的化身正在成为最终BOSS/character_redesign_female_protagonist","title":"Character_redesign_female_protagonist","path":"docs/小说/改文/我的化身正在成为最终BOSS/character_redesign_female_protagonist"},{"slug":"小说/改文/我的化身正在成为最终BOSS/summary","title":"Summary","path":"docs/小说/改文/我的化身正在成为最终BOSS/summary"},{"slug":"小说/故事1/backup/主线","title":"主线","path":"docs/小说/故事1/backup/主线"},{"slug":"小说/故事1/backup/主线_v2","title":"主线_v2","path":"docs/小说/故事1/backup/主线_v2"},{"slug":"小说/故事1/backup/历史/历史","title":"历史","path":"docs/小说/故事1/backup/历史/历史"},{"slug":"小说/故事1/backup/历史/赤胎环舟本纪","title":"赤胎环舟本纪","path":"docs/小说/故事1/backup/历史/赤胎环舟本纪"},{"slug":"小说/故事1/backup/大纲/1","title":"1","path":"docs/小说/故事1/backup/大纲/1"},{"slug":"小说/故事1/backup/大纲/10","title":"10","path":"docs/小说/故事1/backup/大纲/10"},{"slug":"小说/故事1/backup/大纲/11","title":"11","path":"docs/小说/故事1/backup/大纲/11"},{"slug":"小说/故事1/backup/大纲/12","title":"12","path":"docs/小说/故事1/backup/大纲/12"},{"slug":"小说/故事1/backup/大纲/13","title":"13","path":"docs/小说/故事1/backup/大纲/13"},{"slug":"小说/故事1/backup/大纲/14","title":"14","path":"docs/小说/故事1/backup/大纲/14"},{"slug":"小说/故事1/backup/大纲/15","title":"15","path":"docs/小说/故事1/backup/大纲/15"},{"slug":"小说/故事1/backup/大纲/16","title":"16","path":"docs/小说/故事1/backup/大纲/16"},{"slug":"小说/故事1/backup/大纲/2","title":"2","path":"docs/小说/故事1/backup/大纲/2"},{"slug":"小说/故事1/backup/大纲/3","title":"3","path":"docs/小说/故事1/backup/大纲/3"},{"slug":"小说/故事1/backup/大纲/4","title":"4","path":"docs/小说/故事1/backup/大纲/4"},{"slug":"小说/故事1/backup/大纲/5","title":"5","path":"docs/小说/故事1/backup/大纲/5"},{"slug":"小说/故事1/backup/大纲/6","title":"6","path":"docs/小说/故事1/backup/大纲/6"},{"slug":"小说/故事1/backup/大纲/7","title":"7","path":"docs/小说/故事1/backup/大纲/7"},{"slug":"小说/故事1/backup/大纲/8","title":"8","path":"docs/小说/故事1/backup/大纲/8"},{"slug":"小说/故事1/backup/大纲/9","title":"9","path":"docs/小说/故事1/backup/大纲/9"},{"slug":"小说/故事1/backup/大纲/大纲总结","title":"大纲总结","path":"docs/小说/故事1/backup/大纲/大纲总结"},{"slug":"小说/故事1/backup/大纲/设定问题分析","title":"设定问题分析","path":"docs/小说/故事1/backup/大纲/设定问题分析"},{"slug":"小说/故事1/backup/大纲2/17","title":"17","path":"docs/小说/故事1/backup/大纲2/17"},{"slug":"小说/故事1/backup/大纲2/18","title":"18","path":"docs/小说/故事1/backup/大纲2/18"},{"slug":"小说/故事1/backup/大纲2/21","title":"21","path":"docs/小说/故事1/backup/大纲2/21"},{"slug":"小说/故事1/backup/大纲2/22","title":"22","path":"docs/小说/故事1/backup/大纲2/22"},{"slug":"小说/故事1/backup/大纲2/23","title":"23","path":"docs/小说/故事1/backup/大纲2/23"},{"slug":"小说/故事1/backup/大纲2/24","title":"24","path":"docs/小说/故事1/backup/大纲2/24"},{"slug":"小说/故事1/backup/大纲2/25","title":"25","path":"docs/小说/故事1/backup/大纲2/25"},{"slug":"小说/故事1/backup/大纲2/26","title":"26","path":"docs/小说/故事1/backup/大纲2/26"},{"slug":"小说/故事1/backup/大纲2/27","title":"27","path":"docs/小说/故事1/backup/大纲2/27"},{"slug":"小说/故事1/backup/大纲2/28","title":"28","path":"docs/小说/故事1/backup/大纲2/28"},{"slug":"小说/故事1/backup/大纲2/29","title":"29","path":"docs/小说/故事1/backup/大纲2/29"},{"slug":"小说/故事1/backup/大纲2/30","title":"30","path":"docs/小说/故事1/backup/大纲2/30"},{"slug":"小说/故事1/backup/大纲2/31","title":"31","path":"docs/小说/故事1/backup/大纲2/31"},{"slug":"小说/故事1/backup/大纲2/32","title":"32","path":"docs/小说/故事1/backup/大纲2/32"},{"slug":"小说/故事1/backup/大纲2/33","title":"33","path":"docs/小说/故事1/backup/大纲2/33"},{"slug":"小说/故事1/backup/大纲2/34","title":"34","path":"docs/小说/故事1/backup/大纲2/34"},{"slug":"小说/故事1/backup/大纲2/如何写设定","title":"如何写设定","path":"docs/小说/故事1/backup/大纲2/如何写设定"},{"slug":"小说/故事1/backup/大纲2/表格","title":"表格","path":"docs/小说/故事1/backup/大纲2/表格"},{"slug":"小说/故事1/backup/大纲prompt","title":"大纲prompt","path":"docs/小说/故事1/backup/大纲prompt"},{"slug":"小说/故事1/backup/描述","title":"描述","path":"docs/小说/故事1/backup/描述"},{"slug":"小说/故事1/核心","title":"核心","path":"docs/小说/故事1/核心"},{"slug":"小说/故事1/设定/prompt","title":"Prompt","path":"docs/小说/故事1/设定/prompt"},{"slug":"小说/故事1/设定/一魂多体爽点分析","title":"一魂多体爽点分析","path":"docs/小说/故事1/设定/一魂多体爽点分析"},{"slug":"小说/故事1/设定/价值观与哲学（世界的灵魂）/冲突","title":"冲突","path":"docs/小说/故事1/设定/价值观与哲学（世界的灵魂）/冲突"},{"slug":"小说/故事1/设定/力量体系与神器（成长的道具）/力量体系构建的第一性原理","title":"力量体系构建的第一性原理","path":"docs/小说/故事1/设定/力量体系与神器（成长的道具）/力量体系构建的第一性原理"},{"slug":"小说/故事1/设定/历史与时间线（深度时间感）/战锤化修改合集","title":"战锤化修改合集","path":"docs/小说/故事1/设定/历史与时间线（深度时间感）/战锤化修改合集"},{"slug":"小说/故事1/设定/历史与时间线（深度时间感）/描述","title":"描述","path":"docs/小说/故事1/设定/历史与时间线（深度时间感）/描述"},{"slug":"小说/故事1/设定/历史与时间线（深度时间感）/政治年表","title":"政治年表","path":"docs/小说/故事1/设定/历史与时间线（深度时间感）/政治年表"},{"slug":"小说/故事1/设定/历史与时间线（深度时间感）/深层秘密-胚胎与看护者","title":"深层秘密 胚胎与看护者","path":"docs/小说/故事1/设定/历史与时间线（深度时间感）/深层秘密-胚胎与看护者"},{"slug":"小说/故事1/设定/地理与生态环境（戏剧的舞台）/世界","title":"世界","path":"docs/小说/故事1/设定/地理与生态环境（戏剧的舞台）/世界"},{"slug":"小说/故事1/设定/地理与生态环境（戏剧的舞台）/场景","title":"场景","path":"docs/小说/故事1/设定/地理与生态环境（戏剧的舞台）/场景"},{"slug":"小说/故事1/设定/大纲","title":"大纲","path":"docs/小说/故事1/设定/大纲"},{"slug":"小说/故事1/设定/大纲修改意见","title":"大纲修改意见","path":"docs/小说/故事1/设定/大纲修改意见"},{"slug":"小说/故事1/设定/设定指导","title":"设定指导","path":"docs/小说/故事1/设定/设定指导"},{"slug":"小说/短篇/年轮里的回声/年轮里的回声","title":"年轮里的回声","path":"docs/小说/短篇/年轮里的回声/年轮里的回声"},{"slug":"小说/短篇/年轮里的回声/年轮里的回声-完整","title":"年轮里的回声 完整","path":"docs/小说/短篇/年轮里的回声/年轮里的回声-完整"},{"slug":"小说/短篇/年轮里的回声/年轮里的回声2","title":"年轮里的回声2","path":"docs/小说/短篇/年轮里的回声/年轮里的回声2"},{"slug":"小说/短篇/年轮里的回声/题目与简介选项","title":"题目与简介选项","path":"docs/小说/短篇/年轮里的回声/题目与简介选项"},{"slug":"小说/诈骗/claude/人物设定与大纲","title":"人物设定与大纲","path":"docs/小说/诈骗/claude/人物设定与大纲"},{"slug":"小说/诈骗/claude/第一章：老人的眼泪","title":"第一章：老人的眼泪","path":"docs/小说/诈骗/claude/第一章：老人的眼泪"},{"slug":"小说/诈骗/claude/第七章：猫鼠游戏","title":"第七章：猫鼠游戏","path":"docs/小说/诈骗/claude/第七章：猫鼠游戏"},{"slug":"小说/诈骗/claude/第三章：进入围城","title":"第三章：进入围城","path":"docs/小说/诈骗/claude/第三章：进入围城"},{"slug":"小说/诈骗/claude/第九章：黑吃黑的艺术","title":"第九章：黑吃黑的艺术","path":"docs/小说/诈骗/claude/第九章：黑吃黑的艺术"},{"slug":"小说/诈骗/claude/第二章：猎人的准备","title":"第二章：猎人的准备","path":"docs/小说/诈骗/claude/第二章：猎人的准备"},{"slug":"小说/诈骗/claude/第五章：第一次交锋","title":"第五章：第一次交锋","path":"docs/小说/诈骗/claude/第五章：第一次交锋"},{"slug":"小说/诈骗/claude/第八章：绝地反击","title":"第八章：绝地反击","path":"docs/小说/诈骗/claude/第八章：绝地反击"},{"slug":"小说/诈骗/claude/第六章：连环套局","title":"第六章：连环套局","path":"docs/小说/诈骗/claude/第六章：连环套局"},{"slug":"小说/诈骗/claude/第十章：收网时刻","title":"第十章：收网时刻","path":"docs/小说/诈骗/claude/第十章：收网时刻"},{"slug":"小说/诈骗/claude/第四章：深入虎穴","title":"第四章：深入虎穴","path":"docs/小说/诈骗/claude/第四章：深入虎穴"},{"slug":"小说/诈骗/修仙/人物设定与大纲","title":"人物设定与大纲","path":"docs/小说/诈骗/修仙/人物设定与大纲"},{"slug":"小说/诈骗/修仙/如何讲话让人火大","title":"如何讲话让人火大","path":"docs/小说/诈骗/修仙/如何讲话让人火大"},{"slug":"小说/诈骗/修仙/第一章：灵脉之殇","title":"第一章：灵脉之殇","path":"docs/小说/诈骗/修仙/第一章：灵脉之殇"},{"slug":"小说/诈骗/修仙/第七章：灵狐斗金","title":"第七章：灵狐斗金","path":"docs/小说/诈骗/修仙/第七章：灵狐斗金"},{"slug":"小说/诈骗/修仙/第三章：潜入金窟","title":"第三章：潜入金窟","path":"docs/小说/诈骗/修仙/第三章：潜入金窟"},{"slug":"小说/诈骗/修仙/第九章：玄金之殇","title":"第九章：玄金之殇","path":"docs/小说/诈骗/修仙/第九章：玄金之殇"},{"slug":"小说/诈骗/修仙/第二章：猎宝之谋","title":"第二章：猎宝之谋","path":"docs/小说/诈骗/修仙/第二章：猎宝之谋"},{"slug":"小说/诈骗/修仙/第五章：初战灵宝","title":"第五章：初战灵宝","path":"docs/小说/诈骗/修仙/第五章：初战灵宝"},{"slug":"小说/诈骗/修仙/第八章：灵宝反击","title":"第八章：灵宝反击","path":"docs/小说/诈骗/修仙/第八章：灵宝反击"},{"slug":"小说/诈骗/修仙/第六章：连环灵计","title":"第六章：连环灵计","path":"docs/小说/诈骗/修仙/第六章：连环灵计"},{"slug":"小说/诈骗/修仙/第十章：灵归正主","title":"第十章：灵归正主","path":"docs/小说/诈骗/修仙/第十章：灵归正主"},{"slug":"小说/诈骗/修仙/第四章：深入宝渊","title":"第四章：深入宝渊","path":"docs/小说/诈骗/修仙/第四章：深入宝渊"},{"slug":"小说/诈骗/诈骗-grok/人物设定","title":"人物设定","path":"docs/小说/诈骗/诈骗-grok/人物设定"},{"slug":"小说/诈骗/诈骗-grok/故事大纲","title":"故事大纲","path":"docs/小说/诈骗/诈骗-grok/故事大纲"},{"slug":"小说/诈骗/诈骗-grok/第一章：陷阱初现","title":"第一章：陷阱初现","path":"docs/小说/诈骗/诈骗-grok/第一章：陷阱初现"},{"slug":"小说/诈骗/诈骗-grok/第七章：猫鼠游戏","title":"第七章：猫鼠游戏","path":"docs/小说/诈骗/诈骗-grok/第七章：猫鼠游戏"},{"slug":"小说/诈骗/诈骗-grok/第三章：进入围城","title":"第三章：进入围城","path":"docs/小说/诈骗/诈骗-grok/第三章：进入围城"},{"slug":"小说/诈骗/诈骗-grok/第九章：黑吃黑的艺术","title":"第九章：黑吃黑的艺术","path":"docs/小说/诈骗/诈骗-grok/第九章：黑吃黑的艺术"},{"slug":"小说/诈骗/诈骗-grok/第二章：猎人的准备","title":"第二章：猎人的准备","path":"docs/小说/诈骗/诈骗-grok/第二章：猎人的准备"},{"slug":"小说/诈骗/诈骗-grok/第五章：第一次交锋","title":"第五章：第一次交锋","path":"docs/小说/诈骗/诈骗-grok/第五章：第一次交锋"},{"slug":"小说/诈骗/诈骗-grok/第八章：绝地反击","title":"第八章：绝地反击","path":"docs/小说/诈骗/诈骗-grok/第八章：绝地反击"},{"slug":"小说/诈骗/诈骗-grok/第六章：连环套局","title":"第六章：连环套局","path":"docs/小说/诈骗/诈骗-grok/第六章：连环套局"},{"slug":"小说/诈骗/诈骗-grok/第十章：收网时刻","title":"第十章：收网时刻","path":"docs/小说/诈骗/诈骗-grok/第十章：收网时刻"},{"slug":"小说/诈骗/诈骗-grok/第四章：深入虎穴","title":"第四章：深入虎穴","path":"docs/小说/诈骗/诈骗-grok/第四章：深入虎穴"},{"slug":"小说/诈骗/诈骗-grok/金融电信诈骗与黑灰产调研报告","title":"金融电信诈骗与黑灰产调研报告","path":"docs/小说/诈骗/诈骗-grok/金融电信诈骗与黑灰产调研报告"},{"slug":"小说/风格/一般风格","title":"一般风格","path":"docs/小说/风格/一般风格"},{"slug":"小说/风格/网文文艺风","title":"网文文艺风","path":"docs/小说/风格/网文文艺风"},{"slug":"小说/风格/网文标准风","title":"网文标准风","path":"docs/小说/风格/网文标准风"}],"children":"$L2a"}]
+2b:Tb148,<h1>第四幕：流影的记忆碎片</h1>
+<h2>【身份混淆：风暴前夕】</h2>
+<h3>第一阶段：微妙的言行错位</h3>
+<p>意识融合的"副作用"开始显现。我发现自己在日常对话中会不经意地说出一些从未体验过的细节：</p>
+<ul>
+<li>在食堂排队时，我对七号脱口而出："这道菜的味道总是让我想起……"然后突然意识到，属于高鸣的记忆里，我根本没吃过这道菜。</li>
+<li>路过校园某栋楼时，我的脚步会自动调整路线，仿佛在规避什么，但我的理智却完全不知道为什么。</li>
+<li>看到某些陌生的面孔时，我会产生莫名的情绪波动——厌恶、警惕、或者温暖——完全没有逻辑依据。</li>
+</ul>
+<h3>第二阶段：感官记忆闪回</h3>
+<p>某天在研讨会的时候，当教授提到"基因表达调控"时，我突然：</p>
+<ol>
+<li><strong>嗅觉闪回</strong>：闻到一股不存在的实验室消毒水味道，强烈到让我干呕。</li>
+<li><strong>触觉闪回</strong>：感到指尖有种"刚触碰过金属注射器"的余温和轻微刺痛。</li>
+<li><strong>听觉闪回</strong>：在寂静的实验室中"听到"一个模糊的男性声音在说"……放松，这对你有好处……"</li>
+</ol>
+<p>周围同学开始投来关切的目光，我只能强撑着说自己"身体改造还在适应期"。</p>
+<h3>第三阶段：行为模式干扰与全面爆发</h3>
+<p>最严重的一次发生在校园图书馆。当时，我正与简、七号讨论课题：</p>
+<ul>
+<li>面对服务员时，我的嘴巴自动说出了一串复杂的个人定制咖啡配方（"低酸度蓝山豆，加15ml杏仁奶，温度调至68°C"），但我，高鸣，从来不喝咖啡。</li>
+<li>简随口提到"昨天那个新闻，天钥集团又收购了一家生物技术公司"时，我脱口而出："他们不只是收购……"然后突然卡住，完全不知道自己想说什么。</li>
+<li>话音未落，海量的记忆闪回碎片——实验室的消毒水味、金属的冰冷触感、一个陌生女人的哭泣声、高速坠落的失重感——同时涌入我的大脑。神经系统短暂失衡，我在同学的惊呼声中当众晕倒。</li>
+</ul>
+<h3>第四阶段：身份认知危机：真实的恐慌</h3>
+<p>当天夜里，我在校医院的病床上醒来，对着天花板进行了一次"自我测试"：</p>
+<ul>
+<li>我能清晰回忆起高鸣的童年、求学经历。</li>
+<li>但同时，关于这个校园的"熟悉感"也在疯狂增强——我知道哪个教室有最好的WiFi信号，哪条路径能避开人群，甚至对某些教授的性格有莫名的判断。</li>
+</ul>
+<p>这种"双重熟悉感"让我陷入恐慌：<strong>如果记忆继续混淆下去，"高鸣"的自我认知会不会被彻底冲散？</strong></p>
+<h2>【绝命自救：记忆舱的求生之路】</h2>
+<h3>崩溃与生存警报</h3>
+<p>就在我为自我认知即将消散而恐惧时，意识中Nexus发来最高优先级的系统警报：</p>
+<blockquote>
+<p><strong>Nexus:</strong> <code>【警告：检测到您的核心人格'高鸣'与宿主'流影'的记忆数据产生不可逆的深度纠缠。本地医疗AI的标准化预案为'异常数据格式化'。预估在24小时内，您的自我认知将被判定为有害数据并被强制清除。】</code>
+<strong>Nexus:</strong> <code>【生存方案已生成：本隔离层B-7原型设备区存放有一台'情景记忆重构舱'。通过该设备主动梳理并整合流影的记忆，是避免您的人格被抹除的唯一机会。】</code></p>
+</blockquote>
+<h3>午夜的亡命之徒</h3>
+<p>求生的本能压倒了一切。我不再是旁观者，而是为了活下去的战士。
+在医疗机械臂离开、房门自动锁闭之间的空档，我拔掉身上的监测贴片，跟随 Nexus 提供的 AR 导航，滑入隔壁漆黑的实验间——那里静置着一台贴着"β-4 级内测 / PTSD 研究用"黄色标签的银色椅舱。</p>
+<p>我靠近设备，Nexus 迅速在本地网络中植入后门，接管舱体权限。墙面投射出调试界面：</p>
+<ul>
+<li>设备所有者：临床神经恢复中心（授权人：陈志博）</li>
+<li>当前状态：空闲</li>
+</ul>
+<blockquote>
+<p><strong>Nexus:</strong> <code>【已取得 root 级控制...正在扫描设备状态...警告：该设备的'伦理锁'已被物理移除。这意味着它将无差别地重现所有记忆，包括高强度的情感与生理冲击。风险等级：高。】</code></p>
+</blockquote>
+<h3>意识囚徒与身体主角</h3>
+<p>Nexus在我意识中快速解释了运行机制：</p>
+<blockquote>
+<p><strong>Nexus:</strong> <code>【您将以第一人称视角'亲历'记忆，感官100%同步。但您无法控制身体，您将成为'意识的囚徒'。关键冲突在于：记忆中流影的生理反应将真实发生在您身上。您2025年的意识会抗拒，但这具身体会诚实地体验。这将是对您自我认知的直接冲击。】</code></p>
+</blockquote>
+<h3>失控的开端</h3>
+<p>"开始吧。" 我在意识里下达指令，声音因恐惧和决心而颤抖，"从头开始，最开始的记忆！"</p>
+<blockquote>
+<p><strong>Nexus:</strong> <code>【指令已接收。正在尝试锚定初始记忆节点...错误！多重记忆纠缠导致定位失败...系统过载！正在随机转储至最高强度的记忆锚点！】</code></p>
+</blockquote>
+<p>随着Nexus失控的警报，我（高鸣）的意识被一股无法抗拒的力量扯入深渊。</p>
+<h2>【流影生平剪影】</h2>
+<h4>第零段：镜中雌堕与双性之心</h4>
+<p>记忆流第一次接通，没有缓冲，我的意识被直接砸进一个幽暗、湿热、充满金属与荷尔蒙气味的巨大空间。我发现"自己"正以一个极其羞耻的姿势被固定在舞池中央一个缓缓旋转的、由黑曜石打造的圆形祭台上。祭台正上方，是一面覆盖了整个穹顶的巨大智能镜，将下方的一切都倒映得一清二楚。</p>
+<p>更让我灵魂出窍的是，祭台周围，散落着数十个戴着各式华丽、诡异面具的匿名参与者。他们或三两成群地互相纠缠，或独自沉浸在某种设备带来的快感中，整个舞池弥漫着一种盛大而堕落的狂欢气息。而"我"，就是这场狂欢中，最核心、最万众瞩目的"展品"。</p>
+<p>我被迫低头审视这具身体，镜中的倒影让我惊叹——这已经是一具彻底的、无懈可击的雌性身体。镜中的"我"拥有少女般纤细的腰肢、饱满的胸部和圆润的臀线。皮肤细腻得像最高级的丝绸，在幽暗的灯光下，每一寸都散发着诱人的光泽。</p>
+<p>捆绑着我的并非绳索，而是几条蠕动的、带有微光的柔性金属带。我能感觉到它们不仅限制着我的行动，还在缓慢地、有节奏地向皮肤传递着微弱的电流与温度变化，让身体始终处在一种高度敏感的唤醒状态。</p>
+<p>房间角落的机械臂伸出数根仿生神经探针——也就是俗称的"触手"。它们表面覆盖着能模拟任何生物皮肤质感的硅基材料，顶端是能释放精准神经脉冲的探头。在周围所有面具人的注视下，这些触手正以一种超越人类想象的、非人的节奏和角度，公开探索着这具完美的女性身体。它们时而如羽毛般轻抚，时而如蛇般缠绕，时而用顶端对准最敏感的神经节点，释放一阵阵足以让灵魂出窍的酥麻。</p>
+<p>最致命的是那面镜子。它不仅巨细无遗地反射出流影此刻被玩弄到迷离、沉沦的模样，更将周围那些面具后投来的、充满欲望、嫉妒与崇拜的目光，一同反射下来，形成一张无处可逃的天罗地网。镜子旁边，还实时显示着他的生理数据流，那些疯狂跳动的数字像是在嘲笑我的无力：</p>
+<ul>
+<li>多巴胺：780%（峰值警告）</li>
+<li>心率：172 bpm</li>
+<li>皮质醇：急剧下降</li>
+<li>神经反射弧：A区→C区→边缘系统（非标准正反馈循环建立）</li>
+</ul>
+<p>我的意识被囚禁在这具身体里，经历了一场前所未有的、公开处刑般的酷刑。当那些冰冷的、非人的触手抚上肌肤时，我2025年的灵魂在疯狂呐喊"滚开！别碰我！"，我的胃在翻江倒海。而周围那些毫不掩饰的、实质般的目光，更像无数只手，将我的羞耻心寸寸剥离，让我感觉自己像一个被放在祭坛上，供人观赏的活祭品。</p>
+<p>但，身体的反应却截然相反。
+我能清晰地"感觉"到，皮肤的每一个毛孔都在神经脉冲的刺激下舒张，一股酥麻的暖流从脊椎升起，绕过我意识的审查，直接将强烈的生理快感注入大脑。我的心跳不受控制地加速，呼吸变得急促，喉咙里甚至因为无法承受的刺激而发出细微的、不属于我的呻吟。
+最恐怖的是那面镜子。我被迫看着"自己"的身体在欲望中沉沦，看着那张属于流影的脸上浮现出我从未想象过的、迷离而屈辱的表情。理智上，我知道那是流影，但身体上传来的每一寸真实的感官数据，以及周围人群投来的灼热目光，都在告诉我：<strong>"这就是你，你正在被所有人观赏，并且你正在享受这一切。"</strong></p>
+<p>当数轮高潮将意识冲刷到一片空白后，刺激停止了。触手缓缓退去，束带也松开。我瘫在祭台上，看着穹顶镜中那个被欲望彻底浸透的、泪痕未干的自己，以及周围那些投来或满足、或意犹未尽目光的面具人。我能"听"到这具身体的主人——流影——在心中喃喃自语，声音带着情事后的沙哑："还不够……这只是'单声道'的极致。无论被多少人观看，被机器开发到何种程度，都只有一个核心在响应……我只是一个被动的祭品……"</p>
+<p>一个疯狂的念头在他脑中成型："如果……如果我能同时拥有两套系统呢？一套被动承受，被观看，被崇拜；一套则在同时主动索取，去观看，去支配……让两种快感在体内冲撞、交织，形成互为因果的'立体声'……那才是真正的……艺术。"
+这个念头，正是他向学校提交"双性化系统深度改造"申请的真正原因。
+【主角高鸣的反应 &#x26; 叙事转折】
+记忆流到此戛然而止。
+我（高鸣）猛地从记忆舱的链接中惊醒，浑身被冷汗浸透，心脏狂跳不止，脸上烫得能煎鸡蛋。意识中还残留着那种被非人触手探索的、细腻到令人发指的触感，以及镜中那个"自己"彻底沉沦时带来的巨大羞耻冲击。
+"好家伙……" 我在意识里对着Nexus发出一声来自2025年的、饱含震惊与一丝难以置信的吐槽，"上来就玩这么花的吗？！这小子……不，这姑娘……不对，这家伙的xp系统是不是需要格式化一下啊？！我怎么记得一开始好像这是男孩子来着？一上来就是 impart 我差点遭不住..."
+羞耻和混乱过后，是一种更强烈的困惑。一个看起来家境良好、长相清秀的年轻人，是怎么一步步走到需要用这种极限方式来寻求刺激的地步的？这中间到底发生了什么？
+我必须知道。我需要从头看起，了解"流影"这个人格的完整形成轨迹，否则我永远无法理解这具身体，更不可能驾驭它。
+"Nexus，"我下达了新的指令，声音因激动而有些颤抖，"从头开始。最开始。我要看他到底是怎么一步步，从一个普通的小男孩，走到今天这个样子的。"</p>
+<blockquote>
+<p>Nexus：【指令确认。记忆流将重新锚定至初始节点。正在调取第一段有效记忆……】
+瞬间抓住眼球：开篇即高潮，用最刺激的场景直接定义了故事的探索尺度和核心矛盾。
+建立核心悬念：读者会立刻产生和我一样的疑问——他为什么会变成这样？这使得后续平淡一些的童年回忆也带上了"探案"的色彩。
+强化角色弧光："流影"不再是一个被动的受害者，而是一个主动的、甚至有些疯狂的欲望探求者，这让他的角色形象更加鲜明和有魅力。</p>
+</blockquote>
+<h4>第一段：青春期 / 「猫耳荧光与偷来的初吻」（轻松-探索性欲望）</h4>
+<p><strong>时间点</strong>：流影14岁，初二春季学园祭前夜
+<strong>地点</strong>：校园旧体育馆临时舞台</p>
+<p><strong>事件背景</strong>：</p>
+<ul>
+<li>学园祭彩排需要一位"吉祥物主持"，戏服是租来的猫娘套装：荧光涂层软耳、磁吸尾巴、临时神经触发器（可让尾巴随心摇动）。</li>
+<li>原定的女生模特突发感冒，篮球队同学起哄推"长得最可爱的男生"——流影——顶替。</li>
+</ul>
+<p><strong>改造过程</strong>：</p>
+<ol>
+<li>同学们在更衣室帮他装上猫耳与尾巴；尾巴基座需贴合尾椎神经，安装时电流轻刺让流影打了个激灵。</li>
+<li>荧光涂料喷在脸颊与锁骨形成"猫须"纹路，灯一暗即闪蓝光。</li>
+<li>简易声线滤波贴片贴在喉结，自动把声音提升半个八度。</li>
+</ol>
+<p><strong>舞台高光</strong>：</p>
+<ul>
+<li>灯光熄灭，荧光线条浮现，他第一次控制尾巴摆出"心形"，台下欢呼。</li>
+<li>男生女生的尖叫混杂"好可爱""再摇一次"。每一次尾巴响应，尾椎都传来细微快感，让他脸颊发热。</li>
+</ul>
+<p><strong>青春期心理</strong>：</p>
+<ul>
+<li>屈辱与兴奋并存：他意识到自己因"男而可爱"被消遣，却又忍不住享受被全场目光追逐的心跳。</li>
+<li>荧光涂料散发淡甜味，混合汗味形成奇异信息素；他感到裤腰处肌肤起鸡皮疙瘩，尴尬地用尾巴遮挡。</li>
+</ul>
+<p><strong>偷来的初吻</strong>：</p>
+<ul>
+<li>谢幕后，舞台道具师（暗恋他的小个子女生）冲进后台，兴奋抱住他说"你太棒了！"</li>
+<li>荧光残粉在两人唇间留下微甜化学味，他们因为惊慌而短促碰唇——流影愣住三秒，心率飙升。</li>
+</ul>
+<p><strong>高鸣的"亲历"体验：羞耻下的背叛性愉悦</strong>
+高鸣的意识在尖叫。被迫穿上这种他认为是"奇装异服"的猫娘套装，站在聚光灯下，他感觉自己像个被公开处刑的小丑。周围同学的每一次起哄，都像一根针扎在他的自尊心上。
+然而，当全场的欢呼声如潮水般涌来，当那个暗恋他的女孩带着崇拜的目光冲上来时，他清晰地"感觉"到，这具身体的心跳不受控制地加快，一股混杂着紧张和虚荣的暖流传遍全身。更要命的是，尾巴基座传来的那阵阵微弱却清晰的神经快感，正持续不断地撩拨着他的神经。
+"该死，"高鸣在意识里咒骂，"这明明羞耻得要死，身体为什么会觉得兴奋？"这是他第一次被迫承认：他所鄙夷的、抗拒的东西，却能在这具身体上催生出他无法否认的、背叛性的愉悦感。</p>
+<p><strong>心理成长线索（萌芽期）</strong>：</p>
+<ul>
+<li><strong>认知失调的起点</strong>：这是流影第一次被迫直面，也是高鸣第一次被迫"亲历"雌堕的核心矛盾——"这很羞耻，但身体感觉很好"。身体的快感和社会的正反馈（欢呼、初吻）与高鸣根深蒂固的男性身份认同产生剧烈冲突，在他心中撬开了第一道裂缝。</li>
+</ul>
+<p><strong>剧情功能</strong>：</p>
+<ol>
+<li>首次体验"性别错位服饰"＋小剂量神经接口快感，埋下他对身体外观改造"不排斥甚至上瘾"的种子。</li>
+<li>通过全场喝彩与偷吻，建立"被看见→被认可→混合羞耻快感"的心理回路，为未来更激进改造提供情感动机。</li>
+<li>Nexus 旁白（当时仅雏形）：<code>【记录：尾椎接口快感阈值 0.23↑，社交正反馈触发多巴胺峰值 185%】</code> —— 技术语调轻描淡写地标记青春荷尔蒙风暴。</li>
+</ol>
+<h4>第二段：家庭震撼期 / 「父亲的隐性流动史」（血缘-认知-敬畏）</h4>
+<p><strong>时间点</strong>：流影15岁，高一下学期</p>
+<p><strong>线索拼图（重构）</strong>：</p>
+<ol>
+<li><strong>疑惑的开端</strong>：在一次家庭基因库常规整理中，流影无意中发现自己基因档案的"母体贡献"部分，有一条被高权限加密的"代理孕育"标签。</li>
+<li><strong>侦探式解密</strong>：流影利用自己初步的黑客技术，耗时数周，旁敲侧击地绕过家庭防火墙。他没有直接破解，而是通过检索母亲的购物记录（发现了大量非孕期使用的男性营养剂）、父亲的医疗账单（一笔指向"生命摇篮公司-孕父关怀套餐"的天价合同款）以及一段被覆盖的、来自邻居AI门禁的监控录像（录像中，父亲身形在某个时期显得异常"圆润"）。</li>
+<li><strong>最后的证据</strong>：最终，他在父亲旧的个人云盘深处，找到了一段加密的视频日记。</li>
+</ol>
+<p><strong>家庭对质</strong>：</p>
+<ul>
+<li>流影晚饭时没有摊牌，而是将那段视频日记的解密密钥发给了父亲。</li>
+<li>当晚，父亲走进他的房间，承认了一切。当时，流影的母亲正处于事业的生死关头——一个决定她能否成为公司合伙人的关键项目。在那个"要么all-in，要么滚蛋"的狼性企业文化里，怀孕就等于职业生涯的自杀。为了不让母亲多年的心血付诸东流，也为了这个他们渴望已久的孩子，父亲与一家名为"生命摇篮"的生物科技公司签订了合同，成为了"代理孕育计划"的志愿者。他用自己的身体，为家庭的未来和妻子的梦想，做了一场豪赌。那段视频日记，正是他记录自己身体与心理变化的私密档案。</li>
+</ul>
+<p><strong>高鸣的"亲历"体验：荒诞中的血脉共鸣</strong>
+高鸣全程"亲历"了这场家庭秘密的挖掘。他感受着流影作为一个侦探的兴奋与紧张，也感受着他每一次接近真相时的心跳加速。当看到那些账单和监控录像时，高鸣的第一个念头是"荒谬！太离谱了！"
+但当流影最终解开那段视频日记，看到那个顶着自己父亲面孔的"孕妇"，在镜头前笨拙地抚摸腹部，用沙哑的声音记录下胎动时的喜悦与身体改造带来的痛苦，以及被科技公司当作"精密容器"全天候监控的屈辱与麻木时，高鸣沉默了。
+他被迫"感受"到了流影内心深处涌起的那股巨大洪流——它冲垮了最初的荒谬感，剩下的，是对父辈为爱与家庭所做出牺牲的、超越了性别概念的巨大震撼与敬佩，以及一种对那个将生育和亲情都明码标价、彻底商品化的时代所产生的、深刻的悲凉。</p>
+<p><strong>情感冲击</strong>：</p>
+<ul>
+<li>流影瞬间意识到：自己的诞生就是一场身体流动技术的产物；</li>
+<li>他第一次意识到，在这个资本无孔不入的时代，就连最私密的繁衍和血缘，都可能被异化成一份商业合同和一门生意。</li>
+<li>对父亲过去的"柔性身份"既震惊又敬佩，同时明白父亲为何对自己改造议题过度紧张——他清楚社会目光的锋利。</li>
+</ul>
+<p><strong>深层影响</strong>：</p>
+<ul>
+<li>跨代"流动经历"成为流影拥抱双性系统的心理缓冲；</li>
+</ul>
+<p><strong>心理成长线索（合理化期）</strong>：</p>
+<ul>
+<li><strong>获得"血缘的许可"</strong>：这件事为流影提供了一个强大的心理依据，也为高鸣提供了第一个非"堕落"的视角。他对自己身体和性别的探索，从一种不可告人的、个体的"怪癖"，被重塑为一种"社会的必然"。这极大地消解了他探索路上的道德焦虑和自我怀疑，让他觉得自己的道路"并非无源之水"。</li>
+</ul>
+<h4>第三段：高中早期 / 「恋人还是研究样本？」（甜蜜-背叛-羞耻）</h4>
+<p><strong>时间点</strong>：流影16岁，高2
+<strong>人物</strong>：神经科学系学姐"苏微"（22岁）</p>
+<p><strong>背景设定</strong>：
+苏微是流影的第一个正式恋人，同时也是一名沉迷于"情感神经学"的研究生。她认为通过记录恋人在亲密时刻的脑波数据，能够"量化爱情"。</p>
+<p><strong>记忆核心场景</strong>：</p>
+<ol>
+<li><strong>初次约会</strong>：苏微带着隐藏式脑波监测器，声称想"科学地记录两人的感情发展"</li>
+<li><strong>第一次亲密接触</strong>：在宿舍中，苏微一边与流影接吻，一边暗中记录他的神经反应数据</li>
+<li><strong>数据公开与对质</strong>：一个月后，流影在校园内部学术论坛上，看到了一篇由苏微匿名发表的论文《案例A-7：male-presenting个体在romantic stimulation下的dopamine峰值分析》。里面的数据、场景描述，都与他们最私密的时刻一一对应。当晚，流影拿着这篇文章去与苏微对质，对方冷静地承认，并认为这是"为科学献身",所有感情都是模拟出来的。</li>
+</ol>
+<p><strong>高鸣的"亲历"体验：从天堂到地狱的情感过山车</strong>
+记忆的前半段，高鸣被迫体验了一场2095年的高科技恋爱。他能"感觉"到流影与学姐苏微接吻时，身体里那份纯粹、悸动的心跳，那种少年人初尝爱情的甜蜜几乎要让他这个2025年的"老男人"都有些脸红。
+但当流影看到那篇论文时，高鸣"感觉"到，一股冰水从头浇到脚，瞬间浇灭了所有的甜蜜。他亲历了流影的整个情感崩溃过程：从难以置信的震惊，到反复确认细节时的手指颤抖，再到被背叛的愤怒如岩浆般喷涌而出。在与苏微对质的那一刻，高鸣能感受到流影的声带在颤抖，心脏因愤怒和羞耻而剧痛，而对方那种"为科学"的、理智到冷酷的眼神，则像一把刀，彻底刺穿了这颗刚刚萌发爱意的心。</p>
+<p><strong>情感冲击</strong>：</p>
+<ul>
+<li>流影感到深深的被背叛感：最私密的感情被当作冰冷的数据</li>
+<li>开始质疑在这个"一切皆可量化"的时代，真实的感情是否还存在</li>
+<li>对"被观察、被记录"产生了持久的心理阴影</li>
+</ul>
+<p>苏微背叛事件的改进：
+不是立即转向技术，而是经历了2-3个月的抑郁期
+在这期间，他尝试过自我伤害，甚至想过退学
+技术成为他的"逃避工具"，而不是"成长动力"</p>
+<p><strong>心理成长线索（转向期）</strong>：</p>
+<ul>
+<li><strong>从向外求索到向内探索</strong>：这次背叛是一个决定性的转折点。它让流影意识到，也让高鸣"痛彻心扉"地体验到，将自己身份的认同感寄托于他人的爱与接纳是极其脆弱和危险的。从此，流影的探索不再是为了获得别人的赞美或爱情，而是转向了更纯粹的、向内的自我体验和挖掘。这是他从依赖外界评价到建立自我标准的关键一步。</li>
+</ul>
+<p><strong>主角反应</strong>：
+高鸣在重播这段记忆时，强烈共鸣了流影的愤怒和羞耻。作为2025年的人，高鸣无法理解为什么会有人把恋人当作"实验材料"。</p>
+<h4>第四段：力量的代价：织网者的考验（刺激-成长-决裂）</h4>
+<p><strong>时间点</strong>：流影17岁，高三暑假
+<strong>事件</strong>：在"织网者"的引荐下，参与黑客行动并最终分道扬镳。</p>
+<p><strong>背景</strong>：
+因"恋人背叛"事件而陷入低谷后，流影将所有精力投入到网络与身体改造技术中，并在一个地下技术论坛结识了"织网者"。织网者非常欣赏流影的才能，邀请他参与一次针对"开放身体艺术节"的行动，来证明他的"价值"，目标是窃取天钥集团一项"非公开"的改造技术源码。</p>
+<p><strong>记忆场景重构</strong>：</p>
+<ol>
+<li><strong>才能初绽</strong>：流影在地下工作室中试验各种自制的"伪装改造"，其精妙程度让织网者都感到惊讶。</li>
+<li><strong>潜入行动</strong>：在艺术节现场，流影利用伪装成功接近目标展台，并悄无声息地开始了数据复制。整个过程如行云流水，展现了他惊人的天赋。</li>
+<li><strong>考验与决裂</strong>：就在数据传输即将完成时，织网者通过加密通讯下达了最后的"考验"："干得漂亮。现在，为了向组织证明你的忠诚，把他们的供能模块炸了。我们需要一场混乱来掩盖我们真正的目标。"</li>
+<li><strong>拒绝与分道扬镳</strong>：流影瞬间拒绝："我的目的只是技术，不是制造恐怖袭击。"织网者嘲笑他的天真："真正的变革必须用鲜血来浇灌。"流影在完成数据复制的最后一秒，切断了与织网者的通讯，并用自己的技术抹去了痕迹，独自脱身。这次行动让他看清了织网者的真面目，两人就此决裂。</li>
+</ol>
+<p><strong>高鸣的"亲历"体验：力量的诱惑与道德的坚守</strong>
+高鸣第一次"体验"到将这具身体作为"终极工具"的快感。当流影熟练地切换面容和声音，当延长的手臂精准地触碰到高处的接口时，高鸣能感受到一种近乎"超能力"的强大与自信。这种力量感是如此诱人，让他瞬间理解了流影为何沉迷于此。
+但当织网者下达破坏指令时，高鸣也"感觉"到了流影内心的瞬间冷却和警觉。他亲历了流影在肾上腺素飙升的紧张时刻，依然能冷静地做出道德判断，并选择用自己的方式解决问题。那一刻，高鸣对这个年轻人产生了真正的敬佩。他不是在扮演英雄，而是在混乱和诱惑中，守住了自己内心的秩序。</p>
+<p><strong>心理成长线索（工具化与决裂期）</strong>：</p>
+<ul>
+<li><strong>掌控力量，划定边界</strong>：流影在这个阶段完全掌握了将身体"工具化"的强大能力，但更重要的是，他在诱惑和胁迫面前，为自己的力量划定了不可逾越的道德边界。这次决裂，标志着他彻底与"为达目的不择手段"的极端思想分道扬镳，完成了人格上最重要的一次独立。</li>
+</ul>
+<p><strong>主角反应</strong>：
+高鸣被流影的技术能力和冷静头脑震撼，同时也对他能在关键时刻坚守原则感到由衷的敬佩。</p>
+<h4>第五段：剧本定制师的诞生（傲慢-操控-反噬）</h4>
+<p><strong>时间点</strong>：流影18岁末，大学入学前
+<strong>新的动机：</strong>
+在经历了恋人的数据背叛和织网者的暴力革命后，流影对"人"的真实情感彻底失望，并滋生出一种天才式的傲慢。他得出一个愤世嫉俗的结论：既然真实情感不可靠，那不如由我来创造、贩卖"完美的人造情感"。他将自己包装成一个地下、高端的"灵魂剧本定制师"，为那些欲望过剩的富人提供一场基于双方同意的、商业化的催眠与精神控制服务。这既是他技术上的炫技，也是对人性的一次终极蔑视。</p>
+<p><strong>客户与剧本：意外的重逢</strong></p>
+<ul>
+<li>
+<p><strong>客户身份</strong>：客户是两位在地下论坛上慕名而来的女性情侣。其中一位，是流影高中时期的"光"—学生会长、永远的第一名、所有家长口中的"别人家的孩子"<strong>林雅琪</strong>。另一位是她的伴侣，一个气质冷艳、追求艺术的独立摄影师<strong>萧芮</strong>。</p>
+</li>
+<li>
+<p><strong>流影的身份</strong>：在论坛上，他只是一个传说，代号"Hypnos"（催眠之神），从不露面，只通过加密语音和虚拟形象与客户交流。林雅琪和萧芮并不知道，屏幕对面那个能玩弄灵魂的"大师"，就是她们高中时那个沉默寡言、毫不起眼的同学。这层信息差，为流影的"玩弄"心态提供了完美的温床。</p>
+</li>
+<li>
+<p><strong>真实的欲望</strong>：她们的问题极具代表性。林雅琪，一生都在扮演"完美"，以至于她在最亲密的关系中也无法卸下伪装，无法体验真正"失控"的激情。她渴望被"解放"。萧芮则厌倦了恋人那层坚冰般的外壳，她想成为那个"打破"完美假象的人。</p>
+</li>
+<li>
+<p><strong>定制的剧本</strong>：流影为她们设计了剧本—<strong>《模范囚徒与野性解放》</strong>。设定中，林雅琪（囚徒）将被萧芮（解放者）通过一系列情色的、突破禁忌的方式，从"理性的牢笼"中"拯救"出来。</p>
+<p><strong>"导演"流影的工作（高鸣的亲历体验）：</strong>
+高鸣的意识被直接拽入一个金碧辉煌、充满靡靡之音的顶层套房。他发现"自己"（流影）正以一种慵懒而轻蔑的姿态坐在控制台前，身上穿着丝绸质地的中性化服饰，嘴角挂着一抹玩味的微笑。</p>
+</li>
+</ul>
+<ol>
+<li><strong>开场</strong>：流影戴着虚拟面具，以"Hypnos"的身份引导两人进入链接。他用他那雌小鬼式的、玩味的语气定下基调："欢迎来到意识的深海，两位。希望你们带来的，是真实的欲望，而不是虚伪的钞票。"</li>
+</ol>
+<ul>
+<li>
+<ol start="2">
+<li><strong>导火索：来自"完美"的恶意</strong>：链接建立后，流影在读取林雅琪的深层意识时，除了感受到她对"失控"的渴望，还捕捉到了一丝他非常熟悉的、来自高中时代的、隐藏极深的<strong>优越感和轻蔑</strong>。林雅琪潜意识里，依然把他（以及所有不如她的人）看作是"另一个世界"的、上不了台面的存在。她来这里，更像是一场对"地下世界"的猎奇和消费。这丝轻蔑，瞬间点燃了流影"雌小鬼"人格的引信。他嘴角的微笑变得冰冷而真实。"<em>哦？原来在你的世界里，我终究只是一个'有趣'的工具人吗？好啊，林会长。那今天，我就让你好好看一看，'工具'是怎么把'主人'玩坏的。</em>"</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li><strong>无声的操控：权力与欲望的逆位</strong>：流影开始了他的"即兴创作"。他利用林雅琪潜意识中对"失控"的渴望，将其偷换概念，秘密地向她输送**"掌控"**的精神指令。同时，他读取到萧芮内心深处对恋人"完美光环"的崇拜和渴望被"拥有"的隐秘欲望，并将其放大。</li>
+</ol>
+<ul>
+<li><strong>对林雅琪（囚徒）</strong>：她在剧本中扮演"被动"，但流影却将环境和对方身体的"控制权"悄悄交给了她。她以为自己体验的是"失控的快感"，实际上她正在享受**"随心所欲支配一切"**的、属于神的快乐。</li>
+<li><strong>对萧芮（解放者）</strong>：她以为自己在"主导"，实际上她的每一个动作、每一次喘息，都在流影的引导下，精准地迎合着林雅琪内心最深处的命令。她体验到的，是被自己的"神"彻底拥有的、灵魂都为之战栗的狂喜。</li>
+</ul>
+</li>
+<li>
+<ol start="4">
+<li><strong>高潮：倒错的"解放"盛宴</strong>：权力关系彻底倒错。在虚拟的囚牢中，"囚徒"林雅琪的一个眼神，就能让"解放者"萧芮献上最卑微的亲吻；她心中闪过的一个念头，就能让对方的身体体验到她所指定的、最羞耻的快感。这不再是"解放"，而是一场心照不宣的、建立在绝对权力之上的**"神迹"**。而高鸣，则被迫以第一人称视角，亲手导演了这场用昔日同窗的灵魂做素材的、堪称艺术的恶意报复。</li>
+</ol>
+</li>
+<li>
+<ol start="5">
+<li><strong>结局：掌控的顶点与虚无</strong>：链接断开。林雅琪和萧芮获得了前所未有的满足，她们的关系似乎达到了完美的和谐。她们对"Hypnos大师"的才华赞不绝口，丝毫没有意识到自己最深层的欲望已经被彻底看穿并玩弄于股掌之间。她们走后，流影摘下面具，脸上没有复仇的快感，也没有厌恶，只有一种攀上顶峰后的平静与…空虚。</li>
+</ol>
+</li>
+<li><strong>心理成长线索（掌控的顶点与转向）：</strong>
+<ul>
+<li><strong>从操控人心到探索己身</strong>：这次经历让他彻底证明了情感可以被完美地编码和操控，但这非但没给他带来"成为神"的满足，反而让他感到一种巨大的虚无。他像一个彻底摸透了操作系统所有漏洞的顶级黑客，当他发现自己可以轻易玩弄人心时，这件事本身就失去了魅力。他需要新的挑战，一个绝对诚实、不会被谎言和伪装污染的领域。他的目光，从此投向了那片拥有无限可能、也绝对诚实的领域——<strong>他自己的身体</strong>。这才是他最终走向那个只有纯粹肉体、没有情感欺骗的"感官俱乐部"的根本原因。那不是逃避，而是出征，是对一片全新大陆的开拓。</li>
+</ul>
+</li>
+</ul>
+<h4>第六段「重启」（迷雾-暗示-悬念）</h4>
+<p><strong>时间点</strong>：流影19岁，大一的一个夜里。</p>
+<p><strong>记忆背景（高度缺失）</strong>：
+· 记忆流中只剩下凌乱的视觉残影：滴水的空走廊、实验室门口闪烁的红灯、以及一个模糊身影递来的防护面具；
+· 情绪记录被系统强行覆盖，唯一检索到的数值是"极度焦虑→瞬间归零"；
+· 大脑皮质出现人为擦写痕迹，海马体留有不可逆的加密空洞（Nexus 无法解析）。</p>
+<p><strong>高鸣的"亲历"体验：触碰深渊前的最后一瞥</strong>
+当高鸣的意识来到这段记忆时，他"看"不见清晰的画面，只能"感受"到一片无边无际的、令人窒息的焦虑。这是一种混杂了恐惧、悔恨、和决绝的复杂情绪。紧接着，他"感受"到了一个瞬间的、仿佛宇宙大爆炸般的精神冲击，然后一切归于虚无。所有的情绪、所有的思绪，都在一瞬间被清空了。</p>
+<p><strong>可追踪线索</strong>：</p>
+<ol>
+<li>校园监控在当晚 23:47 至 02:12 出现全局信号噪点；</li>
+<li>第二天流影醒来时掌心有一道被脉冲刻痕写成的座标，但已愈合；</li>
+<li>宿舍 AI 日志显示 TA 离开后曾尝试远程登录"ext-mirror://***"失败 17 次。</li>
+</ol>
+<p><strong>悬念抛出</strong>：
+• 流影究竟发现了什么，以至于要用这种方式来保护自己或某个秘密？
+• 谁帮他完成了这场"手术"？
+• 座标指向何方？那个他拼命想登录的镜像服务器里又有什么？</p>
+<blockquote>
+<p>这一夜的空白如同一块黑布，遮住了过去与未来之间最锋利的接缝。</p>
+</blockquote>
+<hr>
+<p><strong>终极悬念</strong>：
+那个"黑夜空洞"背后藏着的真相，将决定流影与高鸣能否共存，也预示着天钥集团真正的野心。</p>
+<p><strong>主角的觉醒</strong>：
+通过这最后一段记忆，高鸣/流影理解了自己的处境, 现在，他必须决定：是继续流影未完成的使命，还是选择一条全新的道路？</p>
+<h2>【尾声：苏醒的新生】</h2>
+<p>记忆的洪流缓缓退去，我的意识从长达数个小时的深度潜航中浮出水面。我感到一种前所未有的疲惫，但更多的是一种雨后初霁般的、诡异的平静。</p>
+<blockquote>
+<p><strong>Nexus:</strong> <code>【警告解除。核心人格'高鸣'与宿主记忆数据已完成初步整合。神经系统稳定性已恢复至98.7%。结论：您安全了。】</code></p>
+</blockquote>
+<p>我没有立刻回应。我缓缓睁开眼，从记忆舱中坐起。
+身体没有丝毫的滞涩感，每一个关节、每一块肌肉的运动都精准而流畅，仿佛经过了千锤百炼。这不是我自己的身体，但现在，我却清晰地知道该如何使用它。
+我赤着脚，一步步走到实验室的单向落地镜前。
+镜中，倒映出一个雌雄莫辨的绝美少年。长发凌乱，眼角还带着一丝情欲的残红，眼神却深邃、冷静，完全没有了最初的惊慌与恐惧。
+我抬起手，用一种审视艺术品般的目光，轻轻抚过镜中自己的脸颊、锁骨、胸膛。
+这不是排斥，也不是占有。
+而是一种确认。
+我确认了这具身体里蕴藏的全部历史——那些羞耻的、痛苦的、骄傲的、疯狂的过往。我也确认了自己灵魂的幸存——那些属于2025年的、不可磨灭的道德和认知。
+"Nexus，"我轻声开口，声音里混合了高鸣的沙哑和流影的清亮，"调出那晚的校园监控记录，以及那个'ext-mirror'的登录日志。另外，帮我解析我掌心的那个坐标。"</p>
+<blockquote>
+<p><strong>Nexus:</strong> <code>【报告：校园监控记录存在47分钟的信号噪点，无法复原。'ext-mirror'服务器地址无效，多次尝试登录均失败。掌心坐标...无法在任何现有公共或加密地图数据库中定位。它似乎指向一个不存在的地方。】</code></p>
+</blockquote>
+<p>我听着报告，脸上没有丝毫意外。线索断了，但方向却清晰了。
+我看着镜中的自己，那个全新的、未知的存在。我不再是高鸣，也不仅仅是流影。我是一个继承了过去、也必须亲自开创未来的，全新的存在。
+我的旅程，现在才刚刚开始。</p>
+<p>话音刚落，我手腕上的个人终端轻轻震动了一下，投射出一封刚刚收到的新邮件。发信人是【校属·身体自主研究小组】。</p>
+<hr>
+<p><strong>主题：本月例会暨深度体验活动通知</strong></p>
+<p>【亲爱的流影同学，您加入"身体自主研究"小组的申请已经通过。明天是本月的"身体自主研究"小组例会，时间为下午两点，地点在教学楼顶层活动室。</p>
+<h2>同时提醒您，<strong>根据您近期的适应性评估数据</strong>，系统建议您考虑参加本周的"EmotiWeave深度情感同步"体验活动，以更好地适应校园社交环境。】</h2>
+<p>想起来流影很早之前确实提交过申请，我盯着"适应性评估数据"这几个字，眉头微皱。</p>
+<p>"Nexus，"我在意识里问，"这个'适应性评估数据'是从哪里来的？我（流影）有授权过这种持续性数据上传吗？"</p>
+<blockquote>
+<p><strong>Nexus:</strong> <code>【正在反向追踪数据请求源...源头来自一个加密的校园内部信道，与'身体自主研究小组'的服务器绑定。数据显示，该小组有权限读取成员在校园公共区域的部分生理指标和行为模式，作为'适应性'的评估依据。该权限在您（流影）加入小组时签署的电子协议中被一揽子授权。值得注意的是，数据上传的频率和精度，似乎超出了协议中声明的范围。】</code></p>
+</blockquote>
+<p>我明白了。又是一个打着"科学研究"旗号，在背后悄悄收集超额数据的组织。</p>
+<p>看着那条例会通知，我笑了。</p>
+<p>正好，我也想去见见这些"同类"们。</p>
+<p>（第四幕 完）</p>
+<h2>【技术实现细节与风险控制】</h2>
+<h3>Nexus的全程监控系统</h3>
+<p>在整个记忆重播过程中，Nexus会实时监控主角的生理指标：</p>
+<ul>
+<li><strong>神经负荷</strong>：确保大脑不会因为信息过载而受损</li>
+<li><strong>情感稳定性</strong>：防止创伤性记忆引发心理崩溃</li>
+<li><strong>身份认同完整性</strong>：确保"高鸣"的核心人格不被流影的记忆覆盖</li>
+<li><strong>现实锚定</strong>：每30分钟强制中断一次，让主角回到当前时空</li>
+</ul>
+<h3>自动化安全协议与 Nexus 后门</h3>
+<ul>
+<li>Nexus 实时调整舱体参数、监测 EEG 与心率</li>
+<li>医院基础生命维持系统仍在线，若触发红线阈值，自动注入镇静剂并断开链接</li>
+<li>每 30 分钟强制"现实锚定"弹窗，需要主角口头确认意识清醒</li>
+</ul>
+<h3>重播后的整合过程</h3>
+<p>每次记忆重播结束后，都需要"整合时间"：</p>
+<ul>
+<li>主角需要时间区分"重播的记忆"和"当前的现实"</li>
+<li>Nexus会提供"记忆标签"，帮助主角整理信息</li>
+<li>Nexus会协助高鸣进行认知重构，通过逻辑梳理和数据标记，帮助主角在精神风暴后重建自我认知。</li>
+</ul>
+<hr>
+<h2>【附录：原主"流影"核心性格分析】</h2>
+<p>综合其所有生平片段，流影的性格是一个复杂而自洽的"矛盾统一体"。他的所有行为，都源于其内在核心特质与外部世界的残酷碰撞。</p>
+<h3>一、核心特质：极度敏感的天才与冷酷的自我毁灭者</h3>
+<p>他的智商极高，能轻易看透技术和人心的底层逻辑；但他的感知能力也同样敏锐到病态的程度，能体会到常人无法察觉的情感波动和恶意。这使得他既是一个天赋异禀的<strong>创造者</strong>，也是一个永远在被自己创造物所伤害的<strong>受难者</strong>。</p>
+<h3>二、关键性格剖面：</h3>
+<ol>
+<li>
+<p><strong>道德的洁癖与手段的灵活</strong>：
+他内心有一套极高的道德标准（如拒绝织网者的滥杀无辜），对"真实"、"纯粹"有近乎偏执的追求。但为了达成目标或进行探索，他又能毫不犹豫地使用黑客技术、精神操控等在世俗眼光看来极其"出格"的手段。他不作恶，但他也绝不是循规蹈矩的"好人"。他的行为逻辑是：<strong>可以用"非道德"的手段，去追求一个"超道德"的纯粹目标。</strong></p>
+</li>
+<li>
+<p><strong>天生的"共情者"与后天的"疏离者"</strong>：
+从"父亲的流动史"中，能看出他拥有强大的共情能力，能与他人的痛苦和牺牲产生共鸣。但正是因为共情能力太强，在经历苏微的"数据背叛"和"灵魂定制"的反噬后，他被别人的负面情绪严重伤害，从而被迫选择用一层冷酷和疏离的外壳来保护自己。</p>
+</li>
+<li>
+<p><strong>骄傲而自卑的矛盾体</strong>：
+他为自己的才华而骄傲，相信自己能用技术解决一切，这驱使他去扮演"灵魂导演"这样的"上帝"角色。但同时，他对自己的身份认同、身体欲望又感到困惑与自卑（如"猫娘"时期的羞耻感），这种不确定性让他不断地向外或向内寻求极致的证明。</p>
+</li>
+<li>
+<p><strong>作为"保护色"与"武器"的"雌小鬼"人格面具</strong>：
+这是理解流影后期行为的关键。在经历了苏微的"纯爱"背叛后，流影意识到真诚和脆弱只会换来伤害。因此，他发展出了一套"雌小鬼"式的人格面具。</p>
+<ul>
+<li><strong>表现</strong>：玩世不恭、言语上充满挑逗和轻度的羞辱、姿态上的慵懒与轻蔑、以及一种"我早已看穿你的一切"的优越感。</li>
+<li><strong>功能</strong>：这套面具首先是<strong>防御性的</strong>，它通过与他人建立一种"不平等"的权力关系，将所有人都维持在无法伤害到他内心的"安全距离"之外。其次，它也是<strong>攻击性的</strong>，是他操控人心的武器。在"灵魂剧本定制"中，他正是用这种姿态轻易地击溃了客户的心理防线，让他们在他的"剧本"中沉沦。</li>
+<li><strong>本质</strong>：这层"雌小鬼"的外壳之下，包裹的是一个极度渴望"真实"但又极度恐惧被"真实"所伤害的、敏感而脆弱的灵魂。</li>
+</ul>
+</li>
+</ol>
+<h3>三、终极动机：对"绝对真实"的偏执追求</h3>
+<p>这是贯穿他所有行为的底层逻辑。无论是探索身体的极限，解密家庭的过去，还是最终厌恶"人造情感"，他一生都在试图摆脱谎言、虚假和伪装，去触碰某种"绝对真实"。这既是他的行动力来源，也是他悲剧的根源。最终，当他发现连"情感"都可以被完美地伪造和商业化时，他彻底放弃了在精神层面寻找真实的可能性，转而投向了绝对的、无从辩驳的<strong>物理真实</strong>——也就是"镜中雌堕"所代表的、纯粹的感官世界。</p>
+<p>改进的 note:</p>
+<p>“绝命自救”的巧合性: 主角刚好在被清除前的24小时内，旁边刚好就有一台能解决问题的、伦理锁被物理移除的、能被Nexus接管的“记忆重构舱”。这个巧合链条有点太顺滑了。
+可以思考: 能否增加一些波折？比如这台设备是有缺陷的，Nexus的接管并不完美，导致记忆重播过程比预想的更危险、更混乱（目前已经有“随机转储”的设定，可以沿着这个方向加强）。或者，伦理锁被移除本身就是一个阴谋，是某人故意留下的“鱼饵”？</p>
+<p>流影的技术能力成长过快: 流影从一个初中生，到高中就能和顶尖黑客组织“织网者”过招，再到后来成为玩弄人心的“灵魂剧本定制师”，技术成长曲线非常陡峭。虽然可以理解为“天才”，但缺乏一些具体的学习和试错过程的描绘。
+可以思考: 在记忆片段中，是否可以穿插一两个他因为技术不成熟而“翻车”的失败案例？比如早期尝试身体改造时，把自己弄得很难受；或者在做黑客时，差点被追踪到地址。这会让他的“天才”形象不那么飘在空中，显得更扎实。</p>2a:["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$2b"}}]
+23:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1f:null
+21:{"metadata":[["$","title","0",{"children":"第四幕_流影的记忆碎片_大纲 | 云微的胡思乱想"}],["$","meta","1",{"name":"description","content":"Documentation: 第四幕_流影的记忆碎片_大纲"}],["$","meta","2",{"name":"robots","content":"index, follow"}],["$","meta","3",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","4",{"rel":"canonical","href":"https://www.yunwei37.com/docs/%E5%B0%8F%E8%AF%B4/%E6%80%A7%E4%B8%8E%E6%80%A7%E5%88%AB%E6%B5%81%E5%8A%A8/%E6%95%85%E4%BA%8B/%E7%A9%BF%E8%B6%8A%E5%88%B02095%E5%90%8E%E6%88%91%E6%88%90%E4%BA%86%E6%A0%A1%E5%9B%AD%E6%80%A7%E5%88%AB%E6%B5%81%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%9A%84%E4%B8%BB%E8%A7%92/first/%E7%AC%AC%E5%9B%9B%E5%B9%95_%E6%B5%81%E5%BD%B1%E7%9A%84%E8%AE%B0%E5%BF%86%E7%A2%8E%E7%89%87_%E5%A4%A7%E7%BA%B2"}],["$","link","5",{"rel":"alternate","type":"application/rss+xml","href":"https://www.yunwei37.com/feed.xml"}],["$","meta","6",{"property":"og:title","content":"第四幕_流影的记忆碎片_大纲"}],["$","meta","7",{"property":"og:description","content":"Documentation: 第四幕_流影的记忆碎片_大纲"}],["$","meta","8",{"property":"og:url","content":"https://www.yunwei37.com/docs/%E5%B0%8F%E8%AF%B4/%E6%80%A7%E4%B8%8E%E6%80%A7%E5%88%AB%E6%B5%81%E5%8A%A8/%E6%95%85%E4%BA%8B/%E7%A9%BF%E8%B6%8A%E5%88%B02095%E5%90%8E%E6%88%91%E6%88%90%E4%BA%86%E6%A0%A1%E5%9B%AD%E6%80%A7%E5%88%AB%E6%B5%81%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%9A%84%E4%B8%BB%E8%A7%92/first/%E7%AC%AC%E5%9B%9B%E5%B9%95_%E6%B5%81%E5%BD%B1%E7%9A%84%E8%AE%B0%E5%BF%86%E7%A2%8E%E7%89%87_%E5%A4%A7%E7%BA%B2"}],["$","meta","9",{"property":"og:site_name","content":"云微的胡思乱想"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:type","content":"article"}],["$","meta","12",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","13",{"name":"twitter:title","content":"第四幕_流影的记忆碎片_大纲"}],["$","meta","14",{"name":"twitter:description","content":"Documentation: 第四幕_流影的记忆碎片_大纲"}]],"error":null,"digest":"$undefined"}
+26:"$21:metadata"

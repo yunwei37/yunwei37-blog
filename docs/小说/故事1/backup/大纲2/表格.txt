@@ -1,0 +1,449 @@
+1:"$Sreact.fragment"
+2:I[1478,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"ThemeProviders"]
+3:I[4091,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"default"]
+4:I[9243,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],""]
+5:I[7392,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"KBarSearchProvider"]
+6:I[6874,["874","static/chunks/874-8edb22cc7428423c.js","63","static/chunks/63-d245e42a784ca56d.js","974","static/chunks/app/page-55e305169e4b271e.js"],""]
+f:I[8393,[],""]
+:HL["/_next/static/media/36966cca54120369-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/4ac7c0f872b74ee7.css","style"]
+:HL["/_next/static/css/a06d7e24bf9a7d93.css","style"]
+0:{"P":null,"b":"MYXrWUjg0HELsl6zLYF_6","p":"","c":["","docs","%E5%B0%8F%E8%AF%B4","%E6%95%85%E4%BA%8B1","backup","%E5%A4%A7%E7%BA%B22","%E8%A1%A8%E6%A0%BC"],"i":false,"f":[[["",{"children":["docs",{"children":[["slug","%E5%B0%8F%E8%AF%B4/%E6%95%85%E4%BA%8B1/backup/%E5%A4%A7%E7%BA%B22/%E8%A1%A8%E6%A0%BC","c"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4ac7c0f872b74ee7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/a06d7e24bf9a7d93.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en-us","className":"__variable_dd5b2f scroll-smooth","suppressHydrationWarning":true,"children":[["$","link",null,{"rel":"apple-touch-icon","sizes":"76x76","href":"/static/favicons/apple-touch-icon.png"}],["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/static/favicons/favicon.svg"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"32x32","href":"/static/favicons/favicon-32x32.png"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"16x16","href":"/static/favicons/favicon-16x16.png"}],["$","link",null,{"rel":"manifest","href":"/static/favicons/site.webmanifest"}],["$","link",null,{"rel":"mask-icon","href":"/static/favicons/safari-pinned-tab.svg","color":"#5bbad5"}],["$","meta",null,{"name":"msapplication-TileColor","content":"#000000"}],["$","meta",null,{"name":"theme-color","media":"(prefers-color-scheme: light)","content":"#fff"}],["$","meta",null,{"name":"theme-color","media":"(prefers-color-scheme: dark)","content":"#000"}],["$","link",null,{"rel":"alternate","type":"application/rss+xml","href":"/feed.xml"}],["$","body",null,{"className":"pl-[calc(100vw-100%)] text-black antialiased dark:text-white min-h-screen","children":["$","$L2",null,{"children":[["$","$L3",null,{}],["$undefined","$undefined","$undefined",["$","$L4",null,{"async":true,"defer":true,"src":"https://analytics.umami.is/script.js"}],"$undefined","$undefined"],["$","div",null,{"className":"min-h-screen flex flex-col justify-center py-8","children":["$","div",null,{"className":"content-glass mx-auto w-full max-w-5xl px-4 sm:px-6 xl:px-8 py-8","children":["$","$L5",null,{"kbarConfig":{"searchDocumentsPath":"/search.json"},"children":[["$","header",null,{"className":"flex items-center w-full justify-between py-6 border-b border-gray-200/30 dark:border-gray-700/30","children":[["$","$L6",null,{"className":"break-words","href":"/","aria-label":"yunwei37","children":["$","div",null,{"className":"flex items-center","children":[["$","div",null,{"className":"mr-3","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":40,"height":40,"fill":"none","children":[["$","defs",null,{"children":[["$","linearGradient",null,{"id":"logo_svg__a","x1":"0%","x2":"100%","y1":"0%","y2":"100%","children":[["$","stop",null,{"offset":"0%","style":{"stopColor":"#3b82f6","stopOpacity":1}}],["$","stop",null,{"offset":"100%","style":{"stopColor":"#06b6d4","stopOpacity":1}}]]}],["$","linearGradient",null,{"id":"logo_svg__b","x1":"0%","x2":"100%","y1":"0%","y2":"100%","children":[["$","stop",null,{"offset":"0%","style":{"stopColor":"#8b5cf6","stopOpacity":1}}],["$","stop",null,{"offset":"100%","style":{"stopColor":"#3b82f6","stopOpacity":1}}]]}]]}],["$","circle",null,{"cx":20,"cy":20,"r":18,"fill":"url(#logo_svg__a)","opacity":0.1}],["$","path",null,{"fill":"url(#logo_svg__a)","d":"m12 8 6 10v10h4V18l6-10h-4l-4 6-4-6Z"}],["$","path",null,{"fill":"url(#logo_svg__b)","d":"m8 24 4 8 4-8 4 8 4-8h8v4h-6l-4 8-4-8-4 8-4-8H8Z","opacity":0.8}],["$","circle",null,{"cx":32,"cy":12,"r":2,"fill":"url(#logo_svg__b)"}],["$","circle",null,{"cx":8,"cy":12,"r":1.5,"fill":"url(#logo_svg__a)","opacity":0.6}]]}]}],["$","div",null,{"className":"hidden text-2xl font-bold sm:block hover:text-primary-600 dark:hover:text-primary-400 transition-colors","children":"yunwei37"}]]}]}],["$","div",null,{"className":"flex items-center space-x-4","children":[["$","div",null,{"className":"no-scrollbar hidden items-center space-x-2 sm:flex","children":[["$","$L6","Blog",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/blog","children":"Blog"}],["$","$L6","Docs",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/docs","children":"Docs"}],["$","$L6","Tags",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/tags","children":"Tags"}],"$L7"]}],"$L8"]}]]}],"$L9","$La"]}]}]}]]}]}]]}]]}],{"children":["docs","$Lb",{"children":[["slug","%E5%B0%8F%E8%AF%B4/%E6%95%85%E4%BA%8B1/backup/%E5%A4%A7%E7%BA%B22/%E8%A1%A8%E6%A0%BC","c"],"$Lc",{"children":["__PAGE__","$Ld",{},null,false]},null,false]},null,false]},null,false],"$Le",false]],"m":"$undefined","G":["$f",[]],"s":false,"S":true}
+10:I[4159,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"KBarButton"]
+11:I[1762,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"default"]
+12:I[7298,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"default"]
+13:I[7555,[],""]
+14:I[1295,[],""]
+1f:I[9665,[],"OutletBoundary"]
+21:I[4911,[],"AsyncMetadataOutlet"]
+23:I[9665,[],"ViewportBoundary"]
+25:I[9665,[],"MetadataBoundary"]
+26:"$Sreact.suspense"
+7:["$","$L6","About",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/about","children":"About"}]
+8:["$","div",null,{"className":"flex items-center space-x-2","children":[["$","$L10",null,{"aria-label":"Search","className":"p-2 rounded-lg transition-all duration-200","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","strokeWidth":1.5,"stroke":"currentColor","className":"h-6 w-6 hover:text-primary-600 dark:hover:text-primary-400 transition-colors","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","d":"M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"}]}]}],["$","$L11",null,{}],["$","$L12",null,{}]]}]
+9:["$","main",null,{"className":"py-6","children":["$","$L13",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L14",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"flex flex-col items-start justify-start md:mt-24 md:flex-row md:items-center md:justify-center md:space-x-6","children":[["$","div",null,{"className":"space-x-2 pt-6 pb-8 md:space-y-5","children":["$","h1",null,{"className":"text-6xl leading-9 font-extrabold tracking-tight md:border-r-2 md:px-6 md:text-8xl md:leading-14","children":"404"}]}],["$","div",null,{"className":"max-w-md","children":[["$","p",null,{"className":"mb-4 text-xl leading-normal font-bold md:text-2xl","children":"Sorry we couldn't find this page."}],["$","p",null,{"className":"mb-8","children":"But dont worry, you can find plenty of other things on our homepage."}],["$","$L6",null,{"className":"focus:shadow-outline-blue inline rounded-lg border border-transparent bg-blue-600 px-4 py-2 text-sm leading-5 font-medium text-white shadow-xs transition-colors duration-150 hover:bg-blue-700 focus:outline-hidden dark:hover:bg-blue-500","href":"/","children":"Back to homepage"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]
+a:["$","footer",null,{"className":"border-t border-gray-200/30 dark:border-gray-700/30 pt-8","children":["$","div",null,{"className":"flex flex-col items-center space-y-6","children":[["$","div",null,{"className":"flex flex-wrap justify-center gap-4","children":[["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"mailto:yunwei356@gmail.com","children":[["$","span",null,{"className":"sr-only","children":"mail"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Mail"}],["$","path",null,{"d":"M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"}],["$","path",null,{"d":"M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"}]]}]]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://github.com/yunwei37","children":[["$","span",null,{"className":"sr-only","children":"github"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"GitHub"}],["$","path",null,{"d":"M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"}]]}]]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://facebook.com","children":[["$","span",null,{"className":"sr-only","children":"facebook"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Facebook"}],["$","path",null,{"d":"M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"}]]}]]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://youtube.com","children":[["$","span",null,{"className":"sr-only","children":"youtube"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Youtube"}],["$","path",null,{"d":"M23.499 6.203a3.008 3.008 0 00-2.089-2.089c-1.87-.501-9.4-.501-9.4-.501s-7.509-.01-9.399.501a3.008 3.008 0 00-2.088 2.09A31.258 31.26 0 000 12.01a31.258 31.26 0 00.523 5.785 3.008 3.008 0 002.088 2.089c1.869.502 9.4.502 9.4.502s7.508 0 9.399-.502a3.008 3.008 0 002.089-2.09 31.258 31.26 0 00.5-5.784 31.258 31.26 0 00-.5-5.808zm-13.891 9.4V8.407l6.266 3.604z"}]]}]]}],"$L15","$L16","$L17","$L18","$L19","$L1a","$L1b"]}],"$L1c","$L1d"]}]}]
+b:["$","$1","c",{"children":[null,["$","$L13",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L14",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+c:["$","$1","c",{"children":[null,["$","$L13",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L14",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+d:["$","$1","c",{"children":["$L1e",null,["$","$L1f",null,{"children":["$L20",["$","$L21",null,{"promise":"$@22"}]]}]]}]
+e:["$","$1","h",{"children":[null,[["$","$L23",null,{"children":"$L24"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L25",null,{"children":["$","div",null,{"hidden":true,"children":["$","$26",null,{"fallback":null,"children":"$L27"}]}]}]]}]
+15:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://www.linkedin.com/in/yusheng-zheng-611920280","children":[["$","span",null,{"className":"sr-only","children":"linkedin"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Linkedin"}],["$","path",null,{"d":"M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"}]]}]]}]
+16:null
+17:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://bsky.app/","children":[["$","span",null,{"className":"sr-only","children":"bluesky"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Bluesky"}],["$","path",null,{"d":"M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565C.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479c.815 2.736 3.713 3.66 6.383 3.364q.204-.03.415-.056q-.207.033-.415.056c-3.912.58-7.387 2.005-2.83 7.078c5.013 5.19 6.87-1.113 7.823-4.308c.953 3.195 2.05 9.271 7.733 4.308c4.267-4.308 1.172-6.498-2.74-7.078a9 9 0 0 1-.415-.056q.21.026.415.056c2.67.297 5.568-.628 6.383-3.364c.246-.828.624-5.79.624-6.478c0-.69-.139-1.861-.902-2.206c-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8"}]]}]]}]
+18:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://x.com/yunwei37","children":[["$","span",null,{"className":"sr-only","children":"x"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"X"}],["$","path",null,{"d":"M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"}]]}]]}]
+28:T69f,M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z19:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://www.instagram.com","children":[["$","span",null,{"className":"sr-only","children":"instagram"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Instagram"}],["$","path",null,{"d":"$28"}]]}]]}]
+29:T498,M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.964-.065-1.19.408-2.285 1.33-3.082.88-.76 2.119-1.207 3.583-1.291a13.853 13.853 0 0 1 3.02.142c-.126-.742-.375-1.332-.75-1.757-.513-.586-1.308-.883-2.359-.89h-.029c-.844 0-1.992.232-2.721 1.32L7.734 7.847c.98-1.454 2.568-2.256 4.478-2.256h.044c3.194.02 5.097 1.975 5.287 5.388.108.046.216.094.321.142 1.49.7 2.58 1.761 3.154 3.07.797 1.82.871 4.79-1.548 7.158-1.85 1.81-4.094 2.628-7.277 2.65Zm1.003-11.69c-.242 0-.487.007-.739.021-1.836.103-2.98.946-2.916 2.143.067 1.256 1.452 1.839 2.784 1.767 1.224-.065 2.818-.543 3.086-3.71a10.5 10.5 0 0 0-2.215-.221z1a:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://www.threads.net","children":[["$","span",null,{"className":"sr-only","children":"threads"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Threads"}],["$","path",null,{"d":"$29"}]]}]]}]
+1b:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://medium.com","children":[["$","span",null,{"className":"sr-only","children":"medium"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Medium"}],["$","path",null,{"d":"M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"}]]}]]}]
+1c:["$","div",null,{"className":"flex space-x-2 text-sm opacity-80","children":[["$","div",null,{"children":"Yusheng Zheng"}],["$","div",null,{"children":" • "}],["$","div",null,{"children":"© 2026"}],["$","div",null,{"children":" • "}],["$","$L6",null,{"className":"hover:text-primary-500 transition-colors","href":"/","children":"云微的胡思乱想"}]]}]
+1d:["$","div",null,{"className":"text-sm opacity-60","children":["$","a",null,{"className":"hover:text-primary-500 transition-colors","target":"_blank","rel":"noopener noreferrer","href":"https://github.com/timlrx/tailwind-nextjs-starter-blog","children":"Tailwind Nextjs Theme"}]}]
+2a:I[3429,["874","static/chunks/874-8edb22cc7428423c.js","582","static/chunks/app/docs/%5B...slug%5D/page-0c54796a1c75eb33.js"],"default"]
+1e:["$","$L2a",null,{"content":{"slug":"小说/故事1/backup/大纲2/表格","title":"表格","path":"docs/小说/故事1/backup/大纲2/表格"},"allDocs":[{"slug":"prompt/story","title":"Story","path":"docs/prompt/story"},{"slug":"random/apisix-profile-OSPP-郑昱笙","title":"Apisix Profile OSPP 郑昱笙","path":"docs/random/apisix-profile-OSPP-郑昱笙"},{"slug":"random/intro","title":"Intro","path":"docs/random/intro"},{"slug":"random/introen","title":"Introen","path":"docs/random/introen"},{"slug":"random/network_paper","title":"Network_paper","path":"docs/random/network_paper"},{"slug":"random/talk_docvqa.","title":"Talk_docvqa.","path":"docs/random/talk_docvqa."},{"slug":"代码/AI辅助代码生成是否将成为未来编程的主流","title":"AI辅助代码生成是否将成为未来编程的主流","path":"docs/代码/AI辅助代码生成是否将成为未来编程的主流"},{"slug":"小说/playground/story1","title":"Story1","path":"docs/小说/playground/story1"},{"slug":"小说/性与性别流动/故事/ai_symbiosis_system","title":"Ai_symbiosis_system","path":"docs/小说/性与性别流动/故事/ai_symbiosis_system"},{"slug":"小说/性与性别流动/故事/future","title":"性的未来：数字时代的科技、伦理与人类连接","path":"docs/小说/性与性别流动/故事/future"},{"slug":"小说/性与性别流动/故事/guideline","title":"Guideline","path":"docs/小说/性与性别流动/故事/guideline"},{"slug":"小说/性与性别流动/故事/ideas","title":"Ideas","path":"docs/小说/性与性别流动/故事/ideas"},{"slug":"小说/性与性别流动/故事/master_index","title":"Master_index","path":"docs/小说/性与性别流动/故事/master_index"},{"slug":"小说/性与性别流动/故事/outlines","title":"Outlines","path":"docs/小说/性与性别流动/故事/outlines"},{"slug":"小说/性与性别流动/故事/social_systems_design","title":"Social_systems_design","path":"docs/小说/性与性别流动/故事/social_systems_design"},{"slug":"小说/性与性别流动/故事/specific_technologies","title":"Specific_technologies","path":"docs/小说/性与性别流动/故事/specific_technologies"},{"slug":"小说/性与性别流动/故事/technology_timeline","title":"Technology_timeline","path":"docs/小说/性与性别流动/故事/technology_timeline"},{"slug":"小说/性与性别流动/故事/world_background","title":"World_background","path":"docs/小说/性与性别流动/故事/world_background"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/chapter_titles_candidates","title":"Chapter_titles_candidates","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/chapter_titles_candidates"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/guideline","title":"Guideline","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/guideline"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/more_intro","title":"More_intro","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/more_intro"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/story_outline_summary","title":"Story_outline_summary","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/story_outline_summary"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/主角心态变化分析","title":"主角心态变化分析","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/主角心态变化分析"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕_流影的记忆碎片_大纲","title":"第四幕_流影的记忆碎片_大纲","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕_流影的记忆碎片_大纲"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/1","title":"1","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/1"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/2","title":"2","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/2"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/3","title":"3","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/3"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/4","title":"4","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/4"},{"slug":"小说/性与性别流动/故事/集合/1/characters","title":"Characters","path":"docs/小说/性与性别流动/故事/集合/1/characters"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/8","title":"8","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/8"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/第五幕_再遇许璃与派系暗流","title":"第五幕_再遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/第五幕_再遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/第五幕_再遇许璃与派系暗流 copy","title":"第五幕_再遇许璃与派系暗流 copy","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/第五幕_再遇许璃与派系暗流 copy"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/design","title":"Design","path":"docs/小说/性与性别流动/故事/集合/1/design"},{"slug":"小说/性与性别流动/故事/集合/1/intro","title":"Intro","path":"docs/小说/性与性别流动/故事/集合/1/intro"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第一幕_修改建议","title":"第一幕_修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第一幕_修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第三幕_修改建议","title":"第三幕_修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第三幕_修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第二幕_修改建议","title":"第二幕_修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第二幕_修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第五幕_初遇许璃与派系暗流_扩展与修改建议","title":"第五幕_初遇许璃与派系暗流_扩展与修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第五幕_初遇许璃与派系暗流_扩展与修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第四幕_修改建议","title":"第四幕_修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第四幕_修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/general/1-3","title":"1 3","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/general/1-3"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第五幕_再遇许璃与派系暗流","title":"第五幕_再遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第五幕_再遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/more_intro","title":"More_intro","path":"docs/小说/性与性别流动/故事/集合/1/more_intro"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter1_意外觉醒","title":"Chapter1_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter1_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter2_艰难适应","title":"Chapter2_艰难适应","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter2_艰难适应"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter3_暗流涌动","title":"Chapter3_暗流涌动","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter3_暗流涌动"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter4_假面嘉年华","title":"Chapter4_假面嘉年华","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter4_假面嘉年华"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter5_三方博弈","title":"Chapter5_三方博弈","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter5_三方博弈"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter6_真相与背叛","title":"Chapter6_真相与背叛","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter6_真相与背叛"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter7_意识围猎","title":"Chapter7_意识围猎","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter7_意识围猎"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter8_破局重组","title":"Chapter8_破局重组","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter8_破局重组"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter9_新的开始","title":"Chapter9_新的开始","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter9_新的开始"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/outline/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/outline/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/outline/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/outline/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/outline/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/outline/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/outline/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/outline/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十六幕_开放的未来与永恒的探索","title":"第十六幕_开放的未来与永恒的探索","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十六幕_开放的未来与永恒的探索"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/outline/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第15幕_新秩序的建立与考验","title":"第15幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第15幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十六幕_开放的未来与永恒的探索","title":"第十六幕_开放的未来与永恒的探索","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十六幕_开放的未来与永恒的探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十六幕_开放的未来与永恒的探索","title":"第十六幕_开放的未来与永恒的探索","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十六幕_开放的未来与永恒的探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十六幕_开放的未来与永恒的探索","title":"第十六幕_开放的未来与永恒的探索","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十六幕_开放的未来与永恒的探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第一幕_意外觉醒_正文","title":"第一幕_意外觉醒_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第一幕_意外觉醒_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第七幕_地下黑市初探_正文","title":"第七幕_地下黑市初探_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第七幕_地下黑市初探_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第三幕_镜中新我与身体探索_正文","title":"第三幕_镜中新我与身体探索_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第三幕_镜中新我与身体探索_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第九幕_数字痕迹_正文","title":"第九幕_数字痕迹_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第九幕_数字痕迹_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第二幕_身体重塑的七日历程_正文","title":"第二幕_身体重塑的七日历程_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第二幕_身体重塑的七日历程_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第五幕_初遇许璃与派系暗流_正文","title":"第五幕_初遇许璃与派系暗流_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第五幕_初遇许璃与派系暗流_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第八幕_情感探索与身份认同危机_正文","title":"第八幕_情感探索与身份认同危机_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第八幕_情感探索与身份认同危机_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第六幕_身体流动庆典_正文","title":"第六幕_身体流动庆典_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第六幕_身体流动庆典_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十一幕_压力测试_正文","title":"第十一幕_压力测试_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十一幕_压力测试_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十三幕_无解的道德困境_正文","title":"第十三幕_无解的道德困境_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十三幕_无解的道德困境_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十二幕_意识病毒危机爆发_正文","title":"第十二幕_意识病毒危机爆发_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十二幕_意识病毒危机爆发_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十五幕_新秩序的建立与考验_正文","title":"第十五幕_新秩序的建立与考验_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十五幕_新秩序的建立与考验_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十四幕_意外联盟与妥协方案_正文","title":"第十四幕_意外联盟与妥协方案_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十四幕_意外联盟与妥协方案_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十幕_系统故障_正文","title":"第十幕_系统故障_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十幕_系统故障_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第四幕_流影的记忆碎片_正文","title":"第四幕_流影的记忆碎片_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第四幕_流影的记忆碎片_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_01_awakening","title":"Chapter_01_awakening","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_01_awakening"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_02_adaptation","title":"Chapter_02_adaptation","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_02_adaptation"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_03_body_awakening","title":"Chapter_03_body_awakening","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_03_body_awakening"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_04_undercurrents","title":"Chapter_04_undercurrents","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_04_undercurrents"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_05_carnival","title":"Chapter_05_carnival","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_05_carnival"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_06_three_way_struggle","title":"Chapter_06_three_way_struggle","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_06_three_way_struggle"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_07_emotional_deepening","title":"Chapter_07_emotional_deepening","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_07_emotional_deepening"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_08_truth_and_betrayal","title":"Chapter_08_truth_and_betrayal","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_08_truth_and_betrayal"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_09_consciousness_siege","title":"Chapter_09_consciousness_siege","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_09_consciousness_siege"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_10_breakthrough_and_new_beginning","title":"Chapter_10_breakthrough_and_new_beginning","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_10_breakthrough_and_new_beginning"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/summary","title":"Summary","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/summary"},{"slug":"小说/性与性别流动/故事/集合/1/summary","title":"Summary","path":"docs/小说/性与性别流动/故事/集合/1/summary"},{"slug":"小说/性与性别流动/讨论/01_生物科技与身体改造研究报告","title":"01_生物科技与身体改造研究报告","path":"docs/小说/性与性别流动/讨论/01_生物科技与身体改造研究报告"},{"slug":"小说/性与性别流动/讨论/02_赛博格时代社会影响分析报告","title":"02_赛博格时代社会影响分析报告","path":"docs/小说/性与性别流动/讨论/02_赛博格时代社会影响分析报告"},{"slug":"小说/性与性别流动/讨论/03_性与亲密关系的未来演变研究","title":"03_性与亲密关系的未来演变研究","path":"docs/小说/性与性别流动/讨论/03_性与亲密关系的未来演变研究"},{"slug":"小说/性与性别流动/讨论/05_伦理与哲学思辨专题","title":"05_伦理与哲学思辨专题","path":"docs/小说/性与性别流动/讨论/05_伦理与哲学思辨专题"},{"slug":"小说/性与性别流动/讨论/idea","title":"Idea","path":"docs/小说/性与性别流动/讨论/idea"},{"slug":"小说/性与性别流动/讨论/性与亲密关系研究问题集","title":"性与亲密关系研究问题集","path":"docs/小说/性与性别流动/讨论/性与亲密关系研究问题集"},{"slug":"小说/性与性别流动/讨论/机密档案：情感动力学（合欢宗）技术与哲学纲要","title":"机密档案：情感动力学（合欢宗）技术与哲学纲要","path":"docs/小说/性与性别流动/讨论/机密档案：情感动力学（合欢宗）技术与哲学纲要"},{"slug":"小说/改文/我的化身正在成为最终BOSS/character_redesign_female_protagonist","title":"Character_redesign_female_protagonist","path":"docs/小说/改文/我的化身正在成为最终BOSS/character_redesign_female_protagonist"},{"slug":"小说/改文/我的化身正在成为最终BOSS/summary","title":"Summary","path":"docs/小说/改文/我的化身正在成为最终BOSS/summary"},{"slug":"小说/故事1/backup/主线","title":"主线","path":"docs/小说/故事1/backup/主线"},{"slug":"小说/故事1/backup/主线_v2","title":"主线_v2","path":"docs/小说/故事1/backup/主线_v2"},{"slug":"小说/故事1/backup/历史/历史","title":"历史","path":"docs/小说/故事1/backup/历史/历史"},{"slug":"小说/故事1/backup/历史/赤胎环舟本纪","title":"赤胎环舟本纪","path":"docs/小说/故事1/backup/历史/赤胎环舟本纪"},{"slug":"小说/故事1/backup/大纲/1","title":"1","path":"docs/小说/故事1/backup/大纲/1"},{"slug":"小说/故事1/backup/大纲/10","title":"10","path":"docs/小说/故事1/backup/大纲/10"},{"slug":"小说/故事1/backup/大纲/11","title":"11","path":"docs/小说/故事1/backup/大纲/11"},{"slug":"小说/故事1/backup/大纲/12","title":"12","path":"docs/小说/故事1/backup/大纲/12"},{"slug":"小说/故事1/backup/大纲/13","title":"13","path":"docs/小说/故事1/backup/大纲/13"},{"slug":"小说/故事1/backup/大纲/14","title":"14","path":"docs/小说/故事1/backup/大纲/14"},{"slug":"小说/故事1/backup/大纲/15","title":"15","path":"docs/小说/故事1/backup/大纲/15"},{"slug":"小说/故事1/backup/大纲/16","title":"16","path":"docs/小说/故事1/backup/大纲/16"},{"slug":"小说/故事1/backup/大纲/2","title":"2","path":"docs/小说/故事1/backup/大纲/2"},{"slug":"小说/故事1/backup/大纲/3","title":"3","path":"docs/小说/故事1/backup/大纲/3"},{"slug":"小说/故事1/backup/大纲/4","title":"4","path":"docs/小说/故事1/backup/大纲/4"},{"slug":"小说/故事1/backup/大纲/5","title":"5","path":"docs/小说/故事1/backup/大纲/5"},{"slug":"小说/故事1/backup/大纲/6","title":"6","path":"docs/小说/故事1/backup/大纲/6"},{"slug":"小说/故事1/backup/大纲/7","title":"7","path":"docs/小说/故事1/backup/大纲/7"},{"slug":"小说/故事1/backup/大纲/8","title":"8","path":"docs/小说/故事1/backup/大纲/8"},{"slug":"小说/故事1/backup/大纲/9","title":"9","path":"docs/小说/故事1/backup/大纲/9"},{"slug":"小说/故事1/backup/大纲/大纲总结","title":"大纲总结","path":"docs/小说/故事1/backup/大纲/大纲总结"},{"slug":"小说/故事1/backup/大纲/设定问题分析","title":"设定问题分析","path":"docs/小说/故事1/backup/大纲/设定问题分析"},{"slug":"小说/故事1/backup/大纲2/17","title":"17","path":"docs/小说/故事1/backup/大纲2/17"},{"slug":"小说/故事1/backup/大纲2/18","title":"18","path":"docs/小说/故事1/backup/大纲2/18"},{"slug":"小说/故事1/backup/大纲2/21","title":"21","path":"docs/小说/故事1/backup/大纲2/21"},{"slug":"小说/故事1/backup/大纲2/22","title":"22","path":"docs/小说/故事1/backup/大纲2/22"},{"slug":"小说/故事1/backup/大纲2/23","title":"23","path":"docs/小说/故事1/backup/大纲2/23"},{"slug":"小说/故事1/backup/大纲2/24","title":"24","path":"docs/小说/故事1/backup/大纲2/24"},{"slug":"小说/故事1/backup/大纲2/25","title":"25","path":"docs/小说/故事1/backup/大纲2/25"},{"slug":"小说/故事1/backup/大纲2/26","title":"26","path":"docs/小说/故事1/backup/大纲2/26"},{"slug":"小说/故事1/backup/大纲2/27","title":"27","path":"docs/小说/故事1/backup/大纲2/27"},{"slug":"小说/故事1/backup/大纲2/28","title":"28","path":"docs/小说/故事1/backup/大纲2/28"},{"slug":"小说/故事1/backup/大纲2/29","title":"29","path":"docs/小说/故事1/backup/大纲2/29"},{"slug":"小说/故事1/backup/大纲2/30","title":"30","path":"docs/小说/故事1/backup/大纲2/30"},{"slug":"小说/故事1/backup/大纲2/31","title":"31","path":"docs/小说/故事1/backup/大纲2/31"},{"slug":"小说/故事1/backup/大纲2/32","title":"32","path":"docs/小说/故事1/backup/大纲2/32"},{"slug":"小说/故事1/backup/大纲2/33","title":"33","path":"docs/小说/故事1/backup/大纲2/33"},{"slug":"小说/故事1/backup/大纲2/34","title":"34","path":"docs/小说/故事1/backup/大纲2/34"},{"slug":"小说/故事1/backup/大纲2/如何写设定","title":"如何写设定","path":"docs/小说/故事1/backup/大纲2/如何写设定"},{"slug":"小说/故事1/backup/大纲2/表格","title":"表格","path":"docs/小说/故事1/backup/大纲2/表格"},{"slug":"小说/故事1/backup/大纲prompt","title":"大纲prompt","path":"docs/小说/故事1/backup/大纲prompt"},{"slug":"小说/故事1/backup/描述","title":"描述","path":"docs/小说/故事1/backup/描述"},{"slug":"小说/故事1/核心","title":"核心","path":"docs/小说/故事1/核心"},{"slug":"小说/故事1/设定/prompt","title":"Prompt","path":"docs/小说/故事1/设定/prompt"},{"slug":"小说/故事1/设定/一魂多体爽点分析","title":"一魂多体爽点分析","path":"docs/小说/故事1/设定/一魂多体爽点分析"},{"slug":"小说/故事1/设定/价值观与哲学（世界的灵魂）/冲突","title":"冲突","path":"docs/小说/故事1/设定/价值观与哲学（世界的灵魂）/冲突"},{"slug":"小说/故事1/设定/力量体系与神器（成长的道具）/力量体系构建的第一性原理","title":"力量体系构建的第一性原理","path":"docs/小说/故事1/设定/力量体系与神器（成长的道具）/力量体系构建的第一性原理"},{"slug":"小说/故事1/设定/历史与时间线（深度时间感）/战锤化修改合集","title":"战锤化修改合集","path":"docs/小说/故事1/设定/历史与时间线（深度时间感）/战锤化修改合集"},{"slug":"小说/故事1/设定/历史与时间线（深度时间感）/描述","title":"描述","path":"docs/小说/故事1/设定/历史与时间线（深度时间感）/描述"},{"slug":"小说/故事1/设定/历史与时间线（深度时间感）/政治年表","title":"政治年表","path":"docs/小说/故事1/设定/历史与时间线（深度时间感）/政治年表"},{"slug":"小说/故事1/设定/历史与时间线（深度时间感）/深层秘密-胚胎与看护者","title":"深层秘密 胚胎与看护者","path":"docs/小说/故事1/设定/历史与时间线（深度时间感）/深层秘密-胚胎与看护者"},{"slug":"小说/故事1/设定/地理与生态环境（戏剧的舞台）/世界","title":"世界","path":"docs/小说/故事1/设定/地理与生态环境（戏剧的舞台）/世界"},{"slug":"小说/故事1/设定/地理与生态环境（戏剧的舞台）/场景","title":"场景","path":"docs/小说/故事1/设定/地理与生态环境（戏剧的舞台）/场景"},{"slug":"小说/故事1/设定/大纲","title":"大纲","path":"docs/小说/故事1/设定/大纲"},{"slug":"小说/故事1/设定/大纲修改意见","title":"大纲修改意见","path":"docs/小说/故事1/设定/大纲修改意见"},{"slug":"小说/故事1/设定/设定指导","title":"设定指导","path":"docs/小说/故事1/设定/设定指导"},{"slug":"小说/短篇/年轮里的回声/年轮里的回声","title":"年轮里的回声","path":"docs/小说/短篇/年轮里的回声/年轮里的回声"},{"slug":"小说/短篇/年轮里的回声/年轮里的回声-完整","title":"年轮里的回声 完整","path":"docs/小说/短篇/年轮里的回声/年轮里的回声-完整"},{"slug":"小说/短篇/年轮里的回声/年轮里的回声2","title":"年轮里的回声2","path":"docs/小说/短篇/年轮里的回声/年轮里的回声2"},{"slug":"小说/短篇/年轮里的回声/题目与简介选项","title":"题目与简介选项","path":"docs/小说/短篇/年轮里的回声/题目与简介选项"},{"slug":"小说/诈骗/claude/人物设定与大纲","title":"人物设定与大纲","path":"docs/小说/诈骗/claude/人物设定与大纲"},{"slug":"小说/诈骗/claude/第一章：老人的眼泪","title":"第一章：老人的眼泪","path":"docs/小说/诈骗/claude/第一章：老人的眼泪"},{"slug":"小说/诈骗/claude/第七章：猫鼠游戏","title":"第七章：猫鼠游戏","path":"docs/小说/诈骗/claude/第七章：猫鼠游戏"},{"slug":"小说/诈骗/claude/第三章：进入围城","title":"第三章：进入围城","path":"docs/小说/诈骗/claude/第三章：进入围城"},{"slug":"小说/诈骗/claude/第九章：黑吃黑的艺术","title":"第九章：黑吃黑的艺术","path":"docs/小说/诈骗/claude/第九章：黑吃黑的艺术"},{"slug":"小说/诈骗/claude/第二章：猎人的准备","title":"第二章：猎人的准备","path":"docs/小说/诈骗/claude/第二章：猎人的准备"},{"slug":"小说/诈骗/claude/第五章：第一次交锋","title":"第五章：第一次交锋","path":"docs/小说/诈骗/claude/第五章：第一次交锋"},{"slug":"小说/诈骗/claude/第八章：绝地反击","title":"第八章：绝地反击","path":"docs/小说/诈骗/claude/第八章：绝地反击"},{"slug":"小说/诈骗/claude/第六章：连环套局","title":"第六章：连环套局","path":"docs/小说/诈骗/claude/第六章：连环套局"},{"slug":"小说/诈骗/claude/第十章：收网时刻","title":"第十章：收网时刻","path":"docs/小说/诈骗/claude/第十章：收网时刻"},{"slug":"小说/诈骗/claude/第四章：深入虎穴","title":"第四章：深入虎穴","path":"docs/小说/诈骗/claude/第四章：深入虎穴"},{"slug":"小说/诈骗/修仙/人物设定与大纲","title":"人物设定与大纲","path":"docs/小说/诈骗/修仙/人物设定与大纲"},{"slug":"小说/诈骗/修仙/如何讲话让人火大","title":"如何讲话让人火大","path":"docs/小说/诈骗/修仙/如何讲话让人火大"},{"slug":"小说/诈骗/修仙/第一章：灵脉之殇","title":"第一章：灵脉之殇","path":"docs/小说/诈骗/修仙/第一章：灵脉之殇"},{"slug":"小说/诈骗/修仙/第七章：灵狐斗金","title":"第七章：灵狐斗金","path":"docs/小说/诈骗/修仙/第七章：灵狐斗金"},{"slug":"小说/诈骗/修仙/第三章：潜入金窟","title":"第三章：潜入金窟","path":"docs/小说/诈骗/修仙/第三章：潜入金窟"},{"slug":"小说/诈骗/修仙/第九章：玄金之殇","title":"第九章：玄金之殇","path":"docs/小说/诈骗/修仙/第九章：玄金之殇"},{"slug":"小说/诈骗/修仙/第二章：猎宝之谋","title":"第二章：猎宝之谋","path":"docs/小说/诈骗/修仙/第二章：猎宝之谋"},{"slug":"小说/诈骗/修仙/第五章：初战灵宝","title":"第五章：初战灵宝","path":"docs/小说/诈骗/修仙/第五章：初战灵宝"},{"slug":"小说/诈骗/修仙/第八章：灵宝反击","title":"第八章：灵宝反击","path":"docs/小说/诈骗/修仙/第八章：灵宝反击"},{"slug":"小说/诈骗/修仙/第六章：连环灵计","title":"第六章：连环灵计","path":"docs/小说/诈骗/修仙/第六章：连环灵计"},{"slug":"小说/诈骗/修仙/第十章：灵归正主","title":"第十章：灵归正主","path":"docs/小说/诈骗/修仙/第十章：灵归正主"},{"slug":"小说/诈骗/修仙/第四章：深入宝渊","title":"第四章：深入宝渊","path":"docs/小说/诈骗/修仙/第四章：深入宝渊"},{"slug":"小说/诈骗/诈骗-grok/人物设定","title":"人物设定","path":"docs/小说/诈骗/诈骗-grok/人物设定"},{"slug":"小说/诈骗/诈骗-grok/故事大纲","title":"故事大纲","path":"docs/小说/诈骗/诈骗-grok/故事大纲"},{"slug":"小说/诈骗/诈骗-grok/第一章：陷阱初现","title":"第一章：陷阱初现","path":"docs/小说/诈骗/诈骗-grok/第一章：陷阱初现"},{"slug":"小说/诈骗/诈骗-grok/第七章：猫鼠游戏","title":"第七章：猫鼠游戏","path":"docs/小说/诈骗/诈骗-grok/第七章：猫鼠游戏"},{"slug":"小说/诈骗/诈骗-grok/第三章：进入围城","title":"第三章：进入围城","path":"docs/小说/诈骗/诈骗-grok/第三章：进入围城"},{"slug":"小说/诈骗/诈骗-grok/第九章：黑吃黑的艺术","title":"第九章：黑吃黑的艺术","path":"docs/小说/诈骗/诈骗-grok/第九章：黑吃黑的艺术"},{"slug":"小说/诈骗/诈骗-grok/第二章：猎人的准备","title":"第二章：猎人的准备","path":"docs/小说/诈骗/诈骗-grok/第二章：猎人的准备"},{"slug":"小说/诈骗/诈骗-grok/第五章：第一次交锋","title":"第五章：第一次交锋","path":"docs/小说/诈骗/诈骗-grok/第五章：第一次交锋"},{"slug":"小说/诈骗/诈骗-grok/第八章：绝地反击","title":"第八章：绝地反击","path":"docs/小说/诈骗/诈骗-grok/第八章：绝地反击"},{"slug":"小说/诈骗/诈骗-grok/第六章：连环套局","title":"第六章：连环套局","path":"docs/小说/诈骗/诈骗-grok/第六章：连环套局"},{"slug":"小说/诈骗/诈骗-grok/第十章：收网时刻","title":"第十章：收网时刻","path":"docs/小说/诈骗/诈骗-grok/第十章：收网时刻"},{"slug":"小说/诈骗/诈骗-grok/第四章：深入虎穴","title":"第四章：深入虎穴","path":"docs/小说/诈骗/诈骗-grok/第四章：深入虎穴"},{"slug":"小说/诈骗/诈骗-grok/金融电信诈骗与黑灰产调研报告","title":"金融电信诈骗与黑灰产调研报告","path":"docs/小说/诈骗/诈骗-grok/金融电信诈骗与黑灰产调研报告"},{"slug":"小说/风格/一般风格","title":"一般风格","path":"docs/小说/风格/一般风格"},{"slug":"小说/风格/网文文艺风","title":"网文文艺风","path":"docs/小说/风格/网文文艺风"},{"slug":"小说/风格/网文标准风","title":"网文标准风","path":"docs/小说/风格/网文标准风"}],"children":"$L2b"}]
+2c:Tb66b,<h2>额外要求文档（抽象要求与提示词，不含任何具体人名、地名、职业名）</h2>
+<p>本作品的设定必须被当作一台可持续运行的“叙事机器”，而不是背景百科。每一条规则都要同时具备三种功能：持续制造冲突、提供可操作的解决钥匙、并能对代价进行可追踪结算。任何重大事件都必须存在“即使主角不出现也会发生”的基准走向；主角介入后多数事件仍会发生，但结算方式分叉，分叉点必须落在可验证的凭据、条款、参数与资源分配上，而不是落在主角临时变强或旁白解释上。</p>
+<p>信息结构必须是三层的：外层是公开叙事与统一口径，中层是流程缺口、统计规律与删改痕迹，底层是可操作参数、可交易权限与可执行条款。真相只能通过行动获得：拿到某份材料、抢到某个窗口、交换某项权利、或保存某条证据链。每卷至少完成一次“旧事件被重解释”，重解释必须来自新证据进入读者视野，而不是补一句更大的秘密。</p>
+<p>主角机制必须严格服从硬限制：多载体并行只是并行完成不同门槛任务的手段，不是自由换身份的捷径；每次获得优势都要留下可被追踪、可被反噬、可被政治定价的痕迹。无敌感来自把规则当资源、把代价转嫁到别人想不到的位置、把胜利转化为可累积净收益（权限、通行、会签、名册路径、证据柜层级等），而不是单纯输出。世界必须拥有流程化的反制体系，能够把异常当工程问题处理，形成长期追猎与收编压力。</p>
+<p>结构上，每卷必须明确“结束条件”属于四类之一并且可复用：完成一次场域迁移、解答一个核心疑问、发生一次身份/立场转折、或完成一次事件结算。每卷只允许一个“合成级大事件”作为重心，其余情节必须服务于凑齐门槛钥匙与安排结算。所有势力的行动要体现现实动机：保命、升迁、财政、继承、预算、合法性、甩锅、控制风险，而非抽象理想；背叛不是反转而是结算，当收益与风险曲线分叉时背叛必然发生。</p>
+<p>对手生态必须立体：除了内部权力结构，还要存在明确外部政体、非人文明与不可谈判的环境压力。每个顶级对手必须有不可复制的优势（钥匙垄断、窗口控制、叙事铸币、补给线定价、证据清除、边界稳定等）与可量化胜利条件；主角的成长表现为逐步能改变“谁掌握钥匙、谁承担代价、哪些条款被写入制度”，从边缘只能保一两条证据链，发展到中心可以改写结算模型。</p>
+<p><strong>抽象写作提示词（Prompt）</strong></p>
+<pre><code>写作时始终强制检查并落地到具体行动与凭据：
+1) 这一段冲突依赖哪类门槛钥匙（法理/后勤/工程/叙事/潮汐），钥匙在谁手里，交换条件是什么；
+2) 这一段结束后留下什么可回收凭据（合同/签押链/参数副本/证人链/账目缺口），凭据能换什么，暴露会带来什么追猎；
+3) 如果主角不出现，事件如何推进到同样或不同的结局；主角介入改变的是发生还是结算；
+4) 公开叙事、中层异常、底层参数三层信息分别通过什么载体呈现，读者能推理出什么；
+5) 胜利代价如何被记账并回流：谁背锅、谁进名单、谁失去通行/权限、谁获得指标豁免；
+6) 本卷的结束条件属于场域/疑问/身份/事件四类中的哪一类，下一卷债务是什么。
+</code></pre>
+<hr>
+<h1>1）12地点 + 航道物流表 + 虚潮日历（物理抓手）</h1>
+<h2>1.1 十二个固定地点节点表</h2>
+<blockquote>
+<p>弧段编号按 0–359；“灯网稳定”等级：A最稳，D最差。
+“关键钥匙”用五类缩写：法理L / 后勤S / 工程E / 叙事N / 潮汐T。</p>
+</blockquote>
+<p>| 节点代号 |   地点名 |         弧段/坐标 | 稳定等级 | 节点类型   | 主要功能                     | 关键钥匙  | 常见瓶颈与风险           |
+| ---- | ----: | ------------: | :--: | ------ | ------------------------ | ----- | ----------------- |
+| L01  |   冠冕港 |           018 |   A  | 中心政务港  | 条款发布、特许状登记、跨弧段裁决的公开口径发源地 | L、N   | 口径审查、通行配额争夺、信息封锁  |
+| L02  |   天枢港 |           024 |   A  | 中心物流港  | 主光路汇聚、仓储与护航编队集结、补给结算中心   | S、L   | 护航合同抬价、仓储挪用、审计突击  |
+| L03  |   圣典城 |           020 |   A  | 叙事枢纽   | 版本编纂、赦免票据发行与回收、公开解释的生产线  | N、L   | 注疏删改、赦免挤兑、仪式事故    |
+| L04  |  黑印总署 |           022 |   A  | 封档枢纽   | 双柜档案、封锁令、清洗令与密柜交换        | N、L   | 泄露风波、钓鱼清洗、追猎升级    |
+| L05  |  配光主院 |           021 |   A  | 工程枢纽   | 锚站校验、会签授权、参数柜与样本库        | E、L   | 工程事故甩锅、会签扩权、样本污染  |
+| L06  |   灰门港 |           217 |   C  | 边疆口岸港  | 边疆远征集散、移民与工籍流入点、灰名单高发区   | S、N   | 断供、私掠、临时封锁与净化     |
+| L07  |   冷壁港 |           233 |   C  | 边疆军港   | 护航补给点、舰队维修转运、壁门私兵驻扎      | S、L   | 航道事故频发、私兵勒索、审判驻点  |
+| L08  |   霜河港 |           261 |   D  | 边疆避风港  | 离网走私与民间贸易交汇，常作临时停靠       | S     | 灰市渗透、回声聚集、灯网覆盖缺口  |
+| L09  |  断弧议港 |           287 |   C  | 半独立弧国港 | 对外贸易口、停火谈判点、替代方案试验区      | L、S、N | 长期摩擦、渗透战、口径冲突     |
+| L10  | 守界前线站 |           323 |   B  | 星堡前沿   | 航道封锁支点、战时集结、旧参数信号接收      | S、E、T | 大潮期封锁强化、夺核预备、外敌袭扰 |
+| L11  | 碎桥外坞站 | 外坞-B07（近 240） |   D  | 外坞浮标站  | 外坞打捞转运、界材初检、临时锚定         | E、S   | 黑海风暴、失联、裂隙余痕聚集    |
+| L12  | 黑海自由港 | 外坞-K19（近 250） |   D  | 外坞港邦   | 私掠、通行票据、遗迹拍卖与“救命维修”市场    | S、E、L | 合同陷阱、背刺常态、封锁突袭    |</p>
+<hr>
+<h2>1.2 航道类型与物流基准表</h2>
+<blockquote>
+<p>“航速”用“弧段/日”表示（便于估算）；“风险等级”1–5，5为极高。
+大潮峰值会把风险整体 +1（上限仍按5计算，但“失控概率”另行上升）。</p>
+</blockquote>
+<p>| 航道类型  | 适用范围     | 航速（弧段/日） | 基础风险 | 通讯可靠性 | 护航要求     | 典型用途                |
+| ----- | -------- | -------: | :--: | :---: | -------- | ------------------- |
+| 中枢短驳线 | 中心区≤12弧段 |       18 |   1  |   高   | 可无护航     | 中心政务/档案/工程人员与小宗高价值货 |
+| 内侧主航道 | 绝大多数合法航线 |        9 |   2  |   中高  | 推荐护航     | 大宗补给、移民、常态军需        |
+| 外侧快航道 | 赶时效、抢窗口  |       12 |   3  |   中   | 必须护航     | 战时增援、会签小队、敏感物资      |
+| 黑海航道  | 外坞/遗迹/打捞 |        7 |   4  |   低   | 重护航+应急锚定 | 界材、遗迹、私掠与走私         |</p>
+<p><strong>通行与补给最小规则（用于写作一致性）</strong></p>
+<ul>
+<li>护航编队的最低构成：1艘领航舰 + 2艘护卫舰 + 4–12艘运载舰；黑海航道翻倍。</li>
+<li>“会签授权”与“护航合同”通常绑定；没有法理钥匙，后勤钥匙会以更高价格或更短期限出现。</li>
+<li>大潮峰值期间，外侧与黑海航道的失联概率显著上升，通讯漂移会造成战报与实际时间线偏差（可用于口径与证据矛盾）。</li>
+</ul>
+<hr>
+<h2>1.3 关键航线段表（常用路由、时间与风险）</h2>
+<blockquote>
+<p>时间=（航距/航速）+1天（装卸/队列/检查）。
+“小潮”按风险不加成，“大潮峰值”风险+1且时间×1.25（黑海×1.35）。</p>
+</blockquote>
+<p>| 起点→终点       |   航距（弧段差） | 推荐航道  |    小潮耗时（天） | 大潮峰值耗时（天） | 小潮风险 | 峰值风险 | 常态班次     | 主要瓶颈           |
+| ----------- | --------: | ----- | ---------: | --------: | :--: | :--: | -------- | -------------- |
+| 冠冕港→天枢港     |         6 | 中枢短驳线 |          2 |         3 |   1  |   2  | 3–5天/班   | 口径审查、队列优先级     |
+| 冠冕港→圣典城     |         2 | 中枢短驳线 |          2 |         3 |   1  |   2  | 3–5天/班   | 赦免票与注疏版本检查     |
+| 冠冕港→黑印总署    |         4 | 中枢短驳线 |          2 |         3 |   1  |   2  | 2–4天/班   | 访客登记、封档许可      |
+| 冠冕港→配光主院    |         3 | 中枢短驳线 |          2 |         3 |   1  |   2  | 2–4天/班   | 会签权限校验         |
+| 天枢港→灰门港     |       167 | 外侧快航道 |         15 |        19 |   3  |   4  | 20天/班    | 护航合同、补给缺口      |
+| 天枢港→冷壁港     |       151 | 外侧快航道 |         14 |        18 |   3  |   4  | 20天/班    | 航道私掠、临检加码      |
+| 天枢港→霜河港     |       123 | 外侧快航道 |         12 |        15 |   3  |   4  | 25天/班    | 灯网覆盖缺口、失联      |
+| 灰门港→冷壁港     |        16 | 内侧主航道 |          3 |         4 |   2  |   3  | 7–10天/班  | 边疆封锁、私兵征用      |
+| 冷壁港→霜河港     |        28 | 内侧主航道 |          5 |         7 |   2  |   3  | 10–15天/班 | 回声聚集、补给稀缺      |
+| 霜河港→断弧议港    |        26 | 外侧快航道 |          4 |         6 |   3  |   4  | 15天/班    | 口岸摩擦、关税临改      |
+| 断弧议港→守界前线站  |        36 | 外侧快航道 |          4 |         6 |   3  |   4  | 15天/班    | 战时拦截、航道封锁      |
+| 守界前线站→冠冕港   |        55 | 外侧快航道 |          6 |         9 |   3  |   4  | 18天/班    | 战时优先级、情报封锁     |
+| 冷壁港→碎桥外坞站   | 近端接驳+外坞附加 | 黑海航道  |  8（含外坞附加4） |        11 |   4  |   5  | 30天/班    | 失联、界材污染、裂隙余痕   |
+| 天枢港→黑海自由港   | 近端接驳+外坞附加 | 黑海航道  | 10（含外坞附加5） |        14 |   4  |   5  | 30–40天/班 | 合同陷阱、拍卖敲诈、突袭封锁 |
+| 碎桥外坞站→黑海自由港 |      外坞内航 | 黑海航道  |          4 |         6 |   4  |   5  | 不定       | 私掠、引航欺诈、潮峰失控   |</p>
+<blockquote>
+<p>注：外坞节点的“外坞附加”是进入外坞层后的绕航与避险时间，不按弧段差线性估算，写作时可作为“不可控延迟”的来源。</p>
+</blockquote>
+<hr>
+<h2>1.4 虚潮日历（环历360日，12月×30日）</h2>
+<h3>年度相位总表（每90日一循环，全年四次大潮峰）</h3>
+<p>| 月份（30日） | 主相位    | 潮位等级（典型） | 航行风险修正   | 通讯漂移 | 最适合              | 最不适合        |
+| ------- | ------ | -------: | -------- | ---- | ---------------- | ----------- |
+| 1       | 平潮→涨潮  |      2→3 | 0        | 低→中  | 大宗补给、移民、常态远征     | 大规模仪式与外坞    |
+| 2       | 大潮峰+落潮 |    4→5→3 | +1       | 高    | “维修窗”在落潮中段；战时突击  | 黑海航道、口岸人流   |
+| 3       | 小潮     |      1→2 | -1（最低为0） | 低    | 护航常态化、跨弧段运输、隐蔽渗透 | 需要潮汐放大的仪式   |
+| 4       | 平潮→涨潮  |      2→3 | 0        | 低→中  | 补给重建、港务清账        | 外坞与高密度集会    |
+| 5       | 大潮峰+落潮 |    4→5→3 | +1       | 高    | 工程接管、封锁窗口、会签突击   | 航道大规模疏散     |
+| 6       | 小潮     |      1→2 | -1       | 低    | 长线航运、重装备调动       | 情绪同步型行动     |
+| 7       | 平潮→涨潮  |      2→3 | 0        | 低→中  | 战线推进、人员轮换        | 黑海深航        |
+| 8       | 大潮峰+落潮 |    4→5→3 | +1       | 高    | 夺取节点、事故甩锅、叙事重写   | 非必要航行       |
+| 9       | 小潮     |      1→2 | -1       | 低    | 大规模补给、谈判与交换      | 潮汐放大类行动     |
+| 10      | 平潮→涨潮  |      2→3 | 0        | 低→中  | 外交使团、贸易结算        | 外坞深航        |
+| 11      | 大潮峰+落潮 |    4→5→3 | +1       | 高    | 大事件触发期（最易失控）     | 人口密集区无防护集会  |
+| 12      | 小潮     |      1→2 | -1       | 低    | 战后重整、迁移、清账       | “神迹化”行动难度上升 |</p>
+<h3>月内固定窗口（写作可重复引用）</h3>
+<ul>
+<li><strong>大潮峰（每逢第2/5/8/11月的第6–12日）</strong>：潮汐放大最强，仪式/异常最容易成功，也最容易失控；外侧与黑海航道尽量停航或重护航。</li>
+<li><strong>维修窗（大潮峰后第13–20日）</strong>：落潮期稳定性回升但仍有“可解释的危险”，最适合工程扩权与紧急接管（也最适合甩锅）。</li>
+<li><strong>小潮航运窗（每逢第3/6/9/12月全月）</strong>：最适合大宗补给、重装备运输、跨弧段迁移与大规模会晤。</li>
+</ul>
+<hr>
+<h1>2）文书字段字典 + 凭据账本模板（工业化剥洋葱）</h1>
+<h2>2.1 文书字段字典（字段、涂黑点、伪造点、核对源）</h2>
+<blockquote>
+<p>通用字段建议固定：
+<strong>档号</strong>（机构码-弧段-年-序号-密级） / <strong>密级</strong> / <strong>版本号</strong> / <strong>签押链</strong>（至少两级） / <strong>时间戳</strong>（环历日-时段） / <strong>关联节点</strong> / <strong>附件清单</strong> / <strong>引用条款号</strong></p>
+</blockquote>
+<p>| 文书类型      | 主用途        | 必填字段（示例字段名）                   | 常见涂黑字段        | 常见伪造点       | 交叉核对源         |
+| --------- | ---------- | ----------------------------- | ------------- | ----------- | ------------- |
+| 公告通告（公开版） | 统一口径、解释事件  | 档号、发布日期、适用范围、行为要求、处罚条款、引用条款号  | 引用条款号、适用范围细则  | 发布日期、引用条款改号 | 同日其他公告、执行记录   |
+| 战报（公开版）   | 战功结算、对外叙事  | 交战地点、敌情定义、胜利指标、伤亡汇总、功绩名录、附件声明 | 真实伤亡、失联数、后勤缺口 | 敌情定义、胜利指标口径 | 后勤结算表、舰队航迹    |
+| 战报底稿（内部版） | 真实过程与甩锅依据  | 航迹、通讯摘要、弹药消耗、失联段、异常记录、证人名单    | 异常记录、证人名单     | 异常段落删节、证人替换 | 舰队日志、通讯备份     |
+| 补给与损耗结算表  | 指标闭环、预算申请  | 运输清单、入库出库、损耗分类、缺口原因、责任科目、签押链  | 缺口原因、责任科目     | 损耗分类重归类     | 仓储账、征用令       |
+| 名册更新单     | 回收路径、合法身份  | 身份码、光印校验、迁移原因、状态变更、见证签押       | 身份码末位、迁移原因    | 身份码替换、见证伪签  | 洗礼记录、工籍档      |
+| 死亡证明      | “正当死亡”结算   | 死亡时间、地点、原因分类、见证签押、回收路径码       | 原因分类、回收路径码    | 原因改类、时间漂移   | 医务/现场记录、战报底稿  |
+| 赦免票据/赦免令  | 把名单转成可控劳役  | 赦免对象、赦免条件、期限、劳役条款、撤销条款        | 撤销条款、期限       | 期限延改、撤销条款隐藏 | 名册状态变更、执行劳役记录 |
+| 隔离/封锁令    | 划定封锁线、合法清场 | 封锁边界、时长、准入条款、执法授权、豁免列表        | 豁免列表、准入条款     | 豁免伪造、边界坐标   | 路障登记、通行凭证     |
+| 审讯口供记录    | 叙事定罪、证据链   | 被讯人身份码、问答记录、关键承认点、指控条款、录音编号   | 录音编号、关键承认点    | 改问答顺序、剪辑录音  | 押送记录、同案口供     |
+| 注疏版本对照表   | 删改痕迹、解释权操作 | 版本号、段落索引、删改标记、引用源、批准签押        | 引用源、批准签押      | 段落编号移位      | 底稿存档、旧版抄本     |
+| 锚站校验工单    | 工程门槛与事故归因  | 节点号、校验窗口、参数基线、异常阈值、负责人签押      | 参数基线、异常阈值     | 窗口延期原因      | 输出曲线、维修日志     |
+| 会签令/维修授权  | 谁能动节点      | 授权范围、期限、责任豁免、进入清单、撤销条件        | 责任豁免、进入清单     | 豁免条款插入      | 门禁记录、工单编号     |
+| 外坞打捞申报单   | 遗迹与界材归属    | 坐标、物项清单、初检结论、归属条款、护航合同号       | 坐标、归属条款       | 坐标偏移、物项替换   | 初检报告、仓储入库     |
+| 航道护航合同    | 后勤钥匙定价     | 航线、频次、价格、违约条款、战损归属、豁免条件       | 战损归属、豁免条件     | 条款歧义、签押链断点  | 实际航迹、付款账      |</p>
+<hr>
+<h2>2.2 凭据账本模板（Evidence Ledger）</h2>
+<blockquote>
+<p>目的：把所有“线索/证据/条款/参数”变成可管理资产，确保剥洋葱可工业化。</p>
+</blockquote>
+<h3>字段模板表</h3>
+<p>| 字段      | 含义                         | 取值/格式建议               |
+| ------- | -------------------------- | --------------------- |
+| 凭据ID    | 唯一编号                       | EV-年-卷-序号             |
+| 凭据类型    | 合同/签押链/参数副本/证人链/账目缺口/坐标/票据 | 枚举                    |
+| 来源事件    | 产生它的事件                     | 卷-事件码                 |
+| 来源载体    | 文书或实物                      | 文书档号/物项编号             |
+| 当前持有人   | 谁握在手里                      | 代号/组织代号（可匿名）          |
+| 可信度     | 真实性与可核验度                   | A（可多源核验）/B（单源）/C（易伪造） |
+| 可兑换钥匙   | 它能换到哪类门槛钥匙                 | L/S/E/N/T 多选          |
+| 可施压对象   | 可用来迫使谁让步                   | 代号或“某体系节点”            |
+| 触发条件    | 什么时候使用最有效                  | 大潮/小潮、审计期、会签期、战时等     |
+| 失效条件    | 什么时候会失效                    | 过期、被封档、证人死亡、参数更新等     |
+| 暴露风险    | 暴露后果                       | 追猎等级1–5、连坐范围、反噬类型     |
+| 关联Front | 对应哪条世界推进线                  | FrA–FrI               |
+| 计划回收    | 预定何时兑现/回收                  | 卷号+回收方式（交易/公开/封存）     |
+| 备注      | 关键细节                       | 如条款歧义点、签押断点、核对源       |</p>
+<h3>账本使用规则（建议写死）</h3>
+<ul>
+<li>每卷新增凭据不超过：核心凭据2条、次级凭据3条，避免线索通胀。</li>
+<li>每卷至少回收1条旧凭据（兑现成钥匙或造成反噬），保证读者有结算感。</li>
+<li>“证人链”必须至少两段（持有人A→中间人→持有人B），否则很难制造背叛与追猎。</li>
+</ul>
+<hr>
+<h1>3）Front矩阵（12卷）+ S级人物胜利条件（世界自走、对手够强）</h1>
+<h2>3.1 Front列表与6阶段时钟定义</h2>
+<blockquote>
+<p>0=未启动或仅有噪声；1–6为推进阶段。每次推进必须产出至少一种“凭据类型”。</p>
+</blockquote>
+<p>| Front代号 | Front名称    | 0–6阶段（每推进一格的典型产出）                                                        |
+| ------- | ---------- | ------------------------------------------------------------------------ |
+| FrA     | 名册缺口与死证市场  | 0噪声 → 1试点死证 → 2供应链标准化 → 3审计武器化 → 4指标证券化 → 5挤兑与清算 → 6配额银行化（账本集中）          |
+| FrB     | 封档与清洗工程    | 0分散封口 → 1双柜雏形 → 2巡察常态化 → 3预写清洗协议 → 4用外部事件正当化扩容 → 5泄露风波与内清 → 6口径锁定制度化     |
+| FrC     | 技术接管与会签扩权  | 0技术守成 → 1可测抖动试验 → 2紧急接管条款 → 3会签扩张常态化 → 4停摆预演/演算 → 5强制参数锁/接口收编 → 6全域工程主权化 |
+| FrD     | 叙事锚与赦免金融   | 0零散赦免 → 1票据化 → 2朝圣融资 → 3圣物产业化 → 4大规模守夜稳定 → 5挤兑崩盘 → 6新版正统固化               |
+| FrE     | 关口集团与供给勒索  | 0零散抬价 → 1试探性断供 → 2合同歧义扩散 → 3私兵/私掠资产化 → 4关口同盟定型 → 5供给战准内战 → 6条款重写或碎片化成国   |
+| FrF     | 断光示证与撤离网络  | 0传言 → 1证据拼链 → 2短断光尝试 → 3撤离名册网络 → 4证据拍卖/谈判筹码化 → 5公开化或被吞没 → 6成为新制度的反向约束    |
+| FrG     | 黑海自由港与外坞私掠 | 0零散走私 → 1通行票据市场 → 2坐标拍卖 → 3私掠战争 → 4占据打捞节点 → 5证据/界材公开竞价 → 6港邦事实国家化        |
+| FrH     | 星堡守界与夺核筹码  | 0静默 → 1信号封锁 → 2条件谈判 → 3联盟构建 → 4前置夺核部署 → 5夺核/大战 → 6战后治理与新边界               |
+| FrI     | 断弧持久战与内战化  | 0暗潮 → 1骚乱与渗透 → 2自治化 → 3公开冲突 → 4长期消耗战 → 5分治/停火条款 → 6并吞或国家化                |</p>
+<hr>
+<h2>3.2 Front矩阵（12卷推进一览）</h2>
+<blockquote>
+<p>单元格格式：阶段数/6 + 本卷产出凭据类型（括号内）
+凭据类型缩写：C合同、D文书、P参数副本、W证人链、L账本缺口、K坐标/物项</p>
+</blockquote>
+<p>| Front\卷 | 1      | 2      | 3      | 4      | 5      | 6      | 7      | 8      | 9      | 10     | 11     | 12     |
+| ------- | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| FrA     | 1(D/L) | 2(D/C) | 3(D/L) | 3      | 3      | 4(C/L) | 4      | 4      | 5(L/D) | 5      | 6(L/D) | 6      |
+| FrB     | 1(D)   | 1      | 2(D/W) | 3(D)   | 4(D)   | 4      | 4      | 4      | 5(D/W) | 5      | 6(D)   | 6      |
+| FrC     | 0      | 0      | 0      | 1(P/D) | 1      | 1      | 2(D/P) | 3(D)   | 3      | 4(P/D) | 4      | 5(P/D) |
+| FrD     | 0      | 0      | 1(D/C) | 2(C/D) | 2      | 3(C/D) | 3      | 3      | 3      | 4(D)   | 5(L/D) | 6(D)   |
+| FrE     | 0      | 1(C)   | 2(C/D) | 2      | 3(C)   | 4(C)   | 4      | 4      | 4      | 4      | 4      | 5(C/D) |
+| FrF     | 0      | 0      | 0      | 0      | 1(W/D) | 1      | 1      | 2(W/D) | 2      | 3(W/D) | 3      | 4(W/C) |
+| FrG     | 0      | 1(C)   | 1      | 2(K/C) | 3(C)   | 3      | 4(K)   | 4      | 5(K/D) | 5      | 5      | 6(C/K) |
+| FrH     | 0      | 0      | 0      | 0      | 0      | 0      | 1(D)   | 2(C/D) | 3(C/W) | 3      | 4(C/P) | 5(C/P) |
+| FrI     | 0      | 0      | 1(D/W) | 1      | 1      | 2(C/D) | 2      | 3(C/D) | 3      | 4(D)   | 4      | 5(C/D) |</p>
+<blockquote>
+<p>使用方法：写每卷时先看表，确定本卷哪些Front推进、产出哪些凭据；再把凭据写入“凭据账本”，明确谁持有、能换什么、暴露风险是什么。</p>
+</blockquote>
+<hr>
+<h2>3.3 S级人物胜利条件（不靠“更强武力”，靠不可替代优势）</h2>
+<blockquote>
+<p>这里给的是“ archetype 级”胜利条件，可直接映射到具体角色。每个条件都可量化，便于写成长期博弈。</p>
+</blockquote>
+<p>| S级对手原型 | 不可替代优势       | 可量化胜利条件（满足即视为阶段胜利）               | 失败条件（出现即进入被迫交易/崩盘）   | 核心钥匙  | 主角可用的破局杠杆                  |
+| ------ | ------------ | -------------------------------- | -------------------- | ----- | -------------------------- |
+| 柜主型    | 控制双柜与清洗流程    | 密柜层级不外泄；口径矛盾控制在可清洗范围；清洗成本不触发反弹阈值 | 密柜链路被多方持有；出现无法灭口的证人链 | N、L   | 抓签押链断点；制造“灭口成本过高”的公众窗口     |
+| 工程主权型  | 控制校验窗口与会签    | 会签范围扩至关键节点过半；事故归因外部化；预算与人事独立     | 关键参数副本被外流；事故坐实为技术责任  | E、L   | 保存参数副本并能核对；卡住样本与工单链        |
+| 关口领主型  | 定价后勤与通行      | 控制护航班次与税权；继承链稳定；断供勒索不被定性为叛序      | 合同信用破产；继承合法性被击穿      | S、L   | 破坏信用与现金流；用证据迫使其签下不可逆限制条款   |
+| 叙事铸币型  | 把痛苦转成可接受叙事   | 新版正统被多数接受；赦免票据流通稳定；重大事故可“神迹化”    | 挤兑崩盘；出现无法解释的公开矛盾     | N、L   | 抓到版本对照与黑账；把矛盾放到不可封锁的窗口     |
+| 审计敲诈型  | 以审计冻结/解冻操控生死 | 审计链不被反审计；冻结潮可定向；升迁链不断            | 审计把柄被多方持有；被迫成为替罪羊    | L、N   | 让其把柄进入密柜竞价；逼其交出冻结名单换命      |
+| 外坞港邦型  | 黑海航道与遗迹市场    | 通行票据垄断；坐标拍卖可持续；免于被全面封锁           | 航道断补给；内部私掠内讧         | S、E、L | 切其补给与信誉；让其“救命维修”变成不可兑现承诺   |
+| 守界执政型  | 旧参数/封锁与联盟    | 关键封锁点生效；联盟成形；能迫使对方在窗口谈判          | 联盟分裂；行动窗口错过          | T、E、S | 用合同与证据制造联盟内部结算冲突；延迟其窗口     |
+| 断弧领袖型  | 民心与持久战结构     | 自治条款被写入；外援不断；长期消耗战成本可承受          | 补给断裂；内部派系互杀          | L、S、N | 夺其后勤钥匙；制造叙事内裂导致合法性坍塌       |
+| 示证导师型  | 证据链与撤离网络     | 证据链不断；关键见证存活；能迫使谈判而非被消灭          | 见证链断；撤离名册被夺          | W、N、T | 抢救证人链并把它变成交易筹码；用窗口制造“清洗反噬” |
+| 军功英雄型  | 战功与士气号召力     | 战报与补给能闭环；战功货币持续；部队不散             | 战报矛盾坐实；补给断裂导致部队裂解    | S、N   | 卡补给与战报底稿；把其英雄叙事变成替罪羊叙事     |</p>
+<hr>
+<h2>你现在拿到的三套“工程件”如何直接用在写作里</h2>
+<ul>
+<li><strong>12地点+航道+日历</strong>：每次写大事件先确定发生在哪个节点、处于什么潮汐窗口、补给从哪里来、多久到、失联概率如何；这样战报漂移、封锁隔离、甩锅与交易都会自然出现。</li>
+<li><strong>文书字段字典+凭据账本</strong>：每次出现“线索”，强制把它落到具体文书字段或参数副本，并登记在账本；每卷必须回收一条旧凭据（兑现或反噬）。</li>
+<li><strong>Front矩阵+S级胜利条件</strong>：写每卷前先看哪些Front推进、哪些S级对手达成阶段胜利；主角团队的成长就写成“逐步能让对手的胜利条件失效”。</li>
+</ul>
+<p>如果你希望我把这三套东西进一步“落到可写章节”，下一步最省力的方式是：你指定从第几卷开始，我按Front矩阵为该卷生成“合成事件拆解表”（每个Front推进一格、产出什么凭据、由谁持有、主角团队从边缘如何插入、无介入与介入后的结算分叉）。这样就能直接进入你要的80章节奏。</p>
+<p>可以。你这套设定完全能写出“每卷都是史诗级灾厄/战役/政变”的量级；我之前给的事件偏“入门层”，更像“点火的小案子”，而不是“烧穿弧段的大火”。你现在要的是：<strong>每卷主事件至少影响一个弧段的生死、至少牵动三大权力系统、至少留下不可逆的世界状态变化</strong>。</p>
+<p>你还让我“搜一下诡秘那样的小说”。我做了检索，下面会把《诡秘之主》被读者反复提及的“大事件组织方式”拆成可移植的写法，再给你一套“星环专用：大事件模板 + 12卷主事件升级版”。</p>
+<hr>
+<h2>1) 事件写“大”，到底“大在哪”</h2>
+<p>“大事件”不是“死的人多/场面大”，而是<strong>改变世界运行方式</strong>。给你一个很实用的判定：一卷主事件要至少命中下面 6 条里的 3 条（越多越大）：</p>
+<ol>
+<li><strong>基础设施级</strong>：灯塔/主光路/锚点站/壁门/航道某个关键节点出现“失效或易主”。</li>
+<li><strong>人口级</strong>：一个弧段或多个城邦出现“迁徙潮/饥荒/永夜/瘟潮/封锁隔离”。</li>
+<li><strong>权力级</strong>：教廷、审判庭、研究院、军团、贵族之中至少两家“公开撕裂或换位”。</li>
+<li><strong>叙事级</strong>：官方口径被迫改写（不是发公告，是“改到连基层都执行不一致”），形成永久裂痕。</li>
+<li><strong>规则级</strong>：虚潮/灵能/现实边界出现新规则（或旧规则被证明是谎言），且会反过来影响后续所有战斗。</li>
+<li><strong>债务级</strong>：主角阵营拿到一个能继承的硬资产（权、钥、锚、舰、盟约），同时背上一个不可摆脱的硬债（锁谱追猎、契约反噬、磨损加速、必然背叛）。</li>
+</ol>
+<p>你要的“无敌流”在大事件里更好写：因为无敌不靠单挑，而靠<strong>在世界级系统崩坏时能改写结算方式</strong>。</p>
+<hr>
+<h2>2) 《诡秘之主》那种“看起来很大”的事件写法：它的大，不在场面，而在结构</h2>
+<p>我检索到的公开信息里，《诡秘之主》被反复举例的两类大事件非常典型：</p>
+<h3>2.1 “从小案子滚成城级灾难”的卷末爆发</h3>
+<p>读者总结第一卷时，经常提到：前面看似零散的小事件，最后汇合成“邪神降临/灾难级事件”，并以关键角色牺牲与主角死亡/复活作为卷末爆点。(<a href="https://www.zhihu.com/question/379865658?utm_source=chatgpt.com" title="为什么不建议扒《诡秘之主》的大纲？">Zhihu</a>)
+这种结构的核心不是“最后打很大”，而是：
+<strong>卷内每个小事件都在悄悄给卷末大事件提供一块必要拼图（信息、道具、位置、情绪、时间窗）。</strong></p>
+<h3>2.2 “公共解释=工业污染/意外，真实内核=多方合作的献祭仪式”</h3>
+<p>比如“贝克兰德大雾霾”在设定里是城级悲剧，公众只知道是污染，真相被遮蔽；而资料里明确提到它与多方势力合作的大规模仪式有关。(<a href="https://lordofthemysteries.fandom.com/wiki/Great_Smog_of_Backlund?utm_source=chatgpt.com" title="Great Smog of Backlund | Lord of the Mysteries Wiki - Fandom">Lord of the Mysteries</a>)
+这类事件之所以“显得很大”，是因为它同时满足：</p>
+<ul>
+<li><strong>公共层</strong>：所有人都能看到（烟、死、封城、恐慌）。</li>
+<li><strong>阴谋层</strong>：多个势力各取所需（王室/教派/高层角色）。(<a href="https://lordofthemysteries.fandom.com/zh/wiki/%E5%9B%A0%E6%96%AF%C2%B7%E8%B5%9E%E6%A0%BC%E5%A8%81%E5%B0%94?utm_source=chatgpt.com" title="因斯·赞格威尔| 诡秘之主Wiki | Fandom">Lord of the Mysteries</a>)</li>
+<li><strong>超凡层</strong>：它不是一次袭击，而是一次“改变城市状态/生态/秩序”的工程化操作。(<a href="https://lord-of-mysteries.fandom.com/wiki/Great_Smog_of_Backlund?utm_source=chatgpt.com" title="Great Smog of Backlund | Lord of Mysteries Wiki">Lord of Mysteries</a>)</li>
+</ul>
+<p>你要的是这种结构感——而不是照搬设定。</p>
+<hr>
+<h2>3) 把“诡秘式大事件结构”翻译成你星环的写法（更战锤、更宏大）</h2>
+<p>你这世界有一个天然的“巨事件发生器”：<strong>虚潮 + 灯网/锚点网络 + 壁门航道</strong>。
+想写“大”，就把大事件锚在这三件事的某个“阈值崩溃”上。</p>
+<p>我建议你把每卷主事件写成一种“世界级工程事故/神权战争”的组合体：</p>
+<ul>
+<li>表层是 <strong>灾害/战争</strong>（人人看得见）。</li>
+<li>里层是 <strong>阈值操控</strong>（谁在把虚潮当工具）。</li>
+<li>底层是 <strong>系统饥饿</strong>（神座/界核衰竭的代价转嫁）。</li>
+</ul>
+<p>并且每卷都要有一个“公共解释版本”和一个“真实结算版本”，后者在后几卷被推翻/重解释。</p>
+<hr>
+<h2>4) 吸引人的“大事件”怎么写：一个可重复使用的模板</h2>
+<p>下面这套模板你可以当“每卷事件策划表”。你只要填空，就能稳定产出大事件而不散。</p>
+<h3>4.1 事件的“双故事”</h3>
+<ul>
+<li><strong>公共故事（给大众/战报/圣典）</strong>：一句话能讲清楚，且听起来合理。</li>
+<li><strong>真实故事（给读者/主角拼图）</strong>：至少包含 3 个势力的不同目标，结算方式互相冲突。</li>
+</ul>
+<blockquote>
+<p>你要“剥洋葱”，关键是：公共故事永远只解释 60%，剩下 40% 留到后卷重解释。</p>
+</blockquote>
+<h3>4.2 三个“时钟”（保证节奏大且紧）</h3>
+<ul>
+<li><strong>灾变时钟</strong>：虚潮窗口、锚点疲劳、现实变薄进度条（到点就炸）。</li>
+<li><strong>政治时钟</strong>：谁先夺到解释权/指挥权/净火权（到点就清洗）。</li>
+<li><strong>补给时钟</strong>：粮、药、燃料、舰队窗口（到点就断供/哗变）。</li>
+</ul>
+<p>三钟并行，大事件自然“像史诗”，因为它不是单线打架，是多系统同时到期。</p>
+<h3>4.3 一个“咽喉点”（防止写散）</h3>
+<p>每卷必须只有一个绝对咽喉点：</p>
+<ul>
+<li>可能是一个壁门、一个锚点站、一个主光路接头、一个外坞坠落点、一个封圣巡礼节点。
+所有势力的行动最终都要汇到这个点“结算”。这样事件再大也不散。</li>
+</ul>
+<h3>4.4 一个“不可逆后果”（卷末必须改世界状态）</h3>
+<p>卷末不能只是“打赢了/跑掉了”，必须改写世界状态之一：</p>
+<ul>
+<li>某弧段进入长期永夜/极昼</li>
+<li>某条主光路永久降功率</li>
+<li>某壁门易主或被炸毁（航道格局改写）</li>
+<li>某个“封忆/锁谱”措施成为常态</li>
+<li>某个异形族群迁徙改道（生态与贸易线改写）</li>
+</ul>
+<hr>
+<h2>5) 给你：12卷“主事件升级版”（每卷至少弧段级/跨弧段级）</h2>
+<p>我下面给的是“事件量级升级”，不是细纲。你可以把它们当每卷的“史载大事”，再往里塞你喜欢的支线与剥洋葱拼图。</p>
+<blockquote>
+<p>我刻意避开你不喜欢的“名册/归档/证明”显性驱动，事件抓手用：<strong>锚点失效、光路争夺、封忆仪式、壁门易主、外坞坠落、封圣巡礼、潮峰季风</strong>。</p>
+</blockquote>
+<p>| 卷  | 主事件（史载名）               | 规模     | 公众版本（一句话）            | 真实结算（作者版本）                              | 卷末不可逆后果                  |
+| -- | ---------------------- | ------ | -------------------- | --------------------------------------- | ------------------------ |
+| 1  | <strong>《永夜试运行》</strong>（又称“点灯失败周”） | 城→弧段局部 | 灯塔检修事故导致城区断光与净火戒严    | 有人用“净火削峰”把弧段推过阈值，制造一次可控虚灾以填补神座缺口        | 一座核心城邦进入<strong>长期夜禁</strong>，净火常态化   |
+| 2  | <strong>《端墙会战》</strong>             | 跨弧段远征  | 远征军团夺回壁门、清扫航道        | 壁门争夺本质是<strong>主光路接头</strong>争夺；研究院/贵族/军团互相绑架补给      | 一条航道窗口被永久污染（航行风险上升）      |
+| 3  | <strong>《封忆令》</strong>（又称“白灯审讯月”）   | 弧段级    | 为防口径污染引发虚灾，实施集体忏悔与封忆 | 封忆是权力洗牌：审判庭夺走教廷“解释权”，并用阈值恐惧清洗知道太多的人     | 弧段出现<strong>记忆空洞区</strong>（后续会成为怪物温床） |
+| 4  | <strong>《百万巡礼与封圣远征》</strong>        | 跨城群体事件 | 圣徒巡礼安抚民心、神迹显现        | 巡礼本质是“情绪工程”：用群体共振给锚点补边界；圣人是可消耗的稳定器      | 形成<strong>圣迹常态</strong>：以后每次危机都要“造圣”  |
+| 5  | <strong>《断光试验战争》</strong>           | 弧段割裂   | 边境为止灾而临时切断支路供光       | 断光是一次“替代方案 vs 人命燃料”的公开对决；异端、公司国、帝国派系都下注 | 一个离网弧段成功“自稳”，成为帝国眼中钉     |
+| 6  | <strong>《壁海断供战》</strong>            | 多弧段经济战 | 航道风暴导致补给危机、港口议会接管仓链  | 商邦用断供逼帝国让权；贵族趁机独立；军团前线溃败从后勤开始           | 形成<strong>事实上的双轨税权</strong>，帝国财政裂开    |
+| 7  | <strong>《黑海坠落》</strong>（外坞碎片雨）      | 世界级奇观  | 外坞残骸自然坠落引发灾害         | 坠落是“系统免疫/自修正”排异反应：有人动了不该动的影钥，触发外坞抛载     | 多个弧段出现<strong>界材污染带</strong>与禁航区      |
+| 8  | <strong>《星球堡垒回响会战》</strong>         | 跨文明战争  | 神孽复苏，堡垒势力入侵          | 泰坦裔与异形联动夺回界核残腔；帝国第一次在“真相”层面被打穿          | 帝国不得不承认“神孽并非纯邪”，叙事裂缝扩大   |
+| 9  | <strong>《灵枢围猎》</strong>             | 全环追猎   | 异常源引发连锁虚灾，必须回收       | 研究院/审判庭用“锁谱”布网：你每死一次都更接近预设宿主链           | 主角阵营被迫公开化，世界进入“猎巫季”      |
+| 10 | <strong>《神座坠光事故》</strong>           | 系统级崩溃  | 恒星漂移造成光网大面积失稳        | 神座进入不可逆衰竭区；帝国第一次面临“要么改制要么解体”            | 多弧段进入<strong>长期配光配给制</strong>（半末日化）   |
+| 11 | <strong>《圣胎回收与界核替换仪式》</strong>      | 世界级仪式  | 为稳定神座，启动圣物回收与祝祷大典    | 以“造圣”名义进行界核替换；主角与妹妹/回声线在此卷回收爆炸          | 主角磨损临界，“成器倒计时”公开化        |
+| 12 | <strong>《重启或崩裂》</strong>            | 终局     | 帝国宣布最终救赎方案           | 三路线对决：成器、拒绝导致割裂、重启原始回路                  | 世界状态彻底改写（你选哪条就给哪种新世界）    |</p>
+<p>这些事件每个都能自然拆成几十章甚至上百章：因为它们都有三钟并行、有咽喉点、有不可逆后果。</p>
+<hr>
+<h2>6) “写大”最吸引人的具体手法（可直接用在章节层面）</h2>
+<h3>6.1 让“大事件”从三种叙事视距同时出现</h3>
+<p>你已经定了三层叙事质感，这正好对应“大事件”写法：</p>
+<ul>
+<li><strong>一线视距：小人物在现场求生</strong>（读者代入）</li>
+<li><strong>二线视距：军团/教廷/审判庭的命令与口径</strong>（战锤味）</li>
+<li><strong>三线视距：锚点黑箱/圣典删改/异端口供的拼图</strong>（诡秘式解谜）</li>
+</ul>
+<p>读者会觉得事件“大”，不是因为你写了多少宏观叙述，而是因为：
+<strong>同一事件在三个层级同时“轰鸣”，并互相打脸。</strong></p>
+<h3>6.2 让每个大事件都有“一个公共恐惧意象”</h3>
+<p>《诡秘》里“大雾霾”就是公共意象：所有人都看得见雾、都恐慌，但真相被遮住。(<a href="https://lordofthemysteries.fandom.com/wiki/Great_Smog_of_Backlund?utm_source=chatgpt.com" title="Great Smog of Backlund | Lord of the Mysteries Wiki - Fandom">Lord of the Mysteries</a>)
+你这里最强的公共意象就是：</p>
+<ul>
+<li><strong>永夜（灯灭）</strong></li>
+<li><strong>星星回归（天幕裂）</strong></li>
+<li><strong>外坞碎片雨（黑海坠落）</strong></li>
+<li><strong>封忆后的空洞街区（人还在但记不起）</strong></li>
+<li><strong>潮峰“回声怪物成潮”</strong></li>
+</ul>
+<p>意象要满足两点：</p>
+<ol>
+<li>能拍成灾难片（读者脑内有画面）</li>
+<li>能当政治武器（体制能利用它）</li>
+</ol>
+<h3>6.3 让卷末爆发不是“打赢”，而是“结算”</h3>
+<p>《诡秘》“大事件感”很大一部分来自：卷末往往是“结算一切巧合、揭开幕后操盘者、并以死亡/牺牲完成情绪爆点”。(<a href="https://www.zhihu.com/question/379865658?utm_source=chatgpt.com" title="为什么不建议扒《诡秘之主》的大纲？">Zhihu</a>)
+你这本书最适合的卷末爆点不是胜利，而是结算账本：</p>
+<ul>
+<li>你救了城 → 哪条光路代价被谁承担</li>
+<li>你赢了战 → 哪个弧段进入长期永夜</li>
+<li>你揭了真相 → 哪些人必须被封忆</li>
+<li>你撬动规则 → 下一次虚潮会怎样反扑（怪物、禁航、清洗）</li>
+</ul>
+<p>卷末如果只是“打死boss”，读者不会觉得大；
+卷末如果是“世界状态被改写”，读者会觉得大。</p>
+<h3>6.4 自然灾害做“大事件”的优势（你有虚潮）</h3>
+<p>你这个“虚潮”如果用得好，它可以像《风暴之光》的 highstorm 那样成为“横扫大陆、塑造文化与战争窗口”的超级事件框架——风暴不是反派，是生态与政治的共同约束。(<a href="https://coppermind.net/wiki/Highstorm?utm_source=chatgpt.com" title="Highstorm - The Coppermind - 17th Shard">coppermind.net</a>)
+把虚潮写成“季风军事学”：</p>
+<ul>
+<li>军团什么时候能远征</li>
+<li>港口什么时候能封锁</li>
+<li>异形什么时候迁徙</li>
+<li>教廷什么时候造圣</li>
+<li>研究院什么时候敢动影钥</li>
+</ul>
+<p>这样每卷都天然有“天时窗口”，事件会自动放大。</p>
+<h3>6.5 “背叛在仪式/庆典/停战宴会上发生”会显得更大</h3>
+<p>《冰火》里“红色婚礼”之所以像史书级事件，是因为它把战争的结算塞进了一个“应该安全”的仪式场域里，变成诸多人物与积累矛盾的集中爆发。(<a href="https://greenronin.com/sifrp/2013/07/10/season_3_episode_9/?utm_source=chatgpt.com" title="Season 3, Episode 9: &#x22;The Red Wedding&#x22;">Green Ronin Publishing</a>)
+你可以把它移植成：</p>
+<ul>
+<li><strong>封圣大典上的政变与献祭</strong></li>
+<li><strong>百万巡礼的中段壁门屠杀</strong></li>
+<li><strong>停战签约时锚点被偷换</strong></li>
+<li><strong>舰队补给交接仪式上断供反转</strong></li>
+</ul>
+<p>这类事件天然“史诗感”强，因为它不是战场上赢输，而是秩序本身被撕开。</p>
+<hr>
+<h2>7) 你下一步最该做的不是“把事件写更大”，而是“给每卷一个更硬的咽喉点”</h2>
+<p>你前面觉得“小”，核心原因通常只有一个：<strong>事件没有一个不可替代的结算点</strong>，读者会觉得“这事不发生也行”。</p>
+<p>所以你只要改一个东西，体量立刻变大：</p>
+<ul>
+<li>
+<p>每卷都明确一个咽喉点：<strong>一个壁门 / 一个锚点站 / 一个主光路接头 / 一个外坞坠落坐标 / 一个封圣仪式节点</strong></p>
+</li>
+<li>
+<p>所有人的目标都必须和它绑定：</p>
+<ul>
+<li>军团：要它当补给与战略门</li>
+<li>教廷：要它当圣迹与解释权</li>
+<li>审判庭：要它当净火与封忆权</li>
+<li>研究院：要它当维护与影钥</li>
+<li>异端/异形：要它当替代方案/迁徙通道</li>
+<li>主角：要它当破局杠杆与净收益</li>
+</ul>
+</li>
+</ul>
+<p>只要咽喉点够硬，你写的就是“世界大战”，不是“局部内政”。</p>
+<hr>
+<p>如果你愿意，我可以把你最需要“立刻变大”的前 3 卷，按这套框架重写成：</p>
+<ul>
+<li>卷1：<strong>弧段永夜试运行</strong>（城级→弧段级灾厄）</li>
+<li>卷2：<strong>端墙会战+主光路接头争夺</strong>（跨弧段远征）</li>
+<li>卷3：<strong>封忆令+锁谱围猎的开端</strong>（政治清洗升级为现实规则操控）</li>
+</ul>
+<p>每卷我会给：</p>
+<ul>
+<li>公共故事 vs 真实结算</li>
+<li>三钟推进的“关键节点表”（不是细纲，是事件发动机）</li>
+<li>咽喉点地图（用文字描述）</li>
+<li>卷末不可逆后果与下一卷钩子</li>
+</ul>
+<p>这样你会明显感觉：同样的设定，事件规模直接抬到“史书级”。</p>2b:["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$2c"}}]
+24:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+20:null
+22:{"metadata":[["$","title","0",{"children":"表格 | 云微的胡思乱想"}],["$","meta","1",{"name":"description","content":"Documentation: 表格"}],["$","meta","2",{"name":"robots","content":"index, follow"}],["$","meta","3",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","4",{"rel":"canonical","href":"https://www.yunwei37.com/docs/%E5%B0%8F%E8%AF%B4/%E6%95%85%E4%BA%8B1/backup/%E5%A4%A7%E7%BA%B22/%E8%A1%A8%E6%A0%BC"}],["$","link","5",{"rel":"alternate","type":"application/rss+xml","href":"https://www.yunwei37.com/feed.xml"}],["$","meta","6",{"property":"og:title","content":"表格"}],["$","meta","7",{"property":"og:description","content":"Documentation: 表格"}],["$","meta","8",{"property":"og:url","content":"https://www.yunwei37.com/docs/%E5%B0%8F%E8%AF%B4/%E6%95%85%E4%BA%8B1/backup/%E5%A4%A7%E7%BA%B22/%E8%A1%A8%E6%A0%BC"}],["$","meta","9",{"property":"og:site_name","content":"云微的胡思乱想"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:type","content":"article"}],["$","meta","12",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","13",{"name":"twitter:title","content":"表格"}],["$","meta","14",{"name":"twitter:description","content":"Documentation: 表格"}]],"error":null,"digest":"$undefined"}
+27:"$22:metadata"

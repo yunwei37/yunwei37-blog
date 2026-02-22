@@ -1,0 +1,440 @@
+1:"$Sreact.fragment"
+2:I[1478,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"ThemeProviders"]
+3:I[4091,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"default"]
+4:I[9243,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],""]
+5:I[7392,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"KBarSearchProvider"]
+6:I[6874,["874","static/chunks/874-8edb22cc7428423c.js","63","static/chunks/63-d245e42a784ca56d.js","974","static/chunks/app/page-55e305169e4b271e.js"],""]
+f:I[8393,[],""]
+:HL["/_next/static/media/36966cca54120369-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/4ac7c0f872b74ee7.css","style"]
+:HL["/_next/static/css/a06d7e24bf9a7d93.css","style"]
+0:{"P":null,"b":"MYXrWUjg0HELsl6zLYF_6","p":"","c":["","docs","random","apisix-profile-OSPP-%E9%83%91%E6%98%B1%E7%AC%99"],"i":false,"f":[[["",{"children":["docs",{"children":[["slug","random/apisix-profile-OSPP-%E9%83%91%E6%98%B1%E7%AC%99","c"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4ac7c0f872b74ee7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/a06d7e24bf9a7d93.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en-us","className":"__variable_dd5b2f scroll-smooth","suppressHydrationWarning":true,"children":[["$","link",null,{"rel":"apple-touch-icon","sizes":"76x76","href":"/static/favicons/apple-touch-icon.png"}],["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/static/favicons/favicon.svg"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"32x32","href":"/static/favicons/favicon-32x32.png"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"16x16","href":"/static/favicons/favicon-16x16.png"}],["$","link",null,{"rel":"manifest","href":"/static/favicons/site.webmanifest"}],["$","link",null,{"rel":"mask-icon","href":"/static/favicons/safari-pinned-tab.svg","color":"#5bbad5"}],["$","meta",null,{"name":"msapplication-TileColor","content":"#000000"}],["$","meta",null,{"name":"theme-color","media":"(prefers-color-scheme: light)","content":"#fff"}],["$","meta",null,{"name":"theme-color","media":"(prefers-color-scheme: dark)","content":"#000"}],["$","link",null,{"rel":"alternate","type":"application/rss+xml","href":"/feed.xml"}],["$","body",null,{"className":"pl-[calc(100vw-100%)] text-black antialiased dark:text-white min-h-screen","children":["$","$L2",null,{"children":[["$","$L3",null,{}],["$undefined","$undefined","$undefined",["$","$L4",null,{"async":true,"defer":true,"src":"https://analytics.umami.is/script.js"}],"$undefined","$undefined"],["$","div",null,{"className":"min-h-screen flex flex-col justify-center py-8","children":["$","div",null,{"className":"content-glass mx-auto w-full max-w-5xl px-4 sm:px-6 xl:px-8 py-8","children":["$","$L5",null,{"kbarConfig":{"searchDocumentsPath":"/search.json"},"children":[["$","header",null,{"className":"flex items-center w-full justify-between py-6 border-b border-gray-200/30 dark:border-gray-700/30","children":[["$","$L6",null,{"className":"break-words","href":"/","aria-label":"yunwei37","children":["$","div",null,{"className":"flex items-center","children":[["$","div",null,{"className":"mr-3","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":40,"height":40,"fill":"none","children":[["$","defs",null,{"children":[["$","linearGradient",null,{"id":"logo_svg__a","x1":"0%","x2":"100%","y1":"0%","y2":"100%","children":[["$","stop",null,{"offset":"0%","style":{"stopColor":"#3b82f6","stopOpacity":1}}],["$","stop",null,{"offset":"100%","style":{"stopColor":"#06b6d4","stopOpacity":1}}]]}],["$","linearGradient",null,{"id":"logo_svg__b","x1":"0%","x2":"100%","y1":"0%","y2":"100%","children":[["$","stop",null,{"offset":"0%","style":{"stopColor":"#8b5cf6","stopOpacity":1}}],["$","stop",null,{"offset":"100%","style":{"stopColor":"#3b82f6","stopOpacity":1}}]]}]]}],["$","circle",null,{"cx":20,"cy":20,"r":18,"fill":"url(#logo_svg__a)","opacity":0.1}],["$","path",null,{"fill":"url(#logo_svg__a)","d":"m12 8 6 10v10h4V18l6-10h-4l-4 6-4-6Z"}],["$","path",null,{"fill":"url(#logo_svg__b)","d":"m8 24 4 8 4-8 4 8 4-8h8v4h-6l-4 8-4-8-4 8-4-8H8Z","opacity":0.8}],["$","circle",null,{"cx":32,"cy":12,"r":2,"fill":"url(#logo_svg__b)"}],["$","circle",null,{"cx":8,"cy":12,"r":1.5,"fill":"url(#logo_svg__a)","opacity":0.6}]]}]}],["$","div",null,{"className":"hidden text-2xl font-bold sm:block hover:text-primary-600 dark:hover:text-primary-400 transition-colors","children":"yunwei37"}]]}]}],["$","div",null,{"className":"flex items-center space-x-4","children":[["$","div",null,{"className":"no-scrollbar hidden items-center space-x-2 sm:flex","children":[["$","$L6","Blog",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/blog","children":"Blog"}],["$","$L6","Docs",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/docs","children":"Docs"}],["$","$L6","Tags",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/tags","children":"Tags"}],"$L7"]}],"$L8"]}]]}],"$L9","$La"]}]}]}]]}]}]]}]]}],{"children":["docs","$Lb",{"children":[["slug","random/apisix-profile-OSPP-%E9%83%91%E6%98%B1%E7%AC%99","c"],"$Lc",{"children":["__PAGE__","$Ld",{},null,false]},null,false]},null,false]},null,false],"$Le",false]],"m":"$undefined","G":["$f",[]],"s":false,"S":true}
+10:I[4159,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"KBarButton"]
+11:I[1762,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"default"]
+12:I[7298,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"default"]
+13:I[7555,[],""]
+14:I[1295,[],""]
+1f:I[9665,[],"OutletBoundary"]
+21:I[4911,[],"AsyncMetadataOutlet"]
+23:I[9665,[],"ViewportBoundary"]
+25:I[9665,[],"MetadataBoundary"]
+26:"$Sreact.suspense"
+7:["$","$L6","About",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/about","children":"About"}]
+8:["$","div",null,{"className":"flex items-center space-x-2","children":[["$","$L10",null,{"aria-label":"Search","className":"p-2 rounded-lg transition-all duration-200","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","strokeWidth":1.5,"stroke":"currentColor","className":"h-6 w-6 hover:text-primary-600 dark:hover:text-primary-400 transition-colors","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","d":"M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"}]}]}],["$","$L11",null,{}],["$","$L12",null,{}]]}]
+9:["$","main",null,{"className":"py-6","children":["$","$L13",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L14",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"flex flex-col items-start justify-start md:mt-24 md:flex-row md:items-center md:justify-center md:space-x-6","children":[["$","div",null,{"className":"space-x-2 pt-6 pb-8 md:space-y-5","children":["$","h1",null,{"className":"text-6xl leading-9 font-extrabold tracking-tight md:border-r-2 md:px-6 md:text-8xl md:leading-14","children":"404"}]}],["$","div",null,{"className":"max-w-md","children":[["$","p",null,{"className":"mb-4 text-xl leading-normal font-bold md:text-2xl","children":"Sorry we couldn't find this page."}],["$","p",null,{"className":"mb-8","children":"But dont worry, you can find plenty of other things on our homepage."}],["$","$L6",null,{"className":"focus:shadow-outline-blue inline rounded-lg border border-transparent bg-blue-600 px-4 py-2 text-sm leading-5 font-medium text-white shadow-xs transition-colors duration-150 hover:bg-blue-700 focus:outline-hidden dark:hover:bg-blue-500","href":"/","children":"Back to homepage"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]
+a:["$","footer",null,{"className":"border-t border-gray-200/30 dark:border-gray-700/30 pt-8","children":["$","div",null,{"className":"flex flex-col items-center space-y-6","children":[["$","div",null,{"className":"flex flex-wrap justify-center gap-4","children":[["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"mailto:yunwei356@gmail.com","children":[["$","span",null,{"className":"sr-only","children":"mail"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Mail"}],["$","path",null,{"d":"M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"}],["$","path",null,{"d":"M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"}]]}]]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://github.com/yunwei37","children":[["$","span",null,{"className":"sr-only","children":"github"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"GitHub"}],["$","path",null,{"d":"M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"}]]}]]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://facebook.com","children":[["$","span",null,{"className":"sr-only","children":"facebook"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Facebook"}],["$","path",null,{"d":"M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"}]]}]]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://youtube.com","children":[["$","span",null,{"className":"sr-only","children":"youtube"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Youtube"}],["$","path",null,{"d":"M23.499 6.203a3.008 3.008 0 00-2.089-2.089c-1.87-.501-9.4-.501-9.4-.501s-7.509-.01-9.399.501a3.008 3.008 0 00-2.088 2.09A31.258 31.26 0 000 12.01a31.258 31.26 0 00.523 5.785 3.008 3.008 0 002.088 2.089c1.869.502 9.4.502 9.4.502s7.508 0 9.399-.502a3.008 3.008 0 002.089-2.09 31.258 31.26 0 00.5-5.784 31.258 31.26 0 00-.5-5.808zm-13.891 9.4V8.407l6.266 3.604z"}]]}]]}],"$L15","$L16","$L17","$L18","$L19","$L1a","$L1b"]}],"$L1c","$L1d"]}]}]
+b:["$","$1","c",{"children":[null,["$","$L13",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L14",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+c:["$","$1","c",{"children":[null,["$","$L13",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L14",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+d:["$","$1","c",{"children":["$L1e",null,["$","$L1f",null,{"children":["$L20",["$","$L21",null,{"promise":"$@22"}]]}]]}]
+e:["$","$1","h",{"children":[null,[["$","$L23",null,{"children":"$L24"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L25",null,{"children":["$","div",null,{"hidden":true,"children":["$","$26",null,{"fallback":null,"children":"$L27"}]}]}]]}]
+15:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://www.linkedin.com/in/yusheng-zheng-611920280","children":[["$","span",null,{"className":"sr-only","children":"linkedin"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Linkedin"}],["$","path",null,{"d":"M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"}]]}]]}]
+16:null
+17:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://bsky.app/","children":[["$","span",null,{"className":"sr-only","children":"bluesky"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Bluesky"}],["$","path",null,{"d":"M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565C.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479c.815 2.736 3.713 3.66 6.383 3.364q.204-.03.415-.056q-.207.033-.415.056c-3.912.58-7.387 2.005-2.83 7.078c5.013 5.19 6.87-1.113 7.823-4.308c.953 3.195 2.05 9.271 7.733 4.308c4.267-4.308 1.172-6.498-2.74-7.078a9 9 0 0 1-.415-.056q.21.026.415.056c2.67.297 5.568-.628 6.383-3.364c.246-.828.624-5.79.624-6.478c0-.69-.139-1.861-.902-2.206c-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8"}]]}]]}]
+18:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://x.com/yunwei37","children":[["$","span",null,{"className":"sr-only","children":"x"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"X"}],["$","path",null,{"d":"M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"}]]}]]}]
+28:T69f,M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z19:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://www.instagram.com","children":[["$","span",null,{"className":"sr-only","children":"instagram"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Instagram"}],["$","path",null,{"d":"$28"}]]}]]}]
+29:T498,M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.964-.065-1.19.408-2.285 1.33-3.082.88-.76 2.119-1.207 3.583-1.291a13.853 13.853 0 0 1 3.02.142c-.126-.742-.375-1.332-.75-1.757-.513-.586-1.308-.883-2.359-.89h-.029c-.844 0-1.992.232-2.721 1.32L7.734 7.847c.98-1.454 2.568-2.256 4.478-2.256h.044c3.194.02 5.097 1.975 5.287 5.388.108.046.216.094.321.142 1.49.7 2.58 1.761 3.154 3.07.797 1.82.871 4.79-1.548 7.158-1.85 1.81-4.094 2.628-7.277 2.65Zm1.003-11.69c-.242 0-.487.007-.739.021-1.836.103-2.98.946-2.916 2.143.067 1.256 1.452 1.839 2.784 1.767 1.224-.065 2.818-.543 3.086-3.71a10.5 10.5 0 0 0-2.215-.221z1a:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://www.threads.net","children":[["$","span",null,{"className":"sr-only","children":"threads"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Threads"}],["$","path",null,{"d":"$29"}]]}]]}]
+1b:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://medium.com","children":[["$","span",null,{"className":"sr-only","children":"medium"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Medium"}],["$","path",null,{"d":"M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"}]]}]]}]
+1c:["$","div",null,{"className":"flex space-x-2 text-sm opacity-80","children":[["$","div",null,{"children":"Yusheng Zheng"}],["$","div",null,{"children":" • "}],["$","div",null,{"children":"© 2026"}],["$","div",null,{"children":" • "}],["$","$L6",null,{"className":"hover:text-primary-500 transition-colors","href":"/","children":"云微的胡思乱想"}]]}]
+1d:["$","div",null,{"className":"text-sm opacity-60","children":["$","a",null,{"className":"hover:text-primary-500 transition-colors","target":"_blank","rel":"noopener noreferrer","href":"https://github.com/timlrx/tailwind-nextjs-starter-blog","children":"Tailwind Nextjs Theme"}]}]
+2a:I[3429,["874","static/chunks/874-8edb22cc7428423c.js","582","static/chunks/app/docs/%5B...slug%5D/page-0c54796a1c75eb33.js"],"default"]
+1e:["$","$L2a",null,{"content":{"slug":"random/apisix-profile-OSPP-郑昱笙","title":"Apisix Profile OSPP 郑昱笙","path":"docs/random/apisix-profile-OSPP-郑昱笙"},"allDocs":[{"slug":"prompt/story","title":"Story","path":"docs/prompt/story"},{"slug":"random/apisix-profile-OSPP-郑昱笙","title":"Apisix Profile OSPP 郑昱笙","path":"docs/random/apisix-profile-OSPP-郑昱笙"},{"slug":"random/intro","title":"Intro","path":"docs/random/intro"},{"slug":"random/introen","title":"Introen","path":"docs/random/introen"},{"slug":"random/network_paper","title":"Network_paper","path":"docs/random/network_paper"},{"slug":"random/talk_docvqa.","title":"Talk_docvqa.","path":"docs/random/talk_docvqa."},{"slug":"代码/AI辅助代码生成是否将成为未来编程的主流","title":"AI辅助代码生成是否将成为未来编程的主流","path":"docs/代码/AI辅助代码生成是否将成为未来编程的主流"},{"slug":"小说/playground/story1","title":"Story1","path":"docs/小说/playground/story1"},{"slug":"小说/性与性别流动/故事/ai_symbiosis_system","title":"Ai_symbiosis_system","path":"docs/小说/性与性别流动/故事/ai_symbiosis_system"},{"slug":"小说/性与性别流动/故事/future","title":"性的未来：数字时代的科技、伦理与人类连接","path":"docs/小说/性与性别流动/故事/future"},{"slug":"小说/性与性别流动/故事/guideline","title":"Guideline","path":"docs/小说/性与性别流动/故事/guideline"},{"slug":"小说/性与性别流动/故事/ideas","title":"Ideas","path":"docs/小说/性与性别流动/故事/ideas"},{"slug":"小说/性与性别流动/故事/master_index","title":"Master_index","path":"docs/小说/性与性别流动/故事/master_index"},{"slug":"小说/性与性别流动/故事/outlines","title":"Outlines","path":"docs/小说/性与性别流动/故事/outlines"},{"slug":"小说/性与性别流动/故事/social_systems_design","title":"Social_systems_design","path":"docs/小说/性与性别流动/故事/social_systems_design"},{"slug":"小说/性与性别流动/故事/specific_technologies","title":"Specific_technologies","path":"docs/小说/性与性别流动/故事/specific_technologies"},{"slug":"小说/性与性别流动/故事/technology_timeline","title":"Technology_timeline","path":"docs/小说/性与性别流动/故事/technology_timeline"},{"slug":"小说/性与性别流动/故事/world_background","title":"World_background","path":"docs/小说/性与性别流动/故事/world_background"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/chapter_titles_candidates","title":"Chapter_titles_candidates","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/chapter_titles_candidates"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/guideline","title":"Guideline","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/guideline"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/more_intro","title":"More_intro","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/more_intro"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/story_outline_summary","title":"Story_outline_summary","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/story_outline_summary"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/主角心态变化分析","title":"主角心态变化分析","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/主角心态变化分析"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕_流影的记忆碎片_大纲","title":"第四幕_流影的记忆碎片_大纲","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕_流影的记忆碎片_大纲"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/1","title":"1","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/1"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/2","title":"2","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/2"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/3","title":"3","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/3"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/4","title":"4","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/4"},{"slug":"小说/性与性别流动/故事/集合/1/characters","title":"Characters","path":"docs/小说/性与性别流动/故事/集合/1/characters"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/8","title":"8","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/8"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/第五幕_再遇许璃与派系暗流","title":"第五幕_再遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/第五幕_再遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/第五幕_再遇许璃与派系暗流 copy","title":"第五幕_再遇许璃与派系暗流 copy","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/第五幕_再遇许璃与派系暗流 copy"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/design","title":"Design","path":"docs/小说/性与性别流动/故事/集合/1/design"},{"slug":"小说/性与性别流动/故事/集合/1/intro","title":"Intro","path":"docs/小说/性与性别流动/故事/集合/1/intro"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第一幕_修改建议","title":"第一幕_修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第一幕_修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第三幕_修改建议","title":"第三幕_修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第三幕_修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第二幕_修改建议","title":"第二幕_修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第二幕_修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第五幕_初遇许璃与派系暗流_扩展与修改建议","title":"第五幕_初遇许璃与派系暗流_扩展与修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第五幕_初遇许璃与派系暗流_扩展与修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第四幕_修改建议","title":"第四幕_修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第四幕_修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/general/1-3","title":"1 3","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/general/1-3"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第五幕_再遇许璃与派系暗流","title":"第五幕_再遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第五幕_再遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/more_intro","title":"More_intro","path":"docs/小说/性与性别流动/故事/集合/1/more_intro"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter1_意外觉醒","title":"Chapter1_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter1_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter2_艰难适应","title":"Chapter2_艰难适应","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter2_艰难适应"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter3_暗流涌动","title":"Chapter3_暗流涌动","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter3_暗流涌动"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter4_假面嘉年华","title":"Chapter4_假面嘉年华","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter4_假面嘉年华"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter5_三方博弈","title":"Chapter5_三方博弈","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter5_三方博弈"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter6_真相与背叛","title":"Chapter6_真相与背叛","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter6_真相与背叛"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter7_意识围猎","title":"Chapter7_意识围猎","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter7_意识围猎"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter8_破局重组","title":"Chapter8_破局重组","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter8_破局重组"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter9_新的开始","title":"Chapter9_新的开始","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter9_新的开始"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/outline/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/outline/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/outline/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/outline/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/outline/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/outline/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/outline/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/outline/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十六幕_开放的未来与永恒的探索","title":"第十六幕_开放的未来与永恒的探索","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十六幕_开放的未来与永恒的探索"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/outline/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第15幕_新秩序的建立与考验","title":"第15幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第15幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十六幕_开放的未来与永恒的探索","title":"第十六幕_开放的未来与永恒的探索","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十六幕_开放的未来与永恒的探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十六幕_开放的未来与永恒的探索","title":"第十六幕_开放的未来与永恒的探索","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十六幕_开放的未来与永恒的探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十六幕_开放的未来与永恒的探索","title":"第十六幕_开放的未来与永恒的探索","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十六幕_开放的未来与永恒的探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第一幕_意外觉醒_正文","title":"第一幕_意外觉醒_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第一幕_意外觉醒_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第七幕_地下黑市初探_正文","title":"第七幕_地下黑市初探_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第七幕_地下黑市初探_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第三幕_镜中新我与身体探索_正文","title":"第三幕_镜中新我与身体探索_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第三幕_镜中新我与身体探索_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第九幕_数字痕迹_正文","title":"第九幕_数字痕迹_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第九幕_数字痕迹_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第二幕_身体重塑的七日历程_正文","title":"第二幕_身体重塑的七日历程_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第二幕_身体重塑的七日历程_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第五幕_初遇许璃与派系暗流_正文","title":"第五幕_初遇许璃与派系暗流_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第五幕_初遇许璃与派系暗流_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第八幕_情感探索与身份认同危机_正文","title":"第八幕_情感探索与身份认同危机_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第八幕_情感探索与身份认同危机_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第六幕_身体流动庆典_正文","title":"第六幕_身体流动庆典_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第六幕_身体流动庆典_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十一幕_压力测试_正文","title":"第十一幕_压力测试_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十一幕_压力测试_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十三幕_无解的道德困境_正文","title":"第十三幕_无解的道德困境_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十三幕_无解的道德困境_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十二幕_意识病毒危机爆发_正文","title":"第十二幕_意识病毒危机爆发_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十二幕_意识病毒危机爆发_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十五幕_新秩序的建立与考验_正文","title":"第十五幕_新秩序的建立与考验_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十五幕_新秩序的建立与考验_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十四幕_意外联盟与妥协方案_正文","title":"第十四幕_意外联盟与妥协方案_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十四幕_意外联盟与妥协方案_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十幕_系统故障_正文","title":"第十幕_系统故障_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十幕_系统故障_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第四幕_流影的记忆碎片_正文","title":"第四幕_流影的记忆碎片_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第四幕_流影的记忆碎片_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_01_awakening","title":"Chapter_01_awakening","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_01_awakening"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_02_adaptation","title":"Chapter_02_adaptation","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_02_adaptation"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_03_body_awakening","title":"Chapter_03_body_awakening","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_03_body_awakening"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_04_undercurrents","title":"Chapter_04_undercurrents","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_04_undercurrents"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_05_carnival","title":"Chapter_05_carnival","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_05_carnival"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_06_three_way_struggle","title":"Chapter_06_three_way_struggle","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_06_three_way_struggle"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_07_emotional_deepening","title":"Chapter_07_emotional_deepening","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_07_emotional_deepening"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_08_truth_and_betrayal","title":"Chapter_08_truth_and_betrayal","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_08_truth_and_betrayal"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_09_consciousness_siege","title":"Chapter_09_consciousness_siege","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_09_consciousness_siege"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_10_breakthrough_and_new_beginning","title":"Chapter_10_breakthrough_and_new_beginning","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_10_breakthrough_and_new_beginning"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/summary","title":"Summary","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/summary"},{"slug":"小说/性与性别流动/故事/集合/1/summary","title":"Summary","path":"docs/小说/性与性别流动/故事/集合/1/summary"},{"slug":"小说/性与性别流动/讨论/01_生物科技与身体改造研究报告","title":"01_生物科技与身体改造研究报告","path":"docs/小说/性与性别流动/讨论/01_生物科技与身体改造研究报告"},{"slug":"小说/性与性别流动/讨论/02_赛博格时代社会影响分析报告","title":"02_赛博格时代社会影响分析报告","path":"docs/小说/性与性别流动/讨论/02_赛博格时代社会影响分析报告"},{"slug":"小说/性与性别流动/讨论/03_性与亲密关系的未来演变研究","title":"03_性与亲密关系的未来演变研究","path":"docs/小说/性与性别流动/讨论/03_性与亲密关系的未来演变研究"},{"slug":"小说/性与性别流动/讨论/05_伦理与哲学思辨专题","title":"05_伦理与哲学思辨专题","path":"docs/小说/性与性别流动/讨论/05_伦理与哲学思辨专题"},{"slug":"小说/性与性别流动/讨论/idea","title":"Idea","path":"docs/小说/性与性别流动/讨论/idea"},{"slug":"小说/性与性别流动/讨论/性与亲密关系研究问题集","title":"性与亲密关系研究问题集","path":"docs/小说/性与性别流动/讨论/性与亲密关系研究问题集"},{"slug":"小说/性与性别流动/讨论/机密档案：情感动力学（合欢宗）技术与哲学纲要","title":"机密档案：情感动力学（合欢宗）技术与哲学纲要","path":"docs/小说/性与性别流动/讨论/机密档案：情感动力学（合欢宗）技术与哲学纲要"},{"slug":"小说/改文/我的化身正在成为最终BOSS/character_redesign_female_protagonist","title":"Character_redesign_female_protagonist","path":"docs/小说/改文/我的化身正在成为最终BOSS/character_redesign_female_protagonist"},{"slug":"小说/改文/我的化身正在成为最终BOSS/summary","title":"Summary","path":"docs/小说/改文/我的化身正在成为最终BOSS/summary"},{"slug":"小说/故事1/backup/主线","title":"主线","path":"docs/小说/故事1/backup/主线"},{"slug":"小说/故事1/backup/主线_v2","title":"主线_v2","path":"docs/小说/故事1/backup/主线_v2"},{"slug":"小说/故事1/backup/历史/历史","title":"历史","path":"docs/小说/故事1/backup/历史/历史"},{"slug":"小说/故事1/backup/历史/赤胎环舟本纪","title":"赤胎环舟本纪","path":"docs/小说/故事1/backup/历史/赤胎环舟本纪"},{"slug":"小说/故事1/backup/大纲/1","title":"1","path":"docs/小说/故事1/backup/大纲/1"},{"slug":"小说/故事1/backup/大纲/10","title":"10","path":"docs/小说/故事1/backup/大纲/10"},{"slug":"小说/故事1/backup/大纲/11","title":"11","path":"docs/小说/故事1/backup/大纲/11"},{"slug":"小说/故事1/backup/大纲/12","title":"12","path":"docs/小说/故事1/backup/大纲/12"},{"slug":"小说/故事1/backup/大纲/13","title":"13","path":"docs/小说/故事1/backup/大纲/13"},{"slug":"小说/故事1/backup/大纲/14","title":"14","path":"docs/小说/故事1/backup/大纲/14"},{"slug":"小说/故事1/backup/大纲/15","title":"15","path":"docs/小说/故事1/backup/大纲/15"},{"slug":"小说/故事1/backup/大纲/16","title":"16","path":"docs/小说/故事1/backup/大纲/16"},{"slug":"小说/故事1/backup/大纲/2","title":"2","path":"docs/小说/故事1/backup/大纲/2"},{"slug":"小说/故事1/backup/大纲/3","title":"3","path":"docs/小说/故事1/backup/大纲/3"},{"slug":"小说/故事1/backup/大纲/4","title":"4","path":"docs/小说/故事1/backup/大纲/4"},{"slug":"小说/故事1/backup/大纲/5","title":"5","path":"docs/小说/故事1/backup/大纲/5"},{"slug":"小说/故事1/backup/大纲/6","title":"6","path":"docs/小说/故事1/backup/大纲/6"},{"slug":"小说/故事1/backup/大纲/7","title":"7","path":"docs/小说/故事1/backup/大纲/7"},{"slug":"小说/故事1/backup/大纲/8","title":"8","path":"docs/小说/故事1/backup/大纲/8"},{"slug":"小说/故事1/backup/大纲/9","title":"9","path":"docs/小说/故事1/backup/大纲/9"},{"slug":"小说/故事1/backup/大纲/大纲总结","title":"大纲总结","path":"docs/小说/故事1/backup/大纲/大纲总结"},{"slug":"小说/故事1/backup/大纲/设定问题分析","title":"设定问题分析","path":"docs/小说/故事1/backup/大纲/设定问题分析"},{"slug":"小说/故事1/backup/大纲2/17","title":"17","path":"docs/小说/故事1/backup/大纲2/17"},{"slug":"小说/故事1/backup/大纲2/18","title":"18","path":"docs/小说/故事1/backup/大纲2/18"},{"slug":"小说/故事1/backup/大纲2/21","title":"21","path":"docs/小说/故事1/backup/大纲2/21"},{"slug":"小说/故事1/backup/大纲2/22","title":"22","path":"docs/小说/故事1/backup/大纲2/22"},{"slug":"小说/故事1/backup/大纲2/23","title":"23","path":"docs/小说/故事1/backup/大纲2/23"},{"slug":"小说/故事1/backup/大纲2/24","title":"24","path":"docs/小说/故事1/backup/大纲2/24"},{"slug":"小说/故事1/backup/大纲2/25","title":"25","path":"docs/小说/故事1/backup/大纲2/25"},{"slug":"小说/故事1/backup/大纲2/26","title":"26","path":"docs/小说/故事1/backup/大纲2/26"},{"slug":"小说/故事1/backup/大纲2/27","title":"27","path":"docs/小说/故事1/backup/大纲2/27"},{"slug":"小说/故事1/backup/大纲2/28","title":"28","path":"docs/小说/故事1/backup/大纲2/28"},{"slug":"小说/故事1/backup/大纲2/29","title":"29","path":"docs/小说/故事1/backup/大纲2/29"},{"slug":"小说/故事1/backup/大纲2/30","title":"30","path":"docs/小说/故事1/backup/大纲2/30"},{"slug":"小说/故事1/backup/大纲2/31","title":"31","path":"docs/小说/故事1/backup/大纲2/31"},{"slug":"小说/故事1/backup/大纲2/32","title":"32","path":"docs/小说/故事1/backup/大纲2/32"},{"slug":"小说/故事1/backup/大纲2/33","title":"33","path":"docs/小说/故事1/backup/大纲2/33"},{"slug":"小说/故事1/backup/大纲2/34","title":"34","path":"docs/小说/故事1/backup/大纲2/34"},{"slug":"小说/故事1/backup/大纲2/如何写设定","title":"如何写设定","path":"docs/小说/故事1/backup/大纲2/如何写设定"},{"slug":"小说/故事1/backup/大纲2/表格","title":"表格","path":"docs/小说/故事1/backup/大纲2/表格"},{"slug":"小说/故事1/backup/大纲prompt","title":"大纲prompt","path":"docs/小说/故事1/backup/大纲prompt"},{"slug":"小说/故事1/backup/描述","title":"描述","path":"docs/小说/故事1/backup/描述"},{"slug":"小说/故事1/核心","title":"核心","path":"docs/小说/故事1/核心"},{"slug":"小说/故事1/设定/prompt","title":"Prompt","path":"docs/小说/故事1/设定/prompt"},{"slug":"小说/故事1/设定/一魂多体爽点分析","title":"一魂多体爽点分析","path":"docs/小说/故事1/设定/一魂多体爽点分析"},{"slug":"小说/故事1/设定/价值观与哲学（世界的灵魂）/冲突","title":"冲突","path":"docs/小说/故事1/设定/价值观与哲学（世界的灵魂）/冲突"},{"slug":"小说/故事1/设定/力量体系与神器（成长的道具）/力量体系构建的第一性原理","title":"力量体系构建的第一性原理","path":"docs/小说/故事1/设定/力量体系与神器（成长的道具）/力量体系构建的第一性原理"},{"slug":"小说/故事1/设定/历史与时间线（深度时间感）/战锤化修改合集","title":"战锤化修改合集","path":"docs/小说/故事1/设定/历史与时间线（深度时间感）/战锤化修改合集"},{"slug":"小说/故事1/设定/历史与时间线（深度时间感）/描述","title":"描述","path":"docs/小说/故事1/设定/历史与时间线（深度时间感）/描述"},{"slug":"小说/故事1/设定/历史与时间线（深度时间感）/政治年表","title":"政治年表","path":"docs/小说/故事1/设定/历史与时间线（深度时间感）/政治年表"},{"slug":"小说/故事1/设定/历史与时间线（深度时间感）/深层秘密-胚胎与看护者","title":"深层秘密 胚胎与看护者","path":"docs/小说/故事1/设定/历史与时间线（深度时间感）/深层秘密-胚胎与看护者"},{"slug":"小说/故事1/设定/地理与生态环境（戏剧的舞台）/世界","title":"世界","path":"docs/小说/故事1/设定/地理与生态环境（戏剧的舞台）/世界"},{"slug":"小说/故事1/设定/地理与生态环境（戏剧的舞台）/场景","title":"场景","path":"docs/小说/故事1/设定/地理与生态环境（戏剧的舞台）/场景"},{"slug":"小说/故事1/设定/大纲","title":"大纲","path":"docs/小说/故事1/设定/大纲"},{"slug":"小说/故事1/设定/大纲修改意见","title":"大纲修改意见","path":"docs/小说/故事1/设定/大纲修改意见"},{"slug":"小说/故事1/设定/设定指导","title":"设定指导","path":"docs/小说/故事1/设定/设定指导"},{"slug":"小说/短篇/年轮里的回声/年轮里的回声","title":"年轮里的回声","path":"docs/小说/短篇/年轮里的回声/年轮里的回声"},{"slug":"小说/短篇/年轮里的回声/年轮里的回声-完整","title":"年轮里的回声 完整","path":"docs/小说/短篇/年轮里的回声/年轮里的回声-完整"},{"slug":"小说/短篇/年轮里的回声/年轮里的回声2","title":"年轮里的回声2","path":"docs/小说/短篇/年轮里的回声/年轮里的回声2"},{"slug":"小说/短篇/年轮里的回声/题目与简介选项","title":"题目与简介选项","path":"docs/小说/短篇/年轮里的回声/题目与简介选项"},{"slug":"小说/诈骗/claude/人物设定与大纲","title":"人物设定与大纲","path":"docs/小说/诈骗/claude/人物设定与大纲"},{"slug":"小说/诈骗/claude/第一章：老人的眼泪","title":"第一章：老人的眼泪","path":"docs/小说/诈骗/claude/第一章：老人的眼泪"},{"slug":"小说/诈骗/claude/第七章：猫鼠游戏","title":"第七章：猫鼠游戏","path":"docs/小说/诈骗/claude/第七章：猫鼠游戏"},{"slug":"小说/诈骗/claude/第三章：进入围城","title":"第三章：进入围城","path":"docs/小说/诈骗/claude/第三章：进入围城"},{"slug":"小说/诈骗/claude/第九章：黑吃黑的艺术","title":"第九章：黑吃黑的艺术","path":"docs/小说/诈骗/claude/第九章：黑吃黑的艺术"},{"slug":"小说/诈骗/claude/第二章：猎人的准备","title":"第二章：猎人的准备","path":"docs/小说/诈骗/claude/第二章：猎人的准备"},{"slug":"小说/诈骗/claude/第五章：第一次交锋","title":"第五章：第一次交锋","path":"docs/小说/诈骗/claude/第五章：第一次交锋"},{"slug":"小说/诈骗/claude/第八章：绝地反击","title":"第八章：绝地反击","path":"docs/小说/诈骗/claude/第八章：绝地反击"},{"slug":"小说/诈骗/claude/第六章：连环套局","title":"第六章：连环套局","path":"docs/小说/诈骗/claude/第六章：连环套局"},{"slug":"小说/诈骗/claude/第十章：收网时刻","title":"第十章：收网时刻","path":"docs/小说/诈骗/claude/第十章：收网时刻"},{"slug":"小说/诈骗/claude/第四章：深入虎穴","title":"第四章：深入虎穴","path":"docs/小说/诈骗/claude/第四章：深入虎穴"},{"slug":"小说/诈骗/修仙/人物设定与大纲","title":"人物设定与大纲","path":"docs/小说/诈骗/修仙/人物设定与大纲"},{"slug":"小说/诈骗/修仙/如何讲话让人火大","title":"如何讲话让人火大","path":"docs/小说/诈骗/修仙/如何讲话让人火大"},{"slug":"小说/诈骗/修仙/第一章：灵脉之殇","title":"第一章：灵脉之殇","path":"docs/小说/诈骗/修仙/第一章：灵脉之殇"},{"slug":"小说/诈骗/修仙/第七章：灵狐斗金","title":"第七章：灵狐斗金","path":"docs/小说/诈骗/修仙/第七章：灵狐斗金"},{"slug":"小说/诈骗/修仙/第三章：潜入金窟","title":"第三章：潜入金窟","path":"docs/小说/诈骗/修仙/第三章：潜入金窟"},{"slug":"小说/诈骗/修仙/第九章：玄金之殇","title":"第九章：玄金之殇","path":"docs/小说/诈骗/修仙/第九章：玄金之殇"},{"slug":"小说/诈骗/修仙/第二章：猎宝之谋","title":"第二章：猎宝之谋","path":"docs/小说/诈骗/修仙/第二章：猎宝之谋"},{"slug":"小说/诈骗/修仙/第五章：初战灵宝","title":"第五章：初战灵宝","path":"docs/小说/诈骗/修仙/第五章：初战灵宝"},{"slug":"小说/诈骗/修仙/第八章：灵宝反击","title":"第八章：灵宝反击","path":"docs/小说/诈骗/修仙/第八章：灵宝反击"},{"slug":"小说/诈骗/修仙/第六章：连环灵计","title":"第六章：连环灵计","path":"docs/小说/诈骗/修仙/第六章：连环灵计"},{"slug":"小说/诈骗/修仙/第十章：灵归正主","title":"第十章：灵归正主","path":"docs/小说/诈骗/修仙/第十章：灵归正主"},{"slug":"小说/诈骗/修仙/第四章：深入宝渊","title":"第四章：深入宝渊","path":"docs/小说/诈骗/修仙/第四章：深入宝渊"},{"slug":"小说/诈骗/诈骗-grok/人物设定","title":"人物设定","path":"docs/小说/诈骗/诈骗-grok/人物设定"},{"slug":"小说/诈骗/诈骗-grok/故事大纲","title":"故事大纲","path":"docs/小说/诈骗/诈骗-grok/故事大纲"},{"slug":"小说/诈骗/诈骗-grok/第一章：陷阱初现","title":"第一章：陷阱初现","path":"docs/小说/诈骗/诈骗-grok/第一章：陷阱初现"},{"slug":"小说/诈骗/诈骗-grok/第七章：猫鼠游戏","title":"第七章：猫鼠游戏","path":"docs/小说/诈骗/诈骗-grok/第七章：猫鼠游戏"},{"slug":"小说/诈骗/诈骗-grok/第三章：进入围城","title":"第三章：进入围城","path":"docs/小说/诈骗/诈骗-grok/第三章：进入围城"},{"slug":"小说/诈骗/诈骗-grok/第九章：黑吃黑的艺术","title":"第九章：黑吃黑的艺术","path":"docs/小说/诈骗/诈骗-grok/第九章：黑吃黑的艺术"},{"slug":"小说/诈骗/诈骗-grok/第二章：猎人的准备","title":"第二章：猎人的准备","path":"docs/小说/诈骗/诈骗-grok/第二章：猎人的准备"},{"slug":"小说/诈骗/诈骗-grok/第五章：第一次交锋","title":"第五章：第一次交锋","path":"docs/小说/诈骗/诈骗-grok/第五章：第一次交锋"},{"slug":"小说/诈骗/诈骗-grok/第八章：绝地反击","title":"第八章：绝地反击","path":"docs/小说/诈骗/诈骗-grok/第八章：绝地反击"},{"slug":"小说/诈骗/诈骗-grok/第六章：连环套局","title":"第六章：连环套局","path":"docs/小说/诈骗/诈骗-grok/第六章：连环套局"},{"slug":"小说/诈骗/诈骗-grok/第十章：收网时刻","title":"第十章：收网时刻","path":"docs/小说/诈骗/诈骗-grok/第十章：收网时刻"},{"slug":"小说/诈骗/诈骗-grok/第四章：深入虎穴","title":"第四章：深入虎穴","path":"docs/小说/诈骗/诈骗-grok/第四章：深入虎穴"},{"slug":"小说/诈骗/诈骗-grok/金融电信诈骗与黑灰产调研报告","title":"金融电信诈骗与黑灰产调研报告","path":"docs/小说/诈骗/诈骗-grok/金融电信诈骗与黑灰产调研报告"},{"slug":"小说/风格/一般风格","title":"一般风格","path":"docs/小说/风格/一般风格"},{"slug":"小说/风格/网文文艺风","title":"网文文艺风","path":"docs/小说/风格/网文文艺风"},{"slug":"小说/风格/网文标准风","title":"网文标准风","path":"docs/小说/风格/网文标准风"}],"children":"$L2b"}]
+2c:T7353,<h1>项目申请书</h1>
+<blockquote>
+<p>项目名称：Apache APISIX profile 工具</p>
+<p>项目导师：厉辉</p>
+<p>申请人：郑昱笙</p>
+<p>日期：2022.5.27</p>
+<p>邮箱：3180102760@zju.edu.cn</p>
+</blockquote>
+<ul>
+<li><a href="#%E9%A1%B9%E7%9B%AE%E7%94%B3%E8%AF%B7%E4%B9%A6">项目申请书</a>
+<ul>
+<li><a href="#%E9%A1%B9%E7%9B%AE%E8%83%8C%E6%99%AF">项目背景</a>
+<ul>
+<li><a href="#%E9%A1%B9%E7%9B%AE%E5%9F%BA%E6%9C%AC%E9%9C%80%E6%B1%82">项目基本需求</a>
+<ul>
+<li><a href="#%E9%A1%B9%E7%9B%AE%E4%BA%A7%E5%87%BA%E8%A6%81%E6%B1%82">项目产出要求：</a></li>
+<li><a href="#%E9%A1%B9%E7%9B%AE%E6%8A%80%E6%9C%AF%E8%A6%81%E6%B1%82">项目技术要求</a></li>
+</ul>
+</li>
+<li><a href="#%E9%A1%B9%E7%9B%AE%E7%9B%B8%E5%85%B3%E4%BB%93%E5%BA%93">项目相关仓库</a></li>
+<li><a href="#%E5%85%B3%E4%BA%8E%E6%88%91%E8%87%AA%E5%B7%B1">关于我自己</a>
+<ul>
+<li><a href="#%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D">基本介绍</a></li>
+<li><a href="#%E6%8A%80%E6%9C%AF%E6%A0%88%E4%B8%8E%E5%BC%80%E6%BA%90%E8%B4%A1%E7%8C%AE">技术栈与开源贡献</a></li>
+<li><a href="#apisix-%E7%9B%B8%E5%85%B3%E5%AE%9E%E8%B7%B5">APISIX 相关实践：</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E6%8A%80%E6%9C%AF%E8%83%8C%E6%99%AF%E6%96%B9%E6%B3%95%E5%92%8C%E5%8F%AF%E8%A1%8C%E6%80%A7">技术背景、方法和可行性</a>
+<ul>
+<li><a href="#%E5%85%B3%E4%BA%8E-apache-apisix-profile-%E5%B7%A5%E5%85%B7%E7%9A%84%E5%AE%9E%E7%8E%B0%E8%83%8C%E6%99%AF">关于 Apache APISIX profile 工具的实现背景</a></li>
+<li><a href="#linux-%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7%E4%BB%A5%E5%8F%8A-perf">linux 性能分析工具，以及 perf</a>
+<ul>
+<li><a href="#perf">perf</a></li>
+</ul>
+</li>
+<li><a href="#ebpf-%E6%8A%80%E6%9C%AF">ebpf 技术</a>
+<ul>
+<li><a href="#why-is-ebpf">Why is eBPF</a></li>
+<li><a href="#libbpf">LibBPF</a></li>
+<li><a href="#hook-%E7%82%B9">hook 点：</a></li>
+<li><a href="#ebpf-%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90">ebpf 性能分析</a></li>
+<li><a href="#ebpf-%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86">ebpf 性能分析实现原理</a></li>
+</ul>
+</li>
+<li><a href="#openresty-systemtap-toolkit">/openresty-systemtap-toolkit</a></li>
+<li><a href="#lua-%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E7%9B%B8%E5%85%B3%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99">lua 性能分析相关参考资料</a></li>
+</ul>
+</li>
+<li><a href="#%E9%A1%B9%E7%9B%AE%E5%AE%9E%E7%8E%B0%E7%BB%86%E8%8A%82%E6%A2%B3%E7%90%86">项目实现细节梳理</a>
+<ul>
+<li><a href="#%E9%A1%B9%E7%9B%AE%E8%A6%81%E7%82%B9%E5%92%8C%E9%9A%BE%E7%82%B9">项目要点和难点：</a></li>
+</ul>
+</li>
+<li><a href="#%E9%A1%B9%E7%9B%AE%E5%AE%8C%E6%88%90%E8%A7%84%E5%88%92">项目完成规划</a>
+<ul>
+<li><a href="#%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B571---720">第一阶段（7.1 - 7.20）</a></li>
+<li><a href="#%E7%AC%AC%E4%BA%8C%E9%98%B6%E6%AE%B5720---810">第二阶段（7.20 - 8.10）</a></li>
+<li><a href="#%E7%AC%AC%E4%B8%89%E9%98%B6%E6%AE%B5810---%E7%BB%93%E6%9D%9F">第三阶段（8.10 - 结束）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2>项目背景</h2>
+<h3>项目基本需求</h3>
+<p>目前，<code>Apache APISIX</code> 没有一个非常有用的配置文件工具来分析CPU或内存，开发人员只能使用基准测试或打印日志来分析 <code>Apache APISIX</code>。因此，我们可以使用使用 <code>eBPF</code> 为 <code>Apache APISIX</code> 创建配置文件工具，使用 <code>eBPF</code> 捕获 <code>Apache APISIX</code> 中的 <code>Lua</code> 调用堆栈信息，并将其绘制成 CPU火焰图。</p>
+<h4>项目产出要求：</h4>
+<p>使用eBPF捕获和解析 <code>Apache APISIX</code> 中的 lua 调用堆栈信息，对其进行汇总并生成cpu火焰图：</p>
+<ul>
+<li>利用eBPF同时捕获和解析C和Lua混合调用堆栈信息，对其进行总结，生成cpu火焰图。</li>
+<li>支持获取在Docker中运行的 <code>Apache APISIX</code> 进程</li>
+<li>支持获取 Apache APISIX Openresty luajit 32/luajit 64 模式</li>
+</ul>
+<h4>项目技术要求</h4>
+<p>熟悉Lua/C：</p>
+<ul>
+<li>对 eBPF 和 Openresty 有一些了解。</li>
+<li>对 profiling 有一定了解</li>
+</ul>
+<h3>项目相关仓库</h3>
+<ul>
+<li>项目成果仓库：https://github.com/apache/apisix</li>
+<li>参考仓库：https://github.com/openresty/openresty-systemtap-toolkit</li>
+<li>实现的 demo 仓库：https://github.com/yunwei37/nginx-lua-ebpf</li>
+<li>工具整合仓库：https://github.com/yunwei37/Eunomia</li>
+</ul>
+<h3>关于我自己</h3>
+<h4>基本介绍</h4>
+<p>我叫郑昱笙，是浙江大学的23届本科生，目前的专业是地理信息科学，平常在杭州/上海。我一直以来就对开源项目非常感兴趣，自己也写过一些小型的开源项目放在 Github 上（目前供给已经获得 800+ star），并且也为一些开源项目做过贡献，因此也非常希望能长期、更深层次地参与到著名的开源项目中，成为相关的项目维护者。</p>
+<h4>技术栈与开源贡献</h4>
+<ul>
+<li>对操作系统有清晰地理解和实践知识：参加过 rcore （一个用 rust 写的类linux内核）开源社区的暑期活动，在 ZCore（一个由清华大学主导的 rust 编写的开源实验性操作系统内核：https://github.com/rcore-os/zCore ）中贡献过不少代码，实现了大部分异步进程间通信机制；完成过 MIT 6.828（2018）课程的 Lab，并且也给 rcore 操作系统教程提过 PR 贡献；</li>
+<li>熟悉 ebpf 技术，并且基于 ebpf 技术开发过相关监测工具: 使用 C/现代C++ 主导开发了一个基于 ebpf 的监控工具：https://github.com/yunwei37/Eunomia，基于 Libbpf + eBPF CO-RE 技术对多种操作系统指标进行监控，帮助用户了解容器的各项行为、监控可疑的容器安全事件；该工具也集成了基本的 profiling 功能。</li>
+<li>熟练使用 C 语言进行开发，并且使用 perf 等工具做过相关性能分析实践，以此解决实习工作中碰到的 C 代码相关性能问题；有编译、静态分析相关的实习经验，主要在 llvm/clang 相关工具链上开发，也为知名的开源 go 静态分析器（<a href="github.com/securego/gosec">github.com/securego/gosec</a>）贡献过代码；对编译器/jit相关实现机制有一些认知；</li>
+<li>了解 lua 语言和 openresty 技术；</li>
+</ul>
+<h4>APISIX 相关实践：</h4>
+<ul>
+<li>
+<p>给 APISIX 提过 PR，修复了关于 APISIX 性能分析文档的一些问题：https://github.com/apache/apisix/pull/7035</p>
+</li>
+<li>
+<p>对 APISIX 的基本架构和使用场景有相关理解和动手实践；</p>
+</li>
+<li>
+<p>参考 APISIX 的 ci，使用 systemtap 在本地复现了相关火焰图生成：</p>
+<pre><code>git clone https://github.com/apache/apisix
+cd apisix
+sudo apt-get install -y libpcre3 libpcre3-dev
+sudo apt-get install -y openssl libssl-dev unzip zlib*
+sudo ./ci/performance_test.sh install_dependencies
+sudo ./ci/performance_test.sh install_wrk2
+sudo ./ci/performance_test.sh install_stap_tools
+./ci/performance_test.sh run_performance_test
+</code></pre>
+<p>结果如下：</p>
+<p><img src="img/fix-lua-bt.png" alt="flamegraph"></p>
+</li>
+<li>
+<p>同时使用 bcc/libbpf 中已经存在的 ebpf 工具对 APISIX 中的 openresty 生成了初步的火焰图，但 lua 相关信息还未获得：</p>
+<p><img src="img/unknown.png" alt="flamegraph"></p>
+</li>
+<li>
+<p>目前已经进行了一定程度上的 demo 开发：https://github.com/yunwei37/nginx-lua-ebpf/blob/master/bcc_nginx_lua.c 主要使用 uprobe 技术和 perf 接口；</p>
+</li>
+</ul>
+<h2>技术背景、方法和可行性</h2>
+<h3>关于 Apache APISIX profile 工具的实现背景</h3>
+<p>Apache APISIX是一个动态、实时、高性能的API网关。提供了丰富的流量管理功能，如负载均衡、动态上游、canary释放、断路、认证、可观察性等。 <code>apisix</code> 基于 <code>openresty</code> 开发，目前 <code>openresty</code> 社区中已经有一个实时分析和诊断工具：</p>
+<ul>
+<li><a href="github.com/openresty/openresty-systemtap-toolkit">github.com/openresty/openresty-systemtap-toolkit</a></li>
+</ul>
+<p>其中也覆盖了不少性能监测和分析工具，目前大部分的 <code>openresty</code> 和 lua/luajit 相关分析借由该项目进行。可以通过 <a href="https://github.com/openresty/openresty-systemtap-toolkit#ngx-sample-lua-bt">ngx-sample-lua-bt</a> 工具来生成相关火焰图，例如这是我自己进行的尝试：</p>
+<p><img src="img/fix-lua-bt.png" alt="flamegraph"></p>
+<p>但该项目已经不再维护，同时这些脚本基于 systemtap 和 perl 编写，对于 lua64 的支持也还未合并进入主线，所使用的内核版本相对来说也比较老旧，在较新的系统上并没有很好的支持，尤其是对于容器和云原生环境下的支持很困难。因此需要有一个工具对于 <code>Apache APISIX</code> 中的调用堆栈信息进行分析。</p>
+<p>openresty-systemtap-toolkit 有一个替代工具，https://openresty.com/en/xray ，但它是商业化的闭源工具，对相关社区的支持并不好。</p>
+<p>本项目希望能够使用 ebpf 实现 openresty-systemtap-toolkit 的一个功能子集，并且尽可能地完善和接近 openresty-systemtap-toolkit 的相关功能。</p>
+<h3>linux 性能分析工具，以及 perf</h3>
+<p>常见的 linux 下性能分析工具：</p>
+<ul>
+<li>vmstat--虚拟内存统计</li>
+<li>iostat--用于报告中央处理器统计信息</li>
+<li>dstat--系统监控工具</li>
+<li>iotop--LINUX进程实时监控工具</li>
+<li>pidstat--监控系统资源情况</li>
+<li>top,htop,mpstat 等等等等</li>
+</ul>
+<p><img src="img/profiles.jpg" alt="profiles"></p>
+<h4>perf</h4>
+<p>perf是Linux kernel自带的系统性能优化工具。优势在于与Linux Kernel的紧密结合，它可以最先应用到加入Kernel的new feature，用于查看热点函数，查看cashe miss的比率，从而帮助开发者来优化程序性能。</p>
+<p>性能调优工具如 perf，Oprofile 等的基本原理都是对被监测对象进行采样，最简单的情形是根据 tick 中断进行采样，即在 tick 中断内触发采样点，在采样点里判断程序当时的上下文。假如一个程序 90% 的时间都花费在函数 foo() 上，那么 90% 的采样点都应该落在函数 foo() 的上下文中。运气不可捉摸，但我想只要采样频率足够高，采样时间足够长，那么以上推论就比较可靠。因此，通过 tick 触发采样，我们便可以了解程序中哪些地方最耗时间，从而重点分析。</p>
+<p>参考：</p>
+<ul>
+<li>https://www.brendangregg.com/perf.html#Background</li>
+</ul>
+<h3>ebpf 技术</h3>
+<h4>Why is eBPF</h4>
+<p>eBPF是一项革命性的技术，可以在Linux内核中运行沙盒程序，而无需更改内核源代码或加载内核模块。通过使Linux内核可编程，基础架构软件可以利用现有的层，从而使它们更加智能和功能丰富，而无需继续为系统增加额外的复杂性层。</p>
+<ul>
+<li>
+<p>优点：低开销</p>
+<p>eBPF 是一个非常轻量级的工具，用于监控使用 Linux 内核运行的任何东西。虽然 eBPF 程序位于内核中，但它不会更改任何源代码，这使其成为泄露监控数据和调试的绝佳伴侣。eBPF 擅长的是跨复杂系统实现无客户端监控。 </p>
+</li>
+<li>
+<p>优点：安全</p>
+<p>解决内核观测行的一种方法是使用内核模块，它带来了大量的安全问题。而eBPF 程序不会改变内核，所以您可以保留代码级更改的访问管理规则。此外，eBPF 程序有一个验证阶段，该阶段通过大量程序约束防止资源被过度使用，保障了运行的ebpf程序不会在内核产生安全问题。</p>
+</li>
+<li>
+<p>优点：精细监控、跟踪</p>
+<p>eBPF 程序能提供比其他方式更精准、更细粒度的细节和内核上下文的监控和跟踪标准。并且eBPF监控、跟踪到的数据可以很容易地导出到用户空间，并由可观测平台进行可视化。 </p>
+</li>
+<li>
+<p>缺点：很新</p>
+<p>eBPF 仅在较新版本的 Linux 内核上可用，这对于在版本更新方面稍有滞后的组织来说可能是令人望而却步的。如果您没有运行 Linux 内核，那么 eBPF 根本不适合您。</p>
+</li>
+</ul>
+<h4>LibBPF</h4>
+<p>libbpf 是一个比BCC更新的 BPF 开发库，也是最新的 BPF 开发推荐方式，以下是从BCC转向libbpf+BPF CO-RE的理由：</p>
+<p>BCC 依靠运行时间汇编，将整个大型 LLVM/Clang 库带入并嵌入其中。这有许多后果，所有这些都不太理想：</p>
+<p>编译过程中资源利用量大（内存和 CPU），可能会中断繁忙服务器上的主要工作流;
+依赖于内核头包，该包必须安装在每个目标主机上。即便如此，如果您需要从内核中获取不通过public headers暴露的东西，您也需要手工将类型定义复制/粘贴到 BPF 代码中，以完成您的工作;
+即使是微不足道的编译时间错误也只在运行时间（在您完全重建并重新启动用户空间应用程序后）检测到：这显著缩短了开发迭代时间（并增加了挫折感水平。。。）
+文章BPF Portability and CO-RE 指出，为了提高BPF程序的便携性，即在不同内核版本上正常工作，而无需为每个特定内核重新编译的能力，社区提出了一个称为BPF CO-RE(Compile Once – Run Everywhere)的解决方案。</p>
+<p>Libbpf+BPF CO-RE的理念是，BPF程序与任何"正常"用户空间程序没有太大区别：它们应该汇编成小型二进制文件，然后以紧凑的形式进行部署，以瞄准主机。Libbpf 扮演 BPF 程序装载机的角色，执行平凡的设置工作（重定位、加载和验证 BPF 程序、创建 BPF map、连接到 BPF 挂钩等），让开发人员只担心 BPF 程序的正确性和性能。这种方法将开销保持在最低水平，消除沉重的依赖关系，使整体开发人员体验更加愉快。</p>
+<h4>hook 点：</h4>
+<p>对eBPF来说，和Kernle Module一样，也是通过特定的Hook点监听内核中的特定事件，进而执行用户定义的处理。这些Hook点包括：</p>
+<ul>
+<li>静态tracepoint</li>
+<li>动态内核态探针(Dynamic Kernel probes)</li>
+<li>动态用户态探针(Dynamic User Probes)</li>
+<li>其他hook点</li>
+</ul>
+<p>参考：</p>
+<ul>
+<li>https://github.com/iovisor/bcc</li>
+<li>https://www.brendangregg.com/ebpf.html</li>
+<li>https://www.brendangregg.com/blog/2021-07-03/how-to-add-bpf-observability.html</li>
+</ul>
+<h4>ebpf 性能分析</h4>
+<p>Bcc(BPF Compiler Collection): 一个用于创建高效的内核跟踪和操作程序的工具包，包括几个有用的工具和示例。bcc 已经提供了许多性能分析工具，其中能生成火焰图的有：</p>
+<ul>
+<li>
+<p>基于 bcc 的性能工具：参考 https://www.brendangregg.com/blog/2016-10-21/linux-efficient-profiler.html，目前已经被弃用</p>
+<ul>
+<li>代码：https://github.com/iovisor/bcc/blob/master/tools/profile.py</li>
+</ul>
+</li>
+</ul>
+<p>目前更推荐使用的是基于 libbpf 的性能工具：</p>
+<p>和过去常用的 BCC 不同， Libbpf 是 BPF CO-RE（一次编译，到处运行）。Libbpf 作为 BPF 程序加载器，接管了重定向、加载、验证等功能，BPF 程序开发者只需要关注 BPF 程序的正确性和性能即可。这种方式将开销降到了最低，且去除了庞大的依赖关系，使得整体开发流程更加顺畅。</p>
+<ul>
+<li>
+<p>基于 libbpf 的性能工具：https://www.brendangregg.com/blog/2020-11-04/bpf-co-re-btf-libbpf.html</p>
+<ul>
+<li>https://github.com/iovisor/bcc/blob/master/libbpf-tools/offcputime.c</li>
+<li>还有一个基于 libbpf 的性能工具已经基本开发完成，但还未合并进入主线：https://github.com/iovisor/bcc/pull/3782</li>
+</ul>
+</li>
+</ul>
+<h4>ebpf 性能分析实现原理</h4>
+<p>在 libbpf 中，我们同样可以通过 ebpf 去获取 perf event 的相关数据，例如：</p>
+<pre><code>struct {
+	__uint(type, BPF_MAP_TYPE_STACK_TRACE);
+	__type(key, u32);
+} stackmap SEC(".maps");
+
+struct {
+	__uint(type, BPF_MAP_TYPE_HASH);
+	__type(key, struct key_t);
+	__type(value, sizeof(u64));
+	__uint(max_entries, MAX_ENTRIES);
+} counts SEC(".maps");
+
+SEC("perf_event")
+int do_perf_event(struct bpf_perf_event_data *ctx)
+{
+	u64 id = bpf_get_current_pid_tgid();
+	u32 pid = id >> 32;
+	u32 tid = id;
+	u64 *valp;
+	static const u64 zero;
+	struct key_t key = {};
+
+	key.pid = pid;
+	bpf_get_current_comm(&#x26;key.name, sizeof(key.name));
+
+		key.user_stack_id = bpf_get_stackid(&#x26;ctx->regs, &#x26;stackmap, BPF_F_USER_STACK);
+
+	valp = bpf_map_lookup_or_try_init(&#x26;counts, &#x26;key, &#x26;zero);
+	if (valp)
+		__sync_fetch_and_add(valp, 1);
+
+	return 0;
+}
+</code></pre>
+<p>本质上来说，使用这种技术也是通过 perf event 完成对用户态的跟踪的。但和 perf 不同，这是一个高效的分析器，因为堆栈跟踪是频率计数的内核上下文，而不是将每个堆栈都传递给用户空间以获得频率在那里数。只有唯一的堆栈和计数被传递到用户空间。在配置文件的末尾，大大减少了内核&#x3C;->用户转移。</p>
+<p>要求：Linux 4.9+（BPF_PROG_TYPE_PERF_EVENT 支持）</p>
+<p>我之前已经尝试实现过使用 ebpf 工具捕获 Openresty 相关调用图，但是由于缺少 lua 相关符号信息，所以暂时并不完整，接下来需要将 lua 的 jit 符号信息整合到 ebpf profile 工具中。</p>
+<h3>/openresty-systemtap-toolkit</h3>
+<p>nginx-systemtap-toolkit - 基于 SystemTap 为 NGINX 打造的实时分析和诊断工具集</p>
+<ul>
+<li>ngx-active-reqs 这个工具会列出来指定的 NGINX worker 或者 master 进程正在处理的所有活跃请求的详细信息。</li>
+<li>ngx-req-distr 这个工具分析（下游）请求和连接，在指定的 NGINX master 进程的所有 NGINX worker 进程中的分布。</li>
+<li>ngx-shm 这个工具分析在指定的正在运行的 NGINX 进程中，所有的共享内存区域。</li>
+<li>ngx-cycle-pool 这个工具计算在指定的 NGINX</li>
+<li>ngx-leaked-pools 跟踪 NGINX 内存池的创建和销毁，以及给出泄露池前 10 的调用栈。</li>
+<li>ngx-backtrace 从 ngx-leaked-pools 之类的工具生成的 16 进制地址的原始调用栈，转换为人类可读的格式。</li>
+<li>ngx-body-filters 按照实际运行的顺序，打印出所有输出体过滤器。</li>
+<li>ngx-header-filters 按照实际运行的顺序，打印出所有输出头过滤器。</li>
+<li>ngx-pcrejit 这个脚本跟踪指定 NGINX worker 进程里面 PCRE 编译的正则表达式的执行（即 pcre_exec 的调用）， 并且检测它们是否被 JIT 执行。</li>
+<li>ngx-sample-bt 这个工具已经被重命名为 sample-bt，因为这个工具并不只针对 NGINX，所以保留 ngx- 这个前缀没有什么意义。</li>
+<li>ngx-sample-lua-bt</li>
+<li>fix-lua-bt</li>
+<li>ngx-lua-bt 这个工具可以把 NGINX worker 进程中 Lua 的当前调用栈 dump 出来。</li>
+<li>sample-bt-off-cpu</li>
+<li>sample-bt-vfs 这个工具是在虚拟文件系统（VFS）之上采样用户空间调用栈，以便渲染出文件 I/O 火焰图</li>
+<li>accessed-files 通过指定 -p 选项，找出来任意用户进程（对的，不限于 NGINX！）最常读写的文件名。</li>
+<li>ngx-pcre-stats 这个工具会展示一个正在运行的 NGINX worker 进程中，PCRE 正则表达式执行效率的各类统计分析。</li>
+<li>tcp-accept-queue 对于那些监听 --port 选项指定的本地端口的 socket，这个工具会采样它们的 SYN 队列和 ACK backlog 队列。</li>
+<li>tcp-recv-queue 这个工具可以分析涉及 TCP receive 队列的排队延迟。</li>
+<li>ngx-lua-shdict 对于指定的正在运行的 NGINX 进程，这个工具可以分析它的共享内存字典并且追踪字典的操作。</li>
+<li>ngx-lua-conn-pools 导出 ngx_lua 的连接池状态, 报告连接池内外的连接数, 统计连接池内连接的重用次数，并打印出每个连接池的容量。</li>
+<li>check-debug-info 对于指定的正在运行的进程，这个工具可以检测它里面哪些可执行文件没有包含调试信息。</li>
+</ul>
+<p>我们首先重点关注 <strong>ngx-sample-lua-bt</strong> 工具，并进行 ebpf 移植。</p>
+<p>另外比如 accessed-files，sample-bt-off-cpu，sample-bt，tcp-accept-queue 等工具， libbpf tools/bcc 中已经有了一些现成的实现。某些工具相关的功能已经被集成到我写的 Eunimoa 中，例如 accessed-files。</p>
+<p>其中部分还未实现的工具，可以使用动态用户态探针(uprobe) 对 NGINX 进行分析，或 kprobe 等方法对内核进行跟踪，基于 ebpf 实现。</p>
+<h3>lua 性能分析相关参考资料</h3>
+<ul>
+<li>http://www.javashuo.com/article/p-wqgnoodo-kn.html</li>
+<li>https://github.com/Patrick08T/LuaProfiler</li>
+<li>https://blog.openresty.com/en/lua-cpu-flame-graph/</li>
+</ul>
+<p>systemtap的脚本，它的原理是在运行时 hook nginx 中某些特定的函数，然后拿到全局的 lua_state 指针，然后在 profile 的时候再通过 map 拿到之前保存下来的 lua_state 指针，通过这个 state 去遍历 frame 找到对应的函数信息；</p>
+<pre><code>function lua_getstack(L, level) {
+    ci = \@cast(L, "lua_State", "$lua_path")->ci
+    base_ci = \@cast(L, "lua_State", "$lua_path")->base_ci
+    //printf("L=%x, ci=%x, base_ci=%x\\n", L, ci, base_ci)
+    if (ci_offset == 0) {
+        ci_offset = &#x26;\@cast(0, "CallInfo", "$lua_path")[1]
+    }
+    //printf("ci offset: %d\\n", ci_offset)
+    for (; level > 0 &#x26;&#x26; ci > base_ci; ci -= ci_offset) {
+        level--;
+        //tt = \@cast(ci, "CallInfo", "$lua_path")->func->tt
+        //printf("ci tt: %d\\n", tt)
+        if (f_isLua(ci)) { /* Lua function? */
+            tailcalls = \@cast(ci, "CallInfo", "$lua_path")->tailcalls
+            //printf("it is a lua func! tailcalls=%d\\n", tailcalls)
+            level -= tailcalls;  /* skip lost tail calls */
+        }
+    }
+    if (level == 0 &#x26;&#x26; ci > base_ci) {  /* level found? */
+        //printf("lua_getstack: ci=%x\\n", ci);
+        //tt = \@cast(ci, "CallInfo", "$lua_path")->func->tt
+        //printf("ci tt: %d\\n", tt)
+        //ff = &#x26;\@cast(ci, "CallInfo", "$lua_path")->func->value->gc->cl
+        //isC = \@cast(ci, "CallInfo", "$lua_path")->func->value->gc->cl->c->isC
+        //printf("isC: %d, %d ff=%x\\n", isC, \@cast(ff, "Closure", "$lua_path")->c->isC, ff)
+        //f = ci_func(ci)
+        //printf("lua_getstack: ci=%x, f=%x, isLua=%d\\n", ci, f, f_isLua(ci));
+        return ci - base_ci;
+    }
+    if (level &#x3C; 0) {  /* level is of a lost tail call? */
+        return 0;
+    }
+    return -1;
+}
+
+</code></pre>
+<p>我用 bcc/ebpf 实现了类似的前半部分过程的demo（主要是测试了一下能不能把 lua_state 指针保存到全局的 map里面，之后在另一个 hook 中再提取出来访问到lua_state里面的信息）</p>
+<p>可以通过 https://github.com/yunwei37/nginx-lua-ebpf/blob/master/bcc_nginx_lua.c 访问</p>
+<h2>项目实现细节梳理</h2>
+<p>项目实现主要分为几个部分：</p>
+<ol>
+<li>
+<p>ebpf 性能分析工具整理和完善：</p>
+<ul>
+<li>需要仔细调研并且确认目前已有的 ebpf 工具对于 openresty 的性能分析帮助，以及逐个试用，并且产出分析报告；</li>
+<li>在调研的基础上由于 libbpf 的性能分析工具尚未完成，相关工具链也不成熟，因此需要进行一定的整理和基于所提供的工具集的修改开发；</li>
+</ul>
+</li>
+<li>
+<p>尝试将 lua 的堆栈追踪整合到 ebpf 的性能分析工具中，并且基于 Openresty 场景进行深度定制：</p>
+<ul>
+<li>虽然 libbpf-tools 工具集已经有了不少性能分析相关工具，但并没有很适合 openresty 这个场景的性能工具。目前的 ebpf 工具大部分是通用的性能分析模块功能，需要有基于 openresty 和 APISIX 的场景进行深度定制的解决方案，并且对 Apache APISIX Openresty luajit 32/luajit 64 提供良好的支持；</li>
+<li>这部分将主要基于 C/C++ 语言。我选择使用现代 C++ 语言（cpp20）开发 Eunomia 的时候也主要是看中和 libbpf 库以及 bpf 代码的良好兼容性，libbpf 库目前还在迅速更新迭代过程中，我可以直接基于 libbpf 库进行开发，不需要被其他语言（go/rust）的运行时 bpf 库所限制。现代 C++ 的开发速度和安全性应该并不会比其他语言差太多（要是编译提示能像 rust 那样好点就更好了...用了 concept 还是不够好）。</li>
+</ul>
+</li>
+<li>
+<p>将上述工具进行整合和完善：</p>
+<ul>
+<li>整理并发布工具集：之前实现和整理的工具集会被开源发布为类似 <a href="https://github.com/openresty/openresty-systemtap-toolkit">openresty-systemtap-toolkit</a> 的一个个二进制工具版本，并且提供完整的文档和示例；该项目会被合并进入入 APISIX 的相关仓库。</li>
+<li>目前我自己正在开发一套基于 ebpf 的开源轻量级监控工具：https://github.com/yunwei37/Eunomia ，其中已经整合了数个基于 libbpf-tools 的内核观测工具，例如文件访问，系统调用，进程执行，网络连接，进程间通信等等，并且已经实现了一些性能分析指标分析。该工具基于现代 C++ 构建，可以非常方便的整合 libbpf-tools 工具的功能，并且可以集成现代的 prometheus 和 Grafana，作为指标监控可视化和预警平台；可以通过外接时序数据库进行性能指标存储和分析；我也希望能把上述工具整合进入我所实现的工具，提供开箱即用的 APISIX 性能监控解决方案。</li>
+</ul>
+</li>
+</ol>
+<h3>项目要点和难点：</h3>
+<p>使用eBPF捕获和解析 <code>Apache APISIX</code> 中的 lua 调用堆栈信息，对其进行汇总并生成cpu火焰图：</p>
+<ul>
+<li>
+<p>利用eBPF同时捕获和解析C和Lua混合调用堆栈信息，对其进行总结，生成cpu火焰图。</p>
+<p>这部分还需要完成的事情主要是需要获取和补全缺少的 lua 相关符号信息，并且和 C 语言的相关信息进行整理：</p>
+<p>它的原理是在运行时 hook nginx 中某些特定的函数，然后拿到全局的 lua_state 指针，然后在 profile 的时候再通过 map 拿到之前保存下来的 lua_state 指针，通过这个 state 去遍历 frame 找到对应的函数信息；这一部分已接近实现，在 https://github.com/yunwei37/nginx-lua-ebpf/blob/master/bcc_nginx_lua.c 中，接下来需要把两个部分整合起来变成一个完整的工具就好了。</p>
+</li>
+<li>
+<p>支持获取在Docker中运行的 <code>Apache APISIX</code> 进程：</p>
+<p>这部分在我做的工具（Eunomia）中已经实现了，其原理主要是通过 ebpf hook 每次进程的执行过程，并且输出 pid/ppid/namespace/cgroups/comm 等相关信息。从 comm （一般来说是执行的命令名称）即可捕捉到 <code>Apache APISIX</code> 的相关特征，进而通过 pid/ppid 捕捉到它进程组的一系列进程活动。</p>
+<p>或者在一个单一的命令行工具中也可以手动为其指定 pid，实现功能解耦。</p>
+</li>
+<li>
+<p>支持获取 Apache APISIX Openresty luajit 32/luajit 64 模式</p>
+<p>需要对 luajit 32/luajit 64 的行为模式进行梳理，主要是涉及 lua_state 相关的一些指针信息，这部分难度并不高，只是需要注意细节 。</p>
+</li>
+</ul>
+<h2>项目完成规划</h2>
+<h3>第一阶段（7.1 - 7.20）</h3>
+<ul>
+<li>[ ] 第一周：借助现有的 ebpf 工具进行简单改进，实现使用 eBPF 捕获和解析一次 <code>Apache APISIX</code> 中的 lua 调用堆栈信息，对其进行汇总并生成cpu火焰图</li>
+<li>[ ] 第二周：整理对于 luajit 32/luajit 64 的相关分析代码，改进测试场景，确保在不同内核版本，不同lua/nginx版本中，所实现的工具的可用性，并且产出相关文档；</li>
+<li>[ ] 第三周：需要仔细调研并且确认目前已有的 ebpf 工具对于 openresty 的性能分析帮助，以及逐个试用，并且产出分析报告；</li>
+</ul>
+<h3>第二阶段（7.20 - 8.10）</h3>
+<ul>
+<li>[ ] 第一周：确认余下时间，以及需要重新整理实现的 openresty-systemtap-toolkit 工具，并按照优先级和实现的难易程度排序；尝试通过 ebpf 实现其功能；</li>
+<li>[ ] 第二周：尝试通过 ebpf 实现 openresty-systemtap-toolkit 的功能，并且设计相关的测试场景和性能分析场景；</li>
+<li>[ ] 第三周：对于所实现的 openresty-systemtap-toolkit 工具集的功能，完善相关文档，并进行充分的测试；</li>
+</ul>
+<h3>第三阶段（8.10 - 结束）</h3>
+<ul>
+<li>[ ] 第一周：整理并发布工具集：之前实现和整理的工具集会被开源发布为类似 <a href="https://github.com/openresty/openresty-systemtap-toolkit">openresty-systemtap-toolkit</a> 的一个个二进制工具版本，并且提供完整的文档和示例；</li>
+<li>[ ] 第二周：将该工具集进行集成，提供 docker 容器的版本以便进行分发；提供 prometheus 和 Grafana 作为性能指标监控工具；提供时序数据库存储连接；</li>
+<li>[ ] 第三周：解决在验收阶段中发现的问题，进行后续的维护和完善；</li>
+</ul>2b:["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$2c"}}]
+24:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+20:null
+22:{"metadata":[["$","title","0",{"children":"Apisix Profile OSPP 郑昱笙 | 云微的胡思乱想"}],["$","meta","1",{"name":"description","content":"Documentation: Apisix Profile OSPP 郑昱笙"}],["$","meta","2",{"name":"robots","content":"index, follow"}],["$","meta","3",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","4",{"rel":"canonical","href":"https://www.yunwei37.com/docs/random/apisix-profile-OSPP-%E9%83%91%E6%98%B1%E7%AC%99"}],["$","link","5",{"rel":"alternate","type":"application/rss+xml","href":"https://www.yunwei37.com/feed.xml"}],["$","meta","6",{"property":"og:title","content":"Apisix Profile OSPP 郑昱笙"}],["$","meta","7",{"property":"og:description","content":"Documentation: Apisix Profile OSPP 郑昱笙"}],["$","meta","8",{"property":"og:url","content":"https://www.yunwei37.com/docs/random/apisix-profile-OSPP-%E9%83%91%E6%98%B1%E7%AC%99"}],["$","meta","9",{"property":"og:site_name","content":"云微的胡思乱想"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:type","content":"article"}],["$","meta","12",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","13",{"name":"twitter:title","content":"Apisix Profile OSPP 郑昱笙"}],["$","meta","14",{"name":"twitter:description","content":"Documentation: Apisix Profile OSPP 郑昱笙"}]],"error":null,"digest":"$undefined"}
+27:"$22:metadata"

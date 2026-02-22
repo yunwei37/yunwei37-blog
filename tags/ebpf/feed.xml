@@ -1,0 +1,414 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>云微的胡思乱想</title>
+      <link>https://www.yunwei37.com/blog</link>
+      <description>Personal Website of Yusheng Zheng | yunwei37</description>
+      <language>en-us</language>
+      <managingEditor>yunwei356@gmail.com (Yusheng Zheng)</managingEditor>
+      <webMaster>yunwei356@gmail.com (Yusheng Zheng)</webMaster>
+      <lastBuildDate>Sun, 11 Feb 2024 16:00:00 GMT</lastBuildDate>
+      <atom:link href="https://www.yunwei37.com/tags/ebpf/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.yunwei37.com/blog/1_0-release</guid>
+    <title>Introducing eunomia-bpf v1.0: Simplifying eBPF with CO-RE and WebAssembly</title>
+    <link>https://www.yunwei37.com/blog/1_0-release</link>
+    undefined
+    <pubDate>Sun, 11 Feb 2024 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/2025</guid>
+    <title>eBPF Ecosystem Progress in 2024–2025: A Technical Deep Dive</title>
+    <link>https://www.yunwei37.com/blog/2025</link>
+    undefined
+    <pubDate>Wed, 12 Feb 2025 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/GPTtrace</guid>
+    <title>Use ChatGPT to write eBPF programs and trace the Linux kernel with natural language</title>
+    <link>https://www.yunwei37.com/blog/GPTtrace</link>
+    undefined
+    <pubDate>Mon, 11 Sep 2023 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/agentsight_paper</guid>
+    <title>AgentSight: Keeping Your AI Agents Under Control with eBPF-Powered System Observability</title>
+    <link>https://www.yunwei37.com/blog/agentsight_paper</link>
+    undefined
+    <pubDate>Tue, 26 Aug 2025 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/aios</guid>
+    <title>OS-Level Challenges in LLM Inference and Optimizations</title>
+    <link>https://www.yunwei37.com/blog/aios</link>
+    undefined
+    <pubDate>Tue, 18 Feb 2025 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/asplos-2025</guid>
+    <title>ASPLOS 2025: Paper Summaries and Insights</title>
+    <link>https://www.yunwei37.com/blog/asplos-2025</link>
+    undefined
+    <pubDate>Fri, 25 Apr 2025 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/bpf-news</guid>
+    <title>eBPF Advanced: Overview of New Kernel Features</title>
+    <link>https://www.yunwei37.com/blog/bpf-news</link>
+    undefined
+    <pubDate>Tue, 11 Apr 2023 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/bpftime</guid>
+    <title>bpftime: Extending eBPF from Kernel to User Space</title>
+    <link>https://www.yunwei37.com/blog/bpftime</link>
+    undefined
+    <pubDate>Sat, 11 Nov 2023 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/check-restore</guid>
+    <title>Checkpoint/Restore Systems: Evolution, Techniques, and Applications in AI Agents</title>
+    <link>https://www.yunwei37.com/blog/check-restore</link>
+    undefined
+    <pubDate>Sun, 11 May 2025 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/claude-code-container</guid>
+    <title>Running Claude Code in Docker/Podman Containers: A Practical Guide</title>
+    <link>https://www.yunwei37.com/blog/claude-code-container</link>
+    undefined
+    <pubDate>Tue, 26 Aug 2025 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>docker</category><category>claude-code</category><category>containers</category><category>ebpf</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/code-survey</guid>
+    <title>Can LLMs understand Linux kernel? A New AI-Powered Approach to Understanding Large Codebases</title>
+    <link>https://www.yunwei37.com/blog/code-survey</link>
+    undefined
+    <pubDate>Tue, 01 Oct 2024 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/coolbpf-eunomia</guid>
+    <title>eunomia-bpf: Looking forward to 2023, let eBPF sprout wings with Wasm</title>
+    <link>https://www.yunwei37.com/blog/coolbpf-eunomia</link>
+    undefined
+    <pubDate>Wed, 11 Jan 2023 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/cxlmemtest</guid>
+    <title>**The Modern Memory Testing Arsenal -- A Complete Guide to Benchmarking Tools for Next-Gen Memory Systems**</title>
+    <link>https://www.yunwei37.com/blog/cxlmemtest</link>
+    undefined
+    <pubDate>Sat, 21 Jun 2025 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/ebpf-2024</guid>
+    <title>The eBPF Evolution and Future: From Linux Origins to Cross-Platform Dominance</title>
+    <link>https://www.yunwei37.com/blog/ebpf-2024</link>
+    undefined
+    <pubDate>Tue, 11 Jun 2024 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/ebpf-papers</guid>
+    <title>The Evolution and Impact of eBPF: A list of Key Research Papers from Recent Years</title>
+    <link>https://www.yunwei37.com/blog/ebpf-papers</link>
+    undefined
+    <pubDate>Mon, 11 Mar 2024 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/ebpf-security</guid>
+    <title>The Secure Path Forward for eBPF runtime: Challenges and Innovations</title>
+    <link>https://www.yunwei37.com/blog/ebpf-security</link>
+    undefined
+    <pubDate>Sun, 11 Feb 2024 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/ebpf-wasm</guid>
+    <title>When Wasm Meets eBPF: Writing, Distributing, Loading, and Running eBPF Programs with WebAssembly</title>
+    <link>https://www.yunwei37.com/blog/ebpf-wasm</link>
+    undefined
+    <pubDate>Sun, 11 Jun 2023 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/eurosys-2025</guid>
+    <title>EuroSys 2025 Paper Summaries and Analysis</title>
+    <link>https://www.yunwei37.com/blog/eurosys-2025</link>
+    undefined
+    <pubDate>Fri, 25 Apr 2025 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/extension</guid>
+    <title>Security Vulnerabilities Study in Software Extensions and Plugins</title>
+    <link>https://www.yunwei37.com/blog/extension</link>
+    undefined
+    <pubDate>Mon, 10 Feb 2025 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/github-templates</guid>
+    <title>Simplifying eBPF Development: GitHub Templates and Codespaces for Online Compilation and Execution</title>
+    <link>https://www.yunwei37.com/blog/github-templates</link>
+    undefined
+    <pubDate>Tue, 11 Jul 2023 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/gpu-observability-challenges</guid>
+    <title>The GPU Observability Gap: Why We Need eBPF on GPU devices</title>
+    <link>https://www.yunwei37.com/blog/gpu-observability-challenges</link>
+    undefined
+    <pubDate>Tue, 14 Oct 2025 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/gpu-profile-tool-impl</guid>
+    <title>GPU Profiling Under the Hood: An Implementation-Focused Survey of Modern Accelerator Tracing Tools</title>
+    <link>https://www.yunwei37.com/blog/gpu-profile-tool-impl</link>
+    undefined
+    <pubDate>Mon, 21 Apr 2025 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/gpu-profile-tools-analysis</guid>
+    <title>The Accelerator Toolkit: A Review of Profiling and Tracing for GPUs and other co-processor</title>
+    <link>https://www.yunwei37.com/blog/gpu-profile-tools-analysis</link>
+    undefined
+    <pubDate>Fri, 11 Apr 2025 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/how-to-write-c-in-wasm</guid>
+    <title>在 WebAssembly 中编写 eBPF 程序和使用 libbpf</title>
+    <link>https://www.yunwei37.com/blog/how-to-write-c-in-wasm</link>
+    undefined
+    <pubDate>Fri, 11 Feb 2022 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/how-to-write-rust-in-wasm</guid>
+    <title>在 WebAssembly 中使用 Rust 编写 eBPF 程序并发布 OCI 镜像</title>
+    <link>https://www.yunwei37.com/blog/how-to-write-rust-in-wasm</link>
+    undefined
+    <pubDate>Fri, 11 Feb 2022 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/iaprof-analysis</guid>
+    <title>Understanding iaprof: A Deep Dive into AI/GPU Flame Graph Profiling</title>
+    <link>https://www.yunwei37.com/blog/iaprof-analysis</link>
+    undefined
+    <pubDate>Sat, 11 Oct 2025 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/inline-hook</guid>
+    <title>Implementing an Inline Hook in C in 5 minutes</title>
+    <link>https://www.yunwei37.com/blog/inline-hook</link>
+    undefined
+    <pubDate>Thu, 11 Apr 2024 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/introduce-to-wasm-bpf-bpf-community</guid>
+    <title>Wasm-bpf: Bridging WebAssembly and eBPF for Kernel Programmability</title>
+    <link>https://www.yunwei37.com/blog/introduce-to-wasm-bpf-bpf-community</link>
+    undefined
+    <pubDate>Sat, 11 Feb 2023 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/kgent</guid>
+    <title>Simplifying Kernel Programming: The LLM-Powered eBPF Tool</title>
+    <link>https://www.yunwei37.com/blog/kgent</link>
+    undefined
+    <pubDate>Thu, 11 Jul 2024 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/llvmbpf</guid>
+    <title>Building High-Performance Userspace eBPF VMs with LLVM</title>
+    <link>https://www.yunwei37.com/blog/llvmbpf</link>
+    undefined
+    <pubDate>Tue, 10 Sep 2024 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/lmp-eunomia</guid>
+    <title>如何在 Linux 显微镜（LMP）项目中开启 eBPF 之旅？</title>
+    <link>https://www.yunwei37.com/blog/lmp-eunomia</link>
+    undefined
+    <pubDate>Tue, 11 Oct 2022 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/nvidia-open-driver-analysis</guid>
+    <title>NVIDIA Open GPU Kernel Modules Comprehensive Source Code Analysis</title>
+    <link>https://www.yunwei37.com/blog/nvidia-open-driver-analysis</link>
+    undefined
+    <pubDate>Tue, 14 Oct 2025 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/osdi-sosp-obser-debug</guid>
+    <title>**Observability, Profiling, and Debugging in Systems Conference (2015–2025)**</title>
+    <link>https://www.yunwei37.com/blog/osdi-sosp-obser-debug</link>
+    undefined
+    <pubDate>Sat, 21 Jun 2025 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/profile-tools-limitation</guid>
+    <title>Profiling and Tracing Tools Across System Layers and Architectures</title>
+    <link>https://www.yunwei37.com/blog/profile-tools-limitation</link>
+    undefined
+    <pubDate>Wed, 20 Aug 2025 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/ssl-uprobe</guid>
+    <title>eBPF Practical Tutorial: Capturing SSL/TLS Plain Text Data Using uprobe</title>
+    <link>https://www.yunwei37.com/blog/ssl-uprobe</link>
+    undefined
+    <pubDate>Wed, 14 Jun 2023 02:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>tutorial</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/ten-years</guid>
+    <title>The Past, Present, and Future of eBPF and Its Path to Revolutionizing Systems</title>
+    <link>https://www.yunwei37.com/blog/ten-years</link>
+    undefined
+    <pubDate>Sun, 11 Aug 2024 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/test-for-Android</guid>
+    <title>Running the ecli on Android 13</title>
+    <link>https://www.yunwei37.com/blog/test-for-Android</link>
+    undefined
+    <pubDate>Sun, 11 Sep 2022 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/userspace-ebpf</guid>
+    <title>Userspace eBPF Runtimes: Overview and Applications</title>
+    <link>https://www.yunwei37.com/blog/userspace-ebpf</link>
+    undefined
+    <pubDate>Thu, 11 Jan 2024 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/wasi-cm</guid>
+    <title>WASI and the WebAssembly Component Model: Current Status</title>
+    <link>https://www.yunwei37.com/blog/wasi-cm</link>
+    undefined
+    <pubDate>Sun, 16 Feb 2025 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/wasm-bpf</guid>
+    <title>Wasm-bpf: A Common eBPF Kernel Programmability for Cloud-Native Webassembly</title>
+    <link>https://www.yunwei37.com/blog/wasm-bpf</link>
+    undefined
+    <pubDate>Sat, 11 Feb 2023 16:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>ebpf</category><category>systems</category>
+  </item>
+
+    </channel>
+  </rss>

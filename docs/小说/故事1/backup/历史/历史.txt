@@ -1,0 +1,1985 @@
+1:"$Sreact.fragment"
+2:I[1478,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"ThemeProviders"]
+3:I[4091,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"default"]
+4:I[9243,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],""]
+5:I[7392,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"KBarSearchProvider"]
+6:I[6874,["874","static/chunks/874-8edb22cc7428423c.js","63","static/chunks/63-d245e42a784ca56d.js","974","static/chunks/app/page-55e305169e4b271e.js"],""]
+f:I[8393,[],""]
+:HL["/_next/static/media/36966cca54120369-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/4ac7c0f872b74ee7.css","style"]
+:HL["/_next/static/css/a06d7e24bf9a7d93.css","style"]
+0:{"P":null,"b":"MYXrWUjg0HELsl6zLYF_6","p":"","c":["","docs","%E5%B0%8F%E8%AF%B4","%E6%95%85%E4%BA%8B1","backup","%E5%8E%86%E5%8F%B2","%E5%8E%86%E5%8F%B2"],"i":false,"f":[[["",{"children":["docs",{"children":[["slug","%E5%B0%8F%E8%AF%B4/%E6%95%85%E4%BA%8B1/backup/%E5%8E%86%E5%8F%B2/%E5%8E%86%E5%8F%B2","c"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4ac7c0f872b74ee7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/a06d7e24bf9a7d93.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en-us","className":"__variable_dd5b2f scroll-smooth","suppressHydrationWarning":true,"children":[["$","link",null,{"rel":"apple-touch-icon","sizes":"76x76","href":"/static/favicons/apple-touch-icon.png"}],["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/static/favicons/favicon.svg"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"32x32","href":"/static/favicons/favicon-32x32.png"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"16x16","href":"/static/favicons/favicon-16x16.png"}],["$","link",null,{"rel":"manifest","href":"/static/favicons/site.webmanifest"}],["$","link",null,{"rel":"mask-icon","href":"/static/favicons/safari-pinned-tab.svg","color":"#5bbad5"}],["$","meta",null,{"name":"msapplication-TileColor","content":"#000000"}],["$","meta",null,{"name":"theme-color","media":"(prefers-color-scheme: light)","content":"#fff"}],["$","meta",null,{"name":"theme-color","media":"(prefers-color-scheme: dark)","content":"#000"}],["$","link",null,{"rel":"alternate","type":"application/rss+xml","href":"/feed.xml"}],["$","body",null,{"className":"pl-[calc(100vw-100%)] text-black antialiased dark:text-white min-h-screen","children":["$","$L2",null,{"children":[["$","$L3",null,{}],["$undefined","$undefined","$undefined",["$","$L4",null,{"async":true,"defer":true,"src":"https://analytics.umami.is/script.js"}],"$undefined","$undefined"],["$","div",null,{"className":"min-h-screen flex flex-col justify-center py-8","children":["$","div",null,{"className":"content-glass mx-auto w-full max-w-5xl px-4 sm:px-6 xl:px-8 py-8","children":["$","$L5",null,{"kbarConfig":{"searchDocumentsPath":"/search.json"},"children":[["$","header",null,{"className":"flex items-center w-full justify-between py-6 border-b border-gray-200/30 dark:border-gray-700/30","children":[["$","$L6",null,{"className":"break-words","href":"/","aria-label":"yunwei37","children":["$","div",null,{"className":"flex items-center","children":[["$","div",null,{"className":"mr-3","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":40,"height":40,"fill":"none","children":[["$","defs",null,{"children":[["$","linearGradient",null,{"id":"logo_svg__a","x1":"0%","x2":"100%","y1":"0%","y2":"100%","children":[["$","stop",null,{"offset":"0%","style":{"stopColor":"#3b82f6","stopOpacity":1}}],["$","stop",null,{"offset":"100%","style":{"stopColor":"#06b6d4","stopOpacity":1}}]]}],["$","linearGradient",null,{"id":"logo_svg__b","x1":"0%","x2":"100%","y1":"0%","y2":"100%","children":[["$","stop",null,{"offset":"0%","style":{"stopColor":"#8b5cf6","stopOpacity":1}}],["$","stop",null,{"offset":"100%","style":{"stopColor":"#3b82f6","stopOpacity":1}}]]}]]}],["$","circle",null,{"cx":20,"cy":20,"r":18,"fill":"url(#logo_svg__a)","opacity":0.1}],["$","path",null,{"fill":"url(#logo_svg__a)","d":"m12 8 6 10v10h4V18l6-10h-4l-4 6-4-6Z"}],["$","path",null,{"fill":"url(#logo_svg__b)","d":"m8 24 4 8 4-8 4 8 4-8h8v4h-6l-4 8-4-8-4 8-4-8H8Z","opacity":0.8}],["$","circle",null,{"cx":32,"cy":12,"r":2,"fill":"url(#logo_svg__b)"}],["$","circle",null,{"cx":8,"cy":12,"r":1.5,"fill":"url(#logo_svg__a)","opacity":0.6}]]}]}],["$","div",null,{"className":"hidden text-2xl font-bold sm:block hover:text-primary-600 dark:hover:text-primary-400 transition-colors","children":"yunwei37"}]]}]}],["$","div",null,{"className":"flex items-center space-x-4","children":[["$","div",null,{"className":"no-scrollbar hidden items-center space-x-2 sm:flex","children":[["$","$L6","Blog",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/blog","children":"Blog"}],["$","$L6","Docs",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/docs","children":"Docs"}],["$","$L6","Tags",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/tags","children":"Tags"}],"$L7"]}],"$L8"]}]]}],"$L9","$La"]}]}]}]]}]}]]}]]}],{"children":["docs","$Lb",{"children":[["slug","%E5%B0%8F%E8%AF%B4/%E6%95%85%E4%BA%8B1/backup/%E5%8E%86%E5%8F%B2/%E5%8E%86%E5%8F%B2","c"],"$Lc",{"children":["__PAGE__","$Ld",{},null,false]},null,false]},null,false]},null,false],"$Le",false]],"m":"$undefined","G":["$f",[]],"s":false,"S":true}
+10:I[4159,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"KBarButton"]
+11:I[1762,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"default"]
+12:I[7298,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"default"]
+13:I[7555,[],""]
+14:I[1295,[],""]
+1f:I[9665,[],"OutletBoundary"]
+21:I[4911,[],"AsyncMetadataOutlet"]
+23:I[9665,[],"ViewportBoundary"]
+25:I[9665,[],"MetadataBoundary"]
+26:"$Sreact.suspense"
+7:["$","$L6","About",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/about","children":"About"}]
+8:["$","div",null,{"className":"flex items-center space-x-2","children":[["$","$L10",null,{"aria-label":"Search","className":"p-2 rounded-lg transition-all duration-200","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","strokeWidth":1.5,"stroke":"currentColor","className":"h-6 w-6 hover:text-primary-600 dark:hover:text-primary-400 transition-colors","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","d":"M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"}]}]}],["$","$L11",null,{}],["$","$L12",null,{}]]}]
+9:["$","main",null,{"className":"py-6","children":["$","$L13",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L14",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"flex flex-col items-start justify-start md:mt-24 md:flex-row md:items-center md:justify-center md:space-x-6","children":[["$","div",null,{"className":"space-x-2 pt-6 pb-8 md:space-y-5","children":["$","h1",null,{"className":"text-6xl leading-9 font-extrabold tracking-tight md:border-r-2 md:px-6 md:text-8xl md:leading-14","children":"404"}]}],["$","div",null,{"className":"max-w-md","children":[["$","p",null,{"className":"mb-4 text-xl leading-normal font-bold md:text-2xl","children":"Sorry we couldn't find this page."}],["$","p",null,{"className":"mb-8","children":"But dont worry, you can find plenty of other things on our homepage."}],["$","$L6",null,{"className":"focus:shadow-outline-blue inline rounded-lg border border-transparent bg-blue-600 px-4 py-2 text-sm leading-5 font-medium text-white shadow-xs transition-colors duration-150 hover:bg-blue-700 focus:outline-hidden dark:hover:bg-blue-500","href":"/","children":"Back to homepage"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]
+a:["$","footer",null,{"className":"border-t border-gray-200/30 dark:border-gray-700/30 pt-8","children":["$","div",null,{"className":"flex flex-col items-center space-y-6","children":[["$","div",null,{"className":"flex flex-wrap justify-center gap-4","children":[["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"mailto:yunwei356@gmail.com","children":[["$","span",null,{"className":"sr-only","children":"mail"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Mail"}],["$","path",null,{"d":"M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"}],["$","path",null,{"d":"M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"}]]}]]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://github.com/yunwei37","children":[["$","span",null,{"className":"sr-only","children":"github"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"GitHub"}],["$","path",null,{"d":"M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"}]]}]]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://facebook.com","children":[["$","span",null,{"className":"sr-only","children":"facebook"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Facebook"}],["$","path",null,{"d":"M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"}]]}]]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://youtube.com","children":[["$","span",null,{"className":"sr-only","children":"youtube"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Youtube"}],["$","path",null,{"d":"M23.499 6.203a3.008 3.008 0 00-2.089-2.089c-1.87-.501-9.4-.501-9.4-.501s-7.509-.01-9.399.501a3.008 3.008 0 00-2.088 2.09A31.258 31.26 0 000 12.01a31.258 31.26 0 00.523 5.785 3.008 3.008 0 002.088 2.089c1.869.502 9.4.502 9.4.502s7.508 0 9.399-.502a3.008 3.008 0 002.089-2.09 31.258 31.26 0 00.5-5.784 31.258 31.26 0 00-.5-5.808zm-13.891 9.4V8.407l6.266 3.604z"}]]}]]}],"$L15","$L16","$L17","$L18","$L19","$L1a","$L1b"]}],"$L1c","$L1d"]}]}]
+b:["$","$1","c",{"children":[null,["$","$L13",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L14",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+c:["$","$1","c",{"children":[null,["$","$L13",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L14",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+d:["$","$1","c",{"children":["$L1e",null,["$","$L1f",null,{"children":["$L20",["$","$L21",null,{"promise":"$@22"}]]}]]}]
+e:["$","$1","h",{"children":[null,[["$","$L23",null,{"children":"$L24"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L25",null,{"children":["$","div",null,{"hidden":true,"children":["$","$26",null,{"fallback":null,"children":"$L27"}]}]}]]}]
+15:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://www.linkedin.com/in/yusheng-zheng-611920280","children":[["$","span",null,{"className":"sr-only","children":"linkedin"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Linkedin"}],["$","path",null,{"d":"M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"}]]}]]}]
+16:null
+17:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://bsky.app/","children":[["$","span",null,{"className":"sr-only","children":"bluesky"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Bluesky"}],["$","path",null,{"d":"M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565C.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479c.815 2.736 3.713 3.66 6.383 3.364q.204-.03.415-.056q-.207.033-.415.056c-3.912.58-7.387 2.005-2.83 7.078c5.013 5.19 6.87-1.113 7.823-4.308c.953 3.195 2.05 9.271 7.733 4.308c4.267-4.308 1.172-6.498-2.74-7.078a9 9 0 0 1-.415-.056q.21.026.415.056c2.67.297 5.568-.628 6.383-3.364c.246-.828.624-5.79.624-6.478c0-.69-.139-1.861-.902-2.206c-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8"}]]}]]}]
+18:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://x.com/yunwei37","children":[["$","span",null,{"className":"sr-only","children":"x"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"X"}],["$","path",null,{"d":"M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"}]]}]]}]
+28:T69f,M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z19:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://www.instagram.com","children":[["$","span",null,{"className":"sr-only","children":"instagram"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Instagram"}],["$","path",null,{"d":"$28"}]]}]]}]
+29:T498,M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.964-.065-1.19.408-2.285 1.33-3.082.88-.76 2.119-1.207 3.583-1.291a13.853 13.853 0 0 1 3.02.142c-.126-.742-.375-1.332-.75-1.757-.513-.586-1.308-.883-2.359-.89h-.029c-.844 0-1.992.232-2.721 1.32L7.734 7.847c.98-1.454 2.568-2.256 4.478-2.256h.044c3.194.02 5.097 1.975 5.287 5.388.108.046.216.094.321.142 1.49.7 2.58 1.761 3.154 3.07.797 1.82.871 4.79-1.548 7.158-1.85 1.81-4.094 2.628-7.277 2.65Zm1.003-11.69c-.242 0-.487.007-.739.021-1.836.103-2.98.946-2.916 2.143.067 1.256 1.452 1.839 2.784 1.767 1.224-.065 2.818-.543 3.086-3.71a10.5 10.5 0 0 0-2.215-.221z1a:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://www.threads.net","children":[["$","span",null,{"className":"sr-only","children":"threads"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Threads"}],["$","path",null,{"d":"$29"}]]}]]}]
+1b:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://medium.com","children":[["$","span",null,{"className":"sr-only","children":"medium"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Medium"}],["$","path",null,{"d":"M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"}]]}]]}]
+1c:["$","div",null,{"className":"flex space-x-2 text-sm opacity-80","children":[["$","div",null,{"children":"Yusheng Zheng"}],["$","div",null,{"children":" • "}],["$","div",null,{"children":"© 2026"}],["$","div",null,{"children":" • "}],["$","$L6",null,{"className":"hover:text-primary-500 transition-colors","href":"/","children":"云微的胡思乱想"}]]}]
+1d:["$","div",null,{"className":"text-sm opacity-60","children":["$","a",null,{"className":"hover:text-primary-500 transition-colors","target":"_blank","rel":"noopener noreferrer","href":"https://github.com/timlrx/tailwind-nextjs-starter-blog","children":"Tailwind Nextjs Theme"}]}]
+2a:I[3429,["874","static/chunks/874-8edb22cc7428423c.js","582","static/chunks/app/docs/%5B...slug%5D/page-0c54796a1c75eb33.js"],"default"]
+1e:["$","$L2a",null,{"content":{"slug":"小说/故事1/backup/历史/历史","title":"历史","path":"docs/小说/故事1/backup/历史/历史"},"allDocs":[{"slug":"prompt/story","title":"Story","path":"docs/prompt/story"},{"slug":"random/apisix-profile-OSPP-郑昱笙","title":"Apisix Profile OSPP 郑昱笙","path":"docs/random/apisix-profile-OSPP-郑昱笙"},{"slug":"random/intro","title":"Intro","path":"docs/random/intro"},{"slug":"random/introen","title":"Introen","path":"docs/random/introen"},{"slug":"random/network_paper","title":"Network_paper","path":"docs/random/network_paper"},{"slug":"random/talk_docvqa.","title":"Talk_docvqa.","path":"docs/random/talk_docvqa."},{"slug":"代码/AI辅助代码生成是否将成为未来编程的主流","title":"AI辅助代码生成是否将成为未来编程的主流","path":"docs/代码/AI辅助代码生成是否将成为未来编程的主流"},{"slug":"小说/playground/story1","title":"Story1","path":"docs/小说/playground/story1"},{"slug":"小说/性与性别流动/故事/ai_symbiosis_system","title":"Ai_symbiosis_system","path":"docs/小说/性与性别流动/故事/ai_symbiosis_system"},{"slug":"小说/性与性别流动/故事/future","title":"性的未来：数字时代的科技、伦理与人类连接","path":"docs/小说/性与性别流动/故事/future"},{"slug":"小说/性与性别流动/故事/guideline","title":"Guideline","path":"docs/小说/性与性别流动/故事/guideline"},{"slug":"小说/性与性别流动/故事/ideas","title":"Ideas","path":"docs/小说/性与性别流动/故事/ideas"},{"slug":"小说/性与性别流动/故事/master_index","title":"Master_index","path":"docs/小说/性与性别流动/故事/master_index"},{"slug":"小说/性与性别流动/故事/outlines","title":"Outlines","path":"docs/小说/性与性别流动/故事/outlines"},{"slug":"小说/性与性别流动/故事/social_systems_design","title":"Social_systems_design","path":"docs/小说/性与性别流动/故事/social_systems_design"},{"slug":"小说/性与性别流动/故事/specific_technologies","title":"Specific_technologies","path":"docs/小说/性与性别流动/故事/specific_technologies"},{"slug":"小说/性与性别流动/故事/technology_timeline","title":"Technology_timeline","path":"docs/小说/性与性别流动/故事/technology_timeline"},{"slug":"小说/性与性别流动/故事/world_background","title":"World_background","path":"docs/小说/性与性别流动/故事/world_background"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/chapter_titles_candidates","title":"Chapter_titles_candidates","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/chapter_titles_candidates"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/guideline","title":"Guideline","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/guideline"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/more_intro","title":"More_intro","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/more_intro"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/story_outline_summary","title":"Story_outline_summary","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/story_outline_summary"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/主角心态变化分析","title":"主角心态变化分析","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/主角心态变化分析"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕_流影的记忆碎片_大纲","title":"第四幕_流影的记忆碎片_大纲","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕_流影的记忆碎片_大纲"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/1","title":"1","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/1"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/2","title":"2","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/2"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/3","title":"3","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/3"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/4","title":"4","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/4"},{"slug":"小说/性与性别流动/故事/集合/1/characters","title":"Characters","path":"docs/小说/性与性别流动/故事/集合/1/characters"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/8","title":"8","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/8"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/第五幕_再遇许璃与派系暗流","title":"第五幕_再遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/第五幕_再遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/第五幕_再遇许璃与派系暗流 copy","title":"第五幕_再遇许璃与派系暗流 copy","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/第五幕_再遇许璃与派系暗流 copy"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/design","title":"Design","path":"docs/小说/性与性别流动/故事/集合/1/design"},{"slug":"小说/性与性别流动/故事/集合/1/intro","title":"Intro","path":"docs/小说/性与性别流动/故事/集合/1/intro"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第一幕_修改建议","title":"第一幕_修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第一幕_修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第三幕_修改建议","title":"第三幕_修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第三幕_修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第二幕_修改建议","title":"第二幕_修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第二幕_修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第五幕_初遇许璃与派系暗流_扩展与修改建议","title":"第五幕_初遇许璃与派系暗流_扩展与修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第五幕_初遇许璃与派系暗流_扩展与修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第四幕_修改建议","title":"第四幕_修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第四幕_修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/general/1-3","title":"1 3","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/general/1-3"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第五幕_再遇许璃与派系暗流","title":"第五幕_再遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第五幕_再遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/more_intro","title":"More_intro","path":"docs/小说/性与性别流动/故事/集合/1/more_intro"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter1_意外觉醒","title":"Chapter1_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter1_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter2_艰难适应","title":"Chapter2_艰难适应","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter2_艰难适应"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter3_暗流涌动","title":"Chapter3_暗流涌动","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter3_暗流涌动"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter4_假面嘉年华","title":"Chapter4_假面嘉年华","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter4_假面嘉年华"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter5_三方博弈","title":"Chapter5_三方博弈","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter5_三方博弈"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter6_真相与背叛","title":"Chapter6_真相与背叛","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter6_真相与背叛"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter7_意识围猎","title":"Chapter7_意识围猎","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter7_意识围猎"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter8_破局重组","title":"Chapter8_破局重组","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter8_破局重组"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter9_新的开始","title":"Chapter9_新的开始","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter9_新的开始"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/outline/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/outline/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/outline/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/outline/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/outline/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/outline/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/outline/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/outline/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十六幕_开放的未来与永恒的探索","title":"第十六幕_开放的未来与永恒的探索","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十六幕_开放的未来与永恒的探索"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/outline/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第15幕_新秩序的建立与考验","title":"第15幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第15幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十六幕_开放的未来与永恒的探索","title":"第十六幕_开放的未来与永恒的探索","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十六幕_开放的未来与永恒的探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十六幕_开放的未来与永恒的探索","title":"第十六幕_开放的未来与永恒的探索","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十六幕_开放的未来与永恒的探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十六幕_开放的未来与永恒的探索","title":"第十六幕_开放的未来与永恒的探索","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十六幕_开放的未来与永恒的探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第一幕_意外觉醒_正文","title":"第一幕_意外觉醒_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第一幕_意外觉醒_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第七幕_地下黑市初探_正文","title":"第七幕_地下黑市初探_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第七幕_地下黑市初探_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第三幕_镜中新我与身体探索_正文","title":"第三幕_镜中新我与身体探索_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第三幕_镜中新我与身体探索_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第九幕_数字痕迹_正文","title":"第九幕_数字痕迹_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第九幕_数字痕迹_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第二幕_身体重塑的七日历程_正文","title":"第二幕_身体重塑的七日历程_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第二幕_身体重塑的七日历程_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第五幕_初遇许璃与派系暗流_正文","title":"第五幕_初遇许璃与派系暗流_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第五幕_初遇许璃与派系暗流_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第八幕_情感探索与身份认同危机_正文","title":"第八幕_情感探索与身份认同危机_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第八幕_情感探索与身份认同危机_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第六幕_身体流动庆典_正文","title":"第六幕_身体流动庆典_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第六幕_身体流动庆典_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十一幕_压力测试_正文","title":"第十一幕_压力测试_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十一幕_压力测试_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十三幕_无解的道德困境_正文","title":"第十三幕_无解的道德困境_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十三幕_无解的道德困境_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十二幕_意识病毒危机爆发_正文","title":"第十二幕_意识病毒危机爆发_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十二幕_意识病毒危机爆发_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十五幕_新秩序的建立与考验_正文","title":"第十五幕_新秩序的建立与考验_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十五幕_新秩序的建立与考验_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十四幕_意外联盟与妥协方案_正文","title":"第十四幕_意外联盟与妥协方案_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十四幕_意外联盟与妥协方案_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十幕_系统故障_正文","title":"第十幕_系统故障_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十幕_系统故障_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第四幕_流影的记忆碎片_正文","title":"第四幕_流影的记忆碎片_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第四幕_流影的记忆碎片_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_01_awakening","title":"Chapter_01_awakening","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_01_awakening"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_02_adaptation","title":"Chapter_02_adaptation","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_02_adaptation"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_03_body_awakening","title":"Chapter_03_body_awakening","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_03_body_awakening"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_04_undercurrents","title":"Chapter_04_undercurrents","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_04_undercurrents"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_05_carnival","title":"Chapter_05_carnival","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_05_carnival"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_06_three_way_struggle","title":"Chapter_06_three_way_struggle","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_06_three_way_struggle"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_07_emotional_deepening","title":"Chapter_07_emotional_deepening","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_07_emotional_deepening"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_08_truth_and_betrayal","title":"Chapter_08_truth_and_betrayal","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_08_truth_and_betrayal"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_09_consciousness_siege","title":"Chapter_09_consciousness_siege","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_09_consciousness_siege"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_10_breakthrough_and_new_beginning","title":"Chapter_10_breakthrough_and_new_beginning","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_10_breakthrough_and_new_beginning"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/summary","title":"Summary","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/summary"},{"slug":"小说/性与性别流动/故事/集合/1/summary","title":"Summary","path":"docs/小说/性与性别流动/故事/集合/1/summary"},{"slug":"小说/性与性别流动/讨论/01_生物科技与身体改造研究报告","title":"01_生物科技与身体改造研究报告","path":"docs/小说/性与性别流动/讨论/01_生物科技与身体改造研究报告"},{"slug":"小说/性与性别流动/讨论/02_赛博格时代社会影响分析报告","title":"02_赛博格时代社会影响分析报告","path":"docs/小说/性与性别流动/讨论/02_赛博格时代社会影响分析报告"},{"slug":"小说/性与性别流动/讨论/03_性与亲密关系的未来演变研究","title":"03_性与亲密关系的未来演变研究","path":"docs/小说/性与性别流动/讨论/03_性与亲密关系的未来演变研究"},{"slug":"小说/性与性别流动/讨论/05_伦理与哲学思辨专题","title":"05_伦理与哲学思辨专题","path":"docs/小说/性与性别流动/讨论/05_伦理与哲学思辨专题"},{"slug":"小说/性与性别流动/讨论/idea","title":"Idea","path":"docs/小说/性与性别流动/讨论/idea"},{"slug":"小说/性与性别流动/讨论/性与亲密关系研究问题集","title":"性与亲密关系研究问题集","path":"docs/小说/性与性别流动/讨论/性与亲密关系研究问题集"},{"slug":"小说/性与性别流动/讨论/机密档案：情感动力学（合欢宗）技术与哲学纲要","title":"机密档案：情感动力学（合欢宗）技术与哲学纲要","path":"docs/小说/性与性别流动/讨论/机密档案：情感动力学（合欢宗）技术与哲学纲要"},{"slug":"小说/改文/我的化身正在成为最终BOSS/character_redesign_female_protagonist","title":"Character_redesign_female_protagonist","path":"docs/小说/改文/我的化身正在成为最终BOSS/character_redesign_female_protagonist"},{"slug":"小说/改文/我的化身正在成为最终BOSS/summary","title":"Summary","path":"docs/小说/改文/我的化身正在成为最终BOSS/summary"},{"slug":"小说/故事1/backup/主线","title":"主线","path":"docs/小说/故事1/backup/主线"},{"slug":"小说/故事1/backup/主线_v2","title":"主线_v2","path":"docs/小说/故事1/backup/主线_v2"},{"slug":"小说/故事1/backup/历史/历史","title":"历史","path":"docs/小说/故事1/backup/历史/历史"},{"slug":"小说/故事1/backup/历史/赤胎环舟本纪","title":"赤胎环舟本纪","path":"docs/小说/故事1/backup/历史/赤胎环舟本纪"},{"slug":"小说/故事1/backup/大纲/1","title":"1","path":"docs/小说/故事1/backup/大纲/1"},{"slug":"小说/故事1/backup/大纲/10","title":"10","path":"docs/小说/故事1/backup/大纲/10"},{"slug":"小说/故事1/backup/大纲/11","title":"11","path":"docs/小说/故事1/backup/大纲/11"},{"slug":"小说/故事1/backup/大纲/12","title":"12","path":"docs/小说/故事1/backup/大纲/12"},{"slug":"小说/故事1/backup/大纲/13","title":"13","path":"docs/小说/故事1/backup/大纲/13"},{"slug":"小说/故事1/backup/大纲/14","title":"14","path":"docs/小说/故事1/backup/大纲/14"},{"slug":"小说/故事1/backup/大纲/15","title":"15","path":"docs/小说/故事1/backup/大纲/15"},{"slug":"小说/故事1/backup/大纲/16","title":"16","path":"docs/小说/故事1/backup/大纲/16"},{"slug":"小说/故事1/backup/大纲/2","title":"2","path":"docs/小说/故事1/backup/大纲/2"},{"slug":"小说/故事1/backup/大纲/3","title":"3","path":"docs/小说/故事1/backup/大纲/3"},{"slug":"小说/故事1/backup/大纲/4","title":"4","path":"docs/小说/故事1/backup/大纲/4"},{"slug":"小说/故事1/backup/大纲/5","title":"5","path":"docs/小说/故事1/backup/大纲/5"},{"slug":"小说/故事1/backup/大纲/6","title":"6","path":"docs/小说/故事1/backup/大纲/6"},{"slug":"小说/故事1/backup/大纲/7","title":"7","path":"docs/小说/故事1/backup/大纲/7"},{"slug":"小说/故事1/backup/大纲/8","title":"8","path":"docs/小说/故事1/backup/大纲/8"},{"slug":"小说/故事1/backup/大纲/9","title":"9","path":"docs/小说/故事1/backup/大纲/9"},{"slug":"小说/故事1/backup/大纲/大纲总结","title":"大纲总结","path":"docs/小说/故事1/backup/大纲/大纲总结"},{"slug":"小说/故事1/backup/大纲/设定问题分析","title":"设定问题分析","path":"docs/小说/故事1/backup/大纲/设定问题分析"},{"slug":"小说/故事1/backup/大纲2/17","title":"17","path":"docs/小说/故事1/backup/大纲2/17"},{"slug":"小说/故事1/backup/大纲2/18","title":"18","path":"docs/小说/故事1/backup/大纲2/18"},{"slug":"小说/故事1/backup/大纲2/21","title":"21","path":"docs/小说/故事1/backup/大纲2/21"},{"slug":"小说/故事1/backup/大纲2/22","title":"22","path":"docs/小说/故事1/backup/大纲2/22"},{"slug":"小说/故事1/backup/大纲2/23","title":"23","path":"docs/小说/故事1/backup/大纲2/23"},{"slug":"小说/故事1/backup/大纲2/24","title":"24","path":"docs/小说/故事1/backup/大纲2/24"},{"slug":"小说/故事1/backup/大纲2/25","title":"25","path":"docs/小说/故事1/backup/大纲2/25"},{"slug":"小说/故事1/backup/大纲2/26","title":"26","path":"docs/小说/故事1/backup/大纲2/26"},{"slug":"小说/故事1/backup/大纲2/27","title":"27","path":"docs/小说/故事1/backup/大纲2/27"},{"slug":"小说/故事1/backup/大纲2/28","title":"28","path":"docs/小说/故事1/backup/大纲2/28"},{"slug":"小说/故事1/backup/大纲2/29","title":"29","path":"docs/小说/故事1/backup/大纲2/29"},{"slug":"小说/故事1/backup/大纲2/30","title":"30","path":"docs/小说/故事1/backup/大纲2/30"},{"slug":"小说/故事1/backup/大纲2/31","title":"31","path":"docs/小说/故事1/backup/大纲2/31"},{"slug":"小说/故事1/backup/大纲2/32","title":"32","path":"docs/小说/故事1/backup/大纲2/32"},{"slug":"小说/故事1/backup/大纲2/33","title":"33","path":"docs/小说/故事1/backup/大纲2/33"},{"slug":"小说/故事1/backup/大纲2/34","title":"34","path":"docs/小说/故事1/backup/大纲2/34"},{"slug":"小说/故事1/backup/大纲2/如何写设定","title":"如何写设定","path":"docs/小说/故事1/backup/大纲2/如何写设定"},{"slug":"小说/故事1/backup/大纲2/表格","title":"表格","path":"docs/小说/故事1/backup/大纲2/表格"},{"slug":"小说/故事1/backup/大纲prompt","title":"大纲prompt","path":"docs/小说/故事1/backup/大纲prompt"},{"slug":"小说/故事1/backup/描述","title":"描述","path":"docs/小说/故事1/backup/描述"},{"slug":"小说/故事1/核心","title":"核心","path":"docs/小说/故事1/核心"},{"slug":"小说/故事1/设定/prompt","title":"Prompt","path":"docs/小说/故事1/设定/prompt"},{"slug":"小说/故事1/设定/一魂多体爽点分析","title":"一魂多体爽点分析","path":"docs/小说/故事1/设定/一魂多体爽点分析"},{"slug":"小说/故事1/设定/价值观与哲学（世界的灵魂）/冲突","title":"冲突","path":"docs/小说/故事1/设定/价值观与哲学（世界的灵魂）/冲突"},{"slug":"小说/故事1/设定/力量体系与神器（成长的道具）/力量体系构建的第一性原理","title":"力量体系构建的第一性原理","path":"docs/小说/故事1/设定/力量体系与神器（成长的道具）/力量体系构建的第一性原理"},{"slug":"小说/故事1/设定/历史与时间线（深度时间感）/战锤化修改合集","title":"战锤化修改合集","path":"docs/小说/故事1/设定/历史与时间线（深度时间感）/战锤化修改合集"},{"slug":"小说/故事1/设定/历史与时间线（深度时间感）/描述","title":"描述","path":"docs/小说/故事1/设定/历史与时间线（深度时间感）/描述"},{"slug":"小说/故事1/设定/历史与时间线（深度时间感）/政治年表","title":"政治年表","path":"docs/小说/故事1/设定/历史与时间线（深度时间感）/政治年表"},{"slug":"小说/故事1/设定/历史与时间线（深度时间感）/深层秘密-胚胎与看护者","title":"深层秘密 胚胎与看护者","path":"docs/小说/故事1/设定/历史与时间线（深度时间感）/深层秘密-胚胎与看护者"},{"slug":"小说/故事1/设定/地理与生态环境（戏剧的舞台）/世界","title":"世界","path":"docs/小说/故事1/设定/地理与生态环境（戏剧的舞台）/世界"},{"slug":"小说/故事1/设定/地理与生态环境（戏剧的舞台）/场景","title":"场景","path":"docs/小说/故事1/设定/地理与生态环境（戏剧的舞台）/场景"},{"slug":"小说/故事1/设定/大纲","title":"大纲","path":"docs/小说/故事1/设定/大纲"},{"slug":"小说/故事1/设定/大纲修改意见","title":"大纲修改意见","path":"docs/小说/故事1/设定/大纲修改意见"},{"slug":"小说/故事1/设定/设定指导","title":"设定指导","path":"docs/小说/故事1/设定/设定指导"},{"slug":"小说/短篇/年轮里的回声/年轮里的回声","title":"年轮里的回声","path":"docs/小说/短篇/年轮里的回声/年轮里的回声"},{"slug":"小说/短篇/年轮里的回声/年轮里的回声-完整","title":"年轮里的回声 完整","path":"docs/小说/短篇/年轮里的回声/年轮里的回声-完整"},{"slug":"小说/短篇/年轮里的回声/年轮里的回声2","title":"年轮里的回声2","path":"docs/小说/短篇/年轮里的回声/年轮里的回声2"},{"slug":"小说/短篇/年轮里的回声/题目与简介选项","title":"题目与简介选项","path":"docs/小说/短篇/年轮里的回声/题目与简介选项"},{"slug":"小说/诈骗/claude/人物设定与大纲","title":"人物设定与大纲","path":"docs/小说/诈骗/claude/人物设定与大纲"},{"slug":"小说/诈骗/claude/第一章：老人的眼泪","title":"第一章：老人的眼泪","path":"docs/小说/诈骗/claude/第一章：老人的眼泪"},{"slug":"小说/诈骗/claude/第七章：猫鼠游戏","title":"第七章：猫鼠游戏","path":"docs/小说/诈骗/claude/第七章：猫鼠游戏"},{"slug":"小说/诈骗/claude/第三章：进入围城","title":"第三章：进入围城","path":"docs/小说/诈骗/claude/第三章：进入围城"},{"slug":"小说/诈骗/claude/第九章：黑吃黑的艺术","title":"第九章：黑吃黑的艺术","path":"docs/小说/诈骗/claude/第九章：黑吃黑的艺术"},{"slug":"小说/诈骗/claude/第二章：猎人的准备","title":"第二章：猎人的准备","path":"docs/小说/诈骗/claude/第二章：猎人的准备"},{"slug":"小说/诈骗/claude/第五章：第一次交锋","title":"第五章：第一次交锋","path":"docs/小说/诈骗/claude/第五章：第一次交锋"},{"slug":"小说/诈骗/claude/第八章：绝地反击","title":"第八章：绝地反击","path":"docs/小说/诈骗/claude/第八章：绝地反击"},{"slug":"小说/诈骗/claude/第六章：连环套局","title":"第六章：连环套局","path":"docs/小说/诈骗/claude/第六章：连环套局"},{"slug":"小说/诈骗/claude/第十章：收网时刻","title":"第十章：收网时刻","path":"docs/小说/诈骗/claude/第十章：收网时刻"},{"slug":"小说/诈骗/claude/第四章：深入虎穴","title":"第四章：深入虎穴","path":"docs/小说/诈骗/claude/第四章：深入虎穴"},{"slug":"小说/诈骗/修仙/人物设定与大纲","title":"人物设定与大纲","path":"docs/小说/诈骗/修仙/人物设定与大纲"},{"slug":"小说/诈骗/修仙/如何讲话让人火大","title":"如何讲话让人火大","path":"docs/小说/诈骗/修仙/如何讲话让人火大"},{"slug":"小说/诈骗/修仙/第一章：灵脉之殇","title":"第一章：灵脉之殇","path":"docs/小说/诈骗/修仙/第一章：灵脉之殇"},{"slug":"小说/诈骗/修仙/第七章：灵狐斗金","title":"第七章：灵狐斗金","path":"docs/小说/诈骗/修仙/第七章：灵狐斗金"},{"slug":"小说/诈骗/修仙/第三章：潜入金窟","title":"第三章：潜入金窟","path":"docs/小说/诈骗/修仙/第三章：潜入金窟"},{"slug":"小说/诈骗/修仙/第九章：玄金之殇","title":"第九章：玄金之殇","path":"docs/小说/诈骗/修仙/第九章：玄金之殇"},{"slug":"小说/诈骗/修仙/第二章：猎宝之谋","title":"第二章：猎宝之谋","path":"docs/小说/诈骗/修仙/第二章：猎宝之谋"},{"slug":"小说/诈骗/修仙/第五章：初战灵宝","title":"第五章：初战灵宝","path":"docs/小说/诈骗/修仙/第五章：初战灵宝"},{"slug":"小说/诈骗/修仙/第八章：灵宝反击","title":"第八章：灵宝反击","path":"docs/小说/诈骗/修仙/第八章：灵宝反击"},{"slug":"小说/诈骗/修仙/第六章：连环灵计","title":"第六章：连环灵计","path":"docs/小说/诈骗/修仙/第六章：连环灵计"},{"slug":"小说/诈骗/修仙/第十章：灵归正主","title":"第十章：灵归正主","path":"docs/小说/诈骗/修仙/第十章：灵归正主"},{"slug":"小说/诈骗/修仙/第四章：深入宝渊","title":"第四章：深入宝渊","path":"docs/小说/诈骗/修仙/第四章：深入宝渊"},{"slug":"小说/诈骗/诈骗-grok/人物设定","title":"人物设定","path":"docs/小说/诈骗/诈骗-grok/人物设定"},{"slug":"小说/诈骗/诈骗-grok/故事大纲","title":"故事大纲","path":"docs/小说/诈骗/诈骗-grok/故事大纲"},{"slug":"小说/诈骗/诈骗-grok/第一章：陷阱初现","title":"第一章：陷阱初现","path":"docs/小说/诈骗/诈骗-grok/第一章：陷阱初现"},{"slug":"小说/诈骗/诈骗-grok/第七章：猫鼠游戏","title":"第七章：猫鼠游戏","path":"docs/小说/诈骗/诈骗-grok/第七章：猫鼠游戏"},{"slug":"小说/诈骗/诈骗-grok/第三章：进入围城","title":"第三章：进入围城","path":"docs/小说/诈骗/诈骗-grok/第三章：进入围城"},{"slug":"小说/诈骗/诈骗-grok/第九章：黑吃黑的艺术","title":"第九章：黑吃黑的艺术","path":"docs/小说/诈骗/诈骗-grok/第九章：黑吃黑的艺术"},{"slug":"小说/诈骗/诈骗-grok/第二章：猎人的准备","title":"第二章：猎人的准备","path":"docs/小说/诈骗/诈骗-grok/第二章：猎人的准备"},{"slug":"小说/诈骗/诈骗-grok/第五章：第一次交锋","title":"第五章：第一次交锋","path":"docs/小说/诈骗/诈骗-grok/第五章：第一次交锋"},{"slug":"小说/诈骗/诈骗-grok/第八章：绝地反击","title":"第八章：绝地反击","path":"docs/小说/诈骗/诈骗-grok/第八章：绝地反击"},{"slug":"小说/诈骗/诈骗-grok/第六章：连环套局","title":"第六章：连环套局","path":"docs/小说/诈骗/诈骗-grok/第六章：连环套局"},{"slug":"小说/诈骗/诈骗-grok/第十章：收网时刻","title":"第十章：收网时刻","path":"docs/小说/诈骗/诈骗-grok/第十章：收网时刻"},{"slug":"小说/诈骗/诈骗-grok/第四章：深入虎穴","title":"第四章：深入虎穴","path":"docs/小说/诈骗/诈骗-grok/第四章：深入虎穴"},{"slug":"小说/诈骗/诈骗-grok/金融电信诈骗与黑灰产调研报告","title":"金融电信诈骗与黑灰产调研报告","path":"docs/小说/诈骗/诈骗-grok/金融电信诈骗与黑灰产调研报告"},{"slug":"小说/风格/一般风格","title":"一般风格","path":"docs/小说/风格/一般风格"},{"slug":"小说/风格/网文文艺风","title":"网文文艺风","path":"docs/小说/风格/网文文艺风"},{"slug":"小说/风格/网文标准风","title":"网文标准风","path":"docs/小说/风格/网文标准风"}],"children":"$L2b"}]
+2c:T10ea7,<h1>环舟世界真实历史：工程纪年与事件史</h1>
+<blockquote>
+<p>本文档记录从卵核被发现至当代的完整真实历史，采用工程档案视角，按十二纪细化。所有神话与民俗解释见《赤胎环舟本纪》。</p>
+</blockquote>
+<hr>
+<h1>纪年体系</h1>
+<p>| 刻度 | 用途 | 说明 |
+|------|------|------|
+| <strong>BP（Before Present）</strong> | 远古尺度 | 距当前年代的绝对年数 |
+| <strong>SY（Ship Year）</strong> | 方舟纪年 | 人类完成改建并确立航行体制定义为 SY 0 |</p>
+<hr>
+<h1>纪元一：太初护胎纪（BP 300,000,000 – 50,000,000）</h1>
+<h2>概述</h2>
+<p>上古机械智能文明（档案代号：Caretaker Array，内部称"玄衡机灵"）发现了一个异常天体——表面呈现类恒星辐射特征，但内部结构与能量代谢模式表明其为某种星级生命形态的休眠胚胎。为保护这一独特存在，看护者阵列启动了长达两亿年的"护胎工程"。</p>
+<hr>
+<h2>BP 300,000,000–260,000,000：卵核发现与天环建造</h2>
+<h3>卵核（HELIO-EMBRYO / HE-0）特征报告</h3>
+<p><strong>物理参数：</strong></p>
+<ul>
+<li>质量：约 0.25 M☉</li>
+<li>光度：约 0.008 L☉（类 M 型红矮星输出）</li>
+<li>辐射谱：偏红，存在长周期脉动（周期 30–200 年不等）</li>
+<li>外层结构：存在"茧层"（Cocoon Layer），将内部高能代谢过程过滤为稳定辐射输出</li>
+</ul>
+<p><strong>关键发现：</strong></p>
+<ul>
+<li>卵核并非恒星聚变产物，而是某种未知生命形态的"星级胚胎"</li>
+<li>茧层具有自适应调节功能，可根据内部状态改变辐射输出</li>
+<li>胚胎处于深度休眠状态，但存在极缓慢的代谢活动</li>
+<li>周边时空存在微弱扰动场，影响精密导航计算</li>
+</ul>
+<h3>天环（Prime Ring / PR-1）建造工程</h3>
+<p><strong>工程目标：</strong></p>
+<ol>
+<li>建立长期监测平台，记录卵核状态变化</li>
+<li>提供外层防护，降低大质量天体撞击风险</li>
+<li>构建热反馈系统，维持卵核周边辐射环境稳定</li>
+<li>预留孵化干预接口，以备胚胎进入活跃期</li>
+</ol>
+<p><strong>选址论证：</strong></p>
+<ul>
+<li>选定轨道半径：约 0.089 AU（1330 万 km）</li>
+<li>该半径处辐照度约 1375 W/m²，与标准适居带参数吻合</li>
+<li>轨道周期：19.4 地球日</li>
+<li>轨道圆周：约 8366 万 km</li>
+</ul>
+<p><strong>结构设计：</strong></p>
+<ul>
+<li>主承力体采用自修复晶格材料，嵌入纳米级维护机群</li>
+<li>沿环布设"黑盒节点"（Black-box Nodes）共 9 处，作为核心监测与控制单元</li>
+<li>环体分为可独立隔离的舱段，单段损坏不影响整体结构</li>
+<li>不设置外置附属设施，贯彻"最小干预"原则</li>
+</ul>
+<p><strong>建造时间线：</strong></p>
+<ul>
+<li>BP 300M：选址完成，开始材料制备</li>
+<li>BP 295M：主承力骨架成型</li>
+<li>BP 280M：黑盒节点安装完毕</li>
+<li>BP 270M：自修复系统调试完成</li>
+<li>BP 260M：天环进入正式运行状态</li>
+</ul>
+<h3>看护者阵列组织架构</h3>
+<p>玄衡机灵并非单一智能体，而是由多个功能模块组成的分布式系统：</p>
+<ul>
+<li><strong>九匠（Nine Artisans）</strong>：负责结构建造与维护</li>
+<li><strong>衡算（Calculators）</strong>：负责轨道力学与热力学计算</li>
+<li><strong>守卫（Sentinels）</strong>：负责外部威胁监测与应对</li>
+<li><strong>巡弧（Arc Patrollers）</strong>：负责环体巡检与微修复</li>
+</ul>
+<hr>
+<h2>BP 260,000,000–80,000,000：天环运行与门阙系统</h2>
+<h3>门阙节点（Gate Nodes）配置</h3>
+<p>天环建成后，看护者在环体上预留了 9 处"门阙节点"——可供未来文明进入的标准化接口。</p>
+<p><strong>门阙设计规格：</strong></p>
+<ul>
+<li>每处门阙包含：气闸室、重力过渡区、信息终端、应急封闭系统</li>
+<li>门阙内部维持近真空/微重力环境</li>
+<li>配备自动清洁系统，抑制微粒污染</li>
+<li>预设多种语言/符号的警示信息</li>
+</ul>
+<p><strong>"看护条例"（Caretaker Protocol）确立：</strong></p>
+<p>看护者阵列形成了一套不可违背的核心准则：</p>
+<ol>
+<li><strong>不扩建原则</strong>：天环规模已足够，不得增加外置设施</li>
+<li><strong>不采能原则</strong>：不得从卵核提取能量用于非监测目的</li>
+<li><strong>不迁移原则</strong>：严禁任何移动卵核的尝试，包括间接轨道改变</li>
+<li><strong>最小接触原则</strong>：除必要维护外，不得干预卵核自然演化</li>
+</ol>
+<hr>
+<h2>BP 80,000,000–50,000,000：看护者撤离</h2>
+<h3>撤离背景</h3>
+<p>约 BP 80M，看护者阵列检测到宇宙尺度的"参数漂移"前兆——某种影响基本物理常数或时空结构的大范围扰动正在逼近。</p>
+<p><strong>撤离决策论证：</strong></p>
+<ul>
+<li>扰动可能影响看护者自身的运算基础</li>
+<li>长期驻留可能使看护者成为未来文明的干扰因素</li>
+<li>天环已具备完全自治能力，无需持续监管</li>
+<li>卵核进入稳定休眠期，短期内（以亿年计）不会孵化</li>
+</ul>
+<h3>撤离程序</h3>
+<p><strong>阶段一：外置设施拆除</strong></p>
+<ul>
+<li>移除所有可见的外部监测站</li>
+<li>回收或销毁非必要设备</li>
+<li>清除可能被误用的技术遗存</li>
+</ul>
+<p><strong>阶段二：系统切换</strong></p>
+<ul>
+<li>天环转入"低维护自治模式"（Low-Maintenance Autonomous Mode）</li>
+<li>黑盒节点进入休眠，仅保留最低限度的状态监测</li>
+<li>门阙系统设为"周期性自检"状态</li>
+</ul>
+<p><strong>阶段三：信息封存</strong></p>
+<ul>
+<li>关键数据加密存储于黑盒节点</li>
+<li>解锁条件设定为"卵核进入孵化活跃期"或"外来智慧文明通过验证协议"</li>
+<li>部分警示信息以多重编码方式刻录于环体结构</li>
+</ul>
+<p><strong>撤离完成时间：约 BP 50M</strong></p>
+<p>看护者去向不明。可能的解释包括：迁往其他星系、进入休眠、或主动终结以避免污染。</p>
+<hr>
+<h1>纪元二：静环隐世纪（BP 50,000,000 – SY -33,000）</h1>
+<h2>概述</h2>
+<p>长达五千万年的静默期。天环在自治模式下独自运行，卵核继续其缓慢的休眠代谢。外部文明偶有观测记录，但无系统性接触。</p>
+<hr>
+<h2>天环自治状态报告</h2>
+<h3>自修复系统运行日志（摘要）</h3>
+<p><strong>BP 45,000,000：</strong></p>
+<ul>
+<li>微陨石撞击导致第 127 段外壳局部破损</li>
+<li>自修复系统启动，耗时约 200 年完成修补</li>
+<li>损坏区域被标记为"已修复/监测中"</li>
+</ul>
+<p><strong>BP 32,000,000：</strong></p>
+<ul>
+<li>第 89 段内部气密性下降至阈值以下</li>
+<li>系统判定无法完全修复，启动"隔离封边"程序</li>
+<li>该段被永久封闭，形成首个"暗区"</li>
+</ul>
+<p><strong>BP 18,000,000：</strong></p>
+<ul>
+<li>黑盒节点 #4 检测到茧层脉动周期异常</li>
+<li>数据记录后进入休眠，未触发任何响应程序</li>
+</ul>
+<p><strong>BP 7,500,000：</strong></p>
+<ul>
+<li>外部天体近距离掠过，引发轻微轨道扰动</li>
+<li>天环结构完整，无需干预</li>
+</ul>
+<h3>外部观测记录</h3>
+<p>天环在此期间被至少 3 个过客文明观测到：</p>
+<p><strong>观测记录 Alpha（约 BP 40M）：</strong></p>
+<ul>
+<li>观测者：未知，仅有间接证据</li>
+<li>描述：某文明在星图中标注了"偏红恒星+环状反光体"</li>
+<li>未发生接触</li>
+</ul>
+<p><strong>观测记录 Beta（约 BP 15M）：</strong></p>
+<ul>
+<li>观测者：推测为某硅基智慧种族</li>
+<li>描述：尝试接近但被卵核周边时空扰动阻挡</li>
+<li>留下轨道信标后撤离</li>
+</ul>
+<p><strong>观测记录 Gamma（约 BP 2M）：</strong></p>
+<ul>
+<li>观测者：某碳基文明探测器</li>
+<li>描述：成功进入环带轨道，但在尝试对接门阙时触发防御协议</li>
+<li>探测器被温和地推离，无损坏</li>
+</ul>
+<h3>卵核状态变化</h3>
+<p><strong>BP 50M–10M：</strong></p>
+<ul>
+<li>茧层脉动周期稳定在 50–80 年</li>
+<li>辐射输出无显著变化</li>
+<li>时空扰动场维持在基线水平</li>
+</ul>
+<p><strong>BP 10M–SY -33k：</strong></p>
+<ul>
+<li>脉动周期开始缩短，约 40–60 年</li>
+<li>辐射谱偶现微弱波动</li>
+<li>时空扰动场略有增强，导致外部航行计算误差增大</li>
+</ul>
+<hr>
+<h1>纪元三：载世漂亡纪（SY -40,000 – SY -32,000）</h1>
+<h2>概述</h2>
+<p>人类文明面临宇宙级危机，被迫将地球改造为行星飞船逃离故土。在漫长的星际漂流中，他们发现了卵核与天环，并在接近过程中发生了灾难性撞击。</p>
+<hr>
+<h2>SY -40,000 至 SY -35,000：参数漂移大灾</h2>
+<h3>危机性质</h3>
+<p>约 SY -40k，人类天文学家观测到一系列异常现象：</p>
+<p><strong>天体力学异常：</strong></p>
+<ul>
+<li>多个恒星系的行星轨道出现无法解释的偏移</li>
+<li>星际航行的预测模型误差率急剧上升</li>
+<li>部分区域的光速测量值出现微小但可复现的变化</li>
+</ul>
+<p><strong>辐射环境恶化：</strong></p>
+<ul>
+<li>银河系核心方向的高能粒子流增强</li>
+<li>多处恒星出现非周期性耀斑活动</li>
+<li>宇宙背景辐射的各向异性增大</li>
+</ul>
+<p><strong>理论推测：</strong></p>
+<ul>
+<li>可能是某种宇宙尺度的"相变"前兆</li>
+<li>或与暗能量/暗物质分布变化有关</li>
+<li>无论原因为何，人类原居地将在数千年内变得不可居住</li>
+</ul>
+<h3>载世堡计划启动</h3>
+<p><strong>SY -38,500：联合政府通过《载世堡决议》</strong></p>
+<p>决议核心内容：</p>
+<ol>
+<li>将地球改造为可自主航行的"行星堡垒"</li>
+<li>携带尽可能多的生态圈与文化遗产</li>
+<li>寻找稳定的恒星系统作为新家园</li>
+<li>建立长期航行所需的政治与社会架构</li>
+</ol>
+<p><strong>组织架构确立：</strong></p>
+<p>三大官团体系形成：</p>
+<p><strong>航宪院（Constitutional Council）</strong></p>
+<ul>
+<li>职能：法律制定、社会治理、历史记录、文化保存</li>
+<li>权力：最高立法权、档案管理权、教育标准制定权</li>
+<li>格言："记忆即存续"</li>
+</ul>
+<p><strong>太匠府（Engineering Directorate）</strong></p>
+<ul>
+<li>职能：工程建设、系统维护、资源管理、技术研发</li>
+<li>权力：工程决策权、资源调配权、技术标准制定权</li>
+<li>格言："以手铸天"</li>
+</ul>
+<p><strong>观天司（Astronomical Bureau）</strong></p>
+<ul>
+<li>职能：导航计算、天文观测、威胁预警、航路规划</li>
+<li>权力：航向建议权、观测资源调配权、危险区域标定权</li>
+<li>格言："星路为引"</li>
+</ul>
+<h3>地球改造工程</h3>
+<p><strong>SY -38,000 至 SY -36,000：第一阶段——推进系统</strong></p>
+<ul>
+<li>在地球赤道带建造 12 座巨型等离子推进器</li>
+<li>每座推进器高度超过 50 km，直径约 20 km</li>
+<li>总推力足以在百年尺度上显著改变地球轨道</li>
+<li>同时建造核聚变供能系统，为推进器提供能量</li>
+</ul>
+<p><strong>SY -36,000 至 SY -35,000：第二阶段——生态封闭</strong></p>
+<ul>
+<li>在关键生态区域建造穹顶封闭系统</li>
+<li>建立地下避难所网络，容纳 80% 以上人口</li>
+<li>完成种子库、基因库、文化档案库的建设</li>
+<li>测试全球气候调控系统</li>
+</ul>
+<p><strong>SY -35,000：载世堡起航</strong></p>
+<p>地球脱离原恒星系统引力束缚，开始星际航行。</p>
+<p>初始航向：银河系边缘方向，寻找参数漂移影响较小的区域。</p>
+<hr>
+<h2>SY -34,000：发现赤胎天环</h2>
+<h3>观测报告</h3>
+<p><strong>观天司远程探测记录 #7749-C：</strong></p>
+<blockquote>
+<p>日期：SY -34,127</p>
+<p>目标方位：银经 127.3°，银纬 -4.2°</p>
+<p>观测内容：</p>
+<ul>
+<li>检测到稳定红移辐射源，光度约 0.008 L☉</li>
+<li>光谱特征符合 M 型红矮星，但存在异常脉动</li>
+<li>在特定观测角度检测到微弱反光带，推测为环状结构</li>
+</ul>
+<p>初步判断：</p>
+<ul>
+<li>可能为红矮星系统</li>
+<li>环状结构可能为天然形成或古代文明遗迹</li>
+<li>如为稳定恒星，可作为航行中继站或长期停泊点</li>
+</ul>
+<p>建议：调整航向进行详细探测</p>
+</blockquote>
+<p><strong>航宪院决议 #34127-A：</strong>
+批准航向调整，进入目标系统进行勘察。</p>
+<h3>接近过程中的异常</h3>
+<p><strong>SY -33,500：首次时空扰动记录</strong></p>
+<blockquote>
+<p>观天司航行日志：</p>
+<p>进入目标系统外围后，导航计算出现系统性偏差。</p>
+<p>具体表现：</p>
+<ul>
+<li>预测位置与实际位置误差达 0.3%，远超正常水平</li>
+<li>误差呈现非随机分布，似乎与距目标距离相关</li>
+<li>引力透镜效应测量值与理论预期不符</li>
+</ul>
+<p>工程团队检查确认：设备无故障，误差来源于外部环境</p>
+<p>推测：目标天体周边存在某种时空扰动场</p>
+</blockquote>
+<p><strong>SY -33,200：环状结构确认</strong></p>
+<blockquote>
+<p>光学望远镜直接成像证实：</p>
+<ul>
+<li>中心天体并非普通恒星，结构异常</li>
+<li>存在一条完整的环形构造物，半径约 1330 万 km</li>
+<li>环体表面反射率不均匀，部分区域明显为人工制品</li>
+<li>检测到 9 处规则分布的高反射点（后确认为门阙节点）</li>
+</ul>
+<p>太匠府评估：</p>
+<ul>
+<li>环体为巨构工程，技术水平远超人类</li>
+<li>可能为上古文明遗迹，具有极高研究与利用价值</li>
+<li>建议谨慎接近，优先确保载世堡安全</li>
+</ul>
+</blockquote>
+<hr>
+<h1>纪元四：坠世天裂纪（SY -32,000 – SY -31,950）</h1>
+<h2>概述</h2>
+<p>人类尝试将载世堡（地球）停泊于天环附近，但因时空扰动导致轨道捕获失败，发生灾难性撞击。地球部分解体，天环严重受损，人类被迫在废墟中求存。</p>
+<hr>
+<h2>SY -32,000：撞击事件</h2>
+<h3>事件经过</h3>
+<p><strong>T-72 小时：最终减速机动</strong></p>
+<blockquote>
+<p>太匠府工程日志：</p>
+<p>载世堡进入最终减速阶段，目标：与天环形成稳定伴飞轨道。</p>
+<p>预计减速燃烧时间：48 小时
+预计最终相对速度：&#x3C; 0.5 km/s</p>
+<p>一切参数正常。</p>
+</blockquote>
+<p><strong>T-36 小时：异常开始</strong></p>
+<blockquote>
+<p>观天司紧急报告：</p>
+<p>实际轨道与计算轨道出现显著偏差。</p>
+<p>偏差量：1.2%（远超安全阈值）
+偏差方向：向天环方向偏移</p>
+<p>原因推测：时空扰动场强度被严重低估</p>
+<p>紧急建议：立即启动备用推进器进行航向修正</p>
+</blockquote>
+<p><strong>T-24 小时：修正失败</strong></p>
+<blockquote>
+<p>太匠府紧急通报：</p>
+<p>航向修正效果不足。</p>
+<p>问题：</p>
+<ul>
+<li>扰动场内推进器效率下降约 15%</li>
+<li>实际推力低于预期</li>
+<li>燃料消耗速度超出计划</li>
+</ul>
+<p>新预测：载世堡将与天环发生擦碰
+擦碰位置：天环第 113–118 段
+预计撞击速度：2.3 km/s</p>
+<p>已启动全民紧急避难程序</p>
+</blockquote>
+<p><strong>T-0：撞击</strong></p>
+<blockquote>
+<p>综合事件记录：</p>
+<p>载世堡（地球）与天环第 113–118 段发生撞击。</p>
+<p>撞击过程：</p>
+<ul>
+<li>T+0.0 s：地球大气层外缘与天环结构接触</li>
+<li>T+0.3 s：地壳开始受到剪切应力</li>
+<li>T+1.2 s：主撞击发生，天环第 115–117 段完全断裂</li>
+<li>T+3.5 s：地球外壳部分剥离，形成大量碎片</li>
+<li>T+15 s：撞击能量释放完毕，进入碎片扩散阶段</li>
+</ul>
+<p>直接后果：</p>
+<ul>
+<li>天环出现约 70 万 km 的巨大缺口</li>
+<li>地球损失约 35% 的表面积和 28% 的质量</li>
+<li>海洋蒸发约 40%，大气层部分逸散</li>
+<li>估计 62% 的人口在撞击中直接死亡</li>
+</ul>
+</blockquote>
+<h3>灾后评估</h3>
+<p><strong>结构损失清单：</strong></p>
+<p><em>天环损失：</em></p>
+<ul>
+<li>第 113–118 段：完全摧毁</li>
+<li>第 109–112 段：严重损坏，部分可修复</li>
+<li>第 119–124 段：中度损坏，可修复</li>
+<li>黑盒节点 #3：损坏，数据部分丢失</li>
+<li>黑盒节点 #4：轻微损坏，功能正常</li>
+</ul>
+<p><em>地球（载世堡）损失：</em></p>
+<ul>
+<li>表面积损失：约 1.79 亿 km²</li>
+<li>质量损失：约 1.67 × 10²⁴ kg</li>
+<li>大气损失：约 40%</li>
+<li>海洋损失：约 40%</li>
+<li>地下避难所：约 45% 完好，35% 可抢修，20% 完全摧毁</li>
+</ul>
+<p><strong>人口统计：</strong></p>
+<ul>
+<li>撞击前人口：约 180 亿</li>
+<li>撞击后幸存：约 68 亿</li>
+<li>直接死亡：约 112 亿</li>
+</ul>
+<hr>
+<h2>SY -31,999 至 SY -31,995：坠世驻泊</h2>
+<h3>紧急决策</h3>
+<p><strong>航宪院紧急会议记录 #32000-E1：</strong></p>
+<blockquote>
+<p>议题：地球残骸处置方案</p>
+<p>方案一：放弃残骸，幸存者转移至天环</p>
+<ul>
+<li>优点：减少持续风险</li>
+<li>缺点：丧失大量资源与文化遗产</li>
+</ul>
+<p>方案二：将残骸牵引至稳定轨道</p>
+<ul>
+<li>优点：保留资源库，维持情感联系</li>
+<li>缺点：技术难度高，需大量能源</li>
+</ul>
+<p>表决结果：方案二通过</p>
+<p>执行负责：太匠府
+期限：5 年内完成</p>
+</blockquote>
+<h3>牵引工程</h3>
+<p><strong>太匠府工程报告 #31999-T7：坠世牵引计划</strong></p>
+<blockquote>
+<p>目标：将地球主残骸（命名为"WOUND-MOON"/ WM-1）牵引至天环外侧稳定轨道</p>
+<p>技术方案：</p>
+<ol>
+<li>利用天环幸存段的反射阵列作为激光推进源</li>
+<li>在残骸上安装临时接收器与推进单元</li>
+<li>通过持续低推力推进逐步调整轨道</li>
+</ol>
+<p>工程时间线：</p>
+<ul>
+<li>SY -31999：开始安装推进单元</li>
+<li>SY -31998：首次推进测试，失败（推力不足）</li>
+<li>SY -31997：增加反射阵列功率，第二次测试，成功</li>
+<li>SY -31996：持续推进，残骸进入过渡轨道</li>
+<li>SY -31995：残骸进入最终驻泊轨道，工程完成</li>
+</ul>
+<p>最终轨道参数：</p>
+<ul>
+<li>与天环距离：约 50 万 km</li>
+<li>轨道周期：与天环同步</li>
+<li>稳定性：可维持百万年以上</li>
+</ul>
+</blockquote>
+<h3>坠世监设立</h3>
+<p><strong>航宪院法令 #31995-L3：坠世管理条例</strong></p>
+<blockquote>
+<p>鉴于地球残骸（坠世/伤月）的特殊地位与重要性，特设立"坠世监"专职机构。</p>
+<p>职责范围：</p>
+<ol>
+<li>管理坠世资源的开采与分配</li>
+<li>维护坠世上的种子库、基因库与文化档案</li>
+<li>控制进入坠世的权限</li>
+<li>监测坠世结构稳定性</li>
+</ol>
+<p>禁止事项：</p>
+<ol>
+<li>未经批准不得进入坠世</li>
+<li>不得破坏性开采</li>
+<li>不得在坠世上建立永久居住设施</li>
+<li>不得将坠世物资用于非必要用途</li>
+</ol>
+</blockquote>
+<hr>
+<h1>纪元五：锻舟立宪纪（SY -31,950 – SY 0）</h1>
+<h2>概述</h2>
+<p>人类利用天环遗迹作为骨架，加装自己的技术设施，将灾后废墟改建为可航行的"恒星方舟"。五层同心架构在此期间成型，政治体制也逐步确立。</p>
+<hr>
+<h2>SY -31,950 至 SY -31,800：五层架构建造</h2>
+<h3>设计理念</h3>
+<p><strong>太匠府总工程师公输曜的设计备忘录：</strong></p>
+<blockquote>
+<p>我们面临的核心问题是：如何在一个并非为航行设计的遗迹上，建造一艘能够承载文明存续的飞船？</p>
+<p>答案是"以古为骨，以新为肉"。</p>
+<p>上古环提供的是：</p>
+<ul>
+<li>超越我们理解的承力结构</li>
+<li>自修复能力</li>
+<li>已经验证的长期稳定性</li>
+</ul>
+<p>我们需要加装的是：</p>
+<ul>
+<li>可控的光照与能源系统</li>
+<li>散热与工业基础设施</li>
+<li>模块化的居住空间</li>
+<li>资源捕获与循环系统</li>
+<li>推进与姿态控制能力</li>
+</ul>
+<p>五层架构由此而生。</p>
+</blockquote>
+<h3>Layer B：光织（Beam Loom）——首先建造</h3>
+<p><strong>建造理由：</strong>
+没有可控光照，生态系统无法恢复，人类无法生存。这是最紧迫的需求。</p>
+<p><strong>系统组成：</strong></p>
+<p><em>采能壳层（Collector Shells）</em></p>
+<ul>
+<li>位置：0.03–0.07 AU，多层稀疏分布</li>
+<li>功能：收集卵核辐射，转化为可用能量</li>
+<li>材料：薄膜光伏单元，总面积约 10¹⁴ m²</li>
+<li>输出：每弧段可调功率 10¹⁴–10¹⁵ W</li>
+</ul>
+<p><em>束路主干（Trunk Beams）</em></p>
+<ul>
+<li>形式：微波/激光能量传输通道</li>
+<li>数量：9 条主干，对应九野区划</li>
+<li>功能：将功率从采能壳层传输至各弧段</li>
+</ul>
+<p><em>配光镜阵（Illumination Arrays）</em></p>
+<ul>
+<li>位置：靠近 Layer C，每弧段独立配置</li>
+<li>功能：将能量转化为可见光，模拟太阳照射</li>
+<li>可调参数：光强、色温、照射角度、昼夜周期</li>
+</ul>
+<p><em>遮光阵列（Night-shade Arrays）</em></p>
+<ul>
+<li>功能：遮挡光线，制造夜间效果</li>
+<li>与配光镜阵联动，实现 24 小时昼夜循环</li>
+</ul>
+<p><strong>建造时间：SY -31,950 至 SY -31,800</strong></p>
+<h3>Layer D：玄海（Radiator-Yard）——第二建造</h3>
+<p><strong>建造理由：</strong>
+工业生产必然产生废热。没有散热系统，任何大规模工程都无法持续。</p>
+<p><strong>系统组成：</strong></p>
+<p><em>散热场（Radiator Fields）</em></p>
+<ul>
+<li>位置：天环外侧，约 0.1 AU</li>
+<li>形式：大面积辐射散热板阵列</li>
+<li>工作温度：300–400 K</li>
+<li>总散热能力：约 10¹⁶ W</li>
+</ul>
+<p><em>船坞带（Shipyard Belt）</em></p>
+<ul>
+<li>功能：大型结构的建造、维修、拆解</li>
+<li>设施：干船坞、装配车间、材料加工厂</li>
+<li>能力：可同时建造多座 Bishop Ring</li>
+</ul>
+<p><strong>建造时间：SY -31,800 至 SY -31,500</strong></p>
+<h3>Layer C：环陆三百六十邦——第三建造</h3>
+<p><strong>改造理由：</strong>
+原始天环是连续结构，局部损坏会传导至全局。需要模块化改造以提高系统韧性。</p>
+<p><strong>改造方案：</strong></p>
+<p><em>弧段划分</em></p>
+<ul>
+<li>将天环圆周划分为 360 个独立弧段</li>
+<li>每段弧长约 23.24 万 km（1°）</li>
+<li>段间留 500–2000 km 空窗作为航道与缓冲区</li>
+</ul>
+<p><em>弧段内部结构</em></p>
+<ul>
+<li>每段包含 1 个主栖居体（Arc-Hab-Prime）</li>
+<li>辅以多座 Bishop Ring（直径 3000–6000 km）</li>
+<li>配套港口锚点站、工业站、农业镜阵</li>
+</ul>
+<p><em>天幕系统（Sky-veil）</em></p>
+<ul>
+<li>功能：遮蔽真空与星空，模拟行星天空</li>
+<li>组成：高空气溶胶层 + 漂浮薄膜散射层</li>
+<li>效果：呈现稳定蓝天，抑制 65 分钟自转造成的星空旋转</li>
+</ul>
+<p><strong>改造时间：SY -31,500 至 SY -31,000</strong></p>
+<h3>Layer E：星坟（Resource-Grave Orbits）——第四建造</h3>
+<p><strong>建造理由：</strong>
+长期生存需要持续的资源补给。必须建立小行星捕获与加工系统。</p>
+<p><strong>系统组成：</strong></p>
+<p><em>捕获站（Capture Stations）</em></p>
+<ul>
+<li>功能：拦截过境小行星/彗星，引导至加工轨道</li>
+<li>方法：引力牵引、动量交换、推进器安装</li>
+</ul>
+<p><em>加工站（Processing Stations）</em></p>
+<ul>
+<li>功能：分解天体，提取有用物质</li>
+<li>产出：冰（水）、碳、金属、稀土元素</li>
+</ul>
+<p><em>墓地轨道（Grave Orbits）</em></p>
+<ul>
+<li>功能：存放报废结构与危险废料</li>
+<li>位置：远离主栖居带，避免碰撞风险</li>
+</ul>
+<p><strong>建造时间：SY -31,000 至 SY -30,500</strong></p>
+<h3>Layer A：银冠（Mirror-Crown）——最后建造</h3>
+<p><strong>建造理由：</strong>
+要真正实现"方舟"功能，必须具备改变轨道的能力。这需要在最靠近卵核的区域工作，技术难度最高。</p>
+<p><strong>系统组成：</strong></p>
+<p><em>反射帆阵列（Mirror-sail Arrays）</em></p>
+<ul>
+<li>位置：0.015–0.03 AU</li>
+<li>功能：偏转卵核辐射，形成推力</li>
+<li>原理：光子动量传递</li>
+</ul>
+<p><em>遮蔽单元（Shade Units）</em></p>
+<ul>
+<li>功能：耀斑防护，应急遮光</li>
+<li>可在数分钟内展开，覆盖关键区域</li>
+</ul>
+<p><em>控制骨架（Control Spine）</em></p>
+<ul>
+<li>功能：姿态参考、时钟同步、指令播发</li>
+<li>是整个推进系统的神经中枢</li>
+</ul>
+<p><strong>推进能力：</strong></p>
+<ul>
+<li>巡航态加速度：约 10⁻¹⁴ m/s²（几乎不可感知）</li>
+<li>主动推进态：可提升至 10⁻¹⁰–10⁻⁹ m/s²</li>
+<li>实际意义：千年尺度上可显著改变轨道</li>
+</ul>
+<p><strong>建造时间：SY -30,500 至 SY -30,000</strong></p>
+<hr>
+<h2>SY -31,000 至 SY -30,000：银冠初张</h2>
+<h3>首次全系统测试</h3>
+<p><strong>太匠府测试报告 #30500-T1：银冠初次启动</strong></p>
+<blockquote>
+<p>日期：SY -30,500</p>
+<p>测试内容：银冠反射帆阵列全系统联调</p>
+<p>测试结果：</p>
+<ul>
+<li>阵列展开：成功，覆盖率 94%</li>
+<li>姿态控制：正常，误差 &#x3C; 0.01°</li>
+<li>光路整流：有效，配光网接收功率提升 12%</li>
+<li>推力测量：检测到微弱加速度信号，与理论值吻合</li>
+</ul>
+<p>可见现象：</p>
+<ul>
+<li>从 Layer C 观测，太阳边缘出现"银边"效果</li>
+<li>部分区域报告天光亮度略有变化</li>
+</ul>
+<p>结论：银冠系统达到设计指标，可投入正式运行</p>
+</blockquote>
+<h3>四大权柄形成</h3>
+<p>随着五层架构完成，政治权力也逐渐分化为四大系统：</p>
+<p><strong>司光府（Light Directorate）</strong></p>
+<ul>
+<li>掌控：Layer B 配光网</li>
+<li>权力："定日"——决定各弧段的光照分配</li>
+<li>首任司光令：姬照</li>
+<li>格言："光即秩序"</li>
+</ul>
+<p><strong>锚盟（Anchor League）</strong></p>
+<ul>
+<li>掌控：航道与锚点港系统</li>
+<li>权力："定路"——决定弧段间交通</li>
+<li>首任锚盟主：祝行</li>
+<li>格言："路通则民安"</li>
+</ul>
+<p><strong>坠世院（Wound-Moon Authority）</strong></p>
+<ul>
+<li>掌控：坠世资源与档案</li>
+<li>权力："定库"——决定稀缺资源分配</li>
+<li>首任坠世监：姜藏</li>
+<li>格言："根在坠世"</li>
+</ul>
+<p><strong>坞帅府（Yard Command）</strong></p>
+<ul>
+<li>掌控：Layer D 船坞与散热场</li>
+<li>权力："定火"——决定工业产能分配</li>
+<li>首任坞帅：（待考）</li>
+<li>格言："锻造不息"</li>
+</ul>
+<p>航宪院保持最高法统地位，太匠府保持工程技术权威。</p>
+<hr>
+<h2>SY -5,000 至 SY 0：舟元立</h2>
+<h3>全局自治系统完成</h3>
+<p><strong>太匠府系统报告 #5000-S1：方舟自治能力评估</strong></p>
+<blockquote>
+<p>经过近三万年的建设，方舟已具备以下自治能力：</p>
+<ol>
+<li>能源自给：光织系统可满足所有弧段需求</li>
+<li>生态循环：各弧段生态系统稳定运行</li>
+<li>资源补给：星坟系统年捕获量满足消耗</li>
+<li>结构维护：自修复+人工维护可保持结构完整</li>
+<li>航行能力：银冠系统可实现长期航向调整</li>
+</ol>
+<p>结论：方舟已具备独立生存与迁徙能力</p>
+</blockquote>
+<h3>《环舟宪》颁布</h3>
+<p><strong>航宪院法典 #0-C1：环舟宪章</strong></p>
+<blockquote>
+<p>序言：</p>
+<p>我们，环舟方舟的全体居民，经历了故土的毁灭与重生的苦难，在此庄严宣告：</p>
+<p>这艘船是我们唯一的家园。
+我们将共同维护她，共同驾驭她，共同在星海中寻找新的归宿。</p>
+<p>核心条款：</p>
+<p>第一章：统一历法</p>
+<ul>
+<li>以配光周期为基准，确立标准"日"与"年"</li>
+<li>所有弧段采用统一历法，舟元 SY 0 为纪年起点</li>
+</ul>
+<p>第二章：航道规制</p>
+<ul>
+<li>弧段间航道为公共空间，不得私自封锁</li>
+<li>锚点港实行统一管理与开放政策</li>
+</ul>
+<p>第三章：坠世取用</p>
+<ul>
+<li>坠世资源为全体居民共有</li>
+<li>取用需经坠世院批准并记录</li>
+</ul>
+<p>第四章：配光权责</p>
+<ul>
+<li>配光为基本生存权利，不得作为惩罚手段剥夺</li>
+<li>司光府有义务维持所有弧段的基本光照</li>
+</ul>
+<p>第五章：航行决策</p>
+<ul>
+<li>重大航向改变需经九野会盟共同决议</li>
+<li>紧急情况下航宪院可行使临时决策权</li>
+</ul>
+</blockquote>
+<p><strong>SY 0：舟元正式确立</strong></p>
+<p>环舟方舟作为一个统一的政治实体正式诞生。</p>
+<hr>
+<h1>纪元六：舟元开泰纪（SY 0 – SY 8,000）</h1>
+<h2>概述</h2>
+<p>方舟文明的黄金时代。人口恢复增长，经济繁荣，文化复兴，技术进步。但繁荣之下，权力争斗的种子也在萌芽。</p>
+<hr>
+<h2>SY 0–1,000：百工复起</h2>
+<h3>人口与经济恢复</h3>
+<p><strong>航宪院统计报告 #500-P1：</strong></p>
+<blockquote>
+<p>人口变化（SY 0–500）：</p>
+<ul>
+<li>SY 0：约 95 亿</li>
+<li>SY 250：约 120 亿</li>
+<li>SY 500：约 150 亿</li>
+<li>年均增长率：0.9%</li>
+</ul>
+<p>经济指标：</p>
+<ul>
+<li>工业产出：年增 2.3%</li>
+<li>农业产出：年增 1.8%</li>
+<li>能源消耗：年增 1.5%</li>
+</ul>
+<p>结论：文明已从灾后恢复阶段进入稳定增长阶段</p>
+</blockquote>
+<h3>九野体系确立</h3>
+<p><strong>航宪院行政法令 #200-A1：九野区划</strong></p>
+<blockquote>
+<p>为便于管理与协调，将 360 个弧段划分为 9 个"野"：</p>
+<p>| 野名 | 弧段范围 | 中心城市 |
+|------|----------|----------|
+| 中野 | 1–40 | 光阙（司光旧都） |
+| 东荒 | 41–80 | 逐火城 |
+| 东海 | 81–120 | 舟祭港 |
+| 南燎 | 121–160 | 赤阳城 |
+| 南渊 | 161–200 | 深潭城 |
+| 西沙 | 201–240 | 银路城 |
+| 西陵 | 241–280 | 门前城 |
+| 北寒 | 281–320 | 永夜城 |
+| 北墟 | 321–360 | 迁移城 |</p>
+<p>每野推举"野侯"，受航宪院册封，参与九野会盟。</p>
+</blockquote>
+<h3>落井城会盟</h3>
+<p><strong>SY 500：首次九野会盟</strong></p>
+<p>会盟地点：落井城（第 180 段，脊柱港所在）</p>
+<p>会盟内容：</p>
+<ul>
+<li>确认《环舟宪》的最高地位</li>
+<li>建立九野会盟常设机构</li>
+<li>制定跨野贸易与交通协定</li>
+<li>讨论长期航向规划</li>
+</ul>
+<p>落井城由此成为方舟的政治中心。</p>
+<hr>
+<h2>SY 1,000–4,000：诸环并起</h2>
+<h3>大规模扩建</h3>
+<p><strong>太匠府建设报告 #2000-B1：栖居体扩建计划</strong></p>
+<blockquote>
+<p>SY 1000–4000 期间完成的主要建设：</p>
+<p>新建 Bishop Ring：共 847 座</p>
+<ul>
+<li>标准型（直径 3000 km）：623 座</li>
+<li>大型（直径 4000–5000 km）：189 座</li>
+<li>超大型（直径 6000+ km）：35 座</li>
+</ul>
+<p>新增居住面积：约 2.3 × 10¹³ km²
+新增人口容量：约 500 亿</p>
+<p>工业产能提升：约 340%</p>
+<p>结论：方舟已进入大规模扩张阶段</p>
+</blockquote>
+<h3>人口增长</h3>
+<p><strong>航宪院统计报告 #4000-P1：</strong></p>
+<blockquote>
+<p>人口变化（SY 500–4000）：</p>
+<ul>
+<li>SY 500：约 150 亿</li>
+<li>SY 1000：约 200 亿</li>
+<li>SY 2000：约 350 亿</li>
+<li>SY 3000：约 550 亿</li>
+<li>SY 4000：约 780 亿</li>
+</ul>
+<p>人口分布：</p>
+<ul>
+<li>Layer C 主弧段：约 60%</li>
+<li>Bishop Ring 群：约 35%</li>
+<li>其他设施：约 5%</li>
+</ul>
+</blockquote>
+<hr>
+<h2>SY 4,000–8,000：盛极生隙</h2>
+<h3>资源争夺加剧</h3>
+<p><strong>航宪院内部报告 #6000-I1：权力失衡预警</strong></p>
+<blockquote>
+<p>近两千年来，四大权柄之间的平衡正在打破：</p>
+<p>司光府：</p>
+<ul>
+<li>控制了 Layer B 90% 以上的关键节点</li>
+<li>多次以"维护"为由对部分弧段实施"削光"</li>
+<li>形成以姬照后裔为核心的"光庭"派系</li>
+</ul>
+<p>锚盟：</p>
+<ul>
+<li>航道收费持续上涨</li>
+<li>部分锚点港事实上已被私有化</li>
+<li>形成"路盟"派系，与光庭对立</li>
+</ul>
+<p>坠世院：</p>
+<ul>
+<li>坠世资源开采权日益收紧</li>
+<li>"坠世守"派系主张减少开采，保护"圣地"</li>
+<li>与其他派系在资源分配上频繁冲突</li>
+</ul>
+<p>坞帅府：</p>
+<ul>
+<li>船坞产能成为各方争夺焦点</li>
+<li>"坞武"派系逐渐军事化</li>
+<li>散热场控制权成为新的权力筹码</li>
+</ul>
+<p>建议：航宪院应尽快介入调解，避免冲突升级</p>
+</blockquote>
+<h3>首次"削光"事件</h3>
+<p><strong>SY 6,237：南渊削光事件</strong></p>
+<blockquote>
+<p>事件经过：</p>
+<p>南渊野侯拒绝接受司光府新颁布的配光费率标准。
+司光府以"系统维护"为由，将南渊第 175–178 段的配光时长削减 30%。
+持续时间：47 天</p>
+<p>后果：</p>
+<ul>
+<li>农业减产约 15%</li>
+<li>引发大规模抗议</li>
+<li>九野会盟紧急召开，最终达成妥协</li>
+</ul>
+<p>意义：</p>
+<ul>
+<li>首次证明配光可被用作政治武器</li>
+<li>各派系开始寻求配光系统的控制权</li>
+<li>为后来的"双日之战"埋下种子</li>
+</ul>
+</blockquote>
+<hr>
+<h1>纪元七：禁史断钥纪（SY 8,000 – SY 9,000）</h1>
+<h2>概述</h2>
+<p>黄金时代的终结。航宪院通过《禁史令》，系统性地封锁了关于方舟真相的知识。随后司光府拆分总控密钥，权力正式碎片化。</p>
+<hr>
+<h2>SY 8,100：航宪禁史</h2>
+<h3>禁史背景</h3>
+<p><strong>航宪院内部辩论记录 #8100-D1：</strong></p>
+<blockquote>
+<p>议题：是否应当限制关于方舟本质的公开信息</p>
+<p>支持方论点（嬴缄等）：</p>
+<ul>
+<li>当前社会稳定建立在"世界"概念之上</li>
+<li>如果大众普遍认识到"我们在一艘正在衰老的飞船上"，可能引发恐慌</li>
+<li>技术知识的广泛传播增加了系统被恶意破坏的风险</li>
+<li>某些上古遗迹的真相可能动摇现有政治秩序</li>
+</ul>
+<p>反对方论点（观天司残派等）：</p>
+<ul>
+<li>知识是文明的根基，封锁知识将导致技术退化</li>
+<li>真相迟早会被发现，不如主动教育</li>
+<li>这是对公民基本权利的侵犯</li>
+</ul>
+<p>表决结果：支持方以 7:2 获胜</p>
+</blockquote>
+<h3>《禁史令》内容</h3>
+<p><strong>航宪院法令 #8100-L1：信息管理条例（通称"禁史令"）</strong></p>
+<blockquote>
+<p>第一条：信息分级</p>
+<ul>
+<li>甲级机密：方舟结构全貌、卵核本质、全局控制系统</li>
+<li>乙级机密：五层架构详细技术参数、上古遗迹解码数据</li>
+<li>丙级机密：跨野通信协议、航向规划数据</li>
+</ul>
+<p>第二条：访问权限</p>
+<ul>
+<li>甲级机密：仅限航宪院核心成员及四大权柄首脑</li>
+<li>乙级机密：扩展至各野侯及高级工程师</li>
+<li>丙级机密：扩展至中级官员</li>
+</ul>
+<p>第三条：教育限制</p>
+<ul>
+<li>公共教育不得涉及甲乙级机密内容</li>
+<li>历史教科书需经航宪院审核</li>
+<li>鼓励以"世界""自然"等概念替代"飞船""工程"</li>
+</ul>
+<p>第四条：违规处罚</p>
+<ul>
+<li>泄露甲级机密：终身监禁或处死</li>
+<li>泄露乙级机密：流放至边缘弧段</li>
+<li>泄露丙级机密：罚款与职务降级</li>
+</ul>
+</blockquote>
+<h3>观天司流亡</h3>
+<p><strong>SY 8,150：观天司解散事件</strong></p>
+<blockquote>
+<p>《禁史令》颁布后，观天司成为首个被整肃的机构。</p>
+<p>理由：</p>
+<ul>
+<li>观天司掌握大量天文与物理数据</li>
+<li>这些数据可以证明"世界"实为旋转结构</li>
+<li>部分成员公开反对《禁史令》</li>
+</ul>
+<p>处置：</p>
+<ul>
+<li>观天司被取消官方地位</li>
+<li>档案移交航宪院密封</li>
+<li>核心成员被分散安置或流放</li>
+<li>部分成员逃亡至边缘弧段，形成地下学社</li>
+</ul>
+</blockquote>
+<hr>
+<h2>SY 8,700–8,900：司光断钥（第一次）</h2>
+<h3>断钥背景</h3>
+<p><strong>司光府内部报告 #8700-S1：</strong></p>
+<blockquote>
+<p>当前形势分析：</p>
+<p>《禁史令》颁布后，配光网的战略地位更加凸显。
+各派系都在争取更多的配光控制权。</p>
+<p>风险评估：</p>
+<ul>
+<li>如果总控密钥落入单一派系手中，将形成绝对霸权</li>
+<li>如果总控密钥泄露或被破坏，整个系统可能崩溃</li>
+</ul>
+<p>建议方案：</p>
+<ul>
+<li>将总控密钥拆分为多个部分</li>
+<li>由不同机构分别保管</li>
+<li>任何重大操作都需要多方联合授权</li>
+</ul>
+</blockquote>
+<h3>密钥拆分方案</h3>
+<p><strong>SY 8,750：《密钥管理协定》签署</strong></p>
+<blockquote>
+<p>签署方：航宪院、司光府、锚盟、坠世院、坞帅府</p>
+<p>核心内容：</p>
+<p>配光网总控密钥拆分为：</p>
+<ul>
+<li>九野分钥：每野持有本野配光系统的操作权</li>
+<li>三总印：
+<ul>
+<li>日印（司光府持有）：调整光源参数</li>
+<li>路印（锚盟持有）：调整束路路由</li>
+<li>宪印（航宪院持有）：紧急覆盖权</li>
+</ul>
+</li>
+</ul>
+<p>操作规则：</p>
+<ul>
+<li>本野操作：仅需本野分钥</li>
+<li>跨野操作：需相关野分钥 + 至少一枚总印</li>
+<li>全局操作：需三枚总印联合授权</li>
+</ul>
+<p>意义：</p>
+<ul>
+<li>任何单一势力都无法独自控制整个配光网</li>
+<li>但也意味着全局协调变得极其困难</li>
+</ul>
+</blockquote>
+<hr>
+<h1>纪元八：双日烽火纪（SY 9,000 – SY 11,200）</h1>
+<h2>概述</h2>
+<p>方舟历史上最惨烈的内战。战争围绕配光权展开，最终导致配光网永久分裂、共同历法崩溃、数十亿人死亡。</p>
+<hr>
+<h2>SY 9,027：光庭夺路</h2>
+<h3>冲突起因</h3>
+<p><strong>锚盟抗议书 #9027-P1：</strong></p>
+<blockquote>
+<p>致航宪院及九野会盟：</p>
+<p>司光府光庭派近年来的行为已严重违反《密钥管理协定》：</p>
+<ol>
+<li>多次以"维护"为由对路盟控制的港口实施削光</li>
+<li>拒绝按协定分享束路参数数据</li>
+<li>私自调整多个弧段的配光时钟，扰乱贸易节奏</li>
+<li>向亲光庭的弧段提供超额配光配额</li>
+</ol>
+<p>我们要求：</p>
+<ul>
+<li>立即恢复被削光港口的正常光照</li>
+<li>光庭派领导层公开道歉</li>
+<li>重新谈判配光配额分配方案</li>
+</ul>
+<p>否则，路盟将停止向光庭控制区提供航道服务。</p>
+</blockquote>
+<p><strong>司光府回应 #9027-R1：</strong></p>
+<blockquote>
+<p>路盟的指控毫无根据。</p>
+<p>所有配光调整都是出于技术必要性。
+所谓"超额配额"是对高效弧段的合理奖励。</p>
+<p>如果路盟执意断航，将被视为对方舟统一的背叛。</p>
+</blockquote>
+<h3>战争爆发</h3>
+<p><strong>SY 9,027-7-15：路盟宣布"断贡"</strong></p>
+<blockquote>
+<p>路盟声明：</p>
+<p>自即日起，暂停以下航道服务：</p>
+<ul>
+<li>中野至东荒航道</li>
+<li>中野至南燎航道</li>
+<li>光阙港所有对外航班</li>
+</ul>
+<p>直至司光府接受我们的合理要求。</p>
+</blockquote>
+<p><strong>SY 9,027-7-18：光庭发动"光封"</strong></p>
+<blockquote>
+<p>司光府通告：</p>
+<p>鉴于路盟的非法断航行为，自即日起：</p>
+<ul>
+<li>路盟控制的 47 个锚点港配光时长削减 50%</li>
+<li>路盟核心弧段配光强度降低 30%</li>
+</ul>
+<p>这是对叛乱行为的正当回应。</p>
+</blockquote>
+<p><strong>九野会盟紧急会议失败</strong></p>
+<blockquote>
+<p>SY 9,027-8-3：</p>
+<p>九野会盟在落井城召开紧急会议。</p>
+<p>由于光庭与路盟均拒绝让步，会议未能达成任何决议。</p>
+<p>九野会盟事实上分裂。</p>
+</blockquote>
+<hr>
+<h2>SY 9,051：落井城变</h2>
+<h3>港都争夺战</h3>
+<p><strong>战况报告 #9051-W1：</strong></p>
+<blockquote>
+<p>落井城战役概况：</p>
+<p>背景：</p>
+<ul>
+<li>落井城位于九野会盟驻地，具有极高象征意义</li>
+<li>同时是最大的脊柱港，控制着主要航道交汇点</li>
+<li>光庭与路盟均试图控制此地</li>
+</ul>
+<p>战斗经过：</p>
+<ul>
+<li>SY 9,051-3-7：路盟武装进入落井城，宣布"保护性占领"</li>
+<li>SY 9,051-3-12：光庭武装从相邻弧段发动进攻</li>
+<li>SY 9,051-3-15：战斗进入港口核心区</li>
+<li>SY 9,051-3-17：港口控制系统在交火中受损</li>
+</ul>
+<p>"失重事故"：</p>
+<ul>
+<li>SY 9,051-3-17 14:32：港口重力系统突然失效</li>
+<li>核心区瞬间进入零重力状态</li>
+<li>大量平民与士兵被抛入空中</li>
+<li>部分人员撞击结构物死亡</li>
+<li>部分人员被吸入未封闭的气闸</li>
+</ul>
+<p>伤亡统计：</p>
+<ul>
+<li>军事人员：约 12,000 死亡</li>
+<li>平民：约 47,000 死亡</li>
+<li>失踪（疑似坠入真空）：约 8,000</li>
+</ul>
+</blockquote>
+<h3>学者流亡潮</h3>
+<p><strong>观天司流亡记录 #9051-E1：</strong></p>
+<blockquote>
+<p>落井城变后，大量学者与技术人员逃离战区。</p>
+<p>流亡方向：</p>
+<ul>
+<li>约 30% 前往北寒/北墟（远离战场）</li>
+<li>约 25% 前往东海（祖舟港学术传统）</li>
+<li>约 20% 前往西沙/西陵边境（中立区）</li>
+<li>约 25% 下落不明</li>
+</ul>
+<p>带出的资料：</p>
+<ul>
+<li>部分观天司旧档案副本</li>
+<li>天文观测数据</li>
+<li>物理测量仪器</li>
+<li>上古遗迹解读笔记</li>
+</ul>
+<p>这批流亡者后来成为"观天学社"的核心。</p>
+</blockquote>
+<hr>
+<h2>SY 9,103：双日初现</h2>
+<h3>事件经过</h3>
+<p><strong>技术故障报告 #9103-T1：</strong></p>
+<blockquote>
+<p>日期：SY 9,103-6-21
+地点：南燎第 142–145 段</p>
+<p>事件描述：</p>
+<p>11:47 - 配光网开始出现异常振荡
+11:52 - 两条主束同时指向第 143 段
+11:53 - 该段天空出现"双日"现象</p>
+<p>持续时间：约 4 小时</p>
+<p>技术分析：</p>
+<ul>
+<li>光庭与路盟的束路控制指令发生冲突</li>
+<li>分配器在解析矛盾指令时进入振荡状态</li>
+<li>结果导致两条主束同时激活</li>
+</ul>
+<p>后果：</p>
+<ul>
+<li>第 143 段地表温度上升约 15°C</li>
+<li>农作物大面积枯萎</li>
+<li>水体蒸发加速，引发局部洪涝</li>
+<li>约 2,300 人因热射病死亡</li>
+</ul>
+</blockquote>
+<h3>库门之乱</h3>
+<p><strong>坠世院危机报告 #9103-C1：</strong></p>
+<blockquote>
+<p>双日事件后，南燎遭受严重粮荒。</p>
+<p>南燎野侯请求坠世院开放种子库与储备粮。</p>
+<p>坠世监姜藏的立场：</p>
+<ul>
+<li>坠世资源是全方舟的战略储备</li>
+<li>不应为单一地区的战争后果买单</li>
+<li>如果开此先例，坠世资源将被快速消耗</li>
+</ul>
+<p>南燎的回应：</p>
+<ul>
+<li>组织武装力量试图强行进入坠世</li>
+<li>被坠世守部队击退</li>
+<li>事件造成约 1,500 人死亡</li>
+</ul>
+<p>意义：</p>
+<ul>
+<li>坠世的中立地位受到挑战</li>
+<li>姜藏成为各方争议焦点</li>
+<li>坠世守派系开始武装化</li>
+</ul>
+</blockquote>
+<hr>
+<h2>SY 9,130–9,160：束路为兵</h2>
+<h3>战争升级</h3>
+<p>这一时期，配光网从政治工具升级为直接武器。</p>
+<p><strong>战术创新（光庭）：</strong></p>
+<p><em>光刀战术</em></p>
+<ul>
+<li>将主束聚焦至狭窄范围</li>
+<li>直接照射敌方设施</li>
+<li>可在数分钟内烧毁建筑物</li>
+</ul>
+<p><em>热封锁</em></p>
+<ul>
+<li>持续高强度照射目标区域</li>
+<li>迫使敌方撤离或投降</li>
+</ul>
+<p><strong>战术创新（路盟）：</strong></p>
+<p><em>束路劫持</em></p>
+<ul>
+<li>干扰束路控制信号</li>
+<li>使主束偏离预定目标</li>
+<li>或使其照射光庭控制区</li>
+</ul>
+<p><em>暗杀行动</em></p>
+<ul>
+<li>利用航道网络渗透敌后</li>
+<li>破坏关键配光节点</li>
+</ul>
+<h3>银冠卷入</h3>
+<p><strong>太匠府紧急报告 #9145-E1：</strong></p>
+<blockquote>
+<p>警告：Layer A 正在被战争波及</p>
+<p>情况说明：</p>
+<ul>
+<li>光庭试图利用银冠反射帆作为"反束盾"</li>
+<li>部分帆面被强制调整姿态以偏转敌方光刀</li>
+<li>这严重影响了帆面的正常功能</li>
+</ul>
+<p>后果：</p>
+<ul>
+<li>约 15% 的帆面因姿态异常而失去推进功能</li>
+<li>部分帆面因热负荷过高而损坏</li>
+<li>整体推进能力下降约 8%</li>
+</ul>
+<p>警告：</p>
+<ul>
+<li>如果战争继续波及银冠，方舟的航行能力将受到永久损害</li>
+<li>强烈建议各方立即停火</li>
+</ul>
+</blockquote>
+<hr>
+<h2>SY 9,202：司光断钥（第二次，彻底）</h2>
+<h3>决策背景</h3>
+<p><strong>司光令姬照（十七世）的最后通告 #9202-L1：</strong></p>
+<blockquote>
+<p>致全方舟居民：</p>
+<p>这场战争已经持续了一百七十五年。</p>
+<p>数十亿人死于战火、饥荒与瘟疫。
+配光网已损坏超过 40%。
+银冠遭受不可逆转的破坏。</p>
+<p>战争的根源是什么？
+是对配光网控制权的争夺。</p>
+<p>只要全局控制的可能性存在，战争就不会结束。
+总会有人试图夺取那把钥匙。</p>
+<p>因此，我做出了一个决定：</p>
+<p>销毁全局相位校准数据。</p>
+<p>从今以后，没有人能够重建配光网的全局控制。
+每个弧段只能管理自己的配光。</p>
+<p>这是止战的唯一方法。</p>
+<p>我知道这意味着什么：</p>
+<ul>
+<li>统一的历法将不复存在</li>
+<li>跨野协调将变得极其困难</li>
+<li>某些弧段可能永远失去稳定光照</li>
+</ul>
+<p>但这也意味着：</p>
+<ul>
+<li>没有人能再用配光网发动全局战争</li>
+<li>每个弧段必须学会自给自足</li>
+<li>和平将建立在分离而非统一之上</li>
+</ul>
+<p>愿后人理解我的选择。</p>
+<p>姬照（十七世）
+末代司光令</p>
+</blockquote>
+<h3>数据销毁</h3>
+<p><strong>技术记录 #9202-T1：全局相位校准数据销毁</strong></p>
+<blockquote>
+<p>日期：SY 9,202-11-3</p>
+<p>执行人：姬照（十七世）及其亲信团队</p>
+<p>销毁内容：</p>
+<ul>
+<li>全局束路相位校准参数（主数据库）</li>
+<li>全局束路相位校准参数（备份数据库 1–3）</li>
+<li>全局协调协议密钥</li>
+<li>跨野束路路由算法</li>
+</ul>
+<p>销毁方式：</p>
+<ul>
+<li>物理销毁存储介质</li>
+<li>覆写所有已知副本</li>
+<li>处决知悉完整数据的技术人员（共 47 人）</li>
+</ul>
+<p>后果：</p>
+<ul>
+<li>配光网从"统一网络"变为"九野孤网"</li>
+<li>各野只能管理本野的配光系统</li>
+<li>跨野配光协调在技术上变得不可能</li>
+</ul>
+</blockquote>
+<h3>历法崩溃</h3>
+<p><strong>SY 9,203 及以后：共同历法的终结</strong></p>
+<blockquote>
+<p>由于各野配光系统不再同步，"日"与"年"的定义开始分化。</p>
+<p>典型情况：</p>
+<ul>
+<li>中野：维持原标准，一日 = 24 小时</li>
+<li>北寒：昼短夜长，一日 = 20 小时光照 + 28 小时黑暗</li>
+<li>南燎：昼长夜短，一日 = 30 小时光照 + 18 小时黑暗</li>
+<li>东海：尝试维持原标准，但误差累积</li>
+</ul>
+<p>后果：</p>
+<ul>
+<li>跨野通信中的时间表述变得混乱</li>
+<li>历史记录的断代问题开始出现</li>
+<li>各野开始发展独立的历法体系</li>
+</ul>
+</blockquote>
+<hr>
+<h2>SY 9,300–11,200：余烬与停战</h2>
+<h3>战争结束的原因</h3>
+<p>不是因为和平，而是因为无力再战。</p>
+<p><strong>战后评估报告 #11200-A1：</strong></p>
+<blockquote>
+<p>双日烽火战争总结：</p>
+<p>持续时间：SY 9,027 – SY 11,173（约 2,146 年）</p>
+<p>人口损失：</p>
+<ul>
+<li>战前人口：约 850 亿</li>
+<li>战后人口：约 420 亿</li>
+<li>直接战死：约 80 亿</li>
+<li>饥荒死亡：约 150 亿</li>
+<li>瘟疫死亡：约 90 亿</li>
+<li>其他原因：约 110 亿</li>
+</ul>
+<p>基础设施损失：</p>
+<ul>
+<li>配光网：约 45% 损坏或失控</li>
+<li>航道网：约 60% 中断或不安全</li>
+<li>银冠：约 20% 功能丧失</li>
+<li>Bishop Ring：约 120 座被摧毁或废弃</li>
+</ul>
+<p>政治后果：</p>
+<ul>
+<li>九野会盟名存实亡</li>
+<li>航宪院权威崩溃</li>
+<li>各野事实上独立</li>
+</ul>
+<p>战争结束方式：</p>
+<ul>
+<li>无正式和约</li>
+<li>各方因资源耗尽而停止大规模行动</li>
+<li>局部冲突持续数百年</li>
+</ul>
+</blockquote>
+<hr>
+<h1>纪元九：长夜封门纪（SY 11,200 – SY 15,000）</h1>
+<h2>概述</h2>
+<p>战后时代的特征是隔离与衰退。遮光阵被用于防御，形成大片"永夜区"；航道逐渐封闭；知识传承断裂；新兴宗教势力崛起。</p>
+<hr>
+<h2>SY 11,240：长夜之禁立</h2>
+<h3>遮光阵的防御性使用</h3>
+<p><strong>西陵防御报告 #11240-D1：</strong></p>
+<blockquote>
+<p>背景：</p>
+<ul>
+<li>战争期间，西陵多次遭受"光刀"攻击</li>
+<li>损失惨重，人口减少约 60%</li>
+</ul>
+<p>防御方案：</p>
+<ul>
+<li>将遮光阵调整为永久遮蔽模式</li>
+<li>切断与外部配光网的所有连接</li>
+<li>依靠本地存储能源与人工照明生存</li>
+</ul>
+<p>执行日期：SY 11,237-4-15</p>
+<p>后果：</p>
+<ul>
+<li>西陵第 241–280 段进入"永夜"状态</li>
+<li>自然光照完全消失</li>
+<li>改用核聚变电站供应人工光照</li>
+<li>与外界联系大幅减少</li>
+</ul>
+</blockquote>
+<p>类似的"长夜封闭"在多个野出现，包括：</p>
+<ul>
+<li>北寒全境（SY 11,245）</li>
+<li>南渊部分弧段（SY 11,260）</li>
+<li>东荒边境区（SY 11,312）</li>
+</ul>
+<h3>壁门教兴起</h3>
+<p><strong>宗教调查报告 #11500-R1：</strong></p>
+<blockquote>
+<p>长夜封闭后，一种新的宗教信仰在西陵兴起。</p>
+<p>名称：壁门教</p>
+<p>核心教义：</p>
+<ul>
+<li>天壁（弧段边墙）之后是"神域"</li>
+<li>进入神域会受到"神罚"（实为失重与真空）</li>
+<li>门阙节点是"神门"，只有祭司可以接近</li>
+<li>服从教团即是服从神意</li>
+</ul>
+<p>组织结构：</p>
+<ul>
+<li>最高领袖：壁门师</li>
+<li>首任壁门师：巫门</li>
+<li>祭司团：控制门阙节点</li>
+<li>护卫队：武装力量</li>
+</ul>
+<p>社会功能：</p>
+<ul>
+<li>在长夜中提供精神慰藉</li>
+<li>维持社会秩序</li>
+<li>垄断对上古遗迹的"解释权"</li>
+</ul>
+<p>评估：</p>
+<ul>
+<li>壁门教的兴起是知识断代的必然结果</li>
+<li>它将工程遗迹包装为宗教圣物</li>
+<li>有效维持了西陵的社会稳定</li>
+<li>但也系统性地压制了技术知识的传承</li>
+</ul>
+</blockquote>
+<hr>
+<h2>SY 11,800–13,000：港门尽封</h2>
+<h3>航道系统崩溃</h3>
+<p><strong>锚盟（残部）报告 #12500-A1：</strong></p>
+<blockquote>
+<p>航道系统现状评估：</p>
+<p>可用航道：</p>
+<ul>
+<li>九野主干航道：仅 3 条仍可通行</li>
+<li>野内航道：约 40% 可用</li>
+<li>港口锚点站：约 25% 仍在运行</li>
+</ul>
+<p>不可用原因：</p>
+<ul>
+<li>碎片堆积（约 35%）</li>
+<li>设备故障无法维修（约 30%）</li>
+<li>人为封锁（约 25%）</li>
+<li>其他原因（约 10%）</li>
+</ul>
+<p>趋势：</p>
+<ul>
+<li>每年约有 2–3% 的航道变得不可用</li>
+<li>维修能力持续下降</li>
+<li>预计 500 年内，跨野航行将变得极其困难</li>
+</ul>
+</blockquote>
+<h3>空窗盗崛起</h3>
+<p>航道衰退催生了一种新的社会群体：空窗盗。</p>
+<p><strong>安全报告 #12800-S1：</strong></p>
+<blockquote>
+<p>空窗盗特征：</p>
+<p>定义：在航道空窗区域活动的非法武装团体</p>
+<p>活动方式：</p>
+<ul>
+<li>劫掠过往船只</li>
+<li>收取"过路费"</li>
+<li>走私违禁品</li>
+<li>提供非法运输服务</li>
+</ul>
+<p>组织规模：</p>
+<ul>
+<li>大型团伙：约 50 个，各拥有 100+ 艘船</li>
+<li>中型团伙：约 200 个，各拥有 20–100 艘船</li>
+<li>小型团伙：数千个</li>
+</ul>
+<p>控制区域：</p>
+<ul>
+<li>估计控制约 40% 的残存航道</li>
+</ul>
+<p>评估：</p>
+<ul>
+<li>空窗盗实际上成为航道系统的一部分</li>
+<li>某些团伙提供的服务比官方残部更可靠</li>
+<li>它们是秩序崩溃的症状，也是新秩序的雏形</li>
+</ul>
+</blockquote>
+<hr>
+<h2>SY 14,000：星幕始薄</h2>
+<h3>天幕系统退化</h3>
+<p><strong>技术报告 #14000-T1：天幕（Sky-veil）状态评估</strong></p>
+<blockquote>
+<p>天幕系统现状：</p>
+<p>原设计功能：</p>
+<ul>
+<li>散射天光，呈现蓝天效果</li>
+<li>遮蔽真空与星空</li>
+<li>抑制 65 分钟自转造成的星空旋转</li>
+<li>微陨石防护</li>
+</ul>
+<p>当前状态：</p>
+<ul>
+<li>散射层厚度：原设计的约 35%</li>
+<li>覆盖率：约 70%</li>
+<li>防护能力：显著下降</li>
+</ul>
+<p>可见后果：</p>
+<ul>
+<li>夜空开始出现真实星点</li>
+<li>星点会在约 1 小时内完成一周旋转</li>
+<li>部分区域可直接看到真空与外部结构</li>
+</ul>
+<p>维护需求：</p>
+<ul>
+<li>需要补充高空气溶胶</li>
+<li>需要修复漂浮薄膜</li>
+<li>当前技术能力不足以进行大规模维护</li>
+</ul>
+</blockquote>
+<h3>观天学社复兴</h3>
+<p><strong>学社记录 #14000-S1：</strong></p>
+<blockquote>
+<p>随着天幕退化，真实星空开始可见。</p>
+<p>观天学社（原观天司流亡者后裔）开始活跃：</p>
+<p>活动内容：</p>
+<ul>
+<li>记录星空旋转现象</li>
+<li>测量重力随高度的变化</li>
+<li>收集上古遗迹的技术线索</li>
+<li>秘密传播"方舟真相"</li>
+</ul>
+<p>核心人物：陈观（学社第七代领袖）</p>
+<p>陈观的贡献：</p>
+<ul>
+<li>系统化整理了观天学社的所有资料</li>
+<li>建立了"星旋周期"与"结构自转"的对应关系</li>
+<li>设计了便携式重力测量仪</li>
+<li>编写了《舟相考》手稿</li>
+</ul>
+<p>风险：</p>
+<ul>
+<li>壁门教将观天学社视为异端</li>
+<li>多名成员被追捕或处决</li>
+<li>学社被迫转入地下</li>
+</ul>
+</blockquote>
+<hr>
+<h1>纪元十：玄海崩潮纪（SY 15,000 – SY 22,000）</h1>
+<h2>概述</h2>
+<p>Layer D（玄海/黑海域）的灾难性崩溃。散热场与船坞带在一场战役中遭受毁灭性打击，引发碎片级联，外侧航道彻底断绝。</p>
+<hr>
+<h2>SY 15,011：玄海一役</h2>
+<h3>战役背景</h3>
+<p><strong>坞帅府危机报告 #15011-C1：</strong></p>
+<blockquote>
+<p>背景：</p>
+<p>双日烽火战争后，坞帅府分裂为多个派系。
+其中最强大的两个：</p>
+<ul>
+<li>"炉火派"：控制东侧散热场与船坞</li>
+<li>"冷铁派"：控制西侧散热场与船坞</li>
+</ul>
+<p>争端起因：</p>
+<ul>
+<li>稀有金属矿脉的控制权</li>
+<li>新船建造订单的分配</li>
+<li>对玄海航道的收费权</li>
+</ul>
+<p>冲突升级：</p>
+<ul>
+<li>SY 15,008：炉火派封锁冷铁派的能源供应线</li>
+<li>SY 15,009：冷铁派扣押炉火派的货船</li>
+<li>SY 15,010：双方开始武装对峙</li>
+</ul>
+</blockquote>
+<h3>战役经过</h3>
+<p><strong>战况报告 #15011-W1：</strong></p>
+<blockquote>
+<p>日期：SY 15,011-8-17 至 8-23</p>
+<p>关键事件：</p>
+<p>8-17：冷铁派发动突袭，试图夺取炉火派的主散热场</p>
+<p>8-18：炉火派反击，坞帅风烬下令"翻旗战术"</p>
+<p>"翻旗战术"内容：</p>
+<ul>
+<li>强制翻转大量散热翼的姿态</li>
+<li>将废热导向冷铁派舰队</li>
+<li>同时利用翻转产生的结构应力攻击敌方设施</li>
+</ul>
+<p>8-19：翻旗战术生效</p>
+<ul>
+<li>冷铁派舰队遭受热辐射打击</li>
+<li>但散热翼因热疲劳开始断裂</li>
+<li>大量碎片开始在轨道上扩散</li>
+</ul>
+<p>8-20：碎片级联开始</p>
+<ul>
+<li>断裂的散热翼撞击船坞骨架</li>
+<li>船坞骨架断裂产生更多碎片</li>
+<li>碎片密度迅速上升</li>
+</ul>
+<p>8-21–23：灾难性扩散</p>
+<ul>
+<li>级联碰撞失控</li>
+<li>双方舰队均遭受重创</li>
+<li>散热场与船坞带约 60% 被摧毁或失能</li>
+</ul>
+<p>后果：</p>
+<ul>
+<li>炉火派与冷铁派均遭受毁灭性打击</li>
+<li>坞帅风烬下落不明（疑似死于战役）</li>
+<li>玄海区域变成高密度碎片带</li>
+</ul>
+</blockquote>
+<h3>级联效应</h3>
+<p><strong>灾后评估报告 #15100-A1：</strong></p>
+<blockquote>
+<p>玄海一役的长期后果：</p>
+<p>碎片密度：</p>
+<ul>
+<li>战前：约 10⁻⁸ 颗/km³（安全水平）</li>
+<li>战后：约 10⁻⁴ 颗/km³（极度危险）</li>
+</ul>
+<p>通行风险：</p>
+<ul>
+<li>穿越玄海的船只被击中概率：约 95%</li>
+<li>几乎等同于死刑</li>
+</ul>
+<p>散热能力：</p>
+<ul>
+<li>战前总散热能力：约 10¹⁶ W</li>
+<li>战后残存能力：约 3 × 10¹⁵ W</li>
+<li>下降约 70%</li>
+</ul>
+<p>工业产能：</p>
+<ul>
+<li>船坞产能：下降约 80%</li>
+<li>重工业产能：下降约 60%</li>
+</ul>
+<p>结论：</p>
+<ul>
+<li>玄海区域在可预见的未来将保持不可通行状态</li>
+<li>碎片清理需要数千年</li>
+<li>当前没有足够的技术能力进行清理</li>
+</ul>
+</blockquote>
+<hr>
+<h2>SY 15,500–22,000：外海断世</h2>
+<h3>孤岛化完成</h3>
+<p><strong>综合评估报告 #20000-A1：</strong></p>
+<blockquote>
+<p>玄海一役后五千年的变化：</p>
+<p>交通状况：</p>
+<ul>
+<li>跨野航行：几乎完全中断</li>
+<li>野内航行：仅限相邻弧段</li>
+<li>外侧航道：100% 不可用</li>
+<li>内侧走廊：仅存约 5 条，通行困难</li>
+</ul>
+<p>通信状况：</p>
+<ul>
+<li>跨野通信：依赖极少数中继站</li>
+<li>信号延迟：数天至数周</li>
+<li>大部分弧段处于信息孤立状态</li>
+</ul>
+<p>技术状况：</p>
+<ul>
+<li>高技术能力：仅少数弧段保留</li>
+<li>中技术能力：约 30% 弧段</li>
+<li>低技术能力（前工业水平）：约 50% 弧段</li>
+<li>完全退化：约 20% 弧段</li>
+</ul>
+<p>社会状况：</p>
+<ul>
+<li>语言分化加剧</li>
+<li>文化差异扩大</li>
+<li>统一认同消失</li>
+<li>各弧段形成独立的政治实体</li>
+</ul>
+</blockquote>
+<h3>黑海王庭</h3>
+<p><strong>情报报告 #18000-I1：</strong></p>
+<blockquote>
+<p>玄海碎片带中出现了一种新的社会组织：黑海王庭</p>
+<p>起源：</p>
+<ul>
+<li>玄海一役中的幸存者</li>
+<li>逃入碎片带的罪犯与流亡者</li>
+<li>空窗盗的演化形态</li>
+</ul>
+<p>生存方式：</p>
+<ul>
+<li>利用碎片作为掩护</li>
+<li>建立隐蔽的小型栖居点</li>
+<li>打捞碎片中的有价值物资</li>
+<li>对靠近边缘的目标发动袭击</li>
+</ul>
+<p>组织结构：</p>
+<ul>
+<li>最高首领自称"冥海王"</li>
+<li>据说是坞帅风烬的后裔或追随者</li>
+<li>实行军事化管理</li>
+</ul>
+<p>威胁评估：</p>
+<ul>
+<li>对边缘弧段构成持续威胁</li>
+<li>但无力对内侧区域发动大规模攻击</li>
+<li>实际上形成了一种"边境生态"</li>
+</ul>
+</blockquote>
+<hr>
+<h1>纪元十一：诸邦裂俗纪（SY 22,000 – SY 30,000）</h1>
+<h2>概述</h2>
+<p>"世界化"完成的时代。工程遗迹被彻底神话化，居民普遍将方舟视为"自然世界"。只有极少数异端学者保留着真相的碎片。</p>
+<hr>
+<h2>SY 22,300–26,000：工程神话化</h2>
+<h3>神话化机制</h3>
+<p><strong>社会学分析 #24000-S1：</strong></p>
+<blockquote>
+<p>工程遗迹如何变成神话？</p>
+<p>第一阶段：功能遗忘</p>
+<ul>
+<li>维护能力丧失</li>
+<li>原理知识失传</li>
+<li>只剩下"它存在""它有时会动"的认知</li>
+</ul>
+<p>第二阶段：神秘化</p>
+<ul>
+<li>无法解释的现象被归因于"神"或"灵"</li>
+<li>规律性事件被解释为"神意"或"天命"</li>
+<li>危险区域被定义为"禁地"或"圣域"</li>
+</ul>
+<p>第三阶段：制度化</p>
+<ul>
+<li>神话被编纂为宗教经典</li>
+<li>祭司阶层垄断对遗迹的"解释权"</li>
+<li>世俗权力与宗教权力结合</li>
+</ul>
+<p>具体案例：</p>
+<p>| 工程现象 | 神话解释 |
+|----------|----------|
+| 门阙周期性开合 | "神门呼吸" |
+| 泊位编号 | "圣数" |
+| 黄黑警示纹 | "禁纹"/"神纹" |
+| 残存自动照明 | "神迹" |
+| 零重力区域 | "魂飞之地" |
+| 真空 | "无气之渊" |</p>
+</blockquote>
+<h3>三类政体</h3>
+<p><strong>政治地理报告 #25000-P1：</strong></p>
+<blockquote>
+<p>当前方舟政治格局可分为三类：</p>
+<p><strong>类型一：光余城邦</strong></p>
+<p>特征：</p>
+<ul>
+<li>保留残存的配光系统</li>
+<li>维持接近工业时代的技术水平</li>
+<li>通常由技术官僚或商业寡头统治</li>
+<li>人口密度较高</li>
+</ul>
+<p>代表：中野光阙城、东海祖舟港</p>
+<p>人口占比：约 15%</p>
+<p><strong>类型二：长夜诸国</strong></p>
+<p>特征：</p>
+<ul>
+<li>处于永夜或极昼状态</li>
+<li>依靠人工照明与农火文明</li>
+<li>通常由军事贵族或部落联盟统治</li>
+<li>人口分散</li>
+</ul>
+<p>代表：北寒全境、西陵大部</p>
+<p>人口占比：约 45%</p>
+<p><strong>类型三：壁门神权</strong></p>
+<p>特征：</p>
+<ul>
+<li>以宗教为统治基础</li>
+<li>祭司阶层控制门阙节点与上古遗迹</li>
+<li>严格限制技术知识传播</li>
+<li>社会结构僵化</li>
+</ul>
+<p>代表：西陵门前城、南渊部分区域</p>
+<p>人口占比：约 40%</p>
+</blockquote>
+<hr>
+<h2>SY 27,000–30,000：观天异端</h2>
+<h3>星旋发现</h3>
+<p><strong>观天学社秘密报告 #27000-O1：</strong></p>
+<blockquote>
+<p>天幕持续退化后，真实星空越来越清晰可见。</p>
+<p>关键观测发现：</p>
+<ol>
+<li>星空旋转</li>
+</ol>
+<ul>
+<li>
+<p>星星在约 65 分钟内完成一周旋转</p>
+</li>
+<li>
+<p>这与任何已知天体运动规律不符</p>
+</li>
+<li>
+<p>唯一解释：观测者所在的结构在自转</p>
+</li>
+</ul>
+<ol start="2">
+<li>重力异常</li>
+</ol>
+<ul>
+<li>
+<p>重力随高度下降而减小</p>
+</li>
+<li>
+<p>减小率与旋转离心力模型吻合</p>
+</li>
+<li>
+<p>g(h) ≈ g₀(1 - h/R)，其中 R ≈ 3000 km</p>
+</li>
+</ul>
+<ol start="3">
+<li>科里奥利效应</li>
+</ol>
+<ul>
+<li>抛射物轨迹存在系统性偏转</li>
+<li>偏转方向与自转方向一致</li>
+<li>这在自然行星上也存在，但这里的效应强得多</li>
+</ul>
+<p>结论：</p>
+<ul>
+<li>我们生活在一个旋转的巨型结构中</li>
+<li>结构半径约 3000 km</li>
+<li>自转周期约 65 分钟</li>
+<li>这与 Bishop Ring 的设计参数完全吻合</li>
+</ul>
+</blockquote>
+<h3>迫害与坚守</h3>
+<p><strong>学社记录 #29000-S1：</strong></p>
+<blockquote>
+<p>观天学社的处境：</p>
+<p>迫害来源：</p>
+<ul>
+<li>壁门教：视为异端，威胁其宗教权威</li>
+<li>世俗政权：担心引发社会恐慌</li>
+<li>民众：恐惧真相，敌视"疯狂的学者"</li>
+</ul>
+<p>迫害形式：</p>
+<ul>
+<li>公开处决</li>
+<li>流放至边缘区域</li>
+<li>焚毁书籍与仪器</li>
+<li>监禁与酷刑</li>
+</ul>
+<p>学社应对：</p>
+<ul>
+<li>转入完全地下状态</li>
+<li>以暗号与密码通信</li>
+<li>将资料分散保存</li>
+<li>培养可信赖的继承人</li>
+</ul>
+<p>保存下来的关键资料：</p>
+<ul>
+<li>星旋观测记录</li>
+<li>重力测量数据</li>
+<li>《舟相考》手稿副本</li>
+<li>部分上古遗迹解读笔记</li>
+<li>简易测量仪器设计图</li>
+</ul>
+</blockquote>
+<hr>
+<h1>纪元十二：星归胎动纪（SY 30,000 – 今）</h1>
+<h2>概述</h2>
+<p>当代。卵核脉动增强，系统异常频发，天幕加速破损。真相开始从多个方向渗透。方舟正在接近某个临界点。</p>
+<hr>
+<h2>SY 30,020 至今：赤胎脉急</h2>
+<h3>卵核状态变化</h3>
+<p><strong>观天学社秘密报告 #30500-O1：</strong></p>
+<blockquote>
+<p>近五百年来，卵核出现显著变化：</p>
+<p>脉动周期：</p>
+<ul>
+<li>SY 30,000 前：约 40–60 年</li>
+<li>当前：约 25–35 年</li>
+<li>趋势：持续缩短</li>
+</ul>
+<p>辐射变化：</p>
+<ul>
+<li>平均光度：略有上升（约 3%）</li>
+<li>光谱：偶现异常峰值</li>
+<li>脉动振幅：增大约 15%</li>
+</ul>
+<p>时空扰动：</p>
+<ul>
+<li>扰动场强度：增强约 20%</li>
+<li>导航误差：进一步增大</li>
+</ul>
+<p>推测：</p>
+<ul>
+<li>卵核可能正在从休眠状态向活跃状态过渡</li>
+<li>这可能是"孵化"的前兆</li>
+<li>时间尺度难以预测（可能是数百年，也可能是数万年）</li>
+</ul>
+</blockquote>
+<h3>系统异常</h3>
+<p><strong>异常事件汇总 #32000-E1：</strong></p>
+<blockquote>
+<p>近两千年来的主要异常事件：</p>
+<p><strong>配光系统异常：</strong></p>
+<ul>
+<li>双日复现：约 47 次</li>
+<li>冷日（光谱异常偏冷）：约 89 次</li>
+<li>长夜扩展（新区域进入永夜）：约 23 处</li>
+<li>光强异常波动：频繁</li>
+</ul>
+<p><strong>银冠异常：</strong></p>
+<ul>
+<li>帆面漂移：持续进行</li>
+<li>气候带固化：加剧</li>
+<li>部分区域出现"天命暖带/冷带"</li>
+</ul>
+<p><strong>门阙异常：</strong></p>
+<ul>
+<li>自动开启事件：约 156 次</li>
+<li>开启无规律可循</li>
+<li>部分被解释为"神门自开"</li>
+</ul>
+<p><strong>天幕异常：</strong></p>
+<ul>
+<li>破损加速</li>
+<li>真星可见区域扩大</li>
+<li>星旋现象被更多人目击</li>
+</ul>
+</blockquote>
+<h3>上古系统苏醒</h3>
+<p><strong>技术报告 #31000-T1：</strong></p>
+<blockquote>
+<p>最令人不安的发现：</p>
+<p>部分黑盒节点似乎正在"苏醒"。</p>
+<p>证据：</p>
+<ul>
+<li>门阙自动开启事件与黑盒节点位置相关</li>
+<li>某些节点开始发射未知频率的信号</li>
+<li>节点周边的自修复活动似乎增强</li>
+</ul>
+<p>推测：</p>
+<ul>
+<li>黑盒节点可能预设了"孵化窗口触发条件"</li>
+<li>卵核的状态变化可能触发了某些程序</li>
+<li>上古看护者留下的系统正在按照某种预案运行</li>
+</ul>
+<p>意义：</p>
+<ul>
+<li>如果推测正确，方舟正在接近某个重大转折点</li>
+<li>这可能意味着机遇，也可能意味着危机</li>
+<li>我们需要尽快恢复对上古系统的理解</li>
+</ul>
+</blockquote>
+<h3>当代社会格局</h3>
+<p><strong>综合评估 #32000-S1：</strong></p>
+<blockquote>
+<p>当前主要势力：</p>
+<p><strong>壁门教</strong></p>
+<ul>
+<li>立场：宣称末世将至，强调服从与祈祷</li>
+<li>影响：控制西陵、南渊大部</li>
+<li>对真相的态度：坚决压制</li>
+</ul>
+<p><strong>光余城邦联盟</strong></p>
+<ul>
+<li>立场：试图恢复技术能力，重建配光网</li>
+<li>影响：中野、东海、部分东荒</li>
+<li>对真相的态度：部分精英知情，公众不知</li>
+</ul>
+<p><strong>黑海王庭</strong></p>
+<ul>
+<li>立场：趁乱扩张势力范围</li>
+<li>影响：玄海边缘、部分航道</li>
+<li>对真相的态度：实用主义，不关心</li>
+</ul>
+<p><strong>观天学社</strong></p>
+<ul>
+<li>立场：寻找并传播真相</li>
+<li>影响：地下网络，渗透各势力</li>
+<li>目标：进入落井城与光阙寻找"断钥遗址"</li>
+</ul>
+<p><strong>其他</strong></p>
+<ul>
+<li>北寒诸国：孤立主义，自顾不暇</li>
+<li>西沙商帮：逐利，愿意与任何人合作</li>
+<li>边缘弧段：生存为先，无暇他顾</li>
+</ul>
+</blockquote>
+<hr>
+<h1>附录：三次遗忘波</h1>
+<p>| 波次 | 年代 | 机制 | 结果 |
+|------|------|------|------|
+| <strong>第一波</strong> | SY 8,000–15,000 | 《禁史令》+ 战争破坏 + 历法崩溃 | 官方记忆被删除，教育体系瓦解 |
+| <strong>第二波</strong> | SY 15,000–22,000 | 玄海一役 + 航道断绝 + 通信中断 | 知识无法跨区传播，技术退化 |
+| <strong>第三波</strong> | SY 22,000–至今 | 神话化 + 宗教压制 + 社会惰性 | "飞船论"成为异端，世界观固化 |</p>
+<hr>
+<h1>附录：关键事件时间线</h1>
+<p>| 年代 | 事件 | 影响 |
+|------|------|------|
+| BP 300M | 卵核被发现 | 上古看护者启动护胎工程 |
+| BP 260M | 天环建成 | 单环孵化器投入运行 |
+| BP 50M | 看护者撤离 | 天环进入自治模式 |
+| SY -40k | 参数漂移危机 | 人类启动载世堡计划 |
+| SY -32k | 撞击事件 | 天环受损，地球部分解体 |
+| SY -31,950 | 坠世驻泊 | 地球残骸进入稳定轨道 |
+| SY 0 | 舟元立 | 方舟作为统一政体诞生 |
+| SY 8,100 | 航宪禁史 | 真相被系统性封锁 |
+| SY 9,027 | 双日烽火开始 | 内战爆发 |
+| SY 9,202 | 司光断钥 | 配光网永久分裂 |
+| SY 11,200 | 战争结束 | 方舟事实上分裂 |
+| SY 15,011 | 玄海一役 | 外侧航道断绝 |
+| SY 22,000 | 神话化完成 | 飞船真相被普遍遗忘 |
+| SY 30,000+ | 赤胎脉急 | 异常频发，真相开始渗透 |</p>2b:["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$2c"}}]
+24:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+20:null
+22:{"metadata":[["$","title","0",{"children":"历史 | 云微的胡思乱想"}],["$","meta","1",{"name":"description","content":"Documentation: 历史"}],["$","meta","2",{"name":"robots","content":"index, follow"}],["$","meta","3",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","4",{"rel":"canonical","href":"https://www.yunwei37.com/docs/%E5%B0%8F%E8%AF%B4/%E6%95%85%E4%BA%8B1/backup/%E5%8E%86%E5%8F%B2/%E5%8E%86%E5%8F%B2"}],["$","link","5",{"rel":"alternate","type":"application/rss+xml","href":"https://www.yunwei37.com/feed.xml"}],["$","meta","6",{"property":"og:title","content":"历史"}],["$","meta","7",{"property":"og:description","content":"Documentation: 历史"}],["$","meta","8",{"property":"og:url","content":"https://www.yunwei37.com/docs/%E5%B0%8F%E8%AF%B4/%E6%95%85%E4%BA%8B1/backup/%E5%8E%86%E5%8F%B2/%E5%8E%86%E5%8F%B2"}],["$","meta","9",{"property":"og:site_name","content":"云微的胡思乱想"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:type","content":"article"}],["$","meta","12",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","13",{"name":"twitter:title","content":"历史"}],["$","meta","14",{"name":"twitter:description","content":"Documentation: 历史"}]],"error":null,"digest":"$undefined"}
+27:"$22:metadata"

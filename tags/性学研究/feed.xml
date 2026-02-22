@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>云微的胡思乱想</title>
+      <link>https://www.yunwei37.com/blog</link>
+      <description>Personal Website of Yusheng Zheng | yunwei37</description>
+      <language>en-us</language>
+      <managingEditor>yunwei356@gmail.com (Yusheng Zheng)</managingEditor>
+      <webMaster>yunwei356@gmail.com (Yusheng Zheng)</webMaster>
+      <lastBuildDate>Fri, 20 Jun 2025 08:35:29 GMT</lastBuildDate>
+      <atom:link href="https://www.yunwei37.com/tags/性学研究/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.yunwei37.com/blog/future</guid>
+    <title>性的未来：数字时代的科技、伦理与人类连接</title>
+    <link>https://www.yunwei37.com/blog/future</link>
+    undefined
+    <pubDate>Fri, 20 Jun 2025 08:35:29 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>未来技术</category><category>性学研究</category><category>数字亲密</category><category>人工智能</category><category>生物技术</category><category>虚拟现实</category><category>伦理学</category><category>人际关系</category>
+  </item>
+
+    </channel>
+  </rss>

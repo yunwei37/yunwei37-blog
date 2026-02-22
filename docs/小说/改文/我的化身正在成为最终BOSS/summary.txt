@@ -1,0 +1,859 @@
+1:"$Sreact.fragment"
+2:I[1478,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"ThemeProviders"]
+3:I[4091,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"default"]
+4:I[9243,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],""]
+5:I[7392,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"KBarSearchProvider"]
+6:I[6874,["874","static/chunks/874-8edb22cc7428423c.js","63","static/chunks/63-d245e42a784ca56d.js","974","static/chunks/app/page-55e305169e4b271e.js"],""]
+10:I[8393,[],""]
+:HL["/_next/static/media/36966cca54120369-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/4ac7c0f872b74ee7.css","style"]
+:HL["/_next/static/css/a06d7e24bf9a7d93.css","style"]
+0:{"P":null,"b":"MYXrWUjg0HELsl6zLYF_6","p":"","c":["","docs","%E5%B0%8F%E8%AF%B4","%E6%94%B9%E6%96%87","%E6%88%91%E7%9A%84%E5%8C%96%E8%BA%AB%E6%AD%A3%E5%9C%A8%E6%88%90%E4%B8%BA%E6%9C%80%E7%BB%88BOSS","summary"],"i":false,"f":[[["",{"children":["docs",{"children":[["slug","%E5%B0%8F%E8%AF%B4/%E6%94%B9%E6%96%87/%E6%88%91%E7%9A%84%E5%8C%96%E8%BA%AB%E6%AD%A3%E5%9C%A8%E6%88%90%E4%B8%BA%E6%9C%80%E7%BB%88BOSS/summary","c"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4ac7c0f872b74ee7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/a06d7e24bf9a7d93.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en-us","className":"__variable_dd5b2f scroll-smooth","suppressHydrationWarning":true,"children":[["$","link",null,{"rel":"apple-touch-icon","sizes":"76x76","href":"/static/favicons/apple-touch-icon.png"}],["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/static/favicons/favicon.svg"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"32x32","href":"/static/favicons/favicon-32x32.png"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"16x16","href":"/static/favicons/favicon-16x16.png"}],["$","link",null,{"rel":"manifest","href":"/static/favicons/site.webmanifest"}],["$","link",null,{"rel":"mask-icon","href":"/static/favicons/safari-pinned-tab.svg","color":"#5bbad5"}],["$","meta",null,{"name":"msapplication-TileColor","content":"#000000"}],["$","meta",null,{"name":"theme-color","media":"(prefers-color-scheme: light)","content":"#fff"}],["$","meta",null,{"name":"theme-color","media":"(prefers-color-scheme: dark)","content":"#000"}],["$","link",null,{"rel":"alternate","type":"application/rss+xml","href":"/feed.xml"}],["$","body",null,{"className":"pl-[calc(100vw-100%)] text-black antialiased dark:text-white min-h-screen","children":["$","$L2",null,{"children":[["$","$L3",null,{}],["$undefined","$undefined","$undefined",["$","$L4",null,{"async":true,"defer":true,"src":"https://analytics.umami.is/script.js"}],"$undefined","$undefined"],["$","div",null,{"className":"min-h-screen flex flex-col justify-center py-8","children":["$","div",null,{"className":"content-glass mx-auto w-full max-w-5xl px-4 sm:px-6 xl:px-8 py-8","children":["$","$L5",null,{"kbarConfig":{"searchDocumentsPath":"/search.json"},"children":[["$","header",null,{"className":"flex items-center w-full justify-between py-6 border-b border-gray-200/30 dark:border-gray-700/30","children":[["$","$L6",null,{"className":"break-words","href":"/","aria-label":"yunwei37","children":["$","div",null,{"className":"flex items-center","children":[["$","div",null,{"className":"mr-3","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":40,"height":40,"fill":"none","children":[["$","defs",null,{"children":[["$","linearGradient",null,{"id":"logo_svg__a","x1":"0%","x2":"100%","y1":"0%","y2":"100%","children":[["$","stop",null,{"offset":"0%","style":{"stopColor":"#3b82f6","stopOpacity":1}}],["$","stop",null,{"offset":"100%","style":{"stopColor":"#06b6d4","stopOpacity":1}}]]}],["$","linearGradient",null,{"id":"logo_svg__b","x1":"0%","x2":"100%","y1":"0%","y2":"100%","children":[["$","stop",null,{"offset":"0%","style":{"stopColor":"#8b5cf6","stopOpacity":1}}],["$","stop",null,{"offset":"100%","style":{"stopColor":"#3b82f6","stopOpacity":1}}]]}]]}],["$","circle",null,{"cx":20,"cy":20,"r":18,"fill":"url(#logo_svg__a)","opacity":0.1}],["$","path",null,{"fill":"url(#logo_svg__a)","d":"m12 8 6 10v10h4V18l6-10h-4l-4 6-4-6Z"}],["$","path",null,{"fill":"url(#logo_svg__b)","d":"m8 24 4 8 4-8 4 8 4-8h8v4h-6l-4 8-4-8-4 8-4-8H8Z","opacity":0.8}],["$","circle",null,{"cx":32,"cy":12,"r":2,"fill":"url(#logo_svg__b)"}],["$","circle",null,{"cx":8,"cy":12,"r":1.5,"fill":"url(#logo_svg__a)","opacity":0.6}]]}]}],["$","div",null,{"className":"hidden text-2xl font-bold sm:block hover:text-primary-600 dark:hover:text-primary-400 transition-colors","children":"yunwei37"}]]}]}],["$","div",null,{"className":"flex items-center space-x-4","children":[["$","div",null,{"className":"no-scrollbar hidden items-center space-x-2 sm:flex","children":[["$","$L6","Blog",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/blog","children":"Blog"}],["$","$L6","Docs",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/docs","children":"Docs"}],"$L7","$L8"]}],"$L9"]}]]}],"$La","$Lb"]}]}]}]]}]}]]}]]}],{"children":["docs","$Lc",{"children":[["slug","%E5%B0%8F%E8%AF%B4/%E6%94%B9%E6%96%87/%E6%88%91%E7%9A%84%E5%8C%96%E8%BA%AB%E6%AD%A3%E5%9C%A8%E6%88%90%E4%B8%BA%E6%9C%80%E7%BB%88BOSS/summary","c"],"$Ld",{"children":["__PAGE__","$Le",{},null,false]},null,false]},null,false]},null,false],"$Lf",false]],"m":"$undefined","G":["$10",[]],"s":false,"S":true}
+11:I[4159,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"KBarButton"]
+12:I[1762,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"default"]
+13:I[7298,["874","static/chunks/874-8edb22cc7428423c.js","650","static/chunks/650-5bb235cd9bfca45d.js","177","static/chunks/app/layout-66df3ac28fcfbced.js"],"default"]
+14:I[7555,[],""]
+15:I[1295,[],""]
+20:I[9665,[],"OutletBoundary"]
+22:I[4911,[],"AsyncMetadataOutlet"]
+24:I[9665,[],"ViewportBoundary"]
+26:I[9665,[],"MetadataBoundary"]
+27:"$Sreact.suspense"
+7:["$","$L6","Tags",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/tags","children":"Tags"}]
+8:["$","$L6","About",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/about","children":"About"}]
+9:["$","div",null,{"className":"flex items-center space-x-2","children":[["$","$L11",null,{"aria-label":"Search","className":"p-2 rounded-lg transition-all duration-200","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","strokeWidth":1.5,"stroke":"currentColor","className":"h-6 w-6 hover:text-primary-600 dark:hover:text-primary-400 transition-colors","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","d":"M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"}]}]}],["$","$L12",null,{}],["$","$L13",null,{}]]}]
+a:["$","main",null,{"className":"py-6","children":["$","$L14",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L15",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"flex flex-col items-start justify-start md:mt-24 md:flex-row md:items-center md:justify-center md:space-x-6","children":[["$","div",null,{"className":"space-x-2 pt-6 pb-8 md:space-y-5","children":["$","h1",null,{"className":"text-6xl leading-9 font-extrabold tracking-tight md:border-r-2 md:px-6 md:text-8xl md:leading-14","children":"404"}]}],["$","div",null,{"className":"max-w-md","children":[["$","p",null,{"className":"mb-4 text-xl leading-normal font-bold md:text-2xl","children":"Sorry we couldn't find this page."}],["$","p",null,{"className":"mb-8","children":"But dont worry, you can find plenty of other things on our homepage."}],["$","$L6",null,{"className":"focus:shadow-outline-blue inline rounded-lg border border-transparent bg-blue-600 px-4 py-2 text-sm leading-5 font-medium text-white shadow-xs transition-colors duration-150 hover:bg-blue-700 focus:outline-hidden dark:hover:bg-blue-500","href":"/","children":"Back to homepage"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]
+b:["$","footer",null,{"className":"border-t border-gray-200/30 dark:border-gray-700/30 pt-8","children":["$","div",null,{"className":"flex flex-col items-center space-y-6","children":[["$","div",null,{"className":"flex flex-wrap justify-center gap-4","children":[["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"mailto:yunwei356@gmail.com","children":[["$","span",null,{"className":"sr-only","children":"mail"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Mail"}],["$","path",null,{"d":"M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"}],["$","path",null,{"d":"M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"}]]}]]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://github.com/yunwei37","children":[["$","span",null,{"className":"sr-only","children":"github"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"GitHub"}],["$","path",null,{"d":"M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"}]]}]]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://facebook.com","children":[["$","span",null,{"className":"sr-only","children":"facebook"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Facebook"}],["$","path",null,{"d":"M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"}]]}]]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://youtube.com","children":[["$","span",null,{"className":"sr-only","children":"youtube"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Youtube"}],["$","path",null,{"d":"M23.499 6.203a3.008 3.008 0 00-2.089-2.089c-1.87-.501-9.4-.501-9.4-.501s-7.509-.01-9.399.501a3.008 3.008 0 00-2.088 2.09A31.258 31.26 0 000 12.01a31.258 31.26 0 00.523 5.785 3.008 3.008 0 002.088 2.089c1.869.502 9.4.502 9.4.502s7.508 0 9.399-.502a3.008 3.008 0 002.089-2.09 31.258 31.26 0 00.5-5.784 31.258 31.26 0 00-.5-5.808zm-13.891 9.4V8.407l6.266 3.604z"}]]}]]}],"$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c"]}],"$L1d","$L1e"]}]}]
+c:["$","$1","c",{"children":[null,["$","$L14",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L15",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+d:["$","$1","c",{"children":[null,["$","$L14",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L15",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+e:["$","$1","c",{"children":["$L1f",null,["$","$L20",null,{"children":["$L21",["$","$L22",null,{"promise":"$@23"}]]}]]}]
+f:["$","$1","h",{"children":[null,[["$","$L24",null,{"children":"$L25"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L26",null,{"children":["$","div",null,{"hidden":true,"children":["$","$27",null,{"fallback":null,"children":"$L28"}]}]}]]}]
+16:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://www.linkedin.com/in/yusheng-zheng-611920280","children":[["$","span",null,{"className":"sr-only","children":"linkedin"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Linkedin"}],["$","path",null,{"d":"M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"}]]}]]}]
+17:null
+18:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://bsky.app/","children":[["$","span",null,{"className":"sr-only","children":"bluesky"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Bluesky"}],["$","path",null,{"d":"M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565C.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479c.815 2.736 3.713 3.66 6.383 3.364q.204-.03.415-.056q-.207.033-.415.056c-3.912.58-7.387 2.005-2.83 7.078c5.013 5.19 6.87-1.113 7.823-4.308c.953 3.195 2.05 9.271 7.733 4.308c4.267-4.308 1.172-6.498-2.74-7.078a9 9 0 0 1-.415-.056q.21.026.415.056c2.67.297 5.568-.628 6.383-3.364c.246-.828.624-5.79.624-6.478c0-.69-.139-1.861-.902-2.206c-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8"}]]}]]}]
+19:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://x.com/yunwei37","children":[["$","span",null,{"className":"sr-only","children":"x"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"X"}],["$","path",null,{"d":"M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"}]]}]]}]
+29:T69f,M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z1a:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://www.instagram.com","children":[["$","span",null,{"className":"sr-only","children":"instagram"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Instagram"}],["$","path",null,{"d":"$29"}]]}]]}]
+2a:T498,M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.964-.065-1.19.408-2.285 1.33-3.082.88-.76 2.119-1.207 3.583-1.291a13.853 13.853 0 0 1 3.02.142c-.126-.742-.375-1.332-.75-1.757-.513-.586-1.308-.883-2.359-.89h-.029c-.844 0-1.992.232-2.721 1.32L7.734 7.847c.98-1.454 2.568-2.256 4.478-2.256h.044c3.194.02 5.097 1.975 5.287 5.388.108.046.216.094.321.142 1.49.7 2.58 1.761 3.154 3.07.797 1.82.871 4.79-1.548 7.158-1.85 1.81-4.094 2.628-7.277 2.65Zm1.003-11.69c-.242 0-.487.007-.739.021-1.836.103-2.98.946-2.916 2.143.067 1.256 1.452 1.839 2.784 1.767 1.224-.065 2.818-.543 3.086-3.71a10.5 10.5 0 0 0-2.215-.221z1b:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://www.threads.net","children":[["$","span",null,{"className":"sr-only","children":"threads"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Threads"}],["$","path",null,{"d":"$2a"}]]}]]}]
+1c:["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://medium.com","children":[["$","span",null,{"className":"sr-only","children":"medium"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Medium"}],["$","path",null,{"d":"M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"}]]}]]}]
+1d:["$","div",null,{"className":"flex space-x-2 text-sm opacity-80","children":[["$","div",null,{"children":"Yusheng Zheng"}],["$","div",null,{"children":" • "}],["$","div",null,{"children":"© 2026"}],["$","div",null,{"children":" • "}],["$","$L6",null,{"className":"hover:text-primary-500 transition-colors","href":"/","children":"云微的胡思乱想"}]]}]
+1e:["$","div",null,{"className":"text-sm opacity-60","children":["$","a",null,{"className":"hover:text-primary-500 transition-colors","target":"_blank","rel":"noopener noreferrer","href":"https://github.com/timlrx/tailwind-nextjs-starter-blog","children":"Tailwind Nextjs Theme"}]}]
+2b:I[3429,["874","static/chunks/874-8edb22cc7428423c.js","582","static/chunks/app/docs/%5B...slug%5D/page-0c54796a1c75eb33.js"],"default"]
+1f:["$","$L2b",null,{"content":{"slug":"小说/改文/我的化身正在成为最终BOSS/summary","title":"Summary","path":"docs/小说/改文/我的化身正在成为最终BOSS/summary"},"allDocs":[{"slug":"prompt/story","title":"Story","path":"docs/prompt/story"},{"slug":"random/apisix-profile-OSPP-郑昱笙","title":"Apisix Profile OSPP 郑昱笙","path":"docs/random/apisix-profile-OSPP-郑昱笙"},{"slug":"random/intro","title":"Intro","path":"docs/random/intro"},{"slug":"random/introen","title":"Introen","path":"docs/random/introen"},{"slug":"random/network_paper","title":"Network_paper","path":"docs/random/network_paper"},{"slug":"random/talk_docvqa.","title":"Talk_docvqa.","path":"docs/random/talk_docvqa."},{"slug":"代码/AI辅助代码生成是否将成为未来编程的主流","title":"AI辅助代码生成是否将成为未来编程的主流","path":"docs/代码/AI辅助代码生成是否将成为未来编程的主流"},{"slug":"小说/playground/story1","title":"Story1","path":"docs/小说/playground/story1"},{"slug":"小说/性与性别流动/故事/ai_symbiosis_system","title":"Ai_symbiosis_system","path":"docs/小说/性与性别流动/故事/ai_symbiosis_system"},{"slug":"小说/性与性别流动/故事/future","title":"性的未来：数字时代的科技、伦理与人类连接","path":"docs/小说/性与性别流动/故事/future"},{"slug":"小说/性与性别流动/故事/guideline","title":"Guideline","path":"docs/小说/性与性别流动/故事/guideline"},{"slug":"小说/性与性别流动/故事/ideas","title":"Ideas","path":"docs/小说/性与性别流动/故事/ideas"},{"slug":"小说/性与性别流动/故事/master_index","title":"Master_index","path":"docs/小说/性与性别流动/故事/master_index"},{"slug":"小说/性与性别流动/故事/outlines","title":"Outlines","path":"docs/小说/性与性别流动/故事/outlines"},{"slug":"小说/性与性别流动/故事/social_systems_design","title":"Social_systems_design","path":"docs/小说/性与性别流动/故事/social_systems_design"},{"slug":"小说/性与性别流动/故事/specific_technologies","title":"Specific_technologies","path":"docs/小说/性与性别流动/故事/specific_technologies"},{"slug":"小说/性与性别流动/故事/technology_timeline","title":"Technology_timeline","path":"docs/小说/性与性别流动/故事/technology_timeline"},{"slug":"小说/性与性别流动/故事/world_background","title":"World_background","path":"docs/小说/性与性别流动/故事/world_background"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/chapter_titles_candidates","title":"Chapter_titles_candidates","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/chapter_titles_candidates"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/guideline","title":"Guideline","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/guideline"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/more_intro","title":"More_intro","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/more_intro"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/story_outline_summary","title":"Story_outline_summary","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/story_outline_summary"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/主角心态变化分析","title":"主角心态变化分析","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/主角心态变化分析"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕_流影的记忆碎片_大纲","title":"第四幕_流影的记忆碎片_大纲","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕_流影的记忆碎片_大纲"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/1","title":"1","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/1"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/2","title":"2","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/2"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/3","title":"3","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/3"},{"slug":"小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/4","title":"4","path":"docs/小说/性与性别流动/故事/穿越到2095后我成了校园性别流动实验的主角/first/第四幕/4"},{"slug":"小说/性与性别流动/故事/集合/1/characters","title":"Characters","path":"docs/小说/性与性别流动/故事/集合/1/characters"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/8","title":"8","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/8"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/第五幕_再遇许璃与派系暗流","title":"第五幕_再遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/第五幕_再遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/第五幕_再遇许璃与派系暗流 copy","title":"第五幕_再遇许璃与派系暗流 copy","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/第五幕_再遇许璃与派系暗流 copy"},{"slug":"小说/性与性别流动/故事/集合/1/depreciated/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/depreciated/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/design","title":"Design","path":"docs/小说/性与性别流动/故事/集合/1/design"},{"slug":"小说/性与性别流动/故事/集合/1/intro","title":"Intro","path":"docs/小说/性与性别流动/故事/集合/1/intro"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第一幕_修改建议","title":"第一幕_修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第一幕_修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第三幕_修改建议","title":"第三幕_修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第三幕_修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第二幕_修改建议","title":"第二幕_修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第二幕_修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第五幕_初遇许璃与派系暗流_扩展与修改建议","title":"第五幕_初遇许璃与派系暗流_扩展与修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第五幕_初遇许璃与派系暗流_扩展与修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/comments/第四幕_修改建议","title":"第四幕_修改建议","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/comments/第四幕_修改建议"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/general/1-3","title":"1 3","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/general/1-3"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第五幕_再遇许璃与派系暗流","title":"第五幕_再遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第五幕_再遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/mix_story/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/mix_story/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/more_intro","title":"More_intro","path":"docs/小说/性与性别流动/故事/集合/1/more_intro"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter1_意外觉醒","title":"Chapter1_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter1_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter2_艰难适应","title":"Chapter2_艰难适应","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter2_艰难适应"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter3_暗流涌动","title":"Chapter3_暗流涌动","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter3_暗流涌动"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter4_假面嘉年华","title":"Chapter4_假面嘉年华","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter4_假面嘉年华"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter5_三方博弈","title":"Chapter5_三方博弈","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter5_三方博弈"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter6_真相与背叛","title":"Chapter6_真相与背叛","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter6_真相与背叛"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter7_意识围猎","title":"Chapter7_意识围猎","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter7_意识围猎"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter8_破局重组","title":"Chapter8_破局重组","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter8_破局重组"},{"slug":"小说/性与性别流动/故事/集合/1/old/Chapter9_新的开始","title":"Chapter9_新的开始","path":"docs/小说/性与性别流动/故事/集合/1/old/Chapter9_新的开始"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/outline/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/outline/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/outline/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/outline/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/outline/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/outline/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/outline/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/outline/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十六幕_开放的未来与永恒的探索","title":"第十六幕_开放的未来与永恒的探索","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十六幕_开放的未来与永恒的探索"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/outline/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/outline/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/outline/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第15幕_新秩序的建立与考验","title":"第15幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第15幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十六幕_开放的未来与永恒的探索","title":"第十六幕_开放的未来与永恒的探索","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十六幕_开放的未来与永恒的探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/story_claude/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/story_claude/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十六幕_开放的未来与永恒的探索","title":"第十六幕_开放的未来与永恒的探索","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十六幕_开放的未来与永恒的探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/story_gemini/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/story_gemini/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十六幕_开放的未来与永恒的探索","title":"第十六幕_开放的未来与永恒的探索","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十六幕_开放的未来与永恒的探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/story_grok/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/story_grok/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第一幕_意外觉醒","title":"第一幕_意外觉醒","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第一幕_意外觉醒"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第七幕_地下黑市初探","title":"第七幕_地下黑市初探","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第七幕_地下黑市初探"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第三幕_镜中新我与身体探索","title":"第三幕_镜中新我与身体探索","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第三幕_镜中新我与身体探索"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第九幕_数字痕迹","title":"第九幕_数字痕迹","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第九幕_数字痕迹"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第二幕_身体重塑的七日历程","title":"第二幕_身体重塑的七日历程","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第二幕_身体重塑的七日历程"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第五幕_初遇许璃与派系暗流","title":"第五幕_初遇许璃与派系暗流","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第五幕_初遇许璃与派系暗流"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第八幕_情感探索与身份认同危机","title":"第八幕_情感探索与身份认同危机","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第八幕_情感探索与身份认同危机"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第六幕_身体流动庆典","title":"第六幕_身体流动庆典","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第六幕_身体流动庆典"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十一幕_压力测试","title":"第十一幕_压力测试","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十一幕_压力测试"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十三幕_无解的道德困境","title":"第十三幕_无解的道德困境","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十三幕_无解的道德困境"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十二幕_意识病毒危机爆发","title":"第十二幕_意识病毒危机爆发","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十二幕_意识病毒危机爆发"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十五幕_新秩序的建立与考验","title":"第十五幕_新秩序的建立与考验","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十五幕_新秩序的建立与考验"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十四幕_意外联盟与妥协方案","title":"第十四幕_意外联盟与妥协方案","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十四幕_意外联盟与妥协方案"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第十幕_系统故障","title":"第十幕_系统故障","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第十幕_系统故障"},{"slug":"小说/性与性别流动/故事/集合/1/story_oai_claude/第四幕_流影的记忆碎片","title":"第四幕_流影的记忆碎片","path":"docs/小说/性与性别流动/故事/集合/1/story_oai_claude/第四幕_流影的记忆碎片"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第一幕_意外觉醒_正文","title":"第一幕_意外觉醒_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第一幕_意外觉醒_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第七幕_地下黑市初探_正文","title":"第七幕_地下黑市初探_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第七幕_地下黑市初探_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第三幕_镜中新我与身体探索_正文","title":"第三幕_镜中新我与身体探索_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第三幕_镜中新我与身体探索_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第九幕_数字痕迹_正文","title":"第九幕_数字痕迹_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第九幕_数字痕迹_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第二幕_身体重塑的七日历程_正文","title":"第二幕_身体重塑的七日历程_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第二幕_身体重塑的七日历程_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第五幕_初遇许璃与派系暗流_正文","title":"第五幕_初遇许璃与派系暗流_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第五幕_初遇许璃与派系暗流_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第八幕_情感探索与身份认同危机_正文","title":"第八幕_情感探索与身份认同危机_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第八幕_情感探索与身份认同危机_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第六幕_身体流动庆典_正文","title":"第六幕_身体流动庆典_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第六幕_身体流动庆典_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十一幕_压力测试_正文","title":"第十一幕_压力测试_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十一幕_压力测试_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十三幕_无解的道德困境_正文","title":"第十三幕_无解的道德困境_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十三幕_无解的道德困境_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十二幕_意识病毒危机爆发_正文","title":"第十二幕_意识病毒危机爆发_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十二幕_意识病毒危机爆发_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十五幕_新秩序的建立与考验_正文","title":"第十五幕_新秩序的建立与考验_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十五幕_新秩序的建立与考验_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十四幕_意外联盟与妥协方案_正文","title":"第十四幕_意外联盟与妥协方案_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十四幕_意外联盟与妥协方案_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第十幕_系统故障_正文","title":"第十幕_系统故障_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第十幕_系统故障_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_openai/第四幕_流影的记忆碎片_正文","title":"第四幕_流影的记忆碎片_正文","path":"docs/小说/性与性别流动/故事/集合/1/story_openai/第四幕_流影的记忆碎片_正文"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_01_awakening","title":"Chapter_01_awakening","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_01_awakening"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_02_adaptation","title":"Chapter_02_adaptation","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_02_adaptation"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_03_body_awakening","title":"Chapter_03_body_awakening","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_03_body_awakening"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_04_undercurrents","title":"Chapter_04_undercurrents","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_04_undercurrents"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_05_carnival","title":"Chapter_05_carnival","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_05_carnival"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_06_three_way_struggle","title":"Chapter_06_three_way_struggle","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_06_three_way_struggle"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_07_emotional_deepening","title":"Chapter_07_emotional_deepening","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_07_emotional_deepening"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_08_truth_and_betrayal","title":"Chapter_08_truth_and_betrayal","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_08_truth_and_betrayal"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_09_consciousness_siege","title":"Chapter_09_consciousness_siege","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_09_consciousness_siege"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/chapter_10_breakthrough_and_new_beginning","title":"Chapter_10_breakthrough_and_new_beginning","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/chapter_10_breakthrough_and_new_beginning"},{"slug":"小说/性与性别流动/故事/集合/1/story_outline1/summary","title":"Summary","path":"docs/小说/性与性别流动/故事/集合/1/story_outline1/summary"},{"slug":"小说/性与性别流动/故事/集合/1/summary","title":"Summary","path":"docs/小说/性与性别流动/故事/集合/1/summary"},{"slug":"小说/性与性别流动/讨论/01_生物科技与身体改造研究报告","title":"01_生物科技与身体改造研究报告","path":"docs/小说/性与性别流动/讨论/01_生物科技与身体改造研究报告"},{"slug":"小说/性与性别流动/讨论/02_赛博格时代社会影响分析报告","title":"02_赛博格时代社会影响分析报告","path":"docs/小说/性与性别流动/讨论/02_赛博格时代社会影响分析报告"},{"slug":"小说/性与性别流动/讨论/03_性与亲密关系的未来演变研究","title":"03_性与亲密关系的未来演变研究","path":"docs/小说/性与性别流动/讨论/03_性与亲密关系的未来演变研究"},{"slug":"小说/性与性别流动/讨论/05_伦理与哲学思辨专题","title":"05_伦理与哲学思辨专题","path":"docs/小说/性与性别流动/讨论/05_伦理与哲学思辨专题"},{"slug":"小说/性与性别流动/讨论/idea","title":"Idea","path":"docs/小说/性与性别流动/讨论/idea"},{"slug":"小说/性与性别流动/讨论/性与亲密关系研究问题集","title":"性与亲密关系研究问题集","path":"docs/小说/性与性别流动/讨论/性与亲密关系研究问题集"},{"slug":"小说/性与性别流动/讨论/机密档案：情感动力学（合欢宗）技术与哲学纲要","title":"机密档案：情感动力学（合欢宗）技术与哲学纲要","path":"docs/小说/性与性别流动/讨论/机密档案：情感动力学（合欢宗）技术与哲学纲要"},{"slug":"小说/改文/我的化身正在成为最终BOSS/character_redesign_female_protagonist","title":"Character_redesign_female_protagonist","path":"docs/小说/改文/我的化身正在成为最终BOSS/character_redesign_female_protagonist"},{"slug":"小说/改文/我的化身正在成为最终BOSS/summary","title":"Summary","path":"docs/小说/改文/我的化身正在成为最终BOSS/summary"},{"slug":"小说/故事1/backup/主线","title":"主线","path":"docs/小说/故事1/backup/主线"},{"slug":"小说/故事1/backup/主线_v2","title":"主线_v2","path":"docs/小说/故事1/backup/主线_v2"},{"slug":"小说/故事1/backup/历史/历史","title":"历史","path":"docs/小说/故事1/backup/历史/历史"},{"slug":"小说/故事1/backup/历史/赤胎环舟本纪","title":"赤胎环舟本纪","path":"docs/小说/故事1/backup/历史/赤胎环舟本纪"},{"slug":"小说/故事1/backup/大纲/1","title":"1","path":"docs/小说/故事1/backup/大纲/1"},{"slug":"小说/故事1/backup/大纲/10","title":"10","path":"docs/小说/故事1/backup/大纲/10"},{"slug":"小说/故事1/backup/大纲/11","title":"11","path":"docs/小说/故事1/backup/大纲/11"},{"slug":"小说/故事1/backup/大纲/12","title":"12","path":"docs/小说/故事1/backup/大纲/12"},{"slug":"小说/故事1/backup/大纲/13","title":"13","path":"docs/小说/故事1/backup/大纲/13"},{"slug":"小说/故事1/backup/大纲/14","title":"14","path":"docs/小说/故事1/backup/大纲/14"},{"slug":"小说/故事1/backup/大纲/15","title":"15","path":"docs/小说/故事1/backup/大纲/15"},{"slug":"小说/故事1/backup/大纲/16","title":"16","path":"docs/小说/故事1/backup/大纲/16"},{"slug":"小说/故事1/backup/大纲/2","title":"2","path":"docs/小说/故事1/backup/大纲/2"},{"slug":"小说/故事1/backup/大纲/3","title":"3","path":"docs/小说/故事1/backup/大纲/3"},{"slug":"小说/故事1/backup/大纲/4","title":"4","path":"docs/小说/故事1/backup/大纲/4"},{"slug":"小说/故事1/backup/大纲/5","title":"5","path":"docs/小说/故事1/backup/大纲/5"},{"slug":"小说/故事1/backup/大纲/6","title":"6","path":"docs/小说/故事1/backup/大纲/6"},{"slug":"小说/故事1/backup/大纲/7","title":"7","path":"docs/小说/故事1/backup/大纲/7"},{"slug":"小说/故事1/backup/大纲/8","title":"8","path":"docs/小说/故事1/backup/大纲/8"},{"slug":"小说/故事1/backup/大纲/9","title":"9","path":"docs/小说/故事1/backup/大纲/9"},{"slug":"小说/故事1/backup/大纲/大纲总结","title":"大纲总结","path":"docs/小说/故事1/backup/大纲/大纲总结"},{"slug":"小说/故事1/backup/大纲/设定问题分析","title":"设定问题分析","path":"docs/小说/故事1/backup/大纲/设定问题分析"},{"slug":"小说/故事1/backup/大纲2/17","title":"17","path":"docs/小说/故事1/backup/大纲2/17"},{"slug":"小说/故事1/backup/大纲2/18","title":"18","path":"docs/小说/故事1/backup/大纲2/18"},{"slug":"小说/故事1/backup/大纲2/21","title":"21","path":"docs/小说/故事1/backup/大纲2/21"},{"slug":"小说/故事1/backup/大纲2/22","title":"22","path":"docs/小说/故事1/backup/大纲2/22"},{"slug":"小说/故事1/backup/大纲2/23","title":"23","path":"docs/小说/故事1/backup/大纲2/23"},{"slug":"小说/故事1/backup/大纲2/24","title":"24","path":"docs/小说/故事1/backup/大纲2/24"},{"slug":"小说/故事1/backup/大纲2/25","title":"25","path":"docs/小说/故事1/backup/大纲2/25"},{"slug":"小说/故事1/backup/大纲2/26","title":"26","path":"docs/小说/故事1/backup/大纲2/26"},{"slug":"小说/故事1/backup/大纲2/27","title":"27","path":"docs/小说/故事1/backup/大纲2/27"},{"slug":"小说/故事1/backup/大纲2/28","title":"28","path":"docs/小说/故事1/backup/大纲2/28"},{"slug":"小说/故事1/backup/大纲2/29","title":"29","path":"docs/小说/故事1/backup/大纲2/29"},{"slug":"小说/故事1/backup/大纲2/30","title":"30","path":"docs/小说/故事1/backup/大纲2/30"},{"slug":"小说/故事1/backup/大纲2/31","title":"31","path":"docs/小说/故事1/backup/大纲2/31"},{"slug":"小说/故事1/backup/大纲2/32","title":"32","path":"docs/小说/故事1/backup/大纲2/32"},{"slug":"小说/故事1/backup/大纲2/33","title":"33","path":"docs/小说/故事1/backup/大纲2/33"},{"slug":"小说/故事1/backup/大纲2/34","title":"34","path":"docs/小说/故事1/backup/大纲2/34"},{"slug":"小说/故事1/backup/大纲2/如何写设定","title":"如何写设定","path":"docs/小说/故事1/backup/大纲2/如何写设定"},{"slug":"小说/故事1/backup/大纲2/表格","title":"表格","path":"docs/小说/故事1/backup/大纲2/表格"},{"slug":"小说/故事1/backup/大纲prompt","title":"大纲prompt","path":"docs/小说/故事1/backup/大纲prompt"},{"slug":"小说/故事1/backup/描述","title":"描述","path":"docs/小说/故事1/backup/描述"},{"slug":"小说/故事1/核心","title":"核心","path":"docs/小说/故事1/核心"},{"slug":"小说/故事1/设定/prompt","title":"Prompt","path":"docs/小说/故事1/设定/prompt"},{"slug":"小说/故事1/设定/一魂多体爽点分析","title":"一魂多体爽点分析","path":"docs/小说/故事1/设定/一魂多体爽点分析"},{"slug":"小说/故事1/设定/价值观与哲学（世界的灵魂）/冲突","title":"冲突","path":"docs/小说/故事1/设定/价值观与哲学（世界的灵魂）/冲突"},{"slug":"小说/故事1/设定/力量体系与神器（成长的道具）/力量体系构建的第一性原理","title":"力量体系构建的第一性原理","path":"docs/小说/故事1/设定/力量体系与神器（成长的道具）/力量体系构建的第一性原理"},{"slug":"小说/故事1/设定/历史与时间线（深度时间感）/战锤化修改合集","title":"战锤化修改合集","path":"docs/小说/故事1/设定/历史与时间线（深度时间感）/战锤化修改合集"},{"slug":"小说/故事1/设定/历史与时间线（深度时间感）/描述","title":"描述","path":"docs/小说/故事1/设定/历史与时间线（深度时间感）/描述"},{"slug":"小说/故事1/设定/历史与时间线（深度时间感）/政治年表","title":"政治年表","path":"docs/小说/故事1/设定/历史与时间线（深度时间感）/政治年表"},{"slug":"小说/故事1/设定/历史与时间线（深度时间感）/深层秘密-胚胎与看护者","title":"深层秘密 胚胎与看护者","path":"docs/小说/故事1/设定/历史与时间线（深度时间感）/深层秘密-胚胎与看护者"},{"slug":"小说/故事1/设定/地理与生态环境（戏剧的舞台）/世界","title":"世界","path":"docs/小说/故事1/设定/地理与生态环境（戏剧的舞台）/世界"},{"slug":"小说/故事1/设定/地理与生态环境（戏剧的舞台）/场景","title":"场景","path":"docs/小说/故事1/设定/地理与生态环境（戏剧的舞台）/场景"},{"slug":"小说/故事1/设定/大纲","title":"大纲","path":"docs/小说/故事1/设定/大纲"},{"slug":"小说/故事1/设定/大纲修改意见","title":"大纲修改意见","path":"docs/小说/故事1/设定/大纲修改意见"},{"slug":"小说/故事1/设定/设定指导","title":"设定指导","path":"docs/小说/故事1/设定/设定指导"},{"slug":"小说/短篇/年轮里的回声/年轮里的回声","title":"年轮里的回声","path":"docs/小说/短篇/年轮里的回声/年轮里的回声"},{"slug":"小说/短篇/年轮里的回声/年轮里的回声-完整","title":"年轮里的回声 完整","path":"docs/小说/短篇/年轮里的回声/年轮里的回声-完整"},{"slug":"小说/短篇/年轮里的回声/年轮里的回声2","title":"年轮里的回声2","path":"docs/小说/短篇/年轮里的回声/年轮里的回声2"},{"slug":"小说/短篇/年轮里的回声/题目与简介选项","title":"题目与简介选项","path":"docs/小说/短篇/年轮里的回声/题目与简介选项"},{"slug":"小说/诈骗/claude/人物设定与大纲","title":"人物设定与大纲","path":"docs/小说/诈骗/claude/人物设定与大纲"},{"slug":"小说/诈骗/claude/第一章：老人的眼泪","title":"第一章：老人的眼泪","path":"docs/小说/诈骗/claude/第一章：老人的眼泪"},{"slug":"小说/诈骗/claude/第七章：猫鼠游戏","title":"第七章：猫鼠游戏","path":"docs/小说/诈骗/claude/第七章：猫鼠游戏"},{"slug":"小说/诈骗/claude/第三章：进入围城","title":"第三章：进入围城","path":"docs/小说/诈骗/claude/第三章：进入围城"},{"slug":"小说/诈骗/claude/第九章：黑吃黑的艺术","title":"第九章：黑吃黑的艺术","path":"docs/小说/诈骗/claude/第九章：黑吃黑的艺术"},{"slug":"小说/诈骗/claude/第二章：猎人的准备","title":"第二章：猎人的准备","path":"docs/小说/诈骗/claude/第二章：猎人的准备"},{"slug":"小说/诈骗/claude/第五章：第一次交锋","title":"第五章：第一次交锋","path":"docs/小说/诈骗/claude/第五章：第一次交锋"},{"slug":"小说/诈骗/claude/第八章：绝地反击","title":"第八章：绝地反击","path":"docs/小说/诈骗/claude/第八章：绝地反击"},{"slug":"小说/诈骗/claude/第六章：连环套局","title":"第六章：连环套局","path":"docs/小说/诈骗/claude/第六章：连环套局"},{"slug":"小说/诈骗/claude/第十章：收网时刻","title":"第十章：收网时刻","path":"docs/小说/诈骗/claude/第十章：收网时刻"},{"slug":"小说/诈骗/claude/第四章：深入虎穴","title":"第四章：深入虎穴","path":"docs/小说/诈骗/claude/第四章：深入虎穴"},{"slug":"小说/诈骗/修仙/人物设定与大纲","title":"人物设定与大纲","path":"docs/小说/诈骗/修仙/人物设定与大纲"},{"slug":"小说/诈骗/修仙/如何讲话让人火大","title":"如何讲话让人火大","path":"docs/小说/诈骗/修仙/如何讲话让人火大"},{"slug":"小说/诈骗/修仙/第一章：灵脉之殇","title":"第一章：灵脉之殇","path":"docs/小说/诈骗/修仙/第一章：灵脉之殇"},{"slug":"小说/诈骗/修仙/第七章：灵狐斗金","title":"第七章：灵狐斗金","path":"docs/小说/诈骗/修仙/第七章：灵狐斗金"},{"slug":"小说/诈骗/修仙/第三章：潜入金窟","title":"第三章：潜入金窟","path":"docs/小说/诈骗/修仙/第三章：潜入金窟"},{"slug":"小说/诈骗/修仙/第九章：玄金之殇","title":"第九章：玄金之殇","path":"docs/小说/诈骗/修仙/第九章：玄金之殇"},{"slug":"小说/诈骗/修仙/第二章：猎宝之谋","title":"第二章：猎宝之谋","path":"docs/小说/诈骗/修仙/第二章：猎宝之谋"},{"slug":"小说/诈骗/修仙/第五章：初战灵宝","title":"第五章：初战灵宝","path":"docs/小说/诈骗/修仙/第五章：初战灵宝"},{"slug":"小说/诈骗/修仙/第八章：灵宝反击","title":"第八章：灵宝反击","path":"docs/小说/诈骗/修仙/第八章：灵宝反击"},{"slug":"小说/诈骗/修仙/第六章：连环灵计","title":"第六章：连环灵计","path":"docs/小说/诈骗/修仙/第六章：连环灵计"},{"slug":"小说/诈骗/修仙/第十章：灵归正主","title":"第十章：灵归正主","path":"docs/小说/诈骗/修仙/第十章：灵归正主"},{"slug":"小说/诈骗/修仙/第四章：深入宝渊","title":"第四章：深入宝渊","path":"docs/小说/诈骗/修仙/第四章：深入宝渊"},{"slug":"小说/诈骗/诈骗-grok/人物设定","title":"人物设定","path":"docs/小说/诈骗/诈骗-grok/人物设定"},{"slug":"小说/诈骗/诈骗-grok/故事大纲","title":"故事大纲","path":"docs/小说/诈骗/诈骗-grok/故事大纲"},{"slug":"小说/诈骗/诈骗-grok/第一章：陷阱初现","title":"第一章：陷阱初现","path":"docs/小说/诈骗/诈骗-grok/第一章：陷阱初现"},{"slug":"小说/诈骗/诈骗-grok/第七章：猫鼠游戏","title":"第七章：猫鼠游戏","path":"docs/小说/诈骗/诈骗-grok/第七章：猫鼠游戏"},{"slug":"小说/诈骗/诈骗-grok/第三章：进入围城","title":"第三章：进入围城","path":"docs/小说/诈骗/诈骗-grok/第三章：进入围城"},{"slug":"小说/诈骗/诈骗-grok/第九章：黑吃黑的艺术","title":"第九章：黑吃黑的艺术","path":"docs/小说/诈骗/诈骗-grok/第九章：黑吃黑的艺术"},{"slug":"小说/诈骗/诈骗-grok/第二章：猎人的准备","title":"第二章：猎人的准备","path":"docs/小说/诈骗/诈骗-grok/第二章：猎人的准备"},{"slug":"小说/诈骗/诈骗-grok/第五章：第一次交锋","title":"第五章：第一次交锋","path":"docs/小说/诈骗/诈骗-grok/第五章：第一次交锋"},{"slug":"小说/诈骗/诈骗-grok/第八章：绝地反击","title":"第八章：绝地反击","path":"docs/小说/诈骗/诈骗-grok/第八章：绝地反击"},{"slug":"小说/诈骗/诈骗-grok/第六章：连环套局","title":"第六章：连环套局","path":"docs/小说/诈骗/诈骗-grok/第六章：连环套局"},{"slug":"小说/诈骗/诈骗-grok/第十章：收网时刻","title":"第十章：收网时刻","path":"docs/小说/诈骗/诈骗-grok/第十章：收网时刻"},{"slug":"小说/诈骗/诈骗-grok/第四章：深入虎穴","title":"第四章：深入虎穴","path":"docs/小说/诈骗/诈骗-grok/第四章：深入虎穴"},{"slug":"小说/诈骗/诈骗-grok/金融电信诈骗与黑灰产调研报告","title":"金融电信诈骗与黑灰产调研报告","path":"docs/小说/诈骗/诈骗-grok/金融电信诈骗与黑灰产调研报告"},{"slug":"小说/风格/一般风格","title":"一般风格","path":"docs/小说/风格/一般风格"},{"slug":"小说/风格/网文文艺风","title":"网文文艺风","path":"docs/小说/风格/网文文艺风"},{"slug":"小说/风格/网文标准风","title":"网文标准风","path":"docs/小说/风格/网文标准风"}],"children":"$L2c"}]
+2d:T3ad8a,<h1>《我的化身正在成为最终BOSS》章节摘要</h1>
+<h2>第001章 梦呓</h2>
+<p>姬明欢被关押在神秘实验所的监禁室已有一个月，被认定为限制级异能者。实验所的"导师"和"军官"采用红白脸策略试图驯化他，但姬明欢看穿了他们的把戏。导师告诉他，异能可能会以游戏形式呈现，帮助他理解和掌控能力。姬明欢最关心的是同样被抓来的聋哑女孩孔佑灵的安危，导师承诺明天安排两人见面。当晚姬明欢入睡后，脑海中响起神秘声音："欢迎你，我们的头号玩家。"</p>
+<h2>第002章 觉醒</h2>
+<p>姬明欢在梦境中看到游戏界面，面对"你是否分得清自己是在做梦还是在现实中"的问题，他选择了"这既是梦，同时也是现实"并答对获得初始技能点。系统开始创建游戏角色环节，提供两个角色档案供选择。姬明欢选择了位于中国黎京的"异能者·顾文裕"，因为黎京正是他从小长大的福利院所在地。在三条成长路线中，他选择了"灰色人物"，希望能借此调查是谁把自己抓进实验所，以及如何逃脱。</p>
+<h2>第003章 规则</h2>
+<p>姬明欢的意识成功加载到游戏角色"顾文裕"身上，发现自己在黎京第五中学的教室里，正值放暑假。大量角色记忆涌入脑海，他了解到顾文裕是17岁高中生,异能是操控漆黑的拘束带。姬明欢惊讶于自己的异能居然能在现实世界中创造出一个完整的人物和生活轨迹，这相当于改写了历史。他发现视野右下角有系统设置图标，里面包含属性面板、任务面板、技能树等游戏要素。</p>
+<h2>第004章 测试</h2>
+<p>姬明欢在城中村的偏僻巷道中测试顾文裕的拘束带异能。他发现拘束带不仅能捆绑物体，还能分担他身体承受的力量，包括瞬时冲击力和持续作用力。通过让拘束带分担重力，他可以让身体变得极其轻盈，实现高速移动和空中飞荡。这个发现让姬明欢意识到拘束带的潜力远超原主顾文裕的认知——顾文裕从未察觉拘束带的这些隐藏机制。姬明欢像蜘蛛侠一样在巷道中飞荡测试，完全掌握了基础操作。</p>
+<h2>第005章 家人</h2>
+<p>姬明欢回到顾文裕位于古奕麦小区的家。通过记忆他了解到这个复杂的家庭：五年前母亲苏颖被虹翼成员误杀，父亲顾卓案一蹶不振常年在外工作,哥哥顾绮野照顾着弟弟顾文裕和妹妹苏子麦。系统突然弹出主线任务：探究哥哥顾绮野究竟在掩藏什么，完成可获得分裂点、技能点和属性点。作为从小在福利院长大的孤儿，姬明欢对"家人"这个概念感到既新奇又陌生，他必须小心扮演好顾文裕以免被识破。</p>
+<h2>第006章 面具</h2>
+<p>姬明欢与哥哥顾绮野交流，确认系统面板只有自己能看见，不会在公众场合引起怀疑。他查看任务面板，发现不仅哥哥，父亲、妹妹甚至好友李清平都有各自隐藏的秘密。顾绮野晚上有事外出，给姬明欢发了晚餐钱让他自己点外卖。姬明欢打开电视看新闻，了解到黎京市著名异行者"蓝弧"的事迹，同时听说代号"鬼钟"的异能者罪犯出现在黎京。顾绮野说自己会很晚回来，匆匆离开了家。</p>
+<h2>第007章 开发</h2>
+<p>姬明欢查看技能树系统，三条分支分别是"隐"、"狂"、"戾"。他使用初始技能点学习了"隐"分支的第一个技能——"拘束带感官"，这个技能让拘束带获得视觉和听觉能力，并能透过墙壁、地板等隔离物观察对面的情况。姬明欢测试后发现拘束带的感官全方位都比他本人敏锐，特别是在黑暗中有极强的适应性，相当于自带夜视功能。这个技能非常适合偷窥、追踪和暗中调查，正是他目前急需的能力。</p>
+<h2>第008章 身份</h2>
+<p>姬明欢查看角色属性面板，发现顾文裕的力量、速度、精神都是C级。他的专属培养系统是"社交巨星系统"，核心规则是与更多超凡人类达成合作关系就能获得奖励。第一个培养任务是与1名异能者达成友好合作关系。姬明欢点了意式晚餐外卖，一边吃一边思考如何找到实验所的线索。他想通过判断时差来定位实验所位置，但监禁室里连时钟都没有，无法确认当地时间。他搜索了虹翼成员"帆冬青"的资料，看到他用"戾青之舟"拦截陨石的壮观场面。</p>
+<h2>第009章 窥视</h2>
+<p>晚上十点，姬明欢听见楼下传来急促的开门声。他用新学的"拘束带感官"透过地板窥探一楼，震惊地发现受伤的顾绮野正穿着青蓝色的金属战服——原来哥哥就是黎京市著名的异行者"蓝弧"。顾绮野刚与代号"鬼钟"的罪犯交战负伤，正在包扎伤口。这时他接到电话，另一名罪犯"绿翼"在黎京广场劫持人质，指名要求蓝弧出现。顾绮野虽然身受重伤，但为了人质安全和异行者协会的声誉，还是不得不再次出动。姬明欢完成了主线任务1，获得了分裂点、技能点和属性点。</p>
+<h2>第010章 登场</h2>
+<p>晚上十点二十分，黎京广场。异行者蓝弧（顾绮野）赶到现场，面对绿翼劫持的五名人质。绿翼要求蓝弧戴上爆炸手铐投降，否则就杀死人质。每个人质身上都绑着十分钟倒计时的炸弹，绿翼的同伙藏在商场中握有引爆装置。蓝弧的同事正在搜寻匪徒，他则需要拖延时间。就在千钧一发之际，神秘的漆黑"虫蛹"突然出现在广告牌下方，用拘束带将五名匪徒吊在半空中。绿翼愤怒地质问蓝弧这是否是他的人，但蓝弧皱眉否认——这个神秘人物正是戴上面具、穿着燕尾风衣的姬明欢，他首次以游戏角色的身份在现实世界登场。</p>
+<h2>第011章 虫蛹</h2>
+<p>死寂的黎京广场上，所有人震惊地看着倒吊的黑色虫蛹。姬明欢以"虫蛹男"身份首次公开登场，在众目睽睽下用拘束带拧断五名匪徒的脖颈，将人头扔在人质面前，递给他们枪支让他们"复仇"。系统警告扮演锚点偏移度上升至42%，提醒他的行为过于暴力不符合"灰色人物"定位。虫蛹男试图把匪徒的头接回去掩饰残忍行为，但反而让场面更加诡异恐怖。他倒吊在广告牌下翻阅《局外人》，用拘束带把匪徒人头当皮球扔给蓝弧，随后在黑夜中消失。人质和围观群众被这个行为怪异、难以预测的神秘异能者吓坏了。</p>
+<h2>第012章 私会</h2>
+<p>虫蛹男离去后，蓝弧将绿翼交给异行者协会处理，独自追到附近的偏僻小径与虫蛹男单独会面。虫蛹男展示了五年前的报纸，详细描述了蓝弧母亲苏颖被虹翼成员误杀的事故经过，点破蓝弧加入异行者协会的真实目的——通过出色表现进入虹翼内部，找到杀死母亲的凶手复仇。虫蛹男提议合作，承诺帮助蓝弧加入虹翼并找到仇人，作为交换蓝弧需要帮他做一件暂时保密的事。他还暗示蓝弧的父亲顾卓案这两年离家并非简单的逃避，而是隐藏着不为人知的秘密，为了不牵连家人才远走高飞。虫蛹男展现出对蓝弧身份和家庭的全面了解，令蓝弧震惊又警惕。</p>
+<h2>第013章 外号</h2>
+<p>深夜23点，姬明欢利用拘束带的高机动性快速穿梭城市返回家中，从窗户进入房间。他脱下面具和风衣，查看系统面板发现自己已被正式命名为"黑蛹"，完成主线任务获得了1个分裂点、1个技能点和1个属性点的奖励。他将属性点加在速度上提升至C+级，用技能点学习"拘束带探测"技能可以获取接触对象的能力信息。系统提示需要3个分裂点才能创建新角色，目前只有1个。姬明欢睡下后不久，顾绮野回家悄悄查看弟弟房间，觉得虫蛹男与弟弟有相似之处但看到顾文裕在睡觉便打消怀疑。这是一个安静的雨夜。</p>
+<h2>第014章 黑蛹</h2>
+<p>姬明欢在监禁室醒来，导师来访展示了"黑蛹"的照片，指出他小时候用卫生纸把自己裹成"白色虫蛹"的行为与黑蛹的形象相似，暗示姬明欢的异能表现可能与此相关。导师提到一个神秘预言者多次准确预言重大事件帮助他们避开灾难，但从未现身接触，只通过信件沟通。这位预言者曾预言姬明欢会毁灭世界，语气罕见地严肃，要求必须控制住他。在告知姬明欢的事之后，预言者就人间蒸发了。导师怀疑姬明欢可能不是异能者而是其他超人种类别，承诺明天告诉他关于其他超人种的信息。最后导师兑现承诺，安排姬明欢与孔佑灵会面。</p>
+<h2>第015章 预言</h2>
+<p>导师向姬明欢详细介绍神秘预言者的情况。这个人从未露面，只通过信件传递预言，每次预言都极其准确，帮助他们避开了包括整个国家被夷平在内的多次重大灾难。预言者的语气总是平淡冷漠，仿佛旁观者一般。但唯独提到姬明欢时态度严肃，强调必须控制住他否则后果严重。姬明欢猜测预言者可能是福利院院长在跟他开玩笑。导师解释他们不杀姬明欢是因为异能者在濒死状态可能爆发超强潜能，无法预料后果，所以只能控制。导师说如果姬明欢表现好，以后还可以和孔佑灵见面。姬明欢问能否见到预言者，导师说如果他再次出现会考虑告知。</p>
+<h2>第016章 阁楼</h2>
+<p>姬明欢静坐等待与孔佑灵见面，回忆起三年前两人初次相识的经历。那时9岁的姬明欢在福利院教室看到刚来的8岁白化病聋哑女孩孔佑灵被其他孩子嘲笑欺负，她在阳光下闭着畏光的眼睛用画本介绍自己的名字，以为大家的笑声是友善的。姬明欢拉着她逃到福利院唯一让孩子们害怕的地方——图书馆顶楼的禁闭阁楼。他爬上屋顶向她伸手，孔佑灵勇敢地跃过来，两人在夕阳下并肩坐着。姬明欢告诉她"你的名字很好听""你一点都不丑"。孔佑灵问自己是不是残疾人所以被讨厌，姬明欢写到自己还是精神病，经常做奇怪的梦，甚至梦到毁灭世界。两个被视为怪人的孩子在屋檐上建立了深厚的友谊。</p>
+<h2>第017章 再会</h2>
+<p>姬明欢继续回忆与孔佑灵相处的三年时光。在初识后，他故意在福利院捣蛋惹怒院长，被罚关进阁楼禁闭。他是唯一不怕黑暗阁楼的孩子，因为每次被关禁闭，深夜孔佑灵就会从对面宿舍窗户跳到阁楼屋顶与他相会。两人在无人知晓的夜晚躺在屋顶看星空，姬明欢给她讲述星星的名字和各种知识。某个夜晚孔佑灵提议一起逃走，姬明欢说自己没有身份证明离开福利院活不下去，但孔佑灵是异能者会被国家优待。孔佑灵伸出小指说要一直在一起，把"我"变成"我们"，两人在月光下拉钩约定永不分离。姬明欢向她坦白自己害怕被抛弃所以总在伪装，孔佑灵第一次用拥抱而非文字回应他的脆弱。</p>
+<h2>第018章 暴戾</h2>
+<p>五分钟等待结束，孔佑灵被带进监禁室与姬明欢会面。两人脖子上都戴着金属项圈监控异能使用。孔佑灵抱着画本静静看着姬明欢，不知道该说什么。姬明欢检查确认她没有受伤。孔佑灵在本子上写"我很想你"，姬明欢想摸她的头却被项圈电击惩罚。他捡起掉落的铅笔，在画本上画了福利院那只斑点猫，暗示自己也成为了异能者。两人简短交流后被迫分离。导师回来说表现好可以再见面，姬明欢讥讽他们把11岁女孩关起来还自诩菩萨心肠。导师提到可能预言者搞错了，姬明欢可能不是异能者而是其他超人种。姬明欢的意识回到顾文裕身体，回想起孔佑灵的面容，眼中闪过暴戾的光芒，决心如果救不出来就把实验所的人全部杀掉。</p>
+<h2>第019章 暑假</h2>
+<p>7月10日，顾文裕的暑假正式开始。姬明欢下午三点半醒来，发现角色在他未控制期间按照"扮演逻辑"自动行动——睡到下午两点，吃饭后练习异能。他考虑开启24小时控制模式但担心精神分裂。姬明欢下楼看电视，新闻正在播报昨晚"黑蛹"介入人质事件的消息，异行者协会将其列为B级观察对象并提醒市民远离黑色带状物。妹妹苏子麦在沙发上看电视，她16岁读初三，长相中性，两兄妹随便聊天。姬明欢决定用新学的"拘束带探测"技能探查苏子麦的秘密，假装拿可乐给她，用拘束带从袖口钻出触碰她的肩膀。</p>
+<h2>第020章 试探</h2>
+<p>姬明欢用拘束带成功触碰苏子麦并发动"拘束带探测"技能。系统显示她是"驱魔人（Exorcist）"，三大超凡人种之一，目前是一阶。她拥有稀有度A级的"魔术手"天驱，已绑定冰箱恶魔。苏子麦的属性是力量D级、速度C++级、精神B级。但主线任务"探究妹妹的秘密"仍未完成，可能需要亲眼见证她使用能力。苏子麦告知父亲顾卓案今晚会回家，这让两年没回家的父亲突然归来显得很反常。顾绮野提着食材回家准备做晚饭，听到父亲要回来的消息愣住了几秒。他想起昨晚黑蛹暗示父亲可能隐藏秘密、为了不牵连家人才离开的话，陷入沉思后平静地说"他想来就让他来"。</p>
+<h2>第021章 官网</h2>
+<p>姬明欢查看异行者协会官网，了解联合国制订的异能者分级序列。历史上只出现过一名限制级异能者且已确认死亡，他怀疑说的就是自己。黑蛹被暂定为魁级，顾绮野（蓝弧）是A级异行者、准天灾级。他查询超级罪犯"鬼钟"的资料，发现其同样是准天灾级、S级通缉犯，能力是创造钟楼和影子分身，机制复杂。姬明欢意识到如果实验所来自异行者协会，那逃脱就意味着与联合国为敌，需要把顾家人都拉来当打手。他们对虹翼本就有敌意，容易形成统一战线。</p>
+<h2>第022章 父亲</h2>
+<p>傍晚六点，消失两年的父亲顾卓案回家。他看起来憔悴苍老、胡子拉碴。苏子麦和顾绮野都不知如何面对他。姬明欢趁递碗筷时用"拘束带探测"试探父亲，被顾卓案警觉地抓住手腕几乎掐出血印。检测结果震惊了姬明欢：父亲是准天灾级异能者，力量A++、速度A、精神A，异能是创造钟楼和影子——这正是超级罪犯"鬼钟"的能力！顾卓案意识到自己对儿子动粗后失神道歉。姬明欢完成主线任务2获得奖励，任务更新为与鬼钟达成合作。</p>
+<h2>第023章 父子</h2>
+<p>晚餐气氛极度紧张。顾卓案说两年在外是为了养家，顾绮野讽刺家里根本不缺钱。当父亲问"你已经把母亲忘了么"，顾绮野几乎低吼"闭嘴，你又知道我做了多少"。他多年来一边照顾家人一边拼命在协会打拼，为的就是找到母亲死亡的真相，而父亲的话无情地否定了他的所有努力。苏子麦忍不住打断争吵，说要去同学家住整个暑假，摔门而去。顾绮野对父亲说"我现在不想看见你"。姬明欢决定去追苏子麦，同时用匿名软件给顾绮野发信息，以黑蛹身份建立联系。</p>
+<h2>第024章 鬼钟</h2>
+<p>姬明欢明白了所有谜题：顾卓案为了引出杀死妻子的虹翼成员，选择成为超级罪犯四处作案制造影响；顾绮野选择的道路恰恰相反，想通过成为优秀异行者加入虹翼内部找到仇人。父子为了同一目的选择了截然相反的道路，甚至在不知情下戴着面具互相厮杀——蓝弧与鬼钟曾交战两次。这是希腊悲剧式的家庭闹剧。姬明欢判断五天后母亲忌日，顾卓案说要"做完最后一件事"可能有重大行动。他意识到自己的异能把游戏角色插入这个家庭是有原因的，让他见证并推动这场悲剧。</p>
+<h2>第025章 密谈</h2>
+<p>姬明欢以黑蛹身份通过匿名短信与顾绮野交流。顾绮野一度怀疑黑蛹就是父亲但被否定。黑蛹威胁说掌握顾绮野所有秘密，可随时公开他身份危及家人，强迫合作。他暗示父亲确实在掩藏秘密，但要等合作深入才会告知真相。顾绮野同意暂时合作但不信任他。顾绮野最后说"短时间内别让我看见你的信息"，但还没发出去就被黑蛹拉黑了——黑蛹提前预料到他会这么说。姬明欢完成主线任务1第二阶段，获得1分裂点、1技能点、1属性点，凑齐创建第二个游戏角色所需的3个分裂点。</p>
+<h2>第026章 月下</h2>
+<p>系统提示已凑齐3个分裂点可创建第二角色，但对超人种了解越多，生成角色可能越强。姬明欢决定先从导师套取更多情报。他来到公园找到苏子麦，两人在秋千上聊天。苏子麦的"朋友"柯祁芮出现——穿风衣戴贝雷帽、左眼挂单片镜的混血女生。姬明欢趁握手时用拘束带探测她：二阶驱魔人，SS级稀有度"复古式单片镜"天驱，已绑定火车恶魔和电影恶魔，力量B、速度B++、精神A。两人互换联系方式。苏子麦说要去东京过暑假。柯祁芮提到明天要和日本驱魔人协会协商。</p>
+<h2>第027章 相识</h2>
+<p>柯祁芮与姬明欢握手时察觉异样，判断顾文裕是异能者，可能在暗中保护妹妹，但她选择不点破。苏子麦开玩笑问团长是否看上哥哥，柯祁芮说只暗恋过福尔摩斯。苏子麦说不想让家人掺和驱魔人的危险事，称他们都是"麻瓜"。两人准备让火车恶魔载她们去东京。姬明欢回想苏子麦的主线任务仍未完成，判断必须亲眼见证她使用驱魔人能力才能完成。他意识到以黑蛹目前强度跟踪柯祁芮是自寻死路，需要先学隐匿气息类技能。跟踪家里其他人也很危险，尤其父亲鬼钟。</p>
+<h2>第028章 真言</h2>
+<p>姬明欢回家分配属性点：力量和速度各加1点至C++级。他学习"拘束带真言"技能——强制被束缚目标说真话，但只对精神低于自己的目标有效，且对方会察觉。继续学习"拘束带变色"——让拘束带隐身，包裹自身后也能隐身。培养系统显示已完成"与1名异能者达成合作"任务，获得1属性点；新任务是与3位超人种达成合作，目前进度1/3（蓝弧）。姬明欢决定测试与无害级异能者合作是否计入进度，于是在门上贴纸条假装睡觉，穿上黑蛹装束隐身离家，目标是书店老板"相片寻回者"。</p>
+<h2>第029章 造访</h2>
+<p>姬明欢隐身来到布罗利书店。老板正打烊，他突然以倒吊虫蛹形态出现在天花板下。老板心理素质很好，情绪异常淡漠，可能是异能副作用。姬明欢用极差的画技画了孔佑灵的"肖像"，想让老板用异能找人。老板解释"相片寻回"只能对没生命的小型物体使用，范围有限，无法找人。姬明欢提议合作：自己在电视上宣传书店，老板帮他找东西。老板担心警察麻烦，拒绝公开合作，但同意暗中合作，必要时姬明欢可充当私家侦探。</p>
+<h2>第030章 书店</h2>
+<p>两人达成合作后，姬明欢查看培养系统，发现进度仍只有蓝弧一人，说明与无害级异能者合作不计入系统。他支付一块钱买下那页"艺术价值过高"的素描画，借阅《四叠半神话大系》后离开。回家后开启"彻底分裂模式"，一小时后能24小时同时控制本体和游戏角色。他确认扮演锚点偏移度从42%降下来了，之前在广场的暴戾行为让偏移度达到危险值，如果超过70%角色可能暴走失控。姬明欢打算明天从导师那里套取驱魔人和奇闻使的情报，然后创建第二个游戏角色，沉沉睡去。</p>
+<h2>第031章 情报</h2>
+<p>姬明欢在监禁室醒来，导师来访。导师提到姬明欢小时候用卫生纸把自己裹成"白色虫蛹"的行为与黑蛹形象相似，暗示异能表现可能与此相关。他介绍神秘预言者多次准确预言重大事件，帮他们避开灾难，但从未现身，只通过信件沟通。预言者曾预言姬明欢会毁灭世界，语气罕见严肃，要求必须控制住他。在告知姬明欢的事之后，预言者就人间蒸发了。导师怀疑姬明欢可能不是异能者而是其他超人种。广播突然通报"天灾级异能者漆原琉璃"请求与导师见面，今天无法继续从导师那里套到"驱魔人"的情报了。</p>
+<h2>第032章 世界</h2>
+<p>导师详细介绍奇闻使的世界观。奇闻使藏身于名为"奇卡纳欧"的巨鲸腹内的"鲸中箱庭"世界，里面有海上都市和王族宫殿。每个奇闻使觉醒后获得"奇闻图录"，可以找寻奇闻秘境，征服秘境后获得奇闻碎片。碎片分四级：神话级（宙斯、拉、哈迪斯等神祇）、世代级（圣诞老人、泰坦尼克号、百鬼夜行）、通俗级、普遍级。拥有神话级碎片的奇闻使相当于获得古代神祇的部分力量，可毁灭一座国家。姬明欢系统显示奇闻使世界观开发进度从1%跳到30%。导师解释他们的组织不属于异行者协会、奇闻使或驱魔人势力，工作比协会更危险也更崇高。</p>
+<h2>第033章 ②号游戏机体创建（一）</h2>
+<p>姬明欢在监禁室等待与孔佑灵见面，回忆起三年前初识。9岁的姬明欢看到刚来的8岁白化病聋哑女孩孔佑灵被欺负，拉着她逃到福利院图书馆顶楼的禁闭阁楼。他爬上屋顶向她伸手，两人在夕阳下并肩坐着。姬明欢告诉她"你的名字很好听""你一点都不丑"。孔佑灵问是否因为残疾被讨厌，姬明欢写自己是精神病，常做毁灭世界的梦。两个被视为怪人的孩子在屋檐上建立深厚友谊。见面时间结束后，导师说表现好可以再见面。姬明欢讥讽他们把11岁女孩关起来还自诩菩萨心肠。意识回到顾文裕身体，眼中闪过暴戾光芒：如果救不出孔佑灵，就把实验所的人全部杀掉。</p>
+<h2>第034章 ②号游戏机体创建（二)</h2>
+<p>7月10日，顾文裕暑假开始。角色在姬明欢未控制时按"扮演逻辑"自动行动——睡到下午吃饭后练异能。姬明欢切换至一号角色视角，决定创建第二个游戏角色。他消耗3个分裂点进入角色创建空间，投骰子竞猜赢得额外一个档案选择权，共有三个档案可选：1号是日本歌舞伎町艺妓小泽娜娜（异能者），背景复杂；2号是意大利演员艾尔·帕西诺（奇闻使），属性偏低；3号是稀有角色夏平昼（驱魔人），19岁退休驱魔人，SS级天驱"国际象棋"，已绑定阴影恶魔，为复仇加入白鸦旅团。姬明欢选择夏平昼，成长主线选"狂猎"。角色正式生成，地点是日本东京。</p>
+<h2>第035章 天驱</h2>
+<p>日本时间上午7点30分，东京都港区芝公园。姬明欢的意识加载到夏平昼身上，看到东京铁塔。大量角色记忆涌入：夏平昼17岁时看国际象棋对弈时觉醒天驱，获得国王、王后、士兵、炮车四枚棋子，可将棋子呼唤至现实服从命令。驱魔人协会会长看重他的SS级天驱，邀请他加入。会长解释天驱是驱魔人的"天命武器"，形状视内心而定；驱魔人分三阶，每提升一阶可与一头恶魔签约，恶魔融入天驱成为零件；驱魔人工作是驱除恶魔（中国称鬼魂、魑魅魍魉，日本称妖怪）。两年前夏平昼队友"红路灯"发狂屠杀其他队员后失踪，成为猎杀驱魔人的怪物；半年前家人被"开膛手杰克"剖成器官挂在阳台；为复仇他加入白鸦旅团，今天是首次会面。姬明欢查看技能树，三条分支是"群""勇""戾"，典型的召唤流角色。</p>
+<h2>第036章 旅团</h2>
+<p>姬明欢来到东京都五丁目地下酒吧第三个包厢，见到白鸦旅团成员。穿和服的绫濑折纸（3号团员）、戴机械盒子脑袋的罗伯特（7号团员）、金发英式西服的安伦斯（11号团员）。他们确认姬明欢就是12号替补，团长对他的能力很感兴趣。安伦斯说离开前要把酒吧里的人杀干净，因为他们打算对一周后的拍卖会动手，与旅团行程冲突。安伦斯用老虎机异能摇出三个火箭筒，罗伯特在墙上创造传送门，四人逃离。老虎机发射巨大火箭炮摧毁整个酒吧和附近居民区。他们传送到废弃写字楼，这里是姬明欢的入团考核现场。</p>
+<h2>第037章 棋手</h2>
+<p>废弃写字楼办公室里，一头四米高的"打工恶魔"从阴影中出现——臃肿的巨人穿工作服，脖子连着两颗脑袋，一颗病恹恹说"休假"，另一颗系红头带说"打工万岁"，左手握超大咖啡杯，右臂夹巨大键盘。姬明欢唤出天驱：黑白光晕汇成莫比乌斯环，四枚棋子围绕旋转。他先具现化国王——三米高黑铁巨像，不具备战斗力但只要国王在场，姬明欢就被神秘力量保护免疫一切攻击。打工恶魔攻击失败后转而攻击国王。姬明欢具现化士兵阻拦，再具现化炮车轰击恶魔后背。最后具现化皇后——两米五的黑铁女刺客，双匕旋转斩下恶魔两颗脑袋。系统提示击杀C级恶魔，"狂猎之冬"培养系统进度更新。皇后是四大基础棋种中最迅捷的，武器是双匕。姬明欢感叹机制有趣，但疑惑为什么皇后是刺客模板。</p>
+<h2>第038章 狂猎</h2>
+<p>姬明欢收回所有棋子。三名旅团成员都投他一票同意入团。绫濑折纸从和服袖口掏出漆黑乌鸦，飞到姬明欢手背化为纹身：黑色羽毛是乌鸦图案，猩红双眼是数字"12"，森白骨头画了个叉——这是入团标志。安伦斯说其他团员没他们脾气好，要小心相处。姬明欢完成主线任务1获得1技能点、1分裂点、1属性点；任务更新为随旅团参加7月21日东京地下拍卖会抢劫行动并存活。他查看专属培养系统"狂猎之冬"：核心规则是杀死足够多恶魔和超人种获得奖励，当前任务是杀10个C级以上目标。姬明欢将2个属性点分别加在速度和精神上，都升至B级。四人准备去吃拉面然后解散，罗伯特打开传送门。</p>
+<h2>第039章 冲突</h2>
+<p>四人传送到废弃办公室入口。柯祁芮和苏子麦进入办公室，看见恶魔尸体正化为余烬。柯祁芮戴上复古式单面镜，判断有人替她们完成了工作。苏子麦问团长那些人是否也是驱魔人，柯祁芮说应该不是。姬明欢以二号角色"夏平昼"的身份站在这里，柯苏二人自然认不出他。但在夏平昼记忆里，两年前他和柯祁芮有过一面之缘，都是SS级天驱持有者，在驱魔人协会是瞩目新星。如果柯祁芮仔细观察应该能认出他。姬明欢担心老妹死在旅团手里会让黑蛹少条主线任务，决定想办法放走她们。绫濑折纸说把她们杀了，姬明欢指出那个戴帽子的女生是驱魔人协会的柯祁芮，团长以前想邀请她入团。</p>
+<h2>第040章 合作</h2>
+<p>安伦斯回忆起柯祁芮，说团长想邀请她但被拒绝。她组建了"幽灵火车团"，基于契约的火车恶魔命名。绫濑折纸问到底杀不杀，罗伯特说团长叮嘱拍卖会前不要引起骚动，在这里和驱魔人开战没好处。姬明欢说想和柯祁芮交手试试，但她的火车恶魔会引起巨大动静，暴露旅团已到东京。三人同意不杀，转身离去。罗伯特打开传送门，四人消失。柯祁芮认出其中一人是白鸦旅团的日本绫濑家大小姐绫濑折纸（3号团员）。她判断旅团真的盯上了地下拍卖会，决定把情况报告给协会。苏子麦担心日本能叫来什么人，柯祁芮说可以向邻国求援，比如让"蓝弧"来。苏子麦吐槽不喜欢那个"大电耗子装逼佬"。柯祁芮回忆起那个穿卫衣的男生，两年前在协会见过他，天驱是"国际象棋"，后来退出了协会。</p>
+<h2>第041章 旅游</h2>
+<p>姬明欢操控"顾文裕"角色完成了主线任务,确认妹妹苏子麦是驱魔人协会成员。他获得奖励后分配属性点和技能点,学习了"拘束带抑制"和"异能窃取"技能。系统解锁了"事件卡牌"探索机制。顾绮野邀请他和父亲一同前往日本东京旅游,时间正好是白鸦旅团计划袭击拍卖会前十天。姬明欢意识到家人们都将前往东京,担心二号角色的安全,但仍答应同行。</p>
+<h2>第042章 秘密</h2>
+<p>姬明欢思考家人都去东京可能带来的风险。他回忆起福利院图书馆,那是他童年最喜欢的地方。天空中出现事件卡牌的感叹号标志,指向福利院图书馆。姬明欢变身黑蛹前往调查,在图书馆地下室发现了失踪多年的朋友许可因被院长囚禁多年。愤怒之下,他杀死了院长,并联系蓝弧帮忙伪装成自杀现场。院长临死前画出了"救世会"的六芒星标志,这与驱魔人"红路灯"作案时留下的标志相同,暗示姬明欢本体被该组织带走。</p>
+<h2>第043章 狂怒</h2>
+<p>姬明欢控制黑蛹进入福利院图书馆地下室,发现了被院长囚禁虐待多年的童年朋友许可因。他在院长办公室质问院长关于一个月前带走自己和孔佑灵的人的信息。院长在拘束带真言的逼迫下承认收了二十万元,并画出了那些人制服上的六芒星图案——这个图案与发狂驱魔人"红路灯"作案时留下的"救世会"标志一模一样。愤怒的姬明欢用拘束带勒死了院长,随后联系顾绮野帮忙掩护,将现场伪装成自杀。他要求顾绮野妥善安置许可因。</p>
+<h2>第044章 新闻</h2>
+<p>早晨,姬明欢看到院长之死的新闻,顾绮野成功将其伪装成自杀并曝光了他的罪行。导师来访告知此事,姬明欢假装震惊。导师向他讲解了中国驱魔人界的情况,特别提到世界最强驱魔人队伍"湖猎",队长林醒狮拥有天驱"南溟火麟首"。导师还解释了天驱的形成与驱魔人内心形态有关,暗示姬明欢的天驱可能是"面具"。姬明欢通过这次对话获得了分裂点奖励,驱魔人世界观开发进度提升至55%。他开始思考"救世会"组织与自己本体下落的关系。</p>
+<h2>第045章 面具</h2>
+<p>姬明欢在监禁室里与导师讨论院长之死和驱魔人的相关知识。导师详细介绍了中国最强驱魔人队伍"湖猎"及其成员,包括队长林醒狮和诸葛家后人诸葛晦。导师解释了天驱的形成机制,暗示姬明欢如果是驱魔人,他的天驱应该是"面具",因为他从小就善于伪装自己。导师承诺过几天安排姬明欢与孔佑灵等人见面。通过这次对话,姬明欢的驱魔人世界观开发进度提升到55%,获得了1个分裂点奖励。当晚导师再次趁姬明欢入睡时进入他的精神世界试探,但又一次被姬明欢伪装的"本我"蒙骗。</p>
+<h2>第046章 影院</h2>
+<p>姬明欢的死党李清平约他看电影。在电影院里,姬明欢趁交接可乐时用拘束带触碰李清平,发动"拘束带探测"技能。结果显示李清平竟然是A级奇闻使,拥有世代级奇闻碎片"红龙威尔士",三项属性全是A级。看完电影后,姬明欢悄悄跟踪李清平来到黎京海岸,目睹了传说之鲸"奇卡纳欧"从海中浮现。李清平进入鲸中箱庭,被称为王庭队副队长"红龙"。管家纳比斯告知二王子要李清平陪同前往东京拍卖会。姬明欢意识到拍卖会将有更多高手参与,暗自担心。</p>
+<h2>第047章 红龙</h2>
+<p>姬明欢跟踪李清平来到黎京海岸,目睹巨大的传说之鲸"奇卡纳欧"浮出海面。管家纳比斯从鲸口走出,与李清平对话。李清平被称为王庭队副队长"红龙",他将陪同二王子前往东京参加拍卖会。姬明欢通过拘束带感官听到了全部对话,完成了主线任务,获得1个分裂点、1个技能点和1个属性点。他意识到东京拍卖会将聚集众多高手,包括鲸中箱庭的人、驱魔人协会、顾绮野和顾卓案,担心自己的二号角色能否幸存。姬明欢感叹局势凶险,但退团也是死路一条。</p>
+<h2>第048章 夜袭</h2>
+<p>姬明欢分析拍卖会的局势,意识到李清平、顾绮野、顾卓案以及日本驱魔人协会都会参与,二号角色面临巨大风险。当晚,导师再次在姬明欢睡眠时进入他的精神世界试探。导师穿过姬明欢精心构建的多层防御,来到一个温暖小屋,在衣柜里找到了蜷缩的"本我"——一个四岁男孩。导师试图从"本我"口中套取关于黑蛹的信息,但男孩表现得像个单纯等待父母回来的孩子,对异能一无所知。导师再次无功而返。实际上这个"本我"也是姬明欢伪装的,他真正的精神世界是一座图书馆,里面吊着两具"尸体"——黑蛹和棋手。</p>
+<h2>第049章 本我</h2>
+<p>深夜,导师趁姬明欢入睡时再次进入他的精神世界试探。他穿过姬明欢构建的多层防御,在一个温暖小屋的衣柜里找到了蜷缩的"本我"——一个用纸巾裹着自己的四岁男孩。导师试图从他口中套取信息,但男孩只是单纯地等待父母回来,对异能一无所知。导师最终无功而返。实际上,这个"本我"也是姬明欢伪装的。他真正的精神世界是一座图书馆,天花板上吊着"黑蛹"和"棋手"两具"尸体"。姬明欢能够自由操控精神世界,这种能力源于两个月前孔佑灵无意中带他进入精神世界的经历。</p>
+<h2>第050章 分裂</h2>
+<p>回忆两个月前,孔佑灵觉醒异能后,无意中将姬明欢带入了他的精神世界——一座图书馆。在心灵世界里,哑巴孔佑灵可以说话。两人经常互相进入对方的精神世界玩耍。姬明欢展现了惊人的天赋——他能任意改变自己精神世界的形态,甚至分裂出新的精神空间。这种能力连精神系异能者孔佑灵都做不到。导师虽然能进入他人精神世界,但级别不如孔佑灵,只能穿过两层防护层,无法突破孔佑灵和姬明欢的精神防线。当晚,姬明欢收到顾绮野的短信,确认今晚9点飞往东京。距离拍卖会还有九天。</p>
+<h2>第051章 大盗</h2>
+<p>7月12日清晨,黎京第三银行遭到国际大盗"飞蚁"和"大仲侯"抢劫。蓝弧和吞银出动追捕。蓝弧迅速制服了变身巨猩的大仲侯,但体型微小的飞蚁逃脱能力极强,吞银无法追上。这时黑蛹突然出现,用言语戏弄吞银后,利用敏锐的拘束带感官锁定飞蚁的位置。他在偏僻小巷捕获了飞蚁,用"拘束带抑制"技能封锁了她的异能,并发动"异能窃取"获得了她缩小身体和长出翅膀的能力。蓝弧赶到后,黑蛹通过短信交流避免暴露。吞银随后赶来,黑蛹使用窃取的异能缩小身体从钢铁牢笼逃脱,成功离开现场。</p>
+<h2>第052章 追逐</h2>
+<p>异行者吞银追逐着逃跑的飞蚁,但对方飞行速度太快,体型又小,他根本追不上。这时黑蛹突然出现,用言语戏弄吞银,还扔给他一块电池讽刺他的仓鼠形象,激怒了吞银。黑蛹利用拘束带感官的敏锐听觉,在城市的嘈杂声中锁定了飞蚁振翅的特殊频率。他追踪到偏僻小巷,用拘束带捕获了恢复正常大小的飞蚁。面对飞蚁的挣扎,黑蛹展示了"拘束带抑制"技能,封锁了她的异能,并用"异能窃取"获得了她的能力。蓝弧收到短信赶来,击晕了飞蚁。</p>
+<h2>第053章 窃取</h2>
+<p>黑蛹通过短信与蓝弧交流,避免被通讯器监听。他提醒蓝弧抓住这对国际大盗会提升在联合国的评价,有助于进入虹翼。系统显示姬明欢完成了与蓝弧的第三阶段合作任务,获得奖励,但新任务变成"帮助蓝弧在东京拍卖会行动中幸存",让他意识到顾绮野也会卷入拍卖会。吞银赶到现场,黑蛹使用窃取的飞蚁异能将身体缩小,长出蜻蜓翅膀,轻松从吞银制造的钢铁牢笼中逃脱。回家后,姬明欢思考如何在拍卖会上保护好哥哥,同时分配了新获得的属性点和技能点。</p>
+<h2>第054章 录音</h2>
+<p>姬明欢回家后,通过短信与蓝弧交流白鸦旅团的情报。他拿出当初与顾绮野会面时偷偷录下的对话——录音笔里记录了顾绮野承认自己身份的关键证据。姬明欢计划用这段录音与父亲顾卓案交涉,但必须在老爹没戴面具的情况下进行,否则可能被秒杀或暴露身份。他分析必须等到日本再找机会。姬明欢给顾卓案发短信通知今晚的航班。三人共进晚餐,气氛沉默。晚上,姬明欢分配了属性点和技能点,学习了"拘束带延长"技能,将拘束带最长距离从8米提升到15米。他思考着如何在日本找到合适的时机与父亲交涉。</p>
+<h2>第055章 机场</h2>
+<p>7月12日晚7点,顾绮野、顾卓案和姬明欢三人来到黎京首都国际机场。姬明欢在机场看到异行者吞银,特意过去要签名并自拍,穿着印有吞银仓鼠形象的粉丝T恤戏弄他。办理登机手续时,虹翼成员帆冬青突然出现,他是唯一公开身份的虹翼成员,曾拯救过黎京。顾绮野意识到帆冬青是来抓捕鬼钟的。顾卓案看到帆冬青后情绪激动——帆冬青的手下曾在几年前误杀了他的妻子,这正是他成为鬼钟复仇的原因。但碍于孩子在场和公共场合,顾卓案强忍住冲动。三人最终登上飞往东京的飞机。</p>
+<h2>第056章 欧鸟</h2>
+<p>在黎京机场,虹翼成员帆冬青高调现身,引起轰动。顾绮野意识到他是来抓捕鬼钟的。顾卓案看到帆冬青后浑身颤抖——几年前帆冬青的手下误杀了他的妻子,这是他成为鬼钟的原因。他渴望向帆冬青问清真相,但为了不连累两个孩子,强忍住冲动。姬明欢观察着父子俩的反应,觉得十分精彩。他还注意到帆冬青的打扮像《功夫》里的火云邪神。三人通过安检登机,姬明欢好奇他们如何通过安检,但并未发现异常。飞机起飞,姬明欢看着窗外的黎京夜景,然后将意识切换到东京的"夏平昼"角色。</p>
+<h2>第057章 剧场</h2>
+<p>东京时间7月13日凌晨,姬明欢的二号角色"夏平昼"在酒店醒来。系统提示在东京待满三天,解锁了"事件卡牌"功能。他看到远方天空中的红色感叹号,指向六本木方向。为避免暴露,夏平昼这两天一直待在酒店,因为他手背上有白鸦旅团的纹身标志,大白天在街上乱晃会被驱魔人协会发现。深夜,他戴上人皮面具前往六本木新城的森大厦,进入"六本木EX剧场"。系统触发了卡牌事件"六本木EX剧场上的蜘蛛舞者"。舞台上出现了一头长着人脸的蜘蛛恶魔,在半空中疯狂舞动。任务要求在五分钟内清除恶魔。</p>
+<h2>第058章 双生</h2>
+<p>在六本木EX剧场内,姬明欢召唤出所有棋种应战——三具士兵巨像、一具炮车巨像、一具国王巨像和皇后巨像。国王巨像释放保护屏障,确保姬明欢不受伤害。他闭上眼睛,用"棋盘视角"追踪黑暗中游走的蜘蛛恶魔。蜘蛛恶魔从天而降攻击时,炮车巨像精准命中,皇后巨像随后追击。但恶魔吐丝结茧防御,皇后切断吊丝让它坠落,士兵们准备接杀。就在此时,姬明欢发现天花板上还有第二头蜘蛛恶魔——一对双生子。恶魔吟唱的歌舞伎台词"双蝶虽分,心仍为一"正是暗示。第二头恶魔攻向孤立无援的国王巨像。</p>
+<h2>第059章 真名</h2>
+<p>第二头蜘蛛恶魔攻向国王巨像,姬明欢迅速召唤契约恶魔"阴影恶魔",将国王拉入地面阴影中躲避攻击。皇后巨像反击,使用"虚无化"能力穿过恶魔的爪击,从背后刺穿了它的心脏。另一边,三具士兵巨像合力击杀了茧中的蜘蛛恶魔。双生恶魔全灭,姬明欢完成卡牌事件,获得"舞台上的双生子"卡牌。但卡牌效果需要双胞胎兄弟才能使用,他直接出售换取1个技能点。系统显示击杀2头C级恶魔,天驱进阶进度提升至45%。离开时,驱魔人柯祁芮突然出现,叫出了"夏平昼"的真名,表示想和他聊聊。</p>
+<h2>第060章 间隙</h2>
+<p>柯祁芮拦住夏平昼,表示她的同伴在附近,不想发生冲突但希望能谈谈。姬明欢想到苏子麦的战斗风格,决定暂时配合。柯祁芮说她调查了半年前的事,知道夏平昼为复仇加入白鸦旅团。她已删除了夏平昼的档案以保护他,劝他收手回到驱魔人协会。姬明欢保持冷漠,否认自己的身份,还故意说出一些病态的话语试探柯祁芮是否在监听。离开前,皇后巨像用火焰在空中写下:"我不会和你合作,但可能会有其他人和你合作。那是一具黑色的木乃伊。"暗示黑蛹会与柯祁芮接触。姬明欢谨慎地处理对话,避免暴露真实身份或被旅团发现。</p>
+<h2>第061章 碰头</h2>
+<p>姬明欢操控黑蛹(夏平昼)到达日本,皇后巨像抱着他在东京上空奔走。顾文裕(一号机体)已和顾卓案、顾绮野到达日本找酒店。姬明欢思考如何在拍卖会上不显得废物,决定暴打妹妹苏子麦。此时苏子麦正和柯祁芮在东京街头,巧遇顾家三人。苏子麦慌忙躲藏,让顾文裕掩护。顾文裕成功将顾绮野和顾卓案引走,随后与柯祁芮、苏子麦会合去吃寿司。</p>
+<h2>第062章 闲暇</h2>
+<p>姬明欢用顾文裕的身份与苏子麦、柯祁芮在六本木的寿司店吃饭。三人闲聊,苏子麦抱怨学校里蓝弧的极端粉丝,柯祁芮则对黑蛹的造型表示赞赏。电视上播放着关于蓝弧和黑蛹的新闻。柯祁芮点了一桌昂贵的寿司,姬明欢感叹贫富差距。饭后姬明欢离开,柯祁芮收到协会通知蓝弧已到达日本,她开始怀疑顾文裕的时间抵达太巧合,向苏子麦暗示顾文裕可能就是蓝弧。</p>
+<h2>第063章 疑问</h2>
+<p>柯祁芮向苏子麦分析顾文裕可能是蓝弧的理由:在公园握手时感受到类似触电的感觉,顾文裕应该是异能者,能力是操控电流,时间线也吻合。苏子麦起初不信,但回想起种种异常细节,开始动摇。她想起顾文裕触碰她肩膀时的触电感,以及顾卓案抓住顾文裕手腕的反常举动。苏子麦意识到二哥可能真是蓝弧,同时怀疑老爹也隐藏着身份。她陷入混乱,流下眼泪,最终明白哥哥隐瞒是不想让她受伤。</p>
+<h2>第064章 推测</h2>
+<p>苏子麦情绪崩溃后,柯祁芮安慰她并提出计划:约顾文裕出来,让许三烟跟踪他,如果他是蓝弧必然会发现并抓住三烟,届时苏子麦可以现身相认。柯祁芮还为苏子麦准备了人脸面具和变声器以防被白鸦旅团认出。两人等待团员三烟和正拳到达日本。苏子麦决定约顾文裕见面,尽管她希望哥哥不是蓝弧。姬明欢收到约见短信后思考对策,担心被柯祁芮这个女同骗婚,于是给柯祁芮发短信说自己是男同,惹得苏子麦一阵轰炸。</p>
+<h2>第065章 计划</h2>
+<p>姬明欢用顾文裕身份对柯祁芮说自己是男同来防止"女同骗婚",引发苏子麦的信息轰炸。姬明欢切换到夏平昼视角,在酒店思考如何推进主线任务与苏子麦合作。他学习了技能树上的"士兵训练",使士兵装备盾牌并开启盾格指令。姬明欢分析了世界异能者等级体系,思考如何将角色培养到天灾级。导师来访监禁室,告知将让他接触其他被收容的孩子,第一个是"菲里奥"——人类与恶魔交配生下的魔人。</p>
+<h2>第066章 魔人</h2>
+<p>导师向姬明欢介绍魔人菲里奥的来历:他是人类母亲与高级恶魔父亲的孩子,年幼时因恶魔本能吃掉了母亲,后被救世会发现并收容。菲里奥现在被教育成人类,身上人性多过魔性。姬明欢得知菲里奥会和孔佑灵一起来见他,导师希望他能成为菲里奥的朋友以稳定其情绪。姬明欢思考如果日后菲里奥的恶魔父亲来救他,菲里奥会站在哪一边。导师临走前询问姬明欢是否好奇自己的父母,透露他们还活着,姬明欢表示不在乎,他唯一的家人只有孔佑灵。</p>
+<h2>第067章 父母</h2>
+<p>姬明欢思考自己父母的问题,怀疑自己作为限制级异能者可能遗传自父母的基因。导师告知将在下次见面讲述他父母的事,但姬明欢表示不在乎,只想知道他们是否还活着。夜晚姬明欢躺下休息,思考救世会的真正目的,怀疑组织内部可能存在两股势力。他坚定要带孔佑灵逃离实验所的决心。导师最后问他是否好奇父母现状,姬明欢冷冷回应:"这两个狗娘养的玩意还活着?"显示出对抛弃自己的父母的愤恨。</p>
+<h2>第068章 杰克</h2>
+<p>姬明欢曾思考父母身份,但对此毫无兴趣。导师承诺下次讲述父母的事并确认他们还活着。姬明欢表示只要知道他们活着就够了,暗示日后要报复。夜里姬明欢被电话铃声吵醒,绫濑折纸来电要他去港区西部废弃大楼见旅团成员。在那里他见到了2号团员"开膛手杰克"——一个穿着校服的黑发少女,以及10号团员"白贪狼"——一个披风男人,他是恶魔。姬明欢意识到白贪狼就是菲里奥的父亲,正在全世界寻找儿子。这让他看到了未来可以利用这层关系的机会。</p>
+<h2>第069章 规矩</h2>
+<p>旅团成员向姬明欢介绍开膛手杰克和恶魔白贪狼。开膛手按照入团规矩用天驱能力取走姬明欢的心脏作为"入团抵押物",确保他不是内鬼。团员们讲述之前一个内鬼被杀后,他们用其尸骨制作了纪念品。安伦斯透露自己是因为和团长赌博输了才加入旅团。姬明欢了解到旅团规则严格,一旦被认定为内鬼就会被处死。他意识到白贪狼是菲里奥的父亲,可以利用这层关系。交完心脏后,姬明欢决定用黑蛹身份去找苏子麦建立合作关系。</p>
+<h2>第070章 月蛹</h2>
+<p>姬明欢操控顾文裕身份在酒店刷牙时玩手机游戏,收到李清平(红龙)消息说他也在东京旅游。姬明欢决定拍卖会后再推进与王庭队的合作主线。他准备用黑蛹身份去找苏子麦和柯祁芮,提前录制了大量顾文裕的语音以备不时之需。傍晚,黑蛹用拘束带包裹全身,在芝公园的银杏树下倒吊等待苏柯二人。当她们出现后,黑蛹现身,柯祁芮和苏子麦震惊地看到了这个传说中的黑蛹。黑蛹表示"棋手"的朋友让他来与她们合作。</p>
+<h2>第071章 沉默</h2>
+<p>黑蛹倒吊在芝公园银杏树下,用拘束带包裹全身,戴着墨镜。他声称在cosplay忍者,调侃自己是"忍者版黑蛹"。柯祁芮询问他找她们的目的,黑蛹说朋友"夏平昼"转告她们想合作。苏子麦对黑蛹的啰嗦感到厌烦,要求他摘下面具。就在这时苏子麦接到顾文裕的电话,柯祁芮让她进入电影恶魔的幕布内接听。通话中顾文裕答应明天和她们见面,这让苏子麦松了口气,证明黑蛹不是顾文裕。柯祁芮虽然误会解除,但心中仍有疑虑。</p>
+<h2>第072章 电话</h2>
+<p>柯祁芮虽然暂时接受黑蛹不是顾文裕,但心中仍有怀疑。黑蛹要求合作的条件是分享关于"红路灯"的情报。柯祁芮提出一个前提条件,直接询问顾文裕是不是蓝弧。她推测黑蛹与蓝弧有合作关系,所以能及时让顾文裕打电话澄清误会。黑蛹承认顾文裕就是蓝弧,让苏子麦彻底震惊。原来姬明欢早有准备:白天录制了大量语音,傍晚用二号机体(夏平昼)播放录音与苏子麦通话,而一号机体(黑蛹)则在现场与柯祁芮交涉,成功骗过她们。</p>
+<h2>第073章 赠品</h2>
+<p>回忆姬明欢的准备过程:他用一号机体录制了100多条顾文裕的语音,然后用黑蛹身份将手机交给二号机体夏平昼,并在路上顺手"借"了一台手机和一本《我是猫》。当苏子麦在电影幕布中通话时,夏平昼在酒店通过播放预录语音与她对话,成功让她相信这就是顾文裕本人。柯祁芮事后向黑蛹道歉,黑蛹再次确认合作并承认顾文裕是蓝弧。苏子麦已经崩溃,柯祁芮则接受了这个事实,决定与黑蛹合作以保护苏子麦在拍卖会中存活。</p>
+<h2>第074章 陷阱</h2>
+<p>黑蛹向柯祁芮确认顾文裕就是蓝弧,解释说既然她们是正派人物,迟早会接触蓝弧,所以不算出卖合作者。柯祁芮询问如何联系黑蛹,得知可以通过顾文裕联系。苏子麦已经被玩坏,面无表情地同意合作。姬明欢完成了与苏子麦的主线任务,获得奖励点数。黑蛹优雅离去,留下震惊的苏子麦和满意的柯祁芮。姬明欢随后学习了新技能"拘束带陷阱",可以在原地留下保留生命力的拘束带,继承感官、变色、探测、抑制等能力,相当于全面加强版的侦查守卫。</p>
+<h2>第075章 化身</h2>
+<p>姬明欢发现技能树解锁了新技能"拘束带化身",这个技能可以从身上剥落拘束带组合成人型,化身能使用所有分支技能并可以随意调整外貌,但只有本体30%的属性。姬明欢兴奋地想象各种恶作剧场景,意识到这个技能简直是为双面间谍生活而生。他可以让化身假扮顾文裕应付苏子麦和柯祁芮,也可以让化身装成夏平昼去送死以脱离旅团。为了学习这个技能,他毫不犹豫地出售了"笼中鸟"事件卡牌换取技能点,成功习得"拘束带化身",并测试了化身的各项功能。</p>
+<h2>第076章 分享</h2>
+<p>姬明欢在监禁室醒来,导师通知孔佑灵和菲里奥将前来见他。孔佑灵先到,两人亲密互动,她分享了这段时间看的动画片,姬明欢则谎称自己在锻炼身体。随后魔人少年菲里奥被带来,他长着狼耳朵和尾巴,性格冷漠胆怯。姬明欢装出小孩王的样子活跃气氛,保护孔佑灵。三个孩子慢慢熟络,菲里奥透露自己把导师当作父亲。姬明欢和孔佑灵摸了摸菲里奥的耳朵和尾巴,三人度过了愉快的时光。分别时姬明欢和孔佑灵肩膀相依,展现出深厚的羁绊。</p>
+<h2>第077章 客人</h2>
+<p>姬明欢、孔佑灵和菲里奥三人在监禁室相处。姬明欢为了保护孔佑灵,装出顽皮小孩的样子吸引注意力。菲里奥透露自己定期吃药就不会变身,害怕父亲会因为他吃掉母亲而报复他。姬明欢暗自吐槽菲里奥的父亲白贪狼其实还在找他。菲里奥表达对导师的感激,认为只有导师愿意接受他。姬明欢试图劝说菲里奥,但意识到这个孩子已经被导师精神控制,认贼作父。姬明欢在心中呼唤"恶魔太君"快来救儿子。三个孩子一起摸菲里奥的耳朵和尾巴,难得地笑了起来。分别时姬明欢思考日后菲里奥会站在哪一边。</p>
+<h2>第078章 抉择</h2>
+<p>三个孩子靠墙坐着沉默。姬明欢思考如果日后白贪狼来救菲里奥,菲里奥会站在哪边,以及自己是否要和这些被精神控制的孩子战斗。他试图安慰菲里奥,说他父亲可能已经原谅他了。菲里奥透露导师对姬明欢很关心,经常和他聊姬明欢的事。姬明欢发现其他孩子都有电视和游戏,只有自己什么都没有,对监控器竖中指。菲里奥第一次和同龄人说这么多话表示感谢,姬明欢开玩笑说自己会毁灭世界。菲里奥说导师认为姬明欢是好孩子,只是控制不了力量。三人继续交流,气氛融洽。</p>
+<h2>第079章 蛰伏</h2>
+<p>姬明欢进入精神世界,看到被吊死的"黑蛹"和"棋手"托管人格。他意识到这些是托管人格,在"完全分裂"模式下暂时死去但在学习他的行为。第二天早上姬明欢为二号机体分配属性点,学习了"打造炮车"技能并解锁"骑兵训练"。绫濑折纸通知他去见4号和9号团员。姬明欢在街上看到顾卓案喝醉酒的样子,决定今天必须用黑蛹身份把录音笔交给老爹,告诉他蓝弧的真实身份。他操控二号机体去见旅团成员,同时操控黑蛹追踪顾卓案。</p>
+<h2>第080章 追踪</h2>
+<p>姬明欢同时操控两具机体,夏平昼去见旅团成员,黑蛹则追踪顾卓案。黑蛹用拘束带感官找到顾卓案,发现他进入了一家违法运营的地下酒吧。黑蛹在门外等待,抓住一个路过的花衫男,把他打晕并扒光衣服。姬明欢释放"拘束带化身",让化身变成花衫男的样子,带着录音笔进入酒吧。化身成功通过安检,进入酒吧后发现顾卓案正和一个红裙女人交谈。女人邀请顾卓案当拍卖会保镖,但被拒绝,还向他表白但被拒绝。化身走到顾卓案身边,将录音笔交给他,说"听完就会知道了",然后离开。</p>
+<h2>第081章 疯狂</h2>
+<p>顾卓案在地下酒吧收到录音笔,录音中黑蛹揭露了他的儿子顾绮野就是蓝弧的真相。震惊的顾卓案在厕所听完录音后精神崩溃,回想起自己曾三番两次重创蓝弧,那些战斗画面如同噩梦般涌现。意识到自己亲手伤害了儿子,顾卓案陷入疯狂状态,在厕所自虐式地用头撞击地面。他踉跄走出酒吧时,发现那个给他录音笔的花衬衫男人被黑蛹的拘束带吊在半空。这一切都是黑蛹精心布置的局,目的是让鬼钟意识到真相。</p>
+<h2>第082章 血裔</h2>
+<p>顾卓案离开酒吧后委托老板娘雨宫千寻调查花衬衫男人。拘束带化身完成任务后,姬明欢操控二号机体夏平昼来到废弃游乐场,见到了白鸦旅团的9号成员"血裔"——一个身穿红裙、外表年轻但实际年龄近百岁的吸血鬼女人。血裔展示了她操控血液的可怕能力,将九名魁级异能者保镖吊在旋转木马上折磨。夏平昼向血裔索要这些"玩具"用于提升自己的天驱等级,血裔同意了。血裔还提到百年前遇到过一个代号"1001"的神秘异能者,那人在寻找一个白发女孩。</p>
+<h2>第083章 故人</h2>
+<p>血裔继续讲述百年前在战场上遇到"1001"的经历。那个黑发黑眼的亚洲男孩异能特殊,怎么也打不死,他给孤儿血裔取了名字,成为她唯一的纽带。一百年来血裔一直在寻找他。夏平昼完成任务后获得属性点奖励。绫濑折纸和4号成员织田泷影出现,织田泷影是绫濑的管家,拥有遁入阴影和操控影子的能力。绫濑建议夏平昼在行动前跟着某个团员,最后夏平昼选择跟着绫濑。血裔和织田泷影都戏称夏平昼为"小猫",绫濑用纸张给他弄了猫耳朵。</p>
+<h2>第084章 归属</h2>
+<p>夏平昼和绫濑折纸、织田泷影来到晴海码头,乘水上巴士前往织田泷影开的咖啡馆。途中夏平昼询问绫濑加入旅团的原因,绫濑说在家族里像傀儡一样无聊,团长告诉她"比起当傀儡,当恶人更有趣"。到达咖啡馆后,夏平昼意外发现好友李清平和他保护的鲸中箱庭二王子也在这里。姬明欢本想让顾文裕来见李清平,但考虑到安全问题最终放了鸽子。他在心中规划着白鸦旅团成员名单,目前已知8名成员,还有4人未见面。</p>
+<h2>第085章 恶人</h2>
+<p>夏平昼在咖啡馆内,李清平和二王子坐在附近。姬明欢庆幸顾文裕没来,避免了危险。他加点提升了夏平昼的速度属性。李清平和二王子吃完离开后,姬明欢询问团长和剩余团员的情况,得知团长总是最后到达。黄昏时分,姬明欢切换至黑蛹身上,准备去东京湾废弃大楼赴约鬼钟。在滂沱大雨和雷鸣中,黑蛹倒吊在天花板看书等待。终于,头戴金属面具、身披黑色披风的鬼钟出现了,他的每一步都伴随着铜钟的轰鸣。两人的会面即将开始。</p>
+<h2>第086章 时机</h2>
+<p>姬明欢加点后调出属性面板。黑蛹在东京铁塔救下人质并制服连续杀人犯"机翼人",随后在直播镜头前画了吞银的Q版卡通画,还留言"蓝弧和狗不得入内"。这一幕在日本引起轰动。黑蛹随后联系蓝弧,建议他立即去驱魔人协会报道,称会遇到"意想不到的人"——暗指苏子麦。姬明欢的计划是让黑蛹和蓝弧同时现身,彻底洗脱顾文裕的嫌疑。拘束带化身扮成顾文裕去见苏子麦和柯祁芮。这是为晚上与鬼钟会面做的准备,让多个身份都有不在场证明。</p>
+<h2>第087章 告白</h2>
+<p>拘束带化身扮成顾文裕来到拉面馆见苏子麦、柯祁芮和许三烟。苏子麦突然直球告白自己是驱魔人,并最后一次追问顾文裕是否就是蓝弧。姬明欢操控化身矢口否认并发毒誓。此时电视上直播黑蛹在东京铁塔的表演。柯祁芮通知苏子麦,蓝弧已到协会报道,证明顾文裕不是蓝弧。许三烟跟踪顾文裕回酒店,确认他只是普通人。而黑蛹则一直透明跟踪着许三烟,观察他的雨伞天驱能力。最终蓝弧、苏子麦、柯祁芮、许三烟都来到驱魔人协会,但蓝弧已经离开。黑蛹跟踪他们到卿本华酒店,记下地址。</p>
+<h2>第088章 表演(一)</h2>
+<p>苏子麦再次质问"顾文裕"是否是蓝弧,姬明欢操控拘束带化身坚决否认。众人看电视直播,樱武正在东京铁塔与机翼人对峙。黑蛹突然出现制服机翼人,在镜头前画了吞银的Q版画并留言挑衅蓝弧。这一幕让观众们确信黑蛹和蓝弧关系密切。直播结束后,黑蛹打电话给蓝弧,建议他去驱魔人协会,称会遇到"意想不到的人"。拉面馆里,柯祁芮收到协会通知,蓝弧已到协会报道,证明顾文裕不是蓝弧。许三烟奉命跟踪顾文裕回酒店,而黑蛹则透明跟在许三烟头顶观察。</p>
+<h2>第089章 表演(二)</h2>
+<p>黑蛹打电话挑衅蓝弧,建议他去驱魔人协会。蓝弧按建议行动,在协会现身。许三烟跟踪顾文裕回酒店,确认他只是普通人。柯祁芮收到蓝弧到协会的消息后,判断顾文裕不是蓝弧。黑蛹一直透明跟踪许三烟,观察他的雨伞天驱——能释放烟雾凝聚成小人侦查。许三烟和柯祁芮通话后,前往协会见蓝弧。黑蛹继续跟踪,想看兄妹相见的场景。但到达协会时,蓝弧已离开。黑蛹跟踪他们到卿本华酒店,记下苏子麦住处。通过这一系列操作,姬明欢成功为三个身份都建立了不在场证明,彻底洗脱嫌疑。</p>
+<h2>第090章 表演(三)</h2>
+<p>苏子麦和柯祁芮确认顾文裕既不是蓝弧也不是黑蛹,苏子麦松了口气。黑蛹在芝公园树上倒吊,拨通蓝弧电话调侃他,然后挂断。拉面馆散场后,三人聊天结束。姬明欢让拘束带化身回酒店,自己则以黑蛹身份跟踪许三烟等人。他们来到驱魔人协会,但蓝弧已离开。黑蛹跟踪到卿本华酒店,记下地址。回到六本木大酒店后,姬明欢躺在床上松了口气,成功洗脱嫌疑。夜深时,姬明欢在监禁室见到导师。导师透露姬明欢的父母曾是救世会成员,八年前神秘失踪,现在可能还活着。这个真相让姬明欢震惊。</p>
+<h2>第091章 鬼钟,会面时间</h2>
+<p>暴雨夜,黑蛹在东京湾废弃大楼倒吊看书等待鬼钟。鬼钟出现后质问黑蛹为何知道他的秘密。黑蛹用言语挑衅,指出鬼钟抛弃孩子两年,导致顾绮野为了证明自己而成为异行者,最终会被联合国当作棋子利用。鬼钟暴怒,将黑蛹摁在墙上暴打。黑蛹继续刺激他,指出鬼钟三番两次重创蓝弧,实际是在伤害自己的儿子,这是他的罪过。鬼钟越发疯狂,不断将黑蛹砸向墙壁。黑蛹告知白鸦旅团将袭击地下拍卖会,而顾绮野会担任保镖,劝鬼钟与他合作拯救儿子。</p>
+<h2>第092章 黑蛹:我,你女儿</h2>
+<p>鬼钟暴打黑蛹质问真相。黑蛹为促成合作,让拘束带化身变成苏子麦的模样,声称"我是你女儿"。鬼钟看到"女儿"的脸时彻底崩溃,回想起自己刚才的暴行,恐惧和自责淹没了他。但很快鬼钟察觉黑蛹有易容能力,拆穿了这个骗局。黑蛹又变成顾文裕、顾绮野等人的样子戏耍他。鬼钟撕下黑蛹的脸,发现只是拘束带化身。黑蛹最后警告鬼钟不要伤害他的孩子们,并暗示自己的真实身份会让鬼钟"喜欢得不得了"。鬼钟愤怒地摧毁了拘束带化身。姬明欢虽然没能达成合作,但已成功告知拍卖会信息。</p>
+<h2>第093章 雨夜,谜团</h2>
+<p>拘束带化身被鬼钟摧毁,姬明欢在六本木酒店醒来。他咒骂老爹一通,庆幸派的是化身而非本体。交涉虽未成功,但目的已达成——告知老爹蓝弧的身份和拍卖会信息。雨夜中,夏平昼在咖啡馆阁楼被雨声吵醒,绫濑折纸用纸页封住窗户隔音让他安睡。本体在监禁室,导师来访透露重大秘密:姬明欢的父母季怀夜和林溪曾是救世会成员,父亲是天灾级异能者,母亲是科研人员,八年前神秘失踪。导师还提到接下来会安排姬明欢见"第二个孩子"——一个拥有神话级奇闻的奇闻使。</p>
+<h2>第094章 兄妹相见</h2>
+<p>导师告诉姬明欢,救世会关押着一个拥有"神话级奇闻"的孩子,实力可能达到天灾级。这让姬明欢意识到突破救世会防线的难度极大。他开始怀疑父母是否因察觉组织不对而失踪。次日清晨,姬明欢用拘束带帮自己洗漱,然后以黑蛹身份前往卿本华酒店蹲守。柯祁芮和戴人脸面具的苏子麦出来,乘车前往海边私人别墅。黑蛹透明跟踪。蓝弧最后到达,与柯祁芮和苏子麦见面。蓝弧直觉感到苏子麦很熟悉。三人进入别墅与其他保镖会合,黑蛹潜入二楼偷听。保镖队共九人,包括蓝弧、柯祁芮团队和日本异行者及驱魔人。</p>
+<h2>第095章 拍卖会的保镖们</h2>
+<p>黑蛹潜伏在别墅二楼偷听保镖队会议。九人核心保镖队由蓝弧、樱武、柯祁芮等组成,另有50名精英异能者作为辅助。会议讨论白鸦旅团的威胁,档案显示已知5名团员都极其强大。许三烟质疑日方战力不足,气氛一度紧张。樱武透露关键信息:拍卖会客人中有两位"大人物",实力与蓝弧相当甚至更强,来自不同的强大势力,必要时会出手。黑蛹推测其中一位是好友李清平,另一位可能来自救世会或湖猎组织。蓝弧对"比自己更强"的客人产生兴趣。会议结束后,姬明欢决定找机会查清神秘客人的身份。</p>
+<h2>第096章 罪行,加码环节,两位客人</h2>
+<p>保镖队继续讨论白鸦旅团的威胁。许三烟直言日方战力不足,引发争执,被柯祁芮制止。樱武说明除核心保镖队外还有50名精英异能者。苏子麦质疑杂鱼数量无用,柯祁芮解释日本准天灾级异能者不愿介入黑道事务。樱武展示白鸦旅团已知成员档案:绫濑折纸、织田泷影、蓝多多、安伦斯、开膛手杰克,光已知成员就有3名准天灾级。柯祁芮指出旅团剩余7人实力未知,情况危险。樱武透露拍卖会有两位神秘大人物客人,实力与蓝弧相当或更强。黑蛹推测一位是李清平,另一位可能来自救世会,决心查明真相。</p>
+<h2>第097章 成为英雄的可能</h2>
+<p>樱武说拍卖会还有五天准备时间。蓝弧急着离开去品尝东京美食,柯祁芮调侃他。会后日方人员讨论怀疑蓝弧与黑蛹有合作关系。黑蛹在二楼打盹,计划与樱武建立合作关系,但怀疑这些人活不过拍卖会。他从窗户离开回酒店。顾绮野约顾文裕吃早餐,关心他是否觉醒异能,并说如果觉醒了要找他商量。姬明欢想,如果当初选了英雄路线而非灰色路线,现在可能已加入异行者协会跟着蓝弧混。但现在这样也好,避免成为大哥的弱点。他决定测试夏平昼的实力,向织田泷影提出切磋请求。</p>
+<h2>第098章 夏平昼:什么,我打团员?</h2>
+<p>夏平昼向织田泷影提出切磋请求,想测试自己实力。织田泷影最初拒绝,但绫濑折纸命令他"当逗猫棒",他立即答应。三人来到东京湾废弃大楼——昨夜黑蛹被鬼钟暴打的地方。绫濑用纸页封住窗户。姬明欢召唤全部棋种:三名黑铁士兵、两辆炮车、国王和皇后巨像。绫濑注意到棋子数量和装备都升级了。战斗开始,姬明欢完美预判织田泷影的忍者思路,让炮车对准自己开炮,正好击中从阴影中偷袭的织田泷影。国王的屏障保护了姬明欢。阴影恶魔保护国王躲避炮火。最终皇后的虚无化能力让姬明欢躲过致命一击,反将织田泷影的脖子架上匕首,获得胜利。</p>
+<h2>第099章 夏平昼VS织田泷影</h2>
+<p>战斗打响,织田泷影从阴影中偷袭姬明欢,但姬明欢提前让炮车对准自己开炮,炮火正好击中织田泷影。国王巨像的屏障保护了姬明欢免受伤害。织田泷影转而攻击国王,但姬明欢召唤阴影恶魔将国王拉入影子中躲避炮火。三名黑铁士兵冲来,被织田泷影轻松斩杀。阴影恶魔消失后国王浮出,被织田泷影斩首。织田泷影认为夏平昼失去国王保护,再次从阴影中偷袭。关键时刻,皇后巨像施展"虚无化",让姬明欢和自己都变成不可触碰的透明体。织田泷影扑空,皇后的匕首架上他的脖子。绫濑折纸宣布比赛结束,夏平昼获胜。织田泷影承认失败,姬明欢推测自己目前是龙级实力。</p>
+<h2>第100章 旅团的最后三名团员</h2>
+<p>黄昏时分,夏平昼在咖啡馆见到血裔。绫濑和织田泷影去接其他三名团员。血裔开玩笑说来抢夺小猫抚养权,还说和服大小姐的合同可能包含"绝育手术"。织田泷影为夏平昼准备了蒸汽燕麦奶。不久,五人回来,剩余三名团员登场:5号蓝多多是香港人,染蓝发的活泼少女,持有奇闻碎片;6号安德鲁是美国牛仔打扮的大叔,天驱是狙击枪;8号"黑客"是顶着黑眼圈的少年,能力与网络数据有关,被称为世界最强黑客。团员们讨论实力排名,公认团长或开膛手最强。姬明欢在脑中完善了团员名单,推测守卫方和旅团实力接近,关键在于神秘客人和尚未现身的团长。</p>
+<hr>
+<h2>第101章 虹翼的二人,团长的礼物</h2>
+<p>姬明欢以夏平昼身份在咖啡馆与白鸦旅团成员交流,了解到虹翼成员信息,包括12号机魂菩萨和10号哥特人偶。团员们讨论黑蛹引起的新闻事件,蓝多多提到团长对黑蛹感兴趣想拉他入团。黑客为夏平昼提供了驱魔人协会内部系统作为团长的礼物,可实时追踪恶魔位置和驱魔人动向,这对姬明欢提升天驱等级和规避风险极为有利。</p>
+<h2>第102章 镜面世界,双重拍卖</h2>
+<p>拍卖会保镖队在别墅开会,镜守展示其天驱能力——可复制任何场地创建镜面世界。日方提出用镜面世界举办真正拍卖会,现实世界则作为诱饵对付白鸦旅团。柯祁芮提出必须在镜面世界也安排保镖以防万一。蓝弧质疑镜守死后镜面世界的稳定性。黑蛹全程监控但无法进入镜子,最终从蓝弧处了解到双重拍卖会的计划细节。</p>
+<h2>第103章 顾文裕:哥,妹妹说她是驱魔人</h2>
+<p>顾文裕在寿司店与顾绮野、顾卓案聚餐时,随口提起苏子麦自称是驱魔人的事。这番话让鬼钟和蓝弧父子二人同时震惊失色。顾绮野立即联想到柯祁芮可能就是带走妹妹的人,并通过黑蛹的暗示确认了柯子南就是苏子麦。父子二人各怀心事陷入沉默,顾卓案试图与儿子沟通但遭冷遇,整个聚餐气氛压抑紧张。</p>
+<h2>第104章 父子双打,月夜,纸龙</h2>
+<p>顾绮野通过柯祁芮的联系方式与苏子麦通话确认她的安全。顾文裕关心疲惫的哥哥让其好好休息,这让常年独自承担家庭重担的顾绮野颇为触动。夜晚,绫濑折纸用纸龙载着夏平昼前往神社清除修罗恶魔和夜叉恶魔。大小姐轻松秒杀两头B级恶魔,夏平昼的棋种全面进化为白银体,天驱进阶进度达到80%。两人在月夜下的交流显露出微妙的情感联系。</p>
+<h2>第105章 棋种全面进化,世界顶点的风</h2>
+<p>夏平昼学习"棋种进化"技能,所有棋子升级为华贵的白银体。他询问绫濑折纸是否因为想气血裔才照顾自己,大小姐回答只是觉得"好玩"。两人讨论彼此关系时,绫濑折纸首次透露自己从小到大的孤独——作为黑道继承人被所有人迎合和害怕,从未有人真正与她交流。夏平昼成为第一个和她正常聊天的人,两人在阁楼屋顶共度夜晚,关系进一步拉近。</p>
+<h2>第106章 来电、过往、外出许可</h2>
+<p>顾文裕收到顾绮野关于柯祁芮联系方式的请求,大哥想确认妹妹与这个女人的关系。顾绮野与柯祁芮通话但被告知在香港,这个谎言让他起疑。导师突然来访监禁室,告知姬明欢本体可以离开基地执行任务,并将介绍另一个神话级奇闻持有者"孙长空"——拥有齐天大圣孙悟空的奇闻碎片。姬明欢怀疑救世会可能要带他参加东京拍卖会,同时担心这是试探黑蛹与他关系的陷阱。</p>
+<h2>第107章 Fly to the moon</h2>
+<p>姬明欢在监禁室中与孔佑灵重逢。孔佑灵用手指在他掌心写字,表达失去超能力后无法听见他声音的遗憾,这让姬明欢深受触动。他为孔佑灵学会了手语交流。菲里奥到来时撞见姬明欢眼眶泛红,威胁要"毁灭世界"来掩饰情绪。两个孩子在监禁室中用本子写下"黑化小学生"的玩笑,约定要一起"侵占月球,Fly to the moon",在绝望的环境中保持着微弱的希望之光。</p>
+<h2>第108章 黑蛹:李清平先生,你也不想你的好朋友……</h2>
+<p>顾文裕在海边与心事重重的李清平见面,好友询问遇到讨厌但不得不做的事该怎么办。姬明欢建议做自己认为对的事。李清平透露想救一个患白化病的善良孩子,暗指三王子。分别后黑蛹现身拦截李清平,提出帮助保护二王子。李清平用八度棱镜困住黑蛹但化身被破坏。随后顾文裕恰好出现目睹这一幕,李清平差点暴露身份,幸好黑蛹未死才化解尴尬。</p>
+<h2>第109章 天才,过往,挚友</h2>
+<p>李清平的过往被揭露:他是鲸中箱庭的天才奇闻使,14岁获得世代级奇闻"红龙威尔士"成为王庭队副队长,但厌倦荣耀逃回人类世界。顾文裕是他在人类世界交到的第一个也是最珍视的朋友,因为顾文裕从不谄媚他、能看穿他的伪装。目睹黑蛹"杀人"后李清平惊恐会失去这份友谊,但发现黑蛹未死才松了口气。两人装作被吓到一起逃跑,李清平与顾文裕的友情经受住了考验。</p>
+<h2>第110章 未来,革命,名单</h2>
+<p>顾文裕追问李清平刚才的遭遇,李清平承认遇到黑蛹但回避细节。他透露暑假后要转学去很远的地方,暗示要做一件可能付出巨大代价但认为正确的事——救三王子。姬明欢意识到好友可能要发动革命对抗王室。李清平表白顾文裕是最好的朋友。另一边,顾卓案从雨宫千寻处索要白鸦旅团成员名单,决定参与拍卖会行动,目的是保护作为蓝弧的儿子顾绮野。父子将在同一战场但各怀心事。</p>
+<h2>第111章 开膛手,死亡时限,反目成仇</h2>
+<p>夏平昼的主线任务出现死亡时限:必须在9月1日前杀死开膛手杰克,否则二号机体将自动销毁。夏平昼在咖啡馆观察旅团成员打牌,发现绫濑折纸与开膛手关系最好,意识到杀死开膛手后大小姐不会站在他这边,只能依靠白贪狼逃离。开膛手透露她的天驱通过杀人进化,不需要契约恶魔,走纯物理路线。姬明欢分析后认为一个月后可以依靠天驱机制限制开膛手的能力将其击杀。</p>
+<h2>第112章 愿望,冲突,约定</h2>
+<p>顾绮野在居酒屋蹲守,目睹柯祁芮和苏子麦一起出现。他跟踪两人到烤肉店当面质问,柯祁芮承认带苏子麦来日本但撒谎说在香港。兄妹发生激烈争吵,苏子麦表达不想成为哥哥的负担、希望他为自己而活的心声,拒绝回家并要求哥哥别再操心她。顾绮野被妹妹的话深深触动,最终请求柯祁芮务必保护好妹妹。他发短信给黑蛹,要求拍卖会上第一时间保护苏子麦安全,黑蛹承诺会确保她平安度过。</p>
+<h2>第113章 夏平昼的二阶天驱,新的棋种</h2>
+<p>夏平昼在商场猎杀三头C级火焰恶魔,织田泷影协助但物理攻击无效。夏平昼让白银士兵用灭火器浇灭火焰恶魔,皇后石像最后补刀。击杀恶魔后天驱"国际象棋"成功进化至二阶,解锁新棋种——"主教"石像,能释放AOE范围伤害的"神圣新星"和单体高伤的"神圣惩戒"。主教拥有黄金色躯体和华丽法杖,可远程施法。二阶天驱还解锁了"虚无化"状态,使棋种短时间内免疫一切伤害,大幅提升了夏平昼的战斗力。</p>
+<h2>第114章 卡牌任务,三阶开膛手,蓝弧的抉择</h2>
+<p>夏平昼触发新的卡牌事件击杀恶魔后获得"死神的镰刀"卡牌。系统提示开膛手杰克已晋升为三阶驱魔人——天灾级,实力大幅提升。夏平昼意识到要完成击杀开膛手的主线任务难度骤增。黑蛹联系蓝弧告知团长身份线索,蓝弧推测出灰原律就是团长。拍卖会即将开始,各方势力齐聚,暗流涌动。顾绮野作为蓝弧陷入两难境地——既要执行任务又要保护妹妹,压力巨大。</p>
+<h2>第115章 暴雨,东京,腥风血雨拍卖会(一)</h2>
+<p>7月20日夜晚,东京暴雨倾盆,拍卖会即将开始。黑蛹的拘束带化身混入镜面拍卖场,发现李清平和二王子入场。拍卖会场分为镜面世界和现实世界两处,分别部署不同的防御力量。黑蛹试图调查神秘客人身份,怀疑中山装青年就是柯祁芮所说"能杀穿半只旅团"的强者。用拘束带测试时被对方身上的金光弹开,确认此人实力非凡。各方势力就位,山雨欲来风满楼。</p>
+<h2>第116章 暴雨,东京,腥风血雨拍卖会(二)</h2>
+<p>拍卖会正式开始前最后时刻,黑蛹的化身在镜面拍卖场观察。中山装青年(周九鸦)因雨天嗜睡症一直在座位上打盹。拍卖会开始后,伪装成主持人的罗伯特突然暴起杀人并戴上机械盒子脑袋,暴露7号团员身份。团长灰原律(真名漆原理)现身,用乌鸦能力困住蓝弧,揭露他在检查环节给每位客人口袋里放了扑克牌。扑克牌同时爆炸,上百名黑道客人瞬间被炸死,只有李清平、二王子和周九鸦幸存。罗伯特打开传送门,白鸦旅团成员准备入场。</p>
+<h2>第117章 暴雨,东京,腥风血雨拍卖会(三)</h2>
+<p>白鸦旅团十名成员通过罗伯特的传送门进入镜面拍卖场。安伦斯用硬币决定分工,夏平昼、绫濑折纸、血裔、蓝多多四人被分配去现实拍卖场清理杂兵,其他人留下对付蓝弧等强者。织田泷影负责清理走廊。柯祁芮判断出团长身份并带队准备应战,她透露镜面世界有湖猎成员周九鸦坐镇,但周九鸦因雨天嗜睡症发作一直在睡觉。现实拍卖场的战斗一触即发。</p>
+<h2>第118章 暴雨,东京,腥风血雨拍卖会(四)</h2>
+<p>夏平昼等四人进入现实拍卖场,绫濑折纸的纸蝴蝶轻松屠杀50名持枪保镖和大部分异能保镖。血裔用血剑瞬间腰斩幸存的二十多名保镖和三名龙级精锐,展现压倒性实力。樱武和冬山信长不顾柯祁芮劝阻冲向旅团,分别被绫濑折纸的纸龙和血裔的血枪秒杀。百名保镖在十秒内全灭,只剩柯祁芮的幽灵火车团四人。柯祁芮用电影恶魔将血裔和绫濑折纸拉入默剧世界单独对战,留下夏平昼和蓝多多对付许三烟、林正拳和苏子麦。</p>
+<h2>第119章 暴雨,东京,腥风血雨拍卖会(五)</h2>
+<p>电影世界中,柯祁芮召唤火车恶魔对战血裔和绫濑折纸。火车恶魔撞碎纸龙,展现强大实力,车身在多面电影幕布间形成莫比乌斯环。现实拍卖场内,蓝多多召唤深山雪人和无头骑士对抗许三烟和林正拳。林正拳变身机械巨人,许三烟用伞枪射击。夏平昼派皇后石像直冲苏子麦,两个"兄妹"终于要正面对决。苏子麦唤出魔术师天驱,穿上魔术师装扮准备应战,气氛剑拔弩张。</p>
+<h2>第120章 暴雨,东京,腥风血雨拍卖会(六)</h2>
+<p>黑蛹的本体在暴雨中穿梭于东京上空,用拘束带在高楼间荡秋千般移动,赶往拍卖会现场。他判断镜面世界那边只能靠蓝弧、李清平和可能醒来的周九鸦自救。现实拍卖场内战斗全面爆发:林正拳的机械巨人与深山雪人和无头骑士激战,许三烟用伞枪压制。夏平昼唤出全部棋种包括新获得的主教石像,皇后石像以惊人速度冲向苏子麦。苏子麦以魔术师姿态迎战,面对白鸦旅团成员的夏平昼,她冷静地说出"那就来",准备殊死一搏。</p>
+<h2>第121章 暴雨,东京,腥风血雨拍卖会(六)</h2>
+<p>夏平昼利用棋手天驱对战苏子麦。夏平昼召唤皇后、国王、炮车等棋子石像,苏子麦使用魔术手套中的火焰、稻草人恶魔、冰箱恶魔等能力反击,但始终无法突破国王的黑白屏障防御。在苏子麦即将被皇后石像杀死的危急时刻,黑蛹突然出现,用拘束带制住皇后石像,救走了苏子麦。</p>
+<h2>第122章 暴雨,东京,腥风血雨拍卖会(七)</h2>
+<p>黑蛹把苏子麦救到安全地带后,在书店暂时安顿下来。与此同时,柯祁芮在电影世界中与血裔和绫濑折纸对战,利用火车恶魔周旋。在现实拍卖场,夏平昼等人对付火车团的其他成员。许三烟和林正拳见势不妙选择撤离。柯祁芮得知苏子麦已被救走后,也从电影世界撤出。</p>
+<h2>第123章 暴雨,东京,腥风血雨拍卖会(八)</h2>
+<p>镜面世界拍卖场内,漆原理带领白鸦旅团与蓝弧、李清平对战。李清平召唤红龙威尔士对抗白贪狼,蓝弧则被开膛手、安伦斯、安德鲁三人围攻受重伤。周九鸦在战斗中沉睡,漆原理试图接近他但被无字舟的金光阻挡。李清平与白贪狼的战斗愈发激烈,最终李清平召唤世代级奇闻红龙威尔士与天昼之狼形态的白贪狼展开惊天对决。</p>
+<h2>第124章 暴雨,东京,腥风血雨拍卖会(九)</h2>
+<p>蓝弧在三名团员的围攻下身受重伤,试图突围逃离镜面世界。他突破重围冲到现实拍卖场,却被夏平昼、蓝多多、绫濑折纸、血裔四人拦截。身负重伤的蓝弧绝望之际,鬼钟突然出现,用时间暂停能力救下蓝弧。鬼钟的钟楼每10秒可暂停1秒时间,展现出准天灾级的恐怖实力,瞬间重创开膛手和安伦斯。</p>
+<h2>第125章 暴雨,东京,腥风血雨拍卖会(十)</h2>
+<p>鬼钟与白鸦旅团展开激战,他的影子和本体配合默契,多次击退旅团成员的攻击。漆原理发现鬼钟的弱点是身后的钟楼和蓝弧,于是让织田泷影潜行至蓝弧身边,用太刀架在蓝弧脖子上作为人质。就在僵持之际,黑蛹突然出现,挟持了7号团员罗伯特,提出用罗伯特交换蓝弧。经过一番交涉,黑蛹成功带着鬼钟和蓝弧逃离拍卖场。</p>
+<h2>第126章 暴雨,东京,腥风血雨拍卖会(十一)</h2>
+<p>黑蛹、鬼钟和蓝弧三人成功逃离。镜面世界内,周九鸦终于醒来,李清平的红龙与白贪狼激战正酣。周九鸦展现天灾级实力,一出手就秒杀蓝多多,随后要求漆原理交出织田泷影。绫濑折纸试图保护泷影却被夏平昼打晕。织田泷影最终从容赴死,被周九鸦的青铜巨柱碾碎。漆原理在扑克牌上留言,向湖猎四人宣战复仇。</p>
+<h2>第127章 暴雨,东京,腥风血雨拍卖会(完)</h2>
+<p>周九鸦用九龙巨鼎镇压白贪狼,随后与李清平交涉,要走了两件古董——月隐千鸟镜和风神雷鼓。白鸦旅团损失惨重,织田泷影和蓝多多阵亡。旅团成员通过罗伯特的门离开。周九鸦对漆原理说日后欢迎复仇,并透露自己在湖猎排第三。黑蛹将蓝弧交给驱魔人协会治疗,最后向鬼钟提出合作,要求帮助他和蓝弧向世界复仇。</p>
+<h2>第128章 奖励,提升,分裂</h2>
+<p>拍卖会事件结束,姬明欢清点收获,完成了三个主线任务,获得3个分裂点、3个技能点、3个属性点。他为黑蛹加点并学习新技能拘束带刃片、拘束带狂流、容量提升。夏平昼也获得奖励,学习骑兵训练、傀儡之王、恶魔猎手等技能。姬明欢分配完点数后,决定创建第三具游戏机体,分裂点总数达到11个,满足创建条件。</p>
+<h2>第129章 尾声,启程,约定</h2>
+<p>7月21日清晨,夏平昼和绫濑折纸在织田泷影的咖啡馆醒来。绫濑折纸看着织田泷影的遗物眼镜盒陷入沉思。夏平昼提醒她日本黑道正在搜查他们,需要尽快离开东京。两人决定乘坐黑客准备的人蛇船前往威尼斯。临别前,绫濑折纸叮嘱夏平昼"不要死"。同时,顾家三人乘飞机离开日本回国,姬明欢在飞机上开始创建第三具游戏机体。</p>
+<h2>第130章 ③号游戏角色创建</h2>
+<p>姬明欢进入角色创建空间,骰子竞猜失败但生成了两个稀有角色。第一个是黑死教教徒,第二个是永渊之鲨亚古巴鲁。姬明欢选择了亚古巴鲁,它是一头伪装成诺贝鲨的永渊之鲨,潜入鲸中箱庭成为三王子西泽尔的宠物。主线任务是吞噬传说之鲸奇卡纳欧并摧毁鲸中箱庭,或成为箱庭守护者。姬明欢选择"捕鲸人"路线,决定吞掉传说之鲸,角色创建完成。</p>
+<h2>第131章 李清平,我不做人了!</h2>
+<p>姬明欢意识同步至三号机体亚古巴鲁,发现自己变成了一条巴掌大小的蓝色鲨鱼,被关在水晶球里。三王子西泽尔发现鲨鱼会说话后十分惊喜,两人约定保守秘密。鲨鱼要求西泽尔偷奇闻碎片喂给它吃以变强。李清平回到鲸中箱庭看望西泽尔,鲨鱼用中文骂李清平"大傻逼",把西泽尔教坏了。鲨鱼了解到西泽尔9岁时就绑定了世代级奇闻圣诞雪橇,天赋异禀。</p>
+<h2>第132章 亚古巴鲁,奇闻饕餮</h2>
+<p>鲨鱼完成主线任务2第一阶段,获得奖励。夜晚,一名刺客用移动阶梯潜入西泽尔的城堡,召唤狼人奇闻想要刺杀三王子。鲨鱼悄悄变大至三米,一口吞掉狼人,用背鳍将刺客切成两半。吞噬狼人奇闻碎片后,鲨鱼的真实体型增长2米。西泽尔醒来后,鲨鱼告诉他有人要杀他,但西泽尔不相信。鲨鱼了解到国王患上黑死病,只有圣杯碎片能救他,还得知白王权杖能缴械神话级以下奇闻的力量。</p>
+<h2>第133章 圣诞雪橇,怪物天赋,天外援军</h2>
+<p>西泽尔召唤圣诞雪橇载着李清平在鲸中箱庭飞行。鲨鱼用中文骂李清平,李清平察觉异常。鲨鱼从西泽尔口中得知,西泽尔9岁时就能与世代级奇闻共鸣,天赋远超常人,这也是大王子和二王子要杀他的原因。鲨鱼提醒西泽尔要活着才能看到外面的世界。姬明欢意识到如果要吞掉传说之鲸,需要更多助力,于是想到引白鸦旅团进入鲸中箱庭,用王族宝库的宝物作为交易筹码。</p>
+<h2>第134章 白王,吞噬,黑死病</h2>
+<p>姬明欢思考如何对抗整个鲸中箱庭的力量,决定通过黑蛹联系漆原理,引白鸦旅团进入箱庭协助作战。西泽尔向鲨鱼透露父王生病是因为贝尔纳多的黑死病,只有圣杯能治愈。国王拥有的白王权杖能缴械神话级以下所有奇闻碎片的力量,是鲸中箱庭的最强武器。鲨鱼询问西泽尔为何没有修炼,得知西泽尔身体虚弱,被保护在城堡中,连管家都可能被大王子收买。</p>
+<h2>第135章 苏子麦:看好了,这就是驱魔人</h2>
+<p>7月21日晚,顾家三人回到黎京。姬明欢发现苏子麦已经到家,顾绮野决定暂时不追究。苏子麦向顾文裕坦白驱魔人的身份,召唤天驱魔术手套,带他乘坐巨鸽飞到大厦天台。姬明欢故意从天台摔下,苏子麦紧张地用魔术衣柜救他,被吓得眼泪都快掉下来。兄妹俩和解后,苏子麦想起要去见柯祁芮和湖猎的人,于是带着顾文裕一起前往湘菜馆。</p>
+<h2>第136章 苏子麦:牢哥你不要死啊牢哥</h2>
+<p>苏子麦向顾文裕解释驱魔人的存在和保密的原因,透露自己成为驱魔人是为了找到虹翼的人,查清母亲死因,让家人和解。两人乘巨鸽飞行时,顾文裕故意从百米高空坠落,苏子麦惊慌失措地用魔术衣柜救他,被吓得几乎崩溃,痛骂他不该逞强。两人和解后前往湘菜馆,苏子麦迟到了,柯祁芮邀请顾文裕一起参加饭局。姬明欢得知湖猎准备对年兽动手,还听到虹翼成员"漆原琉璃"的名字,怀疑她与救世会和漆原理有关。</p>
+<h2>第137章 湖猎,诸葛晦,漆原琉璃</h2>
+<p>姬明欢在湘菜馆见到湖猎成员周九鸦和诸葛晦。诸葛晦透露湖猎计划对退隐山林的中国恶魔头领年兽动手。席间谈及虹翼成员漆原琉璃,姬明欢回想起在救世会听到这个名字,怀疑她是救世会成员,并可能与漆原理有关系。饭局后,夏平昼和绫濑折纸在人蛇船上前往威尼斯,将与新的5号团员会合。姬明欢的本体在监禁室接到导师通知,要执行逮捕发狂驱魔人"红路灯"的任务。</p>
+<h2>第138章 年兽,战争,红路灯</h2>
+<p>导师告诉姬明欢,救世会要派限制级异能者去逮捕发狂的驱魔人红路灯。红路灯以救世会名义屠戮驱魔人,在作案现场留下救世会标记和拉丁文。姬明欢意识到红路灯正是夏平昼主线任务要找的人,决定抢在救世会之前找到红路灯,设下埋伏救出本体和孔佑灵。诸葛晦透露湖猎即将对恶魔头领年兽动手,而白贪狼曾是年兽的手下。导师说红路灯行动是对限制级孩子们的稳定性测试。</p>
+<h2>第139章 阴谋,孙长空,齐天大圣</h2>
+<p>姬明欢开始怀疑救世会故意引导菲里奥和孙长空做出极端行为,通过心理操控让他们产生自我厌恶,从而自愿被囚禁。孙长空来见姬明欢,她是神话级奇闻齐天大圣孙悟空的持有者,曾因碎片失控杀死养父母和全村人。导师教她将奇闻力量分层封印,目前只能使用第一层的筋斗云能力。孙长空没有被打抑制剂,主动配合救世会限制力量。两人成为朋友,孙长空答应在外出任务时罩着姬明欢。</p>
+<h2>第140章 Somersault Cloud</h2>
+<p>孙长空召唤筋斗云,带姬明欢在监禁室里飞行。姬明欢趁机扇了企鹅广播设备一巴掌。孙长空透露她曾是被村里人嫌弃的野孩子,后被好心人收养,却因奇闻碎片失控害死养父母。姬明欢安慰她说神话碎片失控很正常,并开玩笑说自己会毁灭世界所以大家都会死,逗笑了孙长空。两人交流了生日,孙长空刚满12岁。最后孙长空依依不舍地离开,姬明欢躺在床上思考明天二号机体到达威尼斯的计划,以及如何从开膛手那里要回心脏。</p>
+<hr>
+<h2>第141章 夏平昼的心脏,聚餐,王庭队</h2>
+<p>夏平昼和绫濑折纸乘人蛇船抵达港口,在飞往威尼斯的头等舱中遇到开膛手杰克。开膛手归还了夏平昼的心脏。与此同时,三号机体亚古巴鲁在鲸中箱庭陪伴三王子西泽尔参加王族聚餐,但西泽尔被两位哥哥冷落,最终伤心离场。亚古巴鲁通过西泽尔了解到王庭队七人的基本情报,包括队长露丝、路易斯、九鬼溯夜等人及其世代级奇闻能力。</p>
+<h2>第142章 王庭队的七人,世代级奇闻汇总</h2>
+<p>西泽尔向亚古巴鲁详细介绍王庭队成员的世代级奇闻:露丝拥有"泰坦尼克号"和"尼斯湖水怪",路易斯掌控"巴比伦通天塔",九鬼溯夜使用"百鬼夜行",狄热杰的"通古斯大爆炸",柯奥洁娜的"百慕大三角",莱恩的"石中剑",以及李清平。亚古巴鲁意识到这七人代表着鲸中箱庭的当代最强战力,要吞噬传说之鲸必须逾越他们。同时大王子和二王子正在密谋对付西泽尔。</p>
+<h2>第143章 威尼斯,约会,旅团的新人</h2>
+<p>夏平昼、绫濑折纸和开膛手抵达威尼斯。夏平昼陪绫濑折纸购物试衣,两人如约会般在水城游览。晚上在西餐馆遇到血裔、白贪狼和安德鲁。开膛手带来新5号成员贝尔纳多·爱德华,他是"黑死病"奇闻碎片持有者。旅团成员讨论团长在黎京寻找另一个新团员的事,夏平昼猜测可能是黑蛹,但其他人表示不可能。</p>
+<h2>第144章 吞银VS鬼钟,会赢吗?</h2>
+<p>夏平昼得知旅团的新4号成员名为"苏颖",让他震惊这正是一号机体老妈的名字。当晚黎京时间,吞银追捕鬼钟却被黑蛹拦下。黑蛹使用从蓝弧那里窃取的异能轻松制服了异能进化后的吞银,让吞银做起广播体操羞辱他。黑蛹趁机窃取了吞银的异能储存起来。这场战斗展示了一号机体已接近龙级顶峰实力。</p>
+<h2>第145章 黑蛹VS吞银,故乡的樱花开了</h2>
+<p>黑蛹用蓝弧的电流异能压制住吞银,让他跪地求饶。吞银误以为黑蛹杀了蓝弧,十分震惊。实际上黑蛹是在拍卖会上窃取了蓝弧的异能,储存时限快到了才急着使用。战斗结束后黑蛹又窃取了吞银的异能。吞银被迫做广播体操,场面十分滑稽。黑蛹趁机提出要留联系方式,但被吞银拒绝。战后黑蛹向鬼钟提供虹翼成员的线索作为交换。</p>
+<h2>第146章 线索,鸟羽,机会</h2>
+<p>黑蛹向鬼钟透露两名虹翼成员的代号信息,作为交换要求鬼钟帮忙寻找红路灯。黑蛹询问鬼钟是否知道救世会,鬼钟表示不知。姬明欢查看世界观开发进度,获得2个分裂点奖励,目前共有5个分裂点,距离创建4号机体还需11个。在鲸中箱庭,西泽尔给亚古巴鲁喂食奇闻碎片帮助其成长。李清平送给西泽尔一根不死鸟羽毛作为护身之物,管家伊喀尔深夜来访确认立场。</p>
+<h2>第147章 死亡,新人,团长的动向</h2>
+<p>管家伊喀尔确认亚古巴鲁站在三王子这边后请求保护西泽尔,并承诺帮忙收集奇闻碎片。第二天早上亚古巴鲁吃掉管家偷来的20张奇闻碎片,体型增长19米。随后传来消息:伊喀尔在王族奇闻仓库行窃后自首,被二王子当场处死。西泽尔悲痛欲绝,亚古巴鲁解释管家是用死来警示他两个哥哥的危险。威尼斯时间晚上,旅团成员聚会,开膛手带来新5号贝尔纳多,众人还得知团长在黎京寻找新4号"苏颖"。</p>
+<h2>第148章 入团,苏颖,4号</h2>
+<p>旅团成员讨论团长是否会让黑蛹入团,绫濑折纸表示如果黑蛹入团她就退团。贝尔纳多透露想通过黑客向团长传达重要信息。开膛手为贝尔纳多完成入团仪式,在其身上刻下乌鸦纹身。镜头切换到黎京,漆原理(团长)在废弃学校天台见到新4号"苏颖",她自称也叫"虚面鬼"。这让姬明欢震惊,因为苏颖正是一号机体顾文裕已故母亲的名字,这个新团员的身份成谜。</p>
+<h2>第149章 顾文裕的母亲,恶人们,妹妹的问题</h2>
+<p>苏子麦告诉顾文裕几天后要执行重要任务去复仇。顾文裕推测老妈可能是驱魔人,但苏子麦表示柯祁芮调查过家庭背景,老妈不是驱魔人。顾文裕罕见地对妹妹发火,担心她的安危,质问她为何不征求自己的意见。苏子麦坚持要去完成任务以变强查清母亲的事。顾文裕生气关上房门。镜头切换到救世会,导师告知姬明欢三天后要去伦敦执行任务抓捕红路灯,还会有第五个孩子"马里奥"参与,他拥有SSS级游戏机天驱。</p>
+<h2>第150章 疑问,安排,逃亡计划</h2>
+<p>导师介绍第五个孩子马里奥是驱魔人天才,天驱能将人拉入游戏场景并操控场景要素。他们的目标红路灯的天驱是路灯,战斗方式是用路灯砸人。姬明欢意识到这可能是救世会的陷阱,目的是测试他的异能是否觉醒,而他的真正目标应该是抢走红路灯而非救出本体。在鲸中箱庭,王后卡莉莲娜告诉西泽尔,国王安排他8月1日离开箱庭去外界历练寻找圣杯,李清平会陪同。第二天还有王庭队表演赛可观看。</p>
+<h2>第151章 权能,恶魔棋种,黑蛹的猎物</h2>
+<p>7月23日,威尼斯。夏平昼独自外出寻找恶魔,遇到两头蓝电鼠恶魔。他首次使用骑兵棋种的"冲锋"权能,成功聚怪并配合炮车消灭敌人。战斗中他发现能进入类似时间暂停的超速思考模式。击杀恶魔后获得一枚蓝电鼠恶魔的一次性棋种。当晚黑蛹在黎京鸿月商业街埋伏,等待团长派来的新4号苏颖出现,准备用拘束带真言探明她的身份,确认她是否真是顾文裕的母亲。</p>
+<h2>第152章 黑蛹:妈妈请再打我一次</h2>
+<p>黑蛹在银行遇到制服匪徒的苏颖,她的天驱是能变脸和瞬移的猫脸面具。黑蛹用拘束带化身变成苏子麦的样子试探,苏颖透露她其实是在寻找真正的苏颖,她叫童子竹(代号小野猫),是苏颖以前收留的流浪儿。系统确认她不是冒牌货。黑蛹告诉她苏颖已死,但童子竹不信。两人交手时团长漆原理突然出现,黑蛹约定7月25日在黎京第三中学见面谈重要情报。黑蛹的拘束带化身被漆原理斩首后化为蒸汽消失。</p>
+<h2>第153章 黑蛹:妈,我分不清,我真的分不清啊</h2>
+<p>黑蛹确认童子竹不是一号机体的老妈后松了口气。童子竹不相信苏颖会轻易死去,因为她以前是三阶驱魔人。黑蛹突然对童子竹发动袭击想抓住她审问,但童子竹的瞬移能力让她躲过攻击。警察赶到现场,漆原理现身用扑克牌架在黑蛹化身脖子上。黑蛹重申7月25日见面约定后让化身被斩首,化为蒸汽逃走。姬明欢意识到必须在8月1日前让团长带旅团进入鲸中箱庭协助李清平和西泽尔。</p>
+<h2>第154章 苏子麦的复仇计划</h2>
+<p>黑蛹本体回家后得知柯祁芮找到红路灯在伦敦的线索。苏子麦来找顾文裕,说要去执行任务向让她出糗的人复仇,顾文裕推测她要对付的是夏平昼。姬明欢意识到救世会也会带孩子们去伦敦,这是个危险的节点,但救世会应该不会对驱魔人直接动手。顾文裕罕见地对苏子麦发火,质问她为何不征求自己的意见,担心她的安危。苏子麦坚持要去以变强查清母亲的事。救世会导师告知姬明欢三天后去伦敦执行任务。</p>
+<h2>第155章 救世会的陷阱,第五个孩子</h2>
+<p>导师告诉姬明欢三天后去伦敦抓捕红路灯,并介绍第五个参与者马里奥,他是SSS级天驱持有者,能将人拉入游戏场景。姬明欢意识到这很可能是救世会的陷阱,目的是测试他的异能是否觉醒并消灭他创造的事物。他明白真正目标应该是抢走红路灯获取情报,而非救出本体,否则会中圈套。孔佑灵、孙长空、菲里奥来到姬明欢房间看电影,四个孩子逐渐熟悉起来。</p>
+<h2>第156章 feral child</h2>
+<p>孙长空进入姬明欢房间,看到他和孔佑灵亲密地看电视聊天,突然意识到自己只是朋友之一,感到失落。她回想起作为野孩子被排斥的过往,担心被讨厌。但姬明欢叫她一起看电影,她装作神气的样子坐下。孔佑灵画了三人的动物形象(猴子、狐狸、小狗)。菲里奥也加入进来,四个孩子看完电影后讨论即将去伦敦执行任务。姬明欢叮嘱大家战场瞬息万变要小心,同时强调导师会派人保护他们。孔佑灵担心会出事,姬明欢承诺如果他们让她出事就把救世会的人全宰了。</p>
+<h2>第157章 白贪狼,和我签订契约吧!</h2>
+<p>夏平昼在威尼斯酒馆包厢与旅团成员聚会,开玩笑提议让白贪狼成为他的第二头契约恶魔,引发哄堂大笑。贝尔纳多讲述自己因不肯向王族下跪被驱逐出鲸中箱庭,得到黑死病碎片后想报复。夏平昼和血裔一起外出猎杀恶魔,途中谈到1001的话题。血裔透露1001和她一样不老不死,但导师曾说1001已死,两种说法矛盾。他们来到里亚尔托桥遇到两头复制恶魔,这种稀有恶魔能复制外貌和部分能力。</p>
+<h2>第158章 1001,限制级的线索</h2>
+<p>血裔轻松击杀变成她的复制恶魔,夏平昼与另一头复制恶魔战斗。复制体能使用夏平昼的国王棋种能力,但被血裔击败。夏平昼用天驱的契约态(钥匙形状)与复制恶魔签订契约,获得新能力:8秒内复制棋盘上任一棋种。两人继续猎杀恶魔,血裔谈到1001时露出温和表情。夏平昼意识到关于1001的死亡存在矛盾:血裔认为他不老不死还活着,但导师说他已死。这个限制级异能者1001、神秘预言者、姬明欢的父母之间可能存在关联。</p>
+<h2>第159章 夏平昼的第二头契约恶魔</h2>
+<p>夏平昼和血裔成功击杀一头复制恶魔,夏平昼用天驱的契约态与第二头复制恶魔签订契约。复制恶魔的能力是在8秒内复制棋盘上的一枚棋种并获得其权能,虽然数值会降低,但对夏平昼来说已经足够。两人继续猎杀恶魔,累计击杀数达到26个,天驱进阶进度达到30%。因开膛手也在附近大规模猎杀恶魔,他们停止行动。血裔提到她、绫濑折纸、白贪狼都已触碰准天灾级界限,但她因异能副作用修行速度慢。</p>
+<h2>第160章 人偶和人偶,伦敦行</h2>
+<p>凌晨1点半,夏平昼回到酒店。绫濑折纸醒着等他,原本要和血裔去酒馆但绫濑折纸不愿去。两人在窗台聊天,绫濑折纸拿出四年前与管家织田泷影的合照。夏平昼说她给人一种努力把自己抽离出来、不想和他人产生关系的感觉,绫濑折纸解释这是儿时应对父亲无理发火的自我保护机制。两人都像木偶般封闭内心。夏平昼提议去伦敦散心并叫上开膛手。他查看任务面板,完成了寻找红路灯线索的任务,获得奖励。新任务是阻止救世会带走红路灯,他决心保持冷静不中圈套。</p>
+<h2>第161章 成长，赌约,暴戾</h2>
+<p>亚古巴鲁在鲸中箱庭醒来,西泽尔开始怀疑它的身份。伊喀尔被处死后,西泽尔变得内敛沉静。二王子又派刺客来行刺,亚古巴鲁出手将刺客杀死。西泽尔质问为何全世界都要对他这样,亚古巴鲁说出真相:大王子和二王子给国王投毒,母后也参与其中。西泽尔给哥哥们写信表示愿意离开,但亚古巴鲁断言他们不会放过他,两人打赌今晚是否还有刺客。西泽尔说如果哥哥们不放过他,那就"走着瞧"。</p>
+<h2>第162章 表演赛,六大世代级奇闻</h2>
+<p>夏日庆典上,王庭队进行表演赛,展示了李清平的红龙、露丝的泰坦尼克号、九鬼溯夜的百鬼夜行等世代级奇闻。西泽尔突然向母后提出要和二哥柯西莫打一场表演赛。在比赛中,西泽尔用圣诞雪橇的蓄力冲击展现了惊人实力,险些攻破路易斯的巴别塔防御,最终战胜了柯西莫,震惊全场。这场胜利让所有人重新认识了这位体弱的三王子。</p>
+<h2>第163章 世子之争,素来如此</h2>
+<p>西泽尔在表演赛中展现的天赋震惊了所有人。亚古巴鲁认为他是"黑化小学生"族群,潜力无限。比赛后,西泽尔向柯西莫和洛伦佐质问关于伊喀尔和刺杀的事,但两位王子态度冷漠。西泽尔意识到哥哥们并未收到他的信,或者故意装作不知情。他对柯西莫说"我和哥哥们不一样,我是不会对亲人动手的",话语中透露出深深的失望和愤怒。</p>
+<h2>第164章 最后的打赌,最后的仁慈</h2>
+<p>表演赛结束后,西泽尔回到浮空城堡。当夜果然又有刺客来袭,亚古巴鲁出手保护西泽尔。西泽尔逼问刺客幕后主使,得知竟是母后卡莉莲娜下令。这让西泽尔彻底绝望,他意识到连母亲都想杀死他。亚古巴鲁劝说西泽尔和它一起反抗,并提到有"白鸦旅团"的朋友可以帮忙。西泽尔最终答应在八月一日传说之鲸着陆时,与亚古巴鲁合作,"把这个世界烧个干净"。</p>
+<h2>第165章 "西泽尔,我们的火会烧尽整个世界"</h2>
+<p>刺客承认是王后派来的,西泽尔彻底心碎。原来西泽尔可能是私生子,这解释了为何母后也想除掉他。亚古巴鲁告诉西泽尔,国王注定会死,他们已经没有退路。西泽尔问亚古巴鲁为什么整个世界都要这样对他,亚古巴鲁回答:"如果全世界都是你的敌人,那我们就把整个世界都一起烧掉。"亚古巴鲁提到白鸦旅团会在八月一号来帮忙。西泽尔答应与亚古巴鲁合作,一起"把这个世界烧个干净"。</p>
+<h2>第166章 顾绮野:小麦,我就是蓝弧</h2>
+<p>黎京晚上,顾绮野告诉苏子麦和顾文裕,苏子麦要出门办事。顾文裕阴阳怪气,顾绮野则想单独和苏子麦谈话。顾绮野透露自己知道"驱魔人"的事,并展示了电弧异能,告诉苏子麦:"我是蓝弧。"苏子麦感动落泪,兄妹相认。这时黑蛹突然出现在窗台,送来一片纸尿裤,称是为了提醒苏子麦在拍卖会上尿裤子的事。顾绮野误会是苏子麦怀孕,引发一场误会。</p>
+<h2>第167章 家庭坦白日</h2>
+<p>黑蛹解释纸尿裤是因为苏子麦在拍卖会上被吓尿了,不是怀孕。顾绮野和苏子麦兄妹相认后感情升温。黑蛹继续调侃苏子麦,还揭露她在朋友圈说蓝弧坏话。顾文裕在楼上偷听,得知大哥是蓝弧。苏子麦误以为顾绮野是黑蛹,又误以为老爹是黑蛹,被耍得团团转。最后黑蛹离去,兄妹三人出去吃夜宵。回家后姬明欢将意识切换到各个机体,继续推进多线剧情。</p>
+<h2>第168章 苏子麦:一个难忘的夜晚</h2>
+<p>黑蛹详细介绍宝宝巴士牌纸尿裤的功能,让苏子麦又羞又恼。顾绮野误以为苏子麦早孕,黑蛹解释是苏子麦在拍卖会被吓尿了。苏子麦暴怒想用处刑柜攻击黑蛹,但黑蛹及时逃走。顾文裕下楼发现地上的纸尿裤,顾绮野替苏子麦解围说是要送给朋友当礼物。晚上吃完夜宵,姬明欢切换意识到二号和三号机体,关注威尼斯和鲸中箱庭的情况。夏平昼和绫濑折纸在威尼斯准备前往伦敦。</p>
+<h2>第169章 夏平昼:那是能成为我母亲的女性</h2>
+<p>威尼斯,夏平昼和绫濑折纸准备前往伦敦。白鸦旅团的新成员童子竹(四号)加入,她的目的是寻找救命恩人"苏颖"。夏平昼一见面就喊"妈妈",因为黑客说黑蛹这么喊过她,引起误会。开膛手杰克已突破三阶,实力大增。众人讨论明天去伦敦的事。夏平昼心想童子竹是"能成为我母亲的女性",因为她的易容能力曾变成过一号机体的母亲。</p>
+<h2>第170章 真名,忠心,西泽尔的朋友</h2>
+<p>鲸中箱庭,西泽尔请李清平教他修行奇闻之力,希望从D级进阶为C级奇闻使。李清平答应并宣布正式退出王庭队,全心保护西泽尔。亚古巴鲁和李清平初次正式见面,两人互相叫对方"绿茶鲨鱼"和"杂鱼红龙",但李清平还是投喂了亚古巴鲁很多奇闻碎片。西泽尔带着水晶球去见卧病在床的国王,遇到王后。西泽尔对王后说出质疑,王后沉默应对。西泽尔向李清平介绍亚古巴鲁是他的朋友。</p>
+<h2>第171章 绿茶鲨鱼和杂鱼红龙</h2>
+<p>李清平来到西泽尔的寝室,正式与亚古巴鲁见面。亚古巴鲁用中文骂李清平"大傻逼",李清平听出来了。亚古巴鲁质问李清平为何要站在西泽尔这边,明知是必死的结局。李清平表示要保护西泽尔。两人互相取绰号"绿茶鲨鱼"和"杂鱼红龙",但李清平还是慷慨地投喂了亚古巴鲁大量奇闻碎片,亚古巴鲁的体型因此增长。李清平答应教西泽尔修行,帮助他从D级进阶为C级奇闻使。</p>
+<h2>第172章 黑蛹和旅团团长的会面</h2>
+<p>黎京深夜,黑蛹在中学天台与白鸦旅团团长漆原理会面。黑蛹展示画作,讲述永渊之鲨要吞食传说之鲸的计划。他透露鲸中箱庭内部王权之争的情报:三王子西泽尔是私生子,王室联合黑死教主让国王患病,要除掉西泽尔。黑蛹提出合作:旅团帮助西泽尔和亚古巴鲁,作为交换可以掠夺箱庭宝库。黑蛹告知关键情报:八月一日,传说之鲸将在挪威卑尔根着陆。最后黑蛹提到"漆原琉璃还活着",给团长留下悬念。</p>
+<h2>第173章 黑蛹X漆原理,箱庭侵略计划</h2>
+<p>黑蛹向漆原理详细说明箱庭侵略计划。他解释永渊之鲨伪装成诺贝鲨混入箱庭,目的是吞噬奇闻碎片提升实力,最终吞食传说之鲸。黑蛹的合作者是亚古巴鲁和西泽尔,他们的目标与旅团不冲突。黑蛹告知关键情报:八月一日传说之鲸将在挪威卑尔根港口着陆。漆原理同意合作。黑蛹最后留下悬念,说"漆原琉璃还活着",震惊了团长。黑蛹警告不要伤害他的合作者,否则合作中断。</p>
+<h2>第174章 狮子和猫,马里奥</h2>
+<p>救世会,姬明欢见到了新成员马里奥,一个沉迷游戏的金发少年。马里奥的天驱是游戏机,能把人拉进游戏世界。两人互相调侃对方的名字。马里奥说自己在学校被欺负,觉醒天驱后把欺负他的同学拉进枪战游戏全部爆头。他喜欢在救世会,因为可以24小时玩游戏。孙长空、孔佑灵、菲里奥来了,大家一起看电影。姬明欢提出"黑化小学生集结"的口号,但没人支持。</p>
+<h2>第175章 黑化小学生,集结!</h2>
+<p>姬明欢和马里奥、孙长空、菲里奥、孔佑灵一起看电影《蜘蛛侠:纵横宇宙》。姬明欢询问第六个神话级奇闻持有者的情况,得知可能来自希腊神话。姬明欢担心会是宙斯级别的存在。大家讨论明天去伦敦的任务。姬明欢提出"黑化小学生集结"的口号,但只有孔佑灵勉强支持。电影看到一半,导师要求大家休息,为明天的伦敦任务做准备。姬明欢被注射镇静剂,意识转移到其他机体。</p>
+<h2>第176章 另一个神话级奇闻,到达伦敦</h2>
+<p>众人讨论救世会的第六个孩子,可能绑定了希腊神话级奇闻。姬明欢猜测可能是波塞冬、哈迪斯或宙斯。导师让大家休息,为明天伦敦任务做准备。姬明欢被注射强效镇静剂,几乎失去意识。与此同时,夏平昼和绫濑折纸、开膛手杰克乘飞机到达伦敦。飞机降落时,姬明欢的本体被镇静剂影响,差点彻底睡过去。到达伦敦后,夏平昼仍很困倦,在绫濑折纸肩上休息。开膛手威胁要把他切片装袋。</p>
+<h2>第177章 火车站的二人,妹妹的疑问</h2>
+<p>黎京深夜,黑蛹跟踪苏子麦前往废弃火车站,与幽灵火车团会合。柯祁芮的火车恶魔轰隆隆驶来,动静巨大。黑蛹和苏子麦在站台聊天,黑蛹警告这次行动很危险,有天灾级对手。苏子麦问黑蛹,二哥顾文裕是不是异能者,黑蛹明确回答他只是普通人。苏子麦松了口气。黑蛹说顾文裕很爱她,她应该珍惜。黑蛹还说纸尿裤是顾文裕委托送的,气得苏子麦暴怒。火车恶魔到来,众人准备出发。</p>
+<h2>第178章 来自黑蛹的警告,世界第一的载具</h2>
+<p>黑蛹和苏子麦登上火车恶魔,与柯祁芮、许三烟、林正拳会合。林正拳已突破三阶,是准天灾级。黑蛹介绍火车恶魔可穿梭时空隧道,在世界各地高速移动。柯祁芮问黑蛹关于夏平昼的事。黑蛹严肃警告:这次行动会遇到比白鸦旅团更难缠的天灾级对手,如果他叫停就必须撤退。柯祁芮虽有疑虑,但同意了黑蛹的要求。火车恶魔以惊人速度前往伦敦,预计很快到达。</p>
+<h2>第179章 逮捕计划,假死计划</h2>
+<p>火车恶魔上,黑蛹和幽灵火车团讨论如何抓捕红路灯。柯祁芮说红路灯的目标是黑兔帮的二阶驱魔人"燕鬼",他会在7月26日清晨于威斯敏斯特区的地下酒吧交易。计划是找到燕鬼,守株待兔抓住红路灯。黑蛹和苏子麦单独聊天,苏子麦感谢黑蛹救了她和她哥,答应以后不再生气。黑蛹承诺不再拿纸尿裤开玩笑。苏子麦看漫画《再见绘梨》想到母亲。她意识到大哥蓝弧受重伤还去救人质,很心疼他。</p>
+<h2>第180章 夏平昼:我和开膛手谁更重要</h2>
+<p>火车恶魔到达伦敦,黑蛹离开,幽灵火车团去找美食。同时,夏平昼和绫濑折纸在泰晤士河游船上。夏平昼回忆两年前的队长柿一民(红路灯)如何突然发狂杀死队友。他加入旅团就是为了调查真相,现在看来与救世会有关。两人坐上摩天轮,夏平昼问绫濑折纸,以后能否带一个白发女孩(孔佑灵)一起环游世界。绫濑折纸答应。晚上回到酒店,夏平昼问"我和开膛手谁更重要",然后袒露自己是孤儿的身世。绫濑折纸说"你比谁都重要",抱住了他。</p>
+<hr>
+<h2>第181章 可笑的人，背叛，幻梦</h2>
+<p>姬明欢在伦敦行动前夜陷入不安情绪，担心如何面对孔佑灵。绫濑折纸温柔安慰了他。姬明欢心知自己即将背叛白鸦旅团，杀死开膛手以保住二号机体。他意识到与绫濑折纸的关系终将破裂，但无路可选。黑客通过监控调侃姬明欢的失态，反而误打误撞消除了对他的怀疑。夜晚，姬明欢的本体被救世会注射镇静剂，准备运往伦敦执行任务。</p>
+<h2>第182章 救世小队到达伦敦</h2>
+<p>救世小队的孩子们在货船上醒来，发现已抵达伦敦。姬明欢和孔佑灵透过窗户看到久违的阳光，两人激动落泪。孙长空成为队长，决定乘筋斗云直接冲向目标地点。孩子们的手腕上出现神秘的菱形标记，这是救世会为保护他们而留下的。孙长空等不及货船靠岸,驾着筋斗云直接飞往伊甸园地下酒吧，撞见了正在战斗的夏平昼和幽灵火车团。</p>
+<h2>第183章 夏平昼vs红路灯</h2>
+<p>夏平昼在地下酒吧与红路灯激战。红路灯的灯杆能力强大——红光定身、绿光加强冲击、黄光震出冲击波。夏平昼利用国王石像的绝对防御、皇后石像的虚无化、以及各种棋子和恶魔能力与红路灯周旋。战斗中马里奥用巨石摧毁了国王石像，夏平昼用复制恶魔复制皇后躲过一劫。最终夏平昼用魔术师恶魔让红路灯陷入昏睡，成功将其制服。柯祁芮等幽灵火车团成员赶到现场。</p>
+<h2>第184章 救世小队VS幽灵火车团</h2>
+<p>救世小队的孩子们乘筋斗云闯入酒吧，与幽灵火车团对峙。孙长空威风凛凛要求所有人不许动。柯祁芮用电影恶魔将众人带入异空间试图逃离，但马里奥用掌机追踪到电影世界，用"侏罗纪世界"游戏场景覆盖了柯祁芮的电影世界。马里奥将幽灵火车团成员随机分散在丛林、草原等地图上。孙长空和菲里奥分头行动，而马里奥独自对付被困在丛林中的夏平昼和苏子麦。</p>
+<h2>第185章 绫濑折纸X孔佑灵X姬明欢</h2>
+<p>绫濑折纸和开膛手赶到酒吧，发现姬明欢和孔佑灵。开膛手用镰刀架住姬明欢的脖子，小刀抵住孔佑灵的背部。孔佑灵不顾危险挣脱姬明欢的怀抱，张开双臂护在他面前。绫濑折纸注视着姬明欢，觉得他的眼神异常熟悉。此时黑蛹倒吊在天花板上，透过拘束带感官观察着一切，内心极度纠结——既想带走孔佑灵，又担心暴露身份。紧张的对峙中，气氛剑拔弩张。</p>
+<h2>第186章 奇袭，崩坏,摧枯拉朽</h2>
+<p>柯祁芮的电影世界被马里奥的游戏场景强行覆盖。黑白世界崩坏，取而代之的是侏罗纪世界的原始丛林。马里奥只能封锁异空间60秒，要求孙长空和菲里奥在此期间解决战斗。柯祁芮被随机传送到草原上,面对驾着筋斗云的孙长空。孙长空几轮试探后解放了齐天大圣的第二形态——黄发金箍、尖嘴猴腮、身着暗金盔甲,挥舞着擎天巨柱般的金箍棒,展现出问号级别的攻击力,一棍在草原上砸出深不见底的沟壑。</p>
+<h2>第187章 兄妹联手VS马里奥</h2>
+<p>夏平昼和苏子麦被困在原始丛林,面对马里奥召唤的霸王龙和风神翼龙。夏平昼用国王石像的绝对防御抵挡恐龙攻击,但马里奥用"从天而降的巨石"摧毁了国王石像。夏平昼用复制恶魔复制皇后石像,通过虚无化躲过攻击。苏子麦用魔术衣柜和稻草人恶魔将两头恐龙引入丛林深处,为自己和夏平昼争取逃生时间。兄妹二人成功配合逃出丛林,远远看见孙悟空解放力量后的恐怖一幕。</p>
+<h2>第188章 解放,第二形态,通天之柱</h2>
+<p>马里奥为孙长空打开"攻击特效"和"伤害计算"权限。孙长空与柯祁芮激战,柯祁芮用电影幕布和火车恶魔不断躲避和攻击,但都被孙长空轻松化解。孙长空被逼急后解放齐天大圣的第二形态——黄发金箍、尖嘴猴腮、金睛火眼、头顶翎毛、身着暗金盔甲。她将金箍棒变成擎天巨柱砸向地面,掀起毁天灭地的威力,在草原上砸出方圆数百米的深坑。这一击达到问号级别的伤害,震惊了所有人。柯祁芮趁金箍棒变大导致挥动速度变慢,用电影恶魔带走所有人逃离。</p>
+<h2>第189章 三人的选择,酒吧的对峙</h2>
+<p>马里奥结束游戏场景,三个小孩回到酒吧。此时酒吧内只剩姬明欢、孔佑灵、夏平昼、绫濑折纸和开膛手。开膛手仍用镰刀和小刀控制着两个孩子。孙长空等人刚从像素大门出来准备救人,救世会的保护者漆原琉璃启动了孩子们手腕上的菱形标记,在开膛手的镰刀落下前瞬间将五个孩子传送回货船。夏平昼背后有皇后石像割出的巨大伤口,失血过多晕倒。绫濑折纸和开膛手带他去私人医院治疗。黑蛹一直隐藏在天花板观察全程。</p>
+<h2>第190章 保护者,逼近的真相</h2>
+<p>货船船舱内,救世会的保护者漆原琉璃现身。她表示自己善于易容,此刻扮演成日本武士的男性形象,但实际是女性。她透露自己是虹翼成员,奉命保护孩子们的安全。任务失败后,漆原琉璃给孩子们注射镇静剂。另一边,黑蛹在废弃火车站与幽灵火车团会合。柯祁芮用左轮手枪杀死了红路灯。黑蛹用拘束带真言审问红路灯,得知导师曾用精神异能操控红路灯的"本我",让他杀害驱魔人并留下救世会的标记。导师的真实目的成谜。红路灯说出真相后脑死亡。</p>
+<h2>第191章 漆原琉璃,重逢,归来</h2>
+<p>漆原琉璃向孩子们介绍自己,透露她可以易容成任何样子,此时的武士形象是女扮男装。孙长空得知"帅哥"是假的后深受打击。漆原琉璃说任务失败是救世会没预料到阻碍因素过多。她是虹翼成员,从小被救世会收养培养。漆原琉璃给孩子们注射镇静剂。黑蛹在火车站与幽灵火车团会合,柯祁芮杀死红路灯毁尸灭迹。黑蛹用拘束带真言审问得知导师用精神异能操控红路灯,让他杀害驱魔人并留下救世会标记。红路灯泄密后脑死亡,导师的真实目的成谜。</p>
+<h2>第192章 红路灯的真相,救世会的线索</h2>
+<p>黑蛹登上火车恶魔,与柯祁芮单独审问红路灯。通过拘束带真言,红路灯透露:一个戴眼镜、有消毒水气味的男人(导师)进入他的内心,撕裂他的"本我",命令他杀死驱魔人并留下六芒星图案和拉丁文"救世协会"。红路灯无法反抗,在两年内陷入癫狂状态。说出真相后,红路灯脑死亡。柯祁芮开枪杀死红路灯毁尸灭迹。黑蛹意识到导师的目的不明——红路灯发狂是在预言者透露姬明欢存在之前,所以不是针对他的陷阱。导师为何要对外宣扬救世会成谜。</p>
+<h2>第193章 鬼钟的提醒,黎京的新"英雄"</h2>
+<p>黑蛹与柯祁芮分别。黎京异行者协会宣布新成员"幕泷"加入,实力达到准天灾级。鬼钟紧急找黑蛹见面,透露幕泷的真实身份是林一泷,他的父亲两年前在地震中被蓝弧的雷光误杀。林一泷加入异行者是为了接近蓝弧复仇。鬼钟曾组建复仇者队伍时支持幕泷,但现在得知蓝弧是自己儿子后陷入纠结,请求黑蛹调解。黑蛹讽刺鬼钟的双标和自私,但答应尽力而为,实际计划利用幕泷为蓝弧积累功绩,帮助他晋级天灾级并加入虹翼。</p>
+<h2>第194章 鬼钟和幕泷,复仇者们</h2>
+<p>黑蛹在黎京广场倒吊作画,为粉丝举办"吞银鼠鼠画展",画了《吞银鼠鼠暴啃蓝弧电池》讽刺官方英雄。幕泷和吞银赶来抓捕,幕泷用领域型异能"深不见底的黑幕"剥夺黑蛹的五感并刺穿他肩膀。黑蛹对幕泷说了解他的过去和复仇目的,暗示可以帮助他。拘束带化身崩分离析逃离,留下讽刺画作。顾文裕给蓝弧发信息警告小心幕泷。蓝弧问顾文裕是否也不是普通人,顾文裕实话实说但不被相信。顾文裕计划利用幕泷的复仇为蓝弧积累功绩。</p>
+<h2>第195章 黑蛹的公开画展,幕泷首杀</h2>
+<p>黑蛹的拘束带化身死亡,进入12小时冷却。顾文裕给蓝弧发信息提醒小心幕泷。柯祁芮告知林正拳遇袭濒死,被挖掉一只眼睛,疑似救世会所为。顾文裕认为这是救世会杀鸡儆猴,警告幽灵火车团不要干涉。他考虑转移幕泷的仇恨让他先对付救世会,但认为已经太晚。顾文裕决定找幕泷谈判,利用这次复仇让蓝弧的职业生涯增添功绩,以便晋级天灾级后被虹翼选中。通过蓝弧,姬明欢可以接触虹翼内的救世会间谍。</p>
+<h2>第196章 备战,排行,鲨鲨的大餐计划</h2>
+<p>顾文裕和苏子麦在家中休息。三号机体亚古巴鲁在鲸中箱庭继续吃睡,等待八月一日的箱庭决战。西泽尔在李清平指导下突破成为C级奇闻使,可以绑定三枚高等奇闻或两枚世代级奇闻。李清平透露自己的实力和王庭队队长露丝相当,达到天灾级水准。亚古巴鲁要求李清平在八月一日那天带它去王宫奇闻库饱餐一顿。李清平同意,认为鲸中箱庭是巨大牢笼,王室制度该被淘汰,国民应该去外面看看真正的世界,理解"生而平等"的道理。</p>
+<h2>第197章 顾绮野家的晚餐,濒死的林正拳</h2>
+<p>顾绮野做晚饭,一家人聊天时提到新来的异行者幕泷。苏子麦说黑蛹的造型比蓝弧和幕泷都好看,顾绮野备受打击。顾卓案awkward地说鬼钟的装束有硬汉味道。柯祁芮告诉顾文裕林正拳遇袭濒死,被挖掉一只眼睛,疑似救世会所为。顾文裕认为这是救世会杀鸡儆猴,警告幽灵火车团不要干涉。他计划找幕泷谈判,利用林正拳的事转移幕泷的仇恨,但认为已经太晚。顾文裕决定第二天去找幕泷,利用这次复仇让蓝弧积累功绩,帮助他晋级天灾级并加入虹翼。</p>
+<h2>第198章 孔佑灵的危险之处,另一个孩子</h2>
+<p>姬明欢的本体在救世会基地醒来,导师来访。导师解释任务失败的原因,透露已警告幽灵火车团(指袭击林正拳)。导师说红路灯被火车团杀死,透露漆原琉璃是救世会培养的虹翼成员。姬明欢询问救世会在各组织的渗透情况,得知虹翼有多名卧底,但湖猎和奇闻使难以渗透。导师警告孔佑灵的精神系异能极度危险,能直接接触他人"本我",危险度仅次于神话级奇闻。导师透露救世会还有另一个比孙长空更危险的神话级孩子。姬明欢意识到被精神控制的孩子们大概率会成为敌人。</p>
+<h2>第199章 "背叛者,不死不休"</h2>
+<p>姬明欢规划今日行程:亚古巴鲁和西泽尔去见王庭队,黑蛹要和幕泷见面,夏平昼需要和黑客追问调查。亚古巴鲁和李清平达成协议:亚古巴鲁要吃掉传说之鲸,但会先让西泽尔用白王权杖驱逐箱庭居民。李清平同意合作,认为鲸中箱庭是牢笼,王室制度该被淘汰。西泽尔乘圣诞雪橇带着李清平和亚古巴鲁拜访王庭队,在礼堂与六人共进早餐。西泽尔警告他们"背叛我的人,我们不死不休",展现出黑化小学生的威严。离开时亚古巴鲁对王庭队做鬼脸挑衅。</p>
+<h2>第200章 病院,眼睛,合作</h2>
+<p>李清平发现亚古巴鲁的真实身份是永渊之鲨,二者达成协议合作。西泽尔与王庭队见面后,展现出上位者的威严,警告他们不要背叛。另一边,黑蛹来到医院探查林正拳的情况,发现他被挖掉一只右眼。幕泷以林一泷的身份前来探望哥哥,神色阴沉。柯祁芮告诉苏子麦要带幽灵火车团去投靠湖猎的周九鸦,并透露湖猎近期将与年兽开战。黑蛹跟随林一泷离开医院,准备在深巷与他谈判合作,利用他的能力配合奇袭。林一泷察觉黑蛹的跟踪,主动要求他现身。</p>
+<hr>
+<h2>第201章 谈判,苏醒的二号机</h2>
+<p>黑蛹与林一泷达成合作,成功完成了"社交巨星"的第9个合作者任务。夏平昼在伦敦的地下室醒来,发现自己被救治。他与开膛手交代了在地下酒吧的遭遇,称是被苏子麦的冰箱恶魔伤害。夏平昼完成了"红路灯"主线任务,获得3个技能点和其他奖励。他检查二号机体进度,天驱进化为33%,击杀数27/40。</p>
+<h2>第202章 开膛手的真名,失踪的折纸</h2>
+<p>开膛手向夏平昼透露真名为阎魔凛,并警告若他伤害大小姐就会杀他。夏平昼用主教石像治愈伤口后去寻找绫濑折纸,最终在摩天轮上找到独自发呆的她。两人在摩天轮和游乐园度过温馨时光,夏平昼安慰折纸不要胡思乱想,并告诉她"不要死,不准死,绝不能死"。折纸买了黑白猫玩偶送给夏平昼作为手机链。</p>
+<h2>第203章 "不要死,不准死,绝不能死"</h2>
+<p>夏平昼在游乐园摩天轮上找到独自发呆的绫濑折纸,她已经坐了一整天。两人在摩天轮上交心,折纸担心夏平昼讨厌自己。夏平昼安慰她,称她是白痴但不讨厌她。两人在游乐园吃棉花糖,夏平昼对折纸说"不要死,不准死,绝不能死",折纸也要求他不准一个人喝酒。这一章展现了两人关系的深化和折纸对情感的懵懂理解。</p>
+<h2>第204章 扮演锚点,王之闪光,隐藏规则</h2>
+<p>夏平昼学习了"王之闪光"技能,需要献祭三枚棋种才能使用。他发现二号机体的扮演锚点偏移度达40%,意识到如果不杀开膛手会导致失控。系统解锁了伦敦的"事件卡牌"机制。夏平昼发现二号机即将升至三阶后会获得"黑王领域"能力,可以封锁棋盘空间,这对未来击杀开膛手至关重要。他意识到机体存在隐藏规则,违背设定会导致失控自毁。</p>
+<h2>第205章 黑白王闪,午时已到</h2>
+<p>夏平昼夜间外出完成伦敦①号卡牌事件,在大本钟顶部遭遇时钟恶魔。他献祭骑士和两个士兵石像,释放国王的终极权能"王之闪光",一击秒杀恶魔并在云层中轰出巨大窟窿。事件奖励获得"午时已到"卡牌,效果是在午夜12点放大敌人重力。夏平昼对新招式的威力感到满意,皇后石像带他迅速撤离现场。回到住处后发现绫濑折纸送的猫玩偶手机链挂在门把手上。</p>
+<h2>第206章 黑王领域,五军二马</h2>
+<p>夏平昼检查"王之闪光"的战果,获得时钟恶魔棋种和事件卡牌"午时已到"。系统推演出天驱升至三阶后的新能力"黑王领域",可封锁棋盘空间防止敌人逃离,这将成为对付开膛手的关键。他与皇后石像讨论"千军万马"实为"五军二马"。三号机体方面,西泽尔和亚古巴鲁处理了蛇狼马兽潮袭击,完成③号卡牌事件。夏平昼准备次日前往挪威参加旅团行动。</p>
+<h2>第207章 超巨形态,横空出世的亚古巴鲁</h2>
+<p>西泽尔和亚古巴鲁发现蛇狼马兽潮袭击城镇。亚古巴鲁展现惊人实力,变身为40米长的巨鲨,张开巨口一口吞下上百头蛇狼马。吞噬后获得奇闻碎片,体型增长至161米。城镇居民见证三王子拯救了他们,护卫队长伊瓦克表示愿在西泽尔离开时送行。亚古巴鲁完成卡牌事件,获得"影子兽潮"事件卡牌。西泽尔展现出黑化倾向,考虑利用居民作挡箭牌,但最终放弃这个想法。</p>
+<h2>第208章 共犯</h2>
+<p>西泽尔和亚古巴鲁在深夜巡视后回城堡。城镇护卫队对三王子拯救他们表示感激,老人伊瓦克承诺会在西泽尔离开时送行。西泽尔与亚古巴鲁在天空对话,西泽尔表示要毁掉箱庭,亚古巴鲁询问如果要毁灭整个世界他是否会站在自己这边。西泽尔承诺会陪它一起,两者成为"共犯"关系。李清平在树下睡觉,评价亚古巴鲁是"绿茶鲨鱼"。这章展现了西泽尔的黑化和他与亚古巴鲁之间深厚的羁绊。</p>
+<h2>第209章 父母,真相,叛逃者</h2>
+<p>姬明欢的导师告知他有一个弟弟,父母当年为隐瞒第二个孩子的异能基因而抛弃了他。救世会即将找到他的弟弟,可能从中找到破解姬明欢异能的方法。姬明欢对家人毫无兴趣,但意识到必须加快行动推翻救世会。他在精神图书馆与三具机体的模拟人格讨论计划:利用蓝弧叛逃引来虹翼,通过柯祁芮调动湖猎,凑齐天灾级战力攻打救世会。黑蛹计划在击杀虹翼后假死,引诱蓝弧和虹翼前往救世会基地。</p>
+<h2>第210章 四人家庭快打</h2>
+<p>7月28日,顾家四口在客厅玩《异行者联盟》游戏。顾文裕操控"吞银",苏子麦操控"樱武",顾绮野操控隐藏角色"余烬",顾卓案选择"蓝弧"。游戏中苏子麦大获全胜,顾卓案因不会玩惨败。这个温馨的家庭时光让顾卓案回忆起妻子苏颖还在时的场景。游戏结束后,夏平昼乘坐的飞机已着陆挪威,白鸦旅团在卑尔根等候,准备入侵鲸中箱庭的行动即将开始。这章展现了顾家难得的温馨时刻。</p>
+<h2>第211章 卑尔根,约法三章</h2>
+<p>夏平昼和绫濑折纸抵达挪威卑尔根。绫濑折纸因看到夏平昼手机里"我爱你"的信息而宕机。安伦斯和童子竹前来接机,安伦斯想借走夏平昼,绫濑折纸写下"借猫协议,约法三章",规定时间地点。两人在卑尔根游览,夏平昼陪绫濑折纸买充电宝,在码头看夕阳并拍照。夜幕降临,他们在布吕根码头的餐馆与其他团员会合,等待传说之鲸的到来。</p>
+<h2>第212章 灭国计划,赌徒,往事</h2>
+<p>安伦斯向夏平昼透露此次行动目标:打劫鲸中箱庭,帮助三王子西泽尔夺取白王权杖。白王权杖能让所有世代级以下奇闻失效,届时王庭军和王庭队将成待宰羔羊。安伦斯带夏平昼去地下赌场,讲述自己从小被拐卖到赌场当作弊工具,后逃离并以赌技复仇的经历。他曾挑战日本第一赌徒"乌鸦"(漆原理),输掉后被邀请加入白鸦旅团。夏平昼询问苏颖的事,童子竹说她是养母,已让黑客查找但因风险太大而中止。</p>
+<h2>第213章 西泽尔:妈妈,我来杀你全家了</h2>
+<p>皇后卡莉莲娜向西泽尔揭露真相:"王之加护"已从国王转移到西泽尔身上,只有拥有加护者才能使用白王权杖。国王因此失去百毒不侵能力而患病。大王子和二王子需要西泽尔死后加护才能转移。皇后承认下毒测试加护是否转移,并透露西泽尔的生母已死。西泽尔意识到自己从出生就是错误,父王为保护他才留下李清平和亚古巴鲁。临别前,西泽尔称皇后为"婊子"(李清平教的中文),宣布"妈妈,我来杀你全家了"。亚古巴鲁学会"黑暗之牙"技能。</p>
+<h2>第214章 计划,最后的茶会</h2>
+<p>白鸦旅团成员在卑尔根餐馆包厢集合,贝尔纳多讲解王庭队成员能力。箱庭内,西泽尔、李清平和亚古巴鲁制定逃离计划:用拟态人偶和圣诞雪橇声东击西,自己则潜入皇宫夺取白王权杖或抓住皇后作人质。亚古巴鲁学会"黑暗之牙"技能,可造成永久伤口。李清平与亚古巴鲁约定互相帮助:李清平帮救姬明欢,亚古巴鲁收下李清平要送给顾文裕的空白奇闻碎片。洛伦佐和柯西莫在茶会上最后劝西泽尔放弃,被拒绝。传说之鲸着陆倒计时48小时。</p>
+<h2>第215章 白鸦旅团,12人,全员集结</h2>
+<p>8月1日凌晨,白鸦旅团12名成员齐聚卑尔根布吕根码头。夏平昼收到主线任务:与旅团入侵箱庭并存活,奖励2技能点、2属性点、2分裂点。团员们各就各位,安德鲁、童子竹、贝尔纳多等人闲聊。贝尔纳多透露自己因使用禁忌奇闻"死灵法师"想复活家人而被好友莱恩举报,被驱逐出箱庭,后获得世代级"黑死病"碎片,此行要向莱恩复仇。海平线浮现巨大鲸影,漆原理宣布:"传说之鲸'奇卡纳欧'来了。"</p>
+<h2>第216章 暗牙,倒计时,空白的礼物</h2>
+<p>8月1日凌晨,传说之鲸从海底浮现。亚古巴鲁完成主线任务,获得奖励并学习"黑暗之牙"技能。箱庭内,西泽尔、李清平和亚古巴鲁最后确认计划:用拟态人偶吸引注意,自己潜入夺权杖或抓皇后。李清平将自己研制的空白奇闻碎片交给亚古巴鲁,托付若自己死了就送给顾文裕。亚古巴鲁反托李清平帮救姬明欢。两人互相约定,李清平承诺带亚古巴鲁去看人类世界的烟花和美食。传说之鲸着陆前半小时,三人整装待发,准备开始行动。</p>
+<h2>第217章 看门人,达克摩斯之剑</h2>
+<p>传说之鲸抵达卑尔根,鲸口看门人纳比斯使用"认知屏蔽结界"和世代级"达摩克利斯之剑"阻止旅团。白贪狼和开膛手联手击碎巨剑,漆原理用扑克牌斩杀看门人。旅团12人进入鲸口,看门人临死前诅咒他们战胜不了王庭队。白贪狼和开膛手殿后,处理完残局后也进入鲸腹。整个过程干净利落,旅团展现强大战力,看门人的世代级奇闻也未能阻挡他们的步伐。</p>
+<h2>第218章 潜入,分叉口,权杖争夺战</h2>
+<p>李清平用"认知屏障结界"罩住城堡,释放拟态人偶和圣诞雪橇吸引注意。他与西泽尔撑"神隐之伞"隐身,亚古巴鲁载他们潜入皇宫。经过奇闻仓库时看到王庭军出动,亚古巴鲁气愤但放弃进攻。到达分叉口,亚古巴鲁独自去抓皇后,李清平和西泽尔去夺白王权杖。亚古巴鲁冲向凉亭时,柯奥洁娜使用"百慕大三角"将其困入异空间,李清平和西泽尔也被传送至鲸口,面对王庭队五人。计划失败,陷入王庭队设下的陷阱。</p>
+<h2>第219章 百慕大三角,战场分割</h2>
+<p>亚古巴鲁被困入百慕大三角的对称空间,用"黑暗之牙"咬破结界逃出。李清平和西泽尔被传送至鲸口,面对王庭队五人。李清平让西泽尔乘雪橇逃走找亚古巴鲁,自己独自对抗王庭队。红龙威尔士与五枚世代级奇闻激战:泰坦尼克号、百鬼夜行、石中剑、通古斯大爆炸、巴比伦之塔。莱恩用石中剑斩断龙翼,八岐大蛇毒液腐蚀龙躯,陨石爆炸重创红龙。战斗呈现一边倒态势,红龙遭受毁灭性打击,战场被分割成多个区域。</p>
+<h2>第220章 陨落的红龙</h2>
+<p>李清平独自对抗王庭队五人,红龙被泰坦尼克号、石中剑、八岐大蛇毒液和陨石联合摧毁。莱恩斩下双翼,红龙千疮百孔。李清平身体崩溃,右臂化为白雾,全身毛孔渗血。他燃烧最后力量放出炎幕掩护西泽尔逃走。亚古巴鲁赶到,叼走李清平残破躯体。李清平将"红龙威尔士"碎片喂给亚古巴鲁,亚古巴鲁体型增至201米并获得"龙尾"能力。李清平回忆与顾文裕的往事,看着箱庭的夕阳陨落。西泽尔接住尸体,白鸦旅团12人抵达,西泽尔释放"不死鸟"。</p>
+<h2>第221-240章摘要</h2>
+<h2>第221章 进化的不死鸟</h2>
+<p>西泽尔回忆起与李清平的往事,从小时候的相识到李清平最终选择离开箱庭。在王庭队围攻李清平时,李清平将不死鸟之羽留给西泽尔后死去。不死鸟羽毛进化成世代级奇闻,上面刻着"笼中鸟,亦有自由日"。西泽尔获得不死鸟力量,配合亚古巴鲁准备反击。</p>
+<h2>第222章 死战,双重王闪,纸龙之上的起舞</h2>
+<p>白鸦旅团成员分散对抗王庭队。夏平昼和绫濑折纸驾驭纸龙对战狄热杰的"通古斯大爆炸"。面对双重陨石包夹,夏平昼召唤国王石像和复制国王,连续释放两次"王之闪光"击碎陨石,最终击杀狄热杰。其他战场上,安伦斯用老虎机自爆炸毁巴别塔,开膛手秒杀九鬼溯夜。</p>
+<h2>第223章 风卷残云,腥风血雨</h2>
+<p>各战场战斗迅速结束。贝尔纳多背叛旅团独自前往王庭殿夺取碎片,但被老国王触发的自毁机制压死。海上,西泽尔和亚古巴鲁联手对抗露丝的泰坦尼克号。亚古巴鲁解放完全体形态达到两百米体长,使用红龙的龙尾技能重创泰坦尼克号。</p>
+<h2>第224章 皇宫来客,最强的世代级</h2>
+<p>漆原理和童子竹潜入皇宫。柯奥洁娜临阵脱逃,皇室成员陷入危机。贝尔纳多试图夺取王庭殿的碎片,但老国王启动自毁装置。王庭殿坍塌后重组为最强世代级奇闻——巨大的水晶魔方,这是箱庭的终极兵器,开始无差别攻击。童子竹将白王权杖交给西泽尔。</p>
+<h2>第225章 迎战露丝,最终兵器,鲸庭终极之战</h2>
+<p>西泽尔用白王权杖削弱水晶魔方的防御,安德鲁用"余烬之铳"轰出裂痕。亚古巴鲁开启"死亡背鳍"贯穿魔方,用"黑暗之牙"彻底粉碎并吞噬所有碎片,获得100米体型增长和"死亡重构"能力,最终体型达到301米。同时,不死鸟贯穿泰坦尼克号,露丝战死,王庭队全灭。</p>
+<h2>第226章 审判,灭国,吞鲸</h2>
+<p>西泽尔审判并处决了背叛他的母亲和两位哥哥。随后他使用白王权杖将箱庭的岛屿全部转移到现实世界,覆灭了鲸中箱庭国度。最后,亚古巴鲁在现实世界将传说之鲸"奇卡纳欧"整个吞入腹中,需要一个月消化。西泽尔和亚古巴鲁决定环游世界,寻找世代级碎片并搜寻噬光蜂。</p>
+<h2>第227章 尾声,来自遥远国度的礼物</h2>
+<p>姬明欢的各机体安顿下来。亚古巴鲁和西泽尔在中国黎京找到顾文裕,将李清平留下的自制奇闻碎片交给他。碎片破碎后在海上释放出烟花。导师向姬明欢透露了第三个神话级孩子的存在——持有"世界树"碎片的商小尺,并让姬明欢去儿童乐园与她见面。</p>
+<h2>第228章 声音,迷宫,黑蛹的计划</h2>
+<p>姬明欢在儿童乐园认识了商小尺。孙长空等人也来到乐园。姬明欢发现孔佑灵在导师帮助下恢复了听力。黑蛹计划利用噬光蜂剿灭任务让蓝弧加入虹翼,同时揭露救世会在虹翼的间谍。姬明欢意识到救世会可能爆发内乱,决定早点带走孔佑灵。</p>
+<h2>第229章 图书馆的红龙之影</h2>
+<p>姬明欢在精神图书馆遇到了李清平的红龙威尔士残存意识。红龙表示会在以后讲述李清平的故事。导师告诉姬明欢鲸中箱庭已被毁灭,白鸦旅团参与其中。同时救世会发现了噬光蜂族群,计划让虹翼剿灭。导师透露第三个神话级孩子持有"世界树"碎片。</p>
+<h2>第230章 龙影,第三神话,乐园</h2>
+<p>导师正式介绍商小尺——持有世界树碎片的第三个神话级孩子。姬明欢与她交流,发现她也想逃离救世会。其他孩子陆续到来,姬明欢与孔佑灵在迷宫中谈心。顾文裕收到李清平生前留下的礼物——一张自制奇闻碎片,破碎后在海面燃起烟花,这是李清平最后的告别。</p>
+<h2>第231章 第六个孩子,乐园之殇</h2>
+<p>商小尺被正式介绍给救世小队。她性格孤僻,想要寻死。姬明欢与她交流,两人都自称"黑化小学生"并约定一起逃跑。其他孩子陆续到来,菲里奥用耳朵逗笑了商小尺。孙长空试图开导商小尺但反被她的"友情背叛论"影响,最后孙长空哭了起来,两人立场互换。</p>
+<h2>第232章 声音,迷宫,黑蛹的计划</h2>
+<p>孙长空继续尝试与商小尺交流。姬明欢在迷宫中与孔佑灵谈心,确认她在导师帮助下恢复了听力。黑客向白贪狼透露照片中有疑似他儿子的狼耳男孩,以及血裔要找的1001。黑蛹计划利用幕泷刺杀蓝弧事件让蓝弧加入虹翼,同时在噬光蜂任务中揪出救世会在虹翼的间谍。</p>
+<h2>第233章 蓝弧刺杀行动,黑蛹的揭秘</h2>
+<p>黑蛹先后与林一泷和林正拳接触。他告诉林一泷明天的表彰大会是复仇良机,又在医院向幽灵火车团揭露:蓝弧是苏子麦的哥哥,幕泷是林正拳的弟弟,且幕泷要杀蓝弧。表彰大会时间突然提前,众人紧急赶往会场。黑蛹的计划是让这场对决公开化,为蓝弧加入虹翼铺路。</p>
+<h2>第234章 杀你哥,还是杀我的弟弟</h2>
+<p>病房内,黑蛹向幽灵火车团揭露:蓝弧是苏子麦的哥哥,幕泷是林正拳的弟弟,且幕泷想杀蓝弧为父报仇。苏子麦震惊愤怒,表示谁敢动她哥就杀谁。林正拳决定想办法劝阻弟弟。但黑客发现表彰大会时间提前到当天,只剩二十分钟。众人紧急通过柯祁芮的电影恶魔赶往会场。</p>
+<h2>第235章 最俳句,最月夜,最少女</h2>
+<p>夏平昼和绫濑折纸在卑尔根凌晨乘坐缆车。绫濑折纸穿着母亲留下的水蓝色和服,两人在月夜中度过宁静时光。他们互相创作"俳句",在缆车中一起入睡。黑客负责操控缆车并安排他们前往东京度假。这是一段难得的平静时光,展现了两人之间细腻的情感。</p>
+<h2>第236章 蓝弧和幕泷,复仇之日</h2>
+<p>黎京表彰大会上,蓝弧正式登场接受"年度异行者"称号。幕泷突然出现,播放监控录像揭露:两年前的地震中,蓝弧的闪电误杀了幕泷的父亲,而协会掩盖了真相。蓝弧震惊愧疚,跪地不起。幕泷展开领域开始复仇,蓝弧几乎不做抵抗,被刺穿腹部和大腿,身受重伤。</p>
+<h2>第237章 复仇,黑色的电光</h2>
+<p>幕泷在暗幕中持续攻击蓝弧,但蓝弧始终不反抗,甚至在反击时主动收手。幕泷愤怒于被仇人怜悯。就在幕泷准备给予致命一击时,蓝弧的求生本能爆发,觉醒了黑色闪电——异能发生二次变异,晋升天灾级。黑色闪电摧毁十多栋高楼,将幕泷重创,失去右臂和右眼。苏子麦赶到抱住昏迷的蓝弧。</p>
+<h2>第238章 来自"虹翼"的橄榄枝</h2>
+<p>顾绮野在异行者协会醒来,虹翼的帆冬青和尤芮尔邀请他加入虹翼填补空缺,但条件是假死放弃蓝弧身份。虹翼此行还要逮捕鬼钟。一天前,黑蛹用窃取的幕泷异能制造暗幕,将重伤的幕泷带走。柯祁芮用电影恶魔救走蓝弧。鬼钟带幕泷去找泽尔西医生——伪装的西泽尔,用不死鸟治好了他。</p>
+<h2>第239章 黑蛹,泽尔西医生,自爆</h2>
+<p>林一泷被西泽尔(伪装成泽尔西医生)用不死鸟治愈。黑蛹与西泽尔交朋友并商讨合作,西泽尔表示愿意用不死鸟治疗但需要收费。鬼钟向林一泷坦白:蓝弧是他的儿子顾绮野,劝他放弃复仇。林一泷震惊愤怒,感到被命运捉弄,拒绝原谅,但内心陷入矛盾和痛苦。</p>
+<h2>第240章 顾绮野:文裕,其实我是蓝弧</h2>
+<p>顾绮野回家,向苏子麦透露虹翼邀请他加入,但他决定放弃复仇,不想再失去家人。苏子麦支持他的决定。顾绮野准备向顾文裕坦白自己是蓝弧。当他在昏暗中释放闪电证明身份时,顾文裕震惊过度,直接昏死过去。这一章标志着顾绮野人生重要转折,他选择放下执念回归家庭。</p>
+<h2>第241章 预言者，会面预告</h2>
+<p>顾绮野发现自己的异能出现异常，电弧变成黑色且不受控制。顾文裕（姬明欢）突然断开机体链接假装昏倒，兄妹俩以为他受刺激晕倒。导师来访告知姬明欢，神秘的"预言者"要来救世会基地亲自见他，救世会因此提高戒备。姬明欢对此感到困惑和警惕,不知预言者的真实意图。顾卓案回家后询问家人在聊什么，暗示他可能已察觉什么。</p>
+<h2>第242章 梦,死讯,离别</h2>
+<p>顾文裕从昏迷中醒来，苏子麦告知他因熬夜昏倒。姬明欢切换三具机体时差不同,精神压力巨大。顾绮野向顾文裕坦白自己是蓝弧的身份。苏子麦告知明天就要长期离开,她被可怕的人盯上了,担心再也见不到家人。她抱着顾文裕说如果消失了要记得她。当晚柯祁芮告知顾文裕,林正拳被异能者袭击身亡,只剩头颅挂在路灯上。苏子麦等人被迫逃离黎京前往湖猎避难。</p>
+<h2>第243章 暴怒,飞蛾扑火,寻死之人</h2>
+<p>黑蛹飞荡在黎京上空寻找林正拳被杀的线索。他向幕泷和鬼钟说明林正拳是因调查"红路灯"而被救世会杀害。黑蛹揭露救世会的卧底潜伏在虹翼之中,并告知鬼钟,顾绮野收到了虹翼的邀请,苏子麦也被救世会盯上。黑蛹试图说服二人与蓝弧合作对抗救世会,但鬼钟愤怒拒绝,执意要单独找虹翼复仇。幕泷同意合作但对蓝弧仍有仇恨,决定等解决救世会后再算账。</p>
+<h2>第244章 红龙的劝导,生日,礼物</h2>
+<p>黑蛹回家后,红龙威尔士在精神世界中与姬明欢对话,提醒他"救不了所有人"。顾绮野找顾文裕聊天,表示要金盆洗手,好好陪伴家人,并打算和父亲和解。兄弟俩决定为顾卓案准备生日蛋糕作为惊喜。天台上顾绮野说要放下过去,告别"蓝弧"身份。两人去蛋糕店订蛋糕,老板康尼送蛋糕给顾绮野作为退休礼物。回家途中下起大雨,顾卓案淋雨回来,要和顾绮野谈话。</p>
+<h2>第245章 父与子,鬼钟的坦白</h2>
+<p>暴雨中,顾卓案向顾绮野坦白自己就是鬼钟,恳求儿子不要加入虹翼。顾绮野看到父亲手中的鬼钟面具后震惊愤怒,质问父亲为何不早说,为何要离家成为罪犯。父子激烈争吵,顾绮野指责父亲从未关心过家人。顾卓案表示会独自解决一切,让顾绮野过普通生活,但顾绮野拒绝,坚持要加入虹翼为自己而战。顾卓案无奈离开,顾文裕目睹一切,问顾绮野是否还要订生日蛋糕,顾绮野陷入痛苦沉默中。</p>
+<h2>第246章 明日,动静,钟声</h2>
+<p>8月4日大雨倾盆,父子吵架后顾卓案失联。顾文裕用拘束带化身在全城搜索未果,向幕泷和柯祁芮打听也无结果。深夜顾文裕坐在客厅,顾绮野疲惫地坐在玄关一整天。顾文裕给他盖被子,顾绮野说"明天就会好了"便睡着。顾文裕喝着苏子麦的可乐,心想这句自欺欺人的话老哥说过多少次了。深夜,他的拘束带化身在游乐园附近感知到巨大动静和震耳欲聋的钟声——鬼钟与虹翼的战斗开始了。</p>
+<h2>第247章 死亡,生日,新闻</h2>
+<p>8月5日下午,顾文裕在沙发上醒来,顾绮野已恢复状态在做饭。顾绮野说今天是父亲生日,要去买蛋糕。顾文裕告知顾卓案回复说"蛋糕不用买太贵"。两人去康尼蛋糕店买蛋糕,康尼预见顾绮野会退役。途中下雨,店员追来送伞。回家后顾绮野准备惊喜,但电视突然播报:鬼钟已被虹翼击毙。顾绮野手中的蛋糕掉落摔碎在地,他呆滞地看着屏幕上游乐园的废墟,父亲的"死讯"让他的世界一点点暗淡下来。</p>
+<h2>第248章 鬼钟与虹翼,黑蛹的救兵</h2>
+<p>8月5日凌晨,黑蛹的拘束带化身目睹鬼钟与虹翼的"极冰少女"尤芮尔在游乐园激战。尤芮尔实力强大,用巨大冰锥贯穿鬼钟胸口,又召唤冰铸陨石碾压摩天轮废墟。就在鬼钟濒死之际,西泽尔骑着亚古巴鲁赶来救援。他们用"神隐之伞"隐形,"拟态人偶"掉包,成功救走重伤的鬼钟。黑蛹的化身现身吸引尤芮尔注意力,掩护救援行动。尤芮尔摧毁了拟态人偶,以为击毙了鬼钟,向协会报告任务完成,同时发现了黑蛹的存在。</p>
+<h2>第249章 帆冬青的打赌,濒死的鬼钟</h2>
+<p>虹翼成员帆冬青和尤芮尔在车中讨论刚完成的击杀鬼钟任务。帆冬青打赌蓝弧会加入虹翼,认为蓝弧被判定为天灾级后无法回归普通生活。与此同时,黎京地下室中,西泽尔用"不死鸟"治愈之火救治鬼钟。亚古巴鲁建议不要完全治好他,让他躺到虹翼离开才能阻止他送死。不死鸟告知,尤芮尔的冰影响了鬼钟的血液和异能基因,但这可能让他意外获得冻结自身时间的新能力。西泽尔和亚古巴鲁决定对外保密鬼钟还活着的事实。</p>
+<h2>第250章 父亲的死讯,虹翼的最后通告</h2>
+<p>8月5日下午,顾绮野和顾文裕买完蛋糕回家。顾绮野看电视时突然听到新闻:鬼钟已被虹翼击毙。他手中的生日蛋糕掉落摔碎。顾文裕问是否还订蛋糕,顾绮野痛苦地坐在地上。顾文裕假装不知情,暗自决定要隐瞒鬼钟还活着的真相,以此作为顾绮野加入虹翼的最后契机。浴室里,顾绮野崩溃地抱着头蜷缩,悔恨自己昨天和父亲吵架。此时尤芮尔发来消息询问他的决定,顾绮野在黑暗中看着镜中憔悴的自己,最终回复:"我加入。"</p>
+<h2>第251章 祝你与思念的人再次相会</h2>
+<p>8月5日夜晚,东京咖啡馆内,夏平昼(姬明欢的二号机体)与罗伯特、黑客打斗地主。血裔(长命追情)来访,邀夏平昼出去散步,为上次吵架道歉。两人在东京湾彩虹大桥上聊天。血裔说自己确认了照片上的男孩就是她寻找百年的1001。她讲述当年在凡尔登战场,1001救了流浪儿的她,给她取名,让她第一次被当人看待。虽然1001爱的是白发女孩不是她,但她仍念念不忘。两人互相祝福能与思念的人再次相会,和解了之前的矛盾。</p>
+<h2>第252章 六个天灾级?质变的旅团</h2>
+<p>血裔向夏平昼介绍白鸦旅团从鲸中箱庭王库获得的宝物:她融合了"悔翼龙血"提升实力;绫濑折纸得到"无尽抄本";白贪狼获得"魔冕";安伦斯得到"幸运骰子";安德鲁用龙血制造"龙烬"子弹。这些宝物让旅团成员实力大增,可能人工造出四到五个天灾级。夏平昼回咖啡馆后,将无尽抄本交给绫濑折纸。他思考如果算上开膛手和团长,旅团理想情况下将有八个天灾级,这将大大提升对抗救世会的实力。同时他意识到杀死开膛手后天灾级会降为七个。</p>
+<h2>第253章 照片,思想钢印</h2>
+<p>8月5日深夜,顾文裕(一号机体)给顾绮野发信息,确认他接受虹翼邀请明天去纽约。系统显示任务尚未完成,需等顾绮野正式登记虹翼才算。顾绮野在黑暗中翻看家庭相册,回忆五年前母亲还在的温馨时光,对比现在空荡荡的家,悲从中来。他与黑蛹短信确认,黑蛹说知道鬼钟是他父亲,并暗示会在纽约见面。救世会基地,导师告知姬明欢,他们计划派孔佑灵去给湖猎四大成员种下"思想钢印"以防他们逾矩。姬明欢反对,要求必须先告知他才能带走孔佑灵。</p>
+<h2>第254章 姬明欢的生日派对</h2>
+<p>救世会基地,导师带姬明欢去儿童乐园。五个救世小队的孩子突然为他举办生日惊喜派对,虽然导师给的日期不是他真实生日。孙长空端着蛋糕,孔佑灵举着画板祝福,连中二的商小尺也被强迫参加。姬明欢许愿"希望大家都能活下来,一起环游世界"。孙长空和他拉勾约定,在她生日前大家都要好好的。菲里奥切蛋糕分给大家,孩子们难得享受这温馨时刻。但姬明欢心知,一个月后攻打救世会时,他将与这些孩子兵戎相见,孙长空可能至死都不知真相。</p>
+<h2>第255章 拉勾,葬礼,分裂进度</h2>
+<p>姬明欢许愿让大家活下来,孙长空不解为何会死。姬明欢说如果他真的失控毁灭世界,大家都活不下来。孩子们分食蛋糕,姬明欢问如果导师让他们杀他会怎样,菲里奥说不会,因为姬明欢是他第一个朋友。孙长空拉着姬明欢的小指拉勾,让他承诺在她生日前大家都要好好的,还轻轻抱了他一下。导师后来送新蛋糕,孩子们散去。姬明欢躺在沙地上盯着小拇指发呆,想到日后与他们对决时的场景。一号机体顾文裕联系柯祁芮,请她用火车恶魔载他去美国,同时查看系统显示还需3个分裂点创建四号机体。</p>
+<h2>第256章 蓝弧的落幕,飞往纽约的机票</h2>
+<p>8月6日早上,异行者协会公布"蓝弧"在刺杀事件中死亡的假消息,全世界震动,网民沸腾。协会掩盖真相,把幕泷父亲之死说成虚假录像,借蓝弧之死的热度转移焦点。顾绮野拎行李下楼告知顾文裕要去纽约加入虹翼,两人告别。顾绮野乘车前往异行者协会地下机场,遇到尤芮尔、帆冬青,以及另外两名虹翼成员"漆原琉璃"和"九十九"。四人将同乘航班回纽约,虹翼的另外七人在纽约等待。顾文裕收到系统提示,主线任务第五阶段完成,获得1分裂点、2技能点、1属性点,第六阶段更新为:杀死四名救世会派系的虹翼成员。</p>
+<h2>第257章 分支终点,书店老板的身份</h2>
+<p>顾文裕得知虹翼里潜伏着整整四个救世会成员,占组织三分之一,震惊不已。他将属性点加到速度,达到A++级,接近天灾级水平。技能点方面,他学习"化身强化"(拘束带化身获得本体70%属性)和"移形换位"(与化身瞬间交换位置),完成"隐"分支开发。顾文裕以黑蛹身份去布罗利书店告别老板,老板透露自己叫苏蔚,是苏颖的父亲——顾文裕的外公。苏蔚是从湖猎退休的三阶驱魔人,一直暗中保护苏子麦。他把苏颖的日记送给黑蛹,并承诺日后可以帮忙,黑蛹意外获得了一个强大的外援。</p>
+<h2>第258章 黑蛹的外公/吞银鼠鼠之别</h2>
+<p>黑蛹震惊地发现书店老板苏蔚是自己外公,系统显示新增合作者"苏蔚(三阶驱魔人)"。苏蔚解释当年因不满女儿嫁给普通人而断绝关系,后悔莫及。他用天驱能力通过书籍照片定位,发现黑蛹就是外孙。苏蔚表示愿意在日后帮助对抗虹翼的行动。随后黑蛹去找吞银告别,用拘束带陷阱困住他,摘下头盔观看真容并戏弄一番。他画了幅吞银鼠鼠抱着坏掉蓝弧电池流泪的画送给吞银,窃取了吞银的异能,然后隐身离开,留下被捆成蛹的吞银在地上爬动,场景被传遍网络。</p>
+<h2>第259章 三代同堂的可能,告别黎京</h2>
+<p>黑蛹用吞银的异能吞噬金属,给外公发信息希望他日后能见女婿顾卓案。他想象等对付虹翼卧底时,外公和老爹可以一起出手"三代同堂"。黑蛹在市中心高塔上用扩音器向市民宣布要"退休",说可能去非洲帮助黑人版英雄。他剥开面具一角但立即遮回,然后用窃取的异能放出盛大烟花秀作为告别。随后他来到废弃火车站,柯祁芮用火车恶魔载他前往海帆城参加林正拳葬礼,然后去纽约。柯祁芮说林醒狮和周九鸦会在葬礼上,并透露林醒狮其实是女扮男装。火车驶入时空隧道。</p>
+<h2>第260章 初见林醒狮,葬礼上的三人</h2>
+<p>火车抵达海帆城,黑蛹隐形跟随柯祁芮到墓地参加林正拳葬礼。他看到苏子麦、许三烟、林一泷,以及湖猎的林醒狮和周九鸦。林醒狮察觉黑蛹的存在,柯祁芮说他是合作者,于是黑蛹现身。他得知林醒狮是女扮男装继承家业。苏子麦试图向林一泷求情希望他原谅顾绮野,但林一泷冷漠拒绝。黑蛹告知林一泷鬼钟还活着但昏迷。苏子麦问黑蛹是否真要退休离开黎京,柯祁芮揶揄她每天搜黑蛹微博,苏子麦羞恼否认。黑蛹自称"觉醒女性",调侃苏子麦的性取向,三人在墓地展开轻松对话。</p>
+<h2>第261-280章摘要</h2>
+<h2>第261章 虹翼集会,天灾级十二人</h2>
+<p>顾绮野与尤芮尔抵达纽约帝国大厦,参加虹翼组织的秘密集会。尤芮尔向顾绮野介绍了虹翼十二名成员的档案资料,包括各国天灾级异能者的代号、能力和背景。顾绮野仔细研究档案,试图从中找出杀害母亲的凶手线索。他推测可能是"军火女王"九十九摧毁了黎京星光游乐园。虹翼成员各具特色,其中12号"傀儡之父"能将死去的异能者制成傀儡,甚至拥有两具天灾级傀儡。顾绮野正式踏入这个世界最强异能者组织,开始寻找真相之旅。</p>
+<h2>第262章 日记,劫狱计划</h2>
+<p>柯祁芮与黑蛹在墓地交谈后离开。黑蛹阅读了苏颖的日记,了解到她是湖猎执行人苏家的独女,从小接受严格训练成为驱魔人,曾参与猎杀西方七大恶魔。苏颖离家出走时遇见顾卓案,两人在网吧玩游戏建立感情。日记记录了她活泼的性格与顾卓案木讷性格的反差。柯祁芮询问夏平昼的情况,黑蛹透露棋手即将杀死开膛手并脱离白鸦旅团。同时,黑客告知夏平昼白鸦旅团计划劫狱救出被关押的流川千叶,团长和杰克即将抵达东京,行动目标是北海道异能者监狱。</p>
+<h2>第263章 虹翼的两个紧急任务</h2>
+<p>虹翼面临两项紧急任务需要分配人手。第一项是抓捕白鸦旅团,他们涉嫌劫掠鲸中箱庭,日本黑道目击绫濑折纸在东京湾附近使用能力。情报显示旅团可能计划劫狱救出被关押在北海道"新叶乡"监狱的流川千叶。第二项任务是调查大阪异能者失踪事件,一种名为"噬光蜂"的半人半蜂生物正在捕猎异能者。这些生物来自鲸中箱庭,数十年前被驱逐。顾绮野看到噬光蜂照片后感到震撼,最终选择接受抓捕旅团的任务。尤芮尔、顾绮野和漆原琉璃将组成三人小队前往日本。</p>
+<h2>第264章 噬光蜂,抉择,第三人</h2>
+<p>顾绮野详细了解噬光蜂的信息,这种半人半蜂的生物具有极强的攻击性和残暴性,在大阪捕食异能者。尤芮尔驾车时,顾绮野询问她的年龄和身份,得知她因异能副作用而长不高但实际已成年。尤芮尔透露典狱长信息,两人讨论各自异能。顾绮野的异能副作用包括失重感和睡眠障碍,还有对无法拯救所有人的愧疚。黑蛹发来信息询问噬光蜂,被顾绮野暂时拉黑以避免暴露。漆原琉璃正式加入任务小队,高层命令遇到旅团成员可直接击杀。三人准备前往日本执行任务。</p>
+<h2>第265章 电话,交易,动向</h2>
+<p>黑蛹在纽约旅馆休息,西泽尔和亚古巴鲁前来会面。黑蛹承诺帮助西泽尔找到噬光蜂的动向,作为交换条件要求亚古巴鲁担任他的交通工具。亚古巴鲁通过电话联系漆原理,代表黑蛹提出交易:如果旅团能活捉北海道监狱典狱长,黑蛹将给予重要回报。漆原理表示会尽力而为但不保证成功,因为对手是天灾级异能者。黑蛹确认除典狱长外监狱没有其他天灾级高手。西泽尔和亚古巴鲁在旅馆休息,等待进一步行动。顾绮野此时已无法与黑蛹联系,双方信息暂时中断。</p>
+<h2>第266章 救世会的军官,典狱长</h2>
+<p>夏平昼和绫濑折纸乘坐JR特急列车前往北海道札幌市。黑客发来监狱典狱长的照片,夏平昼震惊地发现此人正是救世会的军官"尤利乌斯"——曾在监禁室里对他厉声训斥的德国军人。尤利乌斯是北海道异能者监狱"新叶乡"的典狱长,具有天灾级实力。夏平昼意识到这次劫狱行动不仅能救出流川千叶,还有机会活捉救世会高层,从他口中套出基地位置。为确保成功,他通过亚古巴鲁联系漆原理,提出活捉典狱长的交易条件。列车在夜色中驶向札幌,劫狱计划即将开始。</p>
+<h2>第267章 融合,皇后石像的新形态</h2>
+<p>夏平昼清晨被皇后石像提醒附近有恶魔,驱魔人协会APP尚未发现。他跟随皇后来到狸小路商业街,发现一家拉面馆内有恶魔。店内有四个巨婴和一个拉面师傅恶魔,正用人类做食材。夏平昼使用新学会的技能"人魔之桥",将皇后石像与火焰恶魔融合,创造出"火焰皇后"形态。火焰皇后拥有"火焰化"和"火焰之柱"两种权能,轻松击杀了所有恶魔。战斗结束后,夏平昼完成培养任务,获得属性点,精神属性提升至A++级。导师来访监禁室,告知姬明欢父母已死的消息,并透露弟弟还活着且具有三种超凡体系潜力。</p>
+<h2>第268章 好消息和坏消息</h2>
+<p>导师向姬明欢透露两个消息:坏消息是他的父母在阿拉伯被发现死亡,好消息是弟弟还活着并被带回救世会。姬明欢对父母之死表现冷漠,甚至提议举办忌日派对。导师否认是救世会所为,表示正在寻找真凶。姬明欢的弟弟同时具有奇闻使、驱魔人、异能者三种潜力,这是绝世罕见的案例。导师怀疑弟弟可能才是预言者要找的人。同时,导师透露救世会发现白鸦旅团可能劫狱的线索,尤利乌斯正在北海道监狱守候。姬明欢表面平静,内心期待这场赌局的结果,想看看谁会吃不了兜着走。</p>
+<h2>第269章 父母,兄弟,拭目以待的赌局</h2>
+<p>导师与姬明欢深入讨论父母之死和弟弟的情况。姬明欢坚称与父母无关,不认这个未曾谋面的弟弟。他认为自己可能是"鲤鱼王",弟弟才是真正的"神兽",要求预言者搞清楚。导师表示等预言者到来真相自会揭晓,同时提到孔佑灵需要学会控制异能才能离开。导师透露救世会已掌握白鸦旅团劫狱的线索,尤利乌斯作为典狱长守在北海道监狱。姬明欢表面上期待救世会教训旅团,实则内心盘算着这场赌局的走向。双方各怀心思,等待即将到来的北海道监狱攻防战揭开谜底。</p>
+<h2>第270章 旅团的八人,兄妹,北海道</h2>
+<p>顾绮野和尤芮尔在纽约乘坐私人飞机前往日本。尤芮尔赠送顾绮野新战服和面具,他只保留了面具。三人讨论各自的异能,尤芮尔是控冰系,漆原琉璃能够在印记携带者之间进行传送。漆原琉璃透露高层命令可以直接击杀旅团成员无需活捉。顾绮野注意到团长名叫"漆原理",与漆原琉璃同姓,但琉璃否认有关系。飞机抵达北海道,新叶乡监狱传来遭袭警告,白鸦旅团已经开始行动。北海道滑雪场上,旅团八人齐聚:团长漆原理、血裔、开膛手、夏平昼、绫濑折纸、黑客、罗伯特和童子竹。团长开始部署明天的劫狱行动计划。</p>
+<h2>第271章 飞机上的棺材,哥特人偶</h2>
+<p>顾绮野在飞机洗手间外发现一具黑色棺材,尤芮尔解释这是虹翼10号"哥特人偶"艾丝特,她需要在棺材中休眠。艾丝特突然醒来,展现出双重人格:一个是活了两百年的艾丝特本人,另一个是她的孙女爱丽丝。漆原琉璃解释艾丝特因异能副作用身体趋于人偶化,需要大量休眠时间。顾绮野对虹翼成员的古怪特质感到震撼。同一时间,夏平昼在札幌滑雪场与旅团成员会合。团长漆原理详细布置劫狱计划:他带队搜索流川千叶,开膛手等四人负责对付典狱长。行动定于次日上午十一点开始。</p>
+<h2>第272章 漆原琉璃的异能,冰岛少女的憧憬</h2>
+<p>飞机上,漆原琉璃告诉顾绮野尤芮尔是他的超级粉丝。尤芮尔解释她资助了黎京的孤儿院,蓝弧曾救下那里的孩子,之后每次去访问都看到孩子们围着电视看蓝弧,笑得很开心。尤芮尔认为蓝弧给了那些孩子心理支柱和面对生活的勇气,所以她也不讨厌蓝弧。她劝顾绮野不要自责,因为他在看不见的地方拯救和鼓舞了很多人。顾绮野听到"幕泷"后心情沉重。三人讨论彼此异能,漆原琉璃能在印记携带者之间传送,并创造独立空间。她在顾绮野和尤芮尔身上留下菱形印记,可随时将他们传送回来。漆原琉璃透露高层命令遇到旅团可直接击杀。</p>
+<h2>第273章 袭击警告,新的面具</h2>
+<p>虹翼三人徒步前往新叶乡监狱途中,尤芮尔接到监狱遭袭警告。顾绮野戴上新的黑色面具,代号改为"黑闪"。他抱起尤芮尔化作黑色闪电疾驰,漆原琉璃在他们身上留下传送印记。五分钟前,典狱长尤利乌斯在监狱入口等待旅团到来。他曾是"战争之王",对救世会警告不以为然,认为旅团只是一群蝼蚁,拒绝了增援。他回忆起百年前在凡尔登战役败于前任限制级异能者"黑发恶魔"的经历,那是他唯一的败北。警报响起,绫濑折纸操控纸龙载着四人从天而降,监狱士兵开火,但纸龙坚不可摧。旅团四人在龙背上显露身形,劫狱行动正式开始。</p>
+<h2>第274章 风云起,奇袭新叶乡</h2>
+<p>纸龙降落监狱,血裔展现龙化能力,背后生出黑色龙翼;开膛手拔出妖刀。尤利乌斯命令士兵后退,大地开始剧烈颤抖。漆原理的鸦群如黑色暴雨般从天而降,攻击监狱守军,制造混乱。血裔、开膛手、绫濑折纸三人与典狱长展开激战。尤利乌斯操控大地,制造出一座座巨大的岩山,与绫濑折纸的纸页风暴对抗。他最终召唤出一座金字塔抵挡风暴。血裔从天而降用血锤砸碎金字塔,但尤利乌斯在最后关头被顾绮野救走。尤芮尔乘冰面滑行,用冰锥击碎金字塔碎块。虹翼的介入让战局变得复杂,双方天灾级异能者对峙。</p>
+<h2>第275章 地下牢笼,重见天日</h2>
+<p>漆原理和罗伯特利用鸦群和传送门潜入监狱地下。黑客骇入监狱系统,童子竹伪装成工作人员进入控制室。他们通过十层地下设施,触发红外线防护系统,牺牲上千只乌鸦开路。最终抵达流川千叶的牢房,这个透明房间布满爆炸陷阱。罗伯特创造传送门,流川千叶安全走出。流川千叶是旅团的医生,曾是脑科医生,因消除患者情绪而被通缉。他的异能是吸收情绪力量,但副作用是对情绪极度敏感。三人返回地面时,看到巨大的鲨鱼亚古巴鲁出现在空中。漆原理意识到永渊之鲨的出现改变了战局,思考着虹翼与某神秘组织的关联。</p>
+<h2>第276章 夏平昼的战斗,准天灾级的较量</h2>
+<p>血裔与开膛手分别迎战尤芮尔和顾绮野,夏平昼负责对付准天灾级的"炎鬼"。炎鬼使用火焰攻击,射出巨大的熔岩火球。夏平昼召唤士兵石像防御,骑士石像冲锋,最后使用国王石像的终极权能"黑白王闪"——献祭主教和士兵石像,释放恐怖的黑白光束。光束摧毁熔岩球并横扫,炎鬼闪避不及失去右臂。炎鬼拼死反击,夏平昼使用"人魔之桥"将皇后石像与火焰恶魔融合成"火焰皇后"。火焰皇后使用"火焰化"权能,吞噬炎鬼的攻击并将其焚毁。夏平昼轻松击杀同阶对手,完成培养任务,击杀进度提升至48/70。另一边,三位天灾级的战斗即将分出胜负。</p>
+<h2>第277章 讨伐尤利乌斯,风暴,闪电</h2>
+<p>尤利乌斯操控大地升起岩山,从高处俯瞰战场。开膛手和血裔分别从上下夹击。尤利乌斯不断制造巨大岩刺反击,群山交叠围攻二人。血裔升至最高点,开膛手在岩山间跳跃闪避。绫濑折纸加入战斗,操控无尽抄本制造纸页风暴,吸收岩石碎片,规模越来越大。风暴摧毁监狱建筑群,但尤利乌斯召唤金字塔抵挡。绫濑折纸精神力透支流鼻血,开膛手让她停止。血裔在太阳下方凝聚血锤,从天而降砸碎金字塔。顾绮野以黑色闪电救下力竭的尤利乌斯。尤芮尔乘冰面滑行,用冰锥击碎金字塔碎块。四名天灾级异能者两两对峙,战局陷入僵持。</p>
+<h2>第278章 顾绮野,尤芮尔,加入战场</h2>
+<p>血裔与尤芮尔交战,尤芮尔用冰尘陷阱冻结血裔的血液和毛孔。血裔被迫开启"龙化"形态,鳞片覆盖全身,血液沸腾突破冰封,但代价是可能失去理智。顾绮野与开膛手激战,他的速度和力量远超对方。黑色电流吞噬声音,开膛手无法判断他的动向。顾绮野撕下开膛手的左臂,展现压倒性优势。开膛手被迫使用妖刀的三阶能力,释放刀中阴魂加强自身,代价是极度透支寿命。夏平昼带着昏迷的绫濑折纸退至壁垒观战。就在此时,亚古巴鲁化身三百米巨鲨从天而降,遮天蔽日的阴影覆盖战场,震撼所有人。巨鲨的出现彻底改变了战局。</p>
+<h2>第279章 救兵,横空出世的永渊之鲨</h2>
+<p>三百米长的巨鲨亚古巴鲁横空出世,遮天蔽日的阴影笼罩监狱。四名天灾级异能者震惊停战,顾绮野和尤芮尔首次直面如此庞然巨物。尤芮尔准备凝聚冰铸陨石击落巨鲨,但漆原琉璃发动传送能力,通过手腕上的菱形印记将二人传送走,昏迷的尤利乌斯被留下。亚古巴鲁松了口气,缩小至三米,载着西泽尔降落。血裔和开膛手关闭强化状态。西泽尔提出用十万美金治疗开膛手的断臂,召唤不死鸟用痊愈之火为她再生新手臂,整个过程不到五秒。亚古巴鲁用潮水带走昏迷的尤利乌斯。漆原理等人从地下救出流川千叶,劫狱成功。</p>
+<h2>第280章 冲突,质疑,审问</h2>
+<p>顾绮野和尤芮尔被传送到漆原琉璃创造的独立空间中。尤芮尔质疑漆原琉璃过早撤退的决定,认为当时局面仍在掌控中。漆原琉璃辩称对方有两个天灾级加上未知实力的巨鲨,按照高层保全成员安全的方针,撤退是正确选择。双方争论激烈,最终决定回去报告情况。顾绮野对巨鲨的身份感到困惑。另一边,西泽尔和亚古巴鲁将尤利乌斯带到札幌地下室交给黑蛹。黑蛹确认这就是照片上的军官,用拘束带将其束缚,发动"拘束带真言"逼问。尤利乌斯被迫睁开充血的双眼,黑蛹用变声器询问救世会基地的位置,关键情报即将揭晓。</p>
+<h2>第281章 审问尤利乌斯,卧底的名字</h2>
+<p>黑蛹在地下室审问被俘的天灾级异能者尤利乌斯。通过拘束带真言,尤利乌斯在精神烙印的限制下艰难吐露:虹翼中有四名救世会卧底——漆原琉璃、卡莉娜、织田英豪,以及一个与"机魂菩萨"阿贾亚有关的神秘人物。在精神烙印发作导致脑死亡前,尤利乌斯透露了关键信息。黑蛹盗取了他的异能后,派皇后石像杀死了已成植物人的尤利乌斯并焚尸灭迹。夏平昼获得击杀天灾级的奖励,任务进度更新。</p>
+<h2>第282章 真相,仇人,棋种进化</h2>
+<p>顾绮野和尤芮尔在石狩滨海岸交谈。尤芮尔告知典狱长下落不明,搜索无果。两人在海边聊天时,尤芮尔透露是自己杀死了鬼钟,这让顾绮野内心震撼但强忍悲痛。夏平昼完成劫狱任务,获得奖励后用技能点学习"棋种二次进化",所有石像升级为钻石体,攻防大幅提升。他还学习了"噬魂"技能,让棋种能吸收恶魔属性变强。导师告知尤利乌斯被白鸦旅团杀死,并透露噬光蜂已产生四只天灾级"蜂侯"。</p>
+<h2>第283章 二度进化,四大蜂侯的诞生</h2>
+<p>深夜,夏平昼在咖啡馆屋顶完成棋种二次进化,所有石像升级为华贵的钻石体。他用技能点学习"噬魂"技能。姬明欢在救世会监禁室见到孔佑灵,得知她在能力开发时不慎杀死了几名实验者,导师试图隐瞒此事。姬明欢安慰受创的孔佑灵,承诺会保护她并杀光所有敌人。导师向姬明欢透露尤利乌斯之死和噬光蜂威胁升级的消息,四只"蜂侯"正快速进化为天灾级,可能对日本大阪发起侵略。</p>
+<h2>第284章 死去,失控,承诺</h2>
+<p>导师告知姬明欢,孔佑灵在能力开发时不小心杀死了几名实验者,她的精神力正在失控进化。姬明欢得知后极为愤怒,警告导师必须隐瞒此事,否则将杀光所有人。他安慰陷入自责的孔佑灵,承诺会保护她。导师透露尤利乌斯被白鸦旅团杀死,噬光蜂威胁升级。夏平昼在东京见到流川千叶和阎魔凛。阎魔凛用天驱取走流川千叶的心脏作为入团凭证。开膛手告知半个月后将与白贪狼、年兽大君联手对抗湖猎。</p>
+<h2>第285章 开战时间,苏醒的鬼钟</h2>
+<p>阎魔凛告知夏平昼,白鸦旅团将在半个月后联合白贪狼和年兽大君对抗湖猎。同时,在中国黎京地下室,顾卓案从昏迷中苏醒。他得知儿子顾绮野为了替自己复仇已加入虹翼,震怒却无力改变。黑蛹通过电话告知顾卓案真相:是黑蛹和幕泷共同策划让顾绮野加入虹翼,为的是获得对救世会主动出击的机会。黑蛹透露已找到救世会在虹翼的四名间谍,并安排了强力盟友——顾卓案的岳父苏蔚作为援军。</p>
+<h2>第286章 鬼钟的质问,强力的盟友</h2>
+<p>顾卓案质问黑蛹为何让儿子顾绮野加入虹翼。黑蛹解释这是为了复仇的必要手段,并告知顾卓案其岳父苏蔚——前湖猎隐形执行者——将作为盟友参战。黑蛹透露虹翼将在十天后前往日本附近岛屿讨伐噬光蜂,届时可趁机对救世会间谍发起攻击。顾卓案被说服同意配合,但要求保护儿子安全。黑蛹最后透露最强盟友是苏蔚,这让顾卓案既震惊又复杂。他前往布罗利书店与多年未见的岳父苏蔚见面。</p>
+<h2>第287章 苏蔚和顾卓案</h2>
+<p>顾卓案以鬼钟身份前往布罗利书店,与岳父苏蔚多年后首次见面。两人回忆往事,苏蔚透露这些年一直在暗中保护顾家孩子,并提到童子竹——苏颖曾收养的女孩现已成为驱魔人。苏蔚坦承对女儿之死的愧疚和后悔,决心与顾卓案一起复仇,给女儿一个交代。两人冰释前嫌,苏蔚鼓励顾卓案复仇后放下过去,重新生活。同时,尤芮尔正在车上向顾绮野提供虹翼成员的处罚记录,让他查找母亲被杀的真相。</p>
+<h2>第288章 书店会谈/顾绮野的复仇</h2>
+<p>顾卓案在布罗利书店与岳父苏蔚见面,两人冰释前嫌。苏蔚表示这些年一直暗中保护顾家孩子,并愿意一起为苏颖复仇。同时,顾绮野在尤芮尔的车上查看五年前的虹翼处罚记录,发现"老京麦街区事件"的处罚对象是虹翼12号"傀儡之父"。他终于确认杀死母亲的凶手身份。在与尤芮尔的对话中,顾绮野几次差点对她下杀手,但都因各种原因克制。黑蛹发来照片证实顾卓案还活着,让顾绮野悲喜交加。</p>
+<h2>第289章 决心,仇恨,忽如其来的讯息</h2>
+<p>顾绮野在车中几次想杀死尤芮尔为父报仇,但得知她只是执行者后犹豫不决。尤芮尔关心顾绮野的身体状况,两人交谈中渐生好感。就在顾绮野准备动手时,黑蛹突然发来照片,证实顾卓案还活着,并告知外公苏蔚也将参战。顾绮野震惊之余重燃希望。黑蛹透露救世会在虹翼有四名卧底,并告知顾绮野母亲之死与救世会有关。顾绮野决定继续潜伏,等待时机一举歼灭仇人。同时,柯祁芮乘火车抵达北海道废弃车站。</p>
+<h2>第290章 威胁,五年前的档案</h2>
+<p>顾绮野在纽约街头用电流向黑蛹传递虹翼成员的记忆画面,包括每个成员的面容、能力和档案信息。黑蛹获得关键情报:救世会的四名卧底分别是漆原琉璃、织田英豪、卡莉娜和傀儡之父。其中傀儡之父在五年前制造了"老京麦街区事件",正是杀害顾绮野母亲的凶手。黑蛹确认目标后,在废弃火车站与柯祁芮会面,向她坦白自己就是顾文裕,摘下面具展现真实身份。柯祁芮震惊之余逐渐接受这一事实。</p>
+<h2>第291章 五年前的报告,摘下面具</h2>
+<p>顾绮野在迈巴赫车中查看虹翼历史文件,找到五年前"老京麦街区事件"的处罚记录,确认傀儡之父就是杀害母亲的凶手。他几次差点对尤芮尔动手,但强忍住复仇冲动。黑蛹收到顾绮野通过电流传递的记忆,确认救世会四名卧底身份。同时,北海道废弃火车站内,黑蛹向柯祁芮摘下面具,坦白自己就是顾文裕。柯祁芮震惊不已,回想起两人过往的种种接触,终于明白黑蛹的真实身份和复杂布局。</p>
+<h2>第292章 顾文裕:我是黑蛹</h2>
+<p>火车车厢中,黑蛹向柯祁芮摘下面具,展现真实身份——顾文裕。柯祁芮震惊万分,回想起两人过往接触的种种细节终于串联起来。顾文裕解释他用拘束带分身同时出现在多地,以及如何瞒过柯祁芮的直觉。他透露只有柯祁芮和外公苏蔚知道自己身份,连家人都被蒙在鼓中。顾文裕请求柯祁芮暂时保密,等行动结束后再告知苏子麦真相。柯祁芮答应请求,但希望顾文裕能活着回来。两人达成共识,继续为即将到来的决战做准备。</p>
+<h2>第293章 电流记忆,最后一名卧底</h2>
+<p>黑蛹重新戴上面具,与柯祁芮讨论合作者身份。他透露只有柯祁芮和外公苏蔚知道自己是顾文裕。两人谈论夏平昼和白鸦旅团的事。柯祁芮质疑夏平昼以龙级实力如何击败准天灾级的炎鬼,黑蛹表示夏平昼会创造奇迹。抵达纽约后,黑蛹在街头与顾绮野见面,通过电流接收了顾绮野的记忆,获得虹翼十二人的详细情报。结合尤利乌斯的情报,黑蛹确认救世会的第四名卧底就是与"机魂菩萨"阿贾亚相关的"傀儡之父"。</p>
+<h2>第294章 目标,鲨腹,遗失的世代级碎片</h2>
+<p>黑蛹确认救世会在虹翼的四名卧底身份,并将情报告知顾绮野。顾绮野得知杀害母亲的凶手"傀儡之父"来自救世会,黑蛹承诺集结顾卓案、苏蔚、林一泷等人共同复仇。同时,西泽尔乘不死鸟进入亚古巴鲁腹中的箱庭世界,冒险寻找王庭队遗留的世代级奇闻碎片。经过惊险探索,他成功找回三枚世代级碎片:巴别塔、尼斯湖水怪和泰坦尼克号,大幅提升战力。两人为即将到来的噬光蜂讨伐战和救世会决战做准备。</p>
+<h2>第295章 三枚世代级,鬼钟的疑问</h2>
+<p>西泽尔成功从亚古巴鲁腹中的箱庭世界取回三枚世代级奇闻碎片:巴别塔、尼斯湖水怪和泰坦尼克号。加上原有的不死鸟和圣诞雪橇,他现在拥有五枚世代级碎片,战力大增。西泽尔决心快速提升至S级奇闻使,以便同时使用所有碎片。亚古巴鲁提醒他救世会拥有神话级奇闻如齐天大圣、世界树、宙斯等。顾文裕收到鬼钟询问儿子情况的信息,告知已找到杀害苏颖的凶手"傀儡之父",完成主线任务获得奖励,进入下一阶段。</p>
+<h2>第296章 完美级机体,火柴,问题</h2>
+<p>顾文裕收到顾卓案询问儿子的消息,两人通过手机交流。顾文裕谎称在同学家住,实际在纽约。他分配属性点,一号机体"黑蛹"的速度达到S级天灾标准。顾文裕发现已凑够16个分裂点可创建四号机体,系统提示可选择延迟生成以获得90%概率的"完美"机体。他选择延迟,系统透露可能出现恶魔之子、家族长老等背景。在救世会,姬明欢见到精神失常的宙斯持有者,这个无名男孩因神话碎片影响濒临崩溃,渴望姬明欢的存在能让他安静。</p>
+<h2>第297章 第七个孩子,宙斯</h2>
+<p>救世会的第七个孩子——宙斯碎片持有者突然出现。这个无名男孩因宙斯意识的折磨精神濒临崩溃,疯狂地向姬明欢磕头祈求帮助,称只有姬明欢能让他脑中的噪音安静。男孩的异常行为吓坏了孙长空。导师通过广播解释男孩是被宙斯碎片主动选中,但精神承受不住神话意识的侵蚀。姬明欢质疑救世会强行将碎片植入试验品体内,承诺会给男孩取个名字。孙长空表示理解男孩的孤独,愿意包容他。姬明欢与孙长空约定要保护彼此,活到生日那天。</p>
+<h2>第298章 宇宙,约定,漆原琉璃的问题</h2>
+<p>姬明欢与商小尺在秋千上聊天,商小尺透露自己常梦见身体变成植物被困在棺材里漂浮宇宙的恐怖梦境,她害怕孤独渴望陪伴。姬明欢安慰她,承诺会像小狗一样陪在棺材外等她醒来,两人约定将来一起去看海。几个孩子在乐园玩耍后返回监禁室。同时在纽约,顾绮野和尤芮尔等人乘电梯前往虹翼会议室,漆原琉璃突然质问顾绮野与黑蛹的关系。尤芮尔帮顾绮野解围,称黑蛹到处找人合作属正常现象。电梯抵达会议室,虹翼全员集结。</p>
+<h2>第299章 宇宙,约定,漆原琉璃的问题</h2>
+<p>姬明欢与商小尺在秋千上交谈,商小尺透露自己常梦见身体变成植物被困在棺材里飘向宇宙的恐怖体验,她渴望有人陪伴。姬明欢安慰她,承诺会像小狗一样守在棺材外等她,两人约定将来一起去看大海。几个孩子在乐园玩耍,姬明欢与孙长空在走廊约定要互相保护,活到生日那天。顾文裕同步三具机体状态后入睡。在纽约帝国大厦,顾绮野等人进入电梯前往会议室,漆原琉璃质问顾绮野与黑蛹的关系,尤芮尔出面解围。虹翼十二人全员集结准备开会。</p>
+<h2>第300章 猜疑,作战会议</h2>
+<p>电梯中,漆原琉璃质问顾绮野与黑蛹的关系,尤芮尔帮忙解围。虹翼十二人全员到齐,指挥官陈茜开始作战会议。她介绍噬光蜂的危险特性:能通过吃人获取记忆和能力,快速进化,繁衍能力强。蜂后产下四只"蜂侯"候选者,实力已达天灾级,将争夺下任蜂王之位。噬光蜂巢位于日本近海一座被黑暗笼罩的无名岛上。联合国决定派虹翼全员在一周内前往日本大阪,制订作战计划,在8月15日前将噬光蜂一族全灭。顾绮野意识到这座岛屿将成为与仇人决战的地点。</p>
+<h2>第301章 大本营，复仇之旅的起点</h2>
+<p>虹翼在纽约总部接到新任务，需前往日本大阪剿灭噬光蜂。顾绮野和尤芮尔在飞往日本的飞机上，尤芮尔邀请他任务后去黎京福利院看望孩子们。顾绮野意识到任务后自己将成为"杀死傀儡之父"的罪犯，与虹翼为敌。同时，黎京的布罗利书店里,苏蔚和顾卓案等待黑蛹的消息。黑蛹发来信息确认顾绮野的行踪,并透露虹翼将在8月15日前登岛剿灭噬光蜂。苏蔚作为湖猎成员,准备与顾卓案一起前往日本,参与这场复仇行动。</p>
+<h2>第302章 大阪途中，蜂侯之名，教尺</h2>
+<p>飞往大阪的航班上,顾绮野与尤芮尔讨论虹翼成员的能力定位。尤芮尔分析顾绮野作为"刺客"型异能者,速度和单体破坏力在虹翼中最强。两人玩《异行者联盟》游戏,尤芮尔特意选鬼钟让顾绮野"复仇"。黎京方面,苏蔚和顾卓案准备前往大阪,苏蔚透露自己的天驱是"教尺"。日本官方获得噬光蜂情报,得知四大蜂侯名为乔、古力、卡梅隆和麦尔维特,它们即将进食异能者以觉醒特殊能力。虹翼必须在蜂侯完全进化前采取行动。</p>
+<h2>第303章 阁楼，约定，最后的分界线</h2>
+<p>东京咖啡馆阁楼,夏平昼(姬明欢的二号机体)与绫濑折纸相处的温馨时光。夏平昼外出猎杀恶魔时,绫濑折纸做噩梦被吓醒,发现他不在身边而感到不安。夏平昼回来后,两人在窗台聊天,绫濑折纸询问他会否离开,夏平昼反问她愿否跟随。绫濑折纸要求他不要偷偷走掉,两人靠在一起入睡。姬明欢内心清楚,自己即将背叛白鸦旅团去救世会复仇,这段平静的日子即将结束。他想象着如果能活着回来,会以真实身份见绫濑折纸,向她坦白一切并寻求原谅。</p>
+<h2>第304章 尤芮尔的分析，父子真人快打</h2>
+<p>大阪飞机上,顾绮野和尤芮尔继续讨论虹翼成员实力。尤芮尔认为顾绮野是虹翼最强的,因其速度和破坏力超群,在突袭战中占据绝对优势。两人用游戏角色定位分析虹翼成员:顾绮野是刺客,尤芮尔是法师,九十九是射手,傀儡之父是召唤师。加菲尔德展示异能创造的战斗机和高达。尤芮尔为让顾绮野"战胜心理阴影",在游戏中特意选鬼钟让他击败,顾绮野配合着"复仇"。飞机抵达日本,两人前往大阪异行者协会。尤芮尔邀请顾绮野任务后陪她去黎京福利院,顾绮野答应了,但内心清楚任务后将成为通缉犯。</p>
+<h2>第305章 蜂侯集会，饕餮盛宴</h2>
+<p>无名岛上,四大蜂侯在蜂巢入口聚集。大蜂侯乔思考存在的意义,二蜂侯古力追求杀戮和征服,三蜂侯卡梅隆玩弄人类尸体制作玩具,四蜂侯麦尔维特对人类事物不感兴趣。工蜂带来大量被捕获的异能者尸体,准备让蜂侯进食以觉醒特殊能力。虹翼的飞机抵达日本,顾绮野在机上与尤芮尔交谈,尤芮尔邀请任务后一起去黎京福利院看望孩子们。顾绮野意识到任务后将与尤芮尔分道扬镳,因为他即将成为"杀死傀儡之父"的罪犯。蜂侯们准备开始"饕餮盛宴",吞食异能者以获得强大能力。</p>
+<h2>第306章 火车上的第四人，身份大危机</h2>
+<p>纽约废弃火车站,黑蛹(顾文裕)等待柯祁芮的火车恶魔。火车到来时,黑蛹发现车厢内除了林一泷,还有意外的第四人。柯祁芮透露那是黑蛹的妹妹苏子麦,她偷听了录音笔,得知黑蛹就是顾文裕。黑蛹无奈登上火车,在8号车厢见到苏子麦。苏子麦拿出从顾文裕房间找到的纸箱,里面装满纸尿裤、录音笔、半成品面具和日记本,这些证据确凿证明黑蛹就是她哥哥。面对妹妹的质问,黑蛹最终决定摘下面具,向苏子麦展示真相。这场兄妹相认即将正式开始。</p>
+<h2>第307章 苏子麦：别装了，老哥</h2>
+<p>火车8号车厢内,苏子麦要求亲自摘下黑蛹的面具。顾文裕配合她,苏子麦仔细抚摸确认他的面容。随后苏子麦向"黑蛹"告白,说自己喜欢他,因为他跟哥哥很像。顾文裕尴尬地配合演戏,在"黑蛹"和"顾文裕"两个身份间切换。苏子麦倾诉黑蛹多次救她,让她第一次喜欢上别人,但知道真相后感觉心里空荡荡的。最终苏子麦崩溃,抱住顾文裕哭泣,责怪他一直欺骗自己。顾文裕安慰妹妹,两人和好。苏子麦原谅了哥哥,但要求他答应安全归来。兄妹俩在火车上度过温馨时光,顾文裕承诺以后每天陪她上学。</p>
+<h2>第308章 苏子麦的告白</h2>
+<p>火车继续前行,顾文裕向苏子麦解释自己的分身能力——可以用拘束带创造分身并变形,这解释了他如何同时出现在不同地方。苏子麦回忆起小时候在公园秋千上被顾文裕安慰的场景,看着日记本上的画,终于确信眼前就是她的哥哥。兄妹俩谈论家事,顾文裕要求苏子麦对老爹和大哥保密自己就是黑蛹。苏子麦答应保密,但要求顾文裕保证安全归来,并带上老哥他们一起。顾文裕向柯祁芮提出,如果岛上出现无法解决的怪物,希望她能帮忙用时空能力处理。火车即将抵达日本大阪。</p>
+<h2>第309章 兄与妹，黑蛹的交易</h2>
+<p>火车上,顾文裕继续向苏子麦展示异能,解释分身和变形能力。两人讨论纸尿裤箱子的来历——原来是超市老板为感谢黑蛹救人而送的。苏子麦回忆东京拍卖会时被夏平昼"针对",原来是顾文裕安排夏平昼对她放水。兄妹俩打趣调侃,关系更加亲密。苏子麦承诺保守秘密,不告诉老爹和大哥顾文裕就是黑蛹,但要求他保证安全归来。顾文裕答应了。两人在火车上相依而眠,苏子麦终于安心。顾文裕向柯祁芮提出,如果岛上形势失控,希望她能用时空能力帮忙。火车即将抵达目的地,复仇计划即将正式启动。</p>
+<h2>第310章 约定，歼灭，探查</h2>
+<p>飞机抵达大阪,顾绮野醒来时发现尤芮尔没叫醒他,而是安静地在旁边玩游戏。两人前往大阪异行者协会大楼开会。途中尤芮尔再次邀请顾绮野任务后陪她去黎京福利院,顾绮野答应了,但内心清楚任务后将成为罪犯。在电梯里,尤芮尔坦诚表达自己的情感,说福利院的孩子们想见他,她想把孩子们的笑脸分享给他。顾绮野被这份真诚打动。到达会议室,指挥官陈茜宣布任务分工:一批人清理城市里的噬光蜂巢穴,另一批人前往无名岛侦查。顾绮野和尤芮尔决定两项任务都参与。会议结束,虹翼成员开始行动。</p>
+<h2>第311章 深入蜂岛，遇敌，袭击</h2>
+<p>加菲尔德用异能创造两架战斗机,载着顾绮野、尤芮尔、织田英豪和自己前往无名岛侦查,漆原琉璃在外围待命准备紧急撤离。战斗机潜入笼罩在黑暗中的岛屿,无人机拍摄到密密麻麻的噬光蜂在吸食阳光,以及位于山顶的金黄色巨型蜂巢。四大蜂侯的样貌被清晰捕捉。正当侦查进行时,大蜂侯乔突然察觉到他们,以惊人速度暴射向战斗机,击破前窗。顾绮野本能反击,用闪电手刀刺穿乔的手掌,但发现对方身体异常坚硬。乔的毒素通过接触传播,顾绮野瞬间失去行动能力。尤芮尔用冰能力救援,织田英豪创造空洞吞噬追击的蜂群,漆原琉璃紧急传送四人撤离。</p>
+<h2>第312章 首次交锋，空洞，人类组织</h2>
+<p>战斗机遭大蜂侯乔袭击,顾绮野与乔短暂交手。顾绮野的闪电手刀刺穿乔的手掌,但乔的外骨骼异常坚硬。乔通过接触传播神经毒素,顾绮野瞬间麻痹无法动弹。尤芮尔用冰能力冻结乔的血管阻止其攻击,乔被迫撤退。织田英豪用太刀画出空间裂缝,吞噬上百只追击的噬光蜂。漆原琉璃及时用异能将四人传送回二号战斗机,成功撤离。蜂巢处,四大蜂侯讨论刚才的战斗,意识到入侵者是虹翼成员,预判虹翼很快会发动全面进攻。麦尔维特提醒同伴做好准备。顾绮野被冻结保存,等待回到协会后解除毒素。</p>
+<h2>第313章 书店来客，黑蛹的合作者们</h2>
+<p>大阪书店,苏蔚和顾卓案入住驱魔人协会安排的住所。黑蛹到来,西泽尔和亚古巴鲁也加入团队。小鲨鱼亚古巴鲁嚣张跋扈,自称"鲨中贵族",与众人斗嘴。苏蔚识破亚古巴鲁是传说中的永渊之鲨,提议去地下测试室验证实力。黑蛹透露苏子麦向他"表白",引起苏蔚和顾卓案紧张,但实际只是开玩笑。西泽尔介绍自己是箱中王庭三王子,为父王放出噬光蜂负责,决心灭族赎罪。顾卓案怀疑让小孩参战,黑蛹解释西泽尔实力不凡。苏蔚前往地下室清理噬光蜂,用天驱"教尺"瞬间斩杀百余只蜂族,展现强大实力。</p>
+<h2>第314章 大人物，教尺，银光</h2>
+<p>大阪书店地下室,苏蔚面对上百只正在进食的噬光蜂。他熄灭烛火,在黑暗中展开天驱"教尺",银光如梭在地下室闪烁,瞬间斩杀所有噬光蜂。与此同时,虹翼成员在大阪各处清剿蜂族巢穴。帆冬青和柯清正在水族馆解决噬光蜂,九十九直接炸毁藏有蜂族的废弃工厂,艾丝特用傀儡线斩杀儿童乐园的蜂族。驱魔人协会通知异能者协会,书店已交给"大人物"处理,无需虹翼介入。顾绮野在车上解除冰封,毒素效果消退。陈茜通过会议软件布置任务,标出大阪市内所有蜂族藏匿点,虹翼成员分头行动清剿。大阪的噬光蜂巢穴被逐一剿灭,城市逐渐恢复安全。</p>
+<h2>第315章 工作时间，两只蜂王的可能</h2>
+<p>虹翼成员在大阪各处清剿噬光蜂。帆冬青和柯清正在水族馆斩杀蜂族,九十九炸毁藏有蜂族的工厂,艾丝特用傀儡线在儿童乐园屠杀蜂族。深夜,黑蛹在旅馆收到顾绮野关于傀儡之父的信息。姬明欢的本体在救世会基地,导师告知可能诞生两只蜂王,每只强度堪比神话级奇闻持有者。柯奥洁娜接替导师,向三个孩子透露导师正在制造人造人,并告知孙长空和商小尺作为神话碎片持有者活不过18岁。孙长空和商小尺得知噩耗后情绪低落,姬明欢安慰她们,承诺救世会不会让她们轻易死去。孔佑灵因"说不了话"的问题被导师带走治疗,姬明欢要求见她。</p>
+<h2>第316章 柯奥洁娜，替代者，蜂侯来袭</h2>
+<p>救世会基地,柯奥洁娜接替导师看管三个限制级异能者。她透露导师正用自己基因制造人造人,还计划用姬明欢弟弟的基因制造新的人造人。柯奥洁娜直言神话级碎片持有者活不过18岁,孙长空和商小尺得知自己的死期后情绪低落,姬明欢安慰她们。孙长空坚强表示要"罩"姬明欢到18岁,商小尺也接受了现实。柯奥洁娜说明箱庭毁灭是三王子勾结白鸦旅团所致,导师离开是为调查真相。日本方面,加菲尔德的无人机侦测到大蜂侯乔离开无名岛,向大阪方向飞来,疑似要袭击虹翼。指挥官陈茜决定先不打草惊蛇,观察蜂侯意图。</p>
+<h2>第317章 苏蔚和乔，书店的蜂侯</h2>
+<p>深夜,大蜂侯乔独自离开无名岛,来到苏蔚的书店。苏蔚没有立即攻击,而是允许乔看书。两人展开哲学对话,乔寻求生存意义,苏蔚给予书籍推荐。乔察觉苏蔚杀了地下室的噬光蜂,但因苏蔚态度坦诚而选择道歉。两人互相试探,乔识破苏蔚想利用蜂族与异能者的矛盾达成目的,但苏蔚也坦然承认。乔表现出异于普通蜂族的智慧和冷静,对成为蜂王不感兴趣,只想理解存在的意义。苏蔚向他介绍哲学书籍,两人达成微妙默契。乔拿走几本书后离开,承诺还会再来。顾卓案全程在楼梯口戒备,对这只特殊的蜂侯印象深刻。苏蔚感叹噬光蜂中也有如此理性的个体。</p>
+<h2>第318章 人造人，十八岁的死期</h2>
+<p>救世会基地,姬明欢向柯奥洁娜询问导师的人造人计划。柯奥洁娜透露导师用自己基因和天灾级异能者基因制造人造人,现在又计划用姬明欢弟弟(顾绮野)的基因制造新人造人。孙长空天真建议制造多个姬明欢让他们自相残杀,被柯奥洁娜否定。柯奥洁娜直言神话级碎片持有者活不过18岁,孙长空和商小尺震惊。商小尺故作坚强说不想活那么久,孙长空豪气表示要"罩"姬明欢到18岁。姬明欢安慰两人,说救世会不会让她们轻易死去。柯奥洁娜透露孔佑灵因"说不了话"的问题被导师带去治疗,姬明欢要求见她。日本方面,顾文裕收到顾绮野消息,虹翼约傀儡之父吃饭,这是观察其真容的机会。</p>
+<h2>第319章 傀儡之父的真容</h2>
+<p>大阪道顿堀,顾绮野和尤芮尔在美食街约会,品尝章鱼烧和烤鲷鱼。尤芮尔透露自己从十岁起就失去味觉,只有在亲近的人身边才能尝到食物味道,最近在顾绮野身边恢复了味觉。两人应帆冬青邀约前往烤肉店聚餐,顾绮野首次见到摘下绷带的傀儡之父——一个戴眼镜、白净、斯文的中年男人。聚餐时,顾绮野与傀儡之父交谈,发现他是个神神叨叨、认为人类太多太聪噪的怪人。顾绮野拍下傀儡之父照片发给黑蛹。黑蛹震惊发现傀儡之父长得和导师一模一样,推测他可能是导师用自己基因制造的人造人。会后陈茜宣布三天后即8月14日凌晨发动总攻,正式剿灭噬光蜂。</p>
+<h2>第320章 导师与傀儡之父，最后会议</h2>
+<p>黑蛹从顾绮野发来的照片中震惊发现,傀儡之父的长相与导师几乎一模一样。他推测傀儡之父可能是导师用自己基因和其他异能者基因制造的人造人,这解释了为何他既有精神系能力又能操控尸体。黑蛹确信无论如何,傀儡之父必须在岛上行动中被除掉。他返回旅馆与西泽尔、亚古巴鲁玩大富翁,询问西泽尔的第三枚奇闻碎片是"巴别塔",可召唤天雷进行无差别攻击。黑蛹测试拘束带能克制奇闻使,阻止他们唤出奇闻图录。大阪方面,虹翼聚餐后召开最后作战会议,陈茜详细介绍四大蜂侯能力:乔的神经毒素、古力的巨大化、卡梅隆的尸体强化和隐身、麦尔维特能力未知。作战时间定为8月14日凌晨0点,虹翼成员各就各位准备最终决战。</p>
+<h2>第321章 黑蛹,和书店的两位不速之客</h2>
+<p>大阪书店深夜,黑蛹和苏蔚正在店中。顾绮野通过消息告知,8月14日凌晨0点虹翼将对无名岛发起总攻。黑蛹担心父亲顾卓案会出意外。此时大蜂侯乔带着三蜂侯卡梅隆来到书店,乔想利用卡梅隆的隐形翅膀秘密离岛。黑蛹隐身在天花板上却被乔敏锐的感官发现。气氛剑拔弩张,但苏蔚表示这是他的客人。乔感觉黑蛹是比噬光蜂更高级的存在。紧张气氛缓和后,乔还了借的书并询问推荐新书。苏蔚提醒乔虹翼即将行动,但乔仍然定期来看书,显示出他对人类文化的兴趣。</p>
+<h2>第322章 质疑,危机,险境</h2>
+<p>乔质疑苏蔚为何让客人藏起来,认为这是愚弄他。卡梅隆也准备动手,气氛危险。黑蛹主动现身自我介绍为"吞银"。苏蔚察觉到地下室的顾卓案已经赶来,心情放松。乔和卡梅隆对黑蛹感到莫名的恐惧和困惑。乔最终收敛杀意,承认是自己冒昧了。卡梅隆离开书店去找乐子。乔归还借阅的书,苏蔚向他推荐新书。乔询问苏蔚是否会帮他对抗异能者,苏蔚明确表示不会插手,但暗示如果蜂族能战胜虹翼,他们不会阻止。乔对人类书籍表现出浓厚兴趣,甚至说想开一家书店,但苏蔚指出他无法舍弃族群。苏蔚暗示明天乔可能来不了,让他考虑离开。</p>
+<h2>第323章 黑蛹的时停time</h2>
+<p>黑蛹向顾卓案提出"借用"他的时间系异能。顾卓案起初拒绝,但在苏蔚的劝说下同意配合。黑蛹用拘束带缠住顾卓案,成功窃取了进化后的"钟楼之影"异能,可以暂停时间1.5秒。黑蛹尝试让分身也窃取同一异能但失败,发现24小时内无法对同一目标连续窃取两次。苏蔚介绍了顾卓案的实力已超越大多数天灾级。黑蛹测试时停能力成功,但因为是劣化版只能停1.5秒而非2秒。顾卓案对黑蛹的能力给予了难得的认可。黑蛹表示在14号凌晨行动前需要再次窃取顾卓案的异能以保持效果。</p>
+<h2>第324章 较量,鲨鲨头槌,表现</h2>
+<p>西泽尔带着亚古巴鲁来到地下室。黑蛹让他们展示实力。亚古巴鲁因顾卓案的不礼貌而生气,变成百米巨鲨用头槌攻击。顾卓案全力应对,但在力量对抗中稍处下风,被撞退十多米。亚古巴鲁展示了作为永渊之鲨的强大实力,苏蔚确认这是货真价实的传说生物。西泽尔准备展示世代级奇闻"圣诞雪橇",苏蔚表示不需要证明。顾卓案承认没见过世代级碎片。苏蔚回忆起与鲸庭王庭队的往事,认为新一代不如上一代。黑蛹透露鲸庭就在亚古巴鲁肚子里,让苏蔚和顾卓案大吃一惊。西泽尔说明黑蛹是他们的救命恩人,苏蔚对外孙感到欣慰。</p>
+<h2>第325章 影子,愿望,告别</h2>
+<p>姬明欢进入精神图书馆,发现天花板上多了第四具尸体的影子。红龙威尔士质疑他是否把现实当游戏,把身边人当傀儡。姬明欢承认如果可以不想杀救世会的孩子,但认为不太可能。关于开膛手他决定杀掉以保住夏平昼和获得旅团助力。对于和服少女(柯祁芮)他表示世界上没有两全其美的事。姬明欢强调姬明诗是唯一的家人,但红龙指出他在乎的人已经变多了。无名岛上,乔在蜂巢看完书。他对人类书籍着迷,甚至表达了想开书店的愿望。苏蔚指出他无法舍弃族群。苏蔚暗示明天乔可能来不了,建议他不回岛上。但乔还是带着书离开了,苏蔚叹气。</p>
+<h2>第326章 冰岛少女的告白</h2>
+<p>大阪道顿堀,顾绮野和尤芮尔在夜市散步。尤芮尔告知人员分配:漆原琉璃待命,四人清理工蜂,傀儡之父对大蜂侯乔,加菲尔德和帆冬青对二蜂侯古力,柯清正对三蜂侯卡梅隆,顾绮野和尤芮尔对四蜂侯麦尔维特。因三蜂侯可能已离岛,柯清正和艾丝特留守大阪。顾绮野给福利院孩子录了蓝弧视频发给尤芮尔。在运河边,尤芮尔主动表白,她用冰面带顾绮野到河中心,说喜欢的人孩子们也会喜欢。顾绮野说等行动结束再谈,让她活下去。两人被游船游客发现,顾绮野抱起尤芮尔化作闪电离开。这一幜温情的告白为即将到来的战斗增添了悲壮气氛。</p>
+<h2>第327章 异族游戏,倒计时,腥风血雨</h2>
+<p>8月13日19:00,大阪港口,虹翼十二人齐聚。距离行动还有5小时,指挥官陈茜最后确认任务分配。帆冬青被反复点名,众人利用这段时间在港口附近活动。顾绮野和尤芮尔在夜市散步,气氛温馨。此时天保山摩天轮忽然爆炸,三蜂侯卡梅隆现身并制造了大量变异噬光蜂,开始在大阪制造混乱。她的能力是用人类尸体创造噬光蜂,观光船上的游客被转化为自爆兵。指挥官临时调整计划,柯清正和艾丝特留守大阪防御。其他人登上战机前往无人岛。柯清正和艾丝特发现摩天轮被袭,开始应对卡梅隆制造的混乱局面。这一章为双线战斗拉开序幕。</p>
+<h2>第328章 集结时间</h2>
+<p>8月14日凌晨,大阪书店内,黑蛹等待最后一人幕泷。鬼钟全副武装现身,黑蛹调侃要拍遗照。幕泷终于出现,黑蛹怀疑他被洗脑,但鬼钟确认无问题。众人准备出发,讨论交通工具分配。西泽尔的圣诞雪橇、不死鸟、亚古巴鲁可载众人。苏蔚从二楼下来,众人准备离开。鬼钟不小心砸坏墙壁,西泽尔"告状",但苏蔚说书店本就不是他的。同时,虹翼成员在港口集结。指挥官通知三蜂侯可能在大阪,柯清正被要求留守。顾绮野给尤芮尔发了蓝弧视频。除艾丝特和柯清正外,其他人登上战机前往无人岛。摩天轮出事,柯清正和艾丝特开始应对大阪的危机。</p>
+<h2>第329章 八方火力,一触即发</h2>
+<p>8月14日凌晨0点,虹翼对无人岛发起总攻。漆原琉璃首先着陆,负责监控和紧急传送。东侧亚历珊德拉用"日月同行"创造红日焚烧工蜂;西侧九十九用"军火压制"炮轰;南侧织田英豪用"黑色空洞"吞噬;北侧卡莉娜用"极地领域"创造沙漠龙卷。四方工蜂被迅速剿灭,这是一场单方面的屠杀。在蜂巢上空,傀儡之父、帆冬青、加菲尔德、顾绮野、尤芮尔五人开始行动。傀儡之父的机械佛祖一掌将大蜂侯乔轰入地面。加菲机甲用光剑钉住极巨化的二蜂侯古力。顾绮野和尤芮尔配合默契,利用冰面和闪电突破古力防御,成功进入蜂巢内部。这一章展现了虹翼强大的战斗力和精密的战术配合。</p>
+<h2>第330章 机械佛祖,震惊的乔</h2>
+<p>无人岛战火四起,虹翼四架战机抵达蜂巢上空。大蜂侯乔抓着二蜂侯古力向战机飞射。傀儡之父释放机械佛祖从天而降,一掌将乔轰入地面,展现出碾压性的力量。乔被佛祖的神性震撼,但他发现对方破坏力不足以伤害自己的外骨骼。他开始适应佛祖的速度并反击。佛祖口中喷出火焰和蒸汽,将乔炸伤,但乔的再生能力极强。远处古力被龙舟和加菲机甲围攻,最终被九十九的导弹轰成碎末。乔听到古力的惨叫,决定返回蜂巢,利用机械佛祖的反冲力弹飞并振翅飞向蜂巢。傀儡之父让他逃走了。这一章展现了机械佛祖的强大和乔的坚韧,同时二蜂侯古力被消灭。</p>
+<h2>第331章 大阪战场,哥特少女的独角戏</h2>
+<p>虹翼突袭无人岛同时,大阪港的艾丝特和柯清正应对三蜂侯卡梅隆的袭击。摩天轮和观光船上的游客被转化为变异噬光蜂。艾丝特进入"人偶状态",由人偶线操控做出最优行动。柯清正用空气子弹狙击变异蜂。卡梅隆隐形逃跑,但艾丝特通过人偶线追踪。卡梅隆在大厦间设下自爆蜂陷阱,艾丝特用巨兔玩偶挡住爆炸并追上卡梅隆。舞女人偶用丝线困住卡梅隆,艾丝特用人偶线斩首三蜂侯。战斗结束后,艾丝特的两个人格(奶奶艾丝特和孙女爱丽丝)对话,为失去的兔子玩偶感到难过。艾丝特要求柯清正买新玩偶,然后在废墟中的棺材里沉睡。这一章展现了艾丝特独特而强大的战斗方式。</p>
+<h2>第332章 空爆,神罚,烟火</h2>
+<p>无人岛陷入末日般的混乱。四方的虹翼成员用各自异能剿灭工蜂,这是纯粹的屠杀。岛屿中心,帆冬青和加菲尔德围攻二蜂侯古力。古力守在蜂巢入口,拥有变态的再生能力,让两人的攻击像笑话。战况白热化,古力不断进化,身体变得更强。他掀起尾锤击碎了戾青之舟。九十九完成西侧工蜂清理任务后赶来支援,成为第一个完成任务的成员。三人决定全力以赴,帆冬青用龙口火焰将古力轰向地面,加菲尔德发射能量导弹,九十九释放千座浮游炮台。炮火如神罚般降临,形成巨大蘑菇云。二蜂侯古力的身体被彻底轰成灰烬。这一章展现了虹翼三人合力的恐怖破坏力和古力的悲壮结局。</p>
+<h2>第333章 钟声,黑蛹,奇袭</h2>
+<p>一分半钟前,岛屿边缘的沙滩上,漆原琉璃正监控战场。她忽然听到钟声,还没反应过来,时间就被暂停了。黑蛹利用窃取的鬼钟异能暂停时间1.5秒,在这期间从岩山上落下,用拘束带捆住漆原琉璃并摧毁所有无人机。时间恢复后,漆原琉璃震惊地发现自己被制服且异能被抑制。黑蛹自我介绍并表示要带她走,询问关于救世会和她哥哥漆原理的事。黑蛹提到"漆原理"这个名字让琉璃身体一怔。与此同时,苏蔚、西泽尔、鬼钟、幕泷等人乘亚古巴鲁在神隐之伞庇护下接近无人岛。黑蛹将漆原琉璃带到岩山后方,释放拘束带化身前往岛屿中心参战。这一章揭示了黑蛹一方的奇袭计划开始执行。</p>
+<h2>第334章 立场,进化,怒佛</h2>
+<p>黑蛹将漆原琉璃带到岩山后,命令拘束带化身前往岛屿中心。苏蔚一行人赶往战场,苏蔚表明立场:他不会帮异族对抗人类,但默许黑蛹提前抓住漆原琉璃,让虹翼失去传送救援能力。目标是等虹翼解决蜂族后,趁其虚弱时袭击,杀死傀儡之父并活捉其他三名救世会卧底。岛屿中心,大蜂侯乔被机械佛祖压制。乔拥有强大的适应力和再生能力,不断进化外骨骼。他逐渐适应佛祖的攻击速度并开始反击。佛祖喷出蒸汽和火焰将乔重创,但乔仍然顽强。此时天空传来古力的惨叫,乔看到古力被轰杀,决定返回蜂巢。他利用机械佛祖的攻击获得反冲力,振翅飞向蜂巢保护蜂后和麦尔维特。</p>
+<h2>第335章 麦尔维特,蜂王之谜</h2>
+<p>顾绮野和尤芮尔进入蜂巢,遇到四蜂侯麦尔维特守在蜂后的茧房前。麦尔维特的异能是创造六边形镜面,可吸收攻击并反射。两人的远程攻击被镜面反弹回来。麦尔维特透露重要信息:蜂王诞生的条件是蜂侯互相吞食,他是蜂后生来就是要被吃掉的祭品。麦尔维特因不想死而把蜂后打成重伤,并向其他蜂侯隐瞒了成王的条件。他感到虚无和愤怒。战斗中,顾绮野和尤芮尔配合默契,利用麦尔维特脚底这一防御盲点,用地面电网将其击败。顾绮野贯穿了麦尔维特的心脏。临死前,麦尔维特说希望乔能获得自由。顾绮野随后用电球摧毁茧房和蜂后。这一章揭示了蜂王诞生的秘密和麦尔维特的悲剧。</p>
+<h2>第336章 废墟,蜂王之影</h2>
+<p>顾绮野用巨大电球摧毁蜂后和茧房,整座蜂巢开始崩塌。大蜂侯乔从天而降进入蜂巢,看到蜂后尸体和麦尔维特的遗体。他付出右臂代价从狂暴闪电中抱起麦尔维特,低声说让他失望了。顾绮野和尤芮尔逃出蜂巢,虹翼成员在外等待。蜂巢坠毁,任务看似完成。但震惊的一幕出现:乔从废墟中走出,身体发生巨变——深红色外骨骼覆盖全身,四只翅膀,尾部变成利刃。所有人意识到乔吞食了麦尔维特的尸体,进化成了蜂王。乔的威压铺天盖地,即使身经百战的虹翼成员也感到前所未有的恐怖。这是他们从未直面过的怪物,原本的胜利瞬间变成绝境。蜂王的诞生成为整个战局的转折点。</p>
+<h2>第337章 蜂王的诞生,登场的黑蛹</h2>
+<p>蜂王乔从废墟中走出,深红外骨骼、四翅、利刃尾部,威压如深渊。他释放覆盖全岛的神经毒素粉尘,所有虹翼成员瞬间瘫痪动弹不得,包括顾绮野、尤芮尔、帆冬青、九十九、傀儡之父等所有人。加菲尔德驾驶机甲想保护顾绮野,但被蜂王一脚踹飞千米。加菲尔德逃生后也吸入毒素瘫痪。乔慢慢走向顾绮野,准备杀死杀害麦尔维特的凶手。顾绮野和尤芮尔对视,以为必死。此时西泽尔的圣诞雪橇从天而降攻击乔。因"王之加护"让西泽尔百毒不侵,黑蛹的拘束带化身也不受毒素影响。两人成为唯一能行动的存在。黑蛹宣称30秒内杀死蜂王,用窃取的亚历珊德拉异能创造红日和月光压制乔,然后召唤柯祁芮的火车恶魔,将乔送入时空乱流消灭。</p>
+<h2>第338章 黑蛹VS蜂王"乔"</h2>
+<p>黑蛹用窃取的"日月同行"对战蜂王乔。先用红日压制,因噬光蜂本能吸收阳光导致乔被灼烧。然后用月光定身20秒(因蜂族抗性实际15秒)。黑蛹提前计算好一切,召唤柯祁芮的火车恶魔。乔被电影幕布送入7号车厢,火车冲入时空隧道。姬明诗的魔术衣柜将乔锁住并送入时空乱流。乔的身体开始消失,回忆起麦尔维特说他不适合当噬光蜂,应该去看更远的世界。乔最终在混沌中化为荧光消失。无人岛上,神经毒素效果消失,虹翼成员恢复行动。所有人震惊地看着黑蛹轻松解决了蜂王。黑蛹看向千米外的傀儡之父,他一直没让傀儡出手,只是在观察等待。苏蔚乘教尺降落,与黑蛹、鬼钟、幕泷会合,复仇时间开始。</p>
+<h2>第339章 背叛,怒火</h2>
+<p>沙滩岩山后,黑蛹本体和漆原琉璃在一起。黑蛹质疑为什么琉璃在神经毒素下仍能挣扎,怀疑她有特殊能力。漆原琉璃装傻不承认。黑蛹决定战后再慢慢清算。岛屿中心,苏蔚等人的教尺落地,将战场一分为二:教尺前是虹翼的帆冬青、九十九,后侧是救世会的傀儡之父、织田英豪、卡莉娜。幕泷从天而降加入。此时顾绮野突然背叛,电晕了尤芮尔。他表明目标只是救世会三人,让其他人离开。帆冬青、加菲尔德、九十九震惊质问。顾绮野让加菲尔德带走尤芮尔保护她。织田英豪拔刀,九十九准备战斗。苏蔚表明黑蛹是他外孙,让虹翼趁早离开。军用直升机到来,柯清正作为最后援兵出现。双方对峙,战斗一触即发。</p>
+<h2>第340章 援军和援军们,战场的分界线</h2>
+<p>顾绮野向虹翼表明自己从未把自己当他们的人,目标只是救世会的三人。帆冬青质疑他是叛徒,顾绮野承认。织田英豪拔刀,察觉顾绮野知道很多秘密。帆冬青质问漆原琉璃的下落,得知她是救世会的人。加菲尔德已无战力,顾绮野让他带尤芮尔离开。苏蔚的教尺降落,将战场分为两侧。西泽尔惊讶黑蛹是苏蔚外孙。军用直升机载着柯清正到来作为最后援兵。亚历珊德拉乘月球降落,要找黑蛹算账。战场形成对峙格局:教尺后侧是救世会三人和顾绮野、鬼钟、黑蛹、幕泷;前侧是苏蔚、西泽尔、亚古巴鲁对阵虹翼的帆冬青、九十九、亚历珊德拉、柯清正。亚古巴鲁变身巨鲨冲向帆冬青的戾青之舟,复仇之战正式打响。</p>
+<hr>
+<h2>第341章 乱战</h2>
+<p>孤岛之战进入白热化阶段。黑蛹、小田秀藏、卡莉娜、傀儡之父等多方势力混战。林泽然与林启明联手对战傀儡之父,黑蛹与小田秀藏展开剑术对决。战场上各方实力者施展绝技,空间能力、傀儡术、极地能力交织碰撞,场面混乱激烈,各方都在寻找击败对手的契机。</p>
+<h2>第342章 末代剑鬼,拘束带空洞</h2>
+<p>黑蛹与小田秀藏的决战达到高潮。小田秀藏展现出"拘束带空洞"的空间斩击能力,能够切断空间本身。黑蛹虽然剑术高超,但面对这种超规格的空间能力陷入苦战。两人的战斗展现了剑鬼一族的强大传承,小田秀藏作为末代剑鬼展现出惊人的战斗天赋和空间掌控力。</p>
+<h2>第343章 无尽极地,将来之死</h2>
+<p>卡莉娜展现出"无尽极地"的恐怖能力,在她的领域中时间流速被极度压缩,对手会瞬间老化死亡。然而面对林泽然和林启明父子的联手,卡莉娜最终还是被击败。她的"将来之死"能力虽然强大,但在绝对实力差距和战术配合面前仍然落败,身受重创。</p>
+<h2>第344章 父子联手VS傀儡之父</h2>
+<p>林泽然与林启明父子展现出惊人的配合默契,联手对战傀儡之父。两人利用各自的能力互相掩护,逐渐占据上风。傀儡之父虽然操控着大量强大傀儡,但面对父子二人的完美配合和强大实力,逐渐陷入劣势。战斗中父子之间的信任和默契成为制胜关键。</p>
+<h2>第345章 黑蛹之死</h2>
+<p>战斗进入最惨烈阶段。黑蛹在关键时刻为保护他人,挡下了致命攻击,身受重创濒临死亡。他用尽最后力量完成了最终的剑术,展现出令人震撼的牺牲精神。黑蛹的"死亡"震惊了在场所有人,他的付出为战局带来转机,但代价却是自己的生命,留下悲壮一幕。</p>
+<h2>第346章 战后</h2>
+<p>孤岛之战落下帷幕,各方清点损失。黑蛹的牺牲让众人悲痛,小田秀藏、林泽然等人陷入沉重氛围。战斗虽然获胜,但付出的代价巨大。众人开始处理战后事宜,收敛伤员,清理战场。这场战斗的影响深远,改变了许多人的命运轨迹,也让幸存者对力量和牺牲有了更深刻的认识。</p>
+<h2>第347章 葬礼筹备</h2>
+<p>为黑蛹准备葬礼成为重要任务。众人商议如何给这位英雄一个体面的告别仪式。林泽然、小田秀藏等人回忆起与黑蛹相处的点滴,感慨万千。葬礼的筹备过程中,大家逐渐从悲痛中走出,决心继承黑蛹的意志继续前行。各方势力也派代表前来吊唁,表达对这位牺牲者的敬意。</p>
+<h2>第348章 真相揭露</h2>
+<p>葬礼上意外发生,关于黑蛹身份和过去的真相被揭露。原来黑蛹背负着不为人知的秘密使命,他的牺牲并非偶然而是早有准备。这些真相让众人对黑蛹有了全新认识,也理解了他一直以来的行为动机。真相的揭露引发连锁反应,影响到多方势力的布局和计划。</p>
+<h2>第349章 新的威胁</h2>
+<p>葬礼结束后不久,新的威胁浮现。神秘组织开始活动,他们的目标指向战斗中暴露出的关键信息。林泽然等人意识到更大的危机即将来临,必须尽快做好准备。各方势力重新评估局势,开始新一轮的布局。黑蛹的牺牲虽然解决了眼前危机,但也为未来埋下了新的变数。</p>
+<h2>第350章 传承</h2>
+<p>小田秀藏继承了黑蛹的部分意志和技艺,决心将剑鬼一族的传承发扬光大。林泽然也从这场战斗中获得成长,对自己的道路有了更清晰认识。众人在悲痛中寻找前进方向,决心不辜负牺牲者的付出。新的征程即将开始,每个人都带着从黑蛹那里学到的精神,准备迎接未来挑战。</p>
+<h2>第351章 第4个游戏身体</h2>
+<p>林泽然的第4个游戏身体"小年兽"登场。这是一个全新的角色,拥有独特的能力体系。小年兽的出现为林泽然的计划增添新的变数,也为接下来的冒险提供了新的可能性。这个身体的特殊之处在于与传统年兽的联系,蕴含着古老的力量传承和神秘的背景故事。</p>
+<h2>第352章 年兽的起源</h2>
+<p>揭示了年兽一族的起源和历史。年兽并非简单的怪物,而是承载着特殊使命的古老种族。他们与人类世界有着复杂的联系,在历史长河中扮演着重要角色。小年兽作为新生代年兽,继承了祖先的力量但也面临着现代世界的挑战。这段历史解释了年兽存在的意义。</p>
+<h2>第353章 林星石的记忆</h2>
+<p>通过小年兽的视角,展现了林星石的过去记忆。林星石作为关键人物,他的经历和选择对当前局势有深远影响。记忆中揭示了林星石与年兽一族的特殊联系,以及他做出某些决定的真正原因。这些回忆碎片逐渐拼凑出一个更完整的真相,改变了众人对往事的认知。</p>
+<h2>第354章 初遇年兽大公</h2>
+<p>小年兽遇到了年兽一族的领袖——年兽大公。大公是一位威严而强大的存在,掌握着年兽一族的最高权力。初次见面充满试探和考验,大公要确认小年兽是否有资格继承年兽的力量和责任。两者之间的对话透露出年兽一族内部的复杂局势和隐藏的危机。</p>
+<h2>第355章 大公的考验</h2>
+<p>年兽大公对小年兽展开严格考验,测试其实力、智慧和品格。考验设计巧妙,不仅检验战斗能力,更考察对年兽一族传统的理解和对未来的愿景。小年兽在考验中展现出超出预期的表现,但也暴露出经验不足的弱点。大公通过考验评估小年兽是否能担当大任。</p>
+<h2>第356章 年兽一族的危机</h2>
+<p>揭露了年兽一族面临的生存危机。外部势力觊觎年兽的特殊能力,内部也出现分歧和矛盾。族群的延续和传承遭遇前所未有的挑战。大公希望通过培养新生代如小年兽来寻找出路,但保守派对此持反对意见。这场危机不仅关系到年兽一族,也会影响到更广阔的世界格局。</p>
+<h2>第357章 秘密任务</h2>
+<p>年兽大公交给小年兽一个秘密任务,这个任务关系到年兽一族的未来。任务内容涉及到寻找失落的古老遗迹和破解祖先留下的谜题。小年兽必须独自完成这个充满危险的任务,以证明自己的价值。任务背后隐藏着更深层的目的,与林泽然的整体布局也有千丝万缕的联系。</p>
+<h2>第358章 遗迹探索</h2>
+<p>小年兽开始探索古老遗迹,遗迹中充满机关和考验。这里保存着年兽一族的历史秘密和失传的力量。探索过程中,小年兽遭遇各种危险,但也获得了宝贵的知识和能力提升。遗迹的设计体现了古代年兽的智慧,每一个谜题都蕴含着深刻的道理和考验。</p>
+<h2>第359章 禁忌之力</h2>
+<p>在遗迹深处,小年兽发现了被封印的禁忌之力。这股力量极其强大但也极度危险,曾经差点毁灭年兽一族。古代先祖将其封印,警告后代不可轻易触碰。然而当前的危机让小年兽必须考虑是否要冒险使用这股力量。在力量与危险之间,小年兽面临艰难抉择。</p>
+<h2>第360章 抉择</h2>
+<p>小年兽在遗迹中完成最终考验,对于禁忌之力做出自己的判断。他没有贸然使用那股危险的力量,而是选择了更稳健的道路,寻找平衡之法。这个抉择体现了小年兽的成长和智慧,也得到了年兽大公的认可。任务完成后,小年兽带着新的力量和理解返回,为接下来的挑战做好准备,年兽一族的未来也因此看到了新的希望。</p>
+<h2>第381章 最后的告别,各奔东西,苏蔚的到来</h2>
+<p>十一年前的雪夜,小年兽与林醒狮告别。小年兽因年兽大君的行为导致林醒狮父母死亡而自责,林醒狮必须回去家族处理后事。两人约定未来重逢,林醒狮离开前吻了小年兽的额头。十一年后,小年兽回到海帆山与年兽大君谈心。同时,苏蔚和柯祁芮来到林家宅邸,决定帮助顾家对抗白鸦旅团。苏蔚意外得知白鸦旅团中有童子竹——苏颖当年收养的孩子。</p>
+<h2>第382章 黑蛹的突然来信</h2>
+<p>苏蔚确认童子竹是苏颖的养女,决定在行动中尝试救她。顾绮野独自回到房间查看手机,意外收到了来自"黑蛹"的新信息——三个表情包。他震惊不已,因为顾文裕理应已经死亡,这条信息的出现让他怀疑弟弟可能还活着。顾绮野试图回复询问对方身份,但立即被拉黑。这个神秘事件让顾绮野陷入困惑和希望交织的情绪中,不知该如何面对这一切。</p>
+<h2>第383章 同类,恨与爱意,归宿</h2>
+<p>深夜,阎魔凛把刀架在夏平昼脖子上,约他聊天。她告诉夏平昼只有"空心"的人才能听见妖刀的声音,认为两人是同类。阎魔凛质疑夏平昼对绫濑折纸的真心,夏平昼反问她是否真的不怕死。两人互相试探,阎魔凛表示希望夏平昼不要伤害绫濑折纸。谈话结束时,阎魔凛用妖刀在夏平昼耳朵上留下一道伤口。夏平昼独自来到海边沙滩,召唤暴怒恶魔和皇后巨像测试实力,为即将到来的战斗做准备。</p>
+<h2>第384章 和服少女的告白</h2>
+<p>凌晨,夏平昼被阎魔凛吵醒后无法入睡。他带绫濑折纸上山看日出,两人坐在木椅上观赏壮丽的海上日出景象。回到酒吧后,绫濑折纸睡不着,夏平昼陪她聊天。姬明欢讲述自己被父母关在衣柜的童年创伤,绫濑折纸说愿意陪他躲在衣柜里。他们互相安慰对方的噩梦,夏平昼在绫濑折纸的幻想中踹飞她暴虐的父亲,告诉她可以笑。绫濑折纸在梦中对夏平昼说"我也喜欢你",两人相拥入睡。</p>
+<h2>第385章 大幕渐起</h2>
+<p>8月23日,距离湖猎与年兽大君开战仅剩一日。小年兽在森林中与青蛇恶魔争论,表示不愿参与年兽大君注定失败的战争。姬明欢的意识沉入精神图书馆,与限制级1001和红龙威尔士交流。他情绪崩溃地发泄对各种身份的厌倦,不知如何面对顾家和绫濑折纸。限制级1001告诉他父母的真相:他们是为了保护弟弟才离开,最终被救世会杀害。当晚,年兽大君率生肖队向湖猎发起总攻,战争正式打响。</p>
+<h2>第386章 顾家的突袭,白鸦旅团的十一人</h2>
+<p>8月23日深夜至24日凌晨,年兽大君率领生肖队向林家府邸发起攻击。湖猎四人应战,战况激烈。混战中,顾家的顾卓案和顾绮野突然出现,对旅团发起突袭。他们利用元素能力牵制住部分旅团成员。与此同时,白鸦旅团的十一人也抵达战场,准备趁乱偷袭湖猎。夏平昼暗中观察局势,计划利用这场混战完成自己的目标。多方势力在海帆城展开一场惊天大战,局势扑朔迷离。</p>
+<h2>第387章 死亡,幻梦,复仇</h2>
+<p>激战中,周九鸦和钟无咎突然对林醒狮发起攻击。原来两人被救世会的孔佑灵精神控制,成为内鬼。林醒狮在两位队友的围攻下身受重伤,琉璃狮子几近破碎。诸葛晦赶来支援,但为时已晚。周九鸦和钟无咎的突然叛变让所有人震惊。这场内讧让湖猎陷入绝境,也为白鸦旅团创造了绝佳的偷袭机会。战局瞬息万变,各方势力的真正目的逐渐浮出水面,一场更大的阴谋正在展开。</p>
+<h2>第388章 幻象,叛变,棋盘</h2>
+<p>战斗继续,夏平昼暗中操纵局势。他召唤皇后石像和国王石像,利用棋手的能力控制战场。流川千叶察觉到夏平昼的异常,开始怀疑他的真实身份。夏平昼知道自己的卧底身份即将暴露,必须尽快完成任务。他在混战中寻找机会击杀开膛手杰克,同时避免暴露自己。战场上幻象重重,各方势力如同棋子在夏平昼的棋盘上移动。这场看似混乱的战斗,实则都在夏平昼的计算之中。</p>
+<h2>第389章 夏平昼:黑蛹,还活着</h2>
+<p>战斗暂歇,夏平昼向旅团成员表明自己的真实立场。他揭露湖猎内部被精神控制的真相,并声称黑蛹还活着。夏平昼利用掌握的情报——包括血裔的真名特蕾西娅、白贪狼儿子的下落——成功说服两人跟随他离开。他当众归还绫濑折纸送的手套,表示因为那是开膛手挑选的礼物,他无法接受。绫濑折纸看着手套落地,流下眼泪。夏平昼带着血裔和白贪狼离开了地下酒吧,正式与旅团决裂。</p>
+<h2>第390章 旅团的怒火,年兽之子的到来</h2>
+<p>夏平昼、血裔和白贪狼离开后,漆原理沉默地处理阎魔凛和安德鲁的尸体。绫濑折纸呆立原地,泪水无声滑落。漆原理追到屋顶,看着三人乘坐白贪狼的兽形消失在海平线。他收到黑蛹的消息,得知夏平昼将在9月1日抵达冰岛霍夫斯冰川。翌日清晨,漆原理率团员登上飞往冰岛的航班。海帆山墓园,诸葛晦和林醒狮为周九鸦举办葬礼,决定前往冰岛寻找真相。夏平昼一行飞越太平洋,前往冰岛首都雷克雅未克暂时藏身。</p>
+<h2>第391章 鏖战,流星,登场的小年兽</h2>
+<p>8月24日凌晨,年兽大君率领生肖队与湖猎展开激烈战斗。双方在海帆城外围激战,破坏力惊人。年兽大君虽强大,但面对新一代湖猎仍处劣势。战斗中,林醒狮展现出惊人实力,压制住了年兽大君。生肖队的八名成员与湖猎其他队员交手,互有胜负。正当年兽大君陷入险境时,一道流星般的身影从天而降——小年兽终于登场。它头戴魔冕,浑身燃烧着紫红色火焰,威压惊人,改变了战局的走向。</p>
+<h2>第392章 重逢,故人,魔临</h2>
+<p>小年兽的出现让战局发生逆转。它与林醒狮重逢,两人十年未见,情感复杂。小年兽展现出强大实力,以一敌多牵制住林醒狮。战斗中,小年兽和林醒狮回忆起童年往事,情感与战斗交织。年兽大君看到儿子终于出手相助,感到欣慰。然而此时,白鸦旅团也悄然潜入战场,准备趁乱偷袭。与此同时,救世会的影子也在暗处涌动。多方势力汇聚,一场更大的风暴即将来临,魔影笼罩整个海帆城。</p>
+<h2>第393章 小年兽VS林醒狮,周九鸦</h2>
+<p>小年兽与林醒狮正面交锋,两人战斗激烈却又克制。林醒狮的琉璃狮子与小年兽的紫红火焰碰撞,掀起惊天动地的波澜。战斗中,两人都没有下死手,更像是在试探对方。就在这时,周九鸦突然出现,他的状态诡异,仿佛被某种力量控制。周九鸦召唤通古罗盘的各种古董,向林醒狮和小年兽发起攻击。小年兽意识到周九鸦被精神控制,试图制止他,但周九鸦的攻势凶猛,让战局更加混乱。</p>
+<h2>第394章 旅团和湖猎的内鬼,黑蛹的提醒</h2>
+<p>流川千叶通过精神能力发现周九鸦和钟无咎被植入了精神烙印。他从钟无咎的记忆中看到了白发女孩孔佑灵,确认是她对两人进行了精神控制。黑蛹通过秘密渠道向各方势力传递情报,暗示救世会的阴谋。他告知众人冰岛霍夫斯冰川是关键地点,所有谜团的答案都在那里。黑蛹还透露自己仍然活着,并将在冰岛揭露救世会的真面目。各方势力收到情报后,纷纷开始为前往冰岛做准备。</p>
+<h2>第395章 林醒狮的生日</h2>
+<p>8月24日是林醒狮的生日,但她却在生死战斗中度过。小年兽在战斗间隙对她说"生日快乐",让林醒狮心中五味杂陈。回忆起十一年前的约定,两人都感慨万千。战斗暂时停歇,小年兽带林醒狮到灵心湖,用荷叶恶魔的露水治疗她的伤势。小年兽送给她一束勿忘我作为生日礼物,并告诉她冰岛的真相。他表示会在冰岛等她,让林醒狮照顾好自己。这个特殊的生日,成为两人重逢后最深刻的记忆。</p>
+<h2>第396章 内讧的湖猎,病院之战</h2>
+<p>周九鸦和钟无咎在精神控制下对林醒狮发起猛烈攻击。林醒狮难以置信队友的背叛,在两人夹击下节节败退。诸葛晦赶到支援,但面对两名顶尖战力仍力不从心。战斗转移到医院,激烈的交锋将医院化为废墟。林醒狮身受重伤,几近昏迷。就在此时,白鸦旅团抵达战场,看到千载难逢的机会。漆原理下令全员出击,准备一举歼灭湖猎。多方混战,医院彻底毁灭,形势对湖猎极为不利。</p>
+<h2>第397章 复仇日,旅团的怒火</h2>
+<p>白鸦旅团全力围攻受伤的湖猎成员。血裔、阎魔凛、安伦斯等人对钟无咎发起猛攻,钟无咎虽强但寡不敌众。另一边,漆原理、安德鲁、夏平昼、绫濑折纸围攻周九鸦。夏平昼召唤融合后的狂流皇后,配合团长的攻击。漆原理使用小王扑克牌调换位置,让周九鸦失去清明上河图的保护。夏平昼的皇后石像一剑刺穿周九鸦的身体,安德鲁补上致命一枪。周九鸦死亡,漆原理用大王扑克牌窃取了通古罗盘。正当旅团要对林醒狮下手时,小年兽降临救场。</p>
+<h2>第398章 最后时限,冰岛之约</h2>
+<p>小年兽威胁旅团离开,否则同归于尽。漆原理权衡利弊后决定撤退,旅团通过罗伯特的传送门离开。流川千叶在小年兽要求下解除了钟无咎的精神控制,并从记忆中看到孔佑灵的名字。小年兽带走昏迷的林醒狮到灵心湖疗伤,诸葛晦带着钟无咎和周九鸦的尸体离去。夏平昼回到酒吧,查看任务完成情况,获得属性点和技能点奖励。他与流川千叶交谈,得知更多关于孔佑灵的信息。夏平昼意识到必须尽快对开膛手动手,时限只剩不到一周。</p>
+<h2>第399章 开膛手之死</h2>
+<p>(基于前文推断)夏平昼决定在其他团员离开后对阎魔凛动手。他精心布局,选择了最佳时机。两人展开最后的决战,夏平昼召唤全部棋种与开膛手对决。战斗激烈而残酷,阎魔凛的妖刀与夏平昼的石像军团碰撞。最终,夏平昼成功击杀阎魔凛,完成了为父母复仇的夙愿。开膛手之死标志着夏平昼卧底任务的结束,他正式脱离白鸦旅团。同时也意味着他与绫濑折纸的关系彻底破裂,叛徒的身份已无法挽回。</p>
+<h2>第400章 尾声,叛鸦行</h2>
+<p>8月25日清晨,漆原理率领剩余团员登上飞往冰岛的航班。他收到黑蛹的信息,确认9月1日在霍夫斯冰川的约定。团员们讨论着夏平昼的叛变和开膛手之死,气氛沉重。绫濑折纸默默握着小猫挂件,眼神空洞。海帆山墓园,诸葛晦和林醒狮安葬周九鸦,决定前往冰岛寻找真相。夏平昼乘坐白贪狼飞越太平洋,前往冰岛。他烧掉手上的乌鸦纹身,纹身化作鸦羽飞向海平线消失。各方势力都向冰岛汇聚,最终决战即将来临。</p>
+<h2>第401-422章摘要</h2>
+<h2>第401章 四大机体集体毕业</h2>
+<p>夏平昼、小年兽、亚古巴鲁三具机体相继完成技能树开发，达到毕业状态。夏平昼在太平洋孤岛上完成最后技能点分配,解锁"巨神兵"、"斥力之手"和"最终进化"。小年兽前往冰岛途中,带领重组的生肖队赶路。亚古巴鲁在南极完成"吞噬传说之鲸"任务,体长达到520米,解锁"海啸"技能。四具机体中只剩黑蛹未完成最终准备,姬明欢的异能造物系统已趋于完善。</p>
+<h2>第402章 虹翼,通讯,再会</h2>
+<p>黑蛹在黎京铁塔上倒吊监视,通过尤芮尔向虹翼转达情报:九月一号在冰岛霍夫斯冰川会有重要事件。黑蛹利用拘束带化身潜入火车恶魔,准备与顾绮野等人会面。同时,西泽尔和亚古巴鲁抵达阿根廷乌斯怀亚,通过电话打探顾绮野等人的位置。黑蛹获知顾家藏身于老京麦火车站的火车恶魔中,开始制定接触计划。</p>
+<h2>第403章 复活的黑蛹,与家人的重逢</h2>
+<p>凌晨时分,黑蛹在废弃火车站与顾家父子、苏子麦相遇。他用画板书写大量文字,袒露内心挣扎:自己的多重身份、对家人感情的真假、姬明欢的孤独处境。顾文裕的脸庞在不同身份间变换,他质疑自己到底是谁,是否真的属于这个家庭。最终黑蛹绑架苏子麦离开,要求顾家九月一号前往冰岛霍夫斯冰川寻找真相,否则将伤害苏子麦。这场情感爆发的会面让顾家陷入震惊和困惑。</p>
+<h2>第404章 月色,坦白,苏子麦的疑问</h2>
+<p>黑蛹将苏子麦带到黎京铁塔,摘下面具露出顾文裕的面容。苏子麦没有责怪他,反而拥抱他说"不管你是谁,你都是我哥哥"。顾文裕开始向苏子麦坦白真相:自己是12岁的姬明欢,拥有创造游戏角色的异能,顾文裕、夏平昼、小年兽、亚古巴鲁都是他的机体。他解释了在伦敦遇见的病号服小孩就是他的本体,以及整个异能系统的运作方式。两人在高架桥上深入交谈,苏子麦逐渐理解并接受了真相。</p>
+<h2>第405章 叛变的导师,彻底疯狂的救世会</h2>
+<p>在监禁室内,导师向姬明欢透露救世会已成功制造人造人"限制级1003",使用了姬明欢弟弟和他自己的基因。导师坦承已用精神能力控制了所有救世会高层,整个组织现在由他独自掌控。他的真实目的是消除世界上所有超人种,为此不惜一切代价。导师当场命令实验者枪杀九名救世会高层,展现其疯狂。姬明欢意识到形势危急,必须加快营救本体的计划。</p>
+<h2>第406章 堕落的企鹅怪兽,孙长空的生日</h2>
+<p>姬明欢质问孔佑灵是否离开过救世会基地,孔佑灵承认导师曾带她外出,利用她的精神能力洗脑了湖猎的周九鸦和钟无咎,条件是帮姬明欢找回听觉并准备生日蛋糕。姬明欢责备她助纣为虐,但最终原谅了她。导师安排救世小队的孩子们提前为孙长空庆祝生日,孩子们在模拟的田野环境中分享蛋糕。姬明欢隐晦地暗示危险将至,与孙长空讨论死后想被埋葬的地方,为即将到来的冰岛决战做心理准备。</p>
+<h2>第407章 棋种最终进化,最后的来客</h2>
+<p>夏平昼的国际象棋棋种完成"最终进化",从钻石体进化为"类人体"。皇后石像等六枚棋种获得人类外观,战力大幅提升,主教石像觉醒"最终祭祀"能力。夏平昼为皇后石像取名"诗嘉古尔"。同时,白鸦旅团团长漆原理已抵达冰岛雷克雅未克,派出乌鸦监视城市寻找夏平昼。血裔询问夏平昼关于1001和黑蛹的情况。夏平昼表示黑蛹正在与一个小女孩旅行,即将在冰岛会面。</p>
+<h2>第408章 苏子麦的面具,到齐的顾家</h2>
+<p>凌晨时分,顾文裕和苏子麦坐在黎京港口,顾文裕喝着啤酒回忆往事。他准备带苏子麦偷渡上异行者协会的私人飞机前往冰岛,飞机上有虹翼成员尤芮尔。两人用拘束带隐身登机,在最后一个舱室躲藏。与此同时,顾绮野在黎京街头疯狂寻找苏子麦和黑蛹未果。火车站中,苏蔚、顾卓案、顾绮野、柯祁芮、幕泷聚集,讨论前往冰岛的计划。最终苏蔚决定同行,幕泷也加入队伍,要在解决救世会后再找顾绮野算账。</p>
+<h2>第409章 西泽尔与旅团,湖猎的加入</h2>
+<p>西泽尔和亚古巴鲁抵达冰岛雷克雅未克,在港口遇见化身乌鸦的漆原理。漆原理询问黑蛹和夏平昼的下落,西泽尔按亚古巴鲁的暗示回答,透露黑蛹通过王庭队的柯奥洁娜联系他们。在德式餐厅,西泽尔遇见白鸦旅团成员安伦斯、黑客和失恋的绫濑折纸。亚古巴鲁关心折纸并用水流写字安慰她。另一边,海帆城废弃火车站,林醒狮、诸葛晦、林一泷(幕泷)与顾家会合,湖猎正式加入对抗救世会的联盟。</p>
+<h2>第410章 噩梦,告别,冰岛会议</h2>
+<p>冰岛雪山别墅,夏平昼从关于阎魔凛的噩梦中醒来,思考她临死前说"如果可以把你杀死就好了"的真正含义——她想把夏平昼的灵魂留在天驱里陪伴自己。血裔询问夏平昼是否要见绫濑折纸最后一面,被他回避。雷克雅未克市内,顾文裕带苏子麦在雨中漫步,苏子麦要求他平安归来。纽约虹翼总部,六名虹翼成员召开作战会议,决定前往冰岛调查黑蛹提供的情报,尽管可能是陷阱也必须赴约。</p>
+<h2>第411章 笼中鸟</h2>
+<p>救世会监禁室内,姬明欢被限制在狭小空间,脖子上戴着抑制异能的项圈。他回忆起被抓进救世会的经过,以及这段时间与孔佑灵、孙长空等孩子建立的羁绊。姬明欢思考着如何逃脱,同时担心救世小队的孩子们被精神控制的命运。他意识到导师的计划越来越疯狂,必须尽快行动。环境模拟空间里,孩子们在虚拟的田野、海滩等场景中度过时光,但姬明欢知道这只是暴风雨前的平静。</p>
+<h2>第412章 摇篮曲</h2>
+<p>救世会地下层,限制级1003在营养槽中孕育成长。导师密切监控着这个用姬明欢弟弟基因制造的人造人,期待它能成为对抗姬明欢的最终武器。同时,导师利用孔佑灵的精神能力完成了对湖猎高层的洗脑,为即将到来的大战布局。姬明欢通过拘束带感官感知到基地内的异常活动,推测决战时刻临近。他开始在脑海中与限制级1001商讨对策,准备在关键时刻解除抑制项圈,释放真正的限制级力量。</p>
+<h2>第413章 限制级1003,吞噬,明天</h2>
+<p>导师正式向姬明欢展示限制级1003,这个人造人拥有八条机械爪子和强大的能量。导师透露1003的能量级别已超过抑制剂能控制的范围,他对此充满信心。姬明欢表面平静,内心却与1001讨论对策。1001认为用姬明欢弟弟的"低能基因"造出的只是"低能版限制级",不足为惧。导师宣布将让姬明欢和1003进行"困兽之争",在确保1003稳定后执行计划。姬明欢意识到留给他的时间不多了,必须加快营救进度。</p>
+<h2>第414章 最后一面</h2>
+<p>九月将至,各方势力开始向冰岛集结。姬明欢在监禁室内与孩子们度过最后的平静时光,在环境模拟空间里陪他们玩耍、聊天。他隐晦地向孙长空等人暗示即将发生的事,但受限于导师的精神监控无法明说。孔佑灵察觉到姬明欢的不安,两人用画本交流。姬明欢思考着如何在不伤害这些被洗脑孩子的前提下完成营救任务,但他知道这几乎不可能。夜幕降临,冰岛之战的序幕即将拉开。</p>
+<h2>第415章 冰岛战场"南":世界树之战</h2>
+<p>九月一日,冰岛霍夫斯冰川,多方势力汇聚。救世会的雪白高塔矗立在冰原上,导师展开世界树神话碎片的力量,巨大的白色树木破冰而出。顾家、湖猎、白鸦旅团、虹翼等势力从不同方向包围高塔。世界树的根须攻击入侵者,战场分为多个区域。林醒狮、诸葛晦等人与世界树的防御系统激战,树根如触手般抽打、缠绕。冰川崩裂,雪崩席卷,天地变色。这是南部战场,世界树成为救世会最强大的防御屏障。</p>
+<h2>第416章 夏平昼之死/恸哭的世界树</h2>
+<p>夏平昼率领进化后的棋种突破世界树防线,深入救世会高塔内部。在塔内遭遇导师和被控制的救世小队成员。激战中,夏平昼的国王棋种被摧毁,他本体暴露在危险中。孙长空化身齐天大圣与限制级1003交战,但实力差距明显,她身受重创。在生命最后时刻,孙长空用筋斗云冲入监禁室,用金箍棒砸碎姬明欢脖子上的项圈,随后在姬明欢怀中死去。世界树感知到生命凋零而恸哭,整个冰原陷入哀鸣之中。这一幕成为整场战斗的转折点。</p>
+<h2>第417章 冰岛战场"东":宙斯之战</h2>
+<p>冰川东侧,虹翼成员与救世会的第七个孩子"宙斯"交战。宙斯拥有雷电操控能力,释放的电流能瞬间融化冰层。帆冬青、加菲尔德、九十九等人联手应对,但宙斯的攻击范围广且威力巨大。艾丝特操控人偶线试图束缚宙斯,柯清正使用音波攻击干扰其行动。战斗中,尤芮尔的极寒能力与宙斯的雷电形成对抗,冰与电在空中碰撞产生壮观景象。虹翼逐渐占据上风,但宙斯突然爆发更强力量,战况再次陷入焦灼。</p>
+<h2>第418章 冰岛战场"北":齐天大圣之战</h2>
+<p>冰原北部,孙长空化身齐天大圣孙悟空,手持金箍棒脚踏筋斗云,与限制级1003展开惨烈对决。齐天大圣的三昧真火焚烧冰川,金箍棒每一击都引发地震般的轰鸣。但1003的八条机械爪子速度极快,不断刺穿、撕裂大圣的身体。孙长空拼尽全力,身体千疮百孔,鲜血染红冰面。她意识到自己不是对手,但为了保护姬明欢,她强撑着濒死之躯冲入救世会高塔,用最后的力量砸碎姬明欢的项圈,随后在他怀中失去生命。齐天大圣的身影消散,只剩下奄奄一息的红发女孩。</p>
+<h2>第419章 解限,0号机体</h2>
+<p>孙长空砸碎项圈后死在姬明欢怀中,姬明欢的抑制解除。系统提示【已解除初步限制】【已成功创建0号机体——限制级异能者:1002】。姬明欢睁开双眼,瞳孔中闪烁黑红文字流,他抱着孙长空的尸体缓缓升空。面对限制级1003,姬明欢展现真正的限制级力量:拘束带如海啸般涌出,瞬间绞杀1003千万次。他用空间能力将战场转移到宇宙中的一个棋盘星球,在那里彻底摧毁1003。战斗中,姬明欢捏碎齐天大圣的神话碎片,召唤金箍棒轰杀1003。最后姬明欢将导师囚禁在冰岛地下室,开始了漫长的折磨。</p>
+<h2>第420章 大结局:我们那时的天空</h2>
+<p>九月七日夜晚,东京铁塔,姬明欢与孔佑灵坐在围栏上。孔佑灵把画册递给他,画中是五个病号服小孩一起看电视的场景,有商小尺、孙长空等人。姬明欢轻声说"大姐头生日快乐,小尺同学对不起"。他告诉孔佑灵要带着逝者的份一起好好活下去。随后姬明欢开始四处旅行,在意大利找到血裔特蕾西娅,在挪威找到西泽尔,在雪山找到林醒狮,在海滩找到苏子麦,最后在冰岛病房找到绫濑折纸。他向每个人发出邀请,约定八年后一起环游世界。</p>
+<h2>第421章 番外一:世界树的孩子们</h2>
+<p>2020年10月,冰岛战后一个月。姬明欢用世界树神话碎片在撒哈拉沙漠找到了李清平、孙长空、商小尺、阎魔凛、白贪狼五人的灵魂,将他们的灵魂储存在世界树树洞中,树洞孕育出新的婴儿身体。姬明欢把四个婴儿(李清平、孙长空、商小尺、阎魔凛)带回顾绮野家,让顾绮野照顾他们。白贪狼的身体还需更长时间才能成形。姬明欢将苏子麦、尤芮尔、西泽尔、特蕾西娅等人聚集,向他们坦白真相并道歉。他囚禁导师,定期去告诉导师"好消息",让他在地下室度过余生作为惩罚。</p>
+<h2>第422章 番外二:天空树,八年后的婚约</h2>
+<p>2020年11月,姬明欢和绫濑折纸在东京天空树顶部约会。姬明欢坦白说自己不是夏平昼,担心绫濑折纸不了解真实的自己。他说"我们现在都还是小孩子,谈恋爱太早",提议八年后,在约定环游世界的那天,如果折纸还喜欢他,他们就结婚,可以办一场环游婚礼。绫濑折纸答应了。两人在东京塔顶互相亲吻脸颊,约定八年之约。雪花飘落,姬明欢用黑洞吸走大雪。最后一幕,姬明欢坐在月球上思考,1001提醒他世界上还有灵魂存在,李清平、孙长空可能还能复活,需要找到世界树碎片。姬明欢说"一个月,最多一个月就够了",准备开启新的寻找之旅。</p>
+<hr>2c:["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$2d"}}]
+25:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+21:null
+23:{"metadata":[["$","title","0",{"children":"Summary | 云微的胡思乱想"}],["$","meta","1",{"name":"description","content":"Documentation: Summary"}],["$","meta","2",{"name":"robots","content":"index, follow"}],["$","meta","3",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","4",{"rel":"canonical","href":"https://www.yunwei37.com/docs/%E5%B0%8F%E8%AF%B4/%E6%94%B9%E6%96%87/%E6%88%91%E7%9A%84%E5%8C%96%E8%BA%AB%E6%AD%A3%E5%9C%A8%E6%88%90%E4%B8%BA%E6%9C%80%E7%BB%88BOSS/summary"}],["$","link","5",{"rel":"alternate","type":"application/rss+xml","href":"https://www.yunwei37.com/feed.xml"}],["$","meta","6",{"property":"og:title","content":"Summary"}],["$","meta","7",{"property":"og:description","content":"Documentation: Summary"}],["$","meta","8",{"property":"og:url","content":"https://www.yunwei37.com/docs/%E5%B0%8F%E8%AF%B4/%E6%94%B9%E6%96%87/%E6%88%91%E7%9A%84%E5%8C%96%E8%BA%AB%E6%AD%A3%E5%9C%A8%E6%88%90%E4%B8%BA%E6%9C%80%E7%BB%88BOSS/summary"}],["$","meta","9",{"property":"og:site_name","content":"云微的胡思乱想"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:type","content":"article"}],["$","meta","12",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","13",{"name":"twitter:title","content":"Summary"}],["$","meta","14",{"name":"twitter:description","content":"Documentation: Summary"}]],"error":null,"digest":"$undefined"}
+28:"$23:metadata"

@@ -1,0 +1,74 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>云微的胡思乱想</title>
+      <link>https://www.yunwei37.com/blog</link>
+      <description>Personal Website of Yusheng Zheng | yunwei37</description>
+      <language>en-us</language>
+      <managingEditor>yunwei356@gmail.com (Yusheng Zheng)</managingEditor>
+      <webMaster>yunwei356@gmail.com (Yusheng Zheng)</webMaster>
+      <lastBuildDate>Wed, 14 Jun 2023 02:41:06 GMT</lastBuildDate>
+      <atom:link href="https://www.yunwei37.com/tags/gpt/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.yunwei37.com/blog/L7 Tracing with eBPF</guid>
+    <title>L7 Tracing with eBPF: HTTP and Beyond via Socket Filters and Syscall Tracing</title>
+    <link>https://www.yunwei37.com/blog/L7 Tracing with eBPF</link>
+    undefined
+    <pubDate>Wed, 14 Jun 2023 02:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category><category>gpt</category><category>ai</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/copilot</guid>
+    <title>GitHub Copilot 背后的 AI 编码技术：如何让 GPT 更好地理解你的代码</title>
+    <link>https://www.yunwei37.com/blog/copilot</link>
+    undefined
+    <pubDate>Sat, 27 May 2023 16:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category><category>gpt</category><category>ai</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/gpt-best-practice</guid>
+    <title>OpenAI 新发布GPT 最佳实践：落地大模型应用的策略和战术</title>
+    <link>https://www.yunwei37.com/blog/gpt-best-practice</link>
+    undefined
+    <pubDate>Wed, 14 Jun 2023 02:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category><category>gpt</category><category>ai</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/guidance</guid>
+    <title>guidance: 自然语言的编程语言</title>
+    <link>https://www.yunwei37.com/blog/guidance</link>
+    undefined
+    <pubDate>Wed, 14 Jun 2023 02:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category><category>gpt</category><category>ai</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/natual-language-program</guid>
+    <title>自然语言编程: 从 AutoGPT 往前迈的一小步</title>
+    <link>https://www.yunwei37.com/blog/natual-language-program</link>
+    undefined
+    <pubDate>Wed, 14 Jun 2023 02:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category><category>gpt</category><category>ai</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/plugin</guid>
+    <title>AI 插件：未来的浏览器、前端与交互</title>
+    <link>https://www.yunwei37.com/blog/plugin</link>
+    undefined
+    <pubDate>Sun, 14 May 2023 02:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category><category>gpt</category><category>ai</category>
+  </item>
+
+    </channel>
+  </rss>
