@@ -2,6 +2,16 @@
 
 > **世界观设定概要**：Era of Scheme（E.S.时代，2070-2101年）是人类社会进入生物技术、数字技术与社会工程深度融合的新纪元。技术发展使得个体身份、性别表达、亲密关系模式获得前所未有的可塑性，同时引发了深刻的社会治理挑战和价值观冲突。
 
+## 📢 系列发布平台
+
+本系列已发布到以下平台：
+- **知乎**：故事1连载中（https://zhuanlan.zhihu.com/p/1921352054460376493）
+- **个人博客**：https://www.yunwei37.com/docs/性与性别流动/故事/集合/1/summary
+- **Pixiv**：https://www.pixiv.net/novel/show.php?id=25156602（R-18）
+- **GitHub 源文件**：https://github.com/yunwei37/yunwei37-blog/tree/main/data/docs/小说/性与性别流动/
+
+---
+
 ## 核心技术设定
 
 ### 身体可塑性技术

@@ -2,6 +2,14 @@
 
 > 本篇聚焦**校园内部冲突**与**身体可塑性日常**，突出 2025↔2095 的文化落差与身份转变体验。
 
+## 发布平台
+
+- **知乎**：https://zhuanlan.zhihu.com/p/1921352054460376493（第一篇）
+- **知乎**：https://zhuanlan.zhihu.com/p/1921357417112896517（第二篇）
+- **个人博客**：https://www.yunwei37.com/docs/性与性别流动/故事/集合/1/summary
+- **Pixiv**：https://www.pixiv.net/novel/show.php?id=25156602（R-18）
+- **GitHub 源文件**：https://github.com/yunwei37/yunwei37-blog/tree/main/data/docs/小说/性与性别流动/
+
 ## 一、世界观背景设定
 
 ### 1.1 技术环境（E.S.25 / 2095年）
