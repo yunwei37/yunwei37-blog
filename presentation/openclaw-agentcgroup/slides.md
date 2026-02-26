@@ -157,67 +157,6 @@ OpenClaw's use cases span personal assistant, developer workflows, and fully aut
 -->
 
 ---
-
-# What Makes OpenClaw Different
-
-<div class="grid grid-cols-3 gap-3 mt-4 text-xs">
-
-<div class="bg-blue-50/80 p-3 rounded-lg">
-
-**Heartbeat**
-
-Always-on background daemon; agent proactively monitors, responds, and acts without prompting
-
-- continue do task without stop (unlike claude code, codex...)
-
-</div>
-
-<div class="bg-blue-50/80 p-3 rounded-lg">
-
-**Markdown = Memory & Persona**
-
-Personality, preferences, long-term memory all stored as Markdown; agent reads and edits them to evolve in the long run.
-
-- local first, every memory is editable
-
-</div>
-
-<div class="bg-blue-50/80 p-3 rounded-lg">
-
-**Descriptive Skills, Not Code**
-
-Give permissions, describe the goal; agent builds its own tools and writes one-time code to complete tasks
-
-- workflow is dead
-
-</div>
-
-<div class="bg-blue-50/80 p-3 rounded-lg">
-
-**Everything is CLI**
-
-All interactions through command line; naturally composable, scriptable. 
-
-- Orchestrate other agents (Gemini, Claude, Codex, etc.) via CLI
-- Make tools with cli
-
-</div>
-
-
-
-<div class="bg-blue-50/80 p-3 rounded-lg">
-
-**Skills Ecosystem**
-
-ClawHub marketplace for modular, shareable skills; community-driven extensibility
-
-- lots of risks
-
-</div>
-
-</div>
-
----
 layout: center
 ---
 
@@ -235,11 +174,58 @@ layout: center
 
 ---
 
+# What Makes OpenClaw Different
+
+<div class="grid grid-cols-3 gap-2 mt-2 text-xs leading-tight">
+
+<div class="bg-blue-50/80 p-2 rounded-lg">
+
+**Heartbeat**
+<br>Always-on background daemon; agent proactively monitors, responds, and acts without prompting
+<br>- continue do task without stop (unlike claude code, codex...)
+
+</div>
+
+<div class="bg-blue-50/80 p-2 rounded-lg">
+
+**Markdown = Memory & Persona**
+<br>Personality, preferences, long-term memory all stored as Markdown; agent reads and edits them to evolve in the long run.
+<br>- local first, every memory is editable
+
+</div>
+
+<div class="bg-blue-50/80 p-2 rounded-lg">
+
+**Descriptive Skills, Not Code**
+<br>Give permissions, describe the goal; agent builds its own tools and writes one-time code to complete tasks
+<br>- workflow is dead
+
+</div>
+
+<div class="bg-blue-50/80 p-2 rounded-lg">
+
+**Everything is CLI + Computer Use**
+<br>Interactions through command line; naturally composable, scriptable; use Computer Use tools to do things like a human
+<br>- Orchestrate other agents (Gemini, Claude, Codex, etc.) via CLI
+<br>- Make tools with cli
+
+</div>
+
+<div class="bg-blue-50/80 p-2 rounded-lg">
+
+**Skills Ecosystem**
+<br>ClawHub marketplace for modular, shareable skills; community-driven extensibility
+<br>- lots of risks
+
+</div>
+
+</div>
+
+---
+
 # OpenClaw: Security Overview
 
 <div class="mt-2">
-
-### Identity, Isolation & Runtime Risk (Microsoft Security Blog, Feb 2026)
 
 </div>
 
@@ -266,12 +252,6 @@ layout: center
 <div class="bg-red-50/80  p-3 rounded-lg">
 
 **ClawHub supply chain**: 341 malicious skills (ClawHavoc campaign), grew to **824+** by Feb 16; ~20% of ecosystem compromised
-
-</div>
-
-<div class="bg-red-50/80  p-3 rounded-lg">
-
-**Atomic Stealer (AMOS)** distributed via malicious skills targeting macOS always-on machines
 
 </div>
 
@@ -302,12 +282,6 @@ layout: center
 **3. Runtime Risk**: Prompt injection = new SQL injection; agents execute arbitrary shell commands; governance lags adoption
 
 </div>
-
-</div>
-
-<div class="bg-teal-50/80  p-3 rounded-lg mt-3 text-xs">
-
-**Key insight**: Self-hosted ≠ secure. Governance and runtime isolation are critical as agent systems enter enterprise environments.
 
 </div>
 
@@ -345,22 +319,15 @@ Here's the full CVE timeline. CVE-2026-25253 is the headline: a one-click RCE wi
 
 ---
 
-# OpenClaw: Takeaways
+# OpenClaw: Open Research Questions
 
-<div class="mt-6 space-y-3 text-sm">
+<div class="mt-3 space-y-2 text-sm">
 
-- **Local-first AI** is viable, users want data control
-- **Chat-as-UI** meets users where they are
-- **100k stars in a week** when solving real problems
-- **8+ CVEs in one month**: RCE, SSRF, command injection, path traversal
-- **42k+ exposed instances**, 341→824+ malicious ClawHub skills
-- Self-hosted ≠ secure; **defense in depth** essential
-
-</div>
-
-<div class="bg-blue-50/80 p-4 rounded-xl mt-4 text-center">
-
-**OpenClaw shows why agents need OS-level control.**
+- **How do we secure autonomous agents** that hold persistent personal credentials and execute arbitrary code? What's the threat model?
+- **Is current OS resource management sufficient** for always-on agents running 24/7 via heartbeat daemons, and can create their own tools? Cgroups, schedulers, isolation...?
+- **How do we build trust in skill ecosystems** when skills are descriptive, not code, and traditional code review doesn't apply? (341+ malicious skills)
+- **What identity and access models** do we need for agents that act on behalf of users across multiple systems?
+- **How do we balance autonomy and safety** as agents gain more capabilities (CLI, tool-building, computer use)? (People got their email deleted, password or personal info leaked by agent; but if not automatic, it's slow and inconvenient)
 
 </div>
 
@@ -398,7 +365,7 @@ transition: slide-left
 
 <div>
 
-**144 SE tasks** from SWE-rebench benchmark
+**144 SE tasks** from SWE-rebench benchmark, with claude code
 
 | Config | Model | Tasks |
 |--------|-------|-------|
@@ -635,24 +602,10 @@ transition: slide-left
 
 ---
 
-# AgentCgroup: Takeaways
+# AgentCgroup: Next Steps
 
-<div class="mt-6 space-y-3 text-sm">
-
-- **OS execution = 56–74%** of agent latency; the bottleneck is not LLM
-- Agent resources are a **new workload class** unlike anything before
-- **Container-level controls** fundamentally too coarse-grained
-- **eBPF in-kernel enforcement** enables μs-level reaction
-- **Throttle/freeze >> kill** for agents with accumulated state
-- **Intent-driven negotiation** between agent and OS is the future
-
-</div>
-
-<div class="bg-teal-50/80 p-4 rounded-xl mt-4 text-center">
-
-**AgentCgroup shows how to build OS-level control for agents.**
-
-</div>
+- Larger-scale evaluation with more models, tasks, and multi-tenant contention scenarios?
+- openclaw?
 
 ---
 layout: center
