@@ -8,6 +8,7 @@
     "export": "slidev export"
   },
   "dependencies": {
+    "@iconify-json/carbon": "^1.2.18",
     "@slidev/cli": "^52.6.0",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
