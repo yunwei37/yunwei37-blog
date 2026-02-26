@@ -103,7 +103,7 @@ OpenClaw is a free, open-source, autonomous AI assistant. Originally called Claw
 
 # OpenClaw: Use Cases & Innovation
 
-<div class="grid grid-cols-3 gap-3 mt-2 text-xs">
+<div class="grid grid-cols-3 gap-3 mt-2 text-sm">
 
 <div class="bg-gray-50/80 p-3 rounded-xl">
 
@@ -112,7 +112,7 @@ OpenClaw is a free, open-source, autonomous AI assistant. Originally called Claw
 - Calendar & task management
 - Email drafting & replies
 - Smart home control
-- Cross-app orchestration (Notion, Trello, etc.)
+- Cross-app orchestration
 
 </div>
 
@@ -123,7 +123,6 @@ OpenClaw is a free, open-source, autonomous AI assistant. Originally called Claw
 - Automated debugging & DevOps
 - GitHub integration & PR management
 - Cron-scheduled jobs & webhooks
-- Codebase management
 
 </div>
 
@@ -134,55 +133,89 @@ OpenClaw is a free, open-source, autonomous AI assistant. Originally called Claw
 - Web scraping & form filling
 - Browser automation
 - Price negotiation (car buying!)
-- Proactive monitoring & alerts
 
 </div>
 
 </div>
 
-<div class="mt-2">
+<div class="bg-blue-50/80 p-3 rounded-xl mt-3 text-sm">
 
-### What Makes OpenClaw Different
+### My Setup: 3 Agents, 3 Models
 
-<div class="grid grid-cols-5 gap-3 mt-1 text-xs">
+Initially used Claude, but account got banned. Switched to **Kimi, MiniMax, GLM** at **1/5~1/10 the cost**.
 
-<div class="bg-blue-50/80  p-2 rounded-lg text-center">
-
-**Local-first**<br>Data stays on your machine
-
-</div>
-
-<div class="bg-blue-50/80  p-2 rounded-lg text-center">
-
-**Heartbeat**<br>Acts without prompting
-
-</div>
-
-<div class="bg-blue-50/80  p-2 rounded-lg text-center">
-
-**Chat-as-UI**<br>15+ messaging platforms
-
-</div>
-
-<div class="bg-blue-50/80  p-2 rounded-lg text-center">
-
-**Modular Skills**<br>ClawHub ecosystem
-
-</div>
-
-<div class="bg-blue-50/80  p-2 rounded-lg text-center">
-
-**Model-agnostic**<br>Any LLM provider
-
-</div>
-
-</div>
+- Email handling
+- Development tasks
+- Open-source community maintenance
+- Daily work
+- Info search
 
 </div>
 
 <!--
-OpenClaw's use cases span personal assistant, developer workflows, and fully autonomous tasks, including a famous case where it negotiated a car purchase 4,200 dollars below sticker. Five innovations stand out: local-first data ownership, a proactive heartbeat daemon, chat-as-UI across 15+ messaging platforms, a modular skill system via ClawHub, and complete model-agnosticism. 60k stars in 72 hours, 100k in a week.
+OpenClaw's use cases span personal assistant, developer workflows, and fully autonomous tasks. I personally run 3 OpenClaw instances with different models after my Claude account got banned. Kimi, MiniMax, and GLM at 1/5 to 1/10 the cost.
 -->
+
+---
+
+# What Makes OpenClaw Different
+
+<div class="grid grid-cols-3 gap-3 mt-4 text-xs">
+
+<div class="bg-blue-50/80 p-3 rounded-lg">
+
+**Heartbeat**
+
+Always-on background daemon; agent proactively monitors, responds, and acts without prompting
+
+- continue do task without stop (unlike claude code, codex...)
+
+</div>
+
+<div class="bg-blue-50/80 p-3 rounded-lg">
+
+**Markdown = Memory & Persona**
+
+Personality, preferences, long-term memory all stored as Markdown; agent reads and edits them to evolve in the long run.
+
+- local first, every memory is editable
+
+</div>
+
+<div class="bg-blue-50/80 p-3 rounded-lg">
+
+**Descriptive Skills, Not Code**
+
+Give permissions, describe the goal; agent builds its own tools and writes one-time code to complete tasks
+
+- workflow is dead
+
+</div>
+
+<div class="bg-blue-50/80 p-3 rounded-lg">
+
+**Everything is CLI**
+
+All interactions through command line; naturally composable, scriptable. 
+
+- Orchestrate other agents (Gemini, Claude, Codex, etc.) via CLI
+- Make tools with cli
+
+</div>
+
+
+
+<div class="bg-blue-50/80 p-3 rounded-lg">
+
+**Skills Ecosystem**
+
+ClawHub marketplace for modular, shareable skills; community-driven extensibility
+
+- lots of risks
+
+</div>
+
+</div>
 
 ---
 layout: center
@@ -311,20 +344,59 @@ Here's the full CVE timeline. CVE-2026-25253 is the headline: a one-click RCE wi
 -->
 
 ---
+
+# OpenClaw: Takeaways
+
+<div class="mt-6 space-y-3 text-sm">
+
+- **Local-first AI** is viable, users want data control
+- **Chat-as-UI** meets users where they are
+- **100k stars in a week** when solving real problems
+- **8+ CVEs in one month**: RCE, SSRF, command injection, path traversal
+- **42k+ exposed instances**, 341→824+ malicious ClawHub skills
+- Self-hosted ≠ secure; **defense in depth** essential
+
+</div>
+
+<div class="bg-blue-50/80 p-4 rounded-xl mt-4 text-center">
+
+**OpenClaw shows why agents need OS-level control.**
+
+</div>
+
+---
 transition: slide-up
 ---
 
-# AgentCgroup: Overview & Setup
+# AgentCgroup: Overview
 
-<div class="grid grid-cols-2 gap-6 mt-4">
-
-<div>
+<div class="mt-4">
 
 ### Problem
 
 AI coding agents execute in **multi-tenant cloud sandboxes** but their OS-level resource behavior is **poorly understood**.
 
-### Study Setup
+### Key Findings
+
+<div class="text-sm space-y-1 mt-2">
+
+- **OS-level execution (tool calls + init) = 56~74% of end-to-end latency**; LLM reasoning only 26~44%
+- **Memory, not CPU**, is the primary bottleneck for multi-tenant concurrency density
+- Resource demands vary **20x across tasks** and **1.8x across runs** of the same task
+
+</div>
+
+</div>
+
+---
+transition: slide-left
+---
+
+# AgentCgroup: Experimental Setup
+
+<div class="grid grid-cols-2 gap-6 mt-4">
+
+<div>
 
 **144 SE tasks** from SWE-rebench benchmark
 
@@ -339,93 +411,117 @@ AI coding agents execute in **multi-tenant cloud sandboxes** but their OS-level 
 
 </div>
 
-<div>
+<div class="text-sm space-y-2">
 
-### Execution Model
+### What We Measure
 
-<img src="/images/exec_overview.png" class="rounded-lg shadow" />
+- **Execution model**: granularity at which resources vary
+- **Temporal dynamics**: how fast controls must react
+- **Cross-task variance**: whether demands can be predicted
 
-**Takeaway: OS-level execution = 56–74% of end-to-end latency**
+### Container Images
+
+- **Average 3.5 GB** (range 2.9~17.3 GB)
+- 7x larger than microservices, 70x larger than serverless
 
 </div>
 
 </div>
 
 ---
+transition: slide-left
+---
 
-# 3.2 Tool Execution Breakdown
+# AgentCgroup: Execution Model
 
-<div class="grid grid-cols-2 gap-4 mt-2">
+<img src="/images/exec_overview.png" class="h-56 mx-auto rounded-lg shadow" />
 
-<div>
+<div class="bg-orange-50/80 p-3 rounded-xl mt-3 text-sm">
 
-<img src="/images/tool_bash_breakdown.png" class="rounded-lg shadow" />
-
-</div>
-
-<div>
-
-<img src="/images/tool_time_pattern.png" class="rounded-lg shadow" />
-
-</div>
-
-</div>
-
-<div class="bg-orange-50/80 p-3 rounded-xl mt-3 text-sm text-center">
-
-**Bash commands dominate 98.1% of tool time; execution follows "understand → modify → verify" pattern**
+- **LLM reasoning accounts for 26~44% of end-to-end task latency; the remainder is consumed by tool execution (~40% of active time) and initialization (29~45%)**
 
 </div>
 
 ---
 
-# 3.3 Resource Dynamics
+# Tool Execution Breakdown
 
 <div class="grid grid-cols-2 gap-4 mt-2">
 
 <div>
 
-<img src="/images/resource_profile.png" class="rounded-lg shadow" />
+<img src="/images/tool_bash_breakdown.png" class="h-52 rounded-lg shadow" />
 
 </div>
 
 <div>
 
-<img src="/images/rq1_resource_timeseries.png" class="rounded-lg shadow" />
+<img src="/images/tool_time_pattern.png" class="h-52 rounded-lg shadow" />
 
 </div>
 
 </div>
 
-<div class="bg-orange-50/80 p-3 rounded-xl mt-3 text-sm text-center">
+<div class="bg-orange-50/80 p-3 rounded-xl mt-3 text-sm">
 
-**Two-layer memory: stable ~185 MB baseline + tool-call bursts reaching 2–4 GB (15.4× peak/avg)**
+- **Bash dominates tool execution, spanning three orders of magnitude in duration** (98.1% of tool time in GLM)
+- Tool calls follow a temporal "understand, modify, verify" pattern: Read concentrates in the first 30%, Bash peaks at 40~80%
 
 </div>
 
 ---
 
-# 3.3 Change Rate & Cross-Model
+# Resource Dynamics
 
 <div class="grid grid-cols-2 gap-4 mt-2">
 
 <div>
 
-<img src="/images/rq1_change_rate_distribution.png" class="rounded-lg shadow" />
+<img src="/images/resource_profile.png" class="h-52 rounded-lg shadow" />
 
 </div>
 
 <div>
 
-<img src="/images/rq1_resource_timeseries_qwen.png" class="rounded-lg shadow" />
+<img src="/images/rq1_resource_timeseries.png" class="h-52 rounded-lg shadow" />
 
 </div>
 
 </div>
 
-<div class="bg-orange-50/80 p-3 rounded-xl mt-3 text-sm text-center">
+<div class="bg-orange-50/80 p-3 rounded-xl mt-3 text-sm">
 
-**Memory bursts at up to 3 GB/s in 1–2 sec windows; pattern consistent across models**
+- **Resource consumption exhibits a two-layer structure: a ~185 MB framework baseline plus tool-call bursts**
+- **Within the burst layer, resource consumption is determined by what the tool *does* (e.g., pytest vs. git status), not which tool is invoked (e.g., Bash vs. Read)**: Bash calls differ by 13.7x in peak memory depending on the command executed
+- **Resource usage follows a burst-silence pattern, with 98.5% of memory bursts occurring during tool calls**
+
+</div>
+
+---
+
+# Change Rate & Cross-Model
+
+<div class="grid grid-cols-2 gap-4 mt-2">
+
+<div>
+
+<img src="/images/rq1_change_rate_distribution.png" class="h-52 rounded-lg shadow" />
+
+</div>
+
+<div>
+
+<img src="/images/rq1_resource_timeseries_qwen.png" class="h-52 rounded-lg shadow" />
+
+</div>
+
+</div>
+
+<div class="bg-orange-50/80 p-3 rounded-xl mt-3 text-sm">
+
+- **Resource bursts last 1~2 seconds with peak-to-average ratio up to 15.4x**, several times beyond traditional cloud workloads
+- **85%~97% of tasks contain retry loops with progressive memory accumulation**
+- **CPU-memory correlation varies by task (−0.84 to +0.50); co-directional change cannot be assumed**
 
 </div>
 
@@ -433,7 +529,7 @@ AI coding agents execute in **multi-tenant cloud sandboxes** but their OS-level 
 
 # Table 1: Agent vs. Cloud Workloads
 
-<div class="mt-4 text-sm">
+<div class="mt-4 text-xs">
 
 | Dimension | Serverless/FaaS | Microservices | Batch/HPC | **AI Coding Agent** |
 |-----------|----------------|--------------|-----------|-------------------|
@@ -457,7 +553,7 @@ AI coding agents execute in **multi-tenant cloud sandboxes** but their OS-level 
 
 <div class="col-span-3">
 
-<div class="text-sm">
+<div class="text-xs">
 
 | | **Static Limits** | **Reactive Control** | **Predictive Scaling** |
 |---|---|---|---|
@@ -539,32 +635,9 @@ AI coding agents execute in **multi-tenant cloud sandboxes** but their OS-level 
 
 ---
 
-# Lessons & Takeaways
+# AgentCgroup: Takeaways
 
-<div class="grid grid-cols-2 gap-6 mt-4">
-
-<div>
-
-### From OpenClaw
-
-<div class="space-y-2 mt-2 text-sm">
-
-- **Local-first AI** is viable, users want data control
-- **Chat-as-UI** meets users where they are
-- **100k stars in a week** when solving real problems
-- **8+ CVEs in one month**: RCE, SSRF, command injection, path traversal
-- **42k+ exposed instances**, 341→824+ malicious ClawHub skills
-- Self-hosted ≠ secure; **defense in depth** essential
-
-</div>
-
-</div>
-
-<div>
-
-### From AgentCgroup
-
-<div class="space-y-2 mt-2 text-sm">
+<div class="mt-6 space-y-3 text-sm">
 
 - **OS execution = 56–74%** of agent latency; the bottleneck is not LLM
 - Agent resources are a **new workload class** unlike anything before
@@ -575,13 +648,9 @@ AI coding agents execute in **multi-tenant cloud sandboxes** but their OS-level 
 
 </div>
 
-</div>
+<div class="bg-teal-50/80 p-4 rounded-xl mt-4 text-center">
 
-</div>
-
-<div class="bg-gradient-to-r from-blue-50 to-teal-50 p-4 rounded-xl mt-4 text-center">
-
-**OpenClaw shows why agents need OS-level control. AgentCgroup shows how to build it.**
+**AgentCgroup shows how to build OS-level control for agents.**
 
 </div>
 
