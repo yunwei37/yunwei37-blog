@@ -314,33 +314,15 @@ Here's the full CVE timeline. CVE-2026-25253 is the headline: a one-click RCE wi
 transition: slide-up
 ---
 
-# AgentCgroup: Motivation
+# AgentCgroup: Overview & Setup
 
 <div class="grid grid-cols-2 gap-6 mt-4">
 
 <div>
 
-### The Problem
+### Problem
 
-AI coding agents (SWE-agent, OpenHands, Claude Code, Codex, Devin...) execute in **multi-tenant cloud sandboxes** but their OS-level resource behavior is **poorly understood**.
-
-<div class="bg-red-50/80  p-4 rounded-xl mt-4 text-sm">
-
-**Example: Tool call resource variance**
-
-| Command | Memory |
-|---------|--------|
-| `git status` | 13.5 MB |
-| `pytest tests/` | 518 MB |
-| `make build` | 2+ GB |
-
-Same agent, same task, resource demands vary **20×** across tool calls!
-
-</div>
-
-</div>
-
-<div>
+AI coding agents execute in **multi-tenant cloud sandboxes** but their OS-level resource behavior is **poorly understood**.
 
 ### Study Setup
 
@@ -350,401 +332,210 @@ Same agent, same task, resource demands vary **20×** across tool calls!
 |--------|-------|-------|
 | Local GPU | GLM-4.7-Flash | 111 |
 | Cloud API | Claude Haiku 4.5 | 33 |
-| Cross-model | Both | 33 |
 
 **Hardware**: Intel Core Ultra 9 285K, 24 cores, 128GB DDR5
 
-**Environment**: Podman containers (2.9–17.3 GB images), Linux 6.15, cgroup v2, 1-second sampling
+**Environment**: Podman containers, Linux 6.15, cgroup v2, 1s sampling
 
-<div class="text-xs mt-3 opacity-70">
+</div>
 
-Zheng et al., "AgentCgroup: Understanding and Controlling OS Resources of AI Agents", arXiv:2602.09345, Feb 2026
+<div>
+
+### Execution Model
+
+<img src="/images/exec_overview.png" class="rounded-lg shadow" />
+
+**Takeaway: OS-level execution = 56–74% of end-to-end latency**
 
 </div>
 
 </div>
-
-</div>
-
-<!--
-AgentCgroup's motivation: AI coding agents run in multi-tenant cloud sandboxes but their OS resource behavior is poorly understood. A simple git status uses 13.5 MB while pytest can spike to 518 MB, within the same agent session. The paper analyzed 144 software engineering tasks from SWE-rebench, using GLM-4.7-Flash on local GPU and Claude Haiku 4.5 via cloud API, inside Podman containers on Linux 6.15 with cgroup v2.
--->
 
 ---
 
-# AgentCgroup: Resource Characterization
+# 3.2 Tool Execution Breakdown
+
+<div class="grid grid-cols-2 gap-4 mt-2">
+
+<div>
+
+<img src="/images/tool_bash_breakdown.png" class="rounded-lg shadow" />
+
+</div>
+
+<div>
+
+<img src="/images/tool_time_pattern.png" class="rounded-lg shadow" />
+
+</div>
+
+</div>
+
+<div class="bg-orange-50/80 p-3 rounded-xl mt-3 text-sm text-center">
+
+**Bash commands dominate 98.1% of tool time; execution follows "understand → modify → verify" pattern**
+
+</div>
+
+---
+
+# 3.3 Resource Dynamics
+
+<div class="grid grid-cols-2 gap-4 mt-2">
+
+<div>
+
+<img src="/images/resource_profile.png" class="rounded-lg shadow" />
+
+</div>
+
+<div>
+
+<img src="/images/rq1_resource_timeseries.png" class="rounded-lg shadow" />
+
+</div>
+
+</div>
+
+<div class="bg-orange-50/80 p-3 rounded-xl mt-3 text-sm text-center">
+
+**Two-layer memory: stable ~185 MB baseline + tool-call bursts reaching 2–4 GB (15.4× peak/avg)**
+
+</div>
+
+---
+
+# 3.3 Change Rate & Cross-Model
+
+<div class="grid grid-cols-2 gap-4 mt-2">
+
+<div>
+
+<img src="/images/rq1_change_rate_distribution.png" class="rounded-lg shadow" />
+
+</div>
+
+<div>
+
+<img src="/images/rq1_resource_timeseries_qwen.png" class="rounded-lg shadow" />
+
+</div>
+
+</div>
+
+<div class="bg-orange-50/80 p-3 rounded-xl mt-3 text-sm text-center">
+
+**Memory bursts at up to 3 GB/s in 1–2 sec windows; pattern consistent across models**
+
+</div>
+
+---
+
+# Table 1: Agent vs. Cloud Workloads
+
+<div class="mt-4 text-sm">
+
+| Dimension | Serverless/FaaS | Microservices | Batch/HPC | **AI Coding Agent** |
+|-----------|----------------|--------------|-----------|-------------------|
+| Execution duration | 100ms–2s | Long-running | Minutes–hours | **5–11 minutes** |
+| Container image | ~50 MB | 100 MB–1 GB | 1–10 GB | **2.9–17.3 GB (med. 3.5)** |
+| Statefulness | Stateless | External state | Stateful | **In-process stateful** |
+| Memory footprint | 128–512 MB | Steady ~1 GB | Scales with data | **185 MB idle, peaks 2–4 GB** |
+| Memory peak/avg | ~1.5× | 2–3× | ~1× | **15.4×** |
+| CPU utilization | Brief spike | 10–40% | 80–100% | **<13% avg, peaks >175%** |
+| Determinism | Deterministic | Mostly deterministic | Deterministic | **1.8× variance same task** |
+| Resource pattern | Flat | Steady + daily cycle | Stable rise | **Burst-silence alternating** |
+| Termination cost | Just retry | Can migrate | Lose progress | **Lose all LLM context** |
+
+</div>
+
+---
+
+# Table 2: Resource Management Mismatches
+
+<div class="grid grid-cols-5 gap-4 mt-4">
+
+<div class="col-span-3">
+
+<div class="text-sm">
+
+| | **Static Limits** | **Reactive Control** | **Predictive Scaling** |
+|---|---|---|---|
+| **Tools** | mem.max/high, cpu.max; K8s QoS | PSI; oomd; TMO | VPA; Autopilot |
+| **Assumes** | Known peak; stable demand | Gradual pressure; kill OK | Repeatable; history valid |
+| **Agent Reality** | 15.4× peak/avg; tool-semantic variation | 1–2s burst; unpredictable | 1.8× variance; kill = lose context |
+| **Mismatch** | **Granularity** | **Responsiveness** | **Adaptability** |
+
+</div>
+
+</div>
+
+<div class="col-span-2 space-y-2 text-xs">
+
+<div class="bg-red-50/80 p-2 rounded-lg">
+
+**Granularity**: Container-level policies cannot track tool-call-level dynamics. Setting `memory.max` at peak wastes >90%; at average triggers OOM kills.
+
+</div>
+
+<div class="bg-red-50/80 p-2 rounded-lg">
+
+**Responsiveness**: Memory bursts at 3 GB/s are too fast for user-space tools (systemd-oomd, K8s VPA). Need in-kernel μs-level enforcement.
+
+</div>
+
+<div class="bg-red-50/80 p-2 rounded-lg">
+
+**Adaptability**: 1.8× variance + non-determinism breaks history-based prediction. Kill-and-restart = triple penalty (cold start + lost context + non-deterministic re-execution).
+
+</div>
+
+</div>
+
+</div>
+
+---
+
+# AgentCgroup: Design & Evaluation
 
 <div class="grid grid-cols-2 gap-6 mt-2">
 
-<div>
-
-### Where Does Time Go?
-
-```
-┌─────────────────────────────────┐
-│        Task Execution           │
-│         (5–11 min)              │
-├─────────────────────────────────┤
-│                                 │
-│  Initialization   29–45%        │
-│  ██████████████                 │
-│                                 │
-│  LLM Reasoning    26–44%        │
-│  █████████████                  │
-│                                 │
-│  Tool Execution   ~40%          │
-│  ████████████                   │
-│    └─ Bash: 98.1% of tool time  │
-│    └─ Tests: 43.7% of bash      │
-│                                 │
-└─────────────────────────────────┘
-
-OS-level execution = 56–74%
-of end-to-end latency!
-```
-
-**Execution pattern**: "understand → modify → verify"
-
-</div>
-
-<div>
-
-### Key Findings
-
-<div class="space-y-2 text-sm">
-
-<div class="bg-orange-50/80  p-3 rounded-lg">
-
-**Memory spikes 15.4× average**: peak-to-average far exceeds traditional workloads (1.5–2×)
-
-</div>
-
-<div class="bg-orange-50/80  p-3 rounded-lg">
-
-**Bursts last 1–2 sec** at up to **3 GB/s**: too fast for user-space reaction
-
-</div>
-
-<div class="bg-orange-50/80  p-3 rounded-lg">
-
-**Two-layer memory**: stable ~185 MB baseline (Node.js) + tool-call bursts reaching 2–4 GB
-
-</div>
-
-<div class="bg-orange-50/80  p-3 rounded-lg">
-
-**Images avg 3.5 GB**:7× microservices, 70× serverless
-
-</div>
-
-<div class="bg-orange-50/80  p-3 rounded-lg">
-
-**Retry loops**: 85–97% of tasks, up to **56 consecutive retries**, 502 MB unreleased memory
-
-</div>
-
-<div class="bg-orange-50/80  p-3 rounded-lg">
-
-**CPU-memory weakly correlated** (r = −0.39), joint management fails
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<!--
-The characterization reveals surprises. OS-level execution dominates at 56 to 74 percent of latency; LLM reasoning is only 26 to 44 percent. Memory spikes reach 15.4 times the average with burst rates up to 3 GB/s. There's a two-layer structure: a stable 185 MB Node.js baseline plus explosive tool-call bursts. Container images average 3.5 GB. And 85 to 97 percent of tasks contain retry loops where agents accumulate unreleased memory. This is a fundamentally new workload class.
--->
-
----
-
-# AgentCgroup: Three Critical Mismatches
-
-<div class="grid grid-cols-3 gap-4 mt-4">
-
-<div class="bg-red-50/80  p-4 rounded-xl text-sm">
-
-### 1. Granularity Mismatch
-
-**Container-level** policies vs **tool-call-level** dynamics
-
-- `memory.max` at peak → wastes >90%
-- `memory.max` at average → OOM kills destroy agent state
-- CPU-memory weakly correlated (r = −0.39)
-- Need **per-tool-call** cgroup granularity
-
-</div>
-
-<div class="bg-red-50/80  p-4 rounded-xl text-sm">
-
-### 2. Responsiveness Mismatch
-
-**User-space reaction** vs **sub-second bursts**
-
-- Memory bursts: 1–2s, up to 3 GB/s
-- systemd-oomd, K8s VPA: ms-to-min reaction
-- PSI can't attribute to specific tool calls
-- Need **in-kernel** enforcement (μs-level)
-
-</div>
-
-<div class="bg-red-50/80  p-4 rounded-xl text-sm">
-
-### 3. Adaptability Mismatch
-
-**History-based prediction** vs **non-deterministic execution**
-
-- Demands vary **20×** across tasks
-- Same task varies **1.8×** across runs
-- Peak doesn't correlate with proxies (r < 0.11)
-- Kill-and-restart = **triple penalty**:<br>
-  31–48% cold start + lost context + non-deterministic re-execution
-
-</div>
-
-</div>
-
-<div class="bg-teal-50/80  p-3 rounded-xl mt-4 text-center text-sm">
-
-**Conclusion**: Existing OS controls (cgroup v2, systemd-oomd, K8s VPA/HPA, PSI) all fail for agent workloads → need a new approach
-
-</div>
-
-<!--
-Three critical mismatches. Granularity: container-level policies can't track tool-call dynamics: setting memory.max to peak wastes 90%, setting to average triggers OOM kills. Responsiveness: memory bursts at 3 GB/s are too fast for user-space tools like systemd-oomd. Adaptability: resource demands vary 20x across tasks and 1.8x across runs due to LLM non-determinism, so history-based prediction fails. Kill-and-restart incurs a triple penalty: slow cold start, lost LLM context, and non-deterministic re-execution. None of the existing OS controls are adequate.
--->
-
----
-
-# AgentCgroup: eBPF Architecture
-
-<div class="grid grid-cols-2 gap-6 mt-2">
-
-<div>
-
-### System Architecture
-
-```
-agentcgroupd (Python daemon)
-├── Creates cgroup hierarchy:
-│   ├── session_high/
-│   │   ├── tool_<pid>_<ts>/
-│   │   ├── tool_<pid>_<ts>/
-│   │   └── ...
-│   └── session_low/
-│
-├── Starts eBPF programs:
-│   ├── scx_flatcg
-│   │   → CPU scheduling via
-│   │     sched_ext + BPF maps
-│   ├── memcg_priority
-│   │   → Memory isolation via
-│   │     memcg_bpf_ops hooks
-│   └── process monitor
-│       → Lifecycle tracking
-│
-└── bash_wrapper.sh:
-    → Intercepts "bash -c ..."
-    → Creates ephemeral child cgroup
-    → Parses AGENT_RESOURCE_HINT
-    → Executes command
-    → Logs metrics (JSONL)
-    → Cleans up cgroup
-```
-
-</div>
-
-<div>
+<div class="text-sm">
 
 ### Three Mechanisms
 
 **1. Fine-Grained Resource Domains**
-- Hierarchical cgroup v2: parent = task, children = tool calls
-- Transparent bash wrapper creates ephemeral `tool_<pid>_<ts>/` cgroups
-- Per-tool-call metrics: `memory.peak`, duration, exit code
+- Hierarchical cgroup v2: per-tool-call ephemeral child cgroups
+- Transparent bash wrapper creates `tool_<pid>_<ts>/`
 
 **2. In-Kernel eBPF Enforcement**
-- **`sched_ext`**: per-workload CPU scheduling via BPF maps
-- **`memcg_bpf_ops`**: `get_high_delay_ms` hook for custom throttle delays
+- `sched_ext` for CPU, `memcg_bpf_ops` for memory
 - Graduated: **throttle → freeze → (never kill)**
-- μs-level reaction, no user-kernel round trips
 
 **3. Intent-Driven Coordination**
 - Agents declare: `AGENT_RESOURCE_HINT="memory:high"`
-- System maps hints → `memory.high` limits
 - Natural-language feedback on stderr when throttled
-- Enables **graceful degradation**
-
-<div class="text-xs mt-3 opacity-70">
-
-C + libbpf + BPF CO-RE · Python 65% / Shell 20% / C 13% · Linux 6.12+ · GPL-2.0
-
-</div>
-
-</div>
-
-</div>
-
-<!--
-AgentCgroup's architecture has three mechanisms. First, fine-grained resource domains: a hierarchical cgroup v2 structure where each task is a parent and each tool call gets an ephemeral child cgroup, created transparently by a bash wrapper. Second, in-kernel eBPF enforcement: sched_ext for CPU and memcg_bpf_ops for memory, with graduated enforcement: throttle, then freeze, but never kill. This gives microsecond reaction times without user-kernel round trips. Third, intent-driven coordination: agents declare expected resource needs via environment variables, and the system provides natural-language feedback when throttled. The implementation is C with libbpf plus a Python daemon, requiring Linux 6.12+.
--->
-
----
-
-# AgentCgroup: Bash Wrapper & Resource Negotiation
-
-<div class="grid grid-cols-2 gap-6 mt-2">
-
-<div>
-
-### Bash Wrapper Workflow
-
-```bash
-# bash_wrapper.sh (transparent bridge)
-
-# 1. Intercept "bash -c ..." invocation
-# 2. Create ephemeral child cgroup
-mkdir $AGENTCG_ROOT/tool_${PID}_${TS}
-echo $$ > .../cgroup.procs
-
-# 3. Parse agent's resource hint
-# AGENT_RESOURCE_HINT="memory:high"
-#   → low:  memory.high = 256M
-#   → high: memory.high = 2G
-#   → 2g:   memory.high = 2G (explicit)
-
-# 4. Execute the actual command
-real-bash -c "$CMD"
-
-# 5. On OOM (exit 137): inject feedback
-# [Resource] Command killed (OOM).
-# Peak memory: 1800MB. Suggestions:
-# run targeted tests instead of
-# full suite, or split into steps.
-
-# 6. Log metrics to JSONL
-# 7. Clean up ephemeral cgroup
-```
 
 </div>
 
 <div>
 
-### Bidirectional Protocol
+### Evaluation Results
 
-<div class="bg-blue-50/80  p-3 rounded-lg mt-2 text-sm">
+<img src="/images/eval_results.png" class="rounded-lg shadow h-48" />
 
-**Upward (Agent → System)**
+<div class="text-xs mt-2">
 
-```bash
-# Agent declares resource needs
-AGENT_RESOURCE_HINT="memory:low" \
-  bash -c "git status"
-
-AGENT_RESOURCE_HINT="memory:high" \
-  bash -c "pytest tests/"
-
-AGENT_RESOURCE_HINT="memory:2g" \
-  bash -c "python train.py"
-```
-
-</div>
-
-<div class="bg-teal-50/80  p-3 rounded-lg mt-3 text-sm">
-
-**Downward (System → Agent)**
-
-```
-[Resource] Command killed (OOM, exit 137).
-Peak memory: 1800MB.
-[Resource] Suggestions: run more targeted
-operations (e.g., specific test files
-instead of full suite), reduce data size,
-or split into smaller steps.
-```
-
-Agents understand natural language → **semantic-level strategy adjustment**
-
-</div>
-
-### Tool Call JSONL Log
-
-```json
-{"pid": 1278268, "cmd": "python3 -m unittest",
- "exit": 0, "duration_ms": 47,
- "peak_mem": "3801088", "hint": "memory:high"}
-```
-
-</div>
-
-</div>
-
-<!--
-The bash wrapper is the key innovation for transparency. It intercepts every bash command, creates an ephemeral child cgroup, parses the agent's resource hint, executes the command, and logs metrics. The bidirectional protocol is elegant: upward, agents declare needs via environment variables, memory low for git status, memory high for pytest. Downward, when a command is killed by OOM, the system injects natural-language feedback on stderr suggesting the agent run more targeted operations or split into smaller steps. Since agents understand natural language, they can make semantic-level strategy adjustments; this is a fundamentally new kind of OS-application coordination.
--->
-
----
-
-# AgentCgroup: Evaluation
-
-<div class="grid grid-cols-2 gap-6 mt-4">
-
-<div>
-
-### Multi-Tenant Results
-
-**Tight Memory (1100 MB for ~1233 MB demand)**
-
-| Metric | Baseline | BPF |
-|--------|----------|-----|
-| OOM survival | 66% | **100%** |
-| HIGH-priority overhead | -| +2.8% |
-| Throttling triggers | -| 239 |
-
-**Moderate Memory (1300 MB)**
-
-| Metric | Value |
-|--------|-------|
-| HIGH P95 latency reduction | **29%** |
-| P50 latency increase | 0.3% |
-| Completion time | −1.1% |
-| Throttling precision | **2.3%** error |
-
-**Wrapper Overhead**: < 5ms per tool call
-
-**Agent Hint Accuracy**: 5/5 = 100% (Claude Haiku correctly classified all operations)
-
-</div>
-
-<div>
-
-### Agent Workloads vs. Others
-
-| Property | Serverless | Microservices | **AI Agents** |
-|----------|-----------|--------------|--------------|
-| Duration | 100ms–2s | Long-running | **5–11 min** |
-| Memory | Flat, <50MB | Steady ~1GB | **Burst 2–4GB** |
-| Images | ~50 MB | ~500 MB | **3.5 GB avg** |
-| Peak/Avg | 1.2× | 1.5–2× | **15.4×** |
-| Determinism | High | High | **Non-deterministic** |
-| Kill cost | Low | Medium | **Very high** |
-
-<div class="bg-teal-50/80  p-4 rounded-xl mt-4 text-sm">
-
-**Key insight**: AI agent workloads are a **new workload class**. Neither serverless platforms nor traditional container controls are adequate. The OS must evolve.
+- **OOM survival**: 66% → **100%** (tight memory)
+- **P95 latency**: **29% reduction** (moderate memory)
+- **Wrapper overhead**: < 5ms per tool call
+- **Hint accuracy**: 100% (Claude Haiku)
 
 </div>
 
 </div>
 
 </div>
-
-<!--
-Evaluation results are compelling. Under tight memory, BPF enforcement achieves 100% survival versus 66% baseline, with only 2.8% overhead. P95 latency drops 29% under moderate memory. Wrapper overhead is under 5 milliseconds per tool call. Claude Haiku correctly classified all resource hints. The comparison table tells the story: agent workloads are fundamentally different: 5 to 11 minute tasks with extreme memory bursts at 15.4x average, non-deterministic profiles, and very high kill costs. This is a new workload class requiring OS evolution.
--->
 
 ---
 
@@ -763,7 +554,6 @@ Evaluation results are compelling. Under tight memory, BPF enforcement achieves 
 - **100k stars in a week** when solving real problems
 - **8+ CVEs in one month**: RCE, SSRF, command injection, path traversal
 - **42k+ exposed instances**, 341→824+ malicious ClawHub skills
-- **Agentic AI** = new attack surfaces (prompt injection, skill poisoning)
 - Self-hosted ≠ secure; **defense in depth** essential
 
 </div>
@@ -782,7 +572,6 @@ Evaluation results are compelling. Under tight memory, BPF enforcement achieves 
 - **eBPF in-kernel enforcement** enables μs-level reaction
 - **Throttle/freeze >> kill** for agents with accumulated state
 - **Intent-driven negotiation** between agent and OS is the future
-- **Bash wrapper** provides per-tool-call cgroup transparency
 
 </div>
 
@@ -790,17 +579,11 @@ Evaluation results are compelling. Under tight memory, BPF enforcement achieves 
 
 </div>
 
-<div class="bg-gradient-to-r from-blue-50 to-teal-50  p-4 rounded-xl mt-4 text-center">
+<div class="bg-gradient-to-r from-blue-50 to-teal-50 p-4 rounded-xl mt-4 text-center">
 
 **OpenClaw shows why agents need OS-level control. AgentCgroup shows how to build it.**
 
-The OS must evolve to treat AI agents as first-class workloads with tool-call-level granularity.
-
 </div>
-
-<!--
-Takeaways. OpenClaw shows the power and peril of autonomous AI: 100k stars and 21k compromised instances. AgentCgroup reveals that the OS bottleneck is real: 56 to 74 percent of agent latency is OS execution, not LLM reasoning. Container-level controls are too coarse; eBPF enables microsecond in-kernel enforcement. The intent-driven negotiation protocol, where agents declare needs and receive natural-language feedback, is a fundamentally new kind of OS-application coordination. The connecting thread: OpenClaw shows why agents need OS-level resource control, and AgentCgroup shows how to build it.
--->
 
 ---
 layout: center
