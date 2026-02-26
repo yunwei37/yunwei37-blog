@@ -1,5 +1,5 @@
 {
-  "name": "openclaw-agentsandbox",
+  "name": "openclaw-agentcgroup",
   "type": "module",
   "private": true,
   "scripts": {

@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/presentation/openclaw-agentsandbox/',
+  base: '/presentation/openclaw-agentcgroup/',
 })
