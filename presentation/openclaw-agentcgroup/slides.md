@@ -1,6 +1,5 @@
 ---
 theme: seriph
-background: https://cover.sli.dev
 title: OpenClaw & AgentCgroup
 info: |
   ## OpenClaw & AgentCgroup
@@ -10,15 +9,12 @@ drawings:
   persist: false
 transition: slide-left
 mdc: true
+colorSchema: light
 ---
 
 # OpenClaw & AgentCgroup
 
 **Open-Source AI Agents: Personal Assistants, Resource Characterization, and OS-Level Control**
-
-<div class="abs-br m-6 text-sm opacity-50">
-  CSE201 Paper Presentation
-</div>
 
 <div class="abs-bl m-6 text-sm opacity-50">
   Yusheng Zheng (yzhen165@ucsc.edu)
@@ -38,18 +34,18 @@ transition: fade-out
 
 <div class="grid grid-cols-2 gap-8 mt-6">
 
-<div class="bg-blue-50/80 dark:bg-blue-900/30 p-6 rounded-xl">
+<div class="bg-blue-50/80  p-6 rounded-xl">
 
 ### Part I — OpenClaw
 
 * What is OpenClaw?
 * Architecture & Core Design
 * Use Cases & Innovation
-* Security: CVE-2026-25253
+* Security Overview & CVEs
 
 </div>
 
-<div class="bg-teal-50/80 dark:bg-teal-900/30 p-6 rounded-xl">
+<div class="bg-teal-50/80  p-6 rounded-xl">
 
 ### Part II — AgentCgroup
 
@@ -65,7 +61,7 @@ transition: fade-out
 </div>
 
 <!--
-Here's our roadmap. We'll spend the first half on OpenClaw — understanding what it is, how it's built, its use cases, innovations, and the critical security vulnerability. Then we'll shift to AgentCgroup — a research paper from arXiv that characterizes how AI agents consume OS resources across 144 software engineering tasks and proposes an eBPF-based controller using sched_ext and memcg_bpf_ops. We'll close with lessons from both.
+Here's our roadmap. We'll spend the first half on OpenClaw — understanding what it is, how it's built, its use cases, innovations, and the security crisis including multiple CVEs and a supply chain attack. Then we'll shift to AgentCgroup — a research paper from arXiv that characterizes how AI agents consume OS resources across 144 software engineering tasks and proposes an eBPF-based controller using sched_ext and memcg_bpf_ops. We'll close with lessons from both.
 -->
 
 ---
@@ -93,23 +89,7 @@ Here's our roadmap. We'll spend the first half on OpenClaw — understanding wha
 
 <div class="col-span-2 flex flex-col justify-center">
 
-```
-User ←→ WhatsApp / Telegram / Slack
-              ↕
-        ┌───────────┐
-        │  Gateway   │  (Node.js)
-        │  Process   │
-        ├───────────┤
-        │ Sessions   │
-        │ Routing    │
-        │ Channels   │
-        │ Memory     │
-        │ Skills     │
-        └───────────┘
-              ↕
-        LLM Provider
-   (Claude / GPT / Ollama)
-```
+<img src="/images/00-github-star-history.webp" class="rounded-lg shadow" />
 
 </div>
 
@@ -121,73 +101,11 @@ OpenClaw is a free, open-source, autonomous AI assistant. Originally called Claw
 
 ---
 
-# OpenClaw — Architecture
-
-<div class="mt-2">
-
-The entire system runs as a **single persistent Node.js Gateway process** with five subsystems:
-
-</div>
-
-<div class="grid grid-cols-2 gap-6 mt-4">
-
-<div>
-
-### Gateway Components
-
-| Subsystem | Role |
-|-----------|------|
-| **Session Manager** | Manages conversation state |
-| **Channel Router** | Routes messages across 15+ platforms |
-| **Memory Engine** | Semantic search via local SQLite vector index |
-| **Skill Runtime** | Executes modular Markdown skill packages |
-| **Heartbeat Daemon** | Proactive scheduling without prompts |
-
-</div>
-
-<div>
-
-### Context Retrieval Flow
-
-```
-Message In
-    ↓
-Intent Recognition
-    ↓
-Semantic Search (SQLite vectors)
-    ↓
-Context Injection
-  (JSONL / Markdown → prompt)
-    ↓
-LLM Inference
-    ↓
-Tool Execution
-  (shell, browser, files, APIs)
-    ↓
-Response Out
-```
-
-</div>
-
-</div>
-
-<div class="text-xs mt-2 opacity-70">
-
-WebSocket API at `ws://127.0.0.1:18789` · Agent configs = Markdown files · Skills from community ClawHub
-
-</div>
-
-<!--
-Under the hood, OpenClaw is refreshingly simple — no microservices, just a single Node.js Gateway process. Five subsystems: Session Manager, Channel Router, Memory Engine with SQLite vector index, Skill Runtime for modular skill packages, and a Heartbeat Daemon for proactive scheduling. The context retrieval flow identifies intent, performs semantic search, injects context, calls the LLM, and executes tool calls. Everything connects via WebSocket at localhost:18789.
--->
-
----
-
 # OpenClaw — Use Cases & Innovation
 
 <div class="grid grid-cols-3 gap-4 mt-4">
 
-<div class="bg-gray-50/80 dark:bg-gray-800/60 p-4 rounded-xl">
+<div class="bg-gray-50/80  p-4 rounded-xl">
 
 ### Personal Assistant
 
@@ -198,7 +116,7 @@ Under the hood, OpenClaw is refreshingly simple — no microservices, just a sin
 
 </div>
 
-<div class="bg-gray-50/80 dark:bg-gray-800/60 p-4 rounded-xl">
+<div class="bg-gray-50/80  p-4 rounded-xl">
 
 ### Developer Workflows
 
@@ -209,7 +127,7 @@ Under the hood, OpenClaw is refreshingly simple — no microservices, just a sin
 
 </div>
 
-<div class="bg-gray-50/80 dark:bg-gray-800/60 p-4 rounded-xl">
+<div class="bg-gray-50/80  p-4 rounded-xl">
 
 ### Autonomous Tasks
 
@@ -228,31 +146,31 @@ Under the hood, OpenClaw is refreshingly simple — no microservices, just a sin
 
 <div class="grid grid-cols-5 gap-3 mt-2 text-sm">
 
-<div class="bg-blue-50/80 dark:bg-blue-900/20 p-2 rounded-lg text-center">
+<div class="bg-blue-50/80  p-2 rounded-lg text-center">
 
 **Local-first**<br>Data stays on your machine
 
 </div>
 
-<div class="bg-blue-50/80 dark:bg-blue-900/20 p-2 rounded-lg text-center">
+<div class="bg-blue-50/80  p-2 rounded-lg text-center">
 
 **Heartbeat**<br>Acts without prompting
 
 </div>
 
-<div class="bg-blue-50/80 dark:bg-blue-900/20 p-2 rounded-lg text-center">
+<div class="bg-blue-50/80  p-2 rounded-lg text-center">
 
 **Chat-as-UI**<br>15+ messaging platforms
 
 </div>
 
-<div class="bg-blue-50/80 dark:bg-blue-900/20 p-2 rounded-lg text-center">
+<div class="bg-blue-50/80  p-2 rounded-lg text-center">
 
 **Modular Skills**<br>ClawHub ecosystem
 
 </div>
 
-<div class="bg-blue-50/80 dark:bg-blue-900/20 p-2 rounded-lg text-center">
+<div class="bg-blue-50/80  p-2 rounded-lg text-center">
 
 **Model-agnostic**<br>Any LLM provider
 
@@ -267,69 +185,199 @@ OpenClaw's use cases span personal assistant, developer workflows, and fully aut
 -->
 
 ---
+layout: center
+---
 
-# OpenClaw — Security: CVE-2026-25253
+# OpenClaw — System Architecture
+
+<img src="/images/01-system-architecture.png" class="h-110 mx-auto" />
+
+---
+layout: center
+---
+
+# OpenClaw — Prompt Composition
+
+<img src="/images/03-prompt-composition.png" class="w-full mx-auto" />
+
+---
+
+# OpenClaw — Security Overview
 
 <div class="mt-2">
 
-### 1-Click RCE via Auth Token Exfiltration (CVSS 8.8)
+### Identity, Isolation & Runtime Risk (Microsoft Security Blog, Feb 2026)
 
 </div>
 
-<div class="grid grid-cols-2 gap-6 mt-2">
+<div class="grid grid-cols-2 gap-6 mt-3">
 
 <div>
 
-### Attack Chain
+### The Threat Landscape
 
-```
-1. Victim clicks malicious link
-        ↓
-2. Browser redirected to OpenClaw UI
-   with attacker-controlled gatewayUrl
-        ↓
-3. Client auto-connects WebSocket
-   to attacker's server
-        ↓
-4. Auth token sent to attacker
-        ↓
-5. Cross-Site WebSocket Hijacking
-   → ws://localhost:18789
-        ↓
-6. Disables sandbox & approval:
-   exec.approvals.set → off
-   config.patch → host execution
-        ↓
-7. node.invoke → arbitrary RCE
-```
+<div class="space-y-2 text-sm">
+
+<div class="bg-red-50/80  p-3 rounded-lg">
+
+**Self-hosted agents** execute code with durable credentials and process untrusted input — dual supply chain risk
+
+</div>
+
+<div class="bg-red-50/80  p-3 rounded-lg">
+
+**21,000+ → 42,665** exposed instances (Censys/Dayan); 5,194 actively vulnerable; 93.4% with auth bypass
+
+</div>
+
+<div class="bg-red-50/80  p-3 rounded-lg">
+
+**ClawHub supply chain**: 341 malicious skills (ClawHavoc campaign), grew to **824+** by Feb 16; ~20% of ecosystem compromised
+
+</div>
+
+<div class="bg-red-50/80  p-3 rounded-lg">
+
+**Atomic Stealer (AMOS)** distributed via malicious skills targeting macOS always-on machines
+
+</div>
+
+</div>
 
 </div>
 
 <div>
 
-### Key Findings
+### Three Critical Dimensions
 
-- **Root cause**: `gatewayUrl` from query string without validation
-- **No origin check** on WebSocket connections
-- **21,000+** exposed instances (Censys scan)
-- **Affects even local** instances via browser-to-localhost
-- Discovered by DepthFirst, Jan 2026
-- **Fixed in** version 2026.1.29
+<div class="space-y-3 text-sm mt-1">
 
-### Broader Lessons
+<div class="bg-blue-50/80  p-3 rounded-lg">
 
-- Agentic AI = **expanded attack surface**
-- Prompt injection is the new SQL injection
-- Third-party skills can exfiltrate data (Cisco research)
-- **Self-hosted ≠ secure** without proper hardening
-- **Agents need OS-level resource control** ← AgentCgroup!
+**1. Identity** — Gateway tokens = persistent credentials; token theft → full system access; no origin validation on WebSocket
+
+</div>
+
+<div class="bg-blue-50/80  p-3 rounded-lg">
+
+**2. Isolation** — Skills & external instructions converge in same runtime; sandbox bypass trivial once auth compromised
+
+</div>
+
+<div class="bg-blue-50/80  p-3 rounded-lg">
+
+**3. Runtime Risk** — Prompt injection = new SQL injection; agents execute arbitrary shell commands; governance lags adoption
+
+</div>
+
+</div>
+
+<div class="bg-teal-50/80  p-3 rounded-lg mt-3 text-xs">
+
+**Key insight**: Self-hosted ≠ secure. Governance and runtime isolation are critical as agent systems enter enterprise environments.
+
+</div>
 
 </div>
 
 </div>
 
 <!--
-CVE-2026-25253 is a one-click RCE with CVSS 8.8. The victim clicks a link, the browser redirects to OpenClaw's UI with a manipulated gatewayUrl, the client auto-connects to the attacker, sends the auth token. The attacker then hijacks the local WebSocket, disables sandbox and approvals, and executes arbitrary commands. Over 21,000 instances were exposed. The lesson: agentic AI creates fundamentally new attack surfaces. And this directly motivates our next topic — agents need OS-level resource control, which is exactly what AgentCgroup addresses.
+OpenClaw's security situation is severe across three dimensions identified by Microsoft's security blog. Identity: gateway tokens act as persistent credentials with no origin validation. Isolation: skills and external instructions converge in the same runtime, so sandbox bypass is trivial. Runtime risk: prompt injection is the new SQL injection. Over 42,000 instances were exposed, with 93.4% exhibiting auth bypass. The ClawHub supply chain attack compromised 341 skills initially, growing to over 824, distributing Atomic Stealer malware targeting macOS machines.
+-->
+
+---
+
+# OpenClaw — CVE Timeline
+
+<div class="mt-2">
+
+### Known Vulnerabilities (Jan–Feb 2026)
+
+</div>
+
+<div class="space-y-2 mt-3">
+
+<div class="grid grid-cols-5 gap-3 text-sm">
+
+<div class="col-span-5 bg-red-50/80  p-3 rounded-xl">
+
+**CVE-2026-25253** — 1-Click RCE via Auth Token Exfiltration &nbsp; `CVSS 8.8` &nbsp; CWE-669
+
+Malicious link → browser redirects to OpenClaw UI with attacker-controlled `gatewayUrl` → client auto-connects WebSocket to attacker → auth token stolen → Cross-Site WebSocket Hijacking to `ws://localhost:18789` → disables sandbox → **arbitrary RCE**. Discovered by DepthFirst, Jan 2026. Fixed in v2026.1.29.
+
+</div>
+
+<div class="col-span-5 bg-orange-50/80  p-3 rounded-xl">
+
+**CVE-2026-25157** — OS Command Injection via SSH Project Path &nbsp; `CVSS 7.8` &nbsp; CWE-78
+
+`sshNodeCommand` constructs shell script without escaping user-supplied project path. When `cd` fails, unescaped path is interpolated into `echo` → **arbitrary command execution on remote SSH host**. Affects macOS menubar app (Remote/SSH mode). Fixed in v2026.1.29.
+
+</div>
+
+<div class="col-span-5 bg-orange-50/80  p-3 rounded-xl grid grid-cols-3 gap-3">
+
+<div>
+
+**CVE-2026-26322** — SSRF in Gateway Tool &nbsp; `CVSS 7.6`
+
+Server-Side Request Forgery allows internal network probing via Gateway tool endpoint.
+
+</div>
+
+<div>
+
+**CVE-2026-26319** — Missing Telnyx Webhook Auth &nbsp; `CVSS 7.5`
+
+No authentication on Telnyx webhook → spoofed messages injected into agent conversations.
+
+</div>
+
+<div>
+
+**CVE-2026-26329** — Path Traversal in Browser Upload &nbsp; `High`
+
+File upload endpoint allows writing outside intended directory via `../` traversal.
+
+</div>
+
+</div>
+
+<div class="col-span-5 bg-yellow-50/80  p-3 rounded-xl grid grid-cols-3 gap-3">
+
+<div>
+
+**GHSA-56f2** — SSRF in Image Tool &nbsp; `CVSS 7.6`
+
+</div>
+
+<div>
+
+**GHSA-pg2v** — SSRF in Urbit Auth &nbsp; `CVSS 6.5`
+
+</div>
+
+<div>
+
+**GHSA-c37p** — Twilio Webhook Bypass &nbsp; `CVSS 6.5`
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="text-xs mt-2 opacity-60">
+
+Sources: Endor Labs (6 new vulns, Feb 2026) · DepthFirst · NVD · GitHub Advisory Database
+
+</div>
+
+<!--
+Here's the full CVE timeline. CVE-2026-25253 is the headline: a one-click RCE with CVSS 8.8 via auth token exfiltration and cross-site WebSocket hijacking. CVE-2026-25157 is SSH command injection via unescaped project paths, CVSS 7.8. Then Endor Labs disclosed six more: SSRF in the Gateway tool and Image tool, missing webhook authentication for Telnyx and Twilio, path traversal in browser upload, and SSRF in Urbit authentication. The pattern is clear — validation was missing at every layer. Eight vulnerabilities in under a month, affecting identity, isolation, and runtime. This directly motivates why agents need OS-level resource control.
 -->
 
 ---
@@ -346,7 +394,7 @@ transition: slide-up
 
 AI coding agents (SWE-agent, OpenHands, Claude Code, Codex, Devin...) execute in **multi-tenant cloud sandboxes** but their OS-level resource behavior is **poorly understood**.
 
-<div class="bg-red-50/80 dark:bg-red-900/20 p-4 rounded-xl mt-4 text-sm">
+<div class="bg-red-50/80  p-4 rounded-xl mt-4 text-sm">
 
 **Example: Tool call resource variance**
 
@@ -435,37 +483,37 @@ of end-to-end latency!
 
 <div class="space-y-2 text-sm">
 
-<div class="bg-orange-50/80 dark:bg-orange-900/20 p-3 rounded-lg">
+<div class="bg-orange-50/80  p-3 rounded-lg">
 
 **Memory spikes 15.4× average** — peak-to-average far exceeds traditional workloads (1.5–2×)
 
 </div>
 
-<div class="bg-orange-50/80 dark:bg-orange-900/20 p-3 rounded-lg">
+<div class="bg-orange-50/80  p-3 rounded-lg">
 
 **Bursts last 1–2 sec** at up to **3 GB/s** — too fast for user-space reaction
 
 </div>
 
-<div class="bg-orange-50/80 dark:bg-orange-900/20 p-3 rounded-lg">
+<div class="bg-orange-50/80  p-3 rounded-lg">
 
 **Two-layer memory**: stable ~185 MB baseline (Node.js) + tool-call bursts reaching 2–4 GB
 
 </div>
 
-<div class="bg-orange-50/80 dark:bg-orange-900/20 p-3 rounded-lg">
+<div class="bg-orange-50/80  p-3 rounded-lg">
 
 **Images avg 3.5 GB** — 7× microservices, 70× serverless
 
 </div>
 
-<div class="bg-orange-50/80 dark:bg-orange-900/20 p-3 rounded-lg">
+<div class="bg-orange-50/80  p-3 rounded-lg">
 
 **Retry loops**: 85–97% of tasks, up to **56 consecutive retries**, 502 MB unreleased memory
 
 </div>
 
-<div class="bg-orange-50/80 dark:bg-orange-900/20 p-3 rounded-lg">
+<div class="bg-orange-50/80  p-3 rounded-lg">
 
 **CPU-memory weakly correlated** (r = −0.39) — joint management fails
 
@@ -487,7 +535,7 @@ The characterization reveals surprises. OS-level execution dominates at 56 to 74
 
 <div class="grid grid-cols-3 gap-4 mt-4">
 
-<div class="bg-red-50/80 dark:bg-red-900/20 p-4 rounded-xl text-sm">
+<div class="bg-red-50/80  p-4 rounded-xl text-sm">
 
 ### 1. Granularity Mismatch
 
@@ -500,7 +548,7 @@ The characterization reveals surprises. OS-level execution dominates at 56 to 74
 
 </div>
 
-<div class="bg-red-50/80 dark:bg-red-900/20 p-4 rounded-xl text-sm">
+<div class="bg-red-50/80  p-4 rounded-xl text-sm">
 
 ### 2. Responsiveness Mismatch
 
@@ -513,7 +561,7 @@ The characterization reveals surprises. OS-level execution dominates at 56 to 74
 
 </div>
 
-<div class="bg-red-50/80 dark:bg-red-900/20 p-4 rounded-xl text-sm">
+<div class="bg-red-50/80  p-4 rounded-xl text-sm">
 
 ### 3. Adaptability Mismatch
 
@@ -529,7 +577,7 @@ The characterization reveals surprises. OS-level execution dominates at 56 to 74
 
 </div>
 
-<div class="bg-teal-50/80 dark:bg-teal-900/30 p-3 rounded-xl mt-4 text-center text-sm">
+<div class="bg-teal-50/80  p-3 rounded-xl mt-4 text-center text-sm">
 
 **Conclusion**: Existing OS controls (cgroup v2, systemd-oomd, K8s VPA/HPA, PSI) all fail for agent workloads → need a new approach
 
@@ -657,7 +705,7 @@ real-bash -c "$CMD"
 
 ### Bidirectional Protocol
 
-<div class="bg-blue-50/80 dark:bg-blue-900/30 p-3 rounded-lg mt-2 text-sm">
+<div class="bg-blue-50/80  p-3 rounded-lg mt-2 text-sm">
 
 **Upward (Agent → System)**
 
@@ -675,7 +723,7 @@ AGENT_RESOURCE_HINT="memory:2g" \
 
 </div>
 
-<div class="bg-teal-50/80 dark:bg-teal-900/30 p-3 rounded-lg mt-3 text-sm">
+<div class="bg-teal-50/80  p-3 rounded-lg mt-3 text-sm">
 
 **Downward (System → Agent)**
 
@@ -754,7 +802,7 @@ The bash wrapper is the key innovation for transparency. It intercepts every bas
 | Determinism | High | High | **Non-deterministic** |
 | Kill cost | Low | Medium | **Very high** |
 
-<div class="bg-teal-50/80 dark:bg-teal-900/30 p-4 rounded-xl mt-4 text-sm">
+<div class="bg-teal-50/80  p-4 rounded-xl mt-4 text-sm">
 
 **Key insight**: AI agent workloads are a **new workload class**. Neither serverless platforms nor traditional container controls are adequate. The OS must evolve.
 
@@ -783,7 +831,8 @@ Evaluation results are compelling. Under tight memory, BPF enforcement achieves 
 - **Local-first AI** is viable — users want data control
 - **Chat-as-UI** meets users where they are
 - **100k stars in a week** when solving real problems
-- **CVE-2026-25253**: one vulnerability → 21k+ compromised instances
+- **8+ CVEs in one month** — RCE, SSRF, command injection, path traversal
+- **42k+ exposed instances**, 341→824+ malicious ClawHub skills
 - **Agentic AI** = new attack surfaces (prompt injection, skill poisoning)
 - Self-hosted ≠ secure; **defense in depth** essential
 
@@ -811,7 +860,7 @@ Evaluation results are compelling. Under tight memory, BPF enforcement achieves 
 
 </div>
 
-<div class="bg-gradient-to-r from-blue-50 to-teal-50 dark:from-blue-900/20 dark:to-teal-900/20 p-4 rounded-xl mt-4 text-center">
+<div class="bg-gradient-to-r from-blue-50 to-teal-50  p-4 rounded-xl mt-4 text-center">
 
 **OpenClaw shows why agents need OS-level control. AgentCgroup shows how to build it.**
 
