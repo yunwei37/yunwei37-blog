@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>云微的胡思乱想</title>
+      <link>https://www.yunwei37.com/blog</link>
+      <description>Personal Website of Yusheng Zheng | yunwei37</description>
+      <language>en-us</language>
+      <managingEditor>yunwei356@gmail.com (Yusheng Zheng)</managingEditor>
+      <webMaster>yunwei356@gmail.com (Yusheng Zheng)</webMaster>
+      <lastBuildDate>Thu, 22 Jan 2026 08:00:00 GMT</lastBuildDate>
+      <atom:link href="https://www.yunwei37.com/tags/literature/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.yunwei37.com/blog/org</guid>
+    <title>幻想文学中的虚构社会形态及现实原型研究</title>
+    <link>https://www.yunwei37.com/blog/org</link>
+    undefined
+    <pubDate>Thu, 22 Jan 2026 08:00:00 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>Fantasy</category><category>Sci-Fi</category><category>Literature</category><category>Society</category>
+  </item>
+
+    </channel>
+  </rss>
