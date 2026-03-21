@@ -43,11 +43,10 @@ transition: fade-out
 
 <div class="bg-teal-50/80  p-6 rounded-xl mt-6">
 
-* Motivation: Why Study Agent Resources?
+* Motivation & Key Findings
 * Resource Characterization (144 tasks)
-* Three Critical Mismatches
-* eBPF Architecture & Bash Wrapper
-* Bidirectional Resource Negotiation
+* Agent vs. Cloud & Three Mismatches
+* System Design: eBPF + Bash Wrapper + Negotiation
 * Evaluation & Takeaways
 
 </div>
@@ -60,21 +59,21 @@ Here's our roadmap. We'll cover AgentCgroup, a research paper from arXiv that ch
 transition: slide-up
 ---
 
-# AgentCgroup: Overview
+# Motivation
 
 <div class="mt-4">
 
-### Problem
+### Why study OS resources of AI agents?
 
-AI coding agents execute in **multi-tenant cloud sandboxes** but their OS-level resource behavior is **poorly understood**.
+AI coding agents execute in **multi-tenant cloud sandboxes** — but their OS-level resource behavior is **poorly understood**.
 
-### Key Findings
+### What we found (144 SWE-bench tasks)
 
 <div class="text-lg space-y-1 mt-2">
 
-- **OS-level execution (tool calls + init) = 56~74% of end-to-end latency**; LLM reasoning only 26~44%
-- **Memory, not CPU**, is the primary bottleneck for multi-tenant concurrency density
-- Resource demands vary **20x across tasks** and **1.8x across runs** of the same task
+- **OS-level overhead = 56~74%** of end-to-end latency; LLM reasoning only 26~44%
+- **Memory, not CPU**, limits multi-tenant concurrency density
+- Demands vary **20x across tasks**, **1.8x across runs** of the same task
 
 </div>
 
@@ -210,7 +209,7 @@ Resource consumption has a two-layer structure. There's a stable baseline of abo
 
 ---
 
-# Change Rate & Cross-Model
+# Burst Dynamics & Variability
 
 <div class="grid grid-cols-2 gap-4 mt-2">
 
@@ -230,9 +229,9 @@ Resource consumption has a two-layer structure. There's a stable baseline of abo
 
 <div class="bg-orange-50/80 p-3 rounded-xl mt-3 text-lg">
 
-- **Resource bursts last 1~2 seconds with peak-to-average ratio up to 15.4x**, several times beyond traditional cloud workloads
-- **85%~97% of tasks contain retry loops with progressive memory accumulation**
-- **CPU-memory correlation varies by task (−0.84 to +0.50); co-directional change cannot be assumed**
+- **Peak-to-average ratio up to 15.4x**; bursts last 1~2 seconds
+- **85~97% of tasks have retry loops** with progressive memory accumulation
+- **CPU-memory correlation varies** (−0.84 to +0.50) — cannot co-scale
 
 </div>
 
@@ -294,27 +293,23 @@ This is the key gap analysis slide. Existing resource management falls into thre
 
 # System Design
 
-<div class="grid grid-cols-2 gap-4 mt-1">
+<div class="text-lg space-y-3 mt-1">
 
-<div class="text-lg">
+<div class="bg-blue-50/80 p-2 rounded-lg">
 
-**1. Fine-Grained Resource Domains**
-- **Bash wrapper** → per-tool-call child cgroups
-- No agent framework modification needed
-
-**2. In-Kernel eBPF Enforcement**
-- `sched_ext` (CPU) + `memcg_bpf_ops` (memory)
-- **Throttle → freeze → never kill**, μs-level
+**1. Fine-Grained Resource Domains** → *Granularity*: bash wrapper → per-tool-call child cgroups
 
 </div>
 
-<div class="text-lg">
+<div class="bg-blue-50/80 p-2 rounded-lg">
 
-**3. Bidirectional Negotiation**
+**2. In-Kernel eBPF** → *Responsiveness*: `sched_ext` + `memcg_bpf_ops`, **throttle → freeze → never kill**
 
-**Upward**: `AGENT_RESOURCE_HINT` env var (low/medium/high)
+</div>
 
-**Downward**: NL feedback on stderr when throttled → agent retries with fewer resources
+<div class="bg-blue-50/80 p-2 rounded-lg">
+
+**3. Bidirectional Negotiation** → *Adaptability*: agent hints upward, NL feedback downward
 
 </div>
 

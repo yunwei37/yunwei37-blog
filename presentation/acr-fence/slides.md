@@ -355,14 +355,15 @@ Stateful server-side validation is the only defense. Agent-side protections are 
 
 ACRFence interposes at the **tool boundary** (MCP proxy):
 
-1. **Record** an *effect receipt* for each irreversible tool call
-2. Key by *effect fingerprint*: thread ID, branch ID, tool name, canonical args, env context
-3. Context captured via **eBPF** system-level monitors
+1. **Log** each irreversible tool call (context via **eBPF**)
+2. On restore, **analyzer LLM** compares new call against log
+3. Distinguishes run-varying fields (UUIDs) from **intent** (amount, recipient)
 
-### On Restore
+### On Restore → Three outcomes
 
-- **Match** → replay recorded response (no re-execution)
-- **Differs** → block, surface prior receipt, require explicit **fork**
+- **Equivalent** → replay recorded response
+- **Different intent** → block, require **fork**
+- **Consumed credentials** → inform agent
 
 </div>
 
@@ -372,25 +373,25 @@ ACRFence interposes at the **tool boundary** (MCP proxy):
 
 <div class="border-l-4 border-blue-500 pl-4 mb-3">
 
-**Framework-agnostic:** Captures context at OS level, no framework modifications needed.
+**Framework-agnostic:** Context captured at OS level via eBPF, no framework modifications.
 
 </div>
 
 <div class="border-l-4 border-green-500 pl-4 mb-3">
 
-**Replay-or-Fork:** Identical retry → safe replay. Divergent → blocked until explicit fork.
+**LLM-based comparison:** No manual tool schema annotation; adapts to new tools automatically.
 
 </div>
 
 <div class="border-l-4 border-purple-500 pl-4 mb-3">
 
-**Token tracking:** Records consumption so agent is informed before reuse.
+**Restore-path only:** Zero overhead during normal execution.
 
 </div>
 
 <div class="border-l-4 border-gray-500 pl-4">
 
-**Future work:** Branch management, richer fingerprinting, automated classification.
+**Future work:** Implementation, analyzer accuracy evaluation, performance overhead measurement.
 
 </div>
 
@@ -444,7 +445,7 @@ ACRFence interposes at the **tool boundary** (MCP proxy):
 
 - **Pervasive problem:** Validated across 12 major agent frameworks; independently confirmed by framework maintainers
 
-- **Mitigation:** ACRFence records irreversible effects and enforces replay-or-fork semantics at the tool boundary, without requiring agent framework modifications
+- **Mitigation:** ACRFence uses a lightweight analyzer LLM to compare post-restore tool calls against logged effects, enforcing replay-or-fork semantics without framework modifications
 
 </div>
 

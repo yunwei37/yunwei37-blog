@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/presentation/acr-fence/',
+  base: process.env.SLIDEV_EXPORT ? '/' : '/presentation/acr-fence/',
 })
