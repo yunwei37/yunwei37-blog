@@ -1,0 +1,9 @@
+:root {
+  --slidev-theme-primary: #6b8a9e;
+}
+
+.slidev-layout h1 {
+  font-size: 3.6rem !important;
+  line-height: 1.1 !important;
+  font-weight: 400 !important;
+}
