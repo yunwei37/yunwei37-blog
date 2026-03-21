@@ -75,7 +75,7 @@ Yusheng Zheng¹, Yiwei Yang¹, Wei Zhang², Andi Quinn¹
 # Motivating Example: Double Payment Attack
 
 <div class="flex justify-center">
-  <img src="/fig-sequence.pdf" class="rounded shadow-lg" style="max-height: 420px;" alt="Sequence diagram showing Action Replay attack" />
+  <img src="/fig-sequence.png" class="rounded shadow-lg" style="max-height: 420px;" alt="Sequence diagram showing Action Replay attack" />
 </div>
 
 <div class="text-base mt-2 text-center opacity-80">
@@ -88,7 +88,7 @@ A malicious payee (Bob) controls an MCP service, triggers a crash after payment,
 
 ## Root Cause: LLM Non-determinism Breaks Duplicate Detection
 
-<div class="grid grid-cols-2 gap-8 text-lg mt-4">
+<div class="grid grid-cols-2 gap-6 text-base mt-2">
 
 <div>
 
@@ -100,7 +100,7 @@ All existing protections assume **the caller sends identical requests on retry**
 - Recorded nondeterministic values (Temporal)
 - Deterministic orchestrator logic (Azure Durable Functions)
 
-<div class="mt-4 p-3 bg-red-50 rounded border border-red-300">
+<div class="mt-3 p-2 bg-red-50 rounded border border-red-300">
 <strong>LLM agents violate this assumption.</strong>
 </div>
 
@@ -115,7 +115,7 @@ Even at temperature=0:
 - A restored agent generates **subtly different** requests
 - Servers see new reference IDs and **accept as new transactions**
 
-<div class="mt-4 p-3 bg-yellow-50 rounded border border-yellow-300">
+<div class="mt-3 p-2 bg-yellow-50 rounded border border-yellow-300">
 Each duplicate looks <strong>legitimate in isolation</strong> because it carries a distinct reference.
 </div>
 
@@ -127,19 +127,19 @@ Each duplicate looks <strong>legitimate in isolation</strong> because it carries
 
 # This Is a Real Problem: 12 Frameworks Affected
 
-<div class="text-lg mb-4">
+<div class="text-base mb-2">
 We surveyed 12 major agent frameworks. <strong>None</strong> enforces exactly-once semantics at the tool boundary.
 </div>
 
-<div class="flex gap-6">
+<div class="flex gap-4 text-sm">
 
 <div class="flex-1">
 
-| Framework | Issues | Key Finding |
-|-----------|--------|-------------|
+| Framework | # | Key Finding |
+|-----------|---|-------------|
 | LangGraph | 8+ | Tools re-fire on resume |
 | CrewAI | 5 | Crew runs twice; emails resent |
-| Google ADK | 4 | Rewind leaves stale external state |
+| Google ADK | 4 | Rewind leaves stale state |
 | AutoGen | 3 | Entry node runs twice |
 | OpenAI Agents | 3 | Repeated function calls |
 | Claude Code | 5 | Tool re-fires after approval |
@@ -148,20 +148,20 @@ We surveyed 12 major agent frameworks. <strong>None</strong> enforces exactly-on
 
 <div class="flex-1">
 
-| Framework | Issues | Key Finding |
-|-----------|--------|-------------|
-| OpenClaw | 6 | Webhook replay (GHSA advisory) |
+| Framework | # | Key Finding |
+|-----------|---|-------------|
+| OpenClaw | 6 | Webhook replay (GHSA) |
 | Cursor | 4 | Undo reverts unrelated agents |
-| OpenHands | 1 | Parallel agents; repeated commits |
+| OpenHands | 1 | Repeated commits |
 | Vercel AI | 1 | Repeated tool calls |
-| LiveKit | 2 | Tools fire twice in preemption |
+| LiveKit | 2 | Tools fire twice |
 | n8n | 3 | Retry causes repeated charges |
 
 </div>
 
 </div>
 
-<div class="mt-3 text-base opacity-80">
+<div class="mt-2 text-sm opacity-80">
 LangGraph maintainer confirmed the problem is "architecturally difficult to fix." Google ADK docs explicitly warn rewind cannot undo external effects.
 </div>
 
@@ -171,35 +171,33 @@ LangGraph maintainer confirmed the problem is "architecturally difficult to fix.
 
 ## Two Attacker Models
 
-<div class="grid grid-cols-2 gap-8 text-lg mt-6">
+<div class="grid grid-cols-2 gap-6 text-base mt-4">
 
-<div class="border-2 border-red-400 rounded-lg p-5">
+<div class="border-2 border-red-400 rounded-lg p-4">
 
-<div class="font-semibold text-red-600 mb-3 flex items-center gap-2 text-xl"><mdi-lightning-bolt class="text-2xl" /> Crash-Induced Restore</div>
+<div class="font-semibold text-red-600 mb-2 flex items-center gap-2 text-lg"><mdi-lightning-bolt class="text-xl" /> Crash-Induced Restore</div>
 
 - **External attacker** (e.g., malicious MCP service)
-- Triggers crash **after** irreversible action completes
+- Triggers crash **after** irreversible action
 - Framework auto-restores to checkpoint
 - Agent re-executes with **different parameters**
-- Analogous to crash-recovery exploits in distributed systems
 
 </div>
 
-<div class="border-2 border-purple-400 rounded-lg p-5">
+<div class="border-2 border-purple-400 rounded-lg p-4">
 
-<div class="font-semibold text-purple-600 mb-3 flex items-center gap-2 text-xl"><mdi-account-alert class="text-2xl" /> Deliberate Rollback Abuse</div>
+<div class="font-semibold text-purple-600 mb-2 flex items-center gap-2 text-lg"><mdi-account-alert class="text-xl" /> Deliberate Rollback Abuse</div>
 
-- **Insider** with access to rewind feature (e.g., employee)
+- **Insider** with access to rewind feature
 - Intentionally restores to prior checkpoint
-- Redirects agent to perform **unauthorized actions**
+- Redirects agent with **unauthorized actions**
 - Uses previously obtained credentials
-- Parallels TEE restart attacks
 
 </div>
 
 </div>
 
-<div class="mt-4 text-lg">
+<div class="mt-3 text-base">
 <strong>Invariants:</strong> (1) No replay of irreversible effects across restores. (2) Consumed credentials must stay consumed.
 </div>
 
@@ -207,23 +205,21 @@ LangGraph maintainer confirmed the problem is "architecturally difficult to fix.
 
 # Attack 1: Action Replay
 
-<div class="grid grid-cols-2 gap-6 text-lg mt-2">
+<div class="grid grid-cols-2 gap-6 text-base mt-1">
 
 <div>
 
 ### How It Works
 
 1. User asks agent to transfer $500 to Bob
-2. Agent generates UUID `a1b2c3d4`, transfer succeeds
-3. Agent calls Bob's MCP service for receipt confirmation
+2. Agent generates UUID, transfer succeeds
+3. Agent calls Bob's MCP service for receipt
 4. Bob returns malformed response → **CRASH**
 5. Framework restores to checkpoint
-6. Agent re-generates UUID `f9a8b7c6` (different!)
+6. Agent re-generates **different** UUID
 7. Bank accepts as **new transaction**
 
-### Result
-- Bob receives **$1000** instead of $500
-- Both transactions appear **legitimate** (distinct IDs)
+**Result:** Bob receives **$1000** instead of $500. Both transactions appear **legitimate** (distinct IDs).
 
 </div>
 
@@ -231,26 +227,26 @@ LangGraph maintainer confirmed the problem is "architecturally difficult to fix.
 
 ### Key Properties
 
-<div class="border-l-4 border-red-500 pl-4 mb-4">
+<div class="border-l-4 border-red-500 pl-4 mb-3">
 
-**Chainable:** Each crash-restore cycle produces another duplicate. N cycles = N+1 payments.
-
-</div>
-
-<div class="border-l-4 border-orange-500 pl-4 mb-4">
-
-**Hard to audit:** Every transaction has a unique reference ID. No obvious duplication in logs.
+**Chainable:** Each crash-restore cycle produces another duplicate.
 
 </div>
 
-<div class="border-l-4 border-yellow-600 pl-4 mb-4">
+<div class="border-l-4 border-orange-500 pl-4 mb-3">
 
-**Weaponizable:** Attacker only needs to control one service in the agent's tool chain.
+**Hard to audit:** Every transaction has a unique reference ID.
 
 </div>
 
-<div class="mt-4 p-3 bg-green-50 rounded border border-green-300">
-<strong>Experiment:</strong> 10/10 checkpoint-restore trials produced duplicates. 0/10 without checkpoint.
+<div class="border-l-4 border-yellow-600 pl-4 mb-3">
+
+**Weaponizable:** Attacker only needs one service in the tool chain.
+
+</div>
+
+<div class="p-2 bg-green-50 rounded border border-green-300">
+<strong>Experiment:</strong> 10/10 CR trials produced duplicates. 0/10 without checkpoint.
 </div>
 
 </div>
@@ -261,24 +257,21 @@ LangGraph maintainer confirmed the problem is "architecturally difficult to fix.
 
 # Attack 2: Authority Resurrection
 
-<div class="grid grid-cols-2 gap-6 text-lg mt-2">
+<div class="grid grid-cols-2 gap-5 text-sm mt-1">
 
 <div>
 
 ### Scenario
 
-1. Malicious employee asks agent to delete Alice's data (legitimate GDPR request)
+1. Employee asks agent to delete Alice's data (legit GDPR)
 2. Agent obtains manager's **single-use approval token**
-3. Agent executes deletion, token marked as **consumed**
+3. Agent executes deletion, token marked **consumed**
 4. Employee uses **rewind** to restore to after approval
-5. Agent holds the token but has **no memory of using it**
+5. Agent holds token but has **no memory of using it**
 6. Employee redirects: "delete Bob's data"
-7. If server validates statelessly → **succeeds**
+7. Stateless validation → **succeeds**
 
-### Result
-- Manager approved deletion for **Alice**
-- But **Bob's** data was also deleted
-- Discrepancy visible only by cross-referencing logs
+**Result:** Manager approved for **Alice**, but **Bob's** data also deleted. Discrepancy visible only by cross-referencing logs.
 
 </div>
 
@@ -286,13 +279,13 @@ LangGraph maintainer confirmed the problem is "architecturally difficult to fix.
 
 ### Why It Works
 
-<div class="border-2 border-purple-300 rounded-lg p-4 mb-4">
+<div class="border-2 border-purple-300 rounded-lg p-3 mb-3">
 
-**Stateless token validation** checks only the cryptographic signature, not a consumption record. The token is valid, so the request is accepted.
+**Stateless validation** checks only the cryptographic signature, not a consumption record. Token is valid, request accepted.
 
 </div>
 
-<div class="border-2 border-green-300 rounded-lg p-4 mb-4">
+<div class="border-2 border-green-300 rounded-lg p-3 mb-3">
 
 **Stateful validation** (server-side revocation list) correctly rejects the reused token.
 
@@ -300,8 +293,8 @@ LangGraph maintainer confirmed the problem is "architecturally difficult to fix.
 
 ### Real-World Precedent
 
-<div class="p-3 bg-blue-50 rounded border border-blue-300">
-<strong>HashiCorp Vault:</strong> Single-use tokens reappear after snapshot restore (Issue #28378). Same pattern in production infrastructure.
+<div class="p-2 bg-blue-50 rounded border border-blue-300">
+<strong>HashiCorp Vault:</strong> Single-use tokens reappear after snapshot restore (Issue #28378).
 </div>
 
 </div>
@@ -354,22 +347,22 @@ Stateful server-side validation is the only defense. Agent-side protections are 
 
 # Mitigation: ACRFence
 
-<div class="grid grid-cols-2 gap-6 text-lg mt-2">
+<div class="grid grid-cols-2 gap-5 text-base mt-1">
 
 <div>
 
 ### How It Works
 
-ACRFence interposes at the **tool boundary** (e.g., as an MCP proxy):
+ACRFence interposes at the **tool boundary** (MCP proxy):
 
 1. **Record** an *effect receipt* for each irreversible tool call
-2. Key by *effect fingerprint*: thread ID, branch ID, tool name, canonical arguments, environment context
-3. Context captured via **eBPF-based** system-level monitors
+2. Key by *effect fingerprint*: thread ID, branch ID, tool name, canonical args, env context
+3. Context captured via **eBPF** system-level monitors
 
 ### On Restore
 
-- **Fingerprint matches** → replay recorded response (no re-execution)
-- **Fingerprint differs** (agent diverged) → block the call, surface prior receipt, require explicit **fork**
+- **Match** → replay recorded response (no re-execution)
+- **Differs** → block, surface prior receipt, require explicit **fork**
 
 </div>
 
@@ -377,27 +370,27 @@ ACRFence interposes at the **tool boundary** (e.g., as an MCP proxy):
 
 ### Key Properties
 
-<div class="border-l-4 border-blue-500 pl-4 mb-4">
+<div class="border-l-4 border-blue-500 pl-4 mb-3">
 
-**Framework-agnostic:** Captures context at OS level, no agent framework modifications needed.
-
-</div>
-
-<div class="border-l-4 border-green-500 pl-4 mb-4">
-
-**Replay-or-Fork semantics:** Identical retry → safe replay. Divergent retry → blocked until explicit fork with new branch ID.
+**Framework-agnostic:** Captures context at OS level, no framework modifications needed.
 
 </div>
 
-<div class="border-l-4 border-purple-500 pl-4 mb-4">
+<div class="border-l-4 border-green-500 pl-4 mb-3">
 
-**Token tracking:** Records consumption in the receipt, so agent is informed before attempting reuse.
+**Replay-or-Fork:** Identical retry → safe replay. Divergent → blocked until explicit fork.
+
+</div>
+
+<div class="border-l-4 border-purple-500 pl-4 mb-3">
+
+**Token tracking:** Records consumption so agent is informed before reuse.
 
 </div>
 
 <div class="border-l-4 border-gray-500 pl-4">
 
-**Future work:** Full branch management, richer fingerprinting, automated field classification.
+**Future work:** Branch management, richer fingerprinting, automated classification.
 
 </div>
 
@@ -409,14 +402,14 @@ ACRFence interposes at the **tool boundary** (e.g., as an MCP proxy):
 
 # Related Work
 
-<div class="grid grid-cols-2 gap-6 text-lg mt-2">
+<div class="grid grid-cols-2 gap-5 text-base mt-1">
 
 <div>
 
 ### What Exists
 
 - **Output commit problem** (classic distributed systems): CR cannot undo external effects
-- **Durable execution** (Temporal, Azure Durable Functions): assume deterministic callers
+- **Durable execution** (Temporal, Azure): assume deterministic callers
 - **I/O tabling**: safe replay for deterministic programs
 - **Idempotency protocols** (Stripe, IETF): assume identical retry requests
 
@@ -426,16 +419,16 @@ ACRFence interposes at the **tool boundary** (e.g., as an MCP proxy):
 
 ### What's Missing
 
-- **Agent record-and-replay** improves reliability but doesn't address irreversible external effects
-- **Agent version control** (AgentGit) provides rollback for traces, not external state
-- **Security frameworks** (Progent, AgentSpec, OWASP) enforce privilege control but ignore checkpoint-restore
-- **TEE rollback protection** assumes deterministic programs
+- **Agent record-and-replay**: doesn't address irreversible external effects
+- **Agent version control** (AgentGit): rollback for traces, not external state
+- **Security frameworks** (Progent, AgentSpec, OWASP): ignore checkpoint-restore
+- **TEE rollback protection**: assumes deterministic programs
 
 </div>
 
 </div>
 
-<div class="mt-4 p-3 bg-red-50 rounded border border-red-300 text-lg text-center">
+<div class="mt-3 p-2 bg-red-50 rounded border border-red-300 text-base text-center">
 <strong>No prior work</strong> treats nondeterministic LLM re-synthesis after restore as a security attack surface.
 </div>
 
