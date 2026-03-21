@@ -147,33 +147,34 @@ This figure shows how task time breaks down. The key insight is that LLM reasoni
 
 ---
 
-# Tool Execution Breakdown
+# Tool Execution: What Dominates?
 
-<div class="grid grid-cols-2 gap-4 mt-2">
-
-<div>
-
-<img src="/images/tool_bash_breakdown.png" class="h-52 rounded-lg shadow" />
-
-</div>
-
-<div>
-
-<img src="/images/tool_time_pattern.png" class="h-52 rounded-lg shadow" />
-
-</div>
-
-</div>
+<img src="/images/tool_bash_breakdown.png" class="h-72 mx-auto rounded-lg shadow" />
 
 <div class="bg-orange-50/80 p-3 rounded-xl mt-3 text-lg">
 
 - **Bash dominates tool execution, spanning three orders of magnitude in duration** (98.1% of tool time in GLM)
-- Tool calls follow a temporal "understand, modify, verify" pattern: Read concentrates in the first 30%, Bash peaks at 40~80%
 
 </div>
 
 <!--
-Drilling into tool execution, Bash dominates everything — 98.1 percent of tool time in GLM. But the duration spans three orders of magnitude: a git status takes milliseconds while a pytest run takes minutes. The right side shows a temporal pattern: agents follow a "understand, modify, verify" cycle. Read calls concentrate in the first 30 percent of a task, then Bash peaks at 40 to 80 percent as the agent builds, tests, and iterates. This matters for resource management because it means resource demand is highly phase-dependent.
+Drilling into tool execution, Bash dominates everything — 98.1 percent of tool time in GLM. But the duration spans three orders of magnitude: a git status takes milliseconds while a pytest run takes minutes. Test execution alone accounts for 43.7 percent of Bash time, followed by package installation at 10.1 percent.
+-->
+
+---
+
+# Tool Execution: Temporal Pattern
+
+<img src="/images/tool_time_pattern.png" class="h-72 mx-auto rounded-lg shadow" />
+
+<div class="bg-orange-50/80 p-3 rounded-xl mt-3 text-lg">
+
+- Tool calls follow a **"understand, modify, verify"** pattern: Read in first 30%, Bash peaks at 40~80%
+
+</div>
+
+<!--
+The temporal pattern shows agents follow a "understand, modify, verify" cycle. Read calls concentrate in the first 30 percent of a task as the agent explores the codebase, then Bash peaks at 40 to 80 percent as the agent builds, tests, and iterates. This matters for resource management because it means resource demand is highly phase-dependent.
 -->
 
 ---
@@ -198,8 +199,9 @@ Drilling into tool execution, Bash dominates everything — 98.1 percent of tool
 
 <div class="bg-orange-50/80 p-3 rounded-xl mt-3 text-lg">
 
-- **Two-layer structure**: ~185 MB baseline + tool-call bursts (98.5% of bursts during tool calls)
-- **What the tool *does* matters, not which tool**: pytest vs. git status → 13.7x peak memory difference
+- **Resource consumption exhibits a two-layer structure: a ~185 MB framework baseline plus tool-call bursts**
+- **What the tool *does* matters, not which tool** (e.g., Bash vs. Read): 13.7x peak memory difference
+- **98.5% of memory bursts occur during tool calls**
 
 </div>
 
@@ -229,9 +231,9 @@ Resource consumption has a two-layer structure. There's a stable baseline of abo
 
 <div class="bg-orange-50/80 p-3 rounded-xl mt-3 text-lg">
 
-- **Peak-to-average ratio up to 15.4x**; bursts last 1~2 seconds
-- **85~97% of tasks have retry loops** with progressive memory accumulation
-- **CPU-memory correlation varies** (−0.84 to +0.50) — cannot co-scale
+- **Resource bursts last 1~2 seconds with peak-to-average ratio up to 15.4x**
+- **85%~97% of tasks contain retry loops with progressive memory accumulation**
+- **CPU-memory correlation varies by task (−0.84 to +0.50); co-directional change cannot be assumed**
 
 </div>
 
