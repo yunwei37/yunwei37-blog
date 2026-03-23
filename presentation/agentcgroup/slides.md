@@ -233,30 +233,11 @@ Now the actual resource numbers. Left panel: container image sizes — median 3.
 # Resource Time Series
 <div class="text-2xl text-gray-600 -mt-1">Q: What drives resource bursts?</div>
 
-<img src="/images/rq1_resource_timeseries.png" class="h-52 mx-auto rounded-lg shadow" />
-
-<div class="bg-blue-50/80 p-3 rounded-xl mt-2 text-lg space-y-1">
-
-- Resource consumption is determined by what the tool *does* (e.g., pytest vs. git status), not which tool is invoked
-  - **Bash calls differ by 13.7× in peak memory**
-- **98.5% of memory bursts** occurring during **tool calls**
-
-</div>
-
-<!--
-This time series shows a Haiku agent executing a pre-commit task. Top: CPU with tool call markers. Bottom: memory. You clearly see the burst-silence pattern — memory spikes during tool calls and drops during LLM reasoning. 98.5 percent of memory bursts occur during tool calls. Critically, burst size depends on WHAT the tool does: a Bash call running pytest uses 13.7 times more peak memory than one running git status. Container-level controls can't distinguish a lightweight git command from a heavyweight test suite.
--->
-
----
-
-# Burst Dynamics & Variability
-
-<div class="text-2xl text-gray-600 -mt-1">Q: How fast and how variable are resource changes?</div>
-<div class="grid grid-cols-2 gap-4 mt-2">
+<div class="grid grid-cols-2 gap-4 mt-1">
 
 <div>
 
-<img src="/images/rq1_change_rate_distribution.png" class="h-44 rounded-lg shadow" />
+<img src="/images/rq1_resource_timeseries.png" class="h-44 rounded-lg shadow" />
 
 </div>
 
@@ -270,6 +251,26 @@ This time series shows a Haiku agent executing a pre-commit task. Top: CPU with 
 
 <div class="bg-blue-50/80 p-3 rounded-xl mt-2 text-lg space-y-1">
 
+- Resource consumption is determined by what the tool *does* (e.g., pytest vs. git status), not which tool is invoked
+  - **Bash calls differ by 13.7× in peak memory**
+- **98.5% of memory bursts** occurring during **tool calls**
+
+</div>
+
+<!--
+These two time series show agent resource behavior. Left: Haiku agent on pre-commit task. Right: GLM agent on github3.py. Both show the burst-silence pattern — memory spikes during tool calls and drops during LLM reasoning. 98.5 percent of memory bursts occur during tool calls. Burst size depends on WHAT the tool does: pytest uses 13.7 times more peak memory than git status. The GLM trace also shows retry loops with progressive memory accumulation.
+-->
+
+---
+
+# Burst Dynamics & Variability
+
+<div class="text-2xl text-gray-600 -mt-1">Q: How fast and how variable are resource changes?</div>
+
+<img src="/images/rq1_change_rate_distribution.png" class="h-52 mx-auto rounded-lg shadow" />
+
+<div class="bg-blue-50/80 p-3 rounded-xl mt-2 text-lg space-y-1">
+
 - Resource bursts last **1–2 seconds**
 - peak-to-average ratio up to **15.4×**
 - CPU-memory correlation varies by task **(−0.84 to +0.50); co-directional change cannot be assumed**
@@ -277,7 +278,7 @@ This time series shows a Haiku agent executing a pre-commit task. Top: CPU with 
 </div>
 
 <!--
-Resource bursts last only 1 to 2 seconds but hit a peak-to-average ratio of 15.4 times — several times higher than any traditional cloud workload. Left: CPU and memory change rate distributions with burst thresholds. Right: a GLM agent executing a github3.py task showing retry loops — the agent tests, fails, modifies, retests, causing progressive memory accumulation up to 502 MB unreleased. CPU and memory don't always move together — correlation ranges from negative 0.84 to positive 0.50, so you can't manage them jointly.
+Resource bursts last only 1 to 2 seconds but hit a peak-to-average ratio of 15.4 times — several times higher than any traditional cloud workload. This figure shows CPU and memory change rate distributions with burst thresholds marked. CPU and memory don't always move together — correlation ranges from negative 0.84 to positive 0.50, so you can't manage them jointly.
 -->
 
 ---
@@ -286,7 +287,7 @@ transition: fade-out
 
 # Characterization Summary
 
-<div class="text-xl space-y-3 mt-4">
+<div class="text-2xl space-y-4 mt-6">
 
 1. **OS execution dominates**: 56–74% of latency is tool execution + initialization, not LLM
 2. **Memory is the bottleneck**: CPU avg <13%, but memory peaks 2–4 GB
@@ -294,7 +295,7 @@ transition: fade-out
 
 </div>
 
-<div class="bg-teal-50/80 p-4 rounded-xl mt-4 text-xl">
+<div class="bg-teal-50/80 p-4 rounded-xl mt-6 text-2xl">
 
 - **System optimization** is important as LLMs gets faster!
 - resource management for AI agents must operate at **tool-call granularity**
@@ -384,7 +385,7 @@ AgentCgroup addresses each mismatch with a dedicated mechanism. First, fine-grai
 
 <div class="grid grid-cols-2 gap-6 mt-4 text-lg">
 
-<div>
+<div class="bg-orange-50/80 p-5 rounded-xl">
 
 ### Limitations
 
@@ -394,13 +395,13 @@ AgentCgroup addresses each mismatch with a dedicated mechanism. First, fine-grai
 
 </div>
 
-<div>
+<div class="bg-blue-50/80 p-5 rounded-xl">
 
 ### Future Work
 
 - A LLM inside OS: let it understand what the agent does and negotate with workload
 - Seperate the tool env and agent framework into different machine (like OpenClaw)
-- Eval on more workoad 
+- Eval on more workoad
 
 </div>
 
