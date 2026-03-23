@@ -78,6 +78,7 @@ AI coding agents — **Claude Code, Codex, Devin** — are being deployed at sca
 - LLM reasons → calls tools → observes → iterates
 - Agent **autonomously decides** what to run and when
 - Resource demands are **tool-call driven** and unpredictable
+- Runs in **sandboxed containers** on shared infrastructure
 
 </div>
 
@@ -170,7 +171,7 @@ This figure shows how task time breaks down. On the left, task execution duratio
 ---
 
 # What Tool Dominates?
-<div class="text-2xl text-gray-600 -mt-1">Q: What dominates tool execution time?</div>
+<div class="text-2xl text-gray-600 -mt-1">Q: Which tool types consume the most execution time?</div>
 
 <img src="/images/tool_bash_breakdown.png" class="h-60 mx-auto rounded-lg shadow" />
 
