@@ -90,7 +90,7 @@ AI coding agents such as **Claude Code** and **Codex** are being deployed at sca
 <div class="text-xl mt-2 space-y-1">
 
 - People host **50–100+ agents per machine**
-- Are traditional **containers** and **VMs** enough?
+- Are traditional **containers** and **VMs** enough? Do we need new tools?
 - Most studies focus on safety, but what about **resource usage** and **performance**?
 - How can we utilize resource patterns to achieve higher deployment density and better utilization?
 
@@ -304,21 +304,17 @@ Let me summarize what we've learned. Three key findings: first, OS execution dom
 
 <div class="text-2xl text-gray-600 -mt-1">Q: How different from existing cloud workloads?</div>
 
-<div class="mt-1 text-sm">
+<div class="bg-blue-50/80 p-5 rounded-xl mt-4 text-xl space-y-3">
 
-| Dimension | Serverless/FaaS | Microservices | Batch/HPC | **AI Coding Agent** |
-|-----------|----------------|--------------|-----------|-------------------|
-| Execution duration | 100ms–2s | Long-running | Minutes–hours | **5–11 minutes** |
-| Container image | ~50 MB | 100 MB–1 GB | 1–10 GB | **2.9–17.3 GB (med. 3.5)** |
-| Memory footprint and peak/avg | 128–512 MB, ~1.5× | Steady ~1 GB, 2–3× | Scales with data | **185 MB idle, peaks 2–4 GB, 15.4×** |
-| CPU utilization | Brief spike | 10–40% | 80–100% | **<13% avg, peaks >1.7×** |
-| Determinism | Deterministic | Mostly deterministic | Deterministic | **1.8× across runs of the same task** |
-| Termination cost | Just retry | Can migrate | Lose progress | **Lose progress** |
+- **Long-running, not short request**: tasks last **5–11 minutes**, not milliseconds to seconds
+- **Memory-bursty**: **185 MB idle** but **2–4 GB peaks**, with up to **15.4× peak/avg**
+- **Weak CPU pressure, strong memory pressure**: CPU averages **<13%**, so memory is the real bottleneck
+- **Non-deterministic and stateful**: the same task varies **1.8× across runs**, hard to restart/migrate
 
 </div>
 
 <!--
-This table compares agent workloads with traditional cloud workloads. The unpredictability findings are key: resource demands vary 20 times across tasks and diverge further across models, with 1.8 times execution time variance across runs of the same task. Every dimension is different. Container images are 7 to 70 times larger. Memory peak-to-average is 15.4 times versus 1.5 to 3 times. CPU averages under 13 percent but spikes above 175 percent. Agents are fundamentally non-deterministic — 1.8 times variance across runs of the same task, 20 times across different tasks, and further divergence across models. The termination cost is uniquely severe: killing an agent loses all LLM context. You can't just retry like serverless — every restart is a cold start with a different execution path.
+This slide summarizes why agent workloads do not fit existing cloud assumptions. First, they are long-running — 5 to 11 minutes, not milliseconds to seconds like serverless. Second, they are memory-bursty rather than steady: about 185 MB at idle, but peaking at 2 to 4 GB with a 15.4 times peak-to-average ratio. Third, CPU is not the main pressure point — average CPU stays under 13 percent, so memory is the real bottleneck. Finally, agents are both non-deterministic and stateful: the same task can vary 1.8 times across runs, and killing the agent loses context and progress. So unlike serverless workloads, they are hard to restart or migrate cheaply.
 -->
 
 ---
