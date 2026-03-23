@@ -63,7 +63,7 @@ transition: slide-up
 
 <div class="text-2xl mt-2">
 
-AI coding agents — **Claude Code, Codex, Devin** — are being deployed at scale, autonomously running compilers, test suites, and package managers in sandboxed containers.
+AI coding agents **Claude Code, Codex, Devin** are being deployed at scale, autonomously running compilers, test suites, and package managers in sandboxed containers.
 
 </div>
 
@@ -71,13 +71,13 @@ AI coding agents — **Claude Code, Codex, Devin** — are being deployed at sca
 
 <div class="bg-blue-50/80 p-5 rounded-xl">
 
-### A New Workload Class
+### New Workloads: AI Agents
 
 <div class="text-xl mt-2 space-y-1">
 
 - LLM reasons → calls tools → observes → iterates
 - Agent **autonomously decides** what to run and when
-- Resource demands are **tool-call driven** and unpredictable
+- Peform actions 24/7, tools may be heavy and spike
 
 </div>
 
@@ -85,13 +85,14 @@ AI coding agents — **Claude Code, Codex, Devin** — are being deployed at sca
 
 <div class="bg-orange-50/80 p-5 rounded-xl">
 
-### An Unstudied Problem
+### ...How much does it actually cost?
 
 <div class="text-xl mt-2 space-y-1">
 
-- Cloud providers host **50–100+ agents per machine**
-- OS-level resource behavior **completely unknown**
-- → **OOM kills, resource waste, poor density**
+- People Host **50–100+ agents per machine**
+- Does traditional **containers** and **VMs** enough?
+- Most study around Safety, what about **resource usage** and **performance**?
+- How can we utilize resources patterns to achieve higher deployment density and better usage?
 
 </div>
 
@@ -100,8 +101,6 @@ AI coding agents — **Claude Code, Codex, Devin** — are being deployed at sca
 </div>
 
 <div class="text-xl mt-3">
-
-→ Can we exploit resource patterns for **higher deployment density**?
 
 </div>
 
@@ -127,8 +126,7 @@ transition: slide-left
 | Cloud API | Claude Haiku 4.5 | 33 |
 
 **Hardware**: Intel Core Ultra 9 285K, 24 cores, 128 GB DDR5
-
-**Environment**: Podman containers, Linux 6.15, cgroup v2, 1s sampling
+**Environment**: Podman containers, Linux 6.15, 1s sampling
 
 </div>
 
@@ -136,13 +134,13 @@ transition: slide-left
 
 ### What We Measure
 
-- **Where does time go?** (execution model)
+- **Where does agent do?** (execution model)
 - **What does resource usage look like?** (resource dynamics)
 - **Can demands be predicted?** (cross-task variance)
 
 ### Container Images
 
-- **Agent container images average 3.5 GB, 7× larger than typical microservice images and 70× larger than serverless functions**
+- **Average 3.5 GB, 7× larger than microservice and 70× larger than FAAS**
 
 </div>
 
@@ -163,8 +161,11 @@ transition: slide-left
 
 <div class="bg-blue-50/80 p-3 rounded-xl mt-3 text-lg space-y-1">
 
-- Task duration: median **8.1 min**, mean 9.6 min (Haiku 5.8 min, GLM 10.8 min)
-- **LLM reasoning accounts for 26–44% of end-to-end task latency; the remainder is consumed by tool execution (~40% of active time) and initialization (29–45%)**
+- Task duration: mean 9.6 min
+- LLM reasoning: 26–44% of end-to-end task latency
+- the remainder: 
+  - tool execution (~40% of active time)
+  - setup env and initialization (29–45%)
 
 </div>
 
@@ -181,8 +182,8 @@ This figure shows how task time breaks down. On the left, task execution duratio
 
 <div class="bg-blue-50/80 p-3 rounded-xl mt-3 text-lg space-y-1">
 
-- **Bash dominates tool execution, spanning three orders of magnitude in duration** (98.1% of tool time in GLM)
-- Top categories: test execution **43.7%**, Python snippet 26.9%, package install 10.1%
+- Bash dominates tool execution
+- Top bash categories: test execution, Python snippet, package install
 
 </div>
 
@@ -193,13 +194,13 @@ Drilling into tool execution, Bash dominates everything — 98.1 percent of tool
 ---
 
 # Tool Execution: Temporal Pattern
+
 <div class="text-2xl text-gray-600 -mt-1">Q: When do different tools execute during a task?</div>
 
 <img src="/images/tool_time_pattern.png" class="h-60 mx-auto rounded-lg shadow" />
 
 <div class="bg-blue-50/80 p-3 rounded-xl mt-3 text-lg">
 
-- Tool time ratio: mean **37.8%**, median 36.4% of total task time
 - Tool calls follow an **"understand, modify, verify"** pattern: Read in first 30%, Bash peaks at 40–80%
 
 </div>
@@ -217,8 +218,8 @@ The temporal pattern shows agents follow an "understand, modify, verify" cycle. 
 
 <div class="bg-blue-50/80 p-3 rounded-xl mt-2 text-lg space-y-1">
 
-- **Memory, not CPU, is the primary bottleneck for multi-tenant concurrency density** (CPU avg <13%, memory peaks 2–4 GB)
-- **Resource consumption exhibits a two-layer structure: a ~185 MB framework baseline plus tool-call bursts**
+- **Memory, not CPU**, is the primary bottleneck (CPU avg <13%, memory peaks 2–4 GB)
+- Resource consumption: **a ~185 MB framework baseline plus tool-call bursts**
 
 </div>
 
@@ -235,8 +236,9 @@ Now the actual resource numbers. Left panel: container image sizes — median 3.
 
 <div class="bg-blue-50/80 p-3 rounded-xl mt-2 text-lg space-y-1">
 
-- **Within the burst layer, resource consumption is determined by what the tool *does* (e.g., pytest vs. git status), not which tool is invoked: Bash calls differ by 13.7× in peak memory**
-- **Resource usage follows a burst-silence pattern, with 98.5% of memory bursts occurring during tool calls**
+- Resource consumption is determined by what the tool *does* (e.g., pytest vs. git status), not which tool is invoked
+  - **Bash calls differ by 13.7× in peak memory**
+- **98.5% of memory bursts** occurring during **tool calls**
 
 </div>
 
@@ -247,8 +249,8 @@ This time series shows a Haiku agent executing a pre-commit task. Top: CPU with 
 ---
 
 # Burst Dynamics & Variability
-<div class="text-2xl text-gray-600 -mt-1">Q: How fast and how variable are resource changes?</div>
 
+<div class="text-2xl text-gray-600 -mt-1">Q: How fast and how variable are resource changes?</div>
 <div class="grid grid-cols-2 gap-4 mt-2">
 
 <div>
@@ -267,9 +269,9 @@ This time series shows a Haiku agent executing a pre-commit task. Top: CPU with 
 
 <div class="bg-blue-50/80 p-3 rounded-xl mt-2 text-lg space-y-1">
 
-- **Resource bursts last 1–2 seconds with peak-to-average ratio up to 15.4×, several times beyond traditional cloud workloads**
-- **85%–97% of tasks contain retry loops with progressive memory accumulation**
-- **CPU-memory correlation varies by task (−0.84 to +0.50); co-directional change cannot be assumed**
+- Resource bursts last **1–2 seconds**
+- peak-to-average ratio up to **15.4×**
+- CPU-memory correlation varies by task **(−0.84 to +0.50); co-directional change cannot be assumed**
 
 </div>
 
@@ -285,17 +287,17 @@ transition: fade-out
 
 <div class="text-xl space-y-3 mt-4">
 
-**Three key findings across 144 tasks:**
-
-1. **OS execution dominates**: 56–74% of latency is tool execution + initialization, not LLM reasoning
-2. **Memory is the bottleneck**: CPU avg <13%, but memory peaks 2–4 GB with 15.4× peak/avg ratio
-3. **Demands are unpredictable**: 20× across tasks, 1.8× across runs; CPU and memory are decoupled
+1. **OS execution dominates**: 56–74% of latency is tool execution + initialization, not LLM
+2. **Memory is the bottleneck**: CPU avg <13%, but memory peaks 2–4 GB
+3. **Demands are unpredictable**: 20× across tasks, 1.8× across runs; CPU/memory are decoupled
 
 </div>
 
 <div class="bg-teal-50/80 p-4 rounded-xl mt-4 text-xl">
 
-**Implication**: resource management for AI agents must operate at **tool-call granularity**, react within **1–2 seconds**, and tolerate **non-determinism** — requirements no existing cloud tool was designed for.
+**Implication**: 
+- **System optimization** is important as LLMs gets faster!
+- resource management for AI agents must operate at **tool-call granularity**
 
 </div>
 
@@ -306,6 +308,7 @@ Let me summarize what we've learned. Three key findings: first, OS execution dom
 ---
 
 # Agent vs. Cloud Workloads
+
 <div class="text-2xl text-gray-600 -mt-1">Q: How different from existing cloud workloads?</div>
 
 <div class="mt-1 text-sm">
@@ -314,11 +317,10 @@ Let me summarize what we've learned. Three key findings: first, OS execution dom
 |-----------|----------------|--------------|-----------|-------------------|
 | Execution duration | 100ms–2s | Long-running | Minutes–hours | **5–11 minutes** |
 | Container image | ~50 MB | 100 MB–1 GB | 1–10 GB | **2.9–17.3 GB (med. 3.5)** |
-| Memory footprint | 128–512 MB | Steady ~1 GB | Scales with data | **185 MB idle, peaks 2–4 GB** |
-| Memory peak/avg | ~1.5× | 2–3× | ~1× | **15.4×** |
-| CPU utilization | Brief spike | 10–40% | 80–100% | **<13% avg, peaks >175%** |
-| Determinism | Deterministic | Mostly deterministic | Deterministic | **1.8× variance same task** |
-| Termination cost | Just retry | Can migrate | Lose progress | **Lose all LLM context** |
+| Memory footprint and peak/avg | 128–512 MB, ~1.5× | Steady ~1 GB, 2–3× | Scales with data | **185 MB idle, peaks 2–4 GB, 15.4×** |
+| CPU utilization | Brief spike | 10–40% | 80–100% | **<13% avg, peaks >1.7x** |
+| Determinism | Deterministic | Mostly deterministic | Deterministic | **1.8× in same task** |
+| Termination cost | Just retry | Can migrate | Lose progress | **Lose progress** |
 
 </div>
 
@@ -344,9 +346,9 @@ This table compares agent workloads with traditional cloud workloads. The unpred
 
 <div class="text-lg mt-3 space-y-2">
 
-- **Granularity**: `memory.max` at peak wastes >90%; at average → OOM
-- **Responsiveness**: 3 GB/s bursts too fast for user-space tools (tens of ms reaction)
-- **Adaptability**: Kill = triple penalty (cold start + lost context + re-execution)
+- **Granularity**: Not fine-grained, `memory.max` at peak wastes >90%; at average → OOM
+- **Responsiveness**: Not fast enough, 3 GB/s bursts too fast for user-space tools (tens of ms reaction)
+- **Adaptability**: Not semantic understanding, don't know what agent is doing
 
 </div>
 
@@ -356,84 +358,24 @@ This is the key gap analysis. Existing resource management falls into three cate
 
 ---
 
-# System Design
+# Agentcgroup Design and Prelimary Eval
 
 <div class="text-lg space-y-1 mt-1">
 
-<div class="bg-blue-50/80 p-2 rounded-lg">
-
-**1. Fine-Grained Resource Domains** → *Granularity*: transparent **bash wrapper** intercepts each `bash -c`, creates **ephemeral child cgroup** per tool call, collects metrics, removes on exit. No framework modification needed.
-
-</div>
-
-<div class="bg-blue-50/80 p-2 rounded-lg">
-
-**2. In-Kernel eBPF Enforcement** → *Responsiveness*: **`sched_ext`** (CPU) + **`memcg_bpf_ops`** (memory) at kernel enforcement points. Graduated: **throttle** (`memory.high`) → **freeze** (`cgroup.freeze`) → **never kill**. Microsecond reaction.
+- Fine-Grained Resource Domains to Seperate the framework from tool call(Bash wrap);
+- Using eBPF for in-kernel enforce(Cgroup hooks);
+- Intent-Driven Resource Allocation: agent declares what they need via config
 
 </div>
 
-<div class="bg-blue-50/80 p-2 rounded-lg">
+Replay trace to evalution：
 
-**3. Intent-Driven Resource Coordination** → *Adaptability*: **upward** — agent declares need via `AGENT_RESOURCE_HINT` env var; **downward** — wrapper sends NL feedback via stderr when constrained → agent retries with lighter approach.
-
-</div>
-
-</div>
+- Allow multi-tenant agents less OOM
+- Programblely throttle → freeze
+- Overhead negligible
 
 <!--
 AgentCgroup addresses each mismatch with a dedicated mechanism. First, fine-grained resource domains: a transparent bash wrapper intercepts every tool call and places it in its own ephemeral child cgroup. No agent framework modification needed — just replace the bash path. This gives per-tool-call isolation and metrics. Second, in-kernel eBPF enforcement using sched_ext for CPU and memcg_bpf_ops for memory, both at kernel enforcement points with microsecond reaction — orders of magnitude faster than user-space. The key design principle: graduated enforcement — throttle first, freeze second, never kill. This avoids the triple penalty. Third, intent-driven resource coordination: agents declare expected needs upward via environment variables, and the system sends natural-language feedback downward via stderr. The agent can then retry with a lighter approach — for example, testing one file instead of the full suite. This closes the semantic–OS loop.
--->
-
----
-
-# Evaluation
-
-<div class="grid grid-cols-2 gap-4 mt-1">
-
-<div>
-
-<img src="/images/eval_results.png" class="rounded-lg shadow h-44" />
-
-<div class="text-lg mt-2">
-
-3 concurrent agents, replayed traces at 50×
-
-</div>
-
-</div>
-
-<div class="text-lg space-y-2">
-
-<div class="bg-green-50/80 p-2 rounded-lg">
-
-**OOM-free**: all agents survive under memory pressure — no kills needed
-
-</div>
-
-<div class="bg-green-50/80 p-2 rounded-lg">
-
-**Priority-aware**: high-priority agents get lower latency under contention
-
-</div>
-
-<div class="bg-blue-50/80 p-2 rounded-lg">
-
-**Practical**: wrapper overhead negligible, throttle precision validated
-
-</div>
-
-<div class="bg-orange-50/80 p-2 rounded-lg">
-
-**Takeaway**: graduated enforcement (throttle → freeze → never kill) works
-
-</div>
-
-</div>
-
-</div>
-
-<!--
-For evaluation, we replayed real memory traces at 50x acceleration in a multi-tenant setting: 3 concurrent agents on a 4-core machine — one high-priority dask workload, two low-priority github3.py tasks. Under tight memory — 1100 MB for 1233 MB demand — baseline OOM-kills one low-priority process at 66 percent survival. With BPF, all three survive at 100 percent, with 239 throttle triggers and only 2.8 percent overhead on high-priority. Under moderate memory, P95 allocation latency improves 29 percent — from 71 to 50 milliseconds. Wrapper adds less than 5 ms per call, throttling precision is within 2.3 percent error, and Haiku achieved 100 percent hint accuracy.
 -->
 
 ---
@@ -446,9 +388,9 @@ For evaluation, we replayed real memory traces at 50x acceleration in a multi-te
 
 ### Limitations
 
-- Requires patched kernel (`memcg_bpf_ops` under review)
-- Evaluated with 3 agents; production runs 50–100+
-- Bash-only interception
+- Requires patched kernel for prototype (`memcg_bpf_ops` under review)
+- Limited Evaluated
+- Agents and tools on one machine
 
 </div>
 
@@ -456,10 +398,9 @@ For evaluation, we replayed real memory traces at 50x acceleration in a multi-te
 
 ### Future Work
 
-- Larger-scale multi-tenant evaluation
-- Upstream `memcg_bpf_ops` into mainline Linux
-- Cross-agent scheduling (OpenClaw, Claude Code, Codex)
-- Predictive hints from tool-call history
+- A LLM inside OS: let it understand what the agent does and negotate with workload
+- Seperate the tool env and agent framework into different machine (like OpenClaw)
+- Eval on more workoad 
 
 </div>
 
