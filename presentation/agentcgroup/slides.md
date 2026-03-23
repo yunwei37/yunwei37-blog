@@ -233,19 +233,11 @@ Now the actual resource numbers. Left panel: container image sizes — median 3.
 # Resource Time Series
 <div class="text-2xl text-gray-600 -mt-1">Q: What drives resource bursts?</div>
 
-<div class="grid grid-cols-2 gap-4 mt-1">
-
-<div>
+<div class="grid grid-cols-2 gap-0 mt-1 items-center justify-items-center">
 
 <img src="/images/rq1_resource_timeseries.png" class="h-44 rounded-lg shadow" />
 
-</div>
-
-<div>
-
 <img src="/images/rq1_resource_timeseries_qwen.png" class="h-44 rounded-lg shadow" />
-
-</div>
 
 </div>
 
@@ -361,7 +353,13 @@ This is the key gap analysis. Existing resource management falls into three cate
 
 <div class="text-4xl font-light" style="color: var(--slidev-theme-primary)">Agentcgroup Design and Prelimary Eval</div>
 
-<div class="text-lg space-y-1 mt-1">
+<div class="grid grid-cols-2 gap-6 mt-4">
+
+<div class="bg-blue-50/80 p-4 rounded-xl">
+
+### Design
+
+<div class="text-lg mt-1 space-y-1">
 
 - Fine-Grained Resource Domains to Seperate the framework from tool call(Bash wrap);
 - Using eBPF for in-kernel enforce(Cgroup hooks);
@@ -369,11 +367,23 @@ This is the key gap analysis. Existing resource management falls into three cate
 
 </div>
 
-Replay trace to evalution：
+</div>
+
+<div class="bg-green-50/80 p-4 rounded-xl">
+
+### Replay trace to evalution：
+
+<div class="text-lg mt-1 space-y-1">
 
 - Allow multi-tenant agents less OOM
 - Programblely throttle → freeze
 - Overhead negligible
+
+</div>
+
+</div>
+
+</div>
 
 <!--
 AgentCgroup addresses each mismatch with a dedicated mechanism. First, fine-grained resource domains: a transparent bash wrapper intercepts every tool call and places it in its own ephemeral child cgroup. No agent framework modification needed — just replace the bash path. This gives per-tool-call isolation and metrics. Second, in-kernel eBPF enforcement using sched_ext for CPU and memcg_bpf_ops for memory, both at kernel enforcement points with microsecond reaction — orders of magnitude faster than user-space. The key design principle: graduated enforcement — throttle first, freeze second, never kill. This avoids the triple penalty. Third, intent-driven resource coordination: agents declare expected needs upward via environment variables, and the system sends natural-language feedback downward via stderr. The agent can then retry with a lighter approach — for example, testing one file instead of the full suite. This closes the semantic–OS loop.
