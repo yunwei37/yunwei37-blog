@@ -349,7 +349,7 @@ This is the key gap analysis. Existing resource management falls into three cate
 
 ---
 
-<div class="text-4xl font-light" style="color: var(--slidev-theme-primary)">AgentCgroup Design and Preliminary Eval</div>
+<div class="text-4xl font-light" style="color: var(--slidev-theme-primary)">AgenticCgroup Design and Preliminary Eval</div>
 
 <div class="grid grid-cols-2 gap-6 mt-4">
 
