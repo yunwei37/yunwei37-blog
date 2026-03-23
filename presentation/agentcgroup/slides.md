@@ -63,7 +63,7 @@ transition: slide-up
 
 <div class="text-2xl mt-2">
 
-AI coding agents **Claude Code, Codex, Devin** are being deployed at scale, autonomously running compilers, test suites, and package managers in sandboxed containers.
+AI coding agents **Claude Code, Codex** are being deployed at scale, autonomously running compilers, test suites, and package managers in sandboxed containers.
 
 </div>
 
@@ -105,7 +105,7 @@ AI coding agents **Claude Code, Codex, Devin** are being deployed at scale, auto
 </div>
 
 <!--
-AI coding agents like Claude Code, Codex, and Devin are being deployed at scale commercially. They autonomously run compilers, test suites, and package managers inside sandboxed containers. This is a fundamentally new workload class: the agent autonomously decides what to run and when, resource demands are driven by tool calls and inherently unpredictable, and killing an agent destroys all accumulated LLM context — you can't just retry like serverless. Cloud providers host 50 to 100 or more concurrent agents per machine, but nobody has systematically studied their OS-level resource behavior. The consequences are real: OOM kills, resource waste, and poor density.
+AI coding agents like Claude Code, Codex are being deployed at scale commercially. They autonomously run compilers, test suites, and package managers inside sandboxed containers. This is a fundamentally new workload class: the agent autonomously decides what to run and when, resource demands are driven by tool calls and inherently unpredictable, and killing an agent destroys all accumulated LLM context — you can't just retry like serverless. Cloud providers host 50 to 100 or more concurrent agents per machine, but nobody has systematically studied their OS-level resource behavior. The consequences are real: OOM kills, resource waste, and poor density.
 -->
 
 ---
@@ -126,6 +126,7 @@ transition: slide-left
 | Cloud API | Claude Haiku 4.5 | 33 |
 
 **Hardware**: Intel Core Ultra 9 285K, 24 cores, 128 GB DDR5
+
 **Environment**: Podman containers, Linux 6.15, 1s sampling
 
 </div>
@@ -157,13 +158,13 @@ transition: slide-left
 # Execution Model
 <div class="text-2xl text-gray-600 -mt-1">Q: Where does the time go?</div>
 
-<img src="/images/exec_overview.png" class="h-56 mx-auto rounded-lg shadow" />
+<img src="/images/exec_overview.png" class="h-52 mx-auto rounded-lg shadow" />
 
-<div class="bg-blue-50/80 p-3 rounded-xl mt-3 text-lg space-y-1">
+<div class="bg-blue-50/80 p-3 rounded-xl mt-2 text-lg space-y-1">
 
 - Task duration: mean 9.6 min
 - LLM reasoning: 26–44% of end-to-end task latency
-- the remainder: 
+- the remainder:
   - tool execution (~40% of active time)
   - setup env and initialization (29–45%)
 
@@ -295,7 +296,6 @@ transition: fade-out
 
 <div class="bg-teal-50/80 p-4 rounded-xl mt-4 text-xl">
 
-**Implication**: 
 - **System optimization** is important as LLMs gets faster!
 - resource management for AI agents must operate at **tool-call granularity**
 
@@ -358,7 +358,7 @@ This is the key gap analysis. Existing resource management falls into three cate
 
 ---
 
-# Agentcgroup Design and Prelimary Eval
+<div class="text-4xl font-light" style="color: var(--slidev-theme-primary)">Agentcgroup Design and Prelimary Eval</div>
 
 <div class="text-lg space-y-1 mt-1">
 
