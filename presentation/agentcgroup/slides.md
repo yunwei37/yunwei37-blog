@@ -61,40 +61,47 @@ transition: slide-up
 
 # Motivation
 
-<div class="mt-2">
+<div class="text-2xl mt-2">
 
-### A New Workload at Scale
-
-<div class="text-xl mt-1">
-
-AI coding agents (Claude Code, Codex, Devin) are being **deployed commercially at scale**. They work through **LLM ↔ tool-use loops**: reason → call tools (Bash, compilers, test suites) → observe → iterate — all inside sandboxed containers.
+AI coding agents — **Claude Code, Codex, Devin** — are being deployed at scale, autonomously running compilers, test suites, and package managers in sandboxed containers.
 
 </div>
 
-<div class="text-xl mt-2">
+<div class="grid grid-cols-2 gap-6 mt-4">
 
-Key difference from traditional workloads: the agent **autonomously decides** what to run, how many times, and whether to retry — making resource demands **inherently unpredictable**.
+<div class="bg-blue-50/80 p-5 rounded-xl">
+
+### A New Workload Class
+
+<div class="text-xl mt-2 space-y-1">
+
+- LLM reasons → calls tools → observes → iterates
+- Agent **autonomously decides** what to run and when
+- Resource demands are **tool-call driven** and unpredictable
 
 </div>
 
-### The Problem
-
-<div class="text-xl mt-1">
-
-Cloud providers host **50–100+ agents per machine**, but OS-level resource behavior is **completely unknown**.
-
 </div>
 
-<div class="bg-orange-50/80 p-3 rounded-xl mt-2 text-xl">
+<div class="bg-orange-50/80 p-5 rounded-xl">
 
-**Consequences**: OOM kills, >90% resource waste at peak limits, poor multi-tenant density → **need systematic characterization first**
+### An Unstudied Problem
+
+<div class="text-xl mt-2 space-y-1">
+
+- Cloud providers host **50–100+ agents per machine**
+- OS-level resource behavior **completely unknown**
+- No systematic characterization exists
+- → **OOM kills, resource waste, poor density**
+
+</div>
 
 </div>
 
 </div>
 
 <!--
-AI coding agents are being deployed at scale commercially — Claude Code, Codex, Devin — and they all work through a reason-then-act loop: the LLM thinks, calls tools like Bash, compilers, or test suites, observes the output, and iterates. The key difference from traditional workloads is that the agent autonomously decides what to run, how many times, and whether to retry. This makes resource demands inherently unpredictable. Cloud providers host 50 to 100 or more concurrent agents per machine, but nobody has systematically studied their OS-level resource behavior. The consequences are real: OOM kills, over 90 percent resource waste when you set limits at peak, and poor multi-tenant density. We need systematic characterization before we can design effective resource controls.
+AI coding agents like Claude Code, Codex, and Devin are being deployed at scale commercially. They autonomously run compilers, test suites, and package managers inside sandboxed containers. This is a fundamentally new workload class: the agent autonomously decides what to run and when, resource demands are driven by tool calls and inherently unpredictable, and killing an agent destroys all accumulated LLM context — you can't just retry like serverless. Cloud providers host 50 to 100 or more concurrent agents per machine, but nobody has systematically studied their OS-level resource behavior. The consequences are real: OOM kills, resource waste, and poor density.
 -->
 
 ---
@@ -124,9 +131,9 @@ transition: slide-left
 
 ### What We Measure
 
-- **Execution model**: granularity at which resources vary
-- **Temporal dynamics**: how fast controls must react
-- **Cross-task variance**: whether demands can be predicted
+- **Where does time go?** (execution model)
+- **What does resource usage look like?** (resource dynamics)
+- **Can demands be predicted?** (cross-task variance)
 
 ### Container Images
 
@@ -187,6 +194,7 @@ Drilling into tool execution, Bash dominates everything — 98.1 percent of tool
 
 <div class="bg-blue-50/80 p-3 rounded-xl mt-3 text-lg">
 
+- Tool time ratio: mean **37.8%**, median 36.4% of total task time
 - Tool calls follow an **"understand, modify, verify"** pattern: Read in first 30%, Bash peaks at 40–80%
 
 </div>
