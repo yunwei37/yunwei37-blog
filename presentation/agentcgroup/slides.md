@@ -78,7 +78,6 @@ AI coding agents — **Claude Code, Codex, Devin** — are being deployed at sca
 - LLM reasons → calls tools → observes → iterates
 - Agent **autonomously decides** what to run and when
 - Resource demands are **tool-call driven** and unpredictable
-- Runs in **sandboxed containers** on shared infrastructure
 
 </div>
 
@@ -92,12 +91,17 @@ AI coding agents — **Claude Code, Codex, Devin** — are being deployed at sca
 
 - Cloud providers host **50–100+ agents per machine**
 - OS-level resource behavior **completely unknown**
-- No systematic characterization exists
 - → **OOM kills, resource waste, poor density**
 
 </div>
 
 </div>
+
+</div>
+
+<div class="text-xl mt-3">
+
+→ Can we exploit resource patterns for **higher deployment density**?
 
 </div>
 
@@ -402,25 +406,25 @@ AgentCgroup addresses each mismatch with a dedicated mechanism. First, fine-grai
 
 <div class="bg-green-50/80 p-2 rounded-lg">
 
-**Tight memory** (1100 MB): OOM survival 66% → **100%**; HIGH overhead only +2.8%
+**OOM-free**: all agents survive under memory pressure — no kills needed
 
 </div>
 
 <div class="bg-green-50/80 p-2 rounded-lg">
 
-**Moderate memory** (1300 MB): P95 latency **29% better** (71ms → 50ms)
+**Priority-aware**: high-priority agents get lower latency under contention
 
 </div>
 
 <div class="bg-blue-50/80 p-2 rounded-lg">
 
-Wrapper < 5ms/call · Throttle precision 2.3% · Hint accuracy 100%
+**Practical**: wrapper overhead negligible, throttle precision validated
 
 </div>
 
 <div class="bg-orange-50/80 p-2 rounded-lg">
 
-**Throttle-don't-kill** eliminates OOM deaths with < 3% overhead
+**Takeaway**: graduated enforcement (throttle → freeze → never kill) works
 
 </div>
 
