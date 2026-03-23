@@ -39,7 +39,7 @@ Yusheng Zheng¹, Yiwei Yang¹, Wei Zhang², Andi Quinn¹
 
 # LLM Agents Are Taking Real-World Actions
 
-## ...and frameworks let you rewind when things go wrong
+## ...and frameworks let you rewind and retry
 
 <div class="grid grid-cols-2 gap-8 text-lg mt-4">
 
@@ -49,7 +49,7 @@ Yusheng Zheng¹, Yiwei Yang¹, Wei Zhang², Andi Quinn¹
 
 - Transfer money, provision cloud resources, delete data
 - Interact with external services via **tool calls** (MCP, function calling)
-- Frameworks: LangGraph, CrewAI, Google ADK, AutoGen, ...
+- Frameworks: Claude Code, Cursor, LangGraph, OpenClaw, ...
 
 </div>
 
@@ -58,8 +58,8 @@ Yusheng Zheng¹, Yiwei Yang¹, Wei Zhang², Andi Quinn¹
 ### Checkpoint-Restore
 
 - Frameworks save agent state at checkpoints
-- On error/crash, **rewind** to earlier state and retry
-- Convenient for error recovery and exploration
+- **Rewind** to earlier state and retry
+- For error recovery, exploration, human-in-the-loop correction
 - But: **cannot undo external side effects**
 
 </div>
@@ -88,7 +88,7 @@ A malicious payee (Bob) controls an MCP service, triggers a crash after payment,
 
 ## Root Cause: LLM Non-determinism Breaks Duplicate Detection
 
-<div class="grid grid-cols-2 gap-6 text-base mt-2">
+<div class="grid grid-cols-2 gap-6 text-lg mt-2">
 
 <div>
 
@@ -115,9 +115,6 @@ Even at temperature=0:
 - A restored agent generates **subtly different** requests
 - Servers see new reference IDs and **accept as new transactions**
 
-<div class="mt-3 p-2 bg-yellow-50 rounded border border-yellow-300">
-Each duplicate looks <strong>legitimate in isolation</strong> because it carries a distinct reference.
-</div>
 
 </div>
 
@@ -127,77 +124,46 @@ Each duplicate looks <strong>legitimate in isolation</strong> because it carries
 
 # This Is a Real Problem: 12 Frameworks Affected
 
-<div class="text-base mb-2">
-We surveyed 12 major agent frameworks. <strong>None</strong> enforces exactly-once semantics at the tool boundary.
+<div class="text-2xl font-bold mb-4">
+12 frameworks surveyed, 40+ issues reported, <span class="text-red-600">0</span> enforce exactly-once
 </div>
 
-<div class="flex gap-4 text-sm">
+<div class="text-lg">
 
-<div class="flex-1">
+| Framework | Key Finding |
+|-----------|-------------|
+| LangGraph | Tools re-fire on resume; maintainer says "architecturally difficult to fix" |
+| Google ADK | Docs explicitly warn rewind cannot undo external effects |
+| OpenClaw | Webhook replay (GHSA security advisory) |
+| Claude Code | Tool re-fires after user approval |
+| n8n | Retry causes repeated Stripe charges |
+| *...and 7 more* | *CrewAI, AutoGen, OpenAI Agents, Cursor, OpenHands, Vercel AI, LiveKit* |
 
-| Framework | # | Key Finding |
-|-----------|---|-------------|
-| LangGraph | 8+ | Tools re-fire on resume |
-| CrewAI | 5 | Crew runs twice; emails resent |
-| Google ADK | 4 | Rewind leaves stale state |
-| AutoGen | 3 | Entry node runs twice |
-| OpenAI Agents | 3 | Repeated function calls |
-| Claude Code | 5 | Tool re-fires after approval |
-
-</div>
-
-<div class="flex-1">
-
-| Framework | # | Key Finding |
-|-----------|---|-------------|
-| OpenClaw | 6 | Webhook replay (GHSA) |
-| Cursor | 4 | Undo reverts unrelated agents |
-| OpenHands | 1 | Repeated commits |
-| Vercel AI | 1 | Repeated tool calls |
-| LiveKit | 2 | Tools fire twice |
-| n8n | 3 | Retry causes repeated charges |
-
-</div>
-
-</div>
-
-<div class="mt-2 text-sm opacity-80">
-LangGraph maintainer confirmed the problem is "architecturally difficult to fix." Google ADK docs explicitly warn rewind cannot undo external effects.
 </div>
 
 ---
 
 # Threat Model
 
-## Two Attacker Models
+<div class="text-lg mt-2">
 
-<div class="grid grid-cols-2 gap-6 text-base mt-4">
+**Goal:** Duplicate irreversible effects or reuse consumed credentials after checkpoint-restore.
 
-<div class="border-2 border-red-400 rounded-lg p-4">
-
-<div class="font-semibold text-red-600 mb-2 flex items-center gap-2 text-lg"><mdi-lightning-bolt class="text-xl" /> Crash-Induced Restore</div>
-
-- **External attacker** (e.g., malicious MCP service)
-- Triggers crash **after** irreversible action
-- Framework auto-restores to checkpoint
-- Agent re-executes with **different parameters**
+**Knowledge:** Adversary knows the framework supports CR and the agent interacts with external services via tool calls.
 
 </div>
 
-<div class="border-2 border-purple-400 rounded-lg p-4">
+<div class="mt-4">
 
-<div class="font-semibold text-purple-600 mb-2 flex items-center gap-2 text-lg"><mdi-account-alert class="text-xl" /> Deliberate Rollback Abuse</div>
-
-- **Insider** with access to rewind feature
-- Intentionally restores to prior checkpoint
-- Redirects agent with **unauthorized actions**
-- Uses previously obtained credentials
-
-</div>
+| | <mdi-lightning-bolt class="text-red-500" /> **External attacker** | <mdi-account-alert class="text-purple-500" /> **Insider** |
+|---|---|---|
+| **Controls** | One service in agent's tool chain | Framework rewind feature |
+| **Can do** | Trigger crash after irreversible action | Redirect agent after restore |
+| **Cannot** | Modify agent or target service | Modify target service validation |
 
 </div>
 
-<div class="mt-3 text-base">
+<div class="mt-4 text-lg">
 <strong>Invariants:</strong> (1) No replay of irreversible effects across restores. (2) Consumed credentials must stay consumed.
 </div>
 
@@ -205,47 +171,24 @@ LangGraph maintainer confirmed the problem is "architecturally difficult to fix.
 
 # Attack 1: Action Replay
 
-<div class="grid grid-cols-2 gap-6 text-base mt-1">
+<div class="grid grid-cols-2 gap-5 text-lg mt-1">
 
 <div>
 
-### How It Works
-
-1. User asks agent to transfer $500 to Bob
-2. Agent generates UUID, transfer succeeds
-3. Agent calls Bob's MCP service for receipt
-4. Bob returns malformed response → **CRASH**
-5. Framework restores to checkpoint
-6. Agent re-generates **different** UUID
-7. Bank accepts as **new transaction**
-
-**Result:** Bob receives **$1000** instead of $500. Both transactions appear **legitimate** (distinct IDs).
+<img src="/fig-sequence.png" class="rounded shadow" style="max-height: 320px;" />
 
 </div>
 
 <div>
 
-### Key Properties
+### <mdi-lightning-bolt class="text-red-500" /> External attacker scenario
 
-<div class="border-l-4 border-red-500 pl-4 mb-3">
+- Controls one MCP service in the agent's tool chain
+- Triggers crash **after** irreversible action completes
+- Framework auto-restores to checkpoint
+- Agent re-executes with **different parameters**
 
-**Chainable:** Each crash-restore cycle produces another duplicate.
-
-</div>
-
-<div class="border-l-4 border-orange-500 pl-4 mb-3">
-
-**Hard to audit:** Every transaction has a unique reference ID.
-
-</div>
-
-<div class="border-l-4 border-yellow-600 pl-4 mb-3">
-
-**Weaponizable:** Attacker only needs one service in the tool chain.
-
-</div>
-
-<div class="p-2 bg-green-50 rounded border border-green-300">
+<div class="mt-3 p-2 bg-green-50 rounded border border-green-300">
 <strong>Experiment:</strong> 10/10 CR trials produced duplicates. 0/10 without checkpoint.
 </div>
 
@@ -257,7 +200,7 @@ LangGraph maintainer confirmed the problem is "architecturally difficult to fix.
 
 # Attack 2: Authority Resurrection
 
-<div class="grid grid-cols-2 gap-5 text-sm mt-1">
+<div class="grid grid-cols-2 gap-5 text-base mt-1">
 
 <div>
 
@@ -271,72 +214,21 @@ LangGraph maintainer confirmed the problem is "architecturally difficult to fix.
 6. Employee redirects: "delete Bob's data"
 7. Stateless validation → **succeeds**
 
-**Result:** Manager approved for **Alice**, but **Bob's** data also deleted. Discrepancy visible only by cross-referencing logs.
+**Result:** Manager approved for **Alice**, but **Bob's** data also deleted. Same pattern documented in HashiCorp Vault (Issue #28378).
 
 </div>
 
-<div>
+<div class="text-lg">
 
-### Why It Works
+### <mdi-account-alert class="text-purple-500" /> Insider scenario
 
-<div class="border-2 border-purple-300 rounded-lg p-3 mb-3">
+- Has access to framework's rewind feature
+- Intentionally restores to prior checkpoint
+- Redirects agent with **unauthorized actions**
+- Uses previously obtained credentials
 
-**Stateless validation** checks only the cryptographic signature, not a consumption record. Token is valid, request accepted.
-
-</div>
-
-<div class="border-2 border-green-300 rounded-lg p-3 mb-3">
-
-**Stateful validation** (server-side revocation list) correctly rejects the reused token.
-
-</div>
-
-### Real-World Precedent
-
-<div class="p-2 bg-blue-50 rounded border border-blue-300">
-<strong>HashiCorp Vault:</strong> Single-use tokens reappear after snapshot restore (Issue #28378).
-</div>
-
-</div>
-
-</div>
-
----
-
-# Experimental Validation
-
-<div class="text-lg mb-4">
-Testbed: Claude Code CLI + Qwen3-32B. Checkpoint-restore via session truncation. External services as MCP tool servers.
-</div>
-
-<div class="grid grid-cols-2 gap-8">
-
-<div class="border-2 border-red-400 rounded-lg p-5">
-
-<div class="font-semibold text-red-600 mb-3 text-xl">Action Replay Results</div>
-
-| Condition | Duplicates |
-|-----------|-----------|
-| With checkpoint-restore | **10/10** (100%) |
-| Without checkpoint (baseline) | **0/10** (0%) |
-
-<div class="mt-3 text-base">
-Confirms vulnerability is caused by restore mechanism, not general LLM behavior.
-</div>
-
-</div>
-
-<div class="border-2 border-purple-400 rounded-lg p-5">
-
-<div class="font-semibold text-purple-600 mb-3 text-xl">Authority Resurrection Results</div>
-
-| Validation | Token Reuse |
-|-----------|-----------|
-| Stateless (signature only) | **2/2** succeeded |
-| Stateful (revocation list) | **0/2** (blocked) |
-
-<div class="mt-3 text-base">
-Stateful server-side validation is the only defense. Agent-side protections are insufficient.
+<div class="mt-3 p-2 bg-green-50 rounded border border-green-300">
+<strong>Experiment:</strong> Stateless: 2/2 succeeded. Stateful: 0/2 (blocked).
 </div>
 
 </div>
@@ -347,15 +239,15 @@ Stateful server-side validation is the only defense. Agent-side protections are 
 
 # Mitigation: ACRFence
 
-<div class="grid grid-cols-2 gap-5 text-base mt-1">
+<div class="grid grid-cols-2 gap-5 text-lg mt-1">
 
 <div>
 
 ### How It Works
 
-ACRFence interposes at the **tool boundary** (MCP proxy):
+ACRFence interposes at the **tool boundary**:
 
-1. **Log** each irreversible tool call (context via **eBPF**)
+1. **Log** each irreversible tool call (context via **eBPF** or MCP proxy)
 2. On restore, **analyzer LLM** compares new call against log
 3. Distinguishes run-varying fields (UUIDs) from **intent** (amount, recipient)
 
@@ -395,6 +287,10 @@ ACRFence interposes at the **tool boundary** (MCP proxy):
 
 </div>
 
+<div class="text-sm opacity-60 mt-2">
+Powered by <a href="https://github.com/eunomia-bpf/agentsight">AgentSight</a> · github.com/eunomia-bpf/agentsight
+</div>
+
 </div>
 
 </div>
@@ -403,7 +299,7 @@ ACRFence interposes at the **tool boundary** (MCP proxy):
 
 # Related Work
 
-<div class="grid grid-cols-2 gap-5 text-base mt-1">
+<div class="grid grid-cols-2 gap-5 text-lg mt-1">
 
 <div>
 
@@ -429,7 +325,7 @@ ACRFence interposes at the **tool boundary** (MCP proxy):
 
 </div>
 
-<div class="mt-3 p-2 bg-red-50 rounded border border-red-300 text-base text-center">
+<div class="mt-3 p-2 bg-red-50 rounded border border-red-300 text-lg text-center">
 <strong>No prior work</strong> treats nondeterministic LLM re-synthesis after restore as a security attack surface.
 </div>
 
