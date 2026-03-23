@@ -89,10 +89,10 @@ AI coding agents such as **Claude Code** and **Codex** are being deployed at sca
 
 <div class="text-xl mt-2 space-y-1">
 
-- People host **50–100+ agents per machine**
+- People host **many concurrent agents** on shared infrastructure
 - Are traditional **containers** and **VMs** enough? Do we need new tools?
 - Most studies focus on safety, but what about **resource usage** and **performance**?
-- How can we utilize resource patterns to achieve higher deployment density and better utilization?
+- Can we use resource patterns to achieve higher deployment density and better utilization?
 
 </div>
 
@@ -118,16 +118,18 @@ transition: slide-left
 
 <div>
 
-**144 SE tasks** from the SWE-rebench benchmark, with Claude Code
+**144 SWE-rebench tasks**, using Claude Code with two LLM backends
 
-| Config | Model | Tasks |
-|--------|-------|-------|
-| Local GPU | GLM-4.7-Flash | 111 |
-| Cloud API | Claude Haiku 4.5 | 33 |
+| Backend | Execution | Tasks |
+|--------|-----------|-------|
+| GLM-4.7-Flash | Local GPU | 111 |
+| Claude Haiku 4.5 | Cloud API | 33 |
 
 **Hardware**: Intel Core Ultra 9 285K, 24 cores, 128 GB DDR5
 
 **Environment**: Podman containers, Linux 6.15, 1s sampling
+
+**Cross-model comparison**: 33 overlapping tasks
 
 </div>
 
@@ -306,10 +308,10 @@ Let me summarize what we've learned. Three key findings: first, OS execution dom
 
 <div class="bg-blue-50/80 p-5 rounded-xl mt-4 text-xl space-y-3">
 
-- **Long-running, not short request**: tasks last **5–11 minutes**, not milliseconds to seconds
-- **Memory-bursty**: **185 MB idle** but **2–4 GB peaks**, with up to **15.4× peak/avg**
-- **Weak CPU pressure, strong memory pressure**: CPU averages **<13%**, so memory is the real bottleneck
-- **Non-deterministic and stateful**: the same task varies **1.8× across runs**, hard to restart/migrate
+- **Longer-lived than serverless**: tasks last **5–11 minutes**, not **100 ms to 2 s**
+- **More memory-bursty**: up to **15.4× peak/avg**, vs. roughly **1.5×–3×** in prior cloud studies
+- **Less CPU-bound than batch, but memory-constrained**: CPU averages **<13%**, while memory peaks reach **2–4 GB**
+- **Non-deterministic and stateful**: the same task varies **1.8× across runs**, harder to restart/migrate
 
 </div>
 
@@ -337,7 +339,7 @@ This slide summarizes why agent workloads do not fit existing cloud assumptions.
 
 - **Granularity**: Too coarse-grained; `memory.max` at peak wastes >90%, while at average it causes OOM
 - **Responsiveness**: Too slow; 3 GB/s bursts are too fast for user-space tools (tens of ms reaction time)
-- **Adaptability**: Lacks semantic understanding and does not know what the agent is doing
+- **Adaptability**: History is unreliable, and generic policies cannot use agent intent
 
 </div>
 
@@ -369,7 +371,9 @@ This is the key gap analysis. Existing resource management falls into three cate
 
 ### Replay Trace for Evaluation
 
-<div class="text-lg mt-1 space-y-1">
+<img src="/images/eval_results.png" class="h-28 mx-auto mt-2 rounded-lg shadow" />
+
+<div class="text-base mt-2 space-y-1">
 
 - Fewer OOM events for multi-tenant agents
 - Programmably throttle → freeze
