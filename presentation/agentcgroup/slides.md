@@ -41,7 +41,7 @@ transition: fade-out
 
 # Roadmap
 
-<div class="bg-teal-50/80  p-6 rounded-xl mt-6">
+<div class="bg-teal-50/80 p-8 rounded-xl mt-6 text-3xl space-y-4">
 
 * Motivation & Key Findings
 * Resource Characterization (144 tasks)
@@ -72,7 +72,7 @@ AI coding agents execute in **multi-tenant cloud sandboxes** — but their OS-le
 <div class="text-lg space-y-1 mt-2">
 
 - **OS-level overhead = 56~74%** of end-to-end latency; LLM reasoning only 26~44%
-- **Memory, not CPU**, limits multi-tenant concurrency density
+- **Memory, not CPU**, is the primary bottleneck for multi-tenant concurrency density
 - Demands vary **20x across tasks**, **1.8x across runs** of the same task
 
 </div>
@@ -147,9 +147,9 @@ This figure shows how task time breaks down. The key insight is that LLM reasoni
 
 ---
 
-# Tool Execution: What Dominates?
+# What Tool Dominates?
 
-<img src="/images/tool_bash_breakdown.png" class="h-72 mx-auto rounded-lg shadow" />
+<img src="/images/tool_bash_breakdown.png" class="h-64 mx-auto rounded-lg shadow" />
 
 <div class="bg-orange-50/80 p-3 rounded-xl mt-3 text-lg">
 
@@ -185,13 +185,13 @@ The temporal pattern shows agents follow a "understand, modify, verify" cycle. R
 
 <div>
 
-<img src="/images/resource_profile.png" class="h-52 rounded-lg shadow" />
+<img src="/images/resource_profile.png" class="h-44 rounded-lg shadow" />
 
 </div>
 
 <div>
 
-<img src="/images/rq1_resource_timeseries.png" class="h-52 rounded-lg shadow" />
+<img src="/images/rq1_resource_timeseries.png" class="h-44 rounded-lg shadow" />
 
 </div>
 
@@ -200,8 +200,8 @@ The temporal pattern shows agents follow a "understand, modify, verify" cycle. R
 <div class="bg-orange-50/80 p-3 rounded-xl mt-3 text-lg">
 
 - **Resource consumption exhibits a two-layer structure: a ~185 MB framework baseline plus tool-call bursts**
-- **What the tool *does* matters, not which tool** (e.g., Bash vs. Read): 13.7x peak memory difference
-- **98.5% of memory bursts occur during tool calls**
+- **Within the burst layer, resource consumption is determined by what the tool *does***, not which tool is invoked: 13.7x peak memory difference
+- **Resource usage follows a burst-silence pattern, with 98.5% of memory bursts occurring during tool calls**
 
 </div>
 
