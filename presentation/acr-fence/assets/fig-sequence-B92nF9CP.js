@@ -1,0 +1,1 @@
+var e=`/presentation/acr-fence/fig-sequence.png`;export{e as t};

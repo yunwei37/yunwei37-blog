@@ -1,0 +1,224 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>云微的胡思乱想</title>
+      <link>https://www.yunwei37.com/blog</link>
+      <description>Personal Website of Yusheng Zheng | yunwei37</description>
+      <language>en-us</language>
+      <managingEditor>yunwei356@gmail.com (Yusheng Zheng)</managingEditor>
+      <webMaster>yunwei356@gmail.com (Yusheng Zheng)</webMaster>
+      <lastBuildDate>Wed, 14 Jun 2023 02:41:06 GMT</lastBuildDate>
+      <atom:link href="https://www.yunwei37.com/tags/notes/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.yunwei37.com/blog/L7 Tracing with eBPF</guid>
+    <title>L7 Tracing with eBPF: HTTP and Beyond via Socket Filters and Syscall Tracing</title>
+    <link>https://www.yunwei37.com/blog/L7 Tracing with eBPF</link>
+    undefined
+    <pubDate>Wed, 14 Jun 2023 02:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category><category>gpt</category><category>ai</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/Runtime Software Patching Taxonomy, Survey and Fut 83931ce14d914643bcc941e6605b2cf8</guid>
+    <title>综述阅读：运行时软件补丁（热更新/动态更新？） 分类、调查和未来方向</title>
+    <link>https://www.yunwei37.com/blog/Runtime Software Patching Taxonomy, Survey and Fut 83931ce14d914643bcc941e6605b2cf8</link>
+    undefined
+    <pubDate>Thu, 23 Mar 2023 02:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/Specification and verification in the field Applyi a021dd1ab42c40f9a1edfc062f121c50</guid>
+    <title>论文阅读：将形式化方法应用于 Linux 内核中的 BPF 即时编译器</title>
+    <link>https://www.yunwei37.com/blog/Specification and verification in the field Applyi a021dd1ab42c40f9a1edfc062f121c50</link>
+    undefined
+    <pubDate>Thu, 23 Mar 2023 02:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category><category>ai</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/Userspace-Kernel-Interaction</guid>
+    <title>review: Advances in Userspace-Kernel Interaction in Operating Systems </title>
+    <link>https://www.yunwei37.com/blog/Userspace-Kernel-Interaction</link>
+    undefined
+    <pubDate>Tue, 27 Aug 2024 16:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/cet</guid>
+    <title>使用 Intel Control-flow Enforcement Technology (CET) 加强 C 程序的安全性</title>
+    <link>https://www.yunwei37.com/blog/cet</link>
+    undefined
+    <pubDate>Mon, 27 Nov 2023 16:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/copilot</guid>
+    <title>GitHub Copilot 背后的 AI 编码技术：如何让 GPT 更好地理解你的代码</title>
+    <link>https://www.yunwei37.com/blog/copilot</link>
+    undefined
+    <pubDate>Sat, 27 May 2023 16:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category><category>gpt</category><category>ai</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/couring</guid>
+    <title>c++20 协程与 io_uring 初探：一个最简单的 echo server</title>
+    <link>https://www.yunwei37.com/blog/couring</link>
+    undefined
+    <pubDate>Tue, 21 Dec 2021 06:37:45 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/csa1</guid>
+    <title>Clang static analyzer Checker 初探</title>
+    <link>https://www.yunwei37.com/blog/csa1</link>
+    undefined
+    <pubDate>Sun, 27 Mar 2022 16:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/ebpf-app-store</guid>
+    <title>eBPF 软件应用市场设计方案</title>
+    <link>https://www.yunwei37.com/blog/ebpf-app-store</link>
+    undefined
+    <pubDate>Thu, 27 Jul 2023 16:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/gpt-best-practice</guid>
+    <title>OpenAI 新发布GPT 最佳实践：落地大模型应用的策略和战术</title>
+    <link>https://www.yunwei37.com/blog/gpt-best-practice</link>
+    undefined
+    <pubDate>Wed, 14 Jun 2023 02:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category><category>gpt</category><category>ai</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/guidance</guid>
+    <title>guidance: 自然语言的编程语言</title>
+    <link>https://www.yunwei37.com/blog/guidance</link>
+    undefined
+    <pubDate>Wed, 14 Jun 2023 02:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category><category>gpt</category><category>ai</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/immutablelist</guid>
+    <title>llvm 源码中的数据结构：ImmutableList</title>
+    <link>https://www.yunwei37.com/blog/immutablelist</link>
+    undefined
+    <pubDate>Mon, 14 Mar 2022 02:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/immutablemap</guid>
+    <title>用 rust 实现可持久化 AVL 树：ImmutableMap</title>
+    <link>https://www.yunwei37.com/blog/immutablemap</link>
+    undefined
+    <pubDate>Fri, 18 Mar 2022 02:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/inference-locally</guid>
+    <title>Local inference llama3 with llama.cpp and CPU</title>
+    <link>https://www.yunwei37.com/blog/inference-locally</link>
+    undefined
+    <pubDate>Thu, 18 Jul 2024 02:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/inline-hook-demo</guid>
+    <title>Implementing an Inline Hook in C in 5 minutes</title>
+    <link>https://www.yunwei37.com/blog/inline-hook-demo</link>
+    undefined
+    <pubDate>Wed, 14 Feb 2024 02:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/natual-language-program</guid>
+    <title>自然语言编程: 从 AutoGPT 往前迈的一小步</title>
+    <link>https://www.yunwei37.com/blog/natual-language-program</link>
+    undefined
+    <pubDate>Wed, 14 Jun 2023 02:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category><category>gpt</category><category>ai</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/plugin</guid>
+    <title>AI 插件：未来的浏览器、前端与交互</title>
+    <link>https://www.yunwei37.com/blog/plugin</link>
+    undefined
+    <pubDate>Sun, 14 May 2023 02:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category><category>gpt</category><category>ai</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/reading-Transactions-eBPF</guid>
+    <title>Paper reading: Fast In-Kernel Distributed Transactions with eBPF</title>
+    <link>https://www.yunwei37.com/blog/reading-Transactions-eBPF</link>
+    undefined
+    <pubDate>Thu, 01 Aug 2024 16:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/setjmp</guid>
+    <title>Using `setjmp`, `longjmp`, and Signals to Catch Page Faults and Measure Performance</title>
+    <link>https://www.yunwei37.com/blog/setjmp</link>
+    undefined
+    <pubDate>Thu, 30 May 2024 16:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>Notes</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/wasm-component-model</guid>
+    <title>WebAssembly 组件模型详解</title>
+    <link>https://www.yunwei37.com/blog/wasm-component-model</link>
+    undefined
+    <pubDate>Sun, 14 May 2023 16:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category><category>WebAssembly</category>
+  </item>
+
+  <item>
+    <guid>https://www.yunwei37.com/blog/wasm-serverless-edge-gis</guid>
+    <title>wasm serverless edge gis</title>
+    <link>https://www.yunwei37.com/blog/wasm-serverless-edge-gis</link>
+    undefined
+    <pubDate>Sat, 14 Jan 2023 16:41:06 GMT</pubDate>
+    <author>yunwei356@gmail.com (Yusheng Zheng)</author>
+    <category>notes</category><category>WebAssembly</category>
+  </item>
+
+    </channel>
+  </rss>
